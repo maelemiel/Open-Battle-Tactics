@@ -1,0 +1,3342 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_51 (Oracle Corporation)
+
+Name: assets/bin/Data/efe20af672ef9462080ad6965baefa8d
+SHA1-Digest: wityVYjzXWV99lI2YaVjWluPGmI=
+
+Name: res/drawable/com_facebook_picker_list_longpressed.9.png
+SHA1-Digest: /uU9+qqC9MjC0cwR3L+DskCy9xM=
+
+Name: assets/bin/Data/c2d6071872c794c8cb4528a3451ccc1a
+SHA1-Digest: zI/SiA59P8cdqbW5VZz+E3ijcMg=
+
+Name: assets/bin/Data/sharedassets17.assets
+SHA1-Digest: H+lS5d29YbbpyKhIdasX/oy+ry8=
+
+Name: assets/bin/Data/sharedassets18.assets
+SHA1-Digest: rAoEhA/NRkU9RefqKHQW0ojWCsc=
+
+Name: res/drawable/kamcord_mail.png
+SHA1-Digest: a/m8ezhOxnPHppW0k8xj39GfGW8=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png
+SHA1-Digest: UUeGKfmWgJl/rutroPXP57LpkoU=
+
+Name: assets/bin/Data/80e23d47c5f6c46248b78a16d4c168df
+SHA1-Digest: Ko3dZmVFKcsYS3ddsGWRbh7/dj0=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png
+SHA1-Digest: dAIabshO7sf8DA0quqZILhJ5V4A=
+
+Name: assets/bin/Data/fe4bd846a710f44ab90b31fb28a3ba80
+SHA1-Digest: bZ9Wzjd79q2w9XPafUK1o9BYWWA=
+
+Name: assets/bin/Data/b46bb565467e946bf8e16904f07b3ee8
+SHA1-Digest: JETjwVhUptWGdyspGNMISFmN1CM=
+
+Name: assets/bin/Data/sharedassets21.assets
+SHA1-Digest: yyM5CILvhgnzjXPE4hifUSJarK0=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png
+SHA1-Digest: bENWi8ZugwD88Ech+3ZELNcC/Kw=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png
+SHA1-Digest: UUeGKfmWgJl/rutroPXP57LpkoU=
+
+Name: assets/bin/Data/sharedassets3.assets.split0
+SHA1-Digest: Rg1vMBiAEn9DgoOf0cjKVB+FFE4=
+
+Name: assets/bin/Data/4de5b907d6a3d4de28e9135038ecd5d7
+SHA1-Digest: mtyjmsDGM4XCiqAbFSlDloQwtBM=
+
+Name: assets/bin/Data/sharedassets3.assets.split1
+SHA1-Digest: NBXvLjnSCy7nmR2pHlCDFDSQQGo=
+
+Name: assets/bin/Data/sharedassets3.assets.split2
+SHA1-Digest: CWWcwzHqwi2YTk1YYaY+SWhtj+c=
+
+Name: res/drawable-xhdpi/graybutton.9.png
+SHA1-Digest: RtuEIX/3uIig1d5OJ8GDM30pW+k=
+
+Name: assets/bin/Data/1f582a82f926b47268168a27a5930eef
+SHA1-Digest: 8T0BFUs3AffCI0lOEd2iyhihyn8=
+
+Name: assets/bin/Data/2532969c92eb8489aab52ef620f16488
+SHA1-Digest: 2lBe7xl2vTj3xPVndX/wThD21T0=
+
+Name: assets/bin/Data/491cd0c6f84eb4bc4b4ecc27557fecff
+SHA1-Digest: anQ8X61ZZvxF3iVQYfOiwfewG7c=
+
+Name: assets/bin/Data/8638b22569b404a6fb314cd39e06bb2e
+SHA1-Digest: gNJIuObPL0JQ+W6mxmy0dnu/4pI=
+
+Name: assets/bin/Data/05bbc8d52b80945bca8913d633d3705a
+SHA1-Digest: cBeJn/6DxoYw6qxRKZxp5EmvXzI=
+
+Name: assets/bin/Data/35c9e6d2bda0e4e80adc76340ad951eb
+SHA1-Digest: IsHpaOn1Zr4Sv2VWdqXOEufcelo=
+
+Name: assets/bin/Data/e0c1d416688c24f1eaf32cf3a57eb323
+SHA1-Digest: BqrsPpHRf1xGSCz+GiGsoOIkwbc=
+
+Name: res/drawable/kamcord_rounded_bottom_left_selector.xml
+SHA1-Digest: 5h2m8g2oUW+K+B1DMoBYWVBBf3E=
+
+Name: assets/bin/Data/ce9f0f8d1e36d478d9f57cd8ae9bec93
+SHA1-Digest: jQhWeTEQrz1+/gTJf/hRkaj/5uc=
+
+Name: res/drawable-xxhdpi/ic_plusone_small_off_client.png
+SHA1-Digest: hMf/FoHQ1ncswR3Ha2oj+rtb3FA=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.
+ 9.png
+SHA1-Digest: AhN8QSMQGVEiuDPw+ArDAL+kX1o=
+
+Name: res/drawable-hdpi/com_facebook_button_blue_pressed.9.png
+SHA1-Digest: s11gcQnxG2CBh+07EhR73hIWugc=
+
+Name: assets/bin/Data/sharedassets3.assets.split4
+SHA1-Digest: N35qU1LTiO+BWyv5ytWar3fslJI=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png
+SHA1-Digest: ox+dpz35Obt4x0bfiE1AVRokddo=
+
+Name: assets/bin/Data/sharedassets3.assets.split3
+SHA1-Digest: aF3pSOvnQMkCXrECQuNPwvHUwsg=
+
+Name: assets/bin/Data/sharedassets30.assets
+SHA1-Digest: cToAaBbitgeHBjMSJ99ZHVvol/w=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png
+SHA1-Digest: 5yTFZLZtCPpeiVFtQvpG2K4xDdE=
+
+Name: assets/bin/Data/4ab418f67c20a4984989282eb1ea2e7e
+SHA1-Digest: F16feZccanHhmhBZNFgwy/+iMe4=
+
+Name: assets/bin/Data/ac6a7765cbf014f71a602b8890658cdd
+SHA1-Digest: GzCuE7gs/NW2clFLPaezUW6H9a8=
+
+Name: assets/bin/Data/28852434f74a94bf6a9c4313c6be65d8
+SHA1-Digest: 28c4fwCc3VyezD3/O1/Op7LyO3Q=
+
+Name: assets/bin/Data/5951ccabb50ee4a83896303dba4de151
+SHA1-Digest: 7T7ycZtZ78rbx06vC7AOCJzBnv8=
+
+Name: assets/bin/Data/0a2f732093b594b6cb38a059876652a3
+SHA1-Digest: At+M4veGsnF2a/lpJrX4Jf+s3hM=
+
+Name: assets/bin/Data/981eaf21b4ac14e5f9133d77aa11abb3
+SHA1-Digest: R2dfhmQLBce1aaWaWb6trBXH8F4=
+
+Name: assets/vg_cta_disabled.png
+SHA1-Digest: v8Iim7wfMOn1YX3/+LR4zkG/hUY=
+
+Name: res/drawable-hdpi/powered_by_google_light.png
+SHA1-Digest: 1p8HkYSQc6asTjUOCQeAiFfr8oU=
+
+Name: res/drawable/com_facebook_picker_list_pressed.9.png
+SHA1-Digest: ughAWBlhb5fxIgHli8NgEiGGjGY=
+
+Name: res/drawable/com_facebook_button_check_on.png
+SHA1-Digest: ObcSDxnphDDTROHTniwThtnJVWk=
+
+Name: res/drawable/kamcord_share_gradient.xml
+SHA1-Digest: /J/G7AkqPtP9hM+xSLMzjCa5vAE=
+
+Name: assets/bin/Data/Managed/System.Xml.dll
+SHA1-Digest: lfgnkuP70D8K+0NZIPseJ+tjpzg=
+
+Name: res/drawable-xxhdpi/ic_plusone_medium_off_client.png
+SHA1-Digest: /7bw14nZmssFy3hqySiiFfoRLtE=
+
+Name: assets/bin/Data/c8414e1a2437544e6901652dd29189b1
+SHA1-Digest: zUKZBd7Vqj2V+I/IZG4TzdRGMeI=
+
+Name: assets/bin/Data/de2f43de886b24170af87b76ac7114c3
+SHA1-Digest: kJF+ahWT82X0kQlR2Y8rFb0qWsw=
+
+Name: res/drawable-xxhdpi/ic_plusone_standard_off_client.png
+SHA1-Digest: meTbFvJL0s3oA4sDj2GzpobVb3Q=
+
+Name: res/layout/z_kamcord_activity_login.xml
+SHA1-Digest: d3eD9YN/s6DbDCY52/IZ04sCoTY=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png
+SHA1-Digest: oslddavjaxT0f8U4Mn8PG9Z+jNM=
+
+Name: res/drawable/com_facebook_button_like.xml
+SHA1-Digest: RnR8Qqh6vneuklDZagSeQVL6dgY=
+
+Name: assets/bin/Data/155c47f0029de48d48d7017d9fe79632
+SHA1-Digest: xRrYUynM4eZewGe2QA+OkeXCRGU=
+
+Name: assets/bin/Data/5944fd98e05084f07bd3a020e0369add
+SHA1-Digest: O+RPj3lCHB+uLpxebm3QcQ3ljNo=
+
+Name: assets/bin/Data/f2dac1f9551df4a3783a35a74a515feb
+SHA1-Digest: rqAn2Drme25hv31NNS7QzaVjUmE=
+
+Name: res/layout/com_facebook_usersettingsfragment.xml
+SHA1-Digest: +azgz70Xh7RiIxRh2EAD1VYhk7U=
+
+Name: assets/bin/Data/9ff97ed0c0a474b31832abf3eb00cc2b
+SHA1-Digest: UtizfF+t6hvx0/CmQBRoHS5C0W4=
+
+Name: assets/bin/Data/10669ef1b06234be6ad593cea7acc8a2
+SHA1-Digest: kkRomOVbUmAZQyTEChSC7OQSTss=
+
+Name: res/drawable-hdpi/kamcord_youtube.png
+SHA1-Digest: Y89Fizxggup8s6UaqiPSXKjyJf0=
+
+Name: assets/bin/Data/cb849f6c7cc2f43e3997286c23df66c5
+SHA1-Digest: hpChYs95UT56UCS2olV50KXcxBY=
+
+Name: assets/bin/Data/308f4a09d76a3478f927db8ca6437fe3
+SHA1-Digest: /3U7c9ob2VYT1eHx/kJsJLAwa+U=
+
+Name: lib/armeabi-v7a/libkamcordcore.so
+SHA1-Digest: RR5BaEIIpIllQQ2U5HHnvitGwC0=
+
+Name: assets/bin/Data/8dc7467a8635d461a82157b96123c8d4
+SHA1-Digest: YrcygwIOJCiXmCckm/nG/L2mZUQ=
+
+Name: res/drawable-xhdpi/com_facebook_button_grey_pressed.9.png
+SHA1-Digest: CKFnDef2GfRTaRgjuT6+/5YzUk4=
+
+Name: assets/bin/Data/805a267c01fe949f4af0d9e351ad07aa
+SHA1-Digest: 828Y7kH4ODbVk9YAGNRJNiUPwJQ=
+
+Name: assets/bin/Data/c4ac023c28d2640258b0c38f562a4cb0
+SHA1-Digest: dsNn3iZxNByNS5zjzM3ZRK5EwnI=
+
+Name: res/drawable-xhdpi/kamcord_profile_icon_inactive.png
+SHA1-Digest: zaV3+09gGNCuuaIB8w3vYZxu70Y=
+
+Name: assets/bin/Data/19ba0718f7c2041c6af40dd4b63bd257
+SHA1-Digest: dvq3CTtPTBCf7Kh3ie+gGeBRtPQ=
+
+Name: lib/armeabi-v7a/libmain.so
+SHA1-Digest: oXmSPGkoYMpReL+nj4zkML2ZMFU=
+
+Name: res/layout/com_facebook_picker_checkbox.xml
+SHA1-Digest: cWfoEfrFAUy4oYiRPeCrfEieNWw=
+
+Name: res/drawable-xxhdpi/com_facebook_button_like_icon.png
+SHA1-Digest: 0At6470qC58hwxjM8DdAf6DFTUM=
+
+Name: assets/bin/Data/ca8cbcb423982435592b48da851fe1c6
+SHA1-Digest: djmETdZ5VB5b3bLrlSm5f2KUW6U=
+
+Name: assets/bin/Data/f93c19dcdbb964b4f9341cfd8c451283
+SHA1-Digest: g5AhVzvsX9EyKu59WxaF9uuLbuI=
+
+Name: assets/bin/Data/6469cf25c8b9049dabb8e640d0e1c176
+SHA1-Digest: xgKb3/qRFZjal7Pj5dHxJ4/7k+k=
+
+Name: assets/bin/Data/12358087225c54cf0beac5aa847ef9f2
+SHA1-Digest: llpS/pjw7u0PWECXXL+ykmsYCDU=
+
+Name: assets/bin/Data/b60477b4ad5ac44d3890b11458510c45
+SHA1-Digest: MYDnzMwFmf7KPp0t3mVgG2V2u0w=
+
+Name: assets/bin/Data/6f5a90e6cf6264c2bbb36fe1d4f03049
+SHA1-Digest: Zvf+wodBB6K2nzd55bCttROcAsM=
+
+Name: assets/bin/Data/6c5852ee4b9a34bae965f77cc7bb24bc
+SHA1-Digest: rR/PgaI5Wku9pS6fuZWVwc0AvBk=
+
+Name: assets/bin/Data/675fdb5617ed84b2bbe73b1e66f46202
+SHA1-Digest: DJ8efH9MOEDUxxje2NCM9+b4tB0=
+
+Name: assets/bin/Data/d4a45fb6a5df7405cb6f840a2f0b2efa
+SHA1-Digest: KTFu2dqGBgLjTDW9ERH/CRf2hEI=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9
+ .png
+SHA1-Digest: AhN8QSMQGVEiuDPw+ArDAL+kX1o=
+
+Name: res/layout/com_facebook_placepickerfragment.xml
+SHA1-Digest: L4ZZHmH/NATLRUz+xXndFrLoMVE=
+
+Name: assets/bin/Data/Resources/unity_builtin_extra
+SHA1-Digest: S+u+uCZV/PkhFZvHXiHgwLYpN9c=
+
+Name: assets/bin/Data/1ce6134df43fa46debaa67b57f36b396
+SHA1-Digest: cKt4n1ivSEw+h9hbKka+kPwipqQ=
+
+Name: assets/bin/Data/773500d347d374adebb668ebddcae103
+SHA1-Digest: HmQVvNFBDzZPcsesEs9JYqmBa7Q=
+
+Name: assets/bin/Data/5b194f68ee4b34c969d6fbfa48f4f10d
+SHA1-Digest: 4vJGKo8Npk5t7Ow8OsYUAGHos7Q=
+
+Name: res/layout/z_kamcord_fragment_change_creds.xml
+SHA1-Digest: lqx9jmjR5W+4TeSwVu21tYbi/JA=
+
+Name: assets/bin/Data/d907704b94ab84cc098bf0506fe467e4
+SHA1-Digest: ozo05zaQNLD69PfTzNyyzSTMKC0=
+
+Name: assets/bin/Data/f56c640c372ab4085bbd995ff0239f97
+SHA1-Digest: 2wolXh7Gj2DyciUJsVl//8yCkwI=
+
+Name: res/drawable/com_facebook_button_blue_normal.9.png
+SHA1-Digest: plzlqLb7elFLaBIIHG8jVWFUnfU=
+
+Name: assets/bin/Data/ddcdc469d18114243ab2b8cbeef040c0
+SHA1-Digest: KDVfCa1a0+9GVW/4yELKEW0+ho8=
+
+Name: res/drawable/common_signin_btn_icon_dark.xml
+SHA1-Digest: 6asEYzX6StB/HDuO7Jsr9+hJe8s=
+
+Name: assets/bin/Data/017a2b1cbf10749c687046ca2f71f638
+SHA1-Digest: Sk6jot3VxfY8OXBvEBxhZPID420=
+
+Name: res/drawable-mdpi/kamcord_youtube.png
+SHA1-Digest: MP06o2L3ZZGPiJgy+42ETMbSuvk=
+
+Name: assets/bin/Data/6382e977ba1b7463b8df881ae7e5f69d
+SHA1-Digest: ktPA0Yfbqbjt+vvziSNDA5k+ZMY=
+
+Name: assets/bin/Data/Managed/Mono.Data.Sqlite.dll
+SHA1-Digest: wz1j+F+IbQhls/TETU0x/uIGXyA=
+
+Name: assets/bin/Data/560756f918a79450d89f3a90f038c9e2
+SHA1-Digest: MmK03bTy4+ryM6vXcvTbBcT1KaE=
+
+Name: assets/bin/Data/30cbbad9ec1d548358b80d40011f84f8
+SHA1-Digest: 8CnkFpqQl0dBw2O1vMwaocZVOPE=
+
+Name: assets/bin/Data/Managed/IFacebook.dll
+SHA1-Digest: Q7bLE70KQ0lTz/kmLi1jIDIxE1Q=
+
+Name: assets/bin/Data/sharedassets7.assets.split10
+SHA1-Digest: 0B9u7vaviSl8atJnMJx3mhKGtAM=
+
+Name: assets/bin/Data/3b52158bbc3fc46ecbe8decbde5ac819
+SHA1-Digest: q7y8zvB0+SCl6uXjUa1QxZbS44Y=
+
+Name: assets/bin/Data/sharedassets7.assets.split11
+SHA1-Digest: gjfdNAs+K6SoKeyyqc6bhyChowI=
+
+Name: res/drawable-xhdpi/com_facebook_tooltip_black_background.9.png
+SHA1-Digest: zlRSiwmXotImS1tHry75E3Nl2D4=
+
+Name: res/drawable-hdpi/kamcord_share_icon_inactive.png
+SHA1-Digest: WQi2G5OcjLIgU3EHDapb9WJFtUQ=
+
+Name: assets/bin/Data/sharedassets61.assets
+SHA1-Digest: P8xNUQ5G0WI03iubbehSbsgA174=
+
+Name: res/drawable-xhdpi/kamcord_twitter.png
+SHA1-Digest: 5Dvidcy5M5Rfp23PxtChhDKafBk=
+
+Name: assets/bin/Data/9a3a8219985be4dc09339b7669b23ec7
+SHA1-Digest: xLJpM/h6cTLk5jLp/oCNv8skZGY=
+
+Name: assets/bin/Data/932c31e7dffef4310a79883fa0d9fb22
+SHA1-Digest: uM0ksYEVIl/tJbs5Zi+hwvZsuDc=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png
+SHA1-Digest: +YXDOKcowsglHKYLvgWRriKCdQI=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png
+SHA1-Digest: EJ6Vqirv8VvnXRyLmOrbw9Y/8Oc=
+
+Name: assets/bin/Data/e81b713e1e04e47fda3c19f237fafbf9
+SHA1-Digest: 4wELGHqd8sa845/O6GzkmSX2RR4=
+
+Name: assets/bin/Data/ca07d84af294c4ddfb955c6643f10d3d
+SHA1-Digest: HO4LLBE5V7BhexsJTdiqA06gGNo=
+
+Name: assets/bin/Data/27a05473ca0c4f840bc789084bb9d665
+SHA1-Digest: Qr4W3jf96XPNXSm8z7y/0zEA5HU=
+
+Name: res/drawable/kamcord_seekbar_thumb_style.xml
+SHA1-Digest: gexu7ZRLuDFs16XIv4Ljf9OnrY0=
+
+Name: res/drawable-xhdpi/kamcord_share_icon_active.png
+SHA1-Digest: JSzpSFSDP+N4Y8OwgMCgmISlnhg=
+
+Name: res/drawable-xhdpi/com_facebook_tooltip_black_topnub.png
+SHA1-Digest: JB+k/ISnz/BtiQLV3cvLHx0rNTs=
+
+Name: assets/bin/Data/a01d46344818f4bc484696ef89ba67ce
+SHA1-Digest: WV4t96VOI/xma+9FcCZhUEhBO3Y=
+
+Name: assets/bin/Data/b95150b83c6cc443883418ee7fe1637e
+SHA1-Digest: BzWnjsofD4rIFgft9pC9I8I8EwM=
+
+Name: assets/bin/Data/1392480b192cf42ebad52d8abcc49307
+SHA1-Digest: bL1eZU+UfzmNLeJndQMZrXILzfc=
+
+Name: assets/bin/Data/10edfe66cf8524be380e8b5347c21ad0
+SHA1-Digest: Jaj9mEMXiC1DkGuUbEJhJilgPvw=
+
+Name: res/drawable-ldpi/facebook_close.png
+SHA1-Digest: Nwlm5aDJGXbo6eG5hVvbrq4/cVk=
+
+Name: assets/bin/Data/c0acde3ac30c94193b4ee58446551e86
+SHA1-Digest: rrHpr5I4BTj5R4zuyl6pY2OURBk=
+
+Name: assets/bin/Data/e7d050a7687ce4f91932a6e4a8e58f6a
+SHA1-Digest: jnZo1H0lpkHvDgHSdrQpDy1sV1s=
+
+Name: assets/bin/Data/27f7863de07814148a49d2fda05f440a
+SHA1-Digest: Slu7F8SWG5iOcjruQmggzNMSca4=
+
+Name: assets/bin/Data/189a8f72beb0f4a3c99562754d0b8c3d
+SHA1-Digest: Q5ov8mXZExjG7dGlnF5s0qU9inI=
+
+Name: res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png
+SHA1-Digest: dF5oQhWFz2szuye4UCQeGH4CFRk=
+
+Name: assets/bin/Data/sharedassets8.assets
+SHA1-Digest: fBrJZFCE0iUaT0zeIy2uUJFfImc=
+
+Name: assets/bin/Data/4ae812d7340ce413cbc75ce87eeadaa1
+SHA1-Digest: 3P9LOArZgz+CImD/4x8ew3ihBwA=
+
+Name: lib/x86/libkamcord.so
+SHA1-Digest: jS++u0kE97Z6ErsOCdZLRQV7Zqg=
+
+Name: assets/bin/Data/5a6145dddbcc446538f5c6c4928622cd
+SHA1-Digest: zdmS9B6T73huFksIcXA0vLBRHCg=
+
+Name: assets/bin/Data/7a3c26a2f8e134bd09cef04bc4ccd6aa
+SHA1-Digest: +M5kkiw75cVspnkAIdrhn591sDo=
+
+Name: res/drawable-hdpi/com_facebook_button_like_background_selected.p
+ ng
+SHA1-Digest: u4tNjKnKlD22DVMv5srJxxaGipo=
+
+Name: assets/bin/Data/6f3782558a06f4d25addb2b3eb275063
+SHA1-Digest: U7KkKQcONcHmN8dD9CFnLToxMk0=
+
+Name: assets/bin/Data/5a2fa1273014941308c15584e168ff59
+SHA1-Digest: /YHXHGRQ5YeidMLfnuYA7tB1Lms=
+
+Name: assets/bin/Data/a0b36c21328d34b3a84d1ea9931bcc7c
+SHA1-Digest: gixBBy1NMykDPXYS8ByjruztYVk=
+
+Name: assets/bin/Data/ce5e1906baaa6402c9684eebbcb47329
+SHA1-Digest: pe86br5m+M5J1MTPUKwk+o3dbxI=
+
+Name: res/drawable-xhdpi/kamcord_play_overlay.png
+SHA1-Digest: 083+OT+S4TG9bIwPH9UV4r1X8z4=
+
+Name: assets/bin/Data/bacb83393bc7840c49be8efe322eb23d
+SHA1-Digest: 3w05R+lHrwSj5uJbhafNEdsQHw8=
+
+Name: assets/bin/Data/a29b37f883ed24f17b8b698051963b2a
+SHA1-Digest: khbvIJGEJNSWK2QBBOzUDw5Zhks=
+
+Name: assets/bin/Data/6e402132fd7654d54a3b2d158c9b468d
+SHA1-Digest: F4b8GKhvfui4j+gjs77MCOgyCzA=
+
+Name: assets/bin/Data/bd2640a6ce2114fc0bfa78600863fb71
+SHA1-Digest: /XNDrfzy7gdCd17dYXbBe3x9ebw=
+
+Name: assets/bin/Data/301ff27180a77426c959c27dbc3d09b3
+SHA1-Digest: 4D2pTP/GNP05MQFtoFOiM0vrPnc=
+
+Name: res/drawable-xhdpi/com_facebook_picker_magnifier.png
+SHA1-Digest: VqEt89wuwGEqEtvuU36zIvHS4VY=
+
+Name: res/drawable-hdpi/com_facebook_tooltip_black_xout.png
+SHA1-Digest: gidiAUAJjJias1MRTuSOr4/2dvI=
+
+Name: assets/bin/Data/135cba5fe8e2b4af1983a8f7f0ccec4f
+SHA1-Digest: SglrLpjxQMEZZJDGhz6j5tsBZ5c=
+
+Name: assets/bin/Data/b3d8300b0e4f44184867a7d930cd85ab
+SHA1-Digest: vI3zpLZX9QqewLYior3WgU6/fGI=
+
+Name: res/drawable-hdpi/com_facebook_tooltip_black_bottomnub.png
+SHA1-Digest: YfzZzYX620Rtn0aFBjHnwGCCEXw=
+
+Name: res/drawable/hypr_progress_drawable.xml
+SHA1-Digest: v3It/A1FxR1Bw4UjL6BauYwIrEI=
+
+Name: assets/bin/Data/10e3a620116e041bab88ddb11e1afbd4
+SHA1-Digest: J1Xp3gqRwKbqMLlvq4JzmEa171M=
+
+Name: assets/bin/Data/7dec3ad81010e4b159cd58b8fdbcbe99
+SHA1-Digest: te47LwNdMk0x72nioILibJQ4kp8=
+
+Name: assets/bin/Data/cacc2a7bd23404e28a7e96a8e59238b1
+SHA1-Digest: d3ZFlDzshVnjRD9R0M+Ko+8Ac4o=
+
+Name: lib/armeabi-v7a/libmono.so
+SHA1-Digest: 8dytLUhnrSa5sSXVdLuVcK5986s=
+
+Name: res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png
+SHA1-Digest: AT9w5rSAMWW0uoROEE4O/DyXQj4=
+
+Name: assets/bin/Data/sharedassets2.assets.split3
+SHA1-Digest: KP+BN8GqBkoxivDeTUkK3+0k7NI=
+
+Name: assets/bin/Data/sharedassets2.assets.split2
+SHA1-Digest: ZCOP8AgAVmtS7wRUTJEK0/BOHok=
+
+Name: assets/bin/Data/sharedassets2.assets.split1
+SHA1-Digest: sxw0fgDPeINvyf8ZYaC9Ofep+/I=
+
+Name: assets/bin/Data/sharedassets2.assets.split0
+SHA1-Digest: d5h5XEE1HRSA2hFXIBqFeiQiYbQ=
+
+Name: assets/bin/Data/sharedassets2.assets.split6
+SHA1-Digest: TJeDuy+HH029SkFg0n441FXs+d0=
+
+Name: assets/bin/Data/sharedassets2.assets.split7
+SHA1-Digest: CiLC6mWZ4fB93oQkjJkFQCIRQGQ=
+
+Name: assets/bin/Data/7e064f95df61149b0b9c555d095f094c
+SHA1-Digest: 2dZj6zpiPVB+rzDqtiRRDHO0YAw=
+
+Name: assets/bin/Data/sharedassets2.assets.split4
+SHA1-Digest: OEgEp9a+Wq5Gaa7PLRLRIWknPSo=
+
+Name: assets/bin/Data/sharedassets2.assets.split5
+SHA1-Digest: XHC9buFYlq0lt4Kj2Iy9pH+1JV8=
+
+Name: res/layout-sw600dp/z_kamcord_activity.xml
+SHA1-Digest: QVLMU0S+6gFyxJa5bt4Ye6/Z0K0=
+
+Name: res/drawable-hdpi/kamcord_mic.png
+SHA1-Digest: 57iDRZyk6kOI+J5LOyCYxvJCM9o=
+
+Name: assets/bin/Data/eca97888ee86d4544a3c6f88abf27be1
+SHA1-Digest: LtATdLqURakSqjzEOCswSAXam5Q=
+
+Name: assets/bin/Data/8dc6b6bcdc83d45ef8a055e61005136d
+SHA1-Digest: AhECu58rDMF6z7sH2V/aEIGYkwM=
+
+Name: assets/bin/Data/Managed/UnityEngine.dll
+SHA1-Digest: Mmtd3hnYZCvV+HN3sBol6ZHV+/g=
+
+Name: res/drawable/com_facebook_button_like_background_selected.png
+SHA1-Digest: RwqHSR17Um8C7eTFB7n2zA6R8YA=
+
+Name: assets/bin/Data/da882212c002448f0b410af89901ab26
+SHA1-Digest: 6pGP4ddP+lvNsA7KIFjxhYfaDZk=
+
+Name: assets/bin/Data/97263a194f5bd49608eeec90798fc4ac
+SHA1-Digest: mM92NTUuZLqCL5CXfEtNfJADze4=
+
+Name: res/drawable-ldpi/com_facebook_close.png
+SHA1-Digest: lg0izCnB1flsd2QqLisbxkcuGyU=
+
+Name: assets/bin/Data/b2b399708898247ff97021e8bef238d7
+SHA1-Digest: BtFcxrkZhU6SOXHeL/CrACpiLs4=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png
+SHA1-Digest: f0EJjdbMj9zLfOj/d3UbE5N6BjA=
+
+Name: assets/bin/Data/af18c4302749541b09c46cd4ebde238e
+SHA1-Digest: mIecPuaF7oCQqHQZutS+W/7o0gg=
+
+Name: assets/bin/Data/2d8af609ab0c74a9596e800d4b309575
+SHA1-Digest: 8WLlSdKZVVYlePMnXb7v4pZAzog=
+
+Name: res/drawable-xhdpi/com_facebook_button_like_icon.png
+SHA1-Digest: WzkjT61cTg+sIHdTS1daOwQ9m5U=
+
+Name: res/drawable-mdpi/kamcord_share_icon_inactive.png
+SHA1-Digest: LN9EfuwNRX+ROkzXg5HWdBPIKsE=
+
+Name: assets/bin/Data/5f7f225cb0ea44c64bd0e0315d4fcdae
+SHA1-Digest: gtUtN7RC+jy3oJJY8FnvnuxcVI0=
+
+Name: res/drawable-ldpi/graybutton.9.png
+SHA1-Digest: NsFJHzhMNCiyveCF8Q4ADoJyJic=
+
+Name: res/drawable-mdpi/kamcord_facebook_gray.png
+SHA1-Digest: ElYy01JrsqSdz7D7KKWhTfCulpA=
+
+Name: assets/bin/Data/b238b88e77f1040adbcbcc5387a41cdc
+SHA1-Digest: FIz2VBR2k1kLuFPn/rsIuyWdA2s=
+
+Name: assets/bin/Data/sharedassets22.assets
+SHA1-Digest: 73Nx3xxO0IyXDGLDHkocSfkxJIM=
+
+Name: res/drawable-hdpi/kamcord_watch_icon_inactive.png
+SHA1-Digest: zDSDLyb+lh+IFdvLkWHF07oAtRI=
+
+Name: assets/bin/Data/49a1db009b89447c2a89309a5840707a
+SHA1-Digest: pXa+VZ5n92sXfvSt1PKWX0Iu6qM=
+
+Name: res/drawable/com_facebook_profile_picture_blank_square.png
+SHA1-Digest: ii3g4mqHjQXtghNZE1cibJA1Jbs=
+
+Name: res/drawable-mdpi/ic_plusone_standard_off_client.png
+SHA1-Digest: 5mRZ2sFLI0LRLV8zEdkzMhgnR9I=
+
+Name: res/layout/z_kamcord_fragment_forgot_password.xml
+SHA1-Digest: NB0qs1ogXe/HwRHkCHJ2lYKGRAo=
+
+Name: res/layout-v9/mobage_notification_normal.xml
+SHA1-Digest: G4AyHNHtlANA6xByL2IUr4U3BG4=
+
+Name: assets/bin/Data/67b5469c726824190888cd53e45a7c6f
+SHA1-Digest: HE617J/m55YUC25Um5COccPijVI=
+
+Name: assets/bin/Data/b9a9779de49c5412290a2c8b3458818f
+SHA1-Digest: NcfXLoHVfWGwY6+6nehaqBql+lU=
+
+Name: res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png
+SHA1-Digest: vgTn+pEQhSLa5buaCqjDd3w3UWU=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png
+SHA1-Digest: rk4+RrLhcP6lThhrsLhux6sOaW0=
+
+Name: res/drawable-mdpi/com_facebook_tooltip_black_topnub.png
+SHA1-Digest: yY8/t0s+QXhpJiUSW/BkWQiYs6A=
+
+Name: assets/bin/Data/23b0acd40c7b64656b806a47a4a5830d
+SHA1-Digest: 5efQ3ALSsgcyhyTZ1KqKQqnlouo=
+
+Name: assets/bin/Data/e6dbaa42ac5b9486192213adc1f721ca
+SHA1-Digest: I2rnnSwnO41BUMBymL5rOzMdiQI=
+
+Name: assets/bin/Data/78cc2e3f53a724f70832ec2eb7d4d399
+SHA1-Digest: L5BwOJ2dmfkyXfc13W/NaLD3tEA=
+
+Name: assets/bin/Data/a0042d913831d482d8c129814d310bae
+SHA1-Digest: k9jZrLzg/kmMIucE3yuERR4J1A4=
+
+Name: assets/bin/Data/da7066f20c4284f4ca94768adb825747
+SHA1-Digest: MdYN8S2l2/DU70fiFmlc4Ymynvk=
+
+Name: assets/bin/Data/ea2c5cc495c0e45f5aa8365e03e03ffb
+SHA1-Digest: bJNfocS4WF2puDQl/+6a9pQBmGA=
+
+Name: res/drawable-xxhdpi/kamcord_play_overlay.png
+SHA1-Digest: 8b2wdD0dnhOsc+6oqEOzd8mwxc4=
+
+Name: res/drawable/com_facebook_picker_list_focused.9.png
+SHA1-Digest: wq1XBihYEP7fT9hT55vx2S7+KDQ=
+
+Name: assets/bin/Data/0370a869e4bae4005b22e35d00baf695
+SHA1-Digest: Xv4RMS2uK6wR13V7NTrX42XBw/o=
+
+Name: assets/bin/Data/78cb09a8cf429415ab038b00027a7140
+SHA1-Digest: NmPbMPDn3W9BFZ9BsPPYBalcNCo=
+
+Name: assets/bin/Data/873faff1b52694fe9993d8ac5a37595c
+SHA1-Digest: 0E/7uhULXS2YJsvssh3p9ODqyuo=
+
+Name: assets/bin/Data/sharedassets81.assets
+SHA1-Digest: P0zW67xuXR1k/oeDnWlbA2VOWQ0=
+
+Name: assets/bin/Data/sharedassets5.assets.split1
+SHA1-Digest: WeCxn4G5K/Uq9WBA+W7sodsRp/M=
+
+Name: assets/bin/Data/sharedassets5.assets.split2
+SHA1-Digest: yS80pl6EXyNY8tljRi7hxTA5pMw=
+
+Name: assets/bin/Data/sharedassets5.assets.split0
+SHA1-Digest: /0z8ta2SXWud5Yw7V816vrjRCbc=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png
+SHA1-Digest: nvg7KMKsHZx5cXiXMrsOUZ1pQs8=
+
+Name: assets/bin/Data/sharedassets75.assets
+SHA1-Digest: InmtsdY3YBZfoyiuA/CWaWRmLb8=
+
+Name: res/layout/ol_interstitial_activity.xml
+SHA1-Digest: bbEfj5u1vFrER+jqqwyoHc7ADbU=
+
+Name: assets/bin/Data/Managed/Assembly-CSharp-firstpass.dll
+SHA1-Digest: ckcMCz1SCGCmRiEvFrCneWxF8bw=
+
+Name: assets/bin/Data/222e1d01799d543d78995853d428f16d
+SHA1-Digest: h0bYa7kNcUZu1z+77nT6JVVH4rI=
+
+Name: res/drawable/kamcord_seekbar_thumb.xml
+SHA1-Digest: S/1g8pXMfGDwkfaoYxRruQbSuko=
+
+Name: assets/bin/Data/a5f7d75d5b8c54ffb8ff8298afda657b
+SHA1-Digest: 1pDOuAbizBBYrsseFmWMGUHdTaU=
+
+Name: assets/bin/Data/9f75bab146aa84e53a4b3dfa098102e7
+SHA1-Digest: a3FGUZM0NkuHqLsdBiCwv+CFhB4=
+
+Name: res/drawable-xxhdpi/kamcord_watch_icon_inactive.png
+SHA1-Digest: ZLOeMoN3kV+gk5xRH5QzEfJmZ7U=
+
+Name: assets/bin/Data/8a0727eeb011444ffb8fa6327ecf1059
+SHA1-Digest: uKs2zp8f8+6teg+Ml0F95+gm7oo=
+
+Name: assets/bin/Data/4ac2ff8e059644577b37e93d2851ffd7
+SHA1-Digest: pk2vrbIThwQcxA4PKRy5On+dQ/Y=
+
+Name: assets/bin/Data/sharedassets63.assets
+SHA1-Digest: p5R6iSodnmD5TiiMCXmhYah73ZI=
+
+Name: assets/bin/Data/2a99c850bca3d4aa2a25f568427c2363
+SHA1-Digest: YqGtLsZmyHyyKXQRufzetNkpc7Y=
+
+Name: assets/bin/Data/2723eb112353744719a1d1ce9bc89de2
+SHA1-Digest: l8G+/OBgkVHZcmFnKCjhWGB6sjg=
+
+Name: assets/bin/Data/1dbe869e0c8694e5fbe5c3deac01b97c
+SHA1-Digest: WqQ851cj9DRyKgYCbnLpidB5OrA=
+
+Name: res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.
+ png
+SHA1-Digest: YmWnuLFTsxsuwRBtvQiQ6Y6KnsI=
+
+Name: assets/bin/Data/sharedassets15.assets
+SHA1-Digest: hhhrRlPdzhGK3j17mKUAAraxwkk=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.
+ png
+SHA1-Digest: 0ky7hJW6fNsa6m2tmjhllqHXHfg=
+
+Name: assets/bin/Data/483c60a7f96e143ebb5810fb7c9f4184
+SHA1-Digest: Sdb3eJ3amrOHUCTRqgfJ7hDGMdQ=
+
+Name: assets/bin/Data/ae7d47c230d6e45fa83ae699c0548403
+SHA1-Digest: Tjma3Wt9Jgx27YnNr/xChiyh0X4=
+
+Name: res/drawable-xxhdpi/kamcord_twitter_gray.png
+SHA1-Digest: GQEj0xL/o96nRlsd5VtFp018lWs=
+
+Name: res/drawable-xxhdpi/white_icon.png
+SHA1-Digest: FPN0SdOg2CmXa/Sct9vXe+FYKPA=
+
+Name: assets/bin/Data/95a833b45fa9043118275904257da143
+SHA1-Digest: cCvlkZI+AZC/DocPbPXyO0PEM90=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png
+SHA1-Digest: VuHJWuT/6iilvSab3F78/jbS8VQ=
+
+Name: res/drawable/kamcord_player_prev_icon.png
+SHA1-Digest: UyQYi02ojVBWb4nrok9UYbgmqj0=
+
+Name: res/drawable-xxhdpi/kamcord_profile_icon_active.png
+SHA1-Digest: /PguEiCN1W+YLz2tfmzVQ/Km9Dg=
+
+Name: assets/bin/Data/daffaf84d9c10489aa5291d9fd979432
+SHA1-Digest: CHUdVOrZRsDOwf6ua1oBiiswaDA=
+
+Name: assets/bin/Data/b16d96530e3644c70b6cf47bba537b42
+SHA1-Digest: NBj63N8bxdntwfin+nanXxhlz6A=
+
+Name: assets/bin/Data/07684ad218b33404e80f31f6bef556a8
+SHA1-Digest: Ri+JTIdCQHQgZUXau81VFZx3d9k=
+
+Name: assets/bin/Data/503779a2366cc4801a692bd1ab299e59
+SHA1-Digest: EG45UaMNIzDdNZEdNOqABZ84Jg4=
+
+Name: assets/bin/Data/132a69054eb1447f084b8064947245a7
+SHA1-Digest: o1XgNk0CRccPdewJ/zs/2gz+RHw=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png
+SHA1-Digest: vo5IER5aYP04fs9WVhNf8ZG8h6g=
+
+Name: assets/bin/Data/8fdd615ae3a1e49e3bc03575c3607169
+SHA1-Digest: DcQROT0TUVozIXlcgoXbBEUl/Ac=
+
+Name: res/drawable-xhdpi/kamcord_share_icon_inactive.png
+SHA1-Digest: 9RZXLk2vLGjQqQKMC02p2OeAjJg=
+
+Name: res/drawable-xxhdpi/kamcord_watch_icon_active.png
+SHA1-Digest: Cllt8k++Fn/H3XCHzgl8Pk2OrMc=
+
+Name: res/layout/hyprmx___splashscreen.xml
+SHA1-Digest: ZAUT1BQ6gCJ0dDTdQneAeECniV8=
+
+Name: assets/bin/Data/e6c499972f3074698970127d6e8b6151
+SHA1-Digest: 9YeHew/C/6diQxz5bHKlmzyIQeo=
+
+Name: assets/api_key.txt
+SHA1-Digest: dzVNnzvo2CWczkwXqL34zxOlomo=
+
+Name: lib/armeabi-v7a/libkamcordaudio.so
+SHA1-Digest: vE+4chw/phbUOsWsuL8P4z9Z00c=
+
+Name: res/drawable-tvdpi/ic_plusone_standard_off_client.png
+SHA1-Digest: bCfalDf3dtwVG4mH7KjMYlR/m8c=
+
+Name: res/drawable/kamcord_rounded_top_right_selector.xml
+SHA1-Digest: L4DfrsaoAhooo/juO7DZ+BoD91c=
+
+Name: assets/bin/Data/1de7f490b6ba949a69a9b9712859a392
+SHA1-Digest: st5GNyjcWJMweg9Afv3s2hnc46o=
+
+Name: res/drawable-hdpi/com_facebook_tooltip_black_background.9.png
+SHA1-Digest: ztQIO1uL218tXt5Z5/kQajmtTzs=
+
+Name: res/drawable/com_facebook_button_like_pressed.png
+SHA1-Digest: AIaP242IZwhQCLLgajVq5yK1p3g=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png
+SHA1-Digest: zXl4gOYVm22pGbkGC4i82wLIMyg=
+
+Name: assets/bin/Data/61baf4c6a2e85ef4d809604766afe736
+SHA1-Digest: aIQ+rvUkaEfWIizgO7NYG04IynM=
+
+Name: assets/bin/Data/b984e7c8a06c8489e99fa0faffea6fea
+SHA1-Digest: /y0LXN4dWZrnIWV7YJxhGrVXojo=
+
+Name: assets/bin/Data/e5b4761ccb84c4bc99b9ee0700ba8287
+SHA1-Digest: DYgJLDkwLKyl7sYExGoV8TIqHlo=
+
+Name: assets/bin/Data/f84f229ceec42423aa0bb4b1a36405ee
+SHA1-Digest: yf5rNJkebxrzlt1LWqT8CbvMtKs=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png
+SHA1-Digest: sa6MQEFa8whxq6hug+zvczJa8Ss=
+
+Name: assets/bin/Data/bc6f6604612cb438281c73009bff3b7f
+SHA1-Digest: SLgYRiU3iLXym8ZlshgRL4Hh5lk=
+
+Name: assets/bin/Data/343508ecc06c1499896f7e666789353d
+SHA1-Digest: 0c6ZjCqcFFBbUu60p6HFR2DpCLg=
+
+Name: res/layout/z_kamcord_fragment_sign_in.xml
+SHA1-Digest: +HqlaeZ3kFiuLr/NO5SH0BB7RM8=
+
+Name: res/drawable/com_facebook_button_grey_focused.9.png
+SHA1-Digest: oegkN07TNc6Ko8z3qqCgUGgnvRw=
+
+Name: res/drawable/cross.png
+SHA1-Digest: qDqOjfH2hVagMne/9eqw3KF6/RM=
+
+Name: res/drawable-hdpi/kamcord_watch_icon_active.png
+SHA1-Digest: I/IEYkcXq7Ji85qGtSMwF6o7/dM=
+
+Name: res/layout/com_facebook_picker_image.xml
+SHA1-Digest: gF2nDPytiLRNxHa0ZVB+nwqFPgw=
+
+Name: res/drawable/kamcord_player_pause_icon.png
+SHA1-Digest: wz849cFY//A72pw0GeEU3SumSnw=
+
+Name: assets/bin/Data/85cd9edc5646f44bbb3a72d4506ffd4c
+SHA1-Digest: cB9yW9cwCXfCTQFcSEvfmKvJtgM=
+
+Name: assets/bin/Data/ef0573895e8d54c73a0e21eb5b4b621c
+SHA1-Digest: m5OM7NEoB2WFnCW6CKMiUP9Yn8Q=
+
+Name: assets/bin/Data/eed617d2a96844569ac3339a752091d2
+SHA1-Digest: /Kow+yRqKbb6hfF8u716vMo6hUo=
+
+Name: assets/bin/Data/efb41d27c62534d3a88f47af302a5550
+SHA1-Digest: SlV7R6c09ScsIht/4GPFkWa4xro=
+
+Name: res/drawable-tvdpi/ic_plusone_small_off_client.png
+SHA1-Digest: oJkL4xtlN87pNrCzPgueqqvY2nU=
+
+Name: assets/bin/Data/1d136e59c83e345d0891978e86d402f5
+SHA1-Digest: GirOZDowHlWJYBcg1b5s940X1P0=
+
+Name: res/drawable/com_facebook_profile_default_icon.png
+SHA1-Digest: hnc7R7K+VpzIWKki/iGEw6AlfPw=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.p
+ ng
+SHA1-Digest: IXqmYG4624bef7DnPxFG+Uwx1ak=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png
+SHA1-Digest: 3+x2t/WZmDnWpRsGihxGb1wjfKk=
+
+Name: assets/bin/Data/sharedassets16.assets
+SHA1-Digest: wiFg3qTFm0Rz6iUJaiCClpvnjHw=
+
+Name: res/drawable/kamcord_toggle_selector.xml
+SHA1-Digest: TwtnTgriwjronDymn75ckq3IoEE=
+
+Name: res/drawable-hdpi/common_full_open_on_phone.png
+SHA1-Digest: 1fvo1tQADa6Q6ztee4oAocfHrHo=
+
+Name: assets/bin/Data/6739ff050a2da489094209be8b68e390
+SHA1-Digest: mx3zLn7EPBgyT9Ivv56CgMoqq/8=
+
+Name: res/drawable-xhdpi/ic_plusone_tall_off_client.png
+SHA1-Digest: rRjIC9V51TgZe2Muk+QxNRxDB4k=
+
+Name: res/drawable/com_facebook_inverse_icon.png
+SHA1-Digest: F87dFjM8iCRCeWSfrxkG/jcMtZY=
+
+Name: assets/bin/Data/Managed/DeNA_Logger.dll
+SHA1-Digest: rtuJzFvYZ+w4DkemxruJ/MIJDCw=
+
+Name: res/drawable-ldpi/app_icon.png
+SHA1-Digest: /anrm0u5rk+hXyQJC4/tngIDZZo=
+
+Name: assets/bin/Data/ac53fba032c574a0e94c2dcfa1c3c47c
+SHA1-Digest: boc2HI2Fiuc8vt5mAEcUVIeQS08=
+
+Name: res/drawable/com_facebook_button_like_icon.png
+SHA1-Digest: mVBKUoaH0L1MhhQPowQkWFEYwnA=
+
+Name: assets/bin/Data/sharedassets70.assets.split3
+SHA1-Digest: zdXfD5b/8huggS0jUwmTVBrG8dg=
+
+Name: assets/bin/Data/sharedassets70.assets.split4
+SHA1-Digest: uHZtDmYRDTHvDWS/esKgi7VzoGU=
+
+Name: res/layout/z_kamcord_fragment_player.xml
+SHA1-Digest: mOEohSONRK5HW+MePYS1/TgEAa0=
+
+Name: lib/armeabi/libkamcordaudio.so
+SHA1-Digest: On23JNL0NyWKW1U1i1iLnzMXTJg=
+
+Name: assets/bin/Data/14a86aa7a080a47d79e1b06ae7e8c5db
+SHA1-Digest: Uk5Hs4UcCFmKq5d2bzNkr+V8I54=
+
+Name: assets/bin/Data/00c339229ef43484bba77b0caa26eb5b
+SHA1-Digest: iBtnjZtK4sHlZ+Q3ma7VwwLinAY=
+
+Name: assets/bin/Data/sharedassets70.assets.split0
+SHA1-Digest: bRhv8dIYz4E8ZxMhBVK8eBrKbJs=
+
+Name: assets/bin/Data/7bb920f4420ed420fb0c336e8da24460
+SHA1-Digest: MT9RG18ZadFWBIxuQcLxku0sKHw=
+
+Name: assets/bin/Data/sharedassets70.assets.split1
+SHA1-Digest: aQQzXxNXsFwDxlMsCvJosNQyQsw=
+
+Name: assets/bin/Data/sharedassets70.assets.split2
+SHA1-Digest: s2BKVsSqWWgE5bGnILSRTsJ+dPk=
+
+Name: assets/bin/Data/a646825af3f5b467e939182d694fe013
+SHA1-Digest: YXS/YTVHtO2wzhldjogXiuhXiyk=
+
+Name: assets/bin/Data/sharedassets24.assets
+SHA1-Digest: k1n+/HDKFhM5dgnWbHxsm/72vrY=
+
+Name: res/drawable-hdpi/com_facebook_tooltip_blue_topnub.png
+SHA1-Digest: ptIIZ0pQGG0f3x+uMhzCqFOYu1s=
+
+Name: assets/bin/Data/486f38efde4614baeb2f541839e29a02
+SHA1-Digest: q7cL46k6I4o7xlBwyiF/3vIqtMg=
+
+Name: res/drawable-hdpi/com_facebook_button_like_background.png
+SHA1-Digest: VB1+UZ2hGAaVxKJQIt8xYr5+K0c=
+
+Name: assets/bin/Data/d3016fe1e1a694c9494d7adaefab5f65
+SHA1-Digest: JuUJT0levqdAdXd5BCrai6Bz2Tw=
+
+Name: res/drawable-hdpi/white_icon.png
+SHA1-Digest: RYlBacMiz9M0BcjTPfGBrXLLaHA=
+
+Name: res/drawable-xxhdpi/kamcord_mic.png
+SHA1-Digest: yi2K7EJN9VfwrEoOTAuHLtvOHhA=
+
+Name: assets/bin/Data/sharedassets41.assets.split0
+SHA1-Digest: r7FPA/Wx5tyLAgZrA5PauYb9Zus=
+
+Name: assets/bin/Data/sharedassets41.assets.split1
+SHA1-Digest: mm/3GBIlbCgVkMGi5uzG3BH+qTM=
+
+Name: res/drawable-tvdpi/ic_plusone_tall_off_client.png
+SHA1-Digest: 5DJcJTVQZ/5EfOcHn52XOrGisZk=
+
+Name: assets/bin/Data/913899de0aa8944d29fb2e46018604dd
+SHA1-Digest: BBwBUmutCQaaLh37BebfxFpfS2o=
+
+Name: assets/bin/Data/sharedassets62.assets
+SHA1-Digest: Ie+vq+o4mP807Z/8Xxpn80vtGdY=
+
+Name: res/drawable/kamcord_rounded_bottom_right_selector.xml
+SHA1-Digest: +sz14rkIQOK04qqtsidnavEnsz0=
+
+Name: res/layout/com_facebook_picker_activity_circle_row.xml
+SHA1-Digest: O/x2jQ2yZSjrofCE+O0Wplu2OgE=
+
+Name: res/drawable-xhdpi/com_facebook_button_like_icon_selected.png
+SHA1-Digest: jDLNoHFLD1U07R09xjM8cZJIokU=
+
+Name: assets/bin/Data/8432d9dcae4e0450bb204269c6eb6187
+SHA1-Digest: 42E6roR8eOMzlvH+6zPKfl6uvWc=
+
+Name: assets/bin/Data/1ed60659b3af84d03adf6de8f199d14a
+SHA1-Digest: tuifgogigl4spB1l1+Q8Iorq4eM=
+
+Name: assets/bin/Data/sharedassets55.assets
+SHA1-Digest: PExKgpoQ5aTZ71Ju4RSEIW8dhN4=
+
+Name: res/drawable-xhdpi/com_facebook_tooltip_blue_xout.png
+SHA1-Digest: WjFm0tp4nyOULhL2U3mNcNv66H0=
+
+Name: assets/bin/Data/cae4a2b02bd7c4915a900bdb5c8797fa
+SHA1-Digest: TEJxLASBGr0d+tGfQy/U6U9vhCk=
+
+Name: res/drawable/kamcord_button_background.xml
+SHA1-Digest: RujQ8WTJ6fVCF+3saYLOPvks6ts=
+
+Name: res/drawable-xhdpi/kamcord_youtube.png
+SHA1-Digest: 5yv2j9AQP5pgKCotNuZ4FWL7s+M=
+
+Name: assets/bin/Data/sharedassets37.assets
+SHA1-Digest: 0hVZ8Pcdoh9AKzBDoDXcioXR0GQ=
+
+Name: res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png
+SHA1-Digest: MQsj73rqoxGdFvNYEPkKJZPqXBU=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png
+SHA1-Digest: KUWcrP9v7FORu4ojRjzVSn0JZio=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.
+ png
+SHA1-Digest: 5te3wznPBVYtZMjVj49FYN5YlRA=
+
+Name: assets/bin/Data/b7bfd281f6eb6490da47a356ed420007
+SHA1-Digest: IOaEhBRO368wNC+0R70SoJ69se0=
+
+Name: res/drawable/kamcord_rounded_top_left_selector.xml
+SHA1-Digest: e4ZAuaMJ8cZkxjFwraI1pjq94Bw=
+
+Name: res/drawable-xhdpi/com_facebook_button_grey_normal.9.png
+SHA1-Digest: ObpXSA4NH1YwVj8ZgzYz74kaDfE=
+
+Name: res/drawable/kamcord_seekbar_buffer.xml
+SHA1-Digest: Yj9lQkhUjd7yuLL9XkeNUWgNdAQ=
+
+Name: assets/bin/Data/a6f8c7e45769840fc87de051d1db646d
+SHA1-Digest: NV8DAlV45DQQ9Bv7Z/QVTFWEcZ8=
+
+Name: res/drawable-hdpi/kamcord_play_overlay.png
+SHA1-Digest: Gputer2dJVEOmqnNnDp47fzga6g=
+
+Name: assets/bin/Data/51b2c4b8fb7294a04bacf518ec4750ed
+SHA1-Digest: LZsfylyEvGYhAnqrW/rehc26vgo=
+
+Name: assets/bin/Data/16930d86dc23040a6ab6df2726cb7dff
+SHA1-Digest: /6mxOYcbz1bG+4EmGvzu++cIja4=
+
+Name: res/drawable-xxhdpi/com_facebook_button_like_icon_selected.png
+SHA1-Digest: mnxrMQ9yHFqGXl0LDHAGGy0rfgQ=
+
+Name: res/drawable/kamcord_title_gradient.xml
+SHA1-Digest: A5zk8Bk4ueOxdJRG2buA21OPvu0=
+
+Name: assets/bin/Data/4084e1da31a02431d8234882dc24d72d
+SHA1-Digest: bVheHZSola6y2aiBwNJhkaqiuhQ=
+
+Name: assets/bin/Data/fe9083d5ee7e347799b2bf35e2e9aede
+SHA1-Digest: TXnrPdx3mYV78rHlkmI+UjdNyAI=
+
+Name: assets/bin/Data/2354f707e90f84bb4a73ef7adbe67ffb
+SHA1-Digest: B2bA+PCWDIMdKTHODo5zFIgu1uw=
+
+Name: assets/bin/Data/sharedassets39.assets
+SHA1-Digest: xVfxrqsH2hfC+s2s2nA6h5uLpe0=
+
+Name: res/drawable-hdpi/notify_panel_notification_icon_bg.png
+SHA1-Digest: QkKvlylhRTpR1HxxoAZMe0tB4/Q=
+
+Name: assets/bin/Data/sharedassets33.assets
+SHA1-Digest: gcBeIkexuefoVNA/B98s96WPq74=
+
+Name: assets/bin/Data/sharedassets67.assets
+SHA1-Digest: PbsfDfap+oW2/bFI4kQdYXw4V8o=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png
+SHA1-Digest: uRAyDpH07H9tazGPj+pquxEo+4U=
+
+Name: res/drawable-hdpi/ic_plusone_medium_off_client.png
+SHA1-Digest: iP8qRXkY+XNmRoVEr+A6b2fLfF4=
+
+Name: res/layout/com_facebook_picker_list_section_header.xml
+SHA1-Digest: BA11pgQrumZU73qg4orrD6lPAoI=
+
+Name: res/drawable/kamcord_tabbar_back_selector.xml
+SHA1-Digest: tsKV7evrkRo3J+lUG1jKWHUjyWo=
+
+Name: res/drawable-hdpi/kamcord_facebook.png
+SHA1-Digest: CuF3Ykgrys9v87Q3jrZUDsJMl48=
+
+Name: res/drawable-hdpi/com_facebook_tooltip_blue_background.9.png
+SHA1-Digest: DeL3PB83RoQM/i3fDhFKt05Z8U4=
+
+Name: assets/bin/Data/8e9c1aaf097094c87bc9013437dfd2e2
+SHA1-Digest: P8y6vJOyuEW52BbhObYjjt15lqE=
+
+Name: assets/bin/Data/024efe315d74f4857b29a2f3b6ee59ad
+SHA1-Digest: 3udfc+vPDi2EP9lj72Uk7qL4Rqk=
+
+Name: assets/bin/Data/74451648ff3664e6bb2fa3ed8ca168b0
+SHA1-Digest: Ap5u34JHyC6Vq3YE2blRM1emJOc=
+
+Name: res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png
+SHA1-Digest: 1nB29gilkMG21U2c1UzWz5vtjpc=
+
+Name: res/drawable-hdpi/com_facebook_picker_magnifier.png
+SHA1-Digest: IRytpOlTJ0L0tqrpIfR65gTRRSo=
+
+Name: assets/bin/Data/Managed/Mono.Data.Tds.dll
+SHA1-Digest: gjL9grUc2BFmGvIzBbgUX0fxX1I=
+
+Name: assets/bin/Data/sharedassets71.assets
+SHA1-Digest: lB1K6+R/HGnGz4HrqNBQ/nr2Kf0=
+
+Name: assets/bin/Data/72c8d0a8945054aac9d2f57f13d12561
+SHA1-Digest: Ay5Mj77VQJmQ4WKrKci7+UrDbmc=
+
+Name: assets/bin/Data/71a2a2415fb2a42699637e2eaf752136
+SHA1-Digest: taUGWnxtmB68HeZC6dc04MTeeqc=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png
+SHA1-Digest: Bdyi8PRk2107rc0T/q6Ek8orFjU=
+
+Name: res/layout/com_facebook_picker_title_bar.xml
+SHA1-Digest: KYQFdjgdwBo4GbFBABsHDw31HIE=
+
+Name: res/drawable-xhdpi/com_facebook_button_like_background.png
+SHA1-Digest: D0P890HcJ9NwccFbtlVrcc8umMI=
+
+Name: res/drawable-xhdpi/com_facebook_button_blue_normal.9.png
+SHA1-Digest: nqGHiPOhSaIXmMVgJ9Ux7JqUxEk=
+
+Name: assets/bin/Data/603840ea529da4a5c93b16e92a3e4e73
+SHA1-Digest: BwdJaPH7z6A9HF0qNmnvYuYtwlk=
+
+Name: assets/bin/Data/8c3b864df7a3543d88c31dfccfb72b4a
+SHA1-Digest: /R/HXCEEMhJho0PaK34Ca8DVU1s=
+
+Name: assets/bin/Data/83564dcc553aa407da696c563f8026b7
+SHA1-Digest: 5WULRy4wfGZcGqr77UtmK4+V9RU=
+
+Name: res/layout/hyprmx___requiredinfo.xml
+SHA1-Digest: yBI/HmGpr+ZGRm+P7tEnT57j1nY=
+
+Name: assets/bin/Data/9d22e78695a214c29910faf922479d1b
+SHA1-Digest: wqjXkxf1z2E2njGbPXkFQcEuX8o=
+
+Name: res/drawable-hdpi/ic_plusone_tall_off_client.png
+SHA1-Digest: SBKgHrI8+WG2Q5nUL763ra3tcmc=
+
+Name: assets/bin/Data/95d6fc3ed49c44498a8a80e317521d83
+SHA1-Digest: sKtLMAOGdZs2yIFn8SDxKGnstdg=
+
+Name: res/drawable-hdpi/com_facebook_button_grey_normal.9.png
+SHA1-Digest: BvNuj0JM4dW1M5X/qZOU04aa9aQ=
+
+Name: res/drawable-mdpi/kamcord_twitter_gray.png
+SHA1-Digest: mTn4vZdEQbTvWMNUUilGyoFm7WY=
+
+Name: res/drawable-xxhdpi/kamcord_facebook_gray.png
+SHA1-Digest: ANHL2bAqgvoHg+IciAXBG0LbXtM=
+
+Name: res/drawable-mdpi/kamcord_share_icon_active.png
+SHA1-Digest: 2BdLvoyD5zE6LmBP1pBkEo5z0ZY=
+
+Name: res/drawable-mdpi/powered_by_google_dark.png
+SHA1-Digest: SYwxuihJgUaoyjHCQQvZHUzSvgw=
+
+Name: res/drawable/kamcord_seekbar_background.xml
+SHA1-Digest: 7pwpE4yR7ALsQRSum2iwDjaJ6mU=
+
+Name: assets/bin/Data/e24243dbe5228401b916c117f9a7ec0d
+SHA1-Digest: HAI5sO67nCMZ0fe/3bvIODlVHeU=
+
+Name: res/drawable/app_icon.png
+SHA1-Digest: plC2Oso0TcZ9l79ybI83MeXdR8U=
+
+Name: assets/bin/Data/sharedassets35.assets
+SHA1-Digest: +L9MalMc/TD/cv+t+GEpcGTUk6w=
+
+Name: assets/bin/Data/99e7c6d4e2df34b5182c53c9f7f37b66
+SHA1-Digest: blUn3n3wlSNSw6Zj526b6/3t9Gk=
+
+Name: res/drawable-mdpi/notify_panel_notification_icon_bg.png
+SHA1-Digest: CbiOmu2xHaCO/6a1W1iVByfqK/A=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png
+SHA1-Digest: he0SlIYzLlZChBg6d38hheLzBns=
+
+Name: assets/bin/Data/1d1448b739dc0422a977a286a062a56e
+SHA1-Digest: rBIQGonppRQFurOmHX+PAFRWi34=
+
+Name: res/drawable-mdpi/com_facebook_tooltip_black_xout.png
+SHA1-Digest: +NOQmfBahK9wgyl14UEHXrBM1lQ=
+
+Name: res/drawable/kamcord_seekbar_progress.xml
+SHA1-Digest: nNn0UrOrxCEu4jOUofv+tL4BR28=
+
+Name: assets/bin/Data/a32afbfa5fd3540d5b62b59a105dc5db
+SHA1-Digest: PDc5MiIHdPj3sLs9hy4NHJSyBXU=
+
+Name: res/drawable/com_facebook_picker_item_background.xml
+SHA1-Digest: NIC3X9eJGUvYcyXzXoNh83mRd7c=
+
+Name: assets/bin/Data/811b737872b77426880c811401032af0
+SHA1-Digest: DjJRWchMcu2VpKczi5/csTQayfo=
+
+Name: assets/bin/Data/3a4c5cd08ec8b43cd8ec6443eaf5bc45
+SHA1-Digest: PAsuE+2vkx9u35FMAmDAYN8H6q4=
+
+Name: assets/bin/Data/309524ad7615040ab8f0b41b1c6feee2
+SHA1-Digest: lhQd0Suiq4uz9dS1ov50bmLShjs=
+
+Name: res/drawable-mdpi/ic_plusone_small_off_client.png
+SHA1-Digest: 5whZWZwuRck5OpUfQtK68/nh9Ac=
+
+Name: res/layout-land/z_kamcord_activity.xml
+SHA1-Digest: Xlqsgg6d5JIz9Q8Sdh+y2lq/OoY=
+
+Name: assets/bin/Data/e0a6544413d0441d3b53b820b24e9e84
+SHA1-Digest: MbI2UU2vB1jgYEHUao1f2p8jONA=
+
+Name: assets/bin/Data/003f28b8a804f4b6c8d7f91ccbc34864
+SHA1-Digest: /HbzPU25K2lwBF+EhMbD4eaxmmM=
+
+Name: assets/bin/Data/58c0c193b43864549a4023a59ae0f0c7
+SHA1-Digest: /0wZCN/INd1x7ns3+IPU6l5i3JI=
+
+Name: res/drawable-mdpi/com_facebook_tooltip_blue_xout.png
+SHA1-Digest: VpSoMW/6yLkYe65/CO1eWu25/vg=
+
+Name: res/drawable-xhdpi/kamcord.png
+SHA1-Digest: 5zXzrP0Tmvd23hdMLPEMXnZpOic=
+
+Name: assets/bin/Data/a4a5b0c001d264e90a982e749c0bf40e
+SHA1-Digest: j11ydL1iqsVrOUT7bdy1+fYaNlU=
+
+Name: res/drawable-xhdpi/com_facebook_tooltip_black_bottomnub.png
+SHA1-Digest: TNBUU/+Kiv9UtYIEGLvK+KY7TPA=
+
+Name: res/drawable-mdpi/kamcord_play_overlay.png
+SHA1-Digest: ZGcaXc4XPwKA3+qoFg9rBYgPBnQ=
+
+Name: res/drawable-xhdpi/kamcord_facebook_gray.png
+SHA1-Digest: DFOZvSx5+UyyXrVuez+7lzIi6AM=
+
+Name: assets/bin/Data/sharedassets49.assets
+SHA1-Digest: KO+4/tpRtyCEAFFb4Erz9RL/JLY=
+
+Name: assets/bin/Data/065d284ffa5ed48a3823b118d78292b4
+SHA1-Digest: tPYJu7asq1vy0njmzLGYarf6hUI=
+
+Name: assets/bin/Data/a1361ea799c7440dcbe91d60f99752df
+SHA1-Digest: KGLFYpMwp+IY7F5ZRz9KwwGRjXc=
+
+Name: res/drawable-xxxhdpi/white_icon.png
+SHA1-Digest: d2dMJ9BqQH4N5TyDWwgSzO3B0MU=
+
+Name: assets/bin/Data/d83406b99d1f44cf7b087ee8ae5deffb
+SHA1-Digest: fzqrBdkQObiA26yL58L/4UFJCXg=
+
+Name: res/drawable/com_facebook_button_like_selected.xml
+SHA1-Digest: TwIzQLO79yX8Hrjsh/BR2FAxkpU=
+
+Name: assets/bin/Data/925721a7d462b4956945af2a7a30e8f8
+SHA1-Digest: cDZp/BZTp6MS/ASTVyHf+AhX3Jg=
+
+Name: assets/bin/Data/f4aef30d1ef9f478e9742483e40b8a2d
+SHA1-Digest: 3xmwMdEpiehglEBaCFQtdCGgI5Q=
+
+Name: res/drawable-xxhdpi/com_facebook_button_like_background_selected
+ .png
+SHA1-Digest: sblc8bTydfV/A8LTVHEPYWXKsAw=
+
+Name: assets/bin/Data/45efc80e9db8e4f4f82400ee0edd38d3
+SHA1-Digest: 4+jC1eOtZYz4n1pb7HzyjkzzNbo=
+
+Name: res/layout/com_facebook_picker_title_bar_stub.xml
+SHA1-Digest: /GANvnl4NM6JcZm0BOPyW+6y0EQ=
+
+Name: assets/bin/Data/sharedassets32.assets
+SHA1-Digest: S46Ud8wYSpL9gZBD1oIT6ueqY7I=
+
+Name: res/drawable-xhdpi/kamcord_watch_icon_active.png
+SHA1-Digest: HXql6LEcmC30mJzLLsOMPb1/kYU=
+
+Name: assets/bin/Data/2643dc3d04c3f4a8ca9f6d2aa450f7ee
+SHA1-Digest: bSQgF02MqsQwTcpLVBOgbEhVm+g=
+
+Name: assets/bin/Data/1d53972c1257f486c99bb37c73615a14
+SHA1-Digest: TkpzsJpMNKsUb327QYe0hKIoqC4=
+
+Name: assets/bin/Data/40e5d6dfeed3044759baec1924fcd00b
+SHA1-Digest: Lh2R3c+yj7n4rYl7t2dHXTpRbhs=
+
+Name: assets/bin/Data/sharedassets45.assets
+SHA1-Digest: 2epIszehtgdugppK2HXqhHyWrrQ=
+
+Name: res/drawable-hdpi/com_facebook_button_blue_focused.9.png
+SHA1-Digest: f6ffxUARnD4OE2WatPT59yDgeJ8=
+
+Name: res/layout/z_kamcord_media_controller.xml
+SHA1-Digest: 6wvqs4MpYyOQlgQPko/GP4EK51M=
+
+Name: assets/bin/Data/30999eeee9fab46369e0eee096a313f6
+SHA1-Digest: X8UBC6F4AxRxiofnGK3Damwzsas=
+
+Name: assets/bin/Data/3bcea671864034d82bd8f6754904c7b5
+SHA1-Digest: yKKZu1p7c1dJl4Zt7oGKI2R11mc=
+
+Name: assets/bin/Data/bc876fd1200c8416b90c7e723d7b508b
+SHA1-Digest: 6iY8ryc+cFxPwOnNAqUgAOefjRQ=
+
+Name: assets/bin/Data/86965e4c031264577aac415a2d4585c3
+SHA1-Digest: 6ow6NRNF3eSg2tbHlAhVQSEQXps=
+
+Name: assets/bin/Data/cfc466cd529c848bcae579fd60063913
+SHA1-Digest: em9a0IYfnHpwXq/dwObzAABGe+k=
+
+Name: res/drawable-xxhdpi/kamcord_back_icon.png
+SHA1-Digest: Sg4Pwdi6ArUr4WnrT47V37WcNg4=
+
+Name: assets/bin/Data/ed38b747527d0a2469c788d720272646
+SHA1-Digest: iooDBhoa0MTFAuFZ5MFiRB7b600=
+
+Name: res/drawable-mdpi/common_signin_btn_text_focus_light.9.png
+SHA1-Digest: 7vLApczB6mEex3xCchwoPVizP8w=
+
+Name: assets/bin/Data/d6545d4350cc1487f9ae7db9baf0f9e3
+SHA1-Digest: RC1N6dENYtJSoVDjqfMVib+ytXU=
+
+Name: res/drawable-hdpi/graybutton.9.png
+SHA1-Digest: RHhJJ22hFKsBe0dwK8kB2yPHeeQ=
+
+Name: assets/bin/Data/11c6074411f0549e1bbe4d1d67c073d1
+SHA1-Digest: smJv4JcPHORpn16xeP/NG9ZsqjM=
+
+Name: assets/bin/Data/013f1d804352241d4bb3ab93a24126e0
+SHA1-Digest: GJ4Tf4tgnjfyAP2xLJ/brDIFTX8=
+
+Name: assets/bin/Data/00ed1acb8b37a5647ba53ae8c2df6109
+SHA1-Digest: VdozYBd2LHX44LZlmRqCJrdYYkQ=
+
+Name: assets/bin/Data/sharedassets12.assets.split6
+SHA1-Digest: VqgVvG5d8apqxncYW61+6Phicug=
+
+Name: assets/bin/Data/sharedassets12.assets.split5
+SHA1-Digest: NLFXUVcxbXCO7iF/NCANj/BspAU=
+
+Name: assets/bin/Data/sharedassets12.assets.split4
+SHA1-Digest: jhzD63Srj5rXRzkUSWFYWeiAmgA=
+
+Name: assets/bin/Data/f8f1c12939a68462a87fad9381dca6f9
+SHA1-Digest: ByTdOxiN1CdY2qNI++f4fi1VL9g=
+
+Name: assets/bin/Data/sharedassets12.assets.split3
+SHA1-Digest: AMirt5UXIYtfk6gZ0a07xk+nWQc=
+
+Name: assets/bin/Data/3b8ad2f3cf5cc48ada365588e7efdf98
+SHA1-Digest: 4LEzWky1X5W7NcuE4SQzLVfoz4w=
+
+Name: assets/bin/Data/sharedassets12.assets.split1
+SHA1-Digest: wpPJonjGy1aGQPwG6e/ISg9Otys=
+
+Name: res/drawable-mdpi/com_facebook_tooltip_blue_background.9.png
+SHA1-Digest: pJb+i/zRVYfgMCRkdrZMsi0qfFo=
+
+Name: assets/bin/Data/sharedassets12.assets.split2
+SHA1-Digest: kC/uuMvVSJIl+YSsw7G7LnoFG4A=
+
+Name: assets/bin/Data/3973b963ce8df481e90b931302395046
+SHA1-Digest: 1g46pixLs7zieAvEWsywJBXE81c=
+
+Name: assets/bin/Data/sharedassets12.assets.split0
+SHA1-Digest: MGWxOe9gOn3YccdoR1jqCmrbDRw=
+
+Name: assets/bin/Data/18e8adccc9e5f4dfa89d60f083f1bf5d
+SHA1-Digest: 5bdR+6rUVQ6SanL1Qxa5phzirGY=
+
+Name: res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png
+SHA1-Digest: VBdIt82ioiZO0Qmr7/J+8sPnop8=
+
+Name: assets/bin/Data/sharedassets69.assets
+SHA1-Digest: IYJOAEEqwZbKrzy92vf7ssYqyqI=
+
+Name: assets/bin/Data/acd203634ce804d82957c0712b931b68
+SHA1-Digest: zH2yfNObwg7UyIaJbs4fAsj953M=
+
+Name: assets/bin/Data/92d799d40f1714c46b77122eed44f224
+SHA1-Digest: 8F5SAnRvKlEpQ8JSjqtIWYylLOA=
+
+Name: res/drawable-hdpi/kamcord_facebook_gray.png
+SHA1-Digest: dzJLkR4lfEsI9dEww2ZwA5qj+4g=
+
+Name: assets/bin/Data/605e6663a1f904179bf06647378d9c89
+SHA1-Digest: dhZsb9TqGd6Ac2YAaq0+/B63fO0=
+
+Name: assets/bin/Data/ca4db202fba938b43bda8fb864e9db41
+SHA1-Digest: frlCXMx8+M45uMMPix6WFhtfArc=
+
+Name: assets/bin/Data/726ffa352cdca4abbb41de16f71f0717
+SHA1-Digest: EDojEapruxkdHZZZjt6OgM3DAU8=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png
+SHA1-Digest: UbXqMwM30HBljuHn+la04UPzB1Y=
+
+Name: assets/bin/Data/6aac45d59b18c4c259c3b953652e8878
+SHA1-Digest: FtiNXA+MkfteHluclhAlvaSncIo=
+
+Name: assets/bin/Data/splash.png
+SHA1-Digest: KV3t+WZQEniV/9KgdOeF3l5bt48=
+
+Name: res/drawable-xxhdpi/kamcord_twitter.png
+SHA1-Digest: u4FfQ49oO803gtaY6W3c3QY930o=
+
+Name: res/drawable/com_facebook_picker_list_selector_disabled.9.png
+SHA1-Digest: cKGQg8jgT0IkOi1RPo5Y+TSnQb4=
+
+Name: res/drawable-hdpi/kamcord_back_icon.png
+SHA1-Digest: eQqZ5c41u6IAX1Teu4iTeYW//ps=
+
+Name: assets/bin/Data/02c1a0410c36246c3af9ab8ac66530a2
+SHA1-Digest: xOcqMDC/oT+jbT1mKwvgV/9yV1w=
+
+Name: assets/bin/Data/674bf6d0e1dbd457491dcb18b7ab9b83
+SHA1-Digest: PLqcWREeKB6YSXfLqb5Q1pQar6k=
+
+Name: assets/bin/Data/18489695c7b12400d8227e6ac6432110
+SHA1-Digest: f9zzoDkM5XZKS/dbgvN3kUIAF7U=
+
+Name: assets/bin/Data/06568d5d634ae493fabd093ddee622c7
+SHA1-Digest: cYnMt4tP8kdpqcDj3knJ3MrRQf4=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.
+ 9.png
+SHA1-Digest: HzOQHYhhJxxzbZqK40hTgOfRhlo=
+
+Name: res/drawable/kamcord_share_edit_background.xml
+SHA1-Digest: 5kxxeJ4qxffM6Y5EIZZe+JWRZYE=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png
+SHA1-Digest: 1Hnpvj2UzKDvPZv175SFBfp0Gn8=
+
+Name: assets/bin/Data/8a399046719fd4b7cbc0ca32711dcec9
+SHA1-Digest: k2w2clUF/wPbdaVjLdP1lOv+m8I=
+
+Name: assets/bin/Data/f5e7b5381a236457fbc5554635cc0c9a
+SHA1-Digest: OaoVSN6uVxmlF/tpP4HK9EVLxfc=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.
+ png
+SHA1-Digest: /ps9lLPOdDdwDt2YyGRRyGkRCMw=
+
+Name: res/drawable/kamcord_watch_icon.xml
+SHA1-Digest: Mor/CwUTiJMWoIiiUfFhzdwpC4s=
+
+Name: res/drawable-mdpi/graybutton.9.png
+SHA1-Digest: EhJirKce2KI1WMmwEz+AJZbantk=
+
+Name: assets/bin/Data/a8ea19ee85f9946ee839efce4663e79e
+SHA1-Digest: D2I2Jniq1TO7huWjj3Mqju8WIuY=
+
+Name: assets/bin/Data/89e77b9918e0f4f9c9614ee373d3a4df
+SHA1-Digest: iTbRxfagfslxJLwyzhhTJISDXTc=
+
+Name: assets/bin/Data/846361af200884c5cad8e7b05573c6ca
+SHA1-Digest: x8cyWinRdlXDK1UV8yJ6eohDiOQ=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png
+SHA1-Digest: IkOjI29UDeEmriO620NWQRYQBQM=
+
+Name: assets/bin/Data/1be7df524b82f4e44bda6a4ae8e7b38b
+SHA1-Digest: xZv6BbAlPbGliEw7j/0EIEyDE4c=
+
+Name: res/drawable-xhdpi/app_icon.png
+SHA1-Digest: ULXFx+SE1+Noo09dFPWiKT8deY4=
+
+Name: res/layout/z_kamcord_fragment_create_profile.xml
+SHA1-Digest: X4aTtzL//lsEvfqncWgLGkVdnRU=
+
+Name: res/drawable-xhdpi/com_facebook_tooltip_blue_bottomnub.png
+SHA1-Digest: ehz+LMacu3qtWaa9iLQRwMqZIgo=
+
+Name: res/drawable-hdpi/greenbutton.9.png
+SHA1-Digest: NTqv9fS9pEMNfodTcsYVtqmc2r4=
+
+Name: assets/bin/Data/304a47723d686456493126d2d5783520
+SHA1-Digest: S3i1pTfOCEI64+KIYmyiSxq1Z9U=
+
+Name: res/drawable-mdpi/com_facebook_button_blue_focused.9.png
+SHA1-Digest: rZf/vriiPguZZUS/3ww/w7LJ8fo=
+
+Name: res/drawable-hdpi/com_facebook_button_like_icon.png
+SHA1-Digest: 1EHnKjaDMsRViwBPr4qAZzlwcvY=
+
+Name: res/drawable-xhdpi/kamcord_facebook.png
+SHA1-Digest: DzCrmnd78IaR5r0btJNwzlygYZY=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png
+SHA1-Digest: 2Zfa+F80lrkHKDHQCM2OErZr3Cg=
+
+Name: assets/bin/Data/d94f4d71bcbc949aa8a09559b5a3afa6
+SHA1-Digest: xmwpewZGRybuWkhudkxPhbuUusM=
+
+Name: res/layout/com_facebook_placepickerfragment_list_row.xml
+SHA1-Digest: 9S4Nlz2PR1F/l6XcRGpiDhVHV2c=
+
+Name: assets/bin/Data/Managed/InEditor.dll
+SHA1-Digest: Z8tOmFiu9YMA8JG2A92GFhK4cxM=
+
+Name: assets/bin/Data/e94cd7b408c7146d586080f28eab7f85
+SHA1-Digest: 7R4BI79i1gdJPsCWawN30YhKahs=
+
+Name: res/drawable-xhdpi/ic_plusone_medium_off_client.png
+SHA1-Digest: zeUJW+N1oH+oj9U7hL70+0TC4pk=
+
+Name: assets/bin/Data/48a6f09b1bf7f481a937133aa51f83e2
+SHA1-Digest: JzwLu7p3VuxFZ9EQZDXTSBcStUI=
+
+Name: assets/bin/Data/sharedassets19.assets
+SHA1-Digest: nuq5kZ+cX0mPVSz+oKMmMiWzcTE=
+
+Name: assets/bin/Data/sharedassets65.assets
+SHA1-Digest: 61kZrM3R7gKnKHZU3RpR2IHzEWM=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png
+SHA1-Digest: re+zLFhPUMSpBod/+8AnbiOF95E=
+
+Name: res/drawable/kamcord_player_fullscreen_icon.png
+SHA1-Digest: OGwP2IOSOimRCEsyxjOJH0+IUJ4=
+
+Name: res/drawable-hdpi/com_facebook_button_blue_normal.9.png
+SHA1-Digest: t/q1ll8cIcWlFuKff/cUYYaKKw0=
+
+Name: res/drawable/kamcord_player_replay_icon.png
+SHA1-Digest: 9HwGxjtwFIrnbyjqkkGWnUhC9Ug=
+
+Name: assets/bin/Data/a6e919f383fa840f1b3f43360db075c4
+SHA1-Digest: 9iOo68+Ygt0RcfKAdkR9Z6KIDFs=
+
+Name: assets/bin/Data/fc56adf208e094d9ab3a8f9f958f5ef7
+SHA1-Digest: T5yKB2Q30Rv95r1SyDc3a1WuAuc=
+
+Name: res/layout-sw600dp/z_kamcord_activity_login.xml
+SHA1-Digest: Q2FBcYuL9UQwnGUPtQVmRgx/O0w=
+
+Name: assets/bin/Data/d182e5d7bbb434b36b7404a4fbca807c
+SHA1-Digest: rgEMYUmY7yKGAuKrcK3gzYZWoU0=
+
+Name: assets/bin/Data/80d83f423eb344bd2ac230d0866301b9
+SHA1-Digest: 2BOkJIC7bKyLSk5XzjK7glYsBJs=
+
+Name: res/drawable-xxhdpi/kamcord_profile_icon_inactive.png
+SHA1-Digest: ldT5zCwTSi1YoRsYk1afZLx3K6M=
+
+Name: res/drawable-xhdpi/kamcord_youtube_gray.png
+SHA1-Digest: 7tWDnS/dtC+HUqt5bKZmd8n9++E=
+
+Name: assets/bin/Data/27138cae634e844e5b44b913b2133ac7
+SHA1-Digest: MSUmitRDDLsi+yExb3+HMsrPBhM=
+
+Name: res/layout/z_kamcord_fragment_web.xml
+SHA1-Digest: DdKiDh61t2mMv+DEOSFVBomJsiU=
+
+Name: assets/bin/Data/sharedassets76.assets.split1
+SHA1-Digest: 3iSqCYMfiAIJFpQ1+YIf0eWG8No=
+
+Name: assets/bin/Data/dd585dbb324d54dd59efacbc7df38930
+SHA1-Digest: QXJ7HqZAp/uYIqvuqy0olKw4heo=
+
+Name: assets/bin/Data/sharedassets54.assets
+SHA1-Digest: DcdDSCGVfqDWPV3WScOqZW488d4=
+
+Name: assets/bin/Data/85d072b95091b4706a9236aa2afdea55
+SHA1-Digest: FoGeLqn6/Yueq2CapN5bEwROoYU=
+
+Name: assets/bin/Data/sharedassets76.assets.split0
+SHA1-Digest: jnQSllLEwljZQX9k8wElc06dZiA=
+
+Name: res/drawable-hdpi/com_facebook_close.png
+SHA1-Digest: vzoVwUXnEtJQCL4582EeDreqvIA=
+
+Name: assets/bin/Data/729866002a2cd4955985d2de750bf384
+SHA1-Digest: ej+qwrA38UifQW52WB7/8xKvDXU=
+
+Name: assets/bin/Data/Managed/Assembly-CSharp.dll
+SHA1-Digest: upVXotIYn80cV/QlOTYg7fhD2Vw=
+
+Name: assets/bin/Data/level39
+SHA1-Digest: Wa8cOSdnfKwZd3N+62MUCE4lhIA=
+
+Name: assets/bin/Data/level38
+SHA1-Digest: pXKC0N+Go3LM5apK6ZukaaNphiE=
+
+Name: res/drawable/next_button.xml
+SHA1-Digest: B68T7OZUvYwYf6hapO+zlZZ1o1o=
+
+Name: assets/bin/Data/level35
+SHA1-Digest: +BiJebYkB9oIFdh/ADkjMLTJWCs=
+
+Name: assets/bin/Data/level34
+SHA1-Digest: q7+EYoeOLlAjXMKAKsiO4s7Mecw=
+
+Name: assets/bin/Data/level37
+SHA1-Digest: 4X6Jd0sDtqrRxWnV/x5AAe0cuUY=
+
+Name: assets/bin/Data/level36
+SHA1-Digest: 5QYikNQLojalcbWpabjdebkHmaY=
+
+Name: assets/bin/Data/91416a9113f4c46b79f589af164ab9f4
+SHA1-Digest: aJ3DlKYos/GWWEKX8aOetRjbreU=
+
+Name: assets/bin/Data/level31
+SHA1-Digest: SIQ7gpOuLVRavO871/9hoR+ZQYY=
+
+Name: assets/bin/Data/level30
+SHA1-Digest: Alef/TlKMaKUhYHfEvxWBVh1zUo=
+
+Name: assets/bin/Data/level33
+SHA1-Digest: w927jpRtHy/AWDrjQxToap8nLDE=
+
+Name: assets/bin/Data/level32
+SHA1-Digest: i8moh34vIomB6Hl+ZsXnyJnukCY=
+
+Name: res/layout-land/z_kamcord_fragment_share.xml
+SHA1-Digest: 9PPDVPjl+YAOgEkUzF2mjfUvD0A=
+
+Name: res/drawable-mdpi/ic_plusone_medium_off_client.png
+SHA1-Digest: W063SlyrzTvVLq8T+B8TBmOdWCk=
+
+Name: res/drawable-hdpi/com_facebook_tooltip_blue_xout.png
+SHA1-Digest: TC+NkOcwahA1AJHprbLOuITSC8s=
+
+Name: assets/bin/Data/0fa4d82312e174359b0c77d297304546
+SHA1-Digest: ooXEnlO//b6BoGyQBpdiz4sTno4=
+
+Name: assets/bin/Data/sharedassets6.assets.split1
+SHA1-Digest: 5COtYJXm+X2+kKZPBGpaRuIhy0Y=
+
+Name: assets/bin/Data/sharedassets6.assets.split0
+SHA1-Digest: oLbeleil72sIhljhdSQdWzE1HoQ=
+
+Name: assets/bin/Data/52c0f53b002c741f0b2d13bd2d4cc515
+SHA1-Digest: 2l9xveicgdvEIDHA6SLqh84j1vY=
+
+Name: res/drawable-hdpi/com_facebook_logo.png
+SHA1-Digest: +F9i6TennSQx3Unl/q4mPr3itE8=
+
+Name: assets/bin/Data/a2db2f6e9b89844f2995bf644b92fa2f
+SHA1-Digest: NosME6Qo3mpzyL+x6wpCGq6AjMc=
+
+Name: assets/bin/Data/91795c99e25b148288bcc5ce2608fbd7
+SHA1-Digest: xHeuhCsXlZKiO0+x061rEx6F8X4=
+
+Name: assets/bin/Data/493233d9572fe49fba159c84addd2557
+SHA1-Digest: CRnMxvHaVSXNoHTDezUhpsJi63c=
+
+Name: assets/bin/Data/2b95633f076e14dd481cbd8189400295
+SHA1-Digest: xozp/OVXHo6i5Dvw9KfR8pU10uY=
+
+Name: assets/bin/Data/21e9460ef2ff046d7b27f52a37750807
+SHA1-Digest: e65PWwadZ2IDC5nKjTB8DU35Ts4=
+
+Name: assets/bin/Data/level29
+SHA1-Digest: q9FEXMoR5GLqxEb8bEXHkf2I9SA=
+
+Name: assets/bin/Data/level28
+SHA1-Digest: EJyO+zzf06oumfz0YWM0bmD6HtQ=
+
+Name: assets/bin/Data/level27
+SHA1-Digest: Uds7TaPY4b0tDg4Bf1Fk1wcyLzs=
+
+Name: assets/bin/Data/level26
+SHA1-Digest: NuTCjcWwuwWIrtWuphozDv61I4w=
+
+Name: assets/bin/Data/44f406e1b1b7248b0a6374c43a9c4a75
+SHA1-Digest: W9MBfIClo+vKwMTz+C7I8JQFltg=
+
+Name: assets/bin/Data/level25
+SHA1-Digest: NOawKWz6P6/M7BuGDIIEktRAdLc=
+
+Name: assets/bin/Data/level24
+SHA1-Digest: 1b47aD8DLCyl8nFovpbfFhXlDuw=
+
+Name: assets/bin/Data/level23
+SHA1-Digest: a7D5biQ0d2/Iq+DtGLYGnM+SuQI=
+
+Name: assets/bin/Data/level22
+SHA1-Digest: zxtCPeZlSnXlGw3p7P41mx0vOgc=
+
+Name: assets/bin/Data/level21
+SHA1-Digest: nv8DVKWwIwU6Mp73tRoANUa2zAc=
+
+Name: assets/bin/Data/level20
+SHA1-Digest: Q06Zoz+HJ97YH8rcLn370eIxF8c=
+
+Name: assets/bin/Data/ca2018da5b95b4476acea6e2a39c759b
+SHA1-Digest: f/sjN3+bJgTvpQiw1KAZP5T8T3E=
+
+Name: assets/bin/Data/32eb7cd16142e49ec8365ede491ad636
+SHA1-Digest: DJcYqXOrclsKquQjU4xIHWAs1bU=
+
+Name: assets/bin/Data/sharedassets29.assets
+SHA1-Digest: C0WziGh3FMLIcNszd2z5bdvl+pI=
+
+Name: lib/armeabi/libkamcord.so
+SHA1-Digest: d9Fye4V0rCwKrzaKtKwkE4kTyts=
+
+Name: res/drawable-hdpi/com_facebook_tooltip_blue_bottomnub.png
+SHA1-Digest: vj/tS9CFJlS6NBgJlB/ZKTibdII=
+
+Name: assets/bin/Data/8b7cd61f87bc54ea9a91a4ae59b9aa1a
+SHA1-Digest: KFMVCOfucHIJiLiWNhV4d319z+A=
+
+Name: assets/bin/Data/sharedassets7.assets.split2
+SHA1-Digest: TDnqfQJ1bWFKjVPZfT5qW1xuo4M=
+
+Name: assets/bin/Data/sharedassets7.assets.split1
+SHA1-Digest: xkuOEI13fxeDBUHRuc98EwMXBdo=
+
+Name: assets/bin/Data/1f91b16786c63443c9f1ba66cd147378
+SHA1-Digest: yzEcfaGnYQpdA0YEqydkvwLhimc=
+
+Name: assets/bin/Data/sharedassets7.assets.split0
+SHA1-Digest: rOtDGGbrDff/AUflCFL9iu7n0oI=
+
+Name: res/layout/z_kamcord_activity.xml
+SHA1-Digest: dwg43ni9Thdn25U55WluM38q6jQ=
+
+Name: assets/bin/Data/3408f725286334b3ea11a0073776ea75
+SHA1-Digest: OLRUwnc+Dgcu1JkQVXy07IN4DyQ=
+
+Name: assets/bin/Data/sharedassets59.assets
+SHA1-Digest: muUDWZHRYJJJOaBik1GHQjfF1hc=
+
+Name: assets/bin/Data/sharedassets7.assets.split6
+SHA1-Digest: MHsDpmv8N2OQX3yIYBcjzc+dDuw=
+
+Name: assets/bin/Data/sharedassets7.assets.split5
+SHA1-Digest: FRsrdsz+9iolaAyRG3ffX4uSf7Q=
+
+Name: assets/bin/Data/fc5ca4aa2afcd4469b35193dbe50697e
+SHA1-Digest: f4TSx8VuM9Cj4Lpw2Q/tY8T1Sn8=
+
+Name: assets/bin/Data/sharedassets7.assets.split4
+SHA1-Digest: 2A/m7hkXDGN2e8k+jPTRr98vjjY=
+
+Name: res/drawable/common_signin_btn_text_light.xml
+SHA1-Digest: o652NE9fP7ecjT1ch1Qb3kWtTMc=
+
+Name: assets/bin/Data/sharedassets7.assets.split3
+SHA1-Digest: tvVKeeOPFpP2giBRgVM6kRPRIbA=
+
+Name: assets/bin/Data/level53
+SHA1-Digest: 2jgKw9yri2j1Hh8r38UME+RQ7G8=
+
+Name: assets/bin/Data/level52
+SHA1-Digest: +U6HMIM8fuBNecWWCM0yZWl+3wA=
+
+Name: assets/bin/Data/sharedassets7.assets.split9
+SHA1-Digest: pBzv0nMEEM7X+vKmTJrGy4tP8Eg=
+
+Name: assets/bin/Data/level55
+SHA1-Digest: YuIhP2Y3i9/ZdHF1dV0YK9vcG9o=
+
+Name: assets/bin/Data/sharedassets7.assets.split8
+SHA1-Digest: acoObsJnynMyIt2piTXTYooPGd8=
+
+Name: assets/bin/Data/46580087753d541a4aada5102ba62d11
+SHA1-Digest: fPEM0SDMd4now6EVKbMPKJcOAC8=
+
+Name: assets/bin/Data/level54
+SHA1-Digest: s3+sSN1INKOkW2VIViov/HT78Rc=
+
+Name: assets/bin/Data/sharedassets11.assets
+SHA1-Digest: R0P+QhT6kRFa2PDYpdKmvctEHWI=
+
+Name: assets/bin/Data/sharedassets7.assets.split7
+SHA1-Digest: sDIfKNHcrhm1DbFHu7Bw0wERODY=
+
+Name: assets/bin/Data/level57
+SHA1-Digest: Oy7bvotiEKRBxT/OFUbXI9xWW+U=
+
+Name: assets/bin/Data/level56
+SHA1-Digest: TuEGCbkCzHq3aGs5eD6MizNQoig=
+
+Name: assets/bin/Data/level59
+SHA1-Digest: qpgEDR6xAA91RJCqnJ83pWzk/4w=
+
+Name: res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png
+SHA1-Digest: 1nB29gilkMG21U2c1UzWz5vtjpc=
+
+Name: assets/bin/Data/level58
+SHA1-Digest: P5mxOLuRtaSb1G8V6yjJ+YzmT84=
+
+Name: res/drawable-hdpi/common_ic_googleplayservices.png
+SHA1-Digest: VI4dX5B2Y48SEkB7kbHeKlBvZ4s=
+
+Name: res/drawable-xhdpi/ic_plusone_standard_off_client.png
+SHA1-Digest: srU1La0aKxKcB1CLvKiSYa09NHU=
+
+Name: res/drawable-mdpi/com_facebook_picker_magnifier.png
+SHA1-Digest: yotnhVn7HzOwvsA1iVxnQdW+R6Y=
+
+Name: res/layout/com_facebook_search_bar_layout.xml
+SHA1-Digest: 5TXDFm9YvOs3EzFzm1dMIachVPw=
+
+Name: assets/bin/Data/3e8e9aee26a5b4124b77a4c6e12837dc
+SHA1-Digest: TkXbZ0aCnlrRvKVxUkT11b+rVUQ=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9
+ .png
+SHA1-Digest: 5te3wznPBVYtZMjVj49FYN5YlRA=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png
+SHA1-Digest: ppRAUb4e8AfMY+hiTgUxYeX8bDw=
+
+Name: assets/bin/Data/level50
+SHA1-Digest: PavMWkIzvR2XqTrty3GynQcmuZ0=
+
+Name: assets/bin/Data/level51
+SHA1-Digest: mL/cffy5CYJDq+PazkWQYC7X3Ns=
+
+Name: assets/bin/Data/d0195646faacd49b781a8853716dbb13
+SHA1-Digest: C7iTukzjpxzeNG7VPReAg/IcY0A=
+
+Name: assets/bin/Data/70f156bde25a3464ca266a396f1e3483
+SHA1-Digest: uT8FGJLn4w93XZ2w6QOol151zXU=
+
+Name: res/drawable-mdpi/common_signin_btn_text_normal_light.9.png
+SHA1-Digest: CFcKGCNCXdElgRyG3GU1cR7Lpck=
+
+Name: res/drawable-hdpi/kamcord.png
+SHA1-Digest: dTix23bOfOVIqdu1UBXvaTg+cDw=
+
+Name: assets/bin/Data/123daf0dc12214cd1a208793dbc54ba3
+SHA1-Digest: JnOsPS3culu7RYpt+bj30nmbqB8=
+
+Name: res/drawable/com_facebook_logo.png
+SHA1-Digest: COOFdQDqXjvNdi+5TMPa3bPhaEQ=
+
+Name: assets/bin/Data/level49
+SHA1-Digest: L2jffYdio7Cn2rVYgOtOC06+WbA=
+
+Name: assets/bin/Data/sharedassets0.assets.split2
+SHA1-Digest: Tu3hBaxd+tQbYr/rnX9UMnDGGJk=
+
+Name: assets/bin/Data/sharedassets0.assets.split1
+SHA1-Digest: UNfetkaC38dWCnJfDONEyok8t1A=
+
+Name: assets/bin/Data/sharedassets0.assets.split0
+SHA1-Digest: eK+0Ycy/v66Pu/sR6xpybEiuiXE=
+
+Name: assets/bin/Data/level44
+SHA1-Digest: mao+hLP3l5Ac0ymstugQC9ZcZ0s=
+
+Name: assets/bin/Data/level43
+SHA1-Digest: /sODOhn3bDZ3AI60ULx2Jwv6QuQ=
+
+Name: assets/bin/Data/5c3b7f3d451144cb3b36973a142a4240
+SHA1-Digest: HaLyC5gry3LFNMSVgbsFRcf0RQM=
+
+Name: assets/bin/Data/level42
+SHA1-Digest: dnl0yeFecxB3X56+Qtt2lNRMwZA=
+
+Name: res/drawable-hdpi/common_signin_btn_text_focus_light.9.png
+SHA1-Digest: cyroPBwNNxlz5xXq1uSZsOxhnH0=
+
+Name: assets/bin/Data/c79bd9eb437d342859274bf01ce2e296
+SHA1-Digest: dBqDEMtT+N2r9x8Qck7G+Xk/vu4=
+
+Name: assets/bin/Data/level41
+SHA1-Digest: zDfTKRR00bXULc8JG4lePjD7JPk=
+
+Name: assets/bin/Data/b9072bcb5639a48f2a6a77f884d8f293
+SHA1-Digest: 1K2Aq2qy6tle/bbXU+2wme0WrkQ=
+
+Name: assets/bin/Data/level48
+SHA1-Digest: UvRnXzSnDkUFN+c8ZJDAzIrL4Ns=
+
+Name: assets/bin/Data/level47
+SHA1-Digest: I1Xf+ZkA95XLgRWV9KhcW0Ontog=
+
+Name: assets/bin/Data/level46
+SHA1-Digest: x5h3o+5MVa6wIsXIyewbygywoUE=
+
+Name: assets/bin/Data/0e8a5ce1d9cdb423a98c925ee408a96f
+SHA1-Digest: 2toHc+hCGt5ZXvTbGy7WnNfmkbU=
+
+Name: assets/bin/Data/level45
+SHA1-Digest: uqJXjfcGOyx7A/j+DkI1Jfp+ZV8=
+
+Name: res/drawable/com_facebook_button_blue.xml
+SHA1-Digest: 9R8ZJJY6LfvskP3mfL0kqv8kKkY=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png
+SHA1-Digest: qeM5rd2iODmcmiwbxvt0gCvbkog=
+
+Name: assets/bin/Data/sharedassets26.assets
+SHA1-Digest: meWIMSQRY83b3mM7tMM83lEcVFY=
+
+Name: assets/bin/Data/level40
+SHA1-Digest: Waj5GjDUFnpf2k53YKw1h/v5DBc=
+
+Name: res/layout/hyprmx___offerlist.xml
+SHA1-Digest: uGj7Cf5Rnz4OAO5IqOVmZCxHIMQ=
+
+Name: res/drawable-hdpi/ic_plusone_small_off_client.png
+SHA1-Digest: zYEVoFXucmJpZuzXxsGneYWIlNU=
+
+Name: assets/bin/Data/ed0f67d2ac74340d7b5bcee8348cf50d
+SHA1-Digest: BrrqPwpzOZlW4nWywR/XDI5nefA=
+
+Name: assets/bin/Data/a50b98dbcc22f4628bed9d9f35a23d03
+SHA1-Digest: Peln+IZIW3P3b8BsPpkebPUHJ98=
+
+Name: res/drawable-xhdpi/ic_plusone_small_off_client.png
+SHA1-Digest: vBwm0ihe3tJu932F0b7IvAec1Ho=
+
+Name: res/drawable-xxhdpi/kamcord_youtube_gray.png
+SHA1-Digest: ssHwag2VEcEvCMd/oEXXAabIrEg=
+
+Name: res/drawable-xxhdpi/kamcord_youtube.png
+SHA1-Digest: xEHdQZWqQtDIdXSvWjKTKo98eVs=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png
+SHA1-Digest: THnQ9r/oTuPB60ajOYXvK1GrUsE=
+
+Name: assets/bin/Data/c9c04aa3c460548ab9ffdfbb84e721bb
+SHA1-Digest: HnWP8eygIrvdy3FAohiLdPpOhSc=
+
+Name: res/drawable-xxhdpi/com_facebook_button_like_background.png
+SHA1-Digest: wSYeozqoGXl3VPNgW9ONgZGNvdY=
+
+Name: res/drawable-mdpi/com_facebook_tooltip_black_background.9.png
+SHA1-Digest: b+2tYjxJbZnWtjs3KhJuZyu1EN4=
+
+Name: assets/vg_mute_on.png
+SHA1-Digest: 4JDaX13RiPW/OBOTIEOVqWs5S+Q=
+
+Name: res/drawable/com_facebook_picker_list_selector_background_transi
+ tion.xml
+SHA1-Digest: TV4/RGM4k9ZS9qiTw37wgIqWv8g=
+
+Name: assets/bin/Data/5f97e200de98542b892e86d1fccb3584
+SHA1-Digest: H6pou56/WD4RhzO0EyZ9naegAJM=
+
+Name: assets/bin/Data/44b4d370785e6433f950d5df22ab63ff
+SHA1-Digest: D76xXTfTazwVV0Dnl7A4aCE3OhA=
+
+Name: assets/bin/Data/sharedassets13.assets.split1
+SHA1-Digest: /zvxz71oXLp5uICwpSoXAh5+MqE=
+
+Name: assets/bin/Data/sharedassets13.assets.split0
+SHA1-Digest: jwEvQ32a5L4jHmjqwT+PlJkZFkE=
+
+Name: assets/bin/Data/sharedassets4.assets
+SHA1-Digest: feIe43sY4EjSh+Rl6bA0fFbYhgw=
+
+Name: assets/bin/Data/Managed/AdjustUnityWS.dll
+SHA1-Digest: qg37nF1DNHMTTQ2agK2+/lCplPs=
+
+Name: res/drawable-mdpi/greenbutton.9.png
+SHA1-Digest: 2HHseqJ1EeWdfpCpdvNkBand/Bk=
+
+Name: assets/bin/Data/5400a53f6e6144fb0869e724b8eb52e7
+SHA1-Digest: edpOC9I6ExIvxyDvp9QRTufdD1E=
+
+Name: assets/bin/Data/sharedassets13.assets.split2
+SHA1-Digest: nEjJOYL/9ZifMyU44MdcUlCTrIE=
+
+Name: res/drawable-mdpi/com_facebook_button_blue_pressed.9.png
+SHA1-Digest: +tjTExmZ1lk9Ox0aZm5rNcUPoFY=
+
+Name: assets/bin/Data/7b2232ccafe5842c8986de5698f5c9ff
+SHA1-Digest: fkJpYHW09pTGa+GMwUfAHMUCyQc=
+
+Name: res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.p
+ ng
+SHA1-Digest: 29jlpwaYo8yADFvg53lRNdVbvt0=
+
+Name: assets/bin/Data/907d7931d42224e039e980b525ac5ffa
+SHA1-Digest: w83AEchyhBtXfVVgFx5bx8wSUzA=
+
+Name: assets/bin/Data/467d4b2a5874746418bc68d03cf6e72d
+SHA1-Digest: 9KbKx8b+P9gThZf1jBXqSVV1kSY=
+
+Name: assets/bin/Data/052356e3ae755431f89645ab0693ec79
+SHA1-Digest: 1Wo73zqsZ3ZVK+UuYvY/R1by9zw=
+
+Name: assets/bin/Data/Managed/P31RestKit.dll
+SHA1-Digest: 56IV6mAemJczxGLxODtjbwLk1XA=
+
+Name: res/drawable-xxhdpi/ic_plusone_tall_off_client.png
+SHA1-Digest: Zpm+uanjIZounXjdWPevociI0a8=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png
+SHA1-Digest: 2Zfa+F80lrkHKDHQCM2OErZr3Cg=
+
+Name: assets/bin/Data/sharedassets80.assets
+SHA1-Digest: EVS9CyO0ZIm+YR3DLsbnPNdRBtA=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png
+SHA1-Digest: WqQF3y/vDvl0c3tlpCQMUlAGR90=
+
+Name: res/drawable-xhdpi/com_facebook_close.png
+SHA1-Digest: 0IaTuYpHdwNgyn8PrCfM4P1LSUM=
+
+Name: assets/bin/Data/d553f4819145a4911ad880b6fd10287a
+SHA1-Digest: mN0Dao8o7QESmagE2LsEUMTxoRE=
+
+Name: res/drawable-mdpi/kamcord_twitter.png
+SHA1-Digest: /TYZy7w+2PnTJFNfbG9oL7B1Fag=
+
+Name: res/drawable-hdpi/kamcord_profile_icon_active.png
+SHA1-Digest: clCxNgc0v2uMqmxi08zSTeA14xs=
+
+Name: assets/bin/Data/e93c5b13587454bfa96588440521f0dc
+SHA1-Digest: +aoOWV2l4VmKRG+iBuad1JfrgYQ=
+
+Name: assets/bin/Data/f90d20ccfd41f4917ba7c2cdfaf42270
+SHA1-Digest: ghOcORG5xG33366icY8/4s+oyDI=
+
+Name: assets/bin/Data/Managed/LCDSDK.dll
+SHA1-Digest: 4QmenMgx3/zw5d8BPB9B5XkVsGY=
+
+Name: assets/bin/Data/beea2fa30ab894fc6ba6d678a3739f9c
+SHA1-Digest: pM0xprmrG6/xybRvT7x0mowa7nM=
+
+Name: assets/bin/Data/level10
+SHA1-Digest: OlNQKAg88KYgmKchHmZCSro4+AM=
+
+Name: assets/bin/Data/level11
+SHA1-Digest: tBbqpG03lQgzBqnSy18Zyg3yahM=
+
+Name: assets/bin/Data/95de54fdca5384391881bb2b4f751458
+SHA1-Digest: gbnHmaTOae8OCpItd+/1xjDIoHE=
+
+Name: assets/bin/Data/1ceb1f38becbb48798f4ba3b382d46ad
+SHA1-Digest: BFzxZ6SoOz6aGxkVeLv8cZvKvNo=
+
+Name: assets/bin/Data/level12
+SHA1-Digest: kHe3Sda6CoxNTcN1NOTCAG1JBKY=
+
+Name: assets/bin/Data/2ee56a4338fb44370894e2aa8a95f19e
+SHA1-Digest: iP6N1gyAGSraEiAD/MxV2NRpCQk=
+
+Name: assets/bin/Data/level13
+SHA1-Digest: BFAvGN5Cr0H3ZFBi1XB1mz0GGZk=
+
+Name: assets/bin/Data/level14
+SHA1-Digest: nRi7JcmVD7WM88YeG/aGJGVsLIU=
+
+Name: assets/bin/Data/level15
+SHA1-Digest: BJt33I0IXkClK4BKbkIYaXAPSlU=
+
+Name: assets/bin/Data/level16
+SHA1-Digest: 7w6V3LPQP0T+DPreFHqnN7xduIk=
+
+Name: assets/bin/Data/level17
+SHA1-Digest: +bPsxNl0EucZ4xoEi4lc20vmNIc=
+
+Name: assets/bin/Data/level18
+SHA1-Digest: bPDgytEFNMOvW+BhIIPp97K4EYM=
+
+Name: assets/bin/Data/ad72b5071be84412abaa9de156b115ea
+SHA1-Digest: ApRuecyeIKx7y9xmf8/ayNiierg=
+
+Name: assets/bin/Data/level19
+SHA1-Digest: q1y8P0/tQDug007wdgQYa4L7p/A=
+
+Name: assets/bin/Data/sharedassets82.assets
+SHA1-Digest: g2OePmyd+MjKtFj4mKdT78GaYE8=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png
+SHA1-Digest: DS5PrTsz70UomI8fFnGBLzl5gOc=
+
+Name: res/raw/gtm_analytics
+SHA1-Digest: z4lph6xlv9ztpVWW3QM9h7QjqS0=
+
+Name: res/drawable-hdpi/kamcord_twitter_gray.png
+SHA1-Digest: nZAr+nRps9NEys+ZDKMvbpQnLFM=
+
+Name: res/raw/proximanova_semibold.otf
+SHA1-Digest: dKaZud0/Bajk0hZIvGDvde15G9Q=
+
+Name: assets/bin/Data/7601a75737c1f468d83d13b70c2cf2c3
+SHA1-Digest: tBmj+3VNuHjhiZJ0+OospWn56Ec=
+
+Name: assets/bin/Data/e48cdf1177e2345c9b132205b1b099ac
+SHA1-Digest: uGIzfy5sEN5s+6hG8AcxMhk1S+U=
+
+Name: assets/bin/Data/sharedassets14.assets.split7
+SHA1-Digest: zgMXII/ywGjP0xXBiOzCkkiP3Ko=
+
+Name: assets/bin/Data/sharedassets14.assets.split8
+SHA1-Digest: hASUi9PBd+2AQt+HmPxsDXoPths=
+
+Name: assets/bin/Data/sharedassets14.assets.split5
+SHA1-Digest: jSicaxwRo6RU9NgSRioRsp+GvKo=
+
+Name: res/drawable-mdpi/com_facebook_tooltip_blue_topnub.png
+SHA1-Digest: qCzczdvFGchW12Y01pB9ovTV9bQ=
+
+Name: assets/bin/Data/sharedassets14.assets.split6
+SHA1-Digest: mSRKFloU2XRdGjrFD5mZdeYhv7w=
+
+Name: assets/bin/Data/sharedassets14.assets.split3
+SHA1-Digest: bQjWUzHbcEcU/ozpRHN9xDmAgr4=
+
+Name: assets/bin/Data/sharedassets14.assets.split4
+SHA1-Digest: ZASW88dxhI/ioKkiWKZ3wRH5Zc4=
+
+Name: assets/bin/Data/sharedassets14.assets.split1
+SHA1-Digest: Clu+DAlyNno3b/r5EWotzAISm+4=
+
+Name: assets/bin/Data/sharedassets14.assets.split2
+SHA1-Digest: JDWhsRW/c1DhJFRqXb3/V8QPwPA=
+
+Name: assets/bin/Data/4d90b4a0d963a4fbaa3c0e076ef0abeb
+SHA1-Digest: lC+qxQDekxdBDwC/xDwJgssF5hs=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png
+SHA1-Digest: ZDogSdlgVekmFIAbKguvig7+XGg=
+
+Name: res/drawable-hdpi/com_facebook_button_grey_pressed.9.png
+SHA1-Digest: tWUWjtTo3HxE/8a02qZ5QsaeyfM=
+
+Name: assets/bin/Data/e0ee401e5962f4828a37e578d9104a28
+SHA1-Digest: RjoV4hL4esI34Tvh1ssnGlsJ6Xw=
+
+Name: assets/bin/Data/ef235be8d48d8441c9edd4704095093f
+SHA1-Digest: XoRIxuomDMu1MkVB1tpowTn2nPA=
+
+Name: assets/lcd.json
+SHA1-Digest: NFQmwwKjjm2pC+izLJ+zxRpatrc=
+
+Name: assets/bin/Data/sharedassets14.assets.split0
+SHA1-Digest: 2Umsj0PqgHE0i+GttaFJLPbgEcA=
+
+Name: assets/bin/Data/72b1f57d3f8884230871865d9742fc8e
+SHA1-Digest: gowaCaASO/FrUg4FYB1XMG5Dy68=
+
+Name: res/layout/com_facebook_friendpickerfragment.xml
+SHA1-Digest: 0Vz347OqHM/QbaqZ/9j02HGlhpI=
+
+Name: assets/bin/Data/2c7ae3a0d56bf407eb72d9d08529827f
+SHA1-Digest: 9OEzffSW138Pa9MGO9mMsiGjYrw=
+
+Name: assets/bin/Data/91f0ebc8b86d346ad944489d23a1c8b7
+SHA1-Digest: +rIwui2vyo7DyFhroKcex9A9Hrk=
+
+Name: assets/bin/Data/sharedassets64.assets
+SHA1-Digest: A18AW0sKCQ7GlUC2jrpS1AsY/oE=
+
+Name: res/drawable-ldpi/white_icon.png
+SHA1-Digest: FPN0SdOg2CmXa/Sct9vXe+FYKPA=
+
+Name: assets/keyValue.db
+SHA1-Digest: kiOLSZ6Z/QM29Wpv2uvFK4hkGTk=
+
+Name: assets/bin/Data/Managed/Mono.Security.dll
+SHA1-Digest: s1e4p+38r5bnUAiblz/cmjKdRLU=
+
+Name: res/drawable-xhdpi/com_facebook_button_grey_focused.9.png
+SHA1-Digest: wx0FTcs+RGcIb3fC9wYKpWawDgI=
+
+Name: assets/bin/Data/sharedassets60.assets
+SHA1-Digest: p5R6iSodnmD5TiiMCXmhYah73ZI=
+
+Name: assets/bin/Data/24df509278f9c4db6b78cea6c48f1d06
+SHA1-Digest: nn6fvNCeL6R5s893tfLNN0twKiQ=
+
+Name: assets/bin/Data/d66ec87865876400c8590d062c5940c6
+SHA1-Digest: oYEEyesl4gTnNIZj7ArftPV6GbU=
+
+Name: assets/bin/Data/sharedassets74.assets
+SHA1-Digest: PZQcvoS/0ydjOzKD62RcFhCz4oY=
+
+Name: assets/bin/Data/96e6f33502b5c4125be05b224bf08b71
+SHA1-Digest: aKcsUeWhaqM1/FwkZ6iFtNgx6PE=
+
+Name: res/drawable-xxhdpi/kamcord_share_icon_active.png
+SHA1-Digest: yyeWNQszGEQIpXenD99X9sS8eGI=
+
+Name: lib/armeabi-v7a/libunity.so
+SHA1-Digest: qHJUukz1ldJzhcpbzO72nniEpIM=
+
+Name: res/layout/com_facebook_picker_list_row.xml
+SHA1-Digest: wg8hJo8ozJ07EFtj2tBNB/LjjiU=
+
+Name: assets/bin/Data/84076d89b03ea4c4ca09c9f6fca5ce23
+SHA1-Digest: F1kpaW/EvKBXh14+GFYTcsHj1co=
+
+Name: assets/bin/Data/sharedassets46.assets
+SHA1-Digest: /XFtYhtO3EsbOwM36aw5317IULg=
+
+Name: res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.
+ png
+SHA1-Digest: 29jlpwaYo8yADFvg53lRNdVbvt0=
+
+Name: res/layout/hyprmx___offerview.xml
+SHA1-Digest: pzwcRwu86VOfGZZFhKVYO1FqpKY=
+
+Name: assets/bin/Data/f89852f348ba2448693f6e761ff14cd6
+SHA1-Digest: A735HB+ar2KbOTNUUKukF/G0e2M=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png
+SHA1-Digest: xU1/PAMBwttiSnTFn14OqOMMcm0=
+
+Name: lib/armeabi-v7a/libsqlite3.so
+SHA1-Digest: jaQaLO3r1ULRryQPZ2+Fo3jD9W8=
+
+Name: res/drawable/kamcord_seekbar_progress_style.xml
+SHA1-Digest: 2bIsrVNtFvnkCiX5JvkxgrxvuLo=
+
+Name: res/drawable/com_facebook_place_default_icon.png
+SHA1-Digest: T6PfkzvzoTErI9HPUHhPTzYuaOw=
+
+Name: assets/bin/Data/45e0b97f3ed0f4fcfa3bcf433d450ccc
+SHA1-Digest: gfAYPhV5rIpMrwmf4MOgF1m6XQk=
+
+Name: AndroidManifest.xml
+SHA1-Digest: argWOw1AWuDNk61fAj13AA+Gan4=
+
+Name: assets/bin/Data/28d0e6709dcd74b49b454e2070268591
+SHA1-Digest: B4onhEOaIhZeRoGq3XHswH7eki0=
+
+Name: res/color/common_signin_btn_text_light.xml
+SHA1-Digest: ZtXWT/rSeqt0/gkDwpM+oqQPAJI=
+
+Name: res/layout/com_facebook_picker_search_box.xml
+SHA1-Digest: crqaZcdv349sfVncCblmASw1bgw=
+
+Name: assets/bin/Data/bcbdd877093b74aafbda1091fe4f6447
+SHA1-Digest: bcw6pSa+ezAJ3K45laec7vqa39A=
+
+Name: assets/bin/Data/328c880e15fc74ea59ef7597c01d22c2
+SHA1-Digest: J9n2PH65ZDb+smo293CvXxIOHgA=
+
+Name: assets/bin/Data/68e7ad897473d435195b7236801c7847
+SHA1-Digest: gmCUbHutvyE2Su29bU1qBquiCuY=
+
+Name: assets/bin/Data/22aa2d31d9c06064aafb9ac6fa701a83
+SHA1-Digest: ybDZJMm8sSteiWDyq7w6ElrCI1g=
+
+Name: assets/bin/Data/4ed817b9afb35448b9153febdfdedce8
+SHA1-Digest: nmDmrM7PY1M5FO8b/KIlCloJFlY=
+
+Name: assets/bin/Data/d967030525a10460da86bd3fe4afea82
+SHA1-Digest: +Wm34isejuLPGNXejZxYQJxMgao=
+
+Name: res/layout/hyprmx___webtraffic.xml
+SHA1-Digest: QAoZTGqy1YjIeIrpLbXO67R1YoQ=
+
+Name: assets/bin/Data/88a00ae2ef94541cc87358156703dfc4
+SHA1-Digest: uBtx641Bl6iXe3bDXBtsZ514BhU=
+
+Name: res/layout-v9/mobage_notification_largeicon.xml
+SHA1-Digest: vC0QL5UymEossfaknsRMs00e6dQ=
+
+Name: res/drawable-hdpi/kamcord_profile_icon_inactive.png
+SHA1-Digest: NEK3wHWlgglu8URJ4DcEAJPWeog=
+
+Name: classes.dex
+SHA1-Digest: JOnzaK9iYtA7WoH/ZIi54X0CVS4=
+
+Name: assets/bin/Data/656db0060cbb84df585c5d3ba3d51f77
+SHA1-Digest: TrN5zwpUxVtLBo2d+O5H36rgETg=
+
+Name: res/drawable-mdpi/com_facebook_tooltip_black_bottomnub.png
+SHA1-Digest: vEyQx3dA5fSnJ/B3v4CD0PtpWjg=
+
+Name: assets/bin/Data/88d91e1f8213b49e89b5df5b9f4b7768
+SHA1-Digest: zMmVhx8r52II2OwZd//W+siDT6Q=
+
+Name: res/drawable-xxhdpi/powered_by_google_dark.png
+SHA1-Digest: gfHaH8EPI7tPXVeskcJGZH2tiRQ=
+
+Name: res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png
+SHA1-Digest: /w/b5Ahd692RhVH4wOIahCMTR9s=
+
+Name: assets/bin/Data/189daa998efab433298d801bcdbe39c7
+SHA1-Digest: c5bYv4I0zIrSsSJmsbWAnb8UaC0=
+
+Name: res/drawable-xhdpi/com_facebook_logo.png
+SHA1-Digest: 94ZTspodsrcPndjRFwq4Cqz6Wc4=
+
+Name: assets/bin/Data/Managed/HOTween.dll
+SHA1-Digest: CpnHT4g3iHOgzmAGD2ncrXSmh90=
+
+Name: res/drawable-hdpi/com_facebook_tooltip_black_topnub.png
+SHA1-Digest: J/BOF9KyvDLYLBxyNtb5AsrOIls=
+
+Name: assets/bin/Data/128578000656448f483a1c7063f48904
+SHA1-Digest: TeONAFzhPVi/HRKZzKzxgw7dguw=
+
+Name: assets/bin/Data/cd8a7fc18742b4272aa660cec89d0e47
+SHA1-Digest: pUEe77YzCY2NYf5a6pi7xb24Dlo=
+
+Name: assets/bin/Data/8df4038e6a90248bf8abf8ea038ed5a0
+SHA1-Digest: By3emAVb4ohWEi+E8gpUzX7IzWA=
+
+Name: assets/bin/Data/630de6d2522c8438b82f4e452223a377
+SHA1-Digest: dAlup9utZftUa+eZTX8GGSTY3Jo=
+
+Name: assets/bin/Data/59e8c5d89ec48ce41a2f9414074a7b50
+SHA1-Digest: /jadwB7KU9RN0L5QQLLeBuYMlK0=
+
+Name: assets/bin/Data/e0278d0987ab14e5fb08abd6cf784fc3
+SHA1-Digest: /pHQzoRaF+VuOrqDMRLQZRtjCy4=
+
+Name: assets/bin/Data/level73
+SHA1-Digest: AXlvJHj79UceDQGWu+OrPOLrOiM=
+
+Name: assets/bin/Data/level72
+SHA1-Digest: +mzfGC1xW26tclmbvuX3fZibQ60=
+
+Name: res/drawable-mdpi/ic_plusone_tall_off_client.png
+SHA1-Digest: 3ocjamXiDDzZQ9Er9Iv+AG/CvIc=
+
+Name: assets/bin/Data/level71
+SHA1-Digest: ZVzkakzZJE9tocFXutriuzb9N4Q=
+
+Name: assets/bin/Data/level70
+SHA1-Digest: jMhgSeAcV429z9/J3QLwE+/MiDE=
+
+Name: assets/bin/Data/30d8cb41dcc014ee0b44600a43b7a1f7
+SHA1-Digest: u7HRSCZRotxx8wvGaV5oALD7XcQ=
+
+Name: assets/bin/Data/c85c32c7745ba4882b855bc6b51ed4ad
+SHA1-Digest: RF3tTm5ET35qEsAUE2iZ8MIYnrA=
+
+Name: assets/bin/Data/level78
+SHA1-Digest: 97P2+hi7V7NBDSxGIxEyLeSyx20=
+
+Name: res/drawable-xhdpi/com_facebook_button_like_pressed.png
+SHA1-Digest: UamQCE7EnlmMUm+f1n7CH5GYdIY=
+
+Name: assets/bin/Data/level79
+SHA1-Digest: qclzwfDSOKT1Ulw6zBQyvL7p+MY=
+
+Name: assets/bin/Data/level76
+SHA1-Digest: gCL7y+o/rU3DXFG9L+UBkKVXE30=
+
+Name: res/drawable-mdpi/kamcord_profile_icon_active.png
+SHA1-Digest: bOlf1mRTxIIV7P4gb1/2u8gkyiI=
+
+Name: assets/bin/Data/level77
+SHA1-Digest: //5fA1l5XJbg7jlhaf7FDeQoyq0=
+
+Name: assets/bin/Data/level74
+SHA1-Digest: 4qaayj6gtkeZKKEXG0Z0JoBnWl0=
+
+Name: assets/bin/Data/a65a1a29013db4fa29dc631d0ce6f9a3
+SHA1-Digest: QjV3zPa//DblFFizWNmdrP704Us=
+
+Name: assets/bin/Data/level75
+SHA1-Digest: DSiggoDeVPBQjtTc/GdEDyaLnas=
+
+Name: res/layout/ol_webview_fragment.xml
+SHA1-Digest: pJEa1IK7X6pg3HDtds15l8mVI9Y=
+
+Name: res/color/kamcord_share_widget_text.xml
+SHA1-Digest: DrhqBtzk3MqOB1KwBRJ2u6mOQKU=
+
+Name: res/drawable-mdpi/kamcord_facebook.png
+SHA1-Digest: imMAcUkmN6Rg3sHC2MYLSGFREIU=
+
+Name: assets/bin/Data/unity default resources
+SHA1-Digest: fPQLXLUZDFuPcW6xmclfhY1zFQA=
+
+Name: res/drawable/com_facebook_button_check.xml
+SHA1-Digest: gt4pFG/QAM+/3qDpsGDlyajNhfY=
+
+Name: res/drawable-xhdpi/com_facebook_button_blue_focused.9.png
+SHA1-Digest: 0mL9bvBnguGGZdnft4TaGoEw08Q=
+
+Name: res/drawable-mdpi/white_icon.png
+SHA1-Digest: I2ZaeeCfzQwin52ae9tX0+QX32k=
+
+Name: res/layout/z_kamcord_merge_platform.xml
+SHA1-Digest: U0XMCX+iakiu8T715c4Mm3NNsxc=
+
+Name: res/drawable-xhdpi/kamcord_back_icon.png
+SHA1-Digest: xXwBYC6oUV9u8KE7zF4F269uCug=
+
+Name: assets/bin/Data/aca0232ff7af1464c83e1183d827d60c
+SHA1-Digest: e/raT4lMHckjkYcpB5JlLrw0Le0=
+
+Name: assets/bin/Data/00913849101a2b443b616ca07d3a3c7b
+SHA1-Digest: DlT8erBx7eCn/QJYTtSHHyvgp9U=
+
+Name: assets/bin/Data/2b98cfbd3bc7a4c4b8c0d5ece73f6fbb
+SHA1-Digest: WHQIIFT3nPwhHWPlHPtrmCKEaT8=
+
+Name: assets/adapters.info
+SHA1-Digest: y/Hkt35HYuIzvNpBvRvZSmUnCLQ=
+
+Name: assets/bin/Data/level60
+SHA1-Digest: In3O693JF/xXUIsY44WW//XFTa0=
+
+Name: assets/bin/Data/sharedassets73.assets
+SHA1-Digest: eis12UXn3KDXUgpQLK4K4PhHnI8=
+
+Name: assets/bin/Data/6e4f95278c9944ed1945432f5a50cc8c
+SHA1-Digest: QqQ/t5nuPTdwI/1ERfDRH3v6/30=
+
+Name: assets/bin/Data/level62
+SHA1-Digest: qpgEDR6xAA91RJCqnJ83pWzk/4w=
+
+Name: assets/bin/Data/level61
+SHA1-Digest: bKsPw7E63wkIoP7mPzi5dMv9to8=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png
+SHA1-Digest: 1Hnpvj2UzKDvPZv175SFBfp0Gn8=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9
+ .png
+SHA1-Digest: /ps9lLPOdDdwDt2YyGRRyGkRCMw=
+
+Name: assets/bin/Data/level67
+SHA1-Digest: qczdpt6X9gfALLK7doqTwZ6qVHo=
+
+Name: assets/bin/Data/9899facc6b0da4b6096a5e2eb2259950
+SHA1-Digest: sa6Lv2RvA7ZRYEWHskNNrG16Tu0=
+
+Name: assets/bin/Data/level68
+SHA1-Digest: 9CBghhjfhUC4WF1OKDhqJCncCbE=
+
+Name: assets/bin/Data/level69
+SHA1-Digest: REwtA2dDYDM/Q0Bf95+BsvT+zkA=
+
+Name: assets/bin/Data/d36b629faa77547af937bf72389518f2
+SHA1-Digest: TVj+VX4kezp+ZuKiugPubl3d3l8=
+
+Name: assets/bin/Data/e03202b0a90c2bd4b9753cb1058aa54f
+SHA1-Digest: 8h4hf4UPf6oJSnbOHkG8dcKv6rU=
+
+Name: assets/bin/Data/level63
+SHA1-Digest: rKPLCsB95FS5vwiRW1q87VX0nzg=
+
+Name: assets/bin/Data/level64
+SHA1-Digest: YfqZy8hwOik1g3ZO7vF2lPA30C8=
+
+Name: assets/bin/Data/level65
+SHA1-Digest: UQA/nWktshqxNlZoy3KkRmDMx9g=
+
+Name: assets/bin/Data/level66
+SHA1-Digest: K22Tw1BmU15YLRL9xKE8rdW1ac0=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png
+SHA1-Digest: 3McbND4RRGV4vpt6LNxDafkdK4A=
+
+Name: assets/bin/Data/47127604535944c4da53380df880410a
+SHA1-Digest: JTGyfPJf3rRrn9Pg2tmxFdbKzNA=
+
+Name: assets/bin/Data/sharedassets79.assets
+SHA1-Digest: yQ0VUqm8/acg81pliBf76w9q258=
+
+Name: assets/bin/Data/9fd8de7dffceb4d21b039e1a71afbbfa
+SHA1-Digest: Ip9DPV9DFmHhoAZDOD2MqCWT/Oo=
+
+Name: assets/bin/Data/46922996fff3646768122f87bf6577d1
+SHA1-Digest: 9fTjLyiHLjhmMmp36pp1X/UPSiw=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png
+SHA1-Digest: w/L+nKDDWadDlwiDybC+JmpbqaI=
+
+Name: res/drawable/kamcord_tab_background_selector.xml
+SHA1-Digest: l2UaUmip3EffMCEoiL2kqB1CNVI=
+
+Name: assets/bin/Data/f83e29c704a53441784073c5029ea129
+SHA1-Digest: 1ahOAdrgtfEo80eZBpzpbs7y3TQ=
+
+Name: res/drawable-mdpi/kamcord_youtube_gray.png
+SHA1-Digest: zJe9Mm1cZuCcoQfryHqTPxs7VJU=
+
+Name: res/drawable-xhdpi/kamcord_profile_icon_active.png
+SHA1-Digest: JZ2Doh0kG/x/iOEYLGbrdkRWEGY=
+
+Name: res/drawable/com_facebook_picker_top_button.xml
+SHA1-Digest: FpCN68q2eV+3WjoqLCPZ0C/7pGQ=
+
+Name: assets/bin/Data/7e5e4f748531242829830bf275dc1310
+SHA1-Digest: 6qvBkskJEsVos0xD0olGvwJnY7M=
+
+Name: res/drawable-mdpi/kamcord_watch_icon_inactive.png
+SHA1-Digest: ZieTtX5LZ/AwR3Jn2Gx5Jt+7WOU=
+
+Name: assets/bin/Data/9f8c36cb272124d69993fef53aa28955
+SHA1-Digest: EtI1i2Joaa6deqJ5nOSEHvB4INA=
+
+Name: assets/bin/Data/8de17fa1bbf0e4b80961b37407aaf0fb
+SHA1-Digest: JUHXTjo7/+X0MCe5AthVaJLWXdM=
+
+Name: assets/bin/Data/6a95e175d04be48cfb028451f71de56c
+SHA1-Digest: VwVRuZ8ESJLbd3QfT9v9e1rWZcU=
+
+Name: assets/bin/Data/a783f9909c8ee494db0f736795a5ba3f
+SHA1-Digest: Woxn2U6ESh6+f2TMmZWRqGQzNDw=
+
+Name: res/drawable/com_facebook_top_background.xml
+SHA1-Digest: 2jGeRfgb5Xm7OmXOYRKQWRbaaUw=
+
+Name: assets/bin/Data/6f0cc66a2319e4525b712b3df79ce6bc
+SHA1-Digest: FbifCzQFxR/LWZ7Q00WVUtFuGx8=
+
+Name: res/drawable/kamcord_profile_icon.xml
+SHA1-Digest: /TZNdgQ4fZy6qVGtLjGqkAqsxuI=
+
+Name: assets/bin/Data/62b41155f91c44911bb91f93020547c2
+SHA1-Digest: 7bVGl3kJL2dGv2/kcZL8KLcv3RU=
+
+Name: assets/bin/Data/e62d57acbd41945e5abaae8cb525b2a2
+SHA1-Digest: PQ9GTl7SzS4DrfuTJheAz4oOK1g=
+
+Name: assets/adapters.config
+SHA1-Digest: xK90Jo008XxSWot6TtKq4RQOQhA=
+
+Name: assets/bin/Data/c633207fffa084e8194c97cec8e630ca
+SHA1-Digest: InbKLw8zmKyvdLzMD4qbCrhJxXI=
+
+Name: assets/bin/Data/fcfa8b15ac5764b1ca680a81fbbbe90c
+SHA1-Digest: p1JiPayLiznhQXJTYq6Of1DligM=
+
+Name: assets/bin/Data/baac3761bc2cb490fb9ba2287fc540ab
+SHA1-Digest: scymQ1zMMqj7jPBIs27veKp2L4w=
+
+Name: res/drawable/com_facebook_button_like_background.png
+SHA1-Digest: mA/rLYQ5jj3/H+r2fDZuzu1Gh9Q=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.
+ png
+SHA1-Digest: IXqmYG4624bef7DnPxFG+Uwx1ak=
+
+Name: assets/bin/Data/94730445026e345c698ca2b2428bb2df
+SHA1-Digest: /3YKo0TKDxh/wtKGhVBNACopXvE=
+
+Name: lib/armeabi-v7a/libkamcord.so
+SHA1-Digest: i+xiMNUshqeeceDegQyIS3WodnM=
+
+Name: res/layout/z_kamcord_fragment_share.xml
+SHA1-Digest: ozlCcMs2+5dLuZhKtVl1o3NDf9M=
+
+Name: assets/bin/Data/89dbd6040c40d459396f80b041fe2566
+SHA1-Digest: s2jbR3MfbRAK56kGnSK/csNzCEQ=
+
+Name: assets/bin/Data/c812c5575208b4c2e95542ce93cade92
+SHA1-Digest: V8JeIFQEFsnLKqEgfFYDEpm/Dxg=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.p
+ ng
+SHA1-Digest: 0ky7hJW6fNsa6m2tmjhllqHXHfg=
+
+Name: res/drawable-xhdpi/com_facebook_button_blue_pressed.9.png
+SHA1-Digest: q04LLz2eNuM6e8D8RaRhm1e3WbQ=
+
+Name: assets/bin/Data/1a79480f5627e4e4b92f6d22f4156f54
+SHA1-Digest: u0gm/WCRExje0bngqXWqFVzbryY=
+
+Name: res/drawable/facebook_close.png
+SHA1-Digest: Nwlm5aDJGXbo6eG5hVvbrq4/cVk=
+
+Name: assets/bin/Data/61231e181a8f245d8932fffda90aa0a3
+SHA1-Digest: BGCS7qFWQDGoPJHnrzbLCxveI1E=
+
+Name: assets/bin/Data/1e8b20041c8fd46f89c45fdeff66cac3
+SHA1-Digest: L/n27CeEQGVWtGowkkGympCxyoY=
+
+Name: assets/bin/Data/level80
+SHA1-Digest: mv7LcrPCZaxii4ogmOBPdfaadvE=
+
+Name: res/drawable/com_facebook_profile_picture_blank_portrait.png
+SHA1-Digest: 9kGOeq/tVClWE7Lz9AgjtukRZnQ=
+
+Name: assets/bin/Data/04cd4c02b4ec74bdc8da12c1ee3c27da
+SHA1-Digest: D0uvP3uty07nBCPeKcmuWhBYavM=
+
+Name: assets/bin/Data/level81
+SHA1-Digest: NPZiA/1xY4Pej+BCuuYc9idcVoQ=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9
+ .png
+SHA1-Digest: HzOQHYhhJxxzbZqK40hTgOfRhlo=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png
+SHA1-Digest: FkxxTiMZkZMXGXmeMfd02TtKL64=
+
+Name: assets/dataModel.db
+SHA1-Digest: rWqUkkqrccNklyTMDm9vL8ExOn4=
+
+Name: assets/bin/Data/efc83d58be6c34f23a0a3e9947ed8f63
+SHA1-Digest: rnSiMxLHq2xgmiNDbuwiost/9OM=
+
+Name: res/drawable/kamcord_share_grid_background.xml
+SHA1-Digest: llKtK6AiieI+vYMRkIWHN1Sg+Co=
+
+Name: assets/bin/Data/47527ac216031463da36e53da74afff8
+SHA1-Digest: jif73sMWRfsl4kmt8TJ24pB7oJ0=
+
+Name: res/drawable/com_facebook_picker_list_selector.xml
+SHA1-Digest: exVyMHw1trc+TNlsM+wvoEfJBkQ=
+
+Name: res/drawable/kamcord_share_icon.xml
+SHA1-Digest: oYrM6ytT5yytEeLlXIn75tTvdaw=
+
+Name: assets/bin/Data/sharedassets10.assets
+SHA1-Digest: HCG6oo6z48zyWtWprnQtkBhJ6IA=
+
+Name: assets/bin/Data/015f69ee5d7a841e1ad6838c4ebc49fe
+SHA1-Digest: c6iP6pBLPPsFlCPyVhS3x40M6jw=
+
+Name: res/drawable/com_facebook_list_divider.9.png
+SHA1-Digest: 45BAgKtOkC0fHYqIunSXrQ8YubM=
+
+Name: assets/bin/Data/8807209f43d26463d941267fcbfcbd93
+SHA1-Digest: AuY0X7khxtXCnFaGwef2IE/91wI=
+
+Name: assets/bin/Data/b860f98227d2a1640847b88270be0ce3
+SHA1-Digest: cGGyp6Gc4ab+HX3QLCw9a1ZNTm0=
+
+Name: res/drawable/com_facebook_close.png
+SHA1-Digest: FDOOYcRoxfXB5QdY1YikzqT7kx8=
+
+Name: assets/bin/Data/c26bfe0935fe240eea375543b6c6f0a8
+SHA1-Digest: 4na7BXftpWsrNSZaj8Kzv2/CWB4=
+
+Name: assets/bin/Data/af953e8947cb84de7838d9f76c52fe1c
+SHA1-Digest: lFizE4DH1dnz5Wd3HjuDKGpTC54=
+
+Name: res/drawable/com_facebook_loginbutton_silver.xml
+SHA1-Digest: 3kFtf9DnyUzURF/b2S/oWRZg99Y=
+
+Name: assets/bin/Data/Managed/ICSharpCode.SharpZipLib.dll
+SHA1-Digest: PO92PS1ojAo4iuvJN1m3XmsUv8k=
+
+Name: assets/bin/Data/8d17bb47a93d847b1940b4a1ac4d2ecd
+SHA1-Digest: sy7R0K1S2s0FSnI6y6IN8NzMJgs=
+
+Name: assets/bin/Data/9d0b4f5739cff4e97ac4ed8e506fb983
+SHA1-Digest: HjnC7ShDIFyoeklfCrVZRiI1qNM=
+
+Name: assets/bin/Data/a9360b567ca6444778b6bf7fdf16c9e8
+SHA1-Digest: F1fnZLsGkTZI7rx6Y+4Emf5j9Bc=
+
+Name: assets/bin/Data/Managed/System.Data.dll
+SHA1-Digest: QBR9Dd95HLPAFqNJtzdkJ9lc950=
+
+Name: assets/bin/Data/ac1d3d0f8f9984385a79f12f59098086
+SHA1-Digest: i3r6tkTXnzA/nGui52quwQIzZ+8=
+
+Name: res/drawable-xxhdpi/powered_by_google_light.png
+SHA1-Digest: i1ZTqep+pgKdIhB18Xwu3c7KrFI=
+
+Name: res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png
+SHA1-Digest: vgTn+pEQhSLa5buaCqjDd3w3UWU=
+
+Name: assets/bin/Data/1d47fc69973114f608454adab369315c
+SHA1-Digest: fuoUIH1w5cY4K36vl9DhRNwMS/s=
+
+Name: assets/bin/Data/sharedassets51.assets
+SHA1-Digest: tlPoPlajzeJcr4BUr+JuYqvq7d4=
+
+Name: assets/bin/Data/4bf88cb15d58f45a4837577ad10f022e
+SHA1-Digest: gbm3q7PsOer7S155JHTdd8kX7gw=
+
+Name: assets/bin/Data/f33f2f952a2374dd994b3a76dc80f395
+SHA1-Digest: HM5bGHf6IikMruLnrt17b/UIdgA=
+
+Name: res/drawable-mdpi/com_facebook_tooltip_blue_bottomnub.png
+SHA1-Digest: nwY5X6Bv/3Ez85yyuwRVb3KkfWI=
+
+Name: assets/bin/Data/c2b8426e694ec44d0a96ee44749dd4d2
+SHA1-Digest: GZpqF/+/EhdZWqz+X7s7LSPYeAk=
+
+Name: assets/bin/Data/d73a205eb555644aa926e51b12317378
+SHA1-Digest: vZe5RAFJcgSVjCMMgY37wrFPcKs=
+
+Name: assets/bin/Data/mainData
+SHA1-Digest: AMp9Mi0s/8ZpHr2pH0JpPuu5jNc=
+
+Name: assets/bin/Data/88e26b5c1194142ccbc745abe1e886a1
+SHA1-Digest: SoJvoC/4PTYTt/kotSixaDeo9W0=
+
+Name: assets/bin/Data/5a347627260044fd68669412e42ed354
+SHA1-Digest: FaAJbX7GTcBuCFEXba3EI3DRoMU=
+
+Name: res/drawable/kamcord_player_unfullscreen_icon.png
+SHA1-Digest: COMX+5teJn2YPcFaiaUi2EMRJOo=
+
+Name: assets/bin/Data/Managed/mscorlib.dll
+SHA1-Digest: oppl2SFzfZ8n2aKpfidZU83eWs8=
+
+Name: assets/bin/Data/f1b3378e0484b405d8a16272de7fc9e5
+SHA1-Digest: 63BkM1FMXsfvImP2/CPNBWsFfMQ=
+
+Name: assets/bin/Data/c4b19b059668b4b9292f6fbadaab54bb
+SHA1-Digest: 0AgK6U5tMJYeP5GZsDi2gKYrkKg=
+
+Name: assets/bin/Data/6d6a5b92b31bf44f1891eb21dcedac78
+SHA1-Digest: hN100Wp4JC9DnNefsTe2ScbZHDU=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png
+SHA1-Digest: vGictS/UYFmX8tbz7DG/BKWlA1A=
+
+Name: assets/bin/Data/332092034abf54f2db6d589dfc624ed2
+SHA1-Digest: oMiYm30EvI9xBMVSxpE7LCUdJiM=
+
+Name: assets/bin/Data/df9561368af294923a5071fcb5f222e2
+SHA1-Digest: QTZCivUCZV49XTPawphNRLW6LaY=
+
+Name: assets/bin/Data/0ce74d96486834c158e279bee362df1a
+SHA1-Digest: 5/rD9EginE9Ois08FuR3j6He9Ww=
+
+Name: assets/bin/Data/e85155d5bfc39468eb11703a51b59a4a
+SHA1-Digest: CnEFY3wI5+8h8H9si4kY4ohzeFg=
+
+Name: res/drawable-hdpi/ic_plusone_standard_off_client.png
+SHA1-Digest: SfY+3G0ROn26yscNfyqLheYZY3o=
+
+Name: assets/bin/Data/e14bf36bbb2f04fd8980adf90a3e0aa5
+SHA1-Digest: tyLvXahr8mG71HCsiXZWJfz12Oc=
+
+Name: res/drawable-mdpi/close.png
+SHA1-Digest: ErIeehisiN4fD7QbWJkY2lI4To0=
+
+Name: assets/bin/Data/bdfea3f3ae081480caa7cfb59b7d7c0d
+SHA1-Digest: g33WQoc4vqGLulGRHwCxgM2/wZY=
+
+Name: assets/bin/Data/sharedassets72.assets
+SHA1-Digest: JxWfhBPxn17YUwmheq0DEs/hGno=
+
+Name: assets/bin/Data/056173aad9a904e9e88635b3a5446633
+SHA1-Digest: WG80/SnZFOVt+I9F17YmObY54/A=
+
+Name: assets/bin/Data/5cd981bdaac5946eaba79360899ed3c3
+SHA1-Digest: 2gAG/MMicayr9BY2nQCDgNhMaRU=
+
+Name: res/drawable/kamcord_tabbar_back_arrow.png
+SHA1-Digest: 57jUL6Zd/6JyGjndxauA3y0FO8g=
+
+Name: assets/bin/Data/sharedassets1.assets.split1
+SHA1-Digest: lth5AKcvjGNz5OSUFtRti0N/P/w=
+
+Name: res/color/common_signin_btn_text_dark.xml
+SHA1-Digest: y8+CTs18mc+PcPaHYpS2ZhWuhh0=
+
+Name: assets/bin/Data/sharedassets1.assets.split0
+SHA1-Digest: y40MzODYQxc465Dm1/XHYgcL+xE=
+
+Name: assets/bin/Data/f280b3825521449ef8bc48a894565692
+SHA1-Digest: kUfxw6G7p7xGsM4zQ+uCZ+a22lQ=
+
+Name: res/drawable-mdpi/powered_by_google_light.png
+SHA1-Digest: ZTHLPZe63ATwVGAlXju4hnecsME=
+
+Name: assets/bin/Data/b795c1773a8ab492192e1ed17b2fb392
+SHA1-Digest: D6FF940vtBIH4NMNPyYWMDp8Twg=
+
+Name: assets/bin/Data/f55f6c0879d804346911452ea0255a1a
+SHA1-Digest: XzmQOPFOyyI4JWa6eWRSyyU+Tns=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png
+SHA1-Digest: dV3F0Sz7MxTs+Trhe4uXp7Q7aSs=
+
+Name: assets/bin/Data/090150d45cb414da4b63f311dda3e17e
+SHA1-Digest: TQQT9ZIcvGiBU7qFLqdgnY9jL7s=
+
+Name: res/drawable/kamcord_background_gradient.xml
+SHA1-Digest: lS+EMv+SKeROxPWqZVNvWSz3JiA=
+
+Name: assets/bin/Data/Managed/System.Transactions.dll
+SHA1-Digest: 3JUWxrKmnTOYGcuanWv7utEQiRE=
+
+Name: assets/bin/Data/Managed/System.Core.dll
+SHA1-Digest: B4+b6efdkX0jqyf9i13ctRaCTyw=
+
+Name: res/drawable-xxhdpi/kamcord.png
+SHA1-Digest: p4qL59IlOTKjxrrPuM9+AkY3mYA=
+
+Name: res/layout/com_facebook_login_activity_layout.xml
+SHA1-Digest: 1NqDzSiTUGBqc3QeIysJKwQ8DTo=
+
+Name: assets/bin/Data/b6eb4930629414fa69db503772b7bd52
+SHA1-Digest: okwo3W67AEGncVqTnXwHc19TOZo=
+
+Name: res/drawable/kamcord_player_next_icon.png
+SHA1-Digest: aeaEfjUO9cIzFmU5UufCT0SvI44=
+
+Name: assets/vg_close.png
+SHA1-Digest: 3Xnnqi2hsqwT1lI7P/bPDCT6Ito=
+
+Name: assets/vg_timer.png
+SHA1-Digest: ws2KsTpjLCH7XkI38uPiiBU12Sg=
+
+Name: assets/bin/Data/sharedassets9.assets.split0
+SHA1-Digest: Dl75d8wptLCvpYL3Kt3P4+nwBGk=
+
+Name: assets/bin/Data/sharedassets9.assets.split1
+SHA1-Digest: 7s9O5fK9/o8WDzk9ngXGvuhQoOA=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png
+SHA1-Digest: UbXqMwM30HBljuHn+la04UPzB1Y=
+
+Name: assets/bin/Data/sharedassets20.assets
+SHA1-Digest: rAoEhA/NRkU9RefqKHQW0ojWCsc=
+
+Name: assets/bin/Data/sharedassets9.assets.split2
+SHA1-Digest: 0m5M6lah0YUyAlUEZpDzdtHIDLY=
+
+Name: res/drawable-ldpi/greenbutton.9.png
+SHA1-Digest: 0tpl5I3PSKLsKAQQRZGYnrtqh+w=
+
+Name: assets/bin/Data/sharedassets9.assets.split3
+SHA1-Digest: bP0shk+2IJ6ST5ib6BoTD7rHS5o=
+
+Name: res/drawable-xxhdpi/kamcord_share_icon_inactive.png
+SHA1-Digest: 6yQNIMMKgIn6t0VeKEjqlgbMb+A=
+
+Name: assets/bin/Data/sharedassets9.assets.split4
+SHA1-Digest: /yjbEC1hiG+Fxlzzgijp5yDlQls=
+
+Name: assets/bin/Data/sharedassets9.assets.split5
+SHA1-Digest: sSFfT6TDvGEu8IAXA03LeNUIQWY=
+
+Name: assets/bin/Data/f282ebd7b3c064c4496c60bd9c41fb3e
+SHA1-Digest: /mNITYVXaHEx+suUm9PTlbnNd2g=
+
+Name: assets/bin/Data/sharedassets9.assets.split6
+SHA1-Digest: Bqb8Fb45p82gG5qxO4wxujSiznY=
+
+Name: assets/bin/Data/sharedassets9.assets.split7
+SHA1-Digest: bGdWn6lVCsQVjBGn4bwUWmpLzG8=
+
+Name: assets/vg_cta.png
+SHA1-Digest: D+8nNDJRsuOj79Uf2hm2FVscQas=
+
+Name: assets/bin/Data/Managed/System.dll
+SHA1-Digest: +rKV5l7UVgtncGKs+DxYlCybqLU=
+
+Name: assets/bin/Data/406787879c88d4d69bd1b16509426fb0
+SHA1-Digest: bNtky/pM/wlZPUfFXJnbjZTAzAA=
+
+Name: res/drawable-xhdpi/kamcord_watch_icon_inactive.png
+SHA1-Digest: ESwinYN3gqyLKh0Q9QvaMdZLf58=
+
+Name: assets/bin/Data/sharedassets56.assets
+SHA1-Digest: Zo/1XmUF6Q5hmfuSyswxKMvGrVg=
+
+Name: assets/bin/Data/dc171f736ae5d4f23a71a1d54fd5ad97
+SHA1-Digest: WcP6J8oH180jaE1hqwckx1LsG/k=
+
+Name: assets/bin/Data/465ae3e2ca25f44cf92ebc254d5207d4
+SHA1-Digest: sfd5Ld0fafgF+BAIGeanfu9AZpY=
+
+Name: assets/bin/Data/sharedassets77.assets
+SHA1-Digest: rQwXH+9YWyBo6tTw2pVxkyU3hkk=
+
+Name: assets/bin/Data/3f1296afeccfa41989b813624c38bd44
+SHA1-Digest: zHYY/l5hnjM2wx2JfBj1DeZoV28=
+
+Name: assets/bin/Data/c985aa5c2152d43fa9c6b0600fd45e89
+SHA1-Digest: iRrM1MkWZm8hU2+wy4tdhOWuG5Y=
+
+Name: res/drawable/com_facebook_button_check_off.png
+SHA1-Digest: NDLFyRfWjBjm9xCkOlx9fqTCMug=
+
+Name: assets/bin/Data/8677dc34e96d9d74984254f9e454fac0
+SHA1-Digest: qTXf59xQPSnHHJY0Qz5cb3okO1k=
+
+Name: assets/bin/Data/d581cef4010644a3eac98bbed6c1bcb7
+SHA1-Digest: wtcfKWmvaJcWFvfzxvDfd6Jm+W0=
+
+Name: assets/bin/Data/sharedassets44.assets
+SHA1-Digest: 6I5zBNdrkcAkJaMHaDrwgGGSLIc=
+
+Name: res/color/wallet_secondary_text_holo_dark.xml
+SHA1-Digest: WL4Z4dQN4oY5e9XAdRZTp/sd2Wc=
+
+Name: assets/bin/Data/ae65e458df1eb4715bdeb5ca869fd476
+SHA1-Digest: CAyXVytkYYiaB6sLYRTV0tmYSW0=
+
+Name: res/drawable-xhdpi/com_facebook_inverse_icon.png
+SHA1-Digest: JlToIy/BS1SwLA3JoedKEQBE76E=
+
+Name: assets/bin/Data/caf587eb79cef49be926a2e0fffad1f4
+SHA1-Digest: Cw1v4wV80tvmzDHE0YDY4Vsx9NI=
+
+Name: assets/bin/Data/01001faafb636440295669f70b6b11c9
+SHA1-Digest: P4OHsaA2zI1Nuq4tOcUwvvFM2K8=
+
+Name: res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png
+SHA1-Digest: VSw7l3gn6Xmrfp6USiW4t6QJmPw=
+
+Name: assets/bin/Data/sharedassets27.assets
+SHA1-Digest: mfOGjHvvFkWtfHPt+PyblAHsXaM=
+
+Name: res/drawable-mdpi/kamcord_profile_icon_inactive.png
+SHA1-Digest: yrfUm1fmeRa5vEafYZ6XpuNPPIs=
+
+Name: assets/bin/Data/62ed24b8789974f47b8c8e2ac19bc56d
+SHA1-Digest: nn6fvNCeL6R5s893tfLNN0twKiQ=
+
+Name: assets/bin/Data/sharedassets66.assets
+SHA1-Digest: 37VU1vd3dzX2XEeB2DyDETvF6R0=
+
+Name: assets/bin/Data/b409e544e1a484358ac40e6073c9ce0f
+SHA1-Digest: Ez9Q9TR2bMq3qR8PpTF4p/cFtOY=
+
+Name: assets/bin/Data/f5ede1f84037641ffa16a6be5fa3ae6c
+SHA1-Digest: tM8uo8y8tlr+hp9w0CLjyLOnOoI=
+
+Name: assets/bin/Data/4e7a9a02196c54302a314598966205c1
+SHA1-Digest: Hyayp4ZY3eZFMwEtkbeqtuBjZhA=
+
+Name: assets/bin/Data/sharedassets43.assets
+SHA1-Digest: ZVrShkqBCj6slwWH4/yCqSlMGDY=
+
+Name: res/layout/com_facebook_tooltip_bubble.xml
+SHA1-Digest: 1TpJl6pX4X8CLxamrw9YNByJiA4=
+
+Name: assets/bin/Data/d1ea294d28f9b4671a7bbf5b862c59bd
+SHA1-Digest: 9cbq69oEo4SgrmWDKaWFXEAS9jk=
+
+Name: assets/bin/Data/73c3c1794a3894c9491dcef1379a3d42
+SHA1-Digest: jqx0MYiLpumQTI4xBk9uFli8ypY=
+
+Name: res/drawable/white_icon.png
+SHA1-Digest: T6mXVzj2l0YdwvS0XpXQB5yKCR4=
+
+Name: assets/bin/Data/604f335cf22c24ab3abb85b65e805dc0
+SHA1-Digest: b3GKy90bsf9YL5uUwSjrHTF6hBw=
+
+Name: assets/bin/Data/b6360ecc0e6bd47b487d47f8af5d9f31
+SHA1-Digest: aWkFnDBJwoqIizIeP6HZfL3lcKw=
+
+Name: assets/bin/Data/f4017dcbf489e477088251231a66a239
+SHA1-Digest: LBmxpeGrJ9heUYHP+SM3zXEyRew=
+
+Name: res/drawable-xxhdpi/app_icon.png
+SHA1-Digest: wrz8poDKdBUR1uvW8lxX1BCeBvk=
+
+Name: res/drawable/com_facebook_list_section_header_background.9.png
+SHA1-Digest: UlppTzQMf0S8p04nUqt4qCBKRF0=
+
+Name: lib/armeabi/libkamcordcore.so
+SHA1-Digest: 3QqOKiPDJ3+iy9KMO+/yZFz4aik=
+
+Name: res/drawable-hdpi/com_facebook_inverse_icon.png
+SHA1-Digest: 2IKuzG1QMycYYLdEWoHnQDoZ07E=
+
+Name: assets/bin/Data/3efe5ebe03cb84858bd5b2bb90a8d2e5
+SHA1-Digest: tZ4u/H/b825NvXmPkUDhffQaClw=
+
+Name: res/drawable-xxhdpi/com_facebook_button_like_pressed.png
+SHA1-Digest: kfFHLC5nMeoEjXEAll/73jL1YIo=
+
+Name: res/drawable-tvdpi/ic_plusone_medium_off_client.png
+SHA1-Digest: JCchW37ep9rQAe5fTxcGI2f2woY=
+
+Name: assets/bin/Data/ed56f14c892ba4f2ab074beb4c7c408b
+SHA1-Digest: E672RGeu+4sPBJqirh1R2GOCYP0=
+
+Name: assets/bin/Data/sharedassets38.assets
+SHA1-Digest: 0DgoEpHNjGJonwyOe2+6d4I65Ig=
+
+Name: assets/bin/Data/854f7774cdd734639aae5880ddff7dcf
+SHA1-Digest: EjyP9ZCqoNevePRibUFATB9QIgE=
+
+Name: assets/bin/Data/a369d720e15b34415938cf0acdaa293f
+SHA1-Digest: 0LWVt3CZHMiDD7MhGYeTS207rYA=
+
+Name: res/drawable-hdpi/com_facebook_button_like_icon_selected.png
+SHA1-Digest: uOgPbP3LZGXK4QoxStrUMDshivM=
+
+Name: res/drawable-hdpi/kamcord_share_icon_active.png
+SHA1-Digest: 4WPDqnZ5E4oox4vKuAaW6LUL7KU=
+
+Name: assets/bin/Data/sharedassets23.assets.split0
+SHA1-Digest: kFTLOopubdWTyPgyRgeWKGPT284=
+
+Name: assets/bin/Data/sharedassets23.assets.split1
+SHA1-Digest: cVZeHpwHQo3U0mviS/BwmnR3xY8=
+
+Name: res/drawable-xhdpi/kamcord_mic.png
+SHA1-Digest: MlewZnGKdPRT7UL8CSmThYAMvWQ=
+
+Name: res/layout/hyprmx___nooffers.xml
+SHA1-Digest: a3m5wqD7oV7i1VlKjTZ0flyFs8c=
+
+Name: assets/bin/Data/580d4a13d8cbc42f29e342896fb76d42
+SHA1-Digest: iJWBZd4sM2HrPHqLx+d5zXGxIpM=
+
+Name: assets/bin/Data/level9
+SHA1-Digest: hggXI+8fn1ZHxpz0WcfW5qXX2L0=
+
+Name: assets/bin/Data/level8
+SHA1-Digest: fmgP5zbMl37BlduUxwTZi6FyUdY=
+
+Name: assets/bin/Data/level7
+SHA1-Digest: 5IRnQJC+niddNAt9vR8FsljVj7w=
+
+Name: assets/bin/Data/ac713c8c6447e47a5a7c7e8949e85db9
+SHA1-Digest: tAxKBqJHjLd0MargPDkVgXdwrzs=
+
+Name: assets/bin/Data/level6
+SHA1-Digest: 1W28lEc2FTMVBg4zUCjQIt4r6kE=
+
+Name: assets/bin/Data/level5
+SHA1-Digest: x+JLTi8E+OFPCepaFUAjbOHpZ5o=
+
+Name: res/drawable-hdpi/powered_by_google_dark.png
+SHA1-Digest: I/G/mu9XuPJTzwp/WdZLjQ6xTfg=
+
+Name: assets/bin/Data/level4
+SHA1-Digest: yj6cCqAntpIa4cc+XSviSw+1rFE=
+
+Name: assets/bin/Data/level3
+SHA1-Digest: X/80TCBG8ieTvdEw9oVrrqtka2c=
+
+Name: res/drawable/kamcord_mail_gray.png
+SHA1-Digest: pP23QpMtYlXTngjzgNzbQTzMMG8=
+
+Name: res/drawable-mdpi/kamcord_watch_icon_active.png
+SHA1-Digest: d5zND/jqhyOjTseD8mB2q86HLhU=
+
+Name: res/drawable/com_facebook_usersettingsfragment_background_gradie
+ nt.xml
+SHA1-Digest: UudkMujfDbVwQrl+1pBZ2WIJ8ro=
+
+Name: res/drawable-mdpi/kamcord_back_icon.png
+SHA1-Digest: sX8mLcO9IrsOlr2yHykX6lS2hTg=
+
+Name: assets/bin/Data/9ed65ed0797b74272b9de0f0081e5d6b
+SHA1-Digest: QjLGvlH9aKbcr+j8RcO1zxN1GeY=
+
+Name: res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.p
+ ng
+SHA1-Digest: YmWnuLFTsxsuwRBtvQiQ6Y6KnsI=
+
+Name: res/drawable-hdpi/kamcord_twitter.png
+SHA1-Digest: MlqG4xVkd1H9ZO3gVzErsVqyMnM=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png
+SHA1-Digest: AvIKUupgrO+uCBiDS6ZrbT37poE=
+
+Name: assets/bin/Data/9dfe664f4a5654f9fbd4b7ddb253c8c0
+SHA1-Digest: cdN+EUI3mwmR8s19Rh3zJzhXueM=
+
+Name: res/drawable-xhdpi/com_facebook_tooltip_blue_background.9.png
+SHA1-Digest: UxtR3fPuyJujOVvsGtNCp15qHok=
+
+Name: res/drawable-mdpi/kamcord_mic.png
+SHA1-Digest: vBgAEtiBHxI01NwIBv0pB35O5A8=
+
+Name: res/drawable-hdpi/com_facebook_button_like_pressed.png
+SHA1-Digest: uk68l9vWfqVav3OXwieSqnM18u0=
+
+Name: assets/bin/Data/f1b25059cc5c14b57bac3fc92d730223
+SHA1-Digest: RHRQrW+0ah6W3YUpQf/UH82f2x4=
+
+Name: assets/bin/Data/2e83c35d9fd3d46eca495cd830379e98
+SHA1-Digest: Obbq9w5iU0jV7hZvCWYPXFWZQgo=
+
+Name: assets/bin/Data/sharedassets47.assets
+SHA1-Digest: ZzLWv2eRB7P/gOq/DOGrNLO4I2o=
+
+Name: res/drawable-hdpi/common_signin_btn_text_normal_light.9.png
+SHA1-Digest: BPO7rZUizcNQMnWeRsW2OCnWgH4=
+
+Name: resources.arsc
+SHA1-Digest: SYEmtGjMEaOlPhmzqQbTyhwEmw8=
+
+Name: assets/bin/Data/1ddbcaa0a7e054f77a255de0bcf238ad
+SHA1-Digest: AGkYdrDcz6xpo/c9Z28YPz2KRF4=
+
+Name: assets/bin/Data/91088a44ef03c40ee872da78a05e6260
+SHA1-Digest: SD8BwX7uExcpacrEWgA+KrM6BKk=
+
+Name: res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png
+SHA1-Digest: Wx/93xRl4fEGrkADqVPH6ShswfU=
+
+Name: assets/bin/Data/sharedassets42.assets
+SHA1-Digest: J4ESVgz5SlVgccqi8Ss/LG7o3c8=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png
+SHA1-Digest: eAdVXtk/TEzSgB4P3wNlpGbfp5g=
+
+Name: assets/bin/Data/714f53ba8cccd44e9b85e9cdba09eeef
+SHA1-Digest: f8vByXNy7uZyjqiwv8KgBWiI8BY=
+
+Name: assets/bin/Data/sharedassets78.assets
+SHA1-Digest: 1wRLDUkiot5SRtTR1r5aTqIHCcE=
+
+Name: res/drawable/com_facebook_button_grey_normal.9.png
+SHA1-Digest: kZ9314YgSZHYcEuP+vXCuujxd48=
+
+Name: assets/bin/Data/b5342cff675914252ace85075bb4a54e
+SHA1-Digest: zYiSo3aB9MgH3N4c/SxH5vlHut4=
+
+Name: assets/bin/Data/37990c288ad164d7b87c343aff7ab297
+SHA1-Digest: OBzYW//83odU4CBlEfs6MKrVV20=
+
+Name: assets/bin/Data/53431f3b9382049699ff053d7766f03d
+SHA1-Digest: ykRaGdN4SLOTl1aYpE0kr4POJpw=
+
+Name: assets/bin/Data/1eb503749aca45c43ae5d5059bb51c79
+SHA1-Digest: RINibGUPWJA8T6O7pBOW7N8/lNk=
+
+Name: assets/bin/Data/46c085346ed3a4880999829c14e65d99
+SHA1-Digest: /MpxJjNqCicoSwG0DuASlzNkwYU=
+
+Name: assets/bin/Data/2aadccaa19d484fc184d7477c6b16f1d
+SHA1-Digest: TFpv86F0ZcqnPzWk5mc+YK+HzfQ=
+
+Name: assets/bin/Data/d77645cfa528941f6aede2abd8c411bd
+SHA1-Digest: 6VP84xd1teFuvHxMfOcOvINsWGs=
+
+Name: res/drawable-mdpi/com_facebook_button_blue_normal.9.png
+SHA1-Digest: plzlqLb7elFLaBIIHG8jVWFUnfU=
+
+Name: assets/bin/Data/f6569ba7ba3754df0ae82cad25fecf7a
+SHA1-Digest: glwX1GSvQglMu2rUU5yXLsINW6o=
+
+Name: assets/vg_mute_off.png
+SHA1-Digest: vhPpQ+iPN7V3M45TmpZ6JV8R01c=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png
+SHA1-Digest: ZDogSdlgVekmFIAbKguvig7+XGg=
+
+Name: res/drawable/common_signin_btn_icon_light.xml
+SHA1-Digest: n4UZrPoRZBunG3s/XD4PqY0USCY=
+
+Name: assets/bin/Data/36ba345a645dc4331a31ef05fca9d686
+SHA1-Digest: uxLgINTy3mC7nm7HwGfAwflnkoo=
+
+Name: assets/bin/Data/c3be0352b957f864d8afc77b6779a9f9
+SHA1-Digest: ddm7AMpwtSYiP8/iFgqpBmu0Xxs=
+
+Name: assets/bin/Data/06b7e9e8d3c984145a783b527b64c6d4
+SHA1-Digest: Fy0QGp/qaJU5f6qJFu/EE4uoiD8=
+
+Name: res/drawable/com_facebook_button_like_icon_selected.png
+SHA1-Digest: +wVwRt1SMX4SatRyJkYrjP39ToI=
+
+Name: lib/armeabi-v7a/libNDKPlugin.so
+SHA1-Digest: wM9bCopxd3bk5Sc5rP/9+i1DRP8=
+
+Name: res/drawable/com_facebook_top_button.xml
+SHA1-Digest: om2eLbNMgzQkrW9EDP9akpWvXoo=
+
+Name: assets/bin/Data/sharedassets58.assets
+SHA1-Digest: 7UeHJREBj8zopPpgtlTdpA5USK4=
+
+Name: res/drawable-xhdpi/powered_by_google_dark.png
+SHA1-Digest: psVwTFCoE8L/YbYPXiTtAelEWs8=
+
+Name: assets/bin/Data/8b9e63e9b3df64233b900d6aa485f2b7
+SHA1-Digest: MJ68f0gtlARhdzF9o+JFcjH6H4Q=
+
+Name: assets/bin/Data/4975516e0efbc4804a78d8672570c451
+SHA1-Digest: QySr6ZYpDjVec1I0UARdVu4ZVvQ=
+
+Name: res/drawable/common_signin_btn_text_dark.xml
+SHA1-Digest: PBb4qa1VgMNL7BxE2vwtXnVekf4=
+
+Name: res/drawable/icon.png
+SHA1-Digest: DAHyw6wD1EjpaTm5CaBGlbTn5mo=
+
+Name: assets/bin/Data/31334e19c791d4f83a5b5bb346cffede
+SHA1-Digest: SDFJ9lkYQP0XHCI/ntIsQ3XqNeQ=
+
+Name: res/drawable/com_facebook_button_blue_pressed.9.png
+SHA1-Digest: +tjTExmZ1lk9Ox0aZm5rNcUPoFY=
+
+Name: assets/bin/Data/sharedassets28.assets
+SHA1-Digest: aX3R8yfXQOzYg2NzX0759mjfspk=
+
+Name: assets/bin/Data/sharedassets31.assets
+SHA1-Digest: pW8Z4GcjWAMBEE585Xx3iWfm4DM=
+
+Name: assets/bin/Data/26e56234fc4104efd8576ab07a9d5ff0
+SHA1-Digest: IyLe6Vd9EUWRQn3Uf6qZkKYx0kk=
+
+Name: res/drawable-hdpi/app_icon.png
+SHA1-Digest: QT1HgO0P91lntavRkWEUgmIAFoA=
+
+Name: res/layout/z_kamcord_fragment_profile_settings.xml
+SHA1-Digest: uoPhSr+/POzFev75ZLvD34IJ4ko=
+
+Name: assets/bin/Data/9e80e651d3a5343cea1fd558b143afe3
+SHA1-Digest: KVeiQLXH/XIqLuEpl+xVUOMlDnU=
+
+Name: assets/bin/Data/sharedassets68.assets
+SHA1-Digest: Y4QczcJsQIkOg16+nCOtXgJgrYk=
+
+Name: res/drawable-xhdpi/com_facebook_button_like_background_selected.
+ png
+SHA1-Digest: G0adMtUcv1l+C1oGnRWLiyVFdx0=
+
+Name: assets/bin/Data/fea7fb658741c4c50897e8dbc01bea2e
+SHA1-Digest: MmyuR5dbQYFgfQGWhikmbFUfb2I=
+
+Name: assets/bin/Data/8c4d641f9b4374e76ac46db8e6af23e3
+SHA1-Digest: eHkfodoPlMR6sfeLsjNDkR0cqm8=
+
+Name: assets/bin/Data/efffb2a275b8241edb89de4f8c210b24
+SHA1-Digest: BxMFzhDoZFdIWcjOw3XfErVQBRk=
+
+Name: assets/bin/Data/d9b93b3b39f1a4173a4e3d2e6290e0c4
+SHA1-Digest: v1ueS/vIjflzLOdw53sw/2SeCH8=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png
+SHA1-Digest: HlSxw8q2TxVN28UussUGRFFbn8k=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png
+SHA1-Digest: QvCsDHmHTCeFtKK23z0HRetpRJI=
+
+Name: assets/bin/Data/sharedassets40.assets
+SHA1-Digest: tKxSEKcdnpvGNP8Y7KY4MTqunTg=
+
+Name: assets/bin/Data/4040906e21011423ea5305778fbf3673
+SHA1-Digest: Xp2k/RL04cfxEjHIQRtUOgjTMec=
+
+Name: assets/bin/Data/sharedassets53.assets
+SHA1-Digest: KpTp/dHjgJUfqL0u/ZEUfXybxv0=
+
+Name: assets/bin/Data/2cdc7bb4649ab4eefa99cb279e50bfce
+SHA1-Digest: YgitV8tr691LFYnF+MpNG/bwJds=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png
+SHA1-Digest: UsY+c7jSRS1f1aEh0HgE8187rLI=
+
+Name: res/drawable/com_facebook_button_blue_focused.9.png
+SHA1-Digest: rZf/vriiPguZZUS/3ww/w7LJ8fo=
+
+Name: assets/bin/Data/e2b93a7897a424e749c126c6ac07bc2f
+SHA1-Digest: 75VOAEpaPbiAgMk3kZXMZzL6PMI=
+
+Name: assets/bin/Data/b97948c14dc934dffb0842ae75374792
+SHA1-Digest: aNhru17uI3uF2/Br37W4MObUkZA=
+
+Name: assets/bin/Data/531c15a15e29b4c9ea7b741277ffcc99
+SHA1-Digest: MahmaaLKftUBazk8QOXbBYszTw0=
+
+Name: assets/bin/Data/sharedassets48.assets
+SHA1-Digest: bDRVLJocLKmRZZh5RUE11vtUHAo=
+
+Name: assets/bin/Data/19aa772e8e7d545e88739d73abbbe325
+SHA1-Digest: yeAz8J/z51ekDsBJoD3UW3qURxc=
+
+Name: res/raw/proximanova_light.otf
+SHA1-Digest: 6m1YCGIOf4rNxEnQC1VIrqma78I=
+
+Name: assets/bin/Data/4166d5905916740eea5d5970766c369b
+SHA1-Digest: ni1t9sqY6OBzKaQi02CK8/T17lU=
+
+Name: res/raw/proximanova_regular.otf
+SHA1-Digest: KNBOuTjAW1FYpppwloLU8FF6Was=
+
+Name: assets/bin/Data/7c4dc7b3a17ae4412a2a93c266dab4c1
+SHA1-Digest: MHr4EP37bYKpZDzkWWTp9ZPGf+c=
+
+Name: res/drawable-xhdpi/kamcord_twitter_gray.png
+SHA1-Digest: 54iT+jEmPT5OYANPH2oqRVJqbYM=
+
+Name: assets/bin/Data/sharedassets36.assets
+SHA1-Digest: cdfXqKF324tBQ1Oh4VCphU62yS0=
+
+Name: res/drawable/kamcord_player_play_icon.png
+SHA1-Digest: GQ80bXbuL9xwf/0fgA6EOD2J82g=
+
+Name: res/drawable-mdpi/com_facebook_inverse_icon.png
+SHA1-Digest: F87dFjM8iCRCeWSfrxkG/jcMtZY=
+
+Name: assets/bin/Data/4da61ac79917348f4a04edf2edc1acc5
+SHA1-Digest: qJefe4ef41kJ8iVfkrsiIlyXLNE=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png
+SHA1-Digest: dAIabshO7sf8DA0quqZILhJ5V4A=
+
+Name: res/layout/z_kamcord_fragment_edit_profile.xml
+SHA1-Digest: TxZmIv5rN0NDynEH3CZ5or8IZDA=
+
+Name: assets/bin/Data/522706af82844433aa12a2eb521a2167
+SHA1-Digest: Oo9NPJKg9VEBx6DPi69YLe88FIE=
+
+Name: assets/bin/Data/Managed/AdjustUnityWP.dll
+SHA1-Digest: yqYocvmA71MtnG53VMCj/oNEYAI=
+
+Name: res/layout-sw600dp/z_kamcord_fragment_share.xml
+SHA1-Digest: lUYOKDkBWI2v6n3HY5txaXfX/Po=
+
+Name: assets/bin/Data/Managed/nunit.framework.dll
+SHA1-Digest: S9bXrbd78HzNKI8/X1NOZGSgYrQ=
+
+Name: res/drawable-mdpi/kamcord.png
+SHA1-Digest: N1dPKY1GIrBgjRU+6zNmSBBZMgU=
+
+Name: assets/bin/Data/sharedassets57.assets
+SHA1-Digest: WMtX80L7Ho5dWkQWBDfRYGLql+s=
+
+Name: assets/bin/Data/4474de698677f4cc9ae583d11472e598
+SHA1-Digest: JMhmMw2Hn37Ir0vbtYgTHxg/Ykw=
+
+Name: assets/bin/Data/822425dcf463f4a8a88bb73f78e3506a
+SHA1-Digest: w7ELtnR+INmTU/zEJ3xaMqqbm2c=
+
+Name: assets/bin/Data/12c0106c490ed4df0bf7e72c7c0cdf91
+SHA1-Digest: EIFCu4lpq9/j4iZ5qsP9sIWnEVw=
+
+Name: res/drawable-xxhdpi/kamcord_facebook.png
+SHA1-Digest: bQza+fwjMqcR7dIsKrg2f9Q1CkU=
+
+Name: assets/bin/Data/sharedassets34.assets
+SHA1-Digest: oOygLvI87b0X+GNf7/G+RdJzd28=
+
+Name: assets/bin/Data/576206fab35c548c1b0481f7ffa6ce01
+SHA1-Digest: oSDhP8vGyWul1mElKoxFWf6HdQo=
+
+Name: res/drawable/com_facebook_button_grey_pressed.9.png
+SHA1-Digest: P0wPjAW7g0+CwVv4YccsLFHlsh0=
+
+Name: assets/bin/Data/level0
+SHA1-Digest: AW0Jfk7Ics9fzoxjRy0F1cd4oBA=
+
+Name: assets/bin/Data/level2
+SHA1-Digest: tLJNys9AYsRRyflLzeDG+0lMly0=
+
+Name: assets/bin/Data/sharedassets52.assets
+SHA1-Digest: xVIsfEy14S4fdTDURa6pkDgiabQ=
+
+Name: res/drawable-xhdpi/powered_by_google_light.png
+SHA1-Digest: 1PCeD4X7eVLdr2+EB4poVTq1PZw=
+
+Name: assets/bin/Data/level1
+SHA1-Digest: nA5QfHFyNWpHUAOvYRzOTGCi0v0=
+
+Name: assets/bin/Data/9dcccf75764634e64b65424612912dda
+SHA1-Digest: UWOieE2xiDC8KxWvmkL3Rr0gMSA=
+
+Name: assets/bin/Data/77b6bdb1641544d4bbe5d5465edf4f8c
+SHA1-Digest: gKrkXxe+g8UTB+kFVFA6gDV4EoM=
+
+Name: res/drawable-xhdpi/com_facebook_tooltip_black_xout.png
+SHA1-Digest: GRVPhQjnqMlZsnYF1YFKphQHJm0=
+
+Name: assets/bin/Data/427d21a4a483e40c99144bfc352eacf4
+SHA1-Digest: 4mJ42NVIjzLsornSVoVOmH9+Ey0=
+
+Name: res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png
+SHA1-Digest: CdS2JYcO2aYMRPs8uE6z0+hK3SA=
+
+Name: assets/bin/Data/settings.xml
+SHA1-Digest: XFTa1QVNlGhjrk/0NkLz49FXq7M=
+
+Name: assets/bin/Data/sharedassets50.assets
+SHA1-Digest: Fombb/zkH5acuhz7dm6iaIMaygo=
+
+Name: assets/bin/Data/7a05c47b7a5104f91bfa63ced6e06043
+SHA1-Digest: uTiH/QlLyrpPSsonfyAxIGpaNHU=
+
+Name: assets/bin/Data/sharedassets25.assets
+SHA1-Digest: eoKzxOVg0ifjaifTXpMWKZYYc8E=
+
+Name: res/drawable-xhdpi/greenbutton.9.png
+SHA1-Digest: 5gfiBG1UWBc8D5x37cpUTP/mXcs=
+
+Name: res/color/wallet_primary_text_holo_light.xml
+SHA1-Digest: NPYfa1JFRaA52jtN7Z0PjT0fhkc=
+
+Name: res/drawable-hdpi/kamcord_youtube_gray.png
+SHA1-Digest: LlhgIH8dYA8zsXjG41UTTZU63PE=
+
+Name: res/drawable-xhdpi/com_facebook_tooltip_blue_topnub.png
+SHA1-Digest: L9JqjqdpgNFaMjHf+kD+OSxZ8t4=
+
+Name: res/drawable-hdpi/com_facebook_button_grey_focused.9.png
+SHA1-Digest: xw3C3hxhbAqRc7fZEiHwllptNuM=
+
