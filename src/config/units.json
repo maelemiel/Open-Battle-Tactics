@@ -1,0 +1,5552 @@
+[
+  {
+    "id": 11001,
+    "name": "VOLT",
+    "rarity": 1,
+    "type": 1,
+    "hp": 20,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      6,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 11002,
+    "name": "LONGSHOT",
+    "rarity": 1,
+    "type": 1,
+    "hp": 19,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      6,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 11003,
+    "name": "BOLTS",
+    "rarity": 1,
+    "type": 1,
+    "hp": 22,
+    "level": 1,
+    "wheelValues": [
+      2,
+      5,
+      7,
+      8,
+      10
+    ]
+  },
+  {
+    "id": 11004,
+    "name": "RAZE",
+    "rarity": 1,
+    "type": 1,
+    "hp": 20,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      4,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 11005,
+    "name": "RUSTY",
+    "rarity": 1,
+    "type": 1,
+    "hp": 21,
+    "level": 1,
+    "wheelValues": [
+      1,
+      4,
+      7,
+      9,
+      11
+    ]
+  },
+  {
+    "id": 11006,
+    "name": "BOOMBOX",
+    "rarity": 1,
+    "type": 1,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 11007,
+    "name": "PROSPECTOR",
+    "rarity": 1,
+    "type": 1,
+    "hp": 20,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      5,
+      10,
+      13
+    ]
+  },
+  {
+    "id": 11008,
+    "name": "SCREECH",
+    "rarity": 1,
+    "type": 1,
+    "hp": 21,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      6,
+      10,
+      12
+    ]
+  },
+  {
+    "id": 11009,
+    "name": "RENEGADE",
+    "rarity": 1,
+    "type": 1,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      1,
+      5,
+      8,
+      10,
+      12
+    ]
+  },
+  {
+    "id": 11010,
+    "name": "SPARKY",
+    "rarity": 1,
+    "type": 1,
+    "hp": 22,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      6,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 12001,
+    "name": "WRECKER",
+    "rarity": 1,
+    "type": 2,
+    "hp": 27,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "id": 12002,
+    "name": "BOXER",
+    "rarity": 1,
+    "type": 2,
+    "hp": 28,
+    "level": 1,
+    "wheelValues": [
+      1,
+      4,
+      6,
+      6,
+      7
+    ]
+  },
+  {
+    "id": 12003,
+    "name": "LEATHERBACK",
+    "rarity": 1,
+    "type": 2,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      5,
+      7,
+      8
+    ]
+  },
+  {
+    "id": 12004,
+    "name": "ICEBERG",
+    "rarity": 1,
+    "type": 2,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 13001,
+    "name": "SPEEDSTER",
+    "rarity": 1,
+    "type": 3,
+    "hp": 14,
+    "level": 1,
+    "wheelValues": [
+      1,
+      2,
+      5,
+      5,
+      9
+    ]
+  },
+  {
+    "id": 13002,
+    "name": "GAMBIT",
+    "rarity": 1,
+    "type": 3,
+    "hp": 15,
+    "level": 1,
+    "wheelValues": [
+      1,
+      2,
+      4,
+      4,
+      10
+    ]
+  },
+  {
+    "id": 13003,
+    "name": "ECHO",
+    "rarity": 1,
+    "type": 3,
+    "hp": 17,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      5,
+      6,
+      9
+    ]
+  },
+  {
+    "id": 13004,
+    "name": "BANDIT",
+    "rarity": 1,
+    "type": 3,
+    "hp": 15,
+    "level": 1,
+    "wheelValues": [
+      1,
+      2,
+      3,
+      4,
+      9
+    ]
+  },
+  {
+    "id": 21001,
+    "name": "POCKET ROCKETEER",
+    "rarity": 2,
+    "type": 1,
+    "hp": 25,
+    "level": 1,
+    "wheelValues": [
+      3,
+      7,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 21002,
+    "name": "CHAMP",
+    "rarity": 2,
+    "type": 1,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      1,
+      2,
+      4,
+      12,
+      17
+    ]
+  },
+  {
+    "id": 21003,
+    "name": "STRIKER",
+    "rarity": 2,
+    "type": 1,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      5,
+      8,
+      11,
+      15
+    ]
+  },
+  {
+    "id": 21004,
+    "name": "THUNDER",
+    "rarity": 2,
+    "type": 1,
+    "hp": 25,
+    "level": 1,
+    "wheelValues": [
+      4,
+      8,
+      10,
+      10,
+      12
+    ]
+  },
+  {
+    "id": 21005,
+    "name": "MACHETE",
+    "rarity": 2,
+    "type": 1,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      5,
+      13,
+      18
+    ]
+  },
+  {
+    "id": 21006,
+    "name": "RICHES",
+    "rarity": 2,
+    "type": 1,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      9,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21007,
+    "name": "LURKER",
+    "rarity": 2,
+    "type": 1,
+    "hp": 25,
+    "level": 1,
+    "wheelValues": [
+      5,
+      5,
+      11,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21008,
+    "name": "HERCULES",
+    "rarity": 2,
+    "type": 1,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      9,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21009,
+    "name": "BOOMER",
+    "rarity": 2,
+    "type": 1,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      9,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21010,
+    "name": "DR. SMASH",
+    "rarity": 2,
+    "type": 1,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      9,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21011,
+    "name": "JESSICA",
+    "rarity": 2,
+    "type": 1,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      9,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21012,
+    "name": "HIGH ROLLER",
+    "rarity": 2,
+    "type": 1,
+    "hp": 28,
+    "level": 1,
+    "wheelValues": [
+      3,
+      8,
+      10,
+      12,
+      15
+    ]
+  },
+  {
+    "id": 21013,
+    "name": "ROCKY ROAD",
+    "rarity": 2,
+    "type": 1,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      6,
+      6,
+      12,
+      12,
+      14
+    ]
+  },
+  {
+    "id": 21014,
+    "name": "BLASTER",
+    "rarity": 2,
+    "type": 1,
+    "hp": 27,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      6,
+      12,
+      20
+    ]
+  },
+  {
+    "id": 21015,
+    "name": "GOLDEN AXE",
+    "rarity": 2,
+    "type": 1,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      5,
+      13,
+      18
+    ]
+  },
+  {
+    "id": 21016,
+    "name": "BLUE FORCE",
+    "rarity": 2,
+    "type": 1,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      9,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21017,
+    "name": "SLIM",
+    "rarity": 2,
+    "type": 1,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      9,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21018,
+    "name": "MARSH CRAWLER",
+    "rarity": 2,
+    "type": 11,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      9,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21019,
+    "name": "UNCLE SAM",
+    "rarity": 2,
+    "type": 1,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      9,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21020,
+    "name": "STARLET",
+    "rarity": 2,
+    "type": 11,
+    "hp": 18,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      9,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21021,
+    "name": "GALEA GUNNER",
+    "rarity": 2,
+    "type": 11,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      9,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21022,
+    "name": "RED TIGER",
+    "rarity": 2,
+    "type": 1,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      9,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 21023,
+    "name": "WALKING TREAD",
+    "rarity": 2,
+    "type": 11,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      4,
+      5,
+      7,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 21024,
+    "name": "JULIETA'S HELM",
+    "rarity": 2,
+    "type": 11,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      2,
+      5,
+      9,
+      11,
+      13
+    ]
+  },
+  {
+    "id": 21025,
+    "name": "TORQUE LIFT",
+    "rarity": 2,
+    "type": 11,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      2,
+      3,
+      6,
+      9,
+      12
+    ]
+  },
+  {
+    "id": 21026,
+    "name": "TODD 2000",
+    "rarity": 2,
+    "type": 11,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      5,
+      6,
+      10,
+      10,
+      14
+    ]
+  },
+  {
+    "id": 21027,
+    "name": "UNITOPS",
+    "rarity": 2,
+    "type": 11,
+    "hp": 34,
+    "level": 1,
+    "wheelValues": [
+      3,
+      3,
+      4,
+      5,
+      15
+    ]
+  },
+  {
+    "id": 21028,
+    "name": "TODD 2000 BC",
+    "rarity": 2,
+    "type": 11,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      7,
+      7,
+      8,
+      12,
+      12
+    ]
+  },
+  {
+    "id": 21029,
+    "name": "POLKA-DoT",
+    "rarity": 2,
+    "type": 11,
+    "hp": 25,
+    "level": 1,
+    "wheelValues": [
+      0,
+      5,
+      8,
+      10,
+      13
+    ]
+  },
+  {
+    "id": 21030,
+    "name": "RED RIDER",
+    "rarity": 2,
+    "type": 11,
+    "hp": 25,
+    "level": 1,
+    "wheelValues": [
+      2,
+      5,
+      11,
+      12,
+      14
+    ]
+  },
+  {
+    "id": 21031,
+    "name": "THE DISTILLERY",
+    "rarity": 2,
+    "type": 11,
+    "hp": 25,
+    "level": 1,
+    "wheelValues": [
+      1,
+      6,
+      10,
+      13,
+      14
+    ]
+  },
+  {
+    "id": 21032,
+    "name": "MY LITTLE FRIEND",
+    "rarity": 2,
+    "type": 11,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      1,
+      4,
+      0,
+      10,
+      11
+    ]
+  },
+  {
+    "id": 21033,
+    "name": "FOR HIRE",
+    "rarity": 2,
+    "type": 11,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      5,
+      8,
+      10
+    ]
+  },
+  {
+    "id": 22001,
+    "name": "BRUTUS",
+    "rarity": 2,
+    "type": 2,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      3,
+      5,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 22002,
+    "name": "UNDERDOG",
+    "rarity": 2,
+    "type": 2,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      5,
+      6,
+      7,
+      7,
+      8
+    ]
+  },
+  {
+    "id": 22003,
+    "name": "BUSTER",
+    "rarity": 2,
+    "type": 2,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      2,
+      5,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 22004,
+    "name": "BUNKER",
+    "rarity": 2,
+    "type": 2,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      3,
+      5,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "id": 22005,
+    "name": "CENTURION",
+    "rarity": 2,
+    "type": 2,
+    "hp": 35,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 22006,
+    "name": "STEEL WALL",
+    "rarity": 2,
+    "type": 2,
+    "hp": 34,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 22007,
+    "name": "DREGS",
+    "rarity": 2,
+    "type": 12,
+    "hp": 34,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      9,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 22008,
+    "name": "BATTLE WAGON",
+    "rarity": 2,
+    "type": 12,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      5,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "id": 23001,
+    "name": "LIGHTNING",
+    "rarity": 2,
+    "type": 3,
+    "hp": 20,
+    "level": 1,
+    "wheelValues": [
+      2,
+      3,
+      6,
+      7,
+      12
+    ]
+  },
+  {
+    "id": 23002,
+    "name": "CPT BLITZ",
+    "rarity": 2,
+    "type": 3,
+    "hp": 22,
+    "level": 1,
+    "wheelValues": [
+      3,
+      4,
+      6,
+      8,
+      10
+    ]
+  },
+  {
+    "id": 23003,
+    "name": "RACER-X",
+    "rarity": 2,
+    "type": 3,
+    "hp": 19,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      6,
+      8,
+      13
+    ]
+  },
+  {
+    "id": 23004,
+    "name": "ZOOMER",
+    "rarity": 2,
+    "type": 3,
+    "hp": 21,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      7,
+      9,
+      12
+    ]
+  },
+  {
+    "id": 23005,
+    "name": "ROVER",
+    "rarity": 2,
+    "type": 3,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      7,
+      8,
+      14
+    ]
+  },
+  {
+    "id": 23006,
+    "name": "JOYRIDE",
+    "rarity": 2,
+    "type": 3,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      8,
+      9,
+      14
+    ]
+  },
+  {
+    "id": 29701,
+    "name": "RC TERROR",
+    "rarity": 2,
+    "type": 9,
+    "hp": 16,
+    "level": 1,
+    "wheelValues": [
+      2,
+      3,
+      4,
+      5,
+      16
+    ]
+  },
+  {
+    "id": 29702,
+    "name": "ZOOM ZAP",
+    "rarity": 2,
+    "type": 9,
+    "hp": 13,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      5,
+      5,
+      0
+    ]
+  },
+  {
+    "id": 29703,
+    "name": "BUZZ TOP",
+    "rarity": 2,
+    "type": 9,
+    "hp": 10,
+    "level": 1,
+    "wheelValues": [
+      0,
+      0,
+      0,
+      10,
+      15
+    ]
+  },
+  {
+    "id": 29704,
+    "name": "RUFFIAN",
+    "rarity": 2,
+    "type": 9,
+    "hp": 15,
+    "level": 1,
+    "wheelValues": [
+      2,
+      3,
+      4,
+      5,
+      10
+    ]
+  },
+  {
+    "id": 29705,
+    "name": "TBD",
+    "rarity": 2,
+    "type": 9,
+    "hp": 15,
+    "level": 1,
+    "wheelValues": [
+      2,
+      3,
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 31001,
+    "name": "ACE",
+    "rarity": 3,
+    "type": 1,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      3,
+      9,
+      12,
+      14,
+      17
+    ]
+  },
+  {
+    "id": 31002,
+    "name": "STORM",
+    "rarity": 3,
+    "type": 1,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      4,
+      10,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "id": 31003,
+    "name": "STARBURST",
+    "rarity": 3,
+    "type": 1,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      12,
+      15,
+      16
+    ]
+  },
+  {
+    "id": 31004,
+    "name": "EL JEFE",
+    "rarity": 3,
+    "type": 1,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      5,
+      10,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 31005,
+    "name": "APOLLO",
+    "rarity": 3,
+    "type": 1,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      3,
+      9,
+      12,
+      14,
+      18
+    ]
+  },
+  {
+    "id": 31006,
+    "name": "BURN DOWN",
+    "rarity": 3,
+    "type": 1,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      2,
+      8,
+      12,
+      15,
+      17
+    ]
+  },
+  {
+    "id": 31007,
+    "name": "TOP DOG",
+    "rarity": 3,
+    "type": 1,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      6,
+      6,
+      12,
+      12,
+      17
+    ]
+  },
+  {
+    "id": 31008,
+    "name": "SHAMAN",
+    "rarity": 3,
+    "type": 1,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      1,
+      7,
+      10,
+      16,
+      19
+    ]
+  },
+  {
+    "id": 31009,
+    "name": "BRUISER",
+    "rarity": 3,
+    "type": 1,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      5,
+      11,
+      13,
+      15,
+      16
+    ]
+  },
+  {
+    "id": 31010,
+    "name": "BRIGADIER",
+    "rarity": 3,
+    "type": 1,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      12,
+      15,
+      15
+    ]
+  },
+  {
+    "id": 31011,
+    "name": "BEAST",
+    "rarity": 3,
+    "type": 1,
+    "hp": 35,
+    "level": 1,
+    "wheelValues": [
+      4,
+      10,
+      13,
+      15,
+      19
+    ]
+  },
+  {
+    "id": 31012,
+    "name": "RAIN MAKER",
+    "rarity": 3,
+    "type": 1,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      3,
+      10,
+      14,
+      16,
+      18
+    ]
+  },
+  {
+    "id": 31013,
+    "name": "ARCHER",
+    "rarity": 3,
+    "type": 1,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      2,
+      8,
+      12,
+      17,
+      21
+    ]
+  },
+  {
+    "id": 31014,
+    "name": "AMAZON",
+    "rarity": 3,
+    "type": 1,
+    "hp": 34,
+    "level": 1,
+    "wheelValues": [
+      6,
+      8,
+      10,
+      15,
+      17
+    ]
+  },
+  {
+    "id": 31015,
+    "name": "BUCK SHOT",
+    "rarity": 3,
+    "type": 1,
+    "hp": 35,
+    "level": 1,
+    "wheelValues": [
+      8,
+      8,
+      13,
+      13,
+      15
+    ]
+  },
+  {
+    "id": 31016,
+    "name": "HYDRA",
+    "rarity": 3,
+    "type": 1,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      6,
+      10,
+      12,
+      14,
+      0
+    ]
+  },
+  {
+    "id": 31017,
+    "name": "TYPHOON",
+    "rarity": 3,
+    "type": 5,
+    "hp": 35,
+    "level": 1,
+    "wheelValues": [
+      8,
+      10,
+      12,
+      14,
+      16
+    ]
+  },
+  {
+    "id": 31018,
+    "name": "REAPER",
+    "rarity": 3,
+    "type": 5,
+    "hp": 37,
+    "level": 1,
+    "wheelValues": [
+      4,
+      10,
+      13,
+      15,
+      0
+    ]
+  },
+  {
+    "id": 31019,
+    "name": "BUZZ HAWK",
+    "rarity": 3,
+    "type": 5,
+    "hp": 35,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      9,
+      15,
+      18
+    ]
+  },
+  {
+    "id": 31020,
+    "name": "ZX-85",
+    "rarity": 3,
+    "type": 1,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      3,
+      7,
+      12,
+      16,
+      21
+    ]
+  },
+  {
+    "id": 31021,
+    "name": "BIG DOZER",
+    "rarity": 3,
+    "type": 5,
+    "hp": 35,
+    "level": 1,
+    "wheelValues": [
+      5,
+      10,
+      12,
+      15,
+      17
+    ]
+  },
+  {
+    "id": 31022,
+    "name": "MASHER",
+    "rarity": 3,
+    "type": 1,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      2,
+      8,
+      11,
+      16,
+      19
+    ]
+  },
+  {
+    "id": 31023,
+    "name": "BAD CONDUCT",
+    "rarity": 3,
+    "type": 1,
+    "hp": 34,
+    "level": 1,
+    "wheelValues": [
+      7,
+      8,
+      9,
+      10,
+      23
+    ]
+  },
+  {
+    "id": 31024,
+    "name": "SCAVENGER",
+    "rarity": 3,
+    "type": 11,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      3,
+      7,
+      12,
+      16,
+      21
+    ]
+  },
+  {
+    "id": 31025,
+    "name": "PEACE MAKER",
+    "rarity": 3,
+    "type": 5,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      9,
+      15,
+      18
+    ]
+  },
+  {
+    "id": 31026,
+    "name": "BARREN",
+    "rarity": 3,
+    "type": 11,
+    "hp": 35,
+    "level": 1,
+    "wheelValues": [
+      7,
+      8,
+      9,
+      15,
+      0
+    ]
+  },
+  {
+    "id": 31027,
+    "name": "TOMBSTONE",
+    "rarity": 3,
+    "type": 11,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      10,
+      13,
+      18
+    ]
+  },
+  {
+    "id": 31028,
+    "name": "DAZZLING RONIN",
+    "rarity": 3,
+    "type": 11,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      3,
+      7,
+      11,
+      15,
+      16
+    ]
+  },
+  {
+    "id": 31029,
+    "name": "RISING STAR",
+    "rarity": 3,
+    "type": 11,
+    "hp": 38,
+    "level": 1,
+    "wheelValues": [
+      5,
+      8,
+      12,
+      16,
+      0
+    ]
+  },
+  {
+    "id": 31030,
+    "name": "UV SHOGUN",
+    "rarity": 3,
+    "type": 11,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      4,
+      8,
+      11,
+      13,
+      13
+    ]
+  },
+  {
+    "id": 31031,
+    "name": "MAJOR CRASH",
+    "rarity": 3,
+    "type": 11,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      4,
+      8,
+      11,
+      13,
+      13
+    ]
+  },
+  {
+    "id": 31032,
+    "name": "SECUTOR",
+    "rarity": 3,
+    "type": 11,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      4,
+      6,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "id": 31033,
+    "name": "BESTARIUS",
+    "rarity": 3,
+    "type": 11,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      3,
+      5,
+      11,
+      14,
+      18
+    ]
+  },
+  {
+    "id": 31034,
+    "name": "ENTOMBER",
+    "rarity": 3,
+    "type": 11,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      8,
+      9,
+      11
+    ]
+  },
+  {
+    "id": 31035,
+    "name": "HILDEGARD'S IRE",
+    "rarity": 3,
+    "type": 11,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      3,
+      8,
+      11,
+      13,
+      0
+    ]
+  },
+  {
+    "id": 31036,
+    "name": "SLITHER",
+    "rarity": 3,
+    "type": 12,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      3,
+      7,
+      12,
+      16,
+      21
+    ]
+  },
+  {
+    "id": 31037,
+    "name": "HILDEGARD'S SHOT",
+    "rarity": 3,
+    "type": 11,
+    "hp": 28,
+    "level": 1,
+    "wheelValues": [
+      7,
+      12,
+      16,
+      21,
+      0
+    ]
+  },
+  {
+    "id": 31038,
+    "name": "MR. DRILL",
+    "rarity": 3,
+    "type": 11,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      2,
+      8,
+      11,
+      14,
+      18
+    ]
+  },
+  {
+    "id": 31039,
+    "name": "HAXAGON",
+    "rarity": 3,
+    "type": 11,
+    "hp": 28,
+    "level": 1,
+    "wheelValues": [
+      5,
+      5,
+      11,
+      11,
+      15
+    ]
+  },
+  {
+    "id": 31040,
+    "name": "PISTONCEPHALASAURUS",
+    "rarity": 3,
+    "type": 11,
+    "hp": 37,
+    "level": 1,
+    "wheelValues": [
+      3,
+      4,
+      5,
+      7,
+      20
+    ]
+  },
+  {
+    "id": 31041,
+    "name": "HIEROGLYPH",
+    "rarity": 3,
+    "type": 11,
+    "hp": 34,
+    "level": 1,
+    "wheelValues": [
+      8,
+      9,
+      9,
+      14,
+      14
+    ]
+  },
+  {
+    "id": 31042,
+    "name": "COMPOUND CANNON",
+    "rarity": 3,
+    "type": 11,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      0,
+      7,
+      10,
+      13,
+      16
+    ]
+  },
+  {
+    "id": 31043,
+    "name": "THE REACTOR",
+    "rarity": 3,
+    "type": 11,
+    "hp": 28,
+    "level": 1,
+    "wheelValues": [
+      2,
+      8,
+      12,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 31044,
+    "name": "SOLDATI",
+    "rarity": 3,
+    "type": 11,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      3,
+      8,
+      11,
+      15,
+      19
+    ]
+  },
+  {
+    "id": 31045,
+    "name": "COMPENSATOR",
+    "rarity": 3,
+    "type": 11,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      4,
+      5,
+      9,
+      13,
+      16
+    ]
+  },
+  {
+    "id": 32001,
+    "name": "COMMANDO",
+    "rarity": 3,
+    "type": 2,
+    "hp": 36,
+    "level": 1,
+    "wheelValues": [
+      4,
+      5,
+      8,
+      11,
+      0
+    ]
+  },
+  {
+    "id": 32002,
+    "name": "PRIZE FIGHT",
+    "rarity": 3,
+    "type": 2,
+    "hp": 36,
+    "level": 1,
+    "wheelValues": [
+      4,
+      5,
+      8,
+      11,
+      0
+    ]
+  },
+  {
+    "id": 32003,
+    "name": "BLITZ CHIEF",
+    "rarity": 3,
+    "type": 2,
+    "hp": 37,
+    "level": 1,
+    "wheelValues": [
+      2,
+      3,
+      9,
+      11,
+      0
+    ]
+  },
+  {
+    "id": 32004,
+    "name": "VIKING",
+    "rarity": 3,
+    "type": 2,
+    "hp": 39,
+    "level": 1,
+    "wheelValues": [
+      6,
+      6,
+      9,
+      11,
+      13
+    ]
+  },
+  {
+    "id": 32005,
+    "name": "GUARDIAN",
+    "rarity": 3,
+    "type": 2,
+    "hp": 38,
+    "level": 1,
+    "wheelValues": [
+      4,
+      5,
+      10,
+      12,
+      0
+    ]
+  },
+  {
+    "id": 32006,
+    "name": "ENFORCER",
+    "rarity": 3,
+    "type": 2,
+    "hp": 38,
+    "level": 1,
+    "wheelValues": [
+      4,
+      5,
+      10,
+      12,
+      0
+    ]
+  },
+  {
+    "id": 32007,
+    "name": "DEAD END",
+    "rarity": 3,
+    "type": 2,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      5,
+      6,
+      9,
+      12,
+      13
+    ]
+  },
+  {
+    "id": 32008,
+    "name": "ZAMBOOMER",
+    "rarity": 3,
+    "type": 2,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      6,
+      7,
+      7,
+      12,
+      0
+    ]
+  },
+  {
+    "id": 32009,
+    "name": "DESOLATION",
+    "rarity": 3,
+    "type": 6,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      5,
+      5,
+      8,
+      13,
+      14
+    ]
+  },
+  {
+    "id": 32010,
+    "name": "CARRION",
+    "rarity": 3,
+    "type": 6,
+    "hp": 38,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      9,
+      13,
+      0
+    ]
+  },
+  {
+    "id": 32011,
+    "name": "PARTY CRASHER",
+    "rarity": 3,
+    "type": 6,
+    "hp": 39,
+    "level": 1,
+    "wheelValues": [
+      6,
+      8,
+      9,
+      11,
+      0
+    ]
+  },
+  {
+    "id": 32012,
+    "name": "LAY WASTE",
+    "rarity": 3,
+    "type": 12,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      5,
+      6,
+      7,
+      12,
+      15
+    ]
+  },
+  {
+    "id": 32013,
+    "name": "HEX",
+    "rarity": 3,
+    "type": 12,
+    "hp": 38,
+    "level": 1,
+    "wheelValues": [
+      5,
+      5,
+      8,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 32014,
+    "name": "PHALANX",
+    "rarity": 3,
+    "type": 12,
+    "hp": 35,
+    "level": 1,
+    "wheelValues": [
+      4,
+      6,
+      10,
+      9,
+      0
+    ]
+  },
+  {
+    "id": 32015,
+    "name": "KAZAM",
+    "rarity": 3,
+    "type": 12,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      3,
+      7,
+      8,
+      10,
+      0
+    ]
+  },
+  {
+    "id": 32016,
+    "name": "AVRIL'S VALOR",
+    "rarity": 3,
+    "type": 12,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      7,
+      9,
+      0
+    ]
+  },
+  {
+    "id": 32017,
+    "name": "QUASAR",
+    "rarity": 3,
+    "type": 12,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      0,
+      0,
+      7,
+      10,
+      11
+    ]
+  },
+  {
+    "id": 32018,
+    "name": "TANKYLOSAURUS",
+    "rarity": 3,
+    "type": 12,
+    "hp": 43,
+    "level": 1,
+    "wheelValues": [
+      1,
+      1,
+      2,
+      12,
+      0
+    ]
+  },
+  {
+    "id": 32019,
+    "name": "LITTLE TREADS",
+    "rarity": 3,
+    "type": 12,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      3,
+      5,
+      7,
+      9,
+      15
+    ]
+  },
+  {
+    "id": 32020,
+    "name": "GRINDSTONE",
+    "rarity": 3,
+    "type": 12,
+    "hp": 38,
+    "level": 1,
+    "wheelValues": [
+      3,
+      4,
+      0,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 32021,
+    "name": "LEMON SNOW",
+    "rarity": 3,
+    "type": 12,
+    "hp": 27,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      7,
+      9,
+      0
+    ]
+  },
+  {
+    "id": 32022,
+    "name": "THE FUMIGATOR",
+    "rarity": 3,
+    "type": 12,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      4,
+      6,
+      8,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 32023,
+    "name": "SHAKE DOWN",
+    "rarity": 3,
+    "type": 12,
+    "hp": 36,
+    "level": 1,
+    "wheelValues": [
+      2,
+      5,
+      9,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 32024,
+    "name": "BACKUP",
+    "rarity": 3,
+    "type": 12,
+    "hp": 36,
+    "level": 1,
+    "wheelValues": [
+      2,
+      5,
+      10,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 33001,
+    "name": "TRICKSTER",
+    "rarity": 3,
+    "type": 3,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      8,
+      10,
+      16
+    ]
+  },
+  {
+    "id": 33002,
+    "name": "STEALTH",
+    "rarity": 3,
+    "type": 3,
+    "hp": 25,
+    "level": 1,
+    "wheelValues": [
+      1,
+      5,
+      9,
+      11,
+      16
+    ]
+  },
+  {
+    "id": 33003,
+    "name": "SLINGER",
+    "rarity": 3,
+    "type": 3,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      4,
+      4,
+      8,
+      12,
+      15
+    ]
+  },
+  {
+    "id": 33004,
+    "name": "EZ RIDER",
+    "rarity": 3,
+    "type": 3,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      2,
+      5,
+      9,
+      12,
+      17
+    ]
+  },
+  {
+    "id": 33005,
+    "name": "MUSTANG",
+    "rarity": 3,
+    "type": 3,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      5,
+      5,
+      9,
+      13,
+      16
+    ]
+  },
+  {
+    "id": 33006,
+    "name": "BUBBA BUZZ",
+    "rarity": 3,
+    "type": 3,
+    "hp": 27,
+    "level": 1,
+    "wheelValues": [
+      4,
+      6,
+      10,
+      11,
+      17
+    ]
+  },
+  {
+    "id": 33007,
+    "name": "HOT ROD",
+    "rarity": 3,
+    "type": 3,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      3,
+      5,
+      9,
+      11,
+      18
+    ]
+  },
+  {
+    "id": 33008,
+    "name": "BOOM BUGGY",
+    "rarity": 3,
+    "type": 3,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      8,
+      10,
+      19
+    ]
+  },
+  {
+    "id": 33009,
+    "name": "FAST TRACKER",
+    "rarity": 3,
+    "type": 7,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      9,
+      9,
+      19
+    ]
+  },
+  {
+    "id": 33010,
+    "name": "CAGE MATCH",
+    "rarity": 3,
+    "type": 7,
+    "hp": 28,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      10,
+      11,
+      16
+    ]
+  },
+  {
+    "id": 33011,
+    "name": "SPEED TRAP",
+    "rarity": 3,
+    "type": 7,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      3,
+      5,
+      9,
+      10,
+      18
+    ]
+  },
+  {
+    "id": 33012,
+    "name": "UNDERTOW",
+    "rarity": 3,
+    "type": 13,
+    "hp": 27,
+    "level": 1,
+    "wheelValues": [
+      3,
+      8,
+      10,
+      12,
+      16
+    ]
+  },
+  {
+    "id": 33013,
+    "name": "GRIM SEEKER",
+    "rarity": 3,
+    "type": 13,
+    "hp": 28,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      8,
+      12,
+      17
+    ]
+  },
+  {
+    "id": 33014,
+    "name": "TANTO DRIFTER",
+    "rarity": 3,
+    "type": 13,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      8,
+      10,
+      15
+    ]
+  },
+  {
+    "id": 33015,
+    "name": "IMPERIAL FALCON",
+    "rarity": 3,
+    "type": 13,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      2,
+      5,
+      8,
+      10,
+      15
+    ]
+  },
+  {
+    "id": 33016,
+    "name": "BEAT REGULATOR",
+    "rarity": 3,
+    "type": 3,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      4,
+      6,
+      8,
+      9,
+      19
+    ]
+  },
+  {
+    "id": 33017,
+    "name": "HOOK",
+    "rarity": 3,
+    "type": 13,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      1,
+      4,
+      7,
+      11,
+      15
+    ]
+  },
+  {
+    "id": 33018,
+    "name": "ALGERIA'S BLOOM",
+    "rarity": 3,
+    "type": 13,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      7,
+      10,
+      15
+    ]
+  },
+  {
+    "id": 33019,
+    "name": "SMOKE BRAKE",
+    "rarity": 3,
+    "type": 13,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      8,
+      9,
+      13
+    ]
+  },
+  {
+    "id": 33020,
+    "name": "SPARKY",
+    "rarity": 3,
+    "type": 13,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      0,
+      0,
+      6,
+      9,
+      14
+    ]
+  },
+  {
+    "id": 33021,
+    "name": "DIMETROGONE",
+    "rarity": 3,
+    "type": 13,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      6,
+      7,
+      17
+    ]
+  },
+  {
+    "id": 33022,
+    "name": "ZIGGURAT",
+    "rarity": 3,
+    "type": 13,
+    "hp": 28,
+    "level": 1,
+    "wheelValues": [
+      5,
+      6,
+      7,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 33023,
+    "name": "ARACHTREAD",
+    "rarity": 3,
+    "type": 13,
+    "hp": 22,
+    "level": 1,
+    "wheelValues": [
+      0,
+      3,
+      7,
+      9,
+      18
+    ]
+  },
+  {
+    "id": 33024,
+    "name": "SCOOP",
+    "rarity": 3,
+    "type": 13,
+    "hp": 24,
+    "level": 1,
+    "wheelValues": [
+      3,
+      5,
+      7,
+      9,
+      17
+    ]
+  },
+  {
+    "id": 33025,
+    "name": "THE CARRIAGE",
+    "rarity": 3,
+    "type": 13,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      3,
+      5,
+      8,
+      10,
+      13
+    ]
+  },
+  {
+    "id": 33026,
+    "name": "GETAWAY GUNNER",
+    "rarity": 3,
+    "type": 13,
+    "hp": 25,
+    "level": 1,
+    "wheelValues": [
+      1,
+      4,
+      8,
+      12,
+      18
+    ]
+  },
+  {
+    "id": 33027,
+    "name": "FREE LANCE",
+    "rarity": 3,
+    "type": 13,
+    "hp": 25,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      8,
+      11,
+      14
+    ]
+  },
+  {
+    "id": 34001,
+    "name": "LAW BRINGER",
+    "rarity": 3,
+    "type": 4,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      4,
+      6,
+      8,
+      10,
+      22
+    ]
+  },
+  {
+    "id": 34002,
+    "name": "HAWKEYE",
+    "rarity": 3,
+    "type": 4,
+    "hp": 21,
+    "level": 1,
+    "wheelValues": [
+      6,
+      8,
+      10,
+      13,
+      19
+    ]
+  },
+  {
+    "id": 34003,
+    "name": "HELICAN",
+    "rarity": 3,
+    "type": 4,
+    "hp": 25,
+    "level": 1,
+    "wheelValues": [
+      8,
+      9,
+      10,
+      11,
+      20
+    ]
+  },
+  {
+    "id": 34004,
+    "name": "SKY MARSHALL",
+    "rarity": 3,
+    "type": 8,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      9,
+      11,
+      21
+    ]
+  },
+  {
+    "id": 34005,
+    "name": "BEDSHEET BLAZE",
+    "rarity": 3,
+    "type": 10,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      9,
+      12,
+      19
+    ]
+  },
+  {
+    "id": 34006,
+    "name": "HOVER SHOVEL",
+    "rarity": 3,
+    "type": 10,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      6,
+      11,
+      20
+    ]
+  },
+  {
+    "id": 34007,
+    "name": "THREAT DISPLAY",
+    "rarity": 3,
+    "type": 10,
+    "hp": 21,
+    "level": 1,
+    "wheelValues": [
+      5,
+      6,
+      8,
+      11,
+      19
+    ]
+  },
+  {
+    "id": 34008,
+    "name": "FROSTBITER",
+    "rarity": 3,
+    "type": 10,
+    "hp": 23,
+    "level": 1,
+    "wheelValues": [
+      3,
+      4,
+      8,
+      11,
+      19
+    ]
+  },
+  {
+    "id": 41001,
+    "name": "THE KRAKEN",
+    "rarity": 4,
+    "type": 1,
+    "hp": 37,
+    "level": 1,
+    "wheelValues": [
+      5,
+      11,
+      15,
+      17,
+      20
+    ]
+  },
+  {
+    "id": 41002,
+    "name": "SCORPIO",
+    "rarity": 4,
+    "type": 1,
+    "hp": 37,
+    "level": 1,
+    "wheelValues": [
+      5,
+      11,
+      15,
+      17,
+      0
+    ]
+  },
+  {
+    "id": 41003,
+    "name": "THE CHARGER",
+    "rarity": 4,
+    "type": 1,
+    "hp": 38,
+    "level": 1,
+    "wheelValues": [
+      8,
+      10,
+      12,
+      15,
+      0
+    ]
+  },
+  {
+    "id": 41004,
+    "name": "HURRICANE",
+    "rarity": 4,
+    "type": 1,
+    "hp": 39,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      16,
+      18,
+      0
+    ]
+  },
+  {
+    "id": 41005,
+    "name": "RUMBLER",
+    "rarity": 4,
+    "type": 1,
+    "hp": 42,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      16,
+      19,
+      23
+    ]
+  },
+  {
+    "id": 41006,
+    "name": "STINGER",
+    "rarity": 4,
+    "type": 1,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      5,
+      9,
+      14,
+      20,
+      25
+    ]
+  },
+  {
+    "id": 41007,
+    "name": "SPEARTOOTH",
+    "rarity": 4,
+    "type": 1,
+    "hp": 38,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      16,
+      19,
+      0
+    ]
+  },
+  {
+    "id": 41008,
+    "name": "NIGHTMARE",
+    "rarity": 4,
+    "type": 5,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      16,
+      19,
+      0
+    ]
+  },
+  {
+    "id": 41009,
+    "name": "RAGE QUIT",
+    "rarity": 4,
+    "type": 5,
+    "hp": 39,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      16,
+      20,
+      0
+    ]
+  },
+  {
+    "id": 41010,
+    "name": "HIGHLANDER",
+    "rarity": 4,
+    "type": 5,
+    "hp": 43,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      16,
+      19,
+      0
+    ]
+  },
+  {
+    "id": 41011,
+    "name": "RIP TIDE",
+    "rarity": 4,
+    "type": 5,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      15,
+      19,
+      25
+    ]
+  },
+  {
+    "id": 41012,
+    "name": "DRAGON SPARK",
+    "rarity": 4,
+    "type": 5,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      5,
+      10,
+      14,
+      19,
+      0
+    ]
+  },
+  {
+    "id": 41013,
+    "name": "OBLIVION",
+    "rarity": 4,
+    "type": 5,
+    "hp": 42,
+    "level": 1,
+    "wheelValues": [
+      5,
+      9,
+      13,
+      15,
+      0
+    ]
+  },
+  {
+    "id": 41014,
+    "name": "EXCESSIVE FORCE",
+    "rarity": 4,
+    "type": 1,
+    "hp": 44,
+    "level": 1,
+    "wheelValues": [
+      8,
+      11,
+      14,
+      17,
+      26
+    ]
+  },
+  {
+    "id": 41015,
+    "name": "IMPALER",
+    "rarity": 4,
+    "type": 11,
+    "hp": 42,
+    "level": 1,
+    "wheelValues": [
+      8,
+      10,
+      14,
+      19,
+      24
+    ]
+  },
+  {
+    "id": 41016,
+    "name": "ROLLOUT",
+    "rarity": 4,
+    "type": 11,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      6,
+      10,
+      15,
+      19,
+      25
+    ]
+  },
+  {
+    "id": 41017,
+    "name": "TOTEMBO",
+    "rarity": 4,
+    "type": 11,
+    "hp": 39,
+    "level": 1,
+    "wheelValues": [
+      7,
+      11,
+      13,
+      19,
+      23
+    ]
+  },
+  {
+    "id": 41018,
+    "name": "EVISCERATOR",
+    "rarity": 4,
+    "type": 11,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      5,
+      10,
+      14,
+      17,
+      25
+    ]
+  },
+  {
+    "id": 41019,
+    "name": "PRIMETIME",
+    "rarity": 4,
+    "type": 11,
+    "hp": 35,
+    "level": 1,
+    "wheelValues": [
+      4,
+      10,
+      15,
+      16,
+      0
+    ]
+  },
+  {
+    "id": 41020,
+    "name": "SHOWTIME",
+    "rarity": 4,
+    "type": 11,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      7,
+      11,
+      17,
+      18,
+      0
+    ]
+  },
+  {
+    "id": 41021,
+    "name": "TRIUMVIRATE",
+    "rarity": 4,
+    "type": 11,
+    "hp": 37,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      10,
+      0,
+      17
+    ]
+  },
+  {
+    "id": 41022,
+    "name": "CHIMERAX",
+    "rarity": 4,
+    "type": 11,
+    "hp": 36,
+    "level": 1,
+    "wheelValues": [
+      4,
+      10,
+      14,
+      15,
+      0
+    ]
+  },
+  {
+    "id": 41023,
+    "name": "PRIME JUDICATOR",
+    "rarity": 4,
+    "type": 1,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      8,
+      14,
+      15,
+      0,
+      23
+    ]
+  },
+  {
+    "id": 41024,
+    "name": "EMPEROR'S BREATH",
+    "rarity": 4,
+    "type": 5,
+    "hp": 37,
+    "level": 1,
+    "wheelValues": [
+      4,
+      6,
+      8,
+      0,
+      20
+    ]
+  },
+  {
+    "id": 41025,
+    "name": "DEVIL'S DUE",
+    "rarity": 4,
+    "type": 11,
+    "hp": 43,
+    "level": 1,
+    "wheelValues": [
+      1,
+      8,
+      16,
+      21,
+      29
+    ]
+  },
+  {
+    "id": 41026,
+    "name": "INGRID'S WRATH",
+    "rarity": 4,
+    "type": 11,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      8,
+      9,
+      13,
+      15,
+      0
+    ]
+  },
+  {
+    "id": 41027,
+    "name": "BRAWLER",
+    "rarity": 4,
+    "type": 12,
+    "hp": 39,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      16,
+      18,
+      0
+    ]
+  },
+  {
+    "id": 41028,
+    "name": "REINHARD'S HOPE",
+    "rarity": 4,
+    "type": 11,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      9,
+      0,
+      23
+    ]
+  },
+  {
+    "id": 41029,
+    "name": "SAFETY DANCE",
+    "rarity": 4,
+    "type": 11,
+    "hp": 38,
+    "level": 1,
+    "wheelValues": [
+      4,
+      8,
+      10,
+      14,
+      22
+    ]
+  },
+  {
+    "id": 41030,
+    "name": "TREBUCHET",
+    "rarity": 4,
+    "type": 5,
+    "hp": 43,
+    "level": 1,
+    "wheelValues": [
+      6,
+      13,
+      17,
+      20,
+      0
+    ]
+  },
+  {
+    "id": 41031,
+    "name": "VOIDSEEKER",
+    "rarity": 4,
+    "type": 11,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      4,
+      10,
+      16,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 41032,
+    "name": "ORDNANACE",
+    "rarity": 4,
+    "type": 11,
+    "hp": 45,
+    "level": 1,
+    "wheelValues": [
+      0,
+      0,
+      0,
+      21,
+      24
+    ]
+  },
+  {
+    "id": 41033,
+    "name": "AVALANCHE",
+    "rarity": 4,
+    "type": 5,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      12,
+      15,
+      0
+    ]
+  },
+  {
+    "id": 41034,
+    "name": "DINO-SUPERVISOR",
+    "rarity": 4,
+    "type": 11,
+    "hp": 38,
+    "level": 1,
+    "wheelValues": [
+      0,
+      0,
+      9,
+      14,
+      21
+    ]
+  },
+  {
+    "id": 41035,
+    "name": "REJUVINI",
+    "rarity": 4,
+    "type": 11,
+    "hp": 37,
+    "level": 1,
+    "wheelValues": [
+      8,
+      9,
+      9,
+      15,
+      0
+    ]
+  },
+  {
+    "id": 41036,
+    "name": "DEATHSTALKER",
+    "rarity": 4,
+    "type": 11,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      7,
+      0,
+      0,
+      15,
+      22
+    ]
+  },
+  {
+    "id": 41037,
+    "name": "THE GINGERTREAD MAN",
+    "rarity": 4,
+    "type": 11,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      7,
+      0,
+      0,
+      15,
+      22
+    ]
+  },
+  {
+    "id": 41038,
+    "name": "ARACHNO-CANNIBAL",
+    "rarity": 4,
+    "type": 11,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      5,
+      10,
+      14,
+      17,
+      23
+    ]
+  },
+  {
+    "id": 41039,
+    "name": "DEATHSTALKER MVP",
+    "rarity": 4,
+    "type": 11,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      7,
+      0,
+      0,
+      15,
+      22
+    ]
+  },
+  {
+    "id": 41040,
+    "name": "FIRE PLOW",
+    "rarity": 4,
+    "type": 11,
+    "hp": 37,
+    "level": 1,
+    "wheelValues": [
+      3,
+      8,
+      14,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 41041,
+    "name": "SNOW CRASH",
+    "rarity": 4,
+    "type": 11,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      1,
+      7,
+      13,
+      18,
+      26
+    ]
+  },
+  {
+    "id": 41042,
+    "name": "GINGERDREAD",
+    "rarity": 4,
+    "type": 11,
+    "hp": 43,
+    "level": 1,
+    "wheelValues": [
+      5,
+      11,
+      0,
+      0,
+      25
+    ]
+  },
+  {
+    "id": 41043,
+    "name": "GINGERDREAD MVP",
+    "rarity": 4,
+    "type": 11,
+    "hp": 43,
+    "level": 1,
+    "wheelValues": [
+      5,
+      11,
+      0,
+      0,
+      25
+    ]
+  },
+  {
+    "id": 41044,
+    "name": "SPECTER-1",
+    "rarity": 4,
+    "type": 11,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      0,
+      0,
+      21
+    ]
+  },
+  {
+    "id": 41045,
+    "name": "THE CLEANER",
+    "rarity": 4,
+    "type": 11,
+    "hp": 37,
+    "level": 1,
+    "wheelValues": [
+      2,
+      7,
+      13,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 41046,
+    "name": "THE REFINERY",
+    "rarity": 4,
+    "type": 11,
+    "hp": 36,
+    "level": 1,
+    "wheelValues": [
+      4,
+      7,
+      10,
+      0,
+      18
+    ]
+  },
+  {
+    "id": 41047,
+    "name": "OCCAM'S RAZER",
+    "rarity": 4,
+    "type": 1,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      4,
+      0,
+      12,
+      17,
+      20
+    ]
+  },
+  {
+    "id": 41048,
+    "name": "BLOCKADE BUSTER",
+    "rarity": 4,
+    "type": 11,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      6,
+      9,
+      12,
+      16,
+      21
+    ]
+  },
+  {
+    "id": 41049,
+    "name": "GODFATHER TOMMY GUN",
+    "rarity": 4,
+    "type": 11,
+    "hp": 42,
+    "level": 1,
+    "wheelValues": [
+      7,
+      12,
+      16,
+      18,
+      0
+    ]
+  },
+  {
+    "id": 41050,
+    "name": "GODFATHER TOMMY GUN MVP",
+    "rarity": 4,
+    "type": 11,
+    "hp": 42,
+    "level": 1,
+    "wheelValues": [
+      7,
+      12,
+      16,
+      18,
+      0
+    ]
+  },
+  {
+    "id": 41051,
+    "name": "BUTTERKNIFE",
+    "rarity": 4,
+    "type": 11,
+    "hp": 38,
+    "level": 1,
+    "wheelValues": [
+      4,
+      10,
+      12,
+      16,
+      21
+    ]
+  },
+  {
+    "id": 41052,
+    "name": "COVER FIRE",
+    "rarity": 4,
+    "type": 11,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      4,
+      8,
+      12,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 41053,
+    "name": "HIRED MIGHT",
+    "rarity": 4,
+    "type": 11,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      17,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 41054,
+    "name": "SERVICE X",
+    "rarity": 4,
+    "type": 11,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      5,
+      8,
+      14,
+      19,
+      27
+    ]
+  },
+  {
+    "id": 41055,
+    "name": "MJOLNIR",
+    "rarity": 4,
+    "type": 11,
+    "hp": 44,
+    "level": 1,
+    "wheelValues": [
+      5,
+      12,
+      18,
+      22,
+      27
+    ]
+  },
+  {
+    "id": 41056,
+    "name": "MJOLNIR MVP",
+    "rarity": 4,
+    "type": 11,
+    "hp": 44,
+    "level": 1,
+    "wheelValues": [
+      5,
+      12,
+      18,
+      22,
+      27
+    ]
+  },
+  {
+    "id": 41057,
+    "name": "HIRED MIGHT MVP",
+    "rarity": 4,
+    "type": 11,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      17,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 41058,
+    "name": "SERVICE X MVP",
+    "rarity": 4,
+    "type": 11,
+    "hp": 41,
+    "level": 1,
+    "wheelValues": [
+      5,
+      8,
+      14,
+      19,
+      27
+    ]
+  },
+  {
+    "id": 42001,
+    "name": "THE DUKE",
+    "rarity": 4,
+    "type": 2,
+    "hp": 46,
+    "level": 1,
+    "wheelValues": [
+      6,
+      8,
+      10,
+      13,
+      15
+    ]
+  },
+  {
+    "id": 42002,
+    "name": "SPEARHEAD",
+    "rarity": 4,
+    "type": 2,
+    "hp": 45,
+    "level": 1,
+    "wheelValues": [
+      7,
+      9,
+      12,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42003,
+    "name": "QUEEN BEE",
+    "rarity": 4,
+    "type": 2,
+    "hp": 45,
+    "level": 1,
+    "wheelValues": [
+      7,
+      9,
+      12,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42004,
+    "name": "MILITIA",
+    "rarity": 4,
+    "type": 2,
+    "hp": 45,
+    "level": 1,
+    "wheelValues": [
+      7,
+      9,
+      12,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42005,
+    "name": "BIG RED",
+    "rarity": 4,
+    "type": 6,
+    "hp": 46,
+    "level": 1,
+    "wheelValues": [
+      6,
+      10,
+      13,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42006,
+    "name": "FORTRESS",
+    "rarity": 4,
+    "type": 6,
+    "hp": 50,
+    "level": 1,
+    "wheelValues": [
+      5,
+      9,
+      12,
+      14,
+      16
+    ]
+  },
+  {
+    "id": 42007,
+    "name": "LOCKDOWN",
+    "rarity": 4,
+    "type": 6,
+    "hp": 49,
+    "level": 1,
+    "wheelValues": [
+      7,
+      10,
+      14,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42008,
+    "name": "BIG GAME",
+    "rarity": 4,
+    "type": 12,
+    "hp": 47,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      13,
+      14,
+      17
+    ]
+  },
+  {
+    "id": 42009,
+    "name": "SLUGFEST",
+    "rarity": 4,
+    "type": 12,
+    "hp": 54,
+    "level": 1,
+    "wheelValues": [
+      8,
+      11,
+      18,
+      20,
+      0
+    ]
+  },
+  {
+    "id": 42010,
+    "name": "FREIGHT CRANE",
+    "rarity": 4,
+    "type": 12,
+    "hp": 42,
+    "level": 1,
+    "wheelValues": [
+      5,
+      7,
+      11,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42011,
+    "name": "CRUCIBLE",
+    "rarity": 4,
+    "type": 12,
+    "hp": 48,
+    "level": 1,
+    "wheelValues": [
+      8,
+      11,
+      15,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42012,
+    "name": "IMPERATOR",
+    "rarity": 4,
+    "type": 12,
+    "hp": 44,
+    "level": 1,
+    "wheelValues": [
+      0,
+      0,
+      11,
+      13,
+      15
+    ]
+  },
+  {
+    "id": 42013,
+    "name": "TANKENSTEIN",
+    "rarity": 4,
+    "type": 12,
+    "hp": 56,
+    "level": 1,
+    "wheelValues": [
+      10,
+      13,
+      14,
+      14,
+      0
+    ]
+  },
+  {
+    "id": 42014,
+    "name": "ARCADIA'S EDGE",
+    "rarity": 4,
+    "type": 12,
+    "hp": 52,
+    "level": 1,
+    "wheelValues": [
+      5,
+      9,
+      12,
+      13,
+      16
+    ]
+  },
+  {
+    "id": 42015,
+    "name": "THE FOREMAN",
+    "rarity": 4,
+    "type": 12,
+    "hp": 55,
+    "level": 1,
+    "wheelValues": [
+      11,
+      0,
+      14,
+      0,
+      22
+    ]
+  },
+  {
+    "id": 42017,
+    "name": "MAJOR DUMP",
+    "rarity": 4,
+    "type": 12,
+    "hp": 43,
+    "level": 1,
+    "wheelValues": [
+      0,
+      0,
+      7,
+      11,
+      15
+    ]
+  },
+  {
+    "id": 42018,
+    "name": "SECTOR SENTINEL",
+    "rarity": 4,
+    "type": 12,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      5,
+      8,
+      10,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42019,
+    "name": "VANGUARD",
+    "rarity": 4,
+    "type": 12,
+    "hp": 43,
+    "level": 1,
+    "wheelValues": [
+      0,
+      0,
+      14,
+      16,
+      18
+    ]
+  },
+  {
+    "id": 42020,
+    "name": "STEGOFORTRESS",
+    "rarity": 4,
+    "type": 12,
+    "hp": 60,
+    "level": 1,
+    "wheelValues": [
+      5,
+      6,
+      8,
+      11,
+      21
+    ]
+  },
+  {
+    "id": 42021,
+    "name": "TRICERABLASTER",
+    "rarity": 4,
+    "type": 12,
+    "hp": 49,
+    "level": 1,
+    "wheelValues": [
+      2,
+      2,
+      7,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42022,
+    "name": "SERENITUS",
+    "rarity": 4,
+    "type": 12,
+    "hp": 43,
+    "level": 1,
+    "wheelValues": [
+      7,
+      8,
+      0,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 42023,
+    "name": "METAMORPH",
+    "rarity": 4,
+    "type": 12,
+    "hp": 45,
+    "level": 1,
+    "wheelValues": [
+      4,
+      7,
+      10,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42024,
+    "name": "TUSKEN RAZER",
+    "rarity": 4,
+    "type": 12,
+    "hp": 46,
+    "level": 1,
+    "wheelValues": [
+      6,
+      0,
+      14,
+      0,
+      16
+    ]
+  },
+  {
+    "id": 42025,
+    "name": "TUSKEN RAZER MVP",
+    "rarity": 4,
+    "type": 12,
+    "hp": 46,
+    "level": 1,
+    "wheelValues": [
+      6,
+      0,
+      14,
+      0,
+      16
+    ]
+  },
+  {
+    "id": 42026,
+    "name": "VANGUARD",
+    "rarity": 4,
+    "type": 6,
+    "hp": 43,
+    "level": 1,
+    "wheelValues": [
+      0,
+      0,
+      14,
+      16,
+      18
+    ]
+  },
+  {
+    "id": 42027,
+    "name": "ZAMBOOMY",
+    "rarity": 4,
+    "type": 12,
+    "hp": 39,
+    "level": 1,
+    "wheelValues": [
+      3,
+      8,
+      12,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42028,
+    "name": "WREATHFIRE",
+    "rarity": 4,
+    "type": 12,
+    "hp": 52,
+    "level": 1,
+    "wheelValues": [
+      10,
+      0,
+      13,
+      0,
+      19
+    ]
+  },
+  {
+    "id": 42029,
+    "name": "WREATHFIRE MVP",
+    "rarity": 4,
+    "type": 12,
+    "hp": 52,
+    "level": 1,
+    "wheelValues": [
+      10,
+      0,
+      13,
+      0,
+      19
+    ]
+  },
+  {
+    "id": 42030,
+    "name": "REPTILE ROVER",
+    "rarity": 4,
+    "type": 12,
+    "hp": 53,
+    "level": 1,
+    "wheelValues": [
+      8,
+      0,
+      13,
+      0,
+      16
+    ]
+  },
+  {
+    "id": 42031,
+    "name": "THE EXHAUSTER",
+    "rarity": 4,
+    "type": 12,
+    "hp": 43,
+    "level": 1,
+    "wheelValues": [
+      0,
+      7,
+      11,
+      14,
+      16
+    ]
+  },
+  {
+    "id": 42032,
+    "name": "PROHIBITOR",
+    "rarity": 4,
+    "type": 12,
+    "hp": 42,
+    "level": 1,
+    "wheelValues": [
+      4,
+      7,
+      0,
+      13,
+      17
+    ]
+  },
+  {
+    "id": 42033,
+    "name": "RE-ENFORCER",
+    "rarity": 4,
+    "type": 12,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      1,
+      6,
+      11,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42034,
+    "name": "MR. FURIOUS",
+    "rarity": 4,
+    "type": 12,
+    "hp": 53,
+    "level": 1,
+    "wheelValues": [
+      5,
+      0,
+      12,
+      15,
+      18
+    ]
+  },
+  {
+    "id": 42035,
+    "name": "BACKDRAFT",
+    "rarity": 4,
+    "type": 2,
+    "hp": 50,
+    "level": 1,
+    "wheelValues": [
+      7,
+      7,
+      0,
+      15,
+      19
+    ]
+  },
+  {
+    "id": 42036,
+    "name": "MR. FURIOUS MVP",
+    "rarity": 4,
+    "type": 12,
+    "hp": 53,
+    "level": 1,
+    "wheelValues": [
+      5,
+      0,
+      12,
+      15,
+      18
+    ]
+  },
+  {
+    "id": 43001,
+    "name": "BRUSH FIRE",
+    "rarity": 4,
+    "type": 3,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      9,
+      12,
+      20
+    ]
+  },
+  {
+    "id": 43002,
+    "name": "DUST DEVIL",
+    "rarity": 4,
+    "type": 3,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      4,
+      7,
+      10,
+      12,
+      18
+    ]
+  },
+  {
+    "id": 43003,
+    "name": "DOOM BUGGY",
+    "rarity": 4,
+    "type": 3,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      5,
+      8,
+      11,
+      12,
+      18
+    ]
+  },
+  {
+    "id": 43004,
+    "name": "SKY CRASH",
+    "rarity": 4,
+    "type": 3,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      4,
+      7,
+      10,
+      13,
+      21
+    ]
+  },
+  {
+    "id": 43005,
+    "name": "NOVA BLAST",
+    "rarity": 4,
+    "type": 7,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      11,
+      13,
+      20
+    ]
+  },
+  {
+    "id": 43006,
+    "name": "SNAPPER",
+    "rarity": 4,
+    "type": 7,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      4,
+      8,
+      12,
+      14,
+      17
+    ]
+  },
+  {
+    "id": 43007,
+    "name": "INTERCEPTOR",
+    "rarity": 4,
+    "type": 3,
+    "hp": 36,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      9,
+      12,
+      22
+    ]
+  },
+  {
+    "id": 43008,
+    "name": "SPIKE",
+    "rarity": 4,
+    "type": 13,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      3,
+      8,
+      10,
+      14,
+      18
+    ]
+  },
+  {
+    "id": 43009,
+    "name": "RED DEAD",
+    "rarity": 4,
+    "type": 13,
+    "hp": 36,
+    "level": 1,
+    "wheelValues": [
+      5,
+      10,
+      13,
+      15,
+      23
+    ]
+  },
+  {
+    "id": 43010,
+    "name": "BOG RAIDER",
+    "rarity": 4,
+    "type": 13,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      5,
+      8,
+      10,
+      14,
+      19
+    ]
+  },
+  {
+    "id": 43011,
+    "name": "KABUTO CRASH",
+    "rarity": 4,
+    "type": 13,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      9,
+      11,
+      19
+    ]
+  },
+  {
+    "id": 43012,
+    "name": "HOPLITE BLITZ",
+    "rarity": 4,
+    "type": 13,
+    "hp": 36,
+    "level": 1,
+    "wheelValues": [
+      6,
+      10,
+      13,
+      15,
+      24
+    ]
+  },
+  {
+    "id": 43014,
+    "name": "HOWLER",
+    "rarity": 4,
+    "type": 13,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      1,
+      5,
+      13,
+      16,
+      20
+    ]
+  },
+  {
+    "id": 43015,
+    "name": "FREYJA'S GAZE",
+    "rarity": 4,
+    "type": 13,
+    "hp": 35,
+    "level": 1,
+    "wheelValues": [
+      8,
+      0,
+      13,
+      14,
+      23
+    ]
+  },
+  {
+    "id": 43016,
+    "name": "DORTHEA'S PLUME",
+    "rarity": 4,
+    "type": 13,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      10,
+      12,
+      21
+    ]
+  },
+  {
+    "id": 43017,
+    "name": "FREYJA'S WINGS",
+    "rarity": 4,
+    "type": 13,
+    "hp": 37,
+    "level": 1,
+    "wheelValues": [
+      2,
+      6,
+      12,
+      17,
+      24
+    ]
+  },
+  {
+    "id": 43018,
+    "name": "CULL-DOZER",
+    "rarity": 4,
+    "type": 13,
+    "hp": 34,
+    "level": 1,
+    "wheelValues": [
+      5,
+      8,
+      10,
+      12,
+      16
+    ]
+  },
+  {
+    "id": 43019,
+    "name": "X-ROVER",
+    "rarity": 4,
+    "type": 13,
+    "hp": 27,
+    "level": 1,
+    "wheelValues": [
+      0,
+      0,
+      7,
+      13,
+      18
+    ]
+  },
+  {
+    "id": 43020,
+    "name": "CLEVER GIRL",
+    "rarity": 4,
+    "type": 13,
+    "hp": 38,
+    "level": 1,
+    "wheelValues": [
+      3,
+      7,
+      8,
+      14,
+      27
+    ]
+  },
+  {
+    "id": 43021,
+    "name": "VITALIS",
+    "rarity": 4,
+    "type": 13,
+    "hp": 39,
+    "level": 1,
+    "wheelValues": [
+      7,
+      8,
+      9,
+      22,
+      23
+    ]
+  },
+  {
+    "id": 43022,
+    "name": "CHITIN CRASHER",
+    "rarity": 4,
+    "type": 13,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      0,
+      3,
+      9,
+      11,
+      19
+    ]
+  },
+  {
+    "id": 43023,
+    "name": "BLITZEN",
+    "rarity": 4,
+    "type": 13,
+    "hp": 28,
+    "level": 1,
+    "wheelValues": [
+      3,
+      6,
+      9,
+      12,
+      17
+    ]
+  },
+  {
+    "id": 43024,
+    "name": "LOOT SLAY",
+    "rarity": 4,
+    "type": 13,
+    "hp": 36,
+    "level": 1,
+    "wheelValues": [
+      1,
+      2,
+      3,
+      4,
+      29
+    ]
+  },
+  {
+    "id": 43025,
+    "name": "GENERAL HAZZARD",
+    "rarity": 4,
+    "type": 13,
+    "hp": 35,
+    "level": 1,
+    "wheelValues": [
+      2,
+      5,
+      15,
+      19,
+      23
+    ]
+  },
+  {
+    "id": 43026,
+    "name": "THE GRINDER",
+    "rarity": 4,
+    "type": 13,
+    "hp": 34,
+    "level": 1,
+    "wheelValues": [
+      4,
+      8,
+      12,
+      14,
+      24
+    ]
+  },
+  {
+    "id": 43027,
+    "name": "DRIVE-BY",
+    "rarity": 4,
+    "type": 13,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      1,
+      5,
+      10,
+      14,
+      19
+    ]
+  },
+  {
+    "id": 43028,
+    "name": "BLUESHIFT",
+    "rarity": 4,
+    "type": 7,
+    "hp": 34,
+    "level": 1,
+    "wheelValues": [
+      4,
+      7,
+      11,
+      17,
+      22
+    ]
+  },
+  {
+    "id": 44001,
+    "name": "DA CHOPPA",
+    "rarity": 4,
+    "type": 4,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      8,
+      9,
+      10,
+      16,
+      24
+    ]
+  },
+  {
+    "id": 44002,
+    "name": "EXECUTOR",
+    "rarity": 4,
+    "type": 4,
+    "hp": 27,
+    "level": 1,
+    "wheelValues": [
+      6,
+      10,
+      12,
+      15,
+      25
+    ]
+  },
+  {
+    "id": 44003,
+    "name": "OVERWATCH",
+    "rarity": 4,
+    "type": 8,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      9,
+      11,
+      13,
+      15,
+      22
+    ]
+  },
+  {
+    "id": 44004,
+    "name": "DARK SKIES",
+    "rarity": 4,
+    "type": 8,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      5,
+      8,
+      11,
+      13,
+      26
+    ]
+  },
+  {
+    "id": 44005,
+    "name": "KILLGUST",
+    "rarity": 4,
+    "type": 10,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      8,
+      11,
+      14,
+      18,
+      24
+    ]
+  },
+  {
+    "id": 44006,
+    "name": "HEAVENLY BLADE",
+    "rarity": 4,
+    "type": 8,
+    "hp": 28,
+    "level": 1,
+    "wheelValues": [
+      8,
+      9,
+      13,
+      16,
+      23
+    ]
+  },
+  {
+    "id": 44007,
+    "name": "SKELECOPTER",
+    "rarity": 4,
+    "type": 10,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      7,
+      10,
+      13,
+      18,
+      26
+    ]
+  },
+  {
+    "id": 44008,
+    "name": "CURIO",
+    "rarity": 4,
+    "type": 10,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      6,
+      9,
+      12,
+      16,
+      24
+    ]
+  },
+  {
+    "id": 44009,
+    "name": "NEON PHOENIX",
+    "rarity": 4,
+    "type": 10,
+    "hp": 25,
+    "level": 1,
+    "wheelValues": [
+      4,
+      9,
+      11,
+      14,
+      21
+    ]
+  },
+  {
+    "id": 44010,
+    "name": "HONORED SKY",
+    "rarity": 4,
+    "type": 10,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      8,
+      11,
+      14,
+      17,
+      25
+    ]
+  },
+  {
+    "id": 44011,
+    "name": "ARCUS MAXIMUS",
+    "rarity": 4,
+    "type": 10,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      5,
+      9,
+      12,
+      15,
+      23
+    ]
+  },
+  {
+    "id": 44012,
+    "name": "GLAVIATRIX",
+    "rarity": 4,
+    "type": 10,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      8,
+      9,
+      12,
+      17,
+      0
+    ]
+  },
+  {
+    "id": 44013,
+    "name": "NIGHTFIEND",
+    "rarity": 4,
+    "type": 10,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      7,
+      9,
+      11,
+      13,
+      20
+    ]
+  },
+  {
+    "id": 44014,
+    "name": "CAT CALL",
+    "rarity": 4,
+    "type": 10,
+    "hp": 32,
+    "level": 1,
+    "wheelValues": [
+      6,
+      8,
+      13,
+      16,
+      0
+    ]
+  },
+  {
+    "id": 44015,
+    "name": "ECLIPSE",
+    "rarity": 4,
+    "type": 10,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      5,
+      8,
+      13,
+      20,
+      26
+    ]
+  },
+  {
+    "id": 44016,
+    "name": "PTERRORDACTYL",
+    "rarity": 4,
+    "type": 10,
+    "hp": 34,
+    "level": 1,
+    "wheelValues": [
+      4,
+      5,
+      6,
+      8,
+      19
+    ]
+  },
+  {
+    "id": 44017,
+    "name": "VELOCICHOPPER",
+    "rarity": 4,
+    "type": 10,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      2,
+      4,
+      6,
+      12,
+      24
+    ]
+  },
+  {
+    "id": 44018,
+    "name": "PETRAM",
+    "rarity": 4,
+    "type": 10,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      9,
+      10,
+      11,
+      22,
+      22
+    ]
+  },
+  {
+    "id": 44019,
+    "name": "LOCUSTA",
+    "rarity": 4,
+    "type": 10,
+    "hp": 33,
+    "level": 1,
+    "wheelValues": [
+      6,
+      7,
+      14,
+      14,
+      29
+    ]
+  },
+  {
+    "id": 44020,
+    "name": "DRAGONCRY",
+    "rarity": 4,
+    "type": 10,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      7,
+      8,
+      11,
+      17,
+      22
+    ]
+  },
+  {
+    "id": 44021,
+    "name": "SOUTH POLE",
+    "rarity": 4,
+    "type": 10,
+    "hp": 28,
+    "level": 1,
+    "wheelValues": [
+      5,
+      10,
+      11,
+      16,
+      22
+    ]
+  },
+  {
+    "id": 44022,
+    "name": "OUTATIME",
+    "rarity": 4,
+    "type": 10,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      7,
+      10,
+      13,
+      18,
+      25
+    ]
+  },
+  {
+    "id": 44023,
+    "name": "THE WHIRLYBIRD",
+    "rarity": 4,
+    "type": 10,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      6,
+      7,
+      12,
+      15,
+      22
+    ]
+  },
+  {
+    "id": 44024,
+    "name": "THE BUZZARD",
+    "rarity": 4,
+    "type": 10,
+    "hp": 28,
+    "level": 1,
+    "wheelValues": [
+      11,
+      14,
+      16,
+      19,
+      21
+    ]
+  },
+  {
+    "id": 44025,
+    "name": "HYDRA SKYFIRE",
+    "rarity": 4,
+    "type": 8,
+    "hp": 27,
+    "level": 1,
+    "wheelValues": [
+      6,
+      9,
+      12,
+      17,
+      0
+    ]
+  },
+  {
+    "id": 44026,
+    "name": "MANTIS-K64",
+    "rarity": 4,
+    "type": 10,
+    "hp": 26,
+    "level": 1,
+    "wheelValues": [
+      8,
+      8,
+      17,
+      18,
+      24
+    ]
+  },
+  {
+    "id": 44027,
+    "name": "RUM RUNNER",
+    "rarity": 4,
+    "type": 10,
+    "hp": 27,
+    "level": 1,
+    "wheelValues": [
+      2,
+      5,
+      10,
+      16,
+      24
+    ]
+  },
+  {
+    "id": 44028,
+    "name": "JUSTIFIER",
+    "rarity": 4,
+    "type": 10,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      9,
+      11,
+      14,
+      18,
+      25
+    ]
+  },
+  {
+    "id": 44029,
+    "name": "JUSTIFIER MVP",
+    "rarity": 4,
+    "type": 10,
+    "hp": 31,
+    "level": 1,
+    "wheelValues": [
+      9,
+      11,
+      14,
+      18,
+      25
+    ]
+  },
+  {
+    "id": 44030,
+    "name": "WHIPTAIL",
+    "rarity": 4,
+    "type": 10,
+    "hp": 29,
+    "level": 1,
+    "wheelValues": [
+      6,
+      10,
+      11,
+      14,
+      19
+    ]
+  },
+  {
+    "id": 49901,
+    "name": "RAID BOSS TEST 1",
+    "rarity": 4,
+    "type": 20,
+    "hp": 200,
+    "level": 1,
+    "wheelValues": [
+      0,
+      0,
+      11,
+      16,
+      29
+    ]
+  },
+  {
+    "id": 49902,
+    "name": "RAID BOSS TEST 2",
+    "rarity": 4,
+    "type": 20,
+    "hp": 900,
+    "level": 1,
+    "wheelValues": [
+      10,
+      15,
+      18,
+      25,
+      33
+    ]
+  },
+  {
+    "id": 49903,
+    "name": "DJ BOOM STICK",
+    "rarity": 4,
+    "type": 9,
+    "hp": 500,
+    "level": 1,
+    "wheelValues": [
+      4,
+      7,
+      11,
+      13,
+      18
+    ]
+  },
+  {
+    "id": 49904,
+    "name": "BIG BULLY",
+    "rarity": 4,
+    "type": 9,
+    "hp": 60,
+    "level": 1,
+    "wheelValues": [
+      12,
+      16,
+      20,
+      24,
+      0
+    ]
+  },
+  {
+    "id": 49905,
+    "name": "LITTLE FRIENDS",
+    "rarity": 4,
+    "type": 9,
+    "hp": 70,
+    "level": 1,
+    "wheelValues": [
+      13,
+      16,
+      19,
+      29,
+      0
+    ]
+  },
+  {
+    "id": 49906,
+    "name": "AJAX",
+    "rarity": 4,
+    "type": 9,
+    "hp": 100,
+    "level": 1,
+    "wheelValues": [
+      9,
+      15,
+      21,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 49907,
+    "name": "BEARN",
+    "rarity": 4,
+    "type": 9,
+    "hp": 125,
+    "level": 1,
+    "wheelValues": [
+      15,
+      20,
+      25,
+      30,
+      35
+    ]
+  },
+  {
+    "id": 49908,
+    "name": "COLOSSUS",
+    "rarity": 4,
+    "type": 9,
+    "hp": 137,
+    "level": 1,
+    "wheelValues": [
+      15,
+      25,
+      30,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 49909,
+    "name": "MADDOX",
+    "rarity": 4,
+    "type": 9,
+    "hp": 111,
+    "level": 1,
+    "wheelValues": [
+      10,
+      12,
+      15,
+      18,
+      0
+    ]
+  },
+  {
+    "id": 49910,
+    "name": "GRAND BARON",
+    "rarity": 4,
+    "type": 9,
+    "hp": 45,
+    "level": 1,
+    "wheelValues": [
+      9,
+      0,
+      0,
+      11,
+      16
+    ]
+  },
+  {
+    "id": 49911,
+    "name": "MERCREDI",
+    "rarity": 4,
+    "type": 9,
+    "hp": 45,
+    "level": 1,
+    "wheelValues": [
+      6,
+      9,
+      12,
+      15,
+      18
+    ]
+  },
+  {
+    "id": 49912,
+    "name": "SENSEI GO",
+    "rarity": 4,
+    "type": 9,
+    "hp": 50,
+    "level": 1,
+    "wheelValues": [
+      9,
+      11,
+      0,
+      0,
+      16
+    ]
+  },
+  {
+    "id": 49913,
+    "name": "SENSEI ROKU",
+    "rarity": 4,
+    "type": 9,
+    "hp": 55,
+    "level": 1,
+    "wheelValues": [
+      6,
+      12,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 49914,
+    "name": "SENSEI ROKU",
+    "rarity": 4,
+    "type": 9,
+    "hp": 95,
+    "level": 1,
+    "wheelValues": [
+      11,
+      0,
+      0,
+      17,
+      22
+    ]
+  },
+  {
+    "id": 49915,
+    "name": "CEASE AND DESIST",
+    "rarity": 4,
+    "type": 20,
+    "hp": 55,
+    "level": 1,
+    "wheelValues": [
+      7,
+      11,
+      13,
+      17,
+      25
+    ]
+  },
+  {
+    "id": 49916,
+    "name": "RESTRAINING ORDER",
+    "rarity": 4,
+    "type": 20,
+    "hp": 75,
+    "level": 1,
+    "wheelValues": [
+      0,
+      14,
+      18,
+      22,
+      30
+    ]
+  },
+  {
+    "id": 49917,
+    "name": "BLUE-SKY BIG-HOUSE",
+    "rarity": 4,
+    "type": 20,
+    "hp": 230,
+    "level": 1,
+    "wheelValues": [
+      25,
+      35,
+      41,
+      44,
+      50
+    ]
+  },
+  {
+    "id": 49918,
+    "name": "SKY WARDEN",
+    "rarity": 4,
+    "type": 20,
+    "hp": 125,
+    "level": 1,
+    "wheelValues": [
+      25,
+      33,
+      36,
+      41,
+      0
+    ]
+  },
+  {
+    "id": 49919,
+    "name": "MEGA BOSS!",
+    "rarity": 4,
+    "type": 20,
+    "hp": 70,
+    "level": 1,
+    "wheelValues": [
+      0,
+      15,
+      20,
+      22,
+      29
+    ]
+  },
+  {
+    "id": 49920,
+    "name": "MEGA BOSS!",
+    "rarity": 4,
+    "type": 20,
+    "hp": 2250,
+    "level": 1,
+    "wheelValues": [
+      0,
+      0,
+      40,
+      44,
+      48
+    ]
+  },
+  {
+    "id": 49921,
+    "name": "MEGA BOSS!",
+    "rarity": 4,
+    "type": 20,
+    "hp": 19500,
+    "level": 1,
+    "wheelValues": [
+      0,
+      53,
+      0,
+      61,
+      0
+    ]
+  },
+  {
+    "id": 49922,
+    "name": "UNCOMFORTABLE NUTCRACKER",
+    "rarity": 4,
+    "type": 9,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      0,
+      15,
+      20,
+      22,
+      0
+    ]
+  },
+  {
+    "id": 49923,
+    "name": "THE GINCH",
+    "rarity": 4,
+    "type": 9,
+    "hp": 90,
+    "level": 1,
+    "wheelValues": [
+      0,
+      25,
+      35,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 49924,
+    "name": "SAINT NICK",
+    "rarity": 4,
+    "type": 9,
+    "hp": 200,
+    "level": 1,
+    "wheelValues": [
+      0,
+      33,
+      43,
+      48,
+      0
+    ]
+  },
+  {
+    "id": 49925,
+    "name": "GOLDY CLAWS",
+    "rarity": 4,
+    "type": 9,
+    "hp": 99,
+    "level": 1,
+    "wheelValues": [
+      15,
+      0,
+      0,
+      0,
+      31
+    ]
+  },
+  {
+    "id": 49926,
+    "name": "GINGER SNAPPER",
+    "rarity": 4,
+    "type": 9,
+    "hp": 150,
+    "level": 1,
+    "wheelValues": [
+      15,
+      0,
+      22,
+      0,
+      31
+    ]
+  },
+  {
+    "id": 49927,
+    "name": "GOLDEN DOVE",
+    "rarity": 4,
+    "type": 9,
+    "hp": 40,
+    "level": 1,
+    "wheelValues": [
+      10,
+      15,
+      20,
+      25,
+      33
+    ]
+  },
+  {
+    "id": 49928,
+    "name": "GOLDEN SLED",
+    "rarity": 4,
+    "type": 9,
+    "hp": 25,
+    "level": 1,
+    "wheelValues": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ]
+  },
+  {
+    "id": 49929,
+    "name": "SEASON'S BEATINGS",
+    "rarity": 4,
+    "type": 9,
+    "hp": 15,
+    "level": 1,
+    "wheelValues": [
+      10,
+      15,
+      20,
+      25,
+      30
+    ]
+  },
+  {
+    "id": 49930,
+    "name": "SENSEI ROKU",
+    "rarity": 4,
+    "type": 9,
+    "hp": 95,
+    "level": 1,
+    "wheelValues": [
+      12,
+      17,
+      22,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 49931,
+    "name": "GAMBINO GUNNER",
+    "rarity": 4,
+    "type": 20,
+    "hp": 125,
+    "level": 1,
+    "wheelValues": [
+      0,
+      15,
+      20,
+      22,
+      0
+    ]
+  },
+  {
+    "id": 49932,
+    "name": "THE FUZZ",
+    "rarity": 4,
+    "type": 20,
+    "hp": 5500,
+    "level": 1,
+    "wheelValues": [
+      41,
+      44,
+      49,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 49933,
+    "name": "CAPO DEI CAPI",
+    "rarity": 4,
+    "type": 20,
+    "hp": 19500,
+    "level": 1,
+    "wheelValues": [
+      0,
+      58,
+      0,
+      64,
+      0
+    ]
+  },
+  {
+    "id": 49934,
+    "name": "MACADEMI I",
+    "rarity": 4,
+    "type": 9,
+    "hp": 60,
+    "level": 1,
+    "wheelValues": [
+      12,
+      15,
+      19,
+      24,
+      30
+    ]
+  },
+  {
+    "id": 49935,
+    "name": "MACADEMI II",
+    "rarity": 4,
+    "type": 9,
+    "hp": 100,
+    "level": 1,
+    "wheelValues": [
+      17,
+      22,
+      27,
+      33,
+      37
+    ]
+  },
+  {
+    "id": 49936,
+    "name": "MACADEMI III",
+    "rarity": 4,
+    "type": 9,
+    "hp": 150,
+    "level": 1,
+    "wheelValues": [
+      25,
+      30,
+      35,
+      40,
+      44
+    ]
+  },
+  {
+    "id": 49937,
+    "name": "MERRYWEATHER I",
+    "rarity": 4,
+    "type": 9,
+    "hp": 200,
+    "level": 1,
+    "wheelValues": [
+      30,
+      36,
+      41,
+      46,
+      50
+    ]
+  },
+  {
+    "id": 49938,
+    "name": "MERRYWEATHER II",
+    "rarity": 4,
+    "type": 9,
+    "hp": 250,
+    "level": 1,
+    "wheelValues": [
+      38,
+      44,
+      48,
+      52,
+      56
+    ]
+  },
+  {
+    "id": 51001,
+    "name": "LEGENDARY TEST 1",
+    "rarity": 5,
+    "type": 5,
+    "hp": 66,
+    "level": 1,
+    "wheelValues": [
+      5,
+      9,
+      0,
+      11,
+      15
+    ]
+  },
+  {
+    "id": 51002,
+    "name": "LEGENDARY TEST 2",
+    "rarity": 5,
+    "type": 5,
+    "hp": 56,
+    "level": 1,
+    "wheelValues": [
+      5,
+      9,
+      0,
+      11,
+      19
+    ]
+  },
+  {
+    "id": 51003,
+    "name": "LEGENDARY TEST 3",
+    "rarity": 5,
+    "type": 5,
+    "hp": 56,
+    "level": 1,
+    "wheelValues": [
+      6,
+      10,
+      14,
+      18,
+      22
+    ]
+  },
+  {
+    "id": 51004,
+    "name": "LEGENDARY TEST 4",
+    "rarity": 5,
+    "type": 5,
+    "hp": 56,
+    "level": 1,
+    "wheelValues": [
+      3,
+      8,
+      15,
+      19,
+      25
+    ]
+  },
+  {
+    "id": 9991001,
+    "name": "PARTS BUILD TEST 1",
+    "rarity": 4,
+    "type": 11,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      5,
+      10,
+      10,
+      15,
+      18
+    ]
+  },
+  {
+    "id": 9991002,
+    "name": "PARTS BUILD TEST 2",
+    "rarity": 4,
+    "type": 11,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      5,
+      10,
+      10,
+      15,
+      18
+    ]
+  },
+  {
+    "id": 9991003,
+    "name": null,
+    "rarity": 3,
+    "type": 11,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      3,
+      9,
+      12,
+      14,
+      17
+    ]
+  },
+  {
+    "id": 9991004,
+    "name": null,
+    "rarity": 3,
+    "type": 11,
+    "hp": 30,
+    "level": 1,
+    "wheelValues": [
+      5,
+      10,
+      13,
+      14,
+      15
+    ]
+  }
+]

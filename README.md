@@ -1,215 +1,91 @@
-# 🎮 Open Battle Tactics
+# Open Battle Tactics 🛡️🎲
 
-**An open-source recreation of Super Battle Tactics - Relive the nostalgic turn-based tank combat experience!**
+> An open-source recreation and tactical engine inspired by the classic **Super Battle Tactics**.
 
-## 🎯 About the Project
+![Phaser 3](https://img.shields.io/badge/Phaser-3.90-green.svg) ![Status](https://img.shields.io/badge/Status-Prototype-orange.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-**Open Battle Tactics** is a faithful open-source recreation of the beloved mobile game **Super Battle Tactics** that captivated an entire generation of gamers. Our mission is to preserve this nostalgic experience while enhancing it through community contributions and modern web technologies.
+## 📖 Overview
 
-### 🎲 Why This Project?
+**Open Battle Tactics** is a turn-based strategy game where you command a squad of tanks. The twist? Your damage and initiative are determined by spinning wheels (dice rolls) each turn. You must use Action Points (AP) wisely to boost your tanks' rolls or activate special abilities to turn the tide of battle.
 
-- **🎮 Nostalgia**: Relive the magical moments of the original game
-- **🛡️ Preservation**: Save this iconic game for future generations
-- **🚀 Innovation**: Enhance the experience with new features and improvements
-- **👥 Community**: Unite fans around a collaborative project
-- **📚 Learning**: Learn game development through open-source collaboration
-- **🌐 Accessibility**: Make the game playable on modern devices and browsers
-
-### 🏆 Project Goals
-
-- Create a pixel-perfect recreation of the original Super Battle Tactics gameplay
-- Build a thriving community of contributors and players
-- Document the reverse engineering process for educational purposes
-- Develop a modular, extensible codebase for future enhancements
-- Preserve the game's assets and mechanics for historical reference
+This project aims to preserve the gameplay mechanics of the original game while providing a modern, web-based engine for tactical battles.
 
 ## ✨ Features
 
-- ✅ **Authentic 4v4 Turn-Based Combat** with original mechanics
-- ✅ **Dice System** with first-strike mechanics (blue bar values 15-20)
-- ✅ **4 Tank Types**: Assault, Defense, Speed, Hover with unique characteristics
-- ✅ **Special Abilities**: Re-Spin, Targeting, Mini Strike, Bombard
-- ✅ **Tank TV Interface** faithful to the cartoon aesthetic
-- ✅ **Local Multiplayer** for challenging friends
-- ✅ **Statistics Tracking** with win/loss records
-- ✅ **Responsive Design** for desktop and mobile browsers
+- **Tactical Combat**: 4v4 Tank battles with positioning mechanics.
+- **RNG Management**: "Risk vs Reward" gameplay. Roll for damage, then spend AP to boost low rolls.
+- **Data-Driven**: Units and stats are loaded from extracted JSON data (based on the original game database).
+- **Web Tech**: Built with [Phaser 3](https://phaser.io/) and [Vite](https://vitejs.dev/).
 
-### 🚧 In Development
-
-- 🔄 **Online Multiplayer** with matchmaking system
-- 🔄 **Progressive Tank Unlocking** and customization
-- 🔄 **Campaign Mode** with challenging AI opponents
-- 🔄 **Community Tank Editor** for user-generated content
-- 🔄 **Native Mobile Apps** for Android and iOS
-
-### 🎯 Planned Features
-
-- 📋 **Guild System** with community events
-- 📋 **Mod Support** through workshop integration
-- 📋 **Advanced AI** with multiple difficulty levels
-- 📋 **Tournament System** with global leaderboards
-- 📋 **Achievement System** with unlockable rewards
-
-## 🎮 How to Play
-
-### 🎯 Basic Rules
-
-1. **Formation**: Each team deploys 4 tanks with different roles
-2. **Turn-based**: Players activate abilities then roll dice for combat
-3. **First Strike**: Tanks with blue bar values (15-20) attack first
-4. **Victory**: Eliminate all enemy tanks to win!
-
-### 🎲 Tank Types
-
-| Type | HP | Damage | Specialty |
-|------|----|---------|-----------|
-| **🔴 Assault** | Medium | High | Pure damage dealer |
-| **🔵 Defense** | High | Low | Tanky survivor |
-| **🟢 Speed** | Low | Medium | Frequent first strikes |
-| **🟣 Hover** | Medium | Medium | Balanced flying unit |
-
-### ⚡ Special Abilities
-
-- **Re-Spin** (1 pt): Reroll a tank's die
-- **Targeting** (1 pt): Target a specific enemy
-- **Mini Strike** (2 pts): Immediate bonus attack
-- **Bombard** (4 pts): Area attack hitting all enemies
-
-> 💡 **Pro Tip**: Manage your 3 ability points per turn strategically!
-
----
-
-## �️ Tech Stack
-
-### 🎨 Frontend
-
-- **HTML5 Canvas** - Graphics rendering and animations
-- **CSS3** - Modern responsive styling
-- **JavaScript ES6+** - Game logic and interactivity
-- **Phaser.js** *(optional)* - 2D game framework
-
-### ⚙️ Backend *(for multiplayer)*
-
-- **Node.js** - Game server runtime
-- **Socket.io** - Real-time communication
-- **Express.js** - REST API framework
-- **PostgreSQL** - Database for user data
-
-### 🔧 Development Tools
-
-- **Webpack** - Module bundling and building
-- **ESLint** - Code quality and consistency
-- **Prettier** - Automatic code formatting
-- **Jest** - Unit testing framework
-- **GitHub Actions** - CI/CD pipeline
-
-## 📁 Project Structure
-
-``` text
-open-battle-tactics/
-├── src/
-│   ├── scenes/           # Phaser scenes (Menu, Battle, GameOver)
-│   ├── classes/          # Game classes (Tank, Player, AI)
-│   ├── assets/           # Images, sounds, data
-│   └── utils/            # Utilities and helpers
-├── public/
-│   ├── manifest.json     # PWA manifest
-│   ├── sw.js            # Service worker
-│   └── icons/           # PWA icons
-├── docs/                # Documentation
-└── reverse-engineering/ # RE analysis branch
-```
-
-## 🛠️ Development
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js 16+ and npm
+- **Node.js** (v16 or higher)
+- **npm**
 
-### Quick Start
+### Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/maelemiel/Open-Battle-Tactics.git
-cd Open-Battle-Tactics
+1. **Clone the repository:**
 
-# Install dependencies
-npm install
+    ```bash
+    git clone https://github.com/maelemiel/open-battle-tactics.git
+    cd open-battle-tactics
+    ```
 
-# Start development server
-npm run dev
+2. **Install dependencies:**
 
-# Build for production
-npm run build
+    ```bash
+    npm install
+    ```
 
-# Preview production build
-npm run preview
+3. **Run the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+4. Open your browser at `http://localhost:5173` (or the URL shown in the terminal).
+
+## 🎮 How to Play
+
+1. **Deployment Phase**:
+    - The game automatically rolls the dice for all tanks at the start of the turn.
+    - You have **3 Action Points (AP)**.
+    - **Click on a Tank** to **Boost** it (Spending 1 AP).
+    - Boosting sets the tank's roll to its Maximum potential + 2 (Critical Hit!).
+
+2. **Combat Phase**:
+    - Click the **FIGHT** button when you are ready.
+    - Tanks attack in order of Initiative (Highest Roll goes first).
+    - Damage deals direct HP loss. If HP reaches 0, the tank is destroyed.
+
+3. **Victory**:
+    - Destroy all enemy tanks to win!
+
+## 🛠️ Project Structure
+
+``` tree
+src/
+├── classes/        # Game Objects (Tank.js)
+├── config/         # Game Configuration & JSON Data
+├── logic/          # Core Game Logic (BattleEngine.js)
+├── scenes/         # Phaser Scenes (BattleScene.js)
+├── ui/             # User Interface (UIManager.js)
+└── main.js         # Entry point & Phaser Config
 ```
-
-### Scripts
-
-- `npm run dev` - Start development server (port 3000)
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
 
 ## 🔮 Roadmap
 
-### 🎯 Version 0.1 - MVP
-
-- [ ] Basic 4v4 combat system
-- [ ] Tank TV user interface
-- [ ] 8 default tanks (4 per team)
-- [ ] Essential special abilities
-- [ ] Complete automated testing
-
-### 🎯 Version 0.2 - Enhanced Content
-
-- [ ] 12 additional tank variants
-- [ ] Solo campaign mode
-- [ ] Progression system
-- [ ] Mobile web support
-
-### 🎯 Version 0.3 - Multiplayer
-
-- [ ] Online matchmaking
-- [ ] Global leaderboards
-- [ ] Integrated chat system
-- [ ] Match replay system
-
-### 🎯 Version 1.0 - Full Release
-
-- [ ] Native mobile applications
-- [ ] Guild system
-- [ ] Community tank editor
-- [ ] Workshop integration
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+- [ ] **Abilities System**: Implement active skills (Shield, Nuke, Heal).
+- [ ] **Team Builder**: Allow players to select their squad before battle.
+- [ ] **Animations**: Add projectile sprites and more impact effects.
+- [ ] **Multiplayer**: PvP mode using WebSockets.
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🎨 Assets
-
-This project uses placeholder graphics and sounds. You can replace them with your own assets in the `src/assets/` directory.
-
-## 🐛 Bug Reports
-
-Found a bug? Please create an issue with:
-
-- Description of the problem
-- Steps to reproduce
-- Expected vs actual behavior
-- Browser/device information
-
 ---
 
-**Live Demo**: [Coming Soon]
-**Documentation**: [docs/README.md](docs/README.md)
-**Author**: [@maelemiel](https://github.com/maelemiel)
+*Note: This is a fan project. All original game assets and IP rights belong to their respective owners. This project is for educational and preservation purposes only.*

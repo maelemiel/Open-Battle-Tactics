@@ -1,0 +1,240 @@
+[
+  {
+    "id": 101000,
+    "name": "RE-SPIN",
+    "description": "RE-SPIN ONE OF YOUR UNITS",
+    "action_point": 1,
+    "ability_type": 2
+  },
+  {
+    "id": 101001,
+    "name": "TARGETING I",
+    "description": "FOCUS ALL FRIENDLY ATTACKS ON ONE ENEMY UNIT",
+    "action_point": 1,
+    "ability_type": 2
+  },
+  {
+    "id": 101002,
+    "name": "RE-SPIN ALL",
+    "description": "RE-SPIN ALL YOUR UNITS",
+    "action_point": 0,
+    "ability_type": 2
+  },
+  {
+    "id": 101003,
+    "name": "RE-SPIN ALL",
+    "description": "RE-SPIN ALL OF YOUR TANKS",
+    "action_point": 1,
+    "ability_type": 2
+  },
+  {
+    "id": 101009,
+    "name": "RE-SPIN",
+    "description": "RE-SPIN ONE OF YOUR UNITS",
+    "action_point": 1,
+    "ability_type": 2
+  },
+  {
+    "id": 101991,
+    "name": "TARGETING II",
+    "description": "TARGET CAN'T BE REMOVED BY ENEMY JAMMER I PLUS 1 ADDITIONAL DAMAGE PER HIT",
+    "action_point": 2,
+    "ability_type": 2
+  },
+  {
+    "id": 103001,
+    "name": "JAMMER",
+    "description": "ALL YOUR UNITS ARE IMMUNE TO BASIC ENEMY TARGETING",
+    "action_point": 1,
+    "ability_type": 3
+  },
+  {
+    "id": 201001,
+    "name": "DRAW FIRE",
+    "description": "APPLY 4 ARMOR AND DRAW ALL ENEMY ATTACKS TO ONE OF YOUR UNITS",
+    "action_point": 2,
+    "ability_type": 1
+  },
+  {
+    "id": 201002,
+    "name": "DRAW FIRE II",
+    "description": "APPLY 7 ARMOR AND DRAW ALL ENEMY ATTACKS TO ONE OF YOUR UNITS",
+    "action_point": 2,
+    "ability_type": 1
+  },
+  {
+    "id": 202001,
+    "name": "SACRIFICE",
+    "description": "SACRIFICE A UNIT TO DEAL 9 DAMAGE TO EACH ENEMY",
+    "action_point": 2,
+    "ability_type": 2
+  },
+  {
+    "id": 202002,
+    "name": "SACRIFICE II",
+    "description": "SACRIFICE A UNIT TO DEAL 15 DAMAGE TO EACH ENEMY",
+    "action_point": 2,
+    "ability_type": 2
+  },
+  {
+    "id": 203001,
+    "name": "JAMMER II",
+    "description": "REMOVE ALL TARGETING EFFECTS FROM ANY OPPONENT ABILITY",
+    "action_point": 2,
+    "ability_type": 3
+  },
+  {
+    "id": 203008,
+    "name": "DOUSE I",
+    "description": "REMOVES 4 FIRE DAMAGE FROM A SINGLE UNIT",
+    "action_point": 1,
+    "ability_type": 3
+  },
+  {
+    "id": 203009,
+    "name": "DOUSE II",
+    "description": "REMOVES 10 FIRE DAMAGE FROM A SINGLE UNIT",
+    "action_point": 2,
+    "ability_type": 3
+  },
+  {
+    "id": 301001,
+    "name": "ARMOR ALL",
+    "description": "PROVIDE 5 ARMOR TO EACH OF YOUR UNITS FOR ONE ROUND",
+    "action_point": 3,
+    "ability_type": 1
+  },
+  {
+    "id": 301002,
+    "name": "ARMOR ALL II",
+    "description": "PROVIDE 6 ARMOR TO EACH OF YOUR UNITS",
+    "action_point": 3,
+    "ability_type": 1
+  },
+  {
+    "id": 301009,
+    "name": "INTEL",
+    "description": "GET 1 - 5 FIRST STRIKE",
+    "action_point": 1,
+    "ability_type": 1
+  },
+  {
+    "id": 302001,
+    "name": "CAKE WALK",
+    "description": "INCREASE REWARDS FOR WINNING +250 CASH",
+    "action_point": 3,
+    "ability_type": 2
+  },
+  {
+    "id": 302002,
+    "name": "ION STRIKE",
+    "description": "DEAL 10 TO 15 DAMAGE TO A SINGLE ENEMY UNIT",
+    "action_point": 3,
+    "ability_type": 2
+  },
+  {
+    "id": 302003,
+    "name": "MINI STRIKE",
+    "description": "DEAL 6 TO 8 DAMAGE TO A SINGLE ENEMY UNIT",
+    "action_point": 2,
+    "ability_type": 2
+  },
+  {
+    "id": 302004,
+    "name": "MINI STRIKE II",
+    "description": "DEAL 8 TO 10 DAMAGE TO A SINGLE ENEMY UNIT",
+    "action_point": 2,
+    "ability_type": 2
+  },
+  {
+    "id": 302005,
+    "name": "FIREBOMB",
+    "description": "DEAL 2 DAMAGE TO ALL ENEMIES AND 2 ADDITIONAL DAMAGE EVERY ROUND",
+    "action_point": 3,
+    "ability_type": 2
+  },
+  {
+    "id": 302006,
+    "name": "FIREBOMB II",
+    "description": "DEAL 3 DAMAGE TO ALL ENEMIES AND 3 ADDITIONAL DAMAGE EVERY ROUND",
+    "action_point": 3,
+    "ability_type": 2
+  },
+  {
+    "id": 302009,
+    "name": "RECON",
+    "description": "GET 9 - 15 FIRST STRIKE",
+    "action_point": 2,
+    "ability_type": 1
+  },
+  {
+    "id": 302099,
+    "name": "FIREBOMB X",
+    "description": "TUTORIAL FIREBOMB",
+    "action_point": 1,
+    "ability_type": 2
+  },
+  {
+    "id": 303003,
+    "name": "ION STRIKE II",
+    "description": "DEAL 13 TO 17 DAMAGE TO A SINGLE ENEMY UNIT",
+    "action_point": 3,
+    "ability_type": 2
+  },
+  {
+    "id": 304006,
+    "name": "OVERLOAD",
+    "description": "DEAL 5 DAMAGE TO AN ENEMY UNIT AND PREVENTS IT FROM RE-SPINNING",
+    "action_point": 2,
+    "ability_type": 2
+  },
+  {
+    "id": 304007,
+    "name": "ZAP",
+    "description": "DEAL 1 DAMAGE TO AN ENEMY UNIT AND PREVENTS IT FROM RE-SPINNING",
+    "action_point": 1,
+    "ability_type": 2
+  },
+  {
+    "id": 304008,
+    "name": "OVERLOAD II",
+    "description": "DEAL 7 DAMAGE TO AN ENEMY UNIT AND PREVENT IT FROM RE-SPINNING",
+    "action_point": 2,
+    "ability_type": 2
+  },
+  {
+    "id": 304099,
+    "name": "OVERLOAD X",
+    "description": "TUTORIAL OVERLOAD",
+    "action_point": 1,
+    "ability_type": 2
+  },
+  {
+    "id": 305001,
+    "name": "AMBUSH",
+    "description": "DEAL 5 TO 7 DAMAGE TO EACH UNIT ON THE TEAM WHICH WINS FIRST STRIKE",
+    "action_point": 3,
+    "ability_type": 2
+  },
+  {
+    "id": 402001,
+    "name": "BOMBARD",
+    "description": "DEAL 4 TO 8 DAMAGE TO EACH ENEMY UNIT",
+    "action_point": 4,
+    "ability_type": 2
+  },
+  {
+    "id": 402002,
+    "name": "BOMBARD II",
+    "description": "DEAL 6 TO 12 DAMAGE TO EACH ENEMY UNIT",
+    "action_point": 4,
+    "ability_type": 2
+  },
+  {
+    "id": 402003,
+    "name": "BOMBARD III",
+    "description": "DEAL 8 TO 16 DAMAGE TO EACH ENEMY UNIT",
+    "action_point": 4,
+    "ability_type": 2
+  }
+]
