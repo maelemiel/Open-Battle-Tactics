@@ -9,7 +9,7 @@
 ### 🎲 Why This Project?
 
 - **🎮 Nostalgia**: Relive the magical moments of the original game
-- **🛡️ Preservation**: Save this iconic game for future generations  
+- **🛡️ Preservation**: Save this iconic game for future generations
 - **🚀 Innovation**: Enhance the experience with new features and improvements
 - **👥 Community**: Unite fans around a collaborative project
 - **📚 Learning**: Learn game development through open-source collaboration
@@ -35,6 +35,7 @@
 - ✅ **Responsive Design** for desktop and mobile browsers
 
 ### 🚧 In Development
+
 - 🔄 **Online Multiplayer** with matchmaking system
 - 🔄 **Progressive Tank Unlocking** and customization
 - 🔄 **Campaign Mode** with challenging AI opponents
@@ -42,6 +43,7 @@
 - 🔄 **Native Mobile Apps** for Android and iOS
 
 ### 🎯 Planned Features
+
 - 📋 **Guild System** with community events
 - 📋 **Mod Support** through workshop integration
 - 📋 **Advanced AI** with multiple difficulty levels
@@ -51,20 +53,23 @@
 ## 🎮 How to Play
 
 ### 🎯 Basic Rules
+
 1. **Formation**: Each team deploys 4 tanks with different roles
 2. **Turn-based**: Players activate abilities then roll dice for combat
 3. **First Strike**: Tanks with blue bar values (15-20) attack first
 4. **Victory**: Eliminate all enemy tanks to win!
 
 ### 🎲 Tank Types
+
 | Type | HP | Damage | Specialty |
-|------|----|---------|-----------| 
+|------|----|---------|-----------|
 | **🔴 Assault** | Medium | High | Pure damage dealer |
 | **🔵 Defense** | High | Low | Tanky survivor |
 | **🟢 Speed** | Low | Medium | Frequent first strikes |
 | **🟣 Hover** | Medium | Medium | Balanced flying unit |
 
 ### ⚡ Special Abilities
+
 - **Re-Spin** (1 pt): Reroll a tank's die
 - **Targeting** (1 pt): Target a specific enemy
 - **Mini Strike** (2 pts): Immediate bonus attack
@@ -77,18 +82,21 @@
 ## �️ Tech Stack
 
 ### 🎨 Frontend
+
 - **HTML5 Canvas** - Graphics rendering and animations
 - **CSS3** - Modern responsive styling
 - **JavaScript ES6+** - Game logic and interactivity
 - **Phaser.js** *(optional)* - 2D game framework
 
 ### ⚙️ Backend *(for multiplayer)*
+
 - **Node.js** - Game server runtime
 - **Socket.io** - Real-time communication
 - **Express.js** - REST API framework
 - **PostgreSQL** - Database for user data
 
 ### 🔧 Development Tools
+
 - **Webpack** - Module bundling and building
 - **ESLint** - Code quality and consistency
 - **Prettier** - Automatic code formatting
@@ -97,7 +105,7 @@
 
 ## 📁 Project Structure
 
-```
+``` text
 open-battle-tactics/
 ├── src/
 │   ├── scenes/           # Phaser scenes (Menu, Battle, GameOver)
@@ -194,6 +202,7 @@ This project uses placeholder graphics and sounds. You can replace them with you
 ## 🐛 Bug Reports
 
 Found a bug? Please create an issue with:
+
 - Description of the problem
 - Steps to reproduce
 - Expected vs actual behavior
@@ -201,6 +210,6 @@ Found a bug? Please create an issue with:
 
 ---
 
-**Live Demo**: [Coming Soon]  
-**Documentation**: [docs/README.md](docs/README.md)  
+**Live Demo**: [Coming Soon]
+**Documentation**: [docs/README.md](docs/README.md)
 **Author**: [@maelemiel](https://github.com/maelemiel)
