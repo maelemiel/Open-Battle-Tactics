@@ -1,8 +1,10 @@
 # Open Battle Tactics
 
+> **[📊 Quick Summary](./SUMMARY.md)** - Complete project overview with statistics and quick links
+
 ## 📋 Description
 
-This project contains extracted assets and resources from the mobile game **Super Battle Tactics**, a turn-based strategy game. This is a reverse engineering project aimed at analyzing and documenting the game's components.
+This project contains extracted assets and resources from the mobile game **Super Battle Tactics**, a turn-based strategy game. This is a reverse engineering project aimed at analyzing and documenting the game's components for preservation and potential open source reconstruction.
 
 ## 🎮 About the Game
 
