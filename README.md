@@ -60,9 +60,30 @@ Open-Battle-Tactics/
 
 ## 📖 Documentation
 
-**[📋 REVERSE ENGINEERING SUMMARY (Français)](./REVERSE_ENGINEERING_SUMMARY.md)** - Comprehensive analysis of all available data, game mechanics, and recommendations for open source reconstruction.
+### For Developers
 
-This detailed document includes:
+**[🚀 QUICK START GUIDE](./QUICKSTART.md)** - Get started rebuilding the game
+- Project setup (Unity/Godot)
+- Data extraction and loading
+- Core system implementation (combat, units, abilities)
+- Sample code and examples
+- Step-by-step tutorial
+
+**[📦 DATA EXTRACTION GUIDE](./DATA_EXTRACTION.md)** - Extract more data from the APK
+- Unity asset extraction tools (AssetStudio, UnityPy)
+- SQLite database export to JSON
+- Python scripts for automated extraction
+- Troubleshooting common issues
+
+**[📊 DATABASE SCHEMA REFERENCE](./DATABASE_SCHEMA.md)** - Complete database documentation
+- All 67 tables explained
+- Schema definitions
+- Sample queries
+- Quick stats and extraction tips
+
+### For Analysis
+
+**[📋 REVERSE ENGINEERING SUMMARY (Français)](./REVERSE_ENGINEERING_SUMMARY.md)** - Comprehensive analysis
 - Complete database schema (67 tables, 370 units, 34 abilities)
 - Game mechanics breakdown (combat system, progression, gacha, events)
 - Technical architecture
