@@ -51,9 +51,24 @@ Open-Battle-Tactics/
 ## 🎯 Project Goals
 
 - [x] Game asset extraction
-- [ ] Game mechanics analysis
-- [ ] System documentation
+- [x] Game mechanics analysis
+- [x] System documentation
+- [x] Database schema documentation
+- [ ] Complete asset re-extraction
 - [ ] Gameplay reverse engineering
+- [ ] Open source reconstruction
+
+## 📖 Documentation
+
+**[📋 REVERSE ENGINEERING SUMMARY (Français)](./REVERSE_ENGINEERING_SUMMARY.md)** - Comprehensive analysis of all available data, game mechanics, and recommendations for open source reconstruction.
+
+This detailed document includes:
+- Complete database schema (67 tables, 370 units, 34 abilities)
+- Game mechanics breakdown (combat system, progression, gacha, events)
+- Technical architecture
+- Recommendations for open source rebuild
+- Development roadmap
+- Available resources and external references
 
 ## 📚 Resources and References
 
