@@ -1,8 +1,10 @@
 # Open Battle Tactics
 
+> **[📊 Quick Summary](./SUMMARY.md)** - Complete project overview with statistics and quick links
+
 ## 📋 Description
 
-This project contains extracted assets and resources from the mobile game **Super Battle Tactics**, a turn-based strategy game. This is a reverse engineering project aimed at analyzing and documenting the game's components.
+This project contains extracted assets and resources from the mobile game **Super Battle Tactics**, a turn-based strategy game. This is a reverse engineering project aimed at analyzing and documenting the game's components for preservation and potential open source reconstruction.
 
 ## 🎮 About the Game
 
@@ -51,9 +53,45 @@ Open-Battle-Tactics/
 ## 🎯 Project Goals
 
 - [x] Game asset extraction
-- [ ] Game mechanics analysis
-- [ ] System documentation
+- [x] Game mechanics analysis
+- [x] System documentation
+- [x] Database schema documentation
+- [ ] Complete asset re-extraction
 - [ ] Gameplay reverse engineering
+- [ ] Open source reconstruction
+
+## 📖 Documentation
+
+### For Developers
+
+**[🚀 QUICK START GUIDE](./QUICKSTART.md)** - Get started rebuilding the game
+- Project setup (Unity/Godot)
+- Data extraction and loading
+- Core system implementation (combat, units, abilities)
+- Sample code and examples
+- Step-by-step tutorial
+
+**[📦 DATA EXTRACTION GUIDE](./DATA_EXTRACTION.md)** - Extract more data from the APK
+- Unity asset extraction tools (AssetStudio, UnityPy)
+- SQLite database export to JSON
+- Python scripts for automated extraction
+- Troubleshooting common issues
+
+**[📊 DATABASE SCHEMA REFERENCE](./DATABASE_SCHEMA.md)** - Complete database documentation
+- All 67 tables explained
+- Schema definitions
+- Sample queries
+- Quick stats and extraction tips
+
+### For Analysis
+
+**[📋 REVERSE ENGINEERING SUMMARY (Français)](./REVERSE_ENGINEERING_SUMMARY.md)** - Comprehensive analysis
+- Complete database schema (67 tables, 370 units, 34 abilities)
+- Game mechanics breakdown (combat system, progression, gacha, events)
+- Technical architecture
+- Recommendations for open source rebuild
+- Development roadmap
+- Available resources and external references
 
 ## 📚 Resources and References
 
