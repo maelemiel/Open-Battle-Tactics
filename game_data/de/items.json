@@ -1,0 +1,62 @@
+[
+  {
+    "key_name": "metadata_item_name_1",
+    "key_name_singular": "metadata_item_name_singular_1",
+    "id": 1,
+    "key_name_text": "GEGENSTAND (NOCH UNBEKANNT)"
+  },
+  {
+    "key_name": "metadata_item_name_2",
+    "key_name_singular": "metadata_item_name_singular_2",
+    "id": 2,
+    "key_name_text": "TICKET"
+  },
+  {
+    "key_name": "metadata_item_name_4",
+    "key_name_singular": "metadata_item_name_singular_4",
+    "id": 4,
+    "key_name_text": "BARES"
+  },
+  {
+    "key_name": "metadata_item_name_5",
+    "key_name_singular": "metadata_item_name_singular_5",
+    "id": 5,
+    "key_name_text": "JUWELEN"
+  },
+  {
+    "key_name": "metadata_item_name_6",
+    "key_name_singular": "metadata_item_name_singular_6",
+    "id": 6,
+    "key_name_text": "TEILE"
+  },
+  {
+    "key_name": "metadata_item_name_7",
+    "key_name_singular": "metadata_item_name_singular_7",
+    "id": 7,
+    "key_name_text": "TANKS"
+  },
+  {
+    "key_name": "metadata_item_name_8",
+    "key_name_singular": "metadata_item_name_singular_8",
+    "id": 8,
+    "key_name_text": "metadata_item_name_8"
+  },
+  {
+    "key_name": "metadata_item_name_9",
+    "key_name_singular": "metadata_item_name_singular_9",
+    "id": 9,
+    "key_name_text": "metadata_item_name_9"
+  },
+  {
+    "key_name": "metadata_item_name_99",
+    "key_name_singular": "metadata_item_name_singular_99",
+    "id": 99,
+    "key_name_text": "EVENT-PUNKTE"
+  },
+  {
+    "key_name": "metadata_item_name_100",
+    "key_name_singular": "metadata_item_name_singular_100",
+    "id": 100,
+    "key_name_text": "RAID BOSS-PUNKTE"
+  }
+]

@@ -1,0 +1,11279 @@
+[
+  {
+    "drop_max": 2,
+    "unit_id": 11001,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 1
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 11002,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 2
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 11003,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 3
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 11004,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 4
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 11005,
+    "drop_min": 1,
+    "amount": 12,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 5
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 11006,
+    "drop_min": 1,
+    "amount": 12,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 6
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 11007,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 7
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 11008,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 8
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 11009,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 9
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 11010,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 10
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21001,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 11
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21001,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 12
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21002,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 13
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21002,
+    "drop_min": 1,
+    "amount": 12,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 14
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21003,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 15
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21003,
+    "drop_min": 1,
+    "amount": 12,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 16
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21004,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 17
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21004,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 18
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21005,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 19
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21005,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 20
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21006,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 21
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21006,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 22
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21007,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 23
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21007,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 24
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21008,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 25
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21008,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 26
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21009,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 27
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21009,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 28
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21010,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 29
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21010,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 30
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21011,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 31
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21011,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 32
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21012,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 33
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21012,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 34
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21013,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 35
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21013,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 36
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21014,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 37
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21014,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 38
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21015,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 39
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21015,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 40
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21016,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 41
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21016,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 42
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21017,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 43
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21017,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 44
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21018,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 45
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21018,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 46
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21019,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 47
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21019,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 48
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21022,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 49
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21022,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 50
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31001,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 51
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31001,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 52
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31001,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 53
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31002,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 54
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31002,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 55
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31002,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 56
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31003,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 57
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31003,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 58
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31003,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 59
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31004,
+    "drop_min": 1,
+    "amount": 90,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 60
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31004,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 61
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31004,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 62
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31005,
+    "drop_min": 1,
+    "amount": 90,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 63
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31005,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 64
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31005,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 65
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31006,
+    "drop_min": 1,
+    "amount": 110,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 66
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31006,
+    "drop_min": 1,
+    "amount": 45,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 67
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31006,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 68
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31007,
+    "drop_min": 1,
+    "amount": 110,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 69
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31007,
+    "drop_min": 1,
+    "amount": 45,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 70
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31007,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 71
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31008,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 72
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31008,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 73
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31008,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 74
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31009,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 75
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31009,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 76
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31009,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 77
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31010,
+    "drop_min": 1,
+    "amount": 190,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 78
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31010,
+    "drop_min": 1,
+    "amount": 70,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 79
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31010,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 80
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31011,
+    "drop_min": 1,
+    "amount": 190,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 81
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31011,
+    "drop_min": 1,
+    "amount": 70,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 82
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31011,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 83
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31012,
+    "drop_min": 1,
+    "amount": 190,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 84
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31012,
+    "drop_min": 1,
+    "amount": 70,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 85
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31012,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 86
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31013,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 87
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31013,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 88
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31013,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 89
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31014,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 90
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31014,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 91
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31014,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 92
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31015,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 93
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31015,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 94
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31015,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 95
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31016,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 96
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31016,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 97
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31016,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 98
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31017,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 99
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31017,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 100
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31017,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 101
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31017,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 99,
+    "drop_rate": 1,
+    "id": 102
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31018,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 103
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31018,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 104
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31018,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 105
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31018,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 99,
+    "drop_rate": 1,
+    "id": 106
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31019,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 107
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31019,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 108
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31019,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 109
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31019,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 99,
+    "drop_rate": 1,
+    "id": 110
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31020,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 111
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31020,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 112
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31020,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 113
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31021,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 114
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31021,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 115
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31021,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 116
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31021,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 99,
+    "drop_rate": 1,
+    "id": 117
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31022,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 118
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31022,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 119
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31022,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 120
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31023,
+    "drop_min": 1,
+    "amount": 275,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 121
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31023,
+    "drop_min": 1,
+    "amount": 110,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 122
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31023,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 123
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31024,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 124
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31024,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 125
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31024,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 126
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31025,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 127
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31025,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 128
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31025,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 129
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31025,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 99,
+    "drop_rate": 1,
+    "id": 130
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31026,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 131
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31026,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 132
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31026,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 133
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31026,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 101,
+    "drop_rate": 0,
+    "id": 134
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31027,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 135
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31027,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 136
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31027,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 137
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31036,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 138
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31036,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 139
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31036,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 140
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41001,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 141
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41001,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 142
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41001,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 11,
+    "drop_rate": 40,
+    "id": 143
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41001,
+    "drop_min": 1,
+    "amount": 3,
+    "part_type": 901,
+    "drop_rate": 5,
+    "id": 144
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41002,
+    "drop_min": 1,
+    "amount": 295,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 145
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41002,
+    "drop_min": 1,
+    "amount": 130,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 146
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41002,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 11,
+    "drop_rate": 40,
+    "id": 147
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41002,
+    "drop_min": 1,
+    "amount": 4,
+    "part_type": 902,
+    "drop_rate": 5,
+    "id": 148
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41003,
+    "drop_min": 1,
+    "amount": 375,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 149
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41003,
+    "drop_min": 1,
+    "amount": 160,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 150
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41003,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 11,
+    "drop_rate": 40,
+    "id": 151
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41003,
+    "drop_min": 1,
+    "amount": 5,
+    "part_type": 903,
+    "drop_rate": 5,
+    "id": 152
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41004,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 153
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41004,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 154
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41004,
+    "drop_min": 1,
+    "amount": 85,
+    "part_type": 11,
+    "drop_rate": 40,
+    "id": 155
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41004,
+    "drop_min": 1,
+    "amount": 6,
+    "part_type": 904,
+    "drop_rate": 5,
+    "id": 156
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41005,
+    "drop_min": 1,
+    "amount": 515,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 157
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41005,
+    "drop_min": 1,
+    "amount": 220,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 158
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41005,
+    "drop_min": 1,
+    "amount": 90,
+    "part_type": 11,
+    "drop_rate": 40,
+    "id": 159
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41005,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 905,
+    "drop_rate": 5,
+    "id": 160
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41006,
+    "drop_min": 1,
+    "amount": 575,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 161
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41006,
+    "drop_min": 1,
+    "amount": 255,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 162
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41006,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 11,
+    "drop_rate": 40,
+    "id": 163
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41006,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 906,
+    "drop_rate": 5,
+    "id": 164
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41007,
+    "drop_min": 1,
+    "amount": 650,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 165
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41007,
+    "drop_min": 1,
+    "amount": 285,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 166
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41007,
+    "drop_min": 1,
+    "amount": 120,
+    "part_type": 11,
+    "drop_rate": 40,
+    "id": 167
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41007,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 907,
+    "drop_rate": 5,
+    "id": 168
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41008,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 169
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41008,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 170
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41008,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 171
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41008,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 172
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41008,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 908,
+    "drop_rate": 1,
+    "id": 173
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41009,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 174
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41009,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 175
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41009,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 176
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41009,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 177
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41009,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 909,
+    "drop_rate": 1,
+    "id": 178
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41010,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 179
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41010,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 180
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41010,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 181
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41010,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 182
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41010,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 910,
+    "drop_rate": 1,
+    "id": 183
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41011,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 184
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41011,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 185
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41011,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 186
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41011,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 187
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41011,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 921,
+    "drop_rate": 1,
+    "id": 188
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41012,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 189
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41012,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 190
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41012,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 191
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41012,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 192
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41012,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 922,
+    "drop_rate": 1,
+    "id": 193
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41013,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 194
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41013,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 195
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41013,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 196
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41013,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 197
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41013,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 923,
+    "drop_rate": 1,
+    "id": 198
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41014,
+    "drop_min": 1,
+    "amount": 720,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 199
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41014,
+    "drop_min": 1,
+    "amount": 315,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 200
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41014,
+    "drop_min": 1,
+    "amount": 130,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 201
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41014,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 927,
+    "drop_rate": 1,
+    "id": 202
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41015,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 203
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41015,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 204
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41015,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 205
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41015,
+    "drop_min": 1,
+    "amount": 3,
+    "part_type": 933,
+    "drop_rate": 0,
+    "id": 206
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41016,
+    "drop_min": 1,
+    "amount": 295,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 207
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41016,
+    "drop_min": 1,
+    "amount": 130,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 208
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41016,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 209
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41016,
+    "drop_min": 1,
+    "amount": 3,
+    "part_type": 934,
+    "drop_rate": 0,
+    "id": 210
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41017,
+    "drop_min": 1,
+    "amount": 295,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 211
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41017,
+    "drop_min": 1,
+    "amount": 130,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 212
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41017,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 213
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41017,
+    "drop_min": 1,
+    "amount": 5,
+    "part_type": 940,
+    "drop_rate": 0,
+    "id": 214
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41018,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 215
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41018,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 216
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41018,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 217
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41018,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 939,
+    "drop_rate": 0,
+    "id": 218
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41023,
+    "drop_min": 1,
+    "amount": 720,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 219
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41023,
+    "drop_min": 1,
+    "amount": 315,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 220
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41023,
+    "drop_min": 1,
+    "amount": 130,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 221
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41023,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 952,
+    "drop_rate": 1,
+    "id": 222
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41024,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 223
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41024,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 224
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41024,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 225
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41024,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 226
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41024,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 950,
+    "drop_rate": 1,
+    "id": 227
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41027,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 228
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41027,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 229
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41027,
+    "drop_min": 1,
+    "amount": 85,
+    "part_type": 11,
+    "drop_rate": 40,
+    "id": 230
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41027,
+    "drop_min": 1,
+    "amount": 6,
+    "part_type": 904,
+    "drop_rate": 5,
+    "id": 231
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 12001,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 232
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 12002,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 233
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 12003,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 234
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 12004,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 235
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 22001,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 236
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 22001,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 237
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 22002,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 238
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 22002,
+    "drop_min": 1,
+    "amount": 12,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 239
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 22003,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 240
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 22003,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 241
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 22004,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 242
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 22004,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 243
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 22005,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 244
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 22005,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 245
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 22006,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 246
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 22006,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 247
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 22007,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 248
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 22007,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 249
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32001,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 250
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32001,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 251
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32001,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 252
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32002,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 253
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32002,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 254
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32002,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 255
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32003,
+    "drop_min": 1,
+    "amount": 90,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 256
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32003,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 257
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32003,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 258
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32004,
+    "drop_min": 1,
+    "amount": 110,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 259
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32004,
+    "drop_min": 1,
+    "amount": 45,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 260
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32004,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 261
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32005,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 262
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32005,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 263
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32005,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 264
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32006,
+    "drop_min": 1,
+    "amount": 190,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 265
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32006,
+    "drop_min": 1,
+    "amount": 70,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 266
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32006,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 267
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32007,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 268
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32007,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 269
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32007,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 270
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32008,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 271
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32008,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 272
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32008,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 273
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32009,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 274
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32009,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 275
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32009,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 276
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32009,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 99,
+    "drop_rate": 1,
+    "id": 277
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32010,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 278
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32010,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 279
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32010,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 280
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32010,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 99,
+    "drop_rate": 1,
+    "id": 281
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32011,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 282
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32011,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 283
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32011,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 284
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32011,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 99,
+    "drop_rate": 1,
+    "id": 285
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32012,
+    "drop_min": 1,
+    "amount": 110,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 286
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32012,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 287
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32012,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 288
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32012,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 100,
+    "drop_rate": 0,
+    "id": 289
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32013,
+    "drop_min": 1,
+    "amount": 190,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 290
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32013,
+    "drop_min": 1,
+    "amount": 70,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 291
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32013,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 292
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42001,
+    "drop_min": 1,
+    "amount": 295,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 293
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42001,
+    "drop_min": 1,
+    "amount": 130,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 294
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42001,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 12,
+    "drop_rate": 40,
+    "id": 295
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42001,
+    "drop_min": 1,
+    "amount": 4,
+    "part_type": 911,
+    "drop_rate": 5,
+    "id": 296
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42002,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 297
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42002,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 298
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42002,
+    "drop_min": 1,
+    "amount": 85,
+    "part_type": 12,
+    "drop_rate": 40,
+    "id": 299
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42002,
+    "drop_min": 1,
+    "amount": 6,
+    "part_type": 912,
+    "drop_rate": 5,
+    "id": 300
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42003,
+    "drop_min": 1,
+    "amount": 575,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 301
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42003,
+    "drop_min": 1,
+    "amount": 255,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 302
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42003,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 12,
+    "drop_rate": 40,
+    "id": 303
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42003,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 913,
+    "drop_rate": 5,
+    "id": 304
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42004,
+    "drop_min": 1,
+    "amount": 650,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 305
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42004,
+    "drop_min": 1,
+    "amount": 285,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 306
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42004,
+    "drop_min": 1,
+    "amount": 120,
+    "part_type": 12,
+    "drop_rate": 40,
+    "id": 307
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42004,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 914,
+    "drop_rate": 5,
+    "id": 308
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42005,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 309
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42005,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 310
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42005,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 311
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42005,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 312
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42005,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 915,
+    "drop_rate": 1,
+    "id": 313
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42006,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 314
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42006,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 315
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42006,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 316
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42006,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 317
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42006,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 924,
+    "drop_rate": 1,
+    "id": 318
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42007,
+    "drop_min": 1,
+    "amount": 325,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 319
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42007,
+    "drop_min": 1,
+    "amount": 140,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 320
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42007,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 321
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42007,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 322
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42007,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 928,
+    "drop_rate": 1,
+    "id": 323
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42008,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 324
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42008,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 325
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42008,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 326
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42008,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 935,
+    "drop_rate": 0,
+    "id": 327
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42009,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 328
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42009,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 329
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42009,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 330
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42009,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 100,
+    "drop_rate": 0,
+    "id": 331
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42011,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 332
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42011,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 333
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42011,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 334
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42011,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 335
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 13001,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 336
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 13002,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 337
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 13003,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 338
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 13004,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 339
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 23001,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 340
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 23001,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 341
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 23002,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 342
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 23002,
+    "drop_min": 1,
+    "amount": 12,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 343
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 23003,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 344
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 23003,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 345
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 23004,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 346
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 23004,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 347
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 23005,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 348
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 23005,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 349
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 23006,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 350
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 23006,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 351
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33001,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 352
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33001,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 353
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33001,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 354
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33002,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 355
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33002,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 356
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33002,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 357
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33003,
+    "drop_min": 1,
+    "amount": 90,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 358
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33003,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 359
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33003,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 360
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33004,
+    "drop_min": 1,
+    "amount": 110,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 361
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33004,
+    "drop_min": 1,
+    "amount": 45,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 362
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33004,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 363
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33005,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 364
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33005,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 365
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33005,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 366
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33006,
+    "drop_min": 1,
+    "amount": 190,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 367
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33006,
+    "drop_min": 1,
+    "amount": 70,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 368
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33006,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 369
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33007,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 370
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33007,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 371
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33007,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 372
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33008,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 373
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33008,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 374
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33008,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 375
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33009,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 376
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33009,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 377
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33009,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 378
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33009,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 99,
+    "drop_rate": 1,
+    "id": 379
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33010,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 380
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33010,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 381
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33010,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 382
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33010,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 99,
+    "drop_rate": 1,
+    "id": 383
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33011,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 384
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33011,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 385
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33011,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 386
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33011,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 99,
+    "drop_rate": 1,
+    "id": 387
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33012,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 388
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33012,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 389
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33012,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 390
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33013,
+    "drop_min": 1,
+    "amount": 210,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 391
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33013,
+    "drop_min": 1,
+    "amount": 85,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 392
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33013,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 393
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33016,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 394
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33016,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 395
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33016,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 396
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33013,
+    "drop_min": 1,
+    "amount": 18,
+    "part_type": 101,
+    "drop_rate": 0,
+    "id": 397
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43001,
+    "drop_min": 1,
+    "amount": 295,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 398
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43001,
+    "drop_min": 1,
+    "amount": 130,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 399
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43001,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 13,
+    "drop_rate": 40,
+    "id": 400
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43001,
+    "drop_min": 1,
+    "amount": 4,
+    "part_type": 916,
+    "drop_rate": 5,
+    "id": 401
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43002,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 402
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43002,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 403
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43002,
+    "drop_min": 1,
+    "amount": 85,
+    "part_type": 13,
+    "drop_rate": 40,
+    "id": 404
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43002,
+    "drop_min": 1,
+    "amount": 6,
+    "part_type": 917,
+    "drop_rate": 5,
+    "id": 405
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43003,
+    "drop_min": 1,
+    "amount": 575,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 406
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43003,
+    "drop_min": 1,
+    "amount": 255,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 407
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43003,
+    "drop_min": 1,
+    "amount": 95,
+    "part_type": 13,
+    "drop_rate": 40,
+    "id": 408
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43003,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 918,
+    "drop_rate": 5,
+    "id": 409
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43004,
+    "drop_min": 1,
+    "amount": 650,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 410
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43004,
+    "drop_min": 1,
+    "amount": 285,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 411
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43004,
+    "drop_min": 1,
+    "amount": 120,
+    "part_type": 13,
+    "drop_rate": 40,
+    "id": 412
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43004,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 919,
+    "drop_rate": 5,
+    "id": 413
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43005,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 414
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43005,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 415
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43005,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 416
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43005,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 417
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43005,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 920,
+    "drop_rate": 1,
+    "id": 418
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43006,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 419
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43006,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 420
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43006,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 421
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43006,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 422
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43006,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 925,
+    "drop_rate": 1,
+    "id": 423
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43007,
+    "drop_min": 1,
+    "amount": 720,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 424
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43007,
+    "drop_min": 1,
+    "amount": 315,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 425
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43007,
+    "drop_min": 1,
+    "amount": 130,
+    "part_type": 13,
+    "drop_rate": 40,
+    "id": 426
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43007,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 926,
+    "drop_rate": 5,
+    "id": 427
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43008,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 428
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43008,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 429
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43008,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 430
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43008,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 937,
+    "drop_rate": 0,
+    "id": 431
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43009,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 432
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43009,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 433
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43009,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 434
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43009,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 100,
+    "drop_rate": 0,
+    "id": 435
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43010,
+    "drop_min": 1,
+    "amount": 380,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 436
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43010,
+    "drop_min": 1,
+    "amount": 165,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 437
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43010,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 438
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43010,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 941,
+    "drop_rate": 0,
+    "id": 439
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 34001,
+    "drop_min": 1,
+    "amount": 275,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 440
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 34001,
+    "drop_min": 1,
+    "amount": 105,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 441
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 34001,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 14,
+    "drop_rate": 25,
+    "id": 442
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 34002,
+    "drop_min": 1,
+    "amount": 275,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 443
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 34002,
+    "drop_min": 1,
+    "amount": 105,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 444
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 34002,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 14,
+    "drop_rate": 25,
+    "id": 445
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 34003,
+    "drop_min": 1,
+    "amount": 275,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 446
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 34003,
+    "drop_min": 1,
+    "amount": 105,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 447
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 34003,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 14,
+    "drop_rate": 25,
+    "id": 448
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 34004,
+    "drop_min": 1,
+    "amount": 275,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 449
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 34004,
+    "drop_min": 1,
+    "amount": 105,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 450
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 34004,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 14,
+    "drop_rate": 25,
+    "id": 451
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 34004,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 452
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44001,
+    "drop_min": 1,
+    "amount": 720,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 453
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44001,
+    "drop_min": 1,
+    "amount": 315,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 454
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44001,
+    "drop_min": 1,
+    "amount": 130,
+    "part_type": 14,
+    "drop_rate": 40,
+    "id": 455
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44001,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 929,
+    "drop_rate": 5,
+    "id": 456
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44002,
+    "drop_min": 1,
+    "amount": 720,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 457
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44002,
+    "drop_min": 1,
+    "amount": 315,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 458
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44002,
+    "drop_min": 1,
+    "amount": 130,
+    "part_type": 14,
+    "drop_rate": 40,
+    "id": 459
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44002,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 930,
+    "drop_rate": 5,
+    "id": 460
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44003,
+    "drop_min": 1,
+    "amount": 1450,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 461
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44003,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 462
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44003,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 14,
+    "drop_rate": 40,
+    "id": 463
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44003,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 931,
+    "drop_rate": 1,
+    "id": 464
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44004,
+    "drop_min": 1,
+    "amount": 750,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 465
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44004,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 466
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44004,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 14,
+    "drop_rate": 40,
+    "id": 467
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44004,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 932,
+    "drop_rate": 1,
+    "id": 468
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44005,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 469
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44005,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 470
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44005,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 471
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44005,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 100,
+    "drop_rate": 0,
+    "id": 472
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44006,
+    "drop_min": 1,
+    "amount": 900,
+    "part_type": 2,
+    "drop_rate": 75,
+    "id": 473
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44006,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 99,
+    "drop_rate": 45,
+    "id": 474
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44006,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 14,
+    "drop_rate": 0,
+    "id": 475
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44006,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 951,
+    "drop_rate": 1,
+    "id": 476
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44007,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 477
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44007,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 478
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44007,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 479
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44007,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 101,
+    "drop_rate": 0,
+    "id": 480
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44008,
+    "drop_min": 1,
+    "amount": 425,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 481
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44008,
+    "drop_min": 1,
+    "amount": 205,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 482
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44008,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 483
+  },
+  {
+    "drop_max": 6,
+    "unit_id": 49901,
+    "drop_min": 3,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 484
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 49901,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 75,
+    "id": 485
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49901,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 50,
+    "id": 486
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49901,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 50,
+    "id": 487
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49901,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 50,
+    "id": 488
+  },
+  {
+    "drop_max": 5,
+    "unit_id": 49902,
+    "drop_min": 2,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 489
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49902,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 490
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49902,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 491
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49902,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 492
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49902,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 493
+  },
+  {
+    "drop_max": 4,
+    "unit_id": 49903,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 494
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49903,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 495
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49903,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 496
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49903,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 497
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49903,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 498
+  },
+  {
+    "drop_max": 4,
+    "unit_id": 49904,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 499
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49904,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 500
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49904,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 501
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49904,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 502
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49904,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 503
+  },
+  {
+    "drop_max": 4,
+    "unit_id": 49905,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 504
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49905,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 505
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49905,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 506
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49905,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 507
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49905,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 508
+  },
+  {
+    "drop_max": 8,
+    "unit_id": 49906,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 509
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 49906,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 80,
+    "id": 510
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49906,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 511
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49906,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 512
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49906,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 513
+  },
+  {
+    "drop_max": 8,
+    "unit_id": 49907,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 514
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 49907,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 80,
+    "id": 515
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49907,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 516
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49907,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 517
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49907,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 518
+  },
+  {
+    "drop_max": 8,
+    "unit_id": 49908,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 519
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 49908,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 80,
+    "id": 520
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49908,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 521
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49908,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 522
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49908,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 523
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 29701,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 524
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 29701,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 525
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 29702,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 526
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 29702,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 527
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 29703,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 528
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 29703,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 529
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 29704,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 530
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 29704,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 531
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21020,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 532
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21020,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 533
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31028,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 534
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31028,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 535
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31028,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 536
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31029,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 537
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31029,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 538
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31029,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 539
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31030,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 540
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31030,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 541
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31030,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 542
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31031,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 543
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31031,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 544
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31031,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 545
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31031,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 102,
+    "drop_rate": 0,
+    "id": 546
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33014,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 547
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33014,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 548
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33014,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 549
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41019,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 550
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41019,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 551
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41019,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 552
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41019,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 942,
+    "drop_rate": 0,
+    "id": 553
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41020,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 554
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41020,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 555
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41020,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 0,
+    "id": 556
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41020,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 102,
+    "drop_rate": 0,
+    "id": 557
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42010,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 558
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42010,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 559
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42010,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 560
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42010,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 943,
+    "drop_rate": 0,
+    "id": 561
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43011,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 562
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43011,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 563
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43011,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 564
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43011,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 944,
+    "drop_rate": 0,
+    "id": 565
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44009,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 566
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44009,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 567
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44009,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 568
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44009,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 945,
+    "drop_rate": 0,
+    "id": 569
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44010,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 570
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44010,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 571
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44010,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 572
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44010,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 102,
+    "drop_rate": 0,
+    "id": 573
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21021,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 574
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21021,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 575
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 22008,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 576
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 22008,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 577
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31032,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 578
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31032,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 579
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31032,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 580
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32014,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 581
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32014,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 582
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32014,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 583
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32014,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 103,
+    "drop_rate": 0,
+    "id": 584
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33015,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 585
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33015,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 586
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33015,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 587
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31033,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 588
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31033,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 589
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31033,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 590
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41021,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 591
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41021,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 592
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41021,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 593
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41021,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 946,
+    "drop_rate": 0,
+    "id": 594
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42012,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 595
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42012,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 596
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42012,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 597
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42012,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 948,
+    "drop_rate": 0,
+    "id": 598
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44011,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 599
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44011,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 600
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44011,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 601
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44011,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 949,
+    "drop_rate": 0,
+    "id": 602
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41022,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 603
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41022,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 604
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41022,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 605
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41022,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 947,
+    "drop_rate": 0,
+    "id": 606
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43012,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 607
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43012,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 608
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43012,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 609
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43012,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 103,
+    "drop_rate": 0,
+    "id": 610
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44012,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 611
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44012,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 612
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44012,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 613
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44012,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 103,
+    "drop_rate": 0,
+    "id": 614
+  },
+  {
+    "drop_max": 5,
+    "unit_id": 49915,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 615
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 49915,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 616
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49915,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 50,
+    "id": 617
+  },
+  {
+    "drop_max": 5,
+    "unit_id": 49916,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 618
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 49916,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 619
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49916,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 50,
+    "id": 620
+  },
+  {
+    "drop_max": 8,
+    "unit_id": 49917,
+    "drop_min": 3,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 621
+  },
+  {
+    "drop_max": 5,
+    "unit_id": 49917,
+    "drop_min": 2,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 622
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 49917,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 100,
+    "id": 623
+  },
+  {
+    "drop_max": 8,
+    "unit_id": 49918,
+    "drop_min": 3,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 624
+  },
+  {
+    "drop_max": 5,
+    "unit_id": 49918,
+    "drop_min": 2,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 625
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 49918,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 100,
+    "id": 626
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41030,
+    "drop_min": 1,
+    "amount": 300,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 627
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41030,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 628
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41030,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 99,
+    "drop_rate": 35,
+    "id": 629
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41030,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 630
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41030,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 960,
+    "drop_rate": 1,
+    "id": 631
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21024,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 632
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21024,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 633
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32019,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 634
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32019,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 635
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32019,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 636
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31037,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 637
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31037,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 638
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31037,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 639
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41025,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 640
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41025,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 641
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41025,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 642
+  },
+  {
+    "drop_max": 0,
+    "unit_id": 41025,
+    "drop_min": 0,
+    "amount": 0,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 643
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42013,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 644
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42013,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 645
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42013,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 646
+  },
+  {
+    "drop_max": 0,
+    "unit_id": 42013,
+    "drop_min": 0,
+    "amount": 0,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 647
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42015,
+    "drop_min": 1,
+    "amount": 9999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 648
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42015,
+    "drop_min": 1,
+    "amount": 9999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 649
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42015,
+    "drop_min": 1,
+    "amount": 9999999,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 650
+  },
+  {
+    "drop_max": 0,
+    "unit_id": 42015,
+    "drop_min": 0,
+    "amount": 0,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 651
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44014,
+    "drop_min": 1,
+    "amount": 9999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 652
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44014,
+    "drop_min": 1,
+    "amount": 9999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 653
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44014,
+    "drop_min": 1,
+    "amount": 9999999,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 654
+  },
+  {
+    "drop_max": 0,
+    "unit_id": 44014,
+    "drop_min": 0,
+    "amount": 0,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 655
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44015,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 656
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44015,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 657
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44015,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 658
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44015,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 659
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44015,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 107,
+    "drop_rate": 0,
+    "id": 660
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41032,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 661
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41032,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 662
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41032,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 663
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41032,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 664
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41032,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 107,
+    "drop_rate": 0,
+    "id": 665
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43017,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 666
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43017,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 667
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43017,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 668
+  },
+  {
+    "drop_max": 0,
+    "unit_id": 43017,
+    "drop_min": 0,
+    "amount": 0,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 669
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 51001,
+    "drop_min": 1,
+    "amount": 550,
+    "part_type": 1,
+    "drop_rate": 80,
+    "id": 670
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 51001,
+    "drop_min": 1,
+    "amount": 220,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 671
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 51001,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 672
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 51001,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 99,
+    "drop_rate": 35,
+    "id": 673
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 51002,
+    "drop_min": 1,
+    "amount": 550,
+    "part_type": 1,
+    "drop_rate": 80,
+    "id": 674
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 51002,
+    "drop_min": 1,
+    "amount": 220,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 675
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 51002,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 676
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 51002,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 99,
+    "drop_rate": 35,
+    "id": 677
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 51003,
+    "drop_min": 1,
+    "amount": 550,
+    "part_type": 1,
+    "drop_rate": 80,
+    "id": 678
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 51003,
+    "drop_min": 1,
+    "amount": 220,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 679
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 51003,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 680
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 51003,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 99,
+    "drop_rate": 35,
+    "id": 681
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 51004,
+    "drop_min": 1,
+    "amount": 550,
+    "part_type": 1,
+    "drop_rate": 80,
+    "id": 682
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 51004,
+    "drop_min": 1,
+    "amount": 220,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 683
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 51004,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 684
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 51004,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 99,
+    "drop_rate": 35,
+    "id": 685
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44008,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 686
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21029,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 687
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21029,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 688
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33023,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 689
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33023,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 690
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33023,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 691
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31042,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 692
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31042,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 693
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31042,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 694
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 34007,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 695
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 34007,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 696
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 34007,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 697
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43022,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 698
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43022,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 699
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43022,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 700
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43022,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 974,
+    "drop_rate": 0,
+    "id": 701
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42023,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 702
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42023,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 703
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42023,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 704
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42023,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 975,
+    "drop_rate": 0,
+    "id": 705
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44020,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 706
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44020,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 707
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44020,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 708
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44020,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 976,
+    "drop_rate": 0,
+    "id": 709
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42024,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 710
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42024,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 711
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42024,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 712
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42024,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 713
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42025,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 714
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42025,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 715
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42025,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 716
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42025,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 717
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41036,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 718
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41036,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 719
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41036,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 720
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41036,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 721
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41039,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 722
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41039,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 723
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41039,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 724
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41039,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 725
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41037,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 726
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41037,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 727
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41037,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 728
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41037,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 729
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41038,
+    "drop_min": 1,
+    "amount": 500,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 730
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41038,
+    "drop_min": 1,
+    "amount": 300,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 731
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41038,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 732
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41038,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 977,
+    "drop_rate": 0,
+    "id": 733
+  },
+  {
+    "drop_max": 5,
+    "unit_id": 49919,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 734
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 49919,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 735
+  },
+  {
+    "drop_max": 10,
+    "unit_id": 49920,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 736
+  },
+  {
+    "drop_max": 8,
+    "unit_id": 49920,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 737
+  },
+  {
+    "drop_max": 15,
+    "unit_id": 49921,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 738
+  },
+  {
+    "drop_max": 12,
+    "unit_id": 49921,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 739
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21023,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 740
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21023,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 741
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21025,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 742
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21025,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 743
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21026,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 744
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21026,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 745
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21027,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 746
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21027,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 747
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21028,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 748
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21028,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 749
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31034,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 750
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31034,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 751
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31034,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 752
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31035,
+    "drop_min": 1,
+    "amount": 70,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 753
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31035,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 754
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31035,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 755
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31038,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 756
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31038,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 757
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31038,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 758
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31039,
+    "drop_min": 1,
+    "amount": 70,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 759
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31039,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 760
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31039,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 761
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31040,
+    "drop_min": 1,
+    "amount": 70,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 762
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31040,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 763
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31040,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 764
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31041,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 765
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31041,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 766
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31041,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 767
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31041,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 109,
+    "drop_rate": 0,
+    "id": 768
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32015,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 769
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32015,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 770
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32015,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 771
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32016,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 772
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32016,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 773
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32016,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 774
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32017,
+    "drop_min": 1,
+    "amount": 90,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 775
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32017,
+    "drop_min": 1,
+    "amount": 45,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 776
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32017,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 777
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32018,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 778
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32018,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 779
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32018,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 780
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32020,
+    "drop_min": 1,
+    "amount": 90,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 781
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32020,
+    "drop_min": 1,
+    "amount": 45,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 782
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32020,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 783
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32020,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 109,
+    "drop_rate": 0,
+    "id": 784
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33017,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 785
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33017,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 786
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33017,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 787
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33018,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 788
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33018,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 789
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33018,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 790
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33018,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 105,
+    "drop_rate": 0,
+    "id": 791
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33019,
+    "drop_min": 1,
+    "amount": 70,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 792
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33019,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 793
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33019,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 794
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33020,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 795
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33020,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 796
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33020,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 797
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33021,
+    "drop_min": 1,
+    "amount": 90,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 798
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33021,
+    "drop_min": 1,
+    "amount": 45,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 799
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33021,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 800
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33022,
+    "drop_min": 1,
+    "amount": 70,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 801
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33022,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 802
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33022,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 803
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33022,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 109,
+    "drop_rate": 0,
+    "id": 804
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 34005,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 805
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 34005,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 806
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 34005,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 25,
+    "id": 807
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 34006,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 808
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 34006,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 809
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 34006,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 25,
+    "id": 810
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41026,
+    "drop_min": 1,
+    "amount": 120,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 811
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41026,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 812
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41026,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 813
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41026,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 955,
+    "drop_rate": 0,
+    "id": 814
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41028,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 815
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41028,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 816
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41028,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 817
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41028,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 957,
+    "drop_rate": 0,
+    "id": 818
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41029,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 819
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41029,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 820
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41029,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 821
+  },
+  {
+    "drop_max": 0,
+    "unit_id": 41029,
+    "drop_min": 0,
+    "amount": 0,
+    "part_type": 106,
+    "drop_rate": 0,
+    "id": 822
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41031,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 823
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41031,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 824
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41031,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 825
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41031,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 107,
+    "drop_rate": 0,
+    "id": 826
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41033,
+    "drop_min": 1,
+    "amount": 500,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 827
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41033,
+    "drop_min": 1,
+    "amount": 300,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 828
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41033,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 829
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41033,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 830
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41033,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 966,
+    "drop_rate": 5,
+    "id": 831
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41034,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 832
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41034,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 833
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41034,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 99,
+    "drop_rate": 35,
+    "id": 834
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41034,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 108,
+    "drop_rate": 0,
+    "id": 835
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41035,
+    "drop_min": 1,
+    "amount": 120,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 836
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41035,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 837
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41035,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 838
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41035,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 109,
+    "drop_rate": 0,
+    "id": 839
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41035,
+    "drop_min": 1,
+    "amount": 6,
+    "part_type": 971,
+    "drop_rate": 0,
+    "id": 840
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42014,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 841
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42014,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 842
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42014,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 843
+  },
+  {
+    "drop_max": 0,
+    "unit_id": 42014,
+    "drop_min": 0,
+    "amount": 0,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 844
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42017,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 845
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42017,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 846
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42017,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 847
+  },
+  {
+    "drop_max": 0,
+    "unit_id": 42017,
+    "drop_min": 0,
+    "amount": 0,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 848
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42018,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 849
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42018,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 850
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42018,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 851
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42018,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 107,
+    "drop_rate": 0,
+    "id": 852
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42019,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 853
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42019,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 854
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42019,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 855
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42019,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 856
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42019,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 962,
+    "drop_rate": 5,
+    "id": 857
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42020,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 858
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42020,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 859
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42020,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 860
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42020,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 861
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42021,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 862
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42021,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 863
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42021,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 864
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42021,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 107,
+    "drop_rate": 0,
+    "id": 865
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42022,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 866
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42022,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 867
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42022,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 868
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42022,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 109,
+    "drop_rate": 0,
+    "id": 869
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42022,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 972,
+    "drop_rate": 0,
+    "id": 870
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43014,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 871
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43014,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 872
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43014,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 873
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43014,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 953,
+    "drop_rate": 0,
+    "id": 874
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43015,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 875
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43015,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 876
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43015,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 877
+  },
+  {
+    "drop_max": 0,
+    "unit_id": 43015,
+    "drop_min": 0,
+    "amount": 0,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 878
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43016,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 879
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43016,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 880
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43016,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 881
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43016,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 956,
+    "drop_rate": 0,
+    "id": 882
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43018,
+    "drop_min": 1,
+    "amount": 120,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 883
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43018,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 884
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43018,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 885
+  },
+  {
+    "drop_max": 0,
+    "unit_id": 43018,
+    "drop_min": 0,
+    "amount": 0,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 886
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43019,
+    "drop_min": 1,
+    "amount": 120,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 887
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43019,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 888
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43019,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 889
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43019,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 107,
+    "drop_rate": 0,
+    "id": 890
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43020,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 891
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43020,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 892
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43020,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 893
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43020,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 894
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43021,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 895
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43021,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 896
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43021,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 897
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43021,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 898
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44013,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 899
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44013,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 900
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44013,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 901
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44013,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 954,
+    "drop_rate": 0,
+    "id": 902
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44016,
+    "drop_min": 1,
+    "amount": 120,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 903
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44016,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 904
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44016,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 905
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44016,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 107,
+    "drop_rate": 0,
+    "id": 906
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44017,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 907
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44017,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 908
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44017,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 909
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44017,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 107,
+    "drop_rate": 0,
+    "id": 910
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44018,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 911
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44018,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 912
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44018,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 913
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44018,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 109,
+    "drop_rate": 0,
+    "id": 914
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44018,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 973,
+    "drop_rate": 0,
+    "id": 915
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44019,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 916
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44019,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 917
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44019,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 918
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44019,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 919
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42026,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 920
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42026,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 921
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42026,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 922
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42026,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 923
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42026,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 962,
+    "drop_rate": 5,
+    "id": 924
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49919,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 925
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49920,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 926
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49921,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 110,
+    "drop_rate": 0,
+    "id": 927
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49919,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 974,
+    "drop_rate": 0,
+    "id": 928
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49919,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 975,
+    "drop_rate": 0,
+    "id": 929
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49919,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 976,
+    "drop_rate": 0,
+    "id": 930
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49920,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 974,
+    "drop_rate": 0,
+    "id": 931
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49920,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 975,
+    "drop_rate": 0,
+    "id": 932
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49920,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 976,
+    "drop_rate": 0,
+    "id": 933
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49921,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 974,
+    "drop_rate": 0,
+    "id": 934
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49921,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 975,
+    "drop_rate": 0,
+    "id": 935
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49921,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 976,
+    "drop_rate": 0,
+    "id": 936
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21030,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 937
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21030,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 938
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32021,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 939
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32021,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 940
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32021,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 941
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 34008,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 942
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 34008,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 943
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 34008,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 14,
+    "drop_rate": 25,
+    "id": 944
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33024,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 945
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33024,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 946
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33024,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 947
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41040,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 948
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41040,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 949
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41040,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 950
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41040,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 951
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42027,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 952
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42027,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 953
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42027,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 954
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42027,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 955
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44021,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 956
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44021,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 957
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44021,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 958
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44021,
+    "drop_min": 1,
+    "amount": 12,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 959
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41041,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 960
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41041,
+    "drop_min": 1,
+    "amount": 125,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 961
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41041,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 962
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41041,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 963
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42028,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 964
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42028,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 965
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42028,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 99,
+    "drop_rate": 35,
+    "id": 966
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42028,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 967
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41042,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 800,
+    "drop_rate": 0,
+    "id": 968
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41042,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 969
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41042,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 970
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41042,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 971
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41043,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 800,
+    "drop_rate": 0,
+    "id": 972
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41043,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 973
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41043,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 974
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41043,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 975
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43023,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 976
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43023,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 977
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43023,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 111,
+    "drop_rate": 0,
+    "id": 978
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43023,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 979
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43024,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 980
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43024,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 981
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43024,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 111,
+    "drop_rate": 0,
+    "id": 982
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43024,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 983
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42029,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 800,
+    "drop_rate": 0,
+    "id": 984
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42029,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 985
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42029,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 986
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42029,
+    "drop_min": 1,
+    "amount": 999999,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 987
+  },
+  {
+    "drop_max": 5,
+    "unit_id": 49922,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 988
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 49922,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 989
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49922,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 800,
+    "drop_rate": 50,
+    "id": 990
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49922,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 111,
+    "drop_rate": 50,
+    "id": 991
+  },
+  {
+    "drop_max": 10,
+    "unit_id": 49923,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 992
+  },
+  {
+    "drop_max": 8,
+    "unit_id": 49923,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 993
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49923,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 800,
+    "drop_rate": 50,
+    "id": 994
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49923,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 111,
+    "drop_rate": 50,
+    "id": 995
+  },
+  {
+    "drop_max": 15,
+    "unit_id": 49924,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 996
+  },
+  {
+    "drop_max": 12,
+    "unit_id": 49924,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 997
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49924,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 800,
+    "drop_rate": 50,
+    "id": 998
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49924,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 111,
+    "drop_rate": 50,
+    "id": 999
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41044,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 1000
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41044,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1001
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41044,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 1002
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41044,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 112,
+    "drop_rate": 0,
+    "id": 1003
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43025,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 1004
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43025,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1005
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43025,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 1006
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43025,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 112,
+    "drop_rate": 0,
+    "id": 1007
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42030,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 1008
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42030,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1009
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42030,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 1010
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42030,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 112,
+    "drop_rate": 0,
+    "id": 1011
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44022,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 982,
+    "drop_rate": 5,
+    "id": 1012
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44022,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1013
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44022,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 1014
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44022,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 112,
+    "drop_rate": 0,
+    "id": 1015
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44022,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 933,
+    "drop_rate": 0,
+    "id": 1016
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44022,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 940,
+    "drop_rate": 0,
+    "id": 1017
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44022,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 945,
+    "drop_rate": 0,
+    "id": 1018
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44022,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 946,
+    "drop_rate": 0,
+    "id": 1019
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21031,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 1020
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21031,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 1021
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33025,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1022
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33025,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1023
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33025,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 1024
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32022,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1025
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32022,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1026
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32022,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 1027
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31043,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1028
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31043,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1029
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31043,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 1030
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41045,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1031
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41045,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1032
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41045,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1033
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41045,
+    "drop_min": 1,
+    "amount": 6,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 1034
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41046,
+    "drop_min": 1,
+    "amount": 175,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1035
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41046,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1036
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41046,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1037
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41046,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 1038
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42031,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1039
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42031,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1040
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42031,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 1041
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42031,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 1042
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44023,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1043
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44023,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1044
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44023,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 1045
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44023,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 1046
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44024,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1047
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44024,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1048
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44024,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 1049
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44024,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1050
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43026,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1051
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43026,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1052
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43026,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 1053
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43026,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1054
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21033,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 1055
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21033,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 1056
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33027,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1057
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33027,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1058
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33027,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 1059
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32024,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1060
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32024,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1061
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32024,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 1062
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31045,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1063
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31045,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1064
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31045,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 1065
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42033,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1066
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42033,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1067
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42033,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 1068
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42033,
+    "drop_min": 1,
+    "amount": 6,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1069
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41051,
+    "drop_min": 1,
+    "amount": 175,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1070
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41051,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1071
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41051,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1072
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41051,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1073
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44030,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1074
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44030,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1075
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44030,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 1076
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44030,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1077
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41052,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1078
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41052,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1079
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41052,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1080
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41052,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 99,
+    "drop_rate": 2,
+    "id": 1081
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41054,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1082
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41054,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1083
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41054,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1084
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41054,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1085
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41053,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1086
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41053,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1087
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41053,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1088
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41053,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1089
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41058,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1090
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41058,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1091
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41058,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1092
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41058,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1093
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41057,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1094
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41057,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1095
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41057,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1096
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41057,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1097
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31024,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 100,
+    "drop_rate": 0,
+    "id": 1098
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31027,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 101,
+    "drop_rate": 0,
+    "id": 1099
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41015,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 100,
+    "drop_rate": 0,
+    "id": 1100
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41016,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 100,
+    "drop_rate": 0,
+    "id": 1101
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41017,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 101,
+    "drop_rate": 0,
+    "id": 1102
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41018,
+    "drop_min": 1,
+    "amount": 35,
+    "part_type": 101,
+    "drop_rate": 0,
+    "id": 1103
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32013,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 101,
+    "drop_rate": 0,
+    "id": 1104
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42008,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 100,
+    "drop_rate": 0,
+    "id": 1105
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33012,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 100,
+    "drop_rate": 0,
+    "id": 1106
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43008,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 100,
+    "drop_rate": 0,
+    "id": 1107
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43010,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 101,
+    "drop_rate": 0,
+    "id": 1108
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44008,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 101,
+    "drop_rate": 0,
+    "id": 1109
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31028,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 102,
+    "drop_rate": 0,
+    "id": 1110
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31029,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 102,
+    "drop_rate": 0,
+    "id": 1111
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31030,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 102,
+    "drop_rate": 0,
+    "id": 1112
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33014,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 102,
+    "drop_rate": 0,
+    "id": 1113
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41019,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 102,
+    "drop_rate": 0,
+    "id": 1114
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42010,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 102,
+    "drop_rate": 0,
+    "id": 1115
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32019,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 1116
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32019,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 108,
+    "drop_rate": 0,
+    "id": 1117
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41047,
+    "drop_min": 1,
+    "amount": 750,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 1118
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41047,
+    "drop_min": 1,
+    "amount": 350,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 1119
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41047,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 11,
+    "drop_rate": 30,
+    "id": 1120
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41047,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 987,
+    "drop_rate": 1,
+    "id": 1121
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44025,
+    "drop_min": 1,
+    "amount": 1000,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 1122
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44025,
+    "drop_min": 1,
+    "amount": 65,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 1123
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44025,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 14,
+    "drop_rate": 30,
+    "id": 1124
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44025,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 988,
+    "drop_rate": 1,
+    "id": 1125
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43025,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 13,
+    "drop_rate": 20,
+    "id": 1126
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44026,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 1127
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44026,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1128
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44026,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 2,
+    "drop_rate": 70,
+    "id": 1129
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44026,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 14,
+    "drop_rate": 20,
+    "id": 1130
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44022,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 99,
+    "drop_rate": 5,
+    "id": 1131
+  },
+  {
+    "drop_max": 15,
+    "unit_id": 49930,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 1132
+  },
+  {
+    "drop_max": 12,
+    "unit_id": 49930,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 1133
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49930,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 983,
+    "drop_rate": 0,
+    "id": 1134
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49930,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 984,
+    "drop_rate": 0,
+    "id": 1135
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49930,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 985,
+    "drop_rate": 0,
+    "id": 1136
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49930,
+    "drop_min": 1,
+    "amount": 99999,
+    "part_type": 986,
+    "drop_rate": 0,
+    "id": 1137
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 21032,
+    "drop_min": 1,
+    "amount": 60,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 1138
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 21032,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 2,
+    "drop_rate": 30,
+    "id": 1139
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 31044,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1140
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 31044,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1141
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 31044,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 11,
+    "drop_rate": 25,
+    "id": 1142
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 33026,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1143
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 33026,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1144
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 33026,
+    "drop_min": 1,
+    "amount": 15,
+    "part_type": 13,
+    "drop_rate": 25,
+    "id": 1145
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 32023,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1146
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 32023,
+    "drop_min": 1,
+    "amount": 50,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1147
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 32023,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 12,
+    "drop_rate": 25,
+    "id": 1148
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43027,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 1,
+    "drop_rate": 60,
+    "id": 1149
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43027,
+    "drop_min": 1,
+    "amount": 75,
+    "part_type": 2,
+    "drop_rate": 50,
+    "id": 1150
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43027,
+    "drop_min": 1,
+    "amount": 20,
+    "part_type": 13,
+    "drop_rate": 10,
+    "id": 1151
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43027,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1152
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44027,
+    "drop_min": 1,
+    "amount": 175,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1153
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44027,
+    "drop_min": 1,
+    "amount": 80,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1154
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44027,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 1155
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44027,
+    "drop_min": 1,
+    "amount": 8,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1156
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42032,
+    "drop_min": 1,
+    "amount": 200,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1157
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42032,
+    "drop_min": 1,
+    "amount": 100,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1158
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42032,
+    "drop_min": 1,
+    "amount": 25,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 1159
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42032,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1160
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41048,
+    "drop_min": 1,
+    "amount": 250,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1161
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41048,
+    "drop_min": 1,
+    "amount": 125,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1162
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41048,
+    "drop_min": 1,
+    "amount": 30,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1163
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41048,
+    "drop_min": 1,
+    "amount": 10,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 1164
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41049,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1165
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41049,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1166
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41049,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1167
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41049,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 0,
+    "id": 1168
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41050,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1169
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41050,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1170
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41050,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1171
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41050,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1172
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44028,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1173
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44028,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1174
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44028,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 1175
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44028,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1176
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 44029,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1177
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 44029,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1178
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44029,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 14,
+    "drop_rate": 35,
+    "id": 1179
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 44029,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1180
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42035,
+    "drop_min": 1,
+    "amount": 750,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1181
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42035,
+    "drop_min": 1,
+    "amount": 350,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1182
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42035,
+    "drop_min": 1,
+    "amount": 150,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 1183
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42035,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 993,
+    "drop_rate": 5,
+    "id": 1184
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 43028,
+    "drop_min": 1,
+    "amount": 0,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1185
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 43028,
+    "drop_min": 1,
+    "amount": 1000,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1186
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43028,
+    "drop_min": 1,
+    "amount": 65,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1187
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43028,
+    "drop_min": 1,
+    "amount": 40,
+    "part_type": 13,
+    "drop_rate": 35,
+    "id": 1188
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 43028,
+    "drop_min": 1,
+    "amount": 9,
+    "part_type": 994,
+    "drop_rate": 5,
+    "id": 1189
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42034,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1190
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42034,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1191
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42034,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 1192
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42034,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1193
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41055,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1194
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41055,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1195
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41055,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1196
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41055,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1197
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 42036,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1198
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 42036,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1199
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42036,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 12,
+    "drop_rate": 35,
+    "id": 1200
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 42036,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1201
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 41056,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 75,
+    "id": 1202
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 41056,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 60,
+    "id": 1203
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41056,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 11,
+    "drop_rate": 35,
+    "id": 1204
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 41056,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 99,
+    "drop_rate": 10,
+    "id": 1205
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49934,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 115,
+    "drop_rate": 25,
+    "id": 1206
+  },
+  {
+    "drop_max": 5,
+    "unit_id": 49934,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 1207
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 49934,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 1208
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49934,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 997,
+    "drop_rate": 5,
+    "id": 1209
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49934,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 998,
+    "drop_rate": 5,
+    "id": 1210
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49934,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 995,
+    "drop_rate": 5,
+    "id": 1211
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49935,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 115,
+    "drop_rate": 30,
+    "id": 1212
+  },
+  {
+    "drop_max": 10,
+    "unit_id": 49935,
+    "drop_min": 3,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 1213
+  },
+  {
+    "drop_max": 5,
+    "unit_id": 49935,
+    "drop_min": 2,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 1214
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49935,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 997,
+    "drop_rate": 6,
+    "id": 1215
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49935,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 998,
+    "drop_rate": 6,
+    "id": 1216
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49935,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 995,
+    "drop_rate": 6,
+    "id": 1217
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49936,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 115,
+    "drop_rate": 35,
+    "id": 1218
+  },
+  {
+    "drop_max": 12,
+    "unit_id": 49936,
+    "drop_min": 4,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 1219
+  },
+  {
+    "drop_max": 6,
+    "unit_id": 49936,
+    "drop_min": 3,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 1220
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49936,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 997,
+    "drop_rate": 7,
+    "id": 1221
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49936,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 998,
+    "drop_rate": 7,
+    "id": 1222
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49936,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 995,
+    "drop_rate": 7,
+    "id": 1223
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49937,
+    "drop_min": 2,
+    "amount": 9999,
+    "part_type": 115,
+    "drop_rate": 35,
+    "id": 1224
+  },
+  {
+    "drop_max": 12,
+    "unit_id": 49937,
+    "drop_min": 5,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 1225
+  },
+  {
+    "drop_max": 8,
+    "unit_id": 49937,
+    "drop_min": 4,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 1226
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49937,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 997,
+    "drop_rate": 8,
+    "id": 1227
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49937,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 998,
+    "drop_rate": 8,
+    "id": 1228
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49937,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 995,
+    "drop_rate": 8,
+    "id": 1229
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 49938,
+    "drop_min": 2,
+    "amount": 9999,
+    "part_type": 115,
+    "drop_rate": 35,
+    "id": 1230
+  },
+  {
+    "drop_max": 15,
+    "unit_id": 49938,
+    "drop_min": 5,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 100,
+    "id": 1231
+  },
+  {
+    "drop_max": 10,
+    "unit_id": 49938,
+    "drop_min": 5,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 100,
+    "id": 1232
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49938,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 997,
+    "drop_rate": 10,
+    "id": 1233
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49938,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 998,
+    "drop_rate": 10,
+    "id": 1234
+  },
+  {
+    "drop_max": 1,
+    "unit_id": 49938,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 995,
+    "drop_rate": 10,
+    "id": 1235
+  },
+  {
+    "drop_max": 3,
+    "unit_id": 29705,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 1,
+    "drop_rate": 50,
+    "id": 1236
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 29705,
+    "drop_min": 1,
+    "amount": 9999,
+    "part_type": 2,
+    "drop_rate": 35,
+    "id": 1237
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991001,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 1238
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991001,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 2,
+    "drop_rate": 40,
+    "id": 1239
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991001,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 11,
+    "drop_rate": 40,
+    "id": 1240
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991001,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 12,
+    "drop_rate": 40,
+    "id": 1241
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991002,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 1242
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991002,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 2,
+    "drop_rate": 40,
+    "id": 1243
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991002,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 11,
+    "drop_rate": 40,
+    "id": 1244
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991002,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 12,
+    "drop_rate": 40,
+    "id": 1245
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991003,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 1246
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991003,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 2,
+    "drop_rate": 40,
+    "id": 1247
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991003,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 11,
+    "drop_rate": 40,
+    "id": 1248
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991003,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 12,
+    "drop_rate": 40,
+    "id": 1249
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991004,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 1,
+    "drop_rate": 40,
+    "id": 1250
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991004,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 2,
+    "drop_rate": 40,
+    "id": 1251
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991004,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 11,
+    "drop_rate": 40,
+    "id": 1252
+  },
+  {
+    "drop_max": 2,
+    "unit_id": 9991004,
+    "drop_min": 1,
+    "amount": 7,
+    "part_type": 12,
+    "drop_rate": 40,
+    "id": 1253
+  }
+]

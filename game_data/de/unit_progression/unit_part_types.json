@@ -1,0 +1,1505 @@
+[
+  {
+    "order_by": 1,
+    "name": "metadata_part_name_001",
+    "asset_linkage_id": 5005,
+    "rarity": 1,
+    "id": 1,
+    "gem_value": 1,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 2,
+    "name": "metadata_part_name_002",
+    "asset_linkage_id": 5006,
+    "rarity": 2,
+    "id": 2,
+    "gem_value": 2,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 3,
+    "name": "metadata_part_name_011",
+    "asset_linkage_id": 5007,
+    "rarity": 3,
+    "id": 11,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 4,
+    "name": "metadata_part_name_012",
+    "asset_linkage_id": 5008,
+    "rarity": 3,
+    "id": 12,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 5,
+    "name": "metadata_part_name_013",
+    "asset_linkage_id": 5009,
+    "rarity": 3,
+    "id": 13,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 6,
+    "name": "metadata_part_name_014",
+    "asset_linkage_id": 5999,
+    "rarity": 3,
+    "id": 14,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 7,
+    "name": "metadata_part_name_099",
+    "asset_linkage_id": 5030,
+    "rarity": 3,
+    "id": 99,
+    "gem_value": 15,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 20,
+    "name": "metadata_part_name_100",
+    "asset_linkage_id": 5056,
+    "rarity": 3,
+    "id": 100,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 21,
+    "name": "metadata_part_name_101",
+    "asset_linkage_id": 5057,
+    "rarity": 3,
+    "id": 101,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 22,
+    "name": "metadata_part_name_102",
+    "asset_linkage_id": 5063,
+    "rarity": 3,
+    "id": 102,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 23,
+    "name": "metadata_part_name_103",
+    "asset_linkage_id": 5068,
+    "rarity": 3,
+    "id": 103,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 24,
+    "name": "metadata_part_name_104",
+    "asset_linkage_id": 5080,
+    "rarity": 3,
+    "id": 104,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 25,
+    "name": "metadata_part_name_105",
+    "asset_linkage_id": 5081,
+    "rarity": 3,
+    "id": 105,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 26,
+    "name": "metadata_part_name_106",
+    "asset_linkage_id": 5087,
+    "rarity": 3,
+    "id": 106,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 27,
+    "name": "metadata_part_name_107",
+    "asset_linkage_id": 5095,
+    "rarity": 3,
+    "id": 107,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 28,
+    "name": "metadata_part_name_108",
+    "asset_linkage_id": 5103,
+    "rarity": 3,
+    "id": 108,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 29,
+    "name": "metadata_part_name_109",
+    "asset_linkage_id": 5105,
+    "rarity": 3,
+    "id": 109,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 30,
+    "name": "metadata_part_name_110",
+    "asset_linkage_id": 5113,
+    "rarity": 3,
+    "id": 110,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 31,
+    "name": "metadata_part_name_111",
+    "asset_linkage_id": 5119,
+    "rarity": 3,
+    "id": 111,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 32,
+    "name": "metadata_part_name_112",
+    "asset_linkage_id": 5121,
+    "rarity": 3,
+    "id": 112,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 34,
+    "name": "metadata_part_name_113",
+    "asset_linkage_id": 5123,
+    "rarity": 3,
+    "id": 113,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 35,
+    "name": "metadata_part_name_114",
+    "asset_linkage_id": 5132,
+    "rarity": 3,
+    "id": 114,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 36,
+    "name": "metadata_part_name_115",
+    "asset_linkage_id": 5143,
+    "rarity": 3,
+    "id": 115,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 37,
+    "name": "metadata_part_name_116",
+    "asset_linkage_id": 5146,
+    "rarity": 3,
+    "id": 116,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 38,
+    "name": "metadata_part_name_117",
+    "asset_linkage_id": 5153,
+    "rarity": 3,
+    "id": 117,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 8,
+    "name": "metadata_part_name_118",
+    "asset_linkage_id": 5164,
+    "rarity": 3,
+    "id": 118,
+    "gem_value": 20,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 39,
+    "name": "metadata_part_name_119",
+    "asset_linkage_id": 5160,
+    "rarity": 3,
+    "id": 119,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 40,
+    "name": "metadata_part_name_120",
+    "asset_linkage_id": 5172,
+    "rarity": 3,
+    "id": 120,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 33,
+    "name": "metadata_part_name_800",
+    "asset_linkage_id": 5120,
+    "rarity": 3,
+    "id": 800,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 100,
+    "name": "metadata_part_name_901",
+    "asset_linkage_id": 5010,
+    "rarity": 4,
+    "id": 901,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 101,
+    "name": "metadata_part_name_902",
+    "asset_linkage_id": 5019,
+    "rarity": 4,
+    "id": 902,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 102,
+    "name": "metadata_part_name_903",
+    "asset_linkage_id": 5012,
+    "rarity": 4,
+    "id": 903,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 103,
+    "name": "metadata_part_name_904",
+    "asset_linkage_id": 5013,
+    "rarity": 4,
+    "id": 904,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 104,
+    "name": "metadata_part_name_905",
+    "asset_linkage_id": 5011,
+    "rarity": 4,
+    "id": 905,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 105,
+    "name": "metadata_part_name_906",
+    "asset_linkage_id": 5015,
+    "rarity": 4,
+    "id": 906,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 106,
+    "name": "metadata_part_name_907",
+    "asset_linkage_id": 5016,
+    "rarity": 4,
+    "id": 907,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 2000,
+    "name": "metadata_part_name_908",
+    "asset_linkage_id": 5031,
+    "rarity": 4,
+    "id": 908,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 2010,
+    "name": "metadata_part_name_909",
+    "asset_linkage_id": 5032,
+    "rarity": 4,
+    "id": 909,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 2020,
+    "name": "metadata_part_name_910",
+    "asset_linkage_id": 5033,
+    "rarity": 4,
+    "id": 910,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 107,
+    "name": "metadata_part_name_911",
+    "asset_linkage_id": 5020,
+    "rarity": 4,
+    "id": 911,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 108,
+    "name": "metadata_part_name_912",
+    "asset_linkage_id": 5021,
+    "rarity": 4,
+    "id": 912,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 109,
+    "name": "metadata_part_name_913",
+    "asset_linkage_id": 5024,
+    "rarity": 4,
+    "id": 913,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 110,
+    "name": "metadata_part_name_914",
+    "asset_linkage_id": 5022,
+    "rarity": 4,
+    "id": 914,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 2030,
+    "name": "metadata_part_name_915",
+    "asset_linkage_id": 5037,
+    "rarity": 4,
+    "id": 915,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 111,
+    "name": "metadata_part_name_916",
+    "asset_linkage_id": 5025,
+    "rarity": 4,
+    "id": 916,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 112,
+    "name": "metadata_part_name_917",
+    "asset_linkage_id": 5026,
+    "rarity": 4,
+    "id": 917,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 113,
+    "name": "metadata_part_name_918",
+    "asset_linkage_id": 5027,
+    "rarity": 4,
+    "id": 918,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 114,
+    "name": "metadata_part_name_919",
+    "asset_linkage_id": 5028,
+    "rarity": 4,
+    "id": 919,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 2040,
+    "name": "metadata_part_name_920",
+    "asset_linkage_id": 5039,
+    "rarity": 4,
+    "id": 920,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 2050,
+    "name": "metadata_part_name_921",
+    "asset_linkage_id": 5034,
+    "rarity": 4,
+    "id": 921,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 2060,
+    "name": "metadata_part_name_922",
+    "asset_linkage_id": 5035,
+    "rarity": 4,
+    "id": 922,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 2070,
+    "name": "metadata_part_name_923",
+    "asset_linkage_id": 5036,
+    "rarity": 4,
+    "id": 923,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 2080,
+    "name": "metadata_part_name_924",
+    "asset_linkage_id": 5038,
+    "rarity": 4,
+    "id": 924,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 2090,
+    "name": "metadata_part_name_925",
+    "asset_linkage_id": 5040,
+    "rarity": 4,
+    "id": 925,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 115,
+    "name": "metadata_part_name_926",
+    "asset_linkage_id": 5041,
+    "rarity": 4,
+    "id": 926,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 116,
+    "name": "metadata_part_name_927",
+    "asset_linkage_id": 5042,
+    "rarity": 4,
+    "id": 927,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 212,
+    "name": "metadata_part_name_928",
+    "asset_linkage_id": 5043,
+    "rarity": 4,
+    "id": 928,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 117,
+    "name": "metadata_part_name_929",
+    "asset_linkage_id": 5044,
+    "rarity": 4,
+    "id": 929,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 118,
+    "name": "metadata_part_name_930",
+    "asset_linkage_id": 5045,
+    "rarity": 4,
+    "id": 930,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 210,
+    "name": "metadata_part_name_931",
+    "asset_linkage_id": 5046,
+    "rarity": 4,
+    "id": 931,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 211,
+    "name": "metadata_part_name_932",
+    "asset_linkage_id": 5047,
+    "rarity": 4,
+    "id": 932,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 300,
+    "name": "metadata_part_name_933",
+    "asset_linkage_id": 5048,
+    "rarity": 4,
+    "id": 933,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 301,
+    "name": "metadata_part_name_934",
+    "asset_linkage_id": 5052,
+    "rarity": 4,
+    "id": 934,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 302,
+    "name": "metadata_part_name_935",
+    "asset_linkage_id": 5049,
+    "rarity": 4,
+    "id": 935,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 303,
+    "name": "metadata_part_name_937",
+    "asset_linkage_id": 5050,
+    "rarity": 4,
+    "id": 937,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 304,
+    "name": "metadata_part_name_939",
+    "asset_linkage_id": 5058,
+    "rarity": 4,
+    "id": 939,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 305,
+    "name": "metadata_part_name_940",
+    "asset_linkage_id": 5059,
+    "rarity": 4,
+    "id": 940,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 306,
+    "name": "metadata_part_name_941",
+    "asset_linkage_id": 5061,
+    "rarity": 4,
+    "id": 941,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 307,
+    "name": "metadata_part_name_942",
+    "asset_linkage_id": 5064,
+    "rarity": 4,
+    "id": 942,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 308,
+    "name": "metadata_part_name_943",
+    "asset_linkage_id": 5065,
+    "rarity": 4,
+    "id": 943,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 309,
+    "name": "metadata_part_name_944",
+    "asset_linkage_id": 5066,
+    "rarity": 4,
+    "id": 944,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 310,
+    "name": "metadata_part_name_945",
+    "asset_linkage_id": 5067,
+    "rarity": 4,
+    "id": 945,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 311,
+    "name": "metadata_part_name_946",
+    "asset_linkage_id": 5069,
+    "rarity": 4,
+    "id": 946,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 312,
+    "name": "metadata_part_name_947",
+    "asset_linkage_id": 5070,
+    "rarity": 4,
+    "id": 947,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 313,
+    "name": "metadata_part_name_948",
+    "asset_linkage_id": 5071,
+    "rarity": 4,
+    "id": 948,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 314,
+    "name": "metadata_part_name_949",
+    "asset_linkage_id": 5072,
+    "rarity": 4,
+    "id": 949,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 213,
+    "name": "metadata_part_name_950",
+    "asset_linkage_id": 5073,
+    "rarity": 4,
+    "id": 950,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 214,
+    "name": "metadata_part_name_951",
+    "asset_linkage_id": 5074,
+    "rarity": 4,
+    "id": 951,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 119,
+    "name": "metadata_part_name_952",
+    "asset_linkage_id": 5075,
+    "rarity": 4,
+    "id": 952,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 315,
+    "name": "metadata_part_name_953",
+    "asset_linkage_id": 5078,
+    "rarity": 4,
+    "id": 953,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 316,
+    "name": "metadata_part_name_954",
+    "asset_linkage_id": 5079,
+    "rarity": 4,
+    "id": 954,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 317,
+    "name": "metadata_part_name_955",
+    "asset_linkage_id": 5082,
+    "rarity": 4,
+    "id": 955,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 318,
+    "name": "metadata_part_name_956",
+    "asset_linkage_id": 5085,
+    "rarity": 4,
+    "id": 956,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 319,
+    "name": "metadata_part_name_957",
+    "asset_linkage_id": 5083,
+    "rarity": 4,
+    "id": 957,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 320,
+    "name": "metadata_part_name_958",
+    "asset_linkage_id": 5088,
+    "rarity": 4,
+    "id": 958,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 321,
+    "name": "metadata_part_name_959",
+    "asset_linkage_id": 5089,
+    "rarity": 4,
+    "id": 959,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 215,
+    "name": "metadata_part_name_960",
+    "asset_linkage_id": 5092,
+    "rarity": 4,
+    "id": 960,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 322,
+    "name": "metadata_part_name_961",
+    "asset_linkage_id": 5090,
+    "rarity": 4,
+    "id": 961,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 216,
+    "name": "metadata_part_name_962",
+    "asset_linkage_id": 5093,
+    "rarity": 4,
+    "id": 962,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 323,
+    "name": "metadata_part_name_963",
+    "asset_linkage_id": 5098,
+    "rarity": 4,
+    "id": 963,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 324,
+    "name": "metadata_part_name_964",
+    "asset_linkage_id": 5097,
+    "rarity": 4,
+    "id": 964,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 325,
+    "name": "metadata_part_name_965",
+    "asset_linkage_id": 5096,
+    "rarity": 4,
+    "id": 965,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 217,
+    "name": "metadata_part_name_966",
+    "asset_linkage_id": 5099,
+    "rarity": 4,
+    "id": 966,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 328,
+    "name": "metadata_part_name_967",
+    "asset_linkage_id": 5100,
+    "rarity": 4,
+    "id": 967,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 327,
+    "name": "metadata_part_name_968",
+    "asset_linkage_id": 5102,
+    "rarity": 4,
+    "id": 968,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 326,
+    "name": "metadata_part_name_969",
+    "asset_linkage_id": 5101,
+    "rarity": 4,
+    "id": 969,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 329,
+    "name": "metadata_part_name_970",
+    "asset_linkage_id": 5104,
+    "rarity": 4,
+    "id": 970,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 330,
+    "name": "metadata_part_name_971",
+    "asset_linkage_id": 5106,
+    "rarity": 4,
+    "id": 971,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 331,
+    "name": "metadata_part_name_972",
+    "asset_linkage_id": 5107,
+    "rarity": 4,
+    "id": 972,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 332,
+    "name": "metadata_part_name_973",
+    "asset_linkage_id": 5108,
+    "rarity": 4,
+    "id": 973,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 333,
+    "name": "metadata_part_name_974",
+    "asset_linkage_id": 5109,
+    "rarity": 4,
+    "id": 974,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 334,
+    "name": "metadata_part_name_975",
+    "asset_linkage_id": 5110,
+    "rarity": 4,
+    "id": 975,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 335,
+    "name": "metadata_part_name_976",
+    "asset_linkage_id": 5111,
+    "rarity": 4,
+    "id": 976,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 336,
+    "name": "metadata_part_name_977",
+    "asset_linkage_id": 5112,
+    "rarity": 4,
+    "id": 977,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 337,
+    "name": "metadata_part_name_978",
+    "asset_linkage_id": 5115,
+    "rarity": 4,
+    "id": 978,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 338,
+    "name": "metadata_part_name_979",
+    "asset_linkage_id": 5116,
+    "rarity": 4,
+    "id": 979,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 339,
+    "name": "metadata_part_name_980",
+    "asset_linkage_id": 5117,
+    "rarity": 4,
+    "id": 980,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 340,
+    "name": "metadata_part_name_981",
+    "asset_linkage_id": 5118,
+    "rarity": 4,
+    "id": 981,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 341,
+    "name": "metadata_part_name_982",
+    "asset_linkage_id": 5122,
+    "rarity": 4,
+    "id": 982,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 342,
+    "name": "metadata_part_name_983",
+    "asset_linkage_id": 5126,
+    "rarity": 4,
+    "id": 983,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 343,
+    "name": "metadata_part_name_984",
+    "asset_linkage_id": 5125,
+    "rarity": 4,
+    "id": 984,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 344,
+    "name": "metadata_part_name_985",
+    "asset_linkage_id": 5127,
+    "rarity": 4,
+    "id": 985,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 345,
+    "name": "metadata_part_name_986",
+    "asset_linkage_id": 5124,
+    "rarity": 4,
+    "id": 986,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 120,
+    "name": "metadata_part_name_987",
+    "asset_linkage_id": 5131,
+    "rarity": 4,
+    "id": 987,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 218,
+    "name": "metadata_part_name_988",
+    "asset_linkage_id": 5130,
+    "rarity": 4,
+    "id": 988,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 346,
+    "name": "metadata_part_name_989",
+    "asset_linkage_id": 5133,
+    "rarity": 4,
+    "id": 989,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 347,
+    "name": "metadata_part_name_990",
+    "asset_linkage_id": 5134,
+    "rarity": 4,
+    "id": 990,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 348,
+    "name": "metadata_part_name_991",
+    "asset_linkage_id": 5135,
+    "rarity": 4,
+    "id": 991,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 349,
+    "name": "metadata_part_name_992",
+    "asset_linkage_id": 5136,
+    "rarity": 4,
+    "id": 992,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 121,
+    "name": "metadata_part_name_993",
+    "asset_linkage_id": 5138,
+    "rarity": 4,
+    "id": 993,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 219,
+    "name": "metadata_part_name_994",
+    "asset_linkage_id": 5137,
+    "rarity": 4,
+    "id": 994,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 352,
+    "name": "metadata_part_name_995",
+    "asset_linkage_id": 5140,
+    "rarity": 4,
+    "id": 995,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 353,
+    "name": "metadata_part_name_996",
+    "asset_linkage_id": 5141,
+    "rarity": 4,
+    "id": 996,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 350,
+    "name": "metadata_part_name_997",
+    "asset_linkage_id": 5142,
+    "rarity": 4,
+    "id": 997,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 351,
+    "name": "metadata_part_name_998",
+    "asset_linkage_id": 5139,
+    "rarity": 4,
+    "id": 998,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 122,
+    "name": "metadata_part_name_999",
+    "asset_linkage_id": 5145,
+    "rarity": 4,
+    "id": 999,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 220,
+    "name": "metadata_part_name_1000",
+    "asset_linkage_id": 5144,
+    "rarity": 4,
+    "id": 1000,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 354,
+    "name": "metadata_part_name_1001",
+    "asset_linkage_id": 5147,
+    "rarity": 4,
+    "id": 1001,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 355,
+    "name": "metadata_part_name_1002",
+    "asset_linkage_id": 5150,
+    "rarity": 4,
+    "id": 1002,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 356,
+    "name": "metadata_part_name_1003",
+    "asset_linkage_id": 5148,
+    "rarity": 4,
+    "id": 1003,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 357,
+    "name": "metadata_part_name_1004",
+    "asset_linkage_id": 5149,
+    "rarity": 4,
+    "id": 1004,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 123,
+    "name": "metadata_part_name_1005",
+    "asset_linkage_id": 5151,
+    "rarity": 4,
+    "id": 1005,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 222,
+    "name": "metadata_part_name_1006",
+    "asset_linkage_id": 5152,
+    "rarity": 4,
+    "id": 1006,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 358,
+    "name": "metadata_part_name_1007",
+    "asset_linkage_id": 5154,
+    "rarity": 4,
+    "id": 1007,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 359,
+    "name": "metadata_part_name_1008",
+    "asset_linkage_id": 5155,
+    "rarity": 4,
+    "id": 1008,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 360,
+    "name": "metadata_part_name_1009",
+    "asset_linkage_id": 5156,
+    "rarity": 4,
+    "id": 1009,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 361,
+    "name": "metadata_part_name_1010",
+    "asset_linkage_id": 5157,
+    "rarity": 4,
+    "id": 1010,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 900,
+    "name": "metadata_part_name_1011",
+    "asset_linkage_id": 5158,
+    "rarity": 4,
+    "id": 1011,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 901,
+    "name": "metadata_part_name_1012",
+    "asset_linkage_id": 5163,
+    "rarity": 4,
+    "id": 1012,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 124,
+    "name": "metadata_part_name_1013",
+    "asset_linkage_id": 5161,
+    "rarity": 4,
+    "id": 1013,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 224,
+    "name": "metadata_part_name_1014",
+    "asset_linkage_id": 5162,
+    "rarity": 4,
+    "id": 1014,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 363,
+    "name": "metadata_part_name_1015",
+    "asset_linkage_id": 5165,
+    "rarity": 4,
+    "id": 1015,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 364,
+    "name": "metadata_part_name_1016",
+    "asset_linkage_id": 5166,
+    "rarity": 4,
+    "id": 1016,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 365,
+    "name": "metadata_part_name_1017",
+    "asset_linkage_id": 5167,
+    "rarity": 4,
+    "id": 1017,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 366,
+    "name": "metadata_part_name_1018",
+    "asset_linkage_id": 5168,
+    "rarity": 4,
+    "id": 1018,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 125,
+    "name": "metadata_part_name_1019",
+    "asset_linkage_id": 5169,
+    "rarity": 4,
+    "id": 1019,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 226,
+    "name": "metadata_part_name_1020",
+    "asset_linkage_id": 5170,
+    "rarity": 4,
+    "id": 1020,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 902,
+    "name": "metadata_part_name_1021",
+    "asset_linkage_id": 5171,
+    "rarity": 4,
+    "id": 1021,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 367,
+    "name": "metadata_part_name_1022",
+    "asset_linkage_id": 5173,
+    "rarity": 4,
+    "id": 1022,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 368,
+    "name": "metadata_part_name_1023",
+    "asset_linkage_id": 5174,
+    "rarity": 4,
+    "id": 1023,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 369,
+    "name": "metadata_part_name_1024",
+    "asset_linkage_id": 5175,
+    "rarity": 4,
+    "id": 1024,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 370,
+    "name": "metadata_part_name_1025",
+    "asset_linkage_id": 5176,
+    "rarity": 4,
+    "id": 1025,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 41,
+    "name": "metadata_part_name_1026",
+    "asset_linkage_id": 5178,
+    "rarity": 3,
+    "id": 1026,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 903,
+    "name": "metadata_part_name_1027",
+    "asset_linkage_id": 5181,
+    "rarity": 4,
+    "id": 1027,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 221,
+    "name": "metadata_part_name_1028",
+    "asset_linkage_id": 5180,
+    "rarity": 4,
+    "id": 1028,
+    "gem_value": 50,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 126,
+    "name": "metadata_part_name_1029",
+    "asset_linkage_id": 5179,
+    "rarity": 4,
+    "id": 1029,
+    "gem_value": 25,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 9,
+    "name": "metadata_part_name_1030",
+    "asset_linkage_id": 5182,
+    "rarity": 4,
+    "id": 1030,
+    "gem_value": 10,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 200,
+    "name": "metadata_part_name_9000",
+    "asset_linkage_id": 51510,
+    "rarity": 4,
+    "id": 9000,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 201,
+    "name": "metadata_part_name_9001",
+    "asset_linkage_id": 5019,
+    "rarity": 4,
+    "id": 9001,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 202,
+    "name": "metadata_part_name_9002",
+    "asset_linkage_id": 51500,
+    "rarity": 4,
+    "id": 9002,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 203,
+    "name": "metadata_part_name_9003",
+    "asset_linkage_id": 51440,
+    "rarity": 4,
+    "id": 9003,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 204,
+    "name": "metadata_part_name_9004",
+    "asset_linkage_id": 51450,
+    "rarity": 4,
+    "id": 9004,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 205,
+    "name": "metadata_part_name_9005",
+    "asset_linkage_id": 51460,
+    "rarity": 4,
+    "id": 9005,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 206,
+    "name": "metadata_part_name_9006",
+    "asset_linkage_id": 51470,
+    "rarity": 4,
+    "id": 9006,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 207,
+    "name": "metadata_part_name_9007",
+    "asset_linkage_id": 51480,
+    "rarity": 4,
+    "id": 9007,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 208,
+    "name": "metadata_part_name_9008",
+    "asset_linkage_id": 51490,
+    "rarity": 4,
+    "id": 9008,
+    "gem_value": 100,
+    "is_hidden": "no"
+  },
+  {
+    "order_by": 209,
+    "name": "metadata_part_name_9009",
+    "asset_linkage_id": 51510,
+    "rarity": 4,
+    "id": 9009,
+    "gem_value": 100,
+    "is_hidden": "no"
+  }
+]

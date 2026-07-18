@@ -1,0 +1,72 @@
+[
+  {
+    "key_name": "metadata_unit_type_name_1",
+    "id": 1,
+    "key_name_text": "Sturmangriff"
+  },
+  {
+    "key_name": "metadata_unit_type_name_2",
+    "id": 2,
+    "key_name_text": "Kommando"
+  },
+  {
+    "key_name": "metadata_unit_type_name_3",
+    "id": 3,
+    "key_name_text": "Spionage"
+  },
+  {
+    "key_name": "metadata_unit_type_name_4",
+    "id": 4,
+    "key_name_text": "Hubschrauber"
+  },
+  {
+    "key_name": "metadata_unit_type_name_5",
+    "id": 5,
+    "key_name_text": "Exklusiv"
+  },
+  {
+    "key_name": "metadata_unit_type_name_6",
+    "id": 6,
+    "key_name_text": "Exclusive Command"
+  },
+  {
+    "key_name": "metadata_unit_type_name_7",
+    "id": 7,
+    "key_name_text": "Exclusive Operative"
+  },
+  {
+    "key_name": "metadata_unit_type_name_8",
+    "id": 8,
+    "key_name_text": "Exclusive Air"
+  },
+  {
+    "key_name": "metadata_unit_type_name_9",
+    "id": 9,
+    "key_name_text": "Boss"
+  },
+  {
+    "key_name": "metadata_unit_type_name_10",
+    "id": 10,
+    "key_name_text": "Event"
+  },
+  {
+    "key_name": "metadata_unit_type_name_11",
+    "id": 11,
+    "key_name_text": "Event Assault"
+  },
+  {
+    "key_name": "metadata_unit_type_name_12",
+    "id": 12,
+    "key_name_text": "Event Command"
+  },
+  {
+    "key_name": "metadata_unit_type_name_13",
+    "id": 13,
+    "key_name_text": "Event Operative"
+  },
+  {
+    "key_name": "metadata_unit_type_name_20",
+    "id": 20,
+    "key_name_text": "MEGA BOSS!"
+  }
+]

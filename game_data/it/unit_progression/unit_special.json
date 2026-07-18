@@ -1,0 +1,202 @@
+[
+  {
+    "key_description": "metadata_unit_special_description_0",
+    "key_name": "metadata_unit_special_name_0",
+    "related_action_id": 0,
+    "handler_id": 0,
+    "execution_order": 0,
+    "action_boost_type": 0,
+    "asset_bundle_id": null,
+    "id": 0
+  },
+  {
+    "key_description": "metadata_unit_special_description_60100",
+    "key_name": "metadata_unit_special_name_60100",
+    "related_action_id": 20000,
+    "handler_id": 601,
+    "execution_order": 0,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 60100
+  },
+  {
+    "key_description": "metadata_unit_special_description_60200",
+    "key_name": "metadata_unit_special_name_60200",
+    "related_action_id": 30000,
+    "handler_id": 602,
+    "execution_order": 0,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 60200
+  },
+  {
+    "key_description": "metadata_unit_special_description_60300",
+    "key_name": "metadata_unit_special_name_60300",
+    "related_action_id": 0,
+    "handler_id": 603,
+    "execution_order": 0,
+    "action_boost_type": 0,
+    "asset_bundle_id": null,
+    "id": 60300
+  },
+  {
+    "key_description": "metadata_unit_special_description_60301",
+    "key_name": "metadata_unit_special_name_60301",
+    "related_action_id": 0,
+    "handler_id": 610,
+    "execution_order": 0,
+    "action_boost_type": 0,
+    "asset_bundle_id": null,
+    "id": 60301
+  },
+  {
+    "key_description": "metadata_unit_special_description_60400",
+    "key_name": "metadata_unit_special_name_60400",
+    "related_action_id": 0,
+    "handler_id": 604,
+    "execution_order": -10,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 60400
+  },
+  {
+    "key_description": "metadata_unit_special_description_60500",
+    "key_name": "metadata_unit_special_name_60500",
+    "related_action_id": 0,
+    "handler_id": 605,
+    "execution_order": -5,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 60500
+  },
+  {
+    "key_description": "metadata_unit_special_description_60600",
+    "key_name": "metadata_unit_special_name_60600",
+    "related_action_id": 0,
+    "handler_id": 606,
+    "execution_order": 0,
+    "action_boost_type": 0,
+    "asset_bundle_id": null,
+    "id": 60600
+  },
+  {
+    "key_description": "metadata_unit_special_description_60700",
+    "key_name": "metadata_unit_special_name_60700",
+    "related_action_id": 0,
+    "handler_id": 607,
+    "execution_order": 0,
+    "action_boost_type": 0,
+    "asset_bundle_id": null,
+    "id": 60700
+  },
+  {
+    "key_description": "metadata_unit_special_description_60800",
+    "key_name": "metadata_unit_special_name_60800",
+    "related_action_id": 0,
+    "handler_id": 608,
+    "execution_order": 0,
+    "action_boost_type": 0,
+    "asset_bundle_id": null,
+    "id": 60800
+  },
+  {
+    "key_description": "metadata_unit_special_description_60900",
+    "key_name": "metadata_unit_special_name_60900",
+    "related_action_id": 0,
+    "handler_id": 609,
+    "execution_order": 0,
+    "action_boost_type": 0,
+    "asset_bundle_id": null,
+    "id": 60900
+  },
+  {
+    "key_description": "metadata_unit_special_description_60901",
+    "key_name": "metadata_unit_special_name_60901",
+    "related_action_id": 0,
+    "handler_id": 612,
+    "execution_order": 0,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 60901
+  },
+  {
+    "key_description": "metadata_unit_special_description_60902",
+    "key_name": "metadata_unit_special_name_60902",
+    "related_action_id": 0,
+    "handler_id": 613,
+    "execution_order": 0,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 60902
+  },
+  {
+    "key_description": "metadata_unit_special_description_60903",
+    "key_name": "metadata_unit_special_name_60903",
+    "related_action_id": 0,
+    "handler_id": 614,
+    "execution_order": 0,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 60903
+  },
+  {
+    "key_description": "metadata_unit_special_description_60904",
+    "key_name": "metadata_unit_special_name_60904",
+    "related_action_id": 0,
+    "handler_id": 615,
+    "execution_order": 0,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 60904
+  },
+  {
+    "key_description": "metadata_unit_special_description_60905",
+    "key_name": "metadata_unit_special_name_60905",
+    "related_action_id": 0,
+    "handler_id": 616,
+    "execution_order": 0,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 60905
+  },
+  {
+    "key_description": "metadata_unit_special_description_60906",
+    "key_name": "metadata_unit_special_name_60906",
+    "related_action_id": 0,
+    "handler_id": 617,
+    "execution_order": 0,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 60906
+  },
+  {
+    "key_description": "metadata_unit_special_description_60907",
+    "key_name": "metadata_unit_special_name_60907",
+    "related_action_id": 0,
+    "handler_id": 618,
+    "execution_order": 0,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 60907
+  },
+  {
+    "key_description": "metadata_unit_special_description_60908",
+    "key_name": "metadata_unit_special_name_60908",
+    "related_action_id": 0,
+    "handler_id": 619,
+    "execution_order": 0,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 60908
+  },
+  {
+    "key_description": "metadata_unit_special_description_61100",
+    "key_name": "metadata_unit_special_name_61100",
+    "related_action_id": 0,
+    "handler_id": 611,
+    "execution_order": -15,
+    "action_boost_type": 1,
+    "asset_bundle_id": null,
+    "id": 61100
+  }
+]

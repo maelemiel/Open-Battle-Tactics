@@ -1,0 +1,12 @@
+[
+  {
+    "group_number": 0,
+    "id": 1,
+    "ab_testing_id": 1
+  },
+  {
+    "group_number": 1,
+    "id": 2,
+    "ab_testing_id": 2
+  }
+]

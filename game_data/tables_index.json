@@ -1,0 +1,270 @@
+[
+  {
+    "table": "ability",
+    "rows": 34
+  },
+  {
+    "table": "ability_handler",
+    "rows": 20
+  },
+  {
+    "table": "ability_type",
+    "rows": 4
+  },
+  {
+    "table": "ai_army",
+    "rows": 1005
+  },
+  {
+    "table": "ai_army_parts",
+    "rows": 21
+  },
+  {
+    "table": "ai_handler",
+    "rows": 4
+  },
+  {
+    "table": "announcer_dialog_sequences",
+    "rows": 82
+  },
+  {
+    "table": "asset_bundles",
+    "rows": 1092
+  },
+  {
+    "table": "asset_linkage",
+    "rows": 1134
+  },
+  {
+    "table": "audio_triggers",
+    "rows": 2
+  },
+  {
+    "table": "boost",
+    "rows": 17
+  },
+  {
+    "table": "boost_ability_multiplier",
+    "rows": 22
+  },
+  {
+    "table": "config",
+    "rows": 2
+  },
+  {
+    "table": "constant",
+    "rows": 150
+  },
+  {
+    "table": "contract_details",
+    "rows": 113
+  },
+  {
+    "table": "contracts",
+    "rows": 21
+  },
+  {
+    "table": "dialog_screen",
+    "rows": 55
+  },
+  {
+    "table": "effects",
+    "rows": 103
+  },
+  {
+    "table": "event",
+    "rows": 24
+  },
+  {
+    "table": "event_assets",
+    "rows": 22
+  },
+  {
+    "table": "event_multi_team_effectiveness",
+    "rows": 5
+  },
+  {
+    "table": "event_multi_team_result_thresho",
+    "rows": 9
+  },
+  {
+    "table": "event_parts",
+    "rows": 134
+  },
+  {
+    "table": "event_points_buckets",
+    "rows": 23
+  },
+  {
+    "table": "event_raidboss_damage_drop_rate",
+    "rows": 180
+  },
+  {
+    "table": "event_unit_boost",
+    "rows": 391
+  },
+  {
+    "table": "event_units",
+    "rows": 178
+  },
+  {
+    "table": "gacha_ab_testing",
+    "rows": 2
+  },
+  {
+    "table": "gacha_ab_testing_group_enable",
+    "rows": 2
+  },
+  {
+    "table": "gacha_info_details",
+    "rows": 21
+  },
+  {
+    "table": "gacha_info_items",
+    "rows": 192
+  },
+  {
+    "table": "gacha_plinko_details",
+    "rows": 4
+  },
+  {
+    "table": "gacha_plinko_prize_price",
+    "rows": 69
+  },
+  {
+    "table": "gacha_plinko_prizes",
+    "rows": 74
+  },
+  {
+    "table": "gacha_plinko_slot_chances",
+    "rows": 45
+  },
+  {
+    "table": "gacha_pools",
+    "rows": 89
+  },
+  {
+    "table": "help_registers",
+    "rows": 56
+  },
+  {
+    "table": "help_topic",
+    "rows": 10
+  },
+  {
+    "table": "item",
+    "rows": 10
+  },
+  {
+    "table": "item_gift",
+    "rows": 1412
+  },
+  {
+    "table": "item_price",
+    "rows": 636
+  },
+  {
+    "table": "leaderboard_rewards",
+    "rows": 862
+  },
+  {
+    "table": "leaderboards",
+    "rows": 34
+  },
+  {
+    "table": "lines_emoticons",
+    "rows": 31
+  },
+  {
+    "table": "lines_news",
+    "rows": 3
+  },
+  {
+    "table": "lines_pro_tips",
+    "rows": 10
+  },
+  {
+    "table": "localization",
+    "rows": 5627
+  },
+  {
+    "table": "news",
+    "rows": 13
+  },
+  {
+    "table": "progression_division",
+    "rows": 38
+  },
+  {
+    "table": "progression_promotion_series",
+    "rows": 37
+  },
+  {
+    "table": "progression_tier_buckets",
+    "rows": 8
+  },
+  {
+    "table": "unit",
+    "rows": 370
+  },
+  {
+    "table": "unit_action",
+    "rows": 8
+  },
+  {
+    "table": "unit_cooldown",
+    "rows": 81
+  },
+  {
+    "table": "unit_destroy_gem_drop",
+    "rows": 326
+  },
+  {
+    "table": "unit_level_progression",
+    "rows": 3291
+  },
+  {
+    "table": "unit_level_up_requirement",
+    "rows": 102
+  },
+  {
+    "table": "unit_part_types",
+    "rows": 167
+  },
+  {
+    "table": "unit_partial_level",
+    "rows": 342
+  },
+  {
+    "table": "unit_parts",
+    "rows": 1253
+  },
+  {
+    "table": "unit_rarity",
+    "rows": 5
+  },
+  {
+    "table": "unit_scrap_value",
+    "rows": 71
+  },
+  {
+    "table": "unit_special",
+    "rows": 20
+  },
+  {
+    "table": "unit_special_handler",
+    "rows": 19
+  },
+  {
+    "table": "unit_type",
+    "rows": 14
+  },
+  {
+    "table": "unit_weapon_anim",
+    "rows": 7
+  },
+  {
+    "table": "version",
+    "rows": 1
+  }
+]

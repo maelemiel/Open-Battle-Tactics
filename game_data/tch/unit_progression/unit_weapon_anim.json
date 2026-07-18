@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "anim_name": "machinegun_low"
+  },
+  {
+    "id": 2,
+    "anim_name": "machinegun_rare"
+  },
+  {
+    "id": 3,
+    "anim_name": "machinegun_SR"
+  },
+  {
+    "id": 4,
+    "anim_name": "cannon_low"
+  },
+  {
+    "id": 5,
+    "anim_name": "cannon_rare"
+  },
+  {
+    "id": 6,
+    "anim_name": "cannon_SR"
+  },
+  {
+    "id": 7,
+    "anim_name": "missile"
+  }
+]

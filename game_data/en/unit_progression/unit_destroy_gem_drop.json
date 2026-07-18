@@ -1,0 +1,2284 @@
+[
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 11001,
+    "id": 1
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 11002,
+    "id": 2
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 11003,
+    "id": 3
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 11004,
+    "id": 4
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 11005,
+    "id": 5
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 11006,
+    "id": 6
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 11007,
+    "id": 7
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 11008,
+    "id": 8
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 11009,
+    "id": 9
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 11010,
+    "id": 10
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 12001,
+    "id": 11
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 12002,
+    "id": 12
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 12003,
+    "id": 13
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 12004,
+    "id": 14
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 13001,
+    "id": 15
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 13002,
+    "id": 16
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 13003,
+    "id": 17
+  },
+  {
+    "gem_proc_rate": 1,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 13004,
+    "id": 18
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21001,
+    "id": 19
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21002,
+    "id": 20
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21003,
+    "id": 21
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21004,
+    "id": 22
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21005,
+    "id": 23
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21006,
+    "id": 24
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21007,
+    "id": 25
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21008,
+    "id": 26
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21009,
+    "id": 27
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21010,
+    "id": 28
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21011,
+    "id": 29
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21012,
+    "id": 30
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21013,
+    "id": 31
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21014,
+    "id": 32
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21015,
+    "id": 33
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21016,
+    "id": 34
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21017,
+    "id": 35
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21018,
+    "id": 36
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21019,
+    "id": 37
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 22001,
+    "id": 38
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 22002,
+    "id": 39
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 22003,
+    "id": 40
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 22004,
+    "id": 41
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 22005,
+    "id": 42
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 22006,
+    "id": 43
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 22007,
+    "id": 44
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 23001,
+    "id": 45
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 23002,
+    "id": 46
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 23003,
+    "id": 47
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 23004,
+    "id": 48
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 23005,
+    "id": 49
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 23006,
+    "id": 50
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31001,
+    "id": 51
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31002,
+    "id": 52
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31003,
+    "id": 53
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31004,
+    "id": 54
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31005,
+    "id": 55
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31006,
+    "id": 56
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31007,
+    "id": 57
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31008,
+    "id": 58
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31009,
+    "id": 59
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31010,
+    "id": 60
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31011,
+    "id": 61
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31012,
+    "id": 62
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31013,
+    "id": 63
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31014,
+    "id": 64
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31015,
+    "id": 65
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31016,
+    "id": 66
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31017,
+    "id": 67
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31018,
+    "id": 68
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31019,
+    "id": 69
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31020,
+    "id": 70
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31021,
+    "id": 71
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31022,
+    "id": 72
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31023,
+    "id": 73
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31024,
+    "id": 74
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31025,
+    "id": 75
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31026,
+    "id": 76
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31027,
+    "id": 77
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32001,
+    "id": 78
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32002,
+    "id": 79
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32003,
+    "id": 80
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32004,
+    "id": 81
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32005,
+    "id": 82
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32006,
+    "id": 83
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32007,
+    "id": 84
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32008,
+    "id": 85
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32009,
+    "id": 86
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32010,
+    "id": 87
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32011,
+    "id": 88
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32012,
+    "id": 89
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32013,
+    "id": 90
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33001,
+    "id": 91
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33002,
+    "id": 92
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33003,
+    "id": 93
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33004,
+    "id": 94
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33005,
+    "id": 95
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33006,
+    "id": 96
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33007,
+    "id": 97
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33008,
+    "id": 98
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33009,
+    "id": 99
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33010,
+    "id": 100
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33011,
+    "id": 101
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33012,
+    "id": 102
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33013,
+    "id": 103
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 34001,
+    "id": 104
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 34002,
+    "id": 105
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 34003,
+    "id": 106
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 34004,
+    "id": 107
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41001,
+    "id": 108
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41002,
+    "id": 109
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41003,
+    "id": 110
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41004,
+    "id": 111
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41005,
+    "id": 112
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41006,
+    "id": 113
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41007,
+    "id": 114
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41008,
+    "id": 115
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41009,
+    "id": 116
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41010,
+    "id": 117
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41011,
+    "id": 118
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41012,
+    "id": 119
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41013,
+    "id": 120
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41014,
+    "id": 121
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41015,
+    "id": 122
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41016,
+    "id": 123
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41017,
+    "id": 124
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41018,
+    "id": 125
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42001,
+    "id": 126
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42002,
+    "id": 127
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42003,
+    "id": 128
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42004,
+    "id": 129
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42005,
+    "id": 130
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42006,
+    "id": 131
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42007,
+    "id": 132
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42008,
+    "id": 133
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42009,
+    "id": 134
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42010,
+    "id": 135
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42011,
+    "id": 136
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43001,
+    "id": 137
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43002,
+    "id": 138
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43003,
+    "id": 139
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43004,
+    "id": 140
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43005,
+    "id": 141
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43006,
+    "id": 142
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43007,
+    "id": 143
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43008,
+    "id": 144
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43009,
+    "id": 145
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43010,
+    "id": 146
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44001,
+    "id": 147
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44002,
+    "id": 148
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44003,
+    "id": 149
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44004,
+    "id": 150
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44005,
+    "id": 151
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44006,
+    "id": 152
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44007,
+    "id": 153
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44008,
+    "id": 154
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49901,
+    "id": 155
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49902,
+    "id": 156
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49903,
+    "id": 157
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49904,
+    "id": 158
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49905,
+    "id": 159
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49906,
+    "id": 160
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49907,
+    "id": 161
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49908,
+    "id": 162
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49909,
+    "id": 163
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49910,
+    "id": 164
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49911,
+    "id": 165
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 29701,
+    "id": 166
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 29702,
+    "id": 167
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 29703,
+    "id": 168
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 29704,
+    "id": 169
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21024,
+    "id": 170
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21020,
+    "id": 171
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21021,
+    "id": 172
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21022,
+    "id": 173
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21023,
+    "id": 174
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21025,
+    "id": 175
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21026,
+    "id": 176
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21027,
+    "id": 177
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21028,
+    "id": 178
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21029,
+    "id": 179
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21030,
+    "id": 180
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 21031,
+    "id": 181
+  },
+  {
+    "gem_proc_rate": 2,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 22008,
+    "id": 182
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31028,
+    "id": 183
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31029,
+    "id": 184
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31030,
+    "id": 185
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31031,
+    "id": 186
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31032,
+    "id": 187
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31033,
+    "id": 188
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31034,
+    "id": 189
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31035,
+    "id": 190
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31036,
+    "id": 191
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31037,
+    "id": 192
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31038,
+    "id": 193
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31039,
+    "id": 194
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31040,
+    "id": 195
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31041,
+    "id": 196
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31042,
+    "id": 197
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 31043,
+    "id": 198
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32014,
+    "id": 199
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32015,
+    "id": 200
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32016,
+    "id": 201
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32017,
+    "id": 202
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32018,
+    "id": 203
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32019,
+    "id": 204
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32020,
+    "id": 205
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32021,
+    "id": 206
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 32022,
+    "id": 207
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33014,
+    "id": 208
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33015,
+    "id": 209
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33016,
+    "id": 210
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33017,
+    "id": 211
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33018,
+    "id": 212
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33019,
+    "id": 213
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33020,
+    "id": 214
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33021,
+    "id": 215
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33022,
+    "id": 216
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33023,
+    "id": 217
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33024,
+    "id": 218
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 33025,
+    "id": 219
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 34005,
+    "id": 220
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 34006,
+    "id": 221
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 34007,
+    "id": 222
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 34008,
+    "id": 223
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41019,
+    "id": 224
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41020,
+    "id": 225
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41021,
+    "id": 226
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41022,
+    "id": 227
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41023,
+    "id": 228
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41024,
+    "id": 229
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41025,
+    "id": 230
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41026,
+    "id": 231
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41027,
+    "id": 232
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41028,
+    "id": 233
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41029,
+    "id": 234
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41030,
+    "id": 235
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41031,
+    "id": 236
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41032,
+    "id": 237
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41033,
+    "id": 238
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41034,
+    "id": 239
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41035,
+    "id": 240
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41036,
+    "id": 241
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41037,
+    "id": 242
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41038,
+    "id": 243
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41039,
+    "id": 244
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41040,
+    "id": 245
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41041,
+    "id": 246
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41042,
+    "id": 247
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41043,
+    "id": 248
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41044,
+    "id": 249
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41045,
+    "id": 250
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41046,
+    "id": 251
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 41047,
+    "id": 252
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42012,
+    "id": 253
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42013,
+    "id": 254
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42014,
+    "id": 255
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42015,
+    "id": 256
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42017,
+    "id": 257
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42018,
+    "id": 258
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42019,
+    "id": 259
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42020,
+    "id": 260
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42021,
+    "id": 261
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42022,
+    "id": 262
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42023,
+    "id": 263
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42024,
+    "id": 264
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42025,
+    "id": 265
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42026,
+    "id": 266
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42027,
+    "id": 267
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42028,
+    "id": 268
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42029,
+    "id": 269
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42030,
+    "id": 270
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 42031,
+    "id": 271
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43011,
+    "id": 272
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43012,
+    "id": 273
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43014,
+    "id": 274
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43015,
+    "id": 275
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43016,
+    "id": 276
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43017,
+    "id": 277
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43018,
+    "id": 278
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43019,
+    "id": 279
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43020,
+    "id": 280
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43021,
+    "id": 281
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43022,
+    "id": 282
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43023,
+    "id": 283
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43024,
+    "id": 284
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43025,
+    "id": 285
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 43026,
+    "id": 286
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44009,
+    "id": 287
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44010,
+    "id": 288
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44011,
+    "id": 289
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44012,
+    "id": 290
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44013,
+    "id": 291
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44014,
+    "id": 292
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44015,
+    "id": 293
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44016,
+    "id": 294
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44017,
+    "id": 295
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44018,
+    "id": 296
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44019,
+    "id": 297
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44020,
+    "id": 298
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44021,
+    "id": 299
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44022,
+    "id": 300
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44023,
+    "id": 301
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44024,
+    "id": 302
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 44025,
+    "id": 303
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49912,
+    "id": 304
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49913,
+    "id": 305
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49914,
+    "id": 306
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49915,
+    "id": 307
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49916,
+    "id": 308
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49917,
+    "id": 309
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49918,
+    "id": 310
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49919,
+    "id": 311
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49920,
+    "id": 312
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49921,
+    "id": 313
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49922,
+    "id": 314
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49923,
+    "id": 315
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49924,
+    "id": 316
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49925,
+    "id": 317
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49926,
+    "id": 318
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49927,
+    "id": 319
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49928,
+    "id": 320
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49929,
+    "id": 321
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 49930,
+    "id": 322
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 9991001,
+    "id": 323
+  },
+  {
+    "gem_proc_rate": 5,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 9991002,
+    "id": 324
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 9991003,
+    "id": 325
+  },
+  {
+    "gem_proc_rate": 3,
+    "min_gem_num": 1,
+    "max_gem_num": 1,
+    "unit_id": 9991004,
+    "id": 326
+  }
+]

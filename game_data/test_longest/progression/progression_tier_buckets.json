@@ -1,0 +1,42 @@
+[
+  {
+    "tier_min": 1,
+    "id": 1,
+    "tier_max": 1
+  },
+  {
+    "tier_min": 2,
+    "id": 2,
+    "tier_max": 2
+  },
+  {
+    "tier_min": 3,
+    "id": 3,
+    "tier_max": 3
+  },
+  {
+    "tier_min": 4,
+    "id": 4,
+    "tier_max": 4
+  },
+  {
+    "tier_min": 5,
+    "id": 5,
+    "tier_max": 5
+  },
+  {
+    "tier_min": 6,
+    "id": 6,
+    "tier_max": 10
+  },
+  {
+    "tier_min": 11,
+    "id": 7,
+    "tier_max": 20
+  },
+  {
+    "tier_min": 21,
+    "id": 8,
+    "tier_max": 36
+  }
+]
