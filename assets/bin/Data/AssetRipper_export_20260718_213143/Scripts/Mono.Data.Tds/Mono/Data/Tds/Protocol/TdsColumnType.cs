@@ -1,0 +1,42 @@
+namespace Mono.Data.Tds.Protocol
+{
+	public enum TdsColumnType
+	{
+		Binary = 45,
+		Bit = 50,
+		Char = 47,
+		DateTime = 61,
+		DateTime4 = 58,
+		DateTimeN = 111,
+		Decimal = 106,
+		Real = 59,
+		Float8 = 62,
+		FloatN = 109,
+		Image = 34,
+		Int1 = 48,
+		Int2 = 52,
+		Int4 = 56,
+		IntN = 38,
+		Void = 31,
+		Text = 35,
+		UniqueIdentifier = 36,
+		VarBinary = 37,
+		VarChar = 39,
+		Money = 60,
+		NText = 99,
+		NVarChar = 103,
+		BitN = 104,
+		Numeric = 108,
+		MoneyN = 110,
+		Money4 = 112,
+		NChar = 239,
+		BigBinary = 173,
+		BigVarBinary = 165,
+		BigVarChar = 167,
+		BigNVarChar = 231,
+		BigChar = 175,
+		SmallMoney = 122,
+		Variant = 98,
+		BigInt = 127
+	}
+}

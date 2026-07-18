@@ -1,0 +1,132 @@
+Shader "GUI/EasyFont Text Detail" {
+Properties {
+ _Color ("Color", Color) = (1,1,1,1)
+ _MainTex ("Base (RGB) Trans (A)", 2D) = "white" {}
+ _DetailTex ("Detail (RGB)", 2D) = "white" {}
+}
+SubShader { 
+ Tags { "QUEUE"="Transparent" "IGNOREPROJECTOR"="true" "RenderType"="Transparent" }
+ Pass {
+  Tags { "QUEUE"="Transparent" "IGNOREPROJECTOR"="true" "RenderType"="Transparent" }
+  ZWrite Off
+  Blend SrcAlpha OneMinusSrcAlpha
+Program "vp" {
+SubProgram "gles " {
+"!!GLES
+
+
+#ifdef VERTEX
+
+attribute vec4 _glesVertex;
+attribute vec4 _glesColor;
+attribute vec4 _glesMultiTexCoord0;
+attribute vec4 _glesMultiTexCoord1;
+uniform highp mat4 glstate_matrix_mvp;
+uniform mediump vec4 _MainTex_ST;
+uniform mediump vec4 _DetailTex_ST;
+varying lowp vec4 xlv_COLOR;
+varying lowp vec4 xlv_TEXCOORD0;
+void main ()
+{
+  lowp vec4 tmpvar_1;
+  highp vec2 tmpvar_2;
+  tmpvar_2 = ((_glesMultiTexCoord0.xy * _MainTex_ST.xy) + _MainTex_ST.zw);
+  tmpvar_1.xy = tmpvar_2;
+  highp vec2 tmpvar_3;
+  tmpvar_3 = ((_glesMultiTexCoord1.xy * _DetailTex_ST.xy) + _DetailTex_ST.zw);
+  tmpvar_1.zw = tmpvar_3;
+  xlv_COLOR = _glesColor;
+  gl_Position = (glstate_matrix_mvp * _glesVertex);
+  xlv_TEXCOORD0 = tmpvar_1;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+uniform sampler2D _MainTex;
+uniform sampler2D _DetailTex;
+uniform lowp vec4 _Color;
+varying lowp vec4 xlv_COLOR;
+varying lowp vec4 xlv_TEXCOORD0;
+void main ()
+{
+  lowp vec4 c_1;
+  lowp vec4 tmpvar_2;
+  tmpvar_2 = ((xlv_COLOR * _Color) * texture2D (_DetailTex, xlv_TEXCOORD0.zw));
+  c_1.xyz = tmpvar_2.xyz;
+  c_1.w = (tmpvar_2.w * texture2D (_MainTex, xlv_TEXCOORD0.xy).w);
+  gl_FragData[0] = c_1;
+}
+
+
+
+#endif"
+}
+SubProgram "gles3 " {
+"!!GLES3#version 300 es
+
+
+#ifdef VERTEX
+
+in vec4 _glesVertex;
+in vec4 _glesColor;
+in vec4 _glesMultiTexCoord0;
+in vec4 _glesMultiTexCoord1;
+uniform highp mat4 glstate_matrix_mvp;
+uniform mediump vec4 _MainTex_ST;
+uniform mediump vec4 _DetailTex_ST;
+out lowp vec4 xlv_COLOR;
+out lowp vec4 xlv_TEXCOORD0;
+void main ()
+{
+  lowp vec4 tmpvar_1;
+  highp vec2 tmpvar_2;
+  tmpvar_2 = ((_glesMultiTexCoord0.xy * _MainTex_ST.xy) + _MainTex_ST.zw);
+  tmpvar_1.xy = tmpvar_2;
+  highp vec2 tmpvar_3;
+  tmpvar_3 = ((_glesMultiTexCoord1.xy * _DetailTex_ST.xy) + _DetailTex_ST.zw);
+  tmpvar_1.zw = tmpvar_3;
+  xlv_COLOR = _glesColor;
+  gl_Position = (glstate_matrix_mvp * _glesVertex);
+  xlv_TEXCOORD0 = tmpvar_1;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+out mediump vec4 _glesFragData[4];
+uniform sampler2D _MainTex;
+uniform sampler2D _DetailTex;
+uniform lowp vec4 _Color;
+in lowp vec4 xlv_COLOR;
+in lowp vec4 xlv_TEXCOORD0;
+void main ()
+{
+  lowp vec4 c_1;
+  lowp vec4 tmpvar_2;
+  tmpvar_2 = ((xlv_COLOR * _Color) * texture (_DetailTex, xlv_TEXCOORD0.zw));
+  c_1.xyz = tmpvar_2.xyz;
+  c_1.w = (tmpvar_2.w * texture (_MainTex, xlv_TEXCOORD0.xy).w);
+  _glesFragData[0] = c_1;
+}
+
+
+
+#endif"
+}
+}
+Program "fp" {
+SubProgram "gles " {
+"!!GLES"
+}
+SubProgram "gles3 " {
+"!!GLES3"
+}
+}
+ }
+}
+}

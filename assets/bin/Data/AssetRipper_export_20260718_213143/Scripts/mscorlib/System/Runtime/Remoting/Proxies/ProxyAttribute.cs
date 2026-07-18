@@ -1,0 +1,34 @@
+using System.Runtime.InteropServices;
+using System.Runtime.Remoting.Activation;
+using System.Runtime.Remoting.Channels;
+using System.Runtime.Remoting.Contexts;
+
+namespace System.Runtime.Remoting.Proxies
+{
+	[AttributeUsage(AttributeTargets.Class)]
+	[ComVisible(true)]
+	public class ProxyAttribute : Attribute, IContextAttribute
+	{
+		public virtual MarshalByRefObject CreateInstance(Type serverType)
+		{
+			RemotingProxy remotingProxy = new RemotingProxy(serverType, ChannelServices.CrossContextUrl, null);
+			return (MarshalByRefObject)remotingProxy.GetTransparentProxy();
+		}
+
+		public virtual RealProxy CreateProxy(ObjRef objRef, Type serverType, object serverObject, Context serverContext)
+		{
+			return RemotingServices.GetRealProxy(RemotingServices.GetProxyForRemoteObject(objRef, serverType));
+		}
+
+		[ComVisible(true)]
+		public void GetPropertiesForNewContext(IConstructionCallMessage msg)
+		{
+		}
+
+		[ComVisible(true)]
+		public bool IsContextOK(Context ctx, IConstructionCallMessage msg)
+		{
+			return true;
+		}
+	}
+}

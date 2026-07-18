@@ -1,0 +1,40 @@
+namespace System.Net.Sockets
+{
+	public enum IOControlCode : long
+	{
+		AbsorbRouterAlert = 2550136837L,
+		AddMulticastGroupOnInterface = 2550136842L,
+		AddressListChange = 671088663L,
+		AddressListQuery = 1207959574L,
+		AddressListSort = 3355443225L,
+		AssociateHandle = 2281701377L,
+		AsyncIO = 2147772029L,
+		BindToInterface = 2550136840L,
+		DataToRead = 1074030207L,
+		DeleteMulticastGroupFromInterface = 2550136843L,
+		EnableCircularQueuing = 671088642L,
+		Flush = 671088644L,
+		GetBroadcastAddress = 1207959557L,
+		GetExtensionFunctionPointer = 3355443206L,
+		GetGroupQos = 3355443208L,
+		GetQos = 3355443207L,
+		KeepAliveValues = 2550136836L,
+		LimitBroadcasts = 2550136839L,
+		MulticastInterface = 2550136841L,
+		MulticastScope = 2281701386L,
+		MultipointLoopback = 2281701385L,
+		NamespaceChange = 2281701401L,
+		NonBlockingIO = 2147772030L,
+		OobDataRead = 1074033415L,
+		QueryTargetPnpHandle = 1207959576L,
+		ReceiveAll = 2550136833L,
+		ReceiveAllIgmpMulticast = 2550136835L,
+		ReceiveAllMulticast = 2550136834L,
+		RoutingInterfaceChange = 2281701397L,
+		RoutingInterfaceQuery = 3355443220L,
+		SetGroupQos = 2281701388L,
+		SetQos = 2281701387L,
+		TranslateHandle = 3355443213L,
+		UnicastInterface = 2550136838L
+	}
+}

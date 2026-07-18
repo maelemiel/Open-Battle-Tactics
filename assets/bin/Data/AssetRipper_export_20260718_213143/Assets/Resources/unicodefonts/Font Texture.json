@@ -1,0 +1,33 @@
+{
+	"m_AlphaIsTransparency": false,
+	"m_ColorSpace": 0,
+	"m_CompleteImageSize": 0,
+	"m_CorrespondingSourceObject": { "m_Collection": "91f0ebc8b86d346ad944489d23a1c8b7", "m_PathID": 0 },
+	"m_Dimension": 2,
+	"m_Format": 1,
+	"m_Height": 0,
+	"m_HideFlags": 0,
+	"m_ImageCount": 0,
+	"m_ImageData": "",
+	"m_IsReadable": false,
+	"m_LightmapFormat": 0,
+	"m_MipMap": false,
+	"m_Name": "Font Texture",
+	"m_OriginalAssetGuid": {
+		"m_Data_0_": 0,
+		"m_Data_1_": 0,
+		"m_Data_2_": 0,
+		"m_Data_3_": 0
+	},
+	"m_OriginalHeight": 0,
+	"m_OriginalWidth": 0,
+	"m_PrefabInternal": { "m_Collection": "91f0ebc8b86d346ad944489d23a1c8b7", "m_PathID": 0 },
+	"m_ReadAllowed": true,
+	"m_TextureSettings": {
+		"m_Aniso": 1,
+		"m_FilterMode": 1,
+		"m_MipBias": 0,
+		"m_WrapMode": 0
+	},
+	"m_Width": 0
+}

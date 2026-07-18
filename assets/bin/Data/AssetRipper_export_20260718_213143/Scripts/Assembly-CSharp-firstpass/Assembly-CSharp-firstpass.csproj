@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>../../Assemblies/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../Assemblies/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="P31RestKit">
+      <HintPath>../../Assemblies/P31RestKit.dll</HintPath>
+    </Reference>
+    <Reference Include="AdjustUnityWS">
+      <HintPath>../../Assemblies/AdjustUnityWS.dll</HintPath>
+    </Reference>
+    <Reference Include="AdjustUnityWP">
+      <HintPath>../../Assemblies/AdjustUnityWP.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

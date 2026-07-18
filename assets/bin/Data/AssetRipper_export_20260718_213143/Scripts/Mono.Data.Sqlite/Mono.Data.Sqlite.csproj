@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Mono.Data.Sqlite</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="SQLiteCommand.bmp" />
+    <None Remove="SQLiteConnection.bmp" />
+    <None Remove="SQLiteDataAdapter.bmp" />
+    <EmbeddedResource Include="SQLiteCommand.bmp" LogicalName="SQLiteCommand.bmp" />
+    <EmbeddedResource Include="SQLiteConnection.bmp" LogicalName="SQLiteConnection.bmp" />
+    <EmbeddedResource Include="SQLiteDataAdapter.bmp" LogicalName="SQLiteDataAdapter.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data">
+      <HintPath>../../Assemblies/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>../../Assemblies/System.Transactions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

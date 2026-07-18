@@ -1,0 +1,6 @@
+{
+	"m_Fixed_Timestep": 0.02,
+	"m_HideFlags": 0,
+	"m_Maximum_Allowed_Timestep": 0.33333334,
+	"m_TimeScale": 1
+}

@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>../../Assemblies/Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>../../Assemblies/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../Assemblies/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DeNA_Logger">
+      <HintPath>../../Assemblies/DeNA_Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="IFacebook">
+      <HintPath>../../Assemblies/IFacebook.dll</HintPath>
+    </Reference>
+    <Reference Include="LCDSDK">
+      <HintPath>../../Assemblies/LCDSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="HOTween">
+      <HintPath>../../Assemblies/HOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>../../Assemblies/Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>../../Assemblies/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>../../Assemblies/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

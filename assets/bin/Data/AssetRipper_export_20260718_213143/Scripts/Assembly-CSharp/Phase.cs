@@ -1,0 +1,12 @@
+public enum Phase
+{
+	NONE = 0,
+	INTRO = 1,
+	FINDOPPONENT = 2,
+	ROUNDSTART = 3,
+	DECISION = 4,
+	WAIT_FOR_OPPONENT = 5,
+	INITIATIVE = 6,
+	RESOLUTION = 7,
+	OUTRO = 8
+}

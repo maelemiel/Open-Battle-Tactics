@@ -1,0 +1,598 @@
+{
+	"m_AuthToken": "72f908827f9291a169ad0bcd726c7c63279a44f76017add941fc68f90827f5464afd4896207b6edb",
+	"m_EnableDynamicBatching": true,
+	"m_HasAdvancedVersion": true,
+	"m_HasLocalLightShadows": true,
+	"m_HasPROVersion": true,
+	"m_HasPublishingRights": true,
+	"m_HasRenderTexture": true,
+	"m_HasShadows": true,
+	"m_HasSoftShadows": true,
+	"m_HideFlags": 0,
+	"m_IsDebugBuild": false,
+	"m_IsEducationalBuild": false,
+	"m_IsEmbedded": false,
+	"m_IsNoWatermarkBuild": false,
+	"m_IsPrototypingBuild": false,
+	"m_RuntimeClassHashes": [
+		{
+			"Key": 1,
+			"Value": 2768456880
+		},
+		{
+			"Key": 2,
+			"Value": 4098064868
+		},
+		{
+			"Key": 4,
+			"Value": 2066479881
+		},
+		{
+			"Key": 12,
+			"Value": 3501807973
+		},
+		{
+			"Key": 15,
+			"Value": 322610241
+		},
+		{
+			"Key": 17,
+			"Value": 3207122658
+		},
+		{
+			"Key": 20,
+			"Value": 3267696601
+		},
+		{
+			"Key": 21,
+			"Value": 3885587050
+		},
+		{
+			"Key": 23,
+			"Value": 2658445589
+		},
+		{
+			"Key": 26,
+			"Value": 3757703452
+		},
+		{
+			"Key": 28,
+			"Value": 1416132617
+		},
+		{
+			"Key": 29,
+			"Value": 3855225700
+		},
+		{
+			"Key": 33,
+			"Value": 3040622215
+		},
+		{
+			"Key": 41,
+			"Value": 1947536509
+		},
+		{
+			"Key": 43,
+			"Value": 931523261
+		},
+		{
+			"Key": 45,
+			"Value": 519797070
+		},
+		{
+			"Key": 48,
+			"Value": 328060586
+		},
+		{
+			"Key": 49,
+			"Value": 120923666
+		},
+		{
+			"Key": 50,
+			"Value": 3714901466
+		},
+		{
+			"Key": 54,
+			"Value": 2235475469
+		},
+		{
+			"Key": 58,
+			"Value": 2218813870
+		},
+		{
+			"Key": 59,
+			"Value": 1664963304
+		},
+		{
+			"Key": 60,
+			"Value": 1786756875
+		},
+		{
+			"Key": 61,
+			"Value": 3741093918
+		},
+		{
+			"Key": 62,
+			"Value": 2118537524
+		},
+		{
+			"Key": 64,
+			"Value": 3513016602
+		},
+		{
+			"Key": 65,
+			"Value": 3908755841
+		},
+		{
+			"Key": 68,
+			"Value": 633052911
+		},
+		{
+			"Key": 72,
+			"Value": 492971802
+		},
+		{
+			"Key": 74,
+			"Value": 3951620168
+		},
+		{
+			"Key": 75,
+			"Value": 1370330534
+		},
+		{
+			"Key": 76,
+			"Value": 579457021
+		},
+		{
+			"Key": 81,
+			"Value": 2200296475
+		},
+		{
+			"Key": 82,
+			"Value": 3409051333
+		},
+		{
+			"Key": 83,
+			"Value": 2619613022
+		},
+		{
+			"Key": 84,
+			"Value": 534075294
+		},
+		{
+			"Key": 87,
+			"Value": 1561486195
+		},
+		{
+			"Key": 89,
+			"Value": 3948704407
+		},
+		{
+			"Key": 90,
+			"Value": 1063551120
+		},
+		{
+			"Key": 91,
+			"Value": 2042488113
+		},
+		{
+			"Key": 92,
+			"Value": 3332724724
+		},
+		{
+			"Key": 95,
+			"Value": 1043016946
+		},
+		{
+			"Key": 96,
+			"Value": 3683626958
+		},
+		{
+			"Key": 102,
+			"Value": 1916245316
+		},
+		{
+			"Key": 104,
+			"Value": 2110385203
+		},
+		{
+			"Key": 108,
+			"Value": 1725991041
+		},
+		{
+			"Key": 109,
+			"Value": 120923666
+		},
+		{
+			"Key": 111,
+			"Value": 1032107642
+		},
+		{
+			"Key": 114,
+			"Value": 737936509
+		},
+		{
+			"Key": 115,
+			"Value": 3910593106
+		},
+		{
+			"Key": 117,
+			"Value": 3865156427
+		},
+		{
+			"Key": 118,
+			"Value": 3986290802
+		},
+		{
+			"Key": 119,
+			"Value": 4074530628
+		},
+		{
+			"Key": 120,
+			"Value": 835558110
+		},
+		{
+			"Key": 121,
+			"Value": 4196959311
+		},
+		{
+			"Key": 122,
+			"Value": 2161647634
+		},
+		{
+			"Key": 123,
+			"Value": 4031626545
+		},
+		{
+			"Key": 124,
+			"Value": 3332724724
+		},
+		{
+			"Key": 125,
+			"Value": 3332724724
+		},
+		{
+			"Key": 127,
+			"Value": 405299670
+		},
+		{
+			"Key": 128,
+			"Value": 457067506
+		},
+		{
+			"Key": 131,
+			"Value": 2188795995
+		},
+		{
+			"Key": 132,
+			"Value": 3455278831
+		},
+		{
+			"Key": 134,
+			"Value": 3958272123
+		},
+		{
+			"Key": 135,
+			"Value": 3593435613
+		},
+		{
+			"Key": 136,
+			"Value": 2633587922
+		},
+		{
+			"Key": 137,
+			"Value": 1156478723
+		},
+		{
+			"Key": 138,
+			"Value": 3659451420
+		},
+		{
+			"Key": 140,
+			"Value": 807014235
+		},
+		{
+			"Key": 143,
+			"Value": 3659249988
+		},
+		{
+			"Key": 144,
+			"Value": 912281914
+		},
+		{
+			"Key": 145,
+			"Value": 4277442759
+		},
+		{
+			"Key": 146,
+			"Value": 3002171209
+		},
+		{
+			"Key": 148,
+			"Value": 225958608
+		},
+		{
+			"Key": 150,
+			"Value": 277777906
+		},
+		{
+			"Key": 152,
+			"Value": 1420307607
+		},
+		{
+			"Key": 153,
+			"Value": 262905602
+		},
+		{
+			"Key": 154,
+			"Value": 703771560
+		},
+		{
+			"Key": 156,
+			"Value": 3196060200
+		},
+		{
+			"Key": 157,
+			"Value": 851708249
+		},
+		{
+			"Key": 158,
+			"Value": 1259435574
+		},
+		{
+			"Key": 159,
+			"Value": 3685495826
+		},
+		{
+			"Key": 160,
+			"Value": 3478162650
+		},
+		{
+			"Key": 161,
+			"Value": 780881855
+		},
+		{
+			"Key": 162,
+			"Value": 4160453024
+		},
+		{
+			"Key": 163,
+			"Value": 2249321417
+		},
+		{
+			"Key": 164,
+			"Value": 387422964
+		},
+		{
+			"Key": 165,
+			"Value": 4088156198
+		},
+		{
+			"Key": 166,
+			"Value": 3764568197
+		},
+		{
+			"Key": 167,
+			"Value": 3825655812
+		},
+		{
+			"Key": 168,
+			"Value": 1252530047
+		},
+		{
+			"Key": 169,
+			"Value": 2791777710
+		},
+		{
+			"Key": 170,
+			"Value": 1358260181
+		},
+		{
+			"Key": 171,
+			"Value": 1633445951
+		},
+		{
+			"Key": 182,
+			"Value": 3354394604
+		},
+		{
+			"Key": 184,
+			"Value": 3640432621
+		},
+		{
+			"Key": 185,
+			"Value": 665282558
+		},
+		{
+			"Key": 186,
+			"Value": 51096391
+		},
+		{
+			"Key": 191,
+			"Value": 3020854823
+		},
+		{
+			"Key": 192,
+			"Value": 2233727994
+		},
+		{
+			"Key": 193,
+			"Value": 2476543754
+		},
+		{
+			"Key": 194,
+			"Value": 1778816947
+		},
+		{
+			"Key": 195,
+			"Value": 3831262124
+		},
+		{
+			"Key": 196,
+			"Value": 3517879083
+		},
+		{
+			"Key": 197,
+			"Value": 1390991905
+		},
+		{
+			"Key": 198,
+			"Value": 985842122
+		},
+		{
+			"Key": 199,
+			"Value": 1089413918
+		},
+		{
+			"Key": 205,
+			"Value": 2776869171
+		},
+		{
+			"Key": 206,
+			"Value": 2285716631
+		},
+		{
+			"Key": 208,
+			"Value": 1905484774
+		},
+		{
+			"Key": 212,
+			"Value": 1056324447
+		},
+		{
+			"Key": 213,
+			"Value": 4075671066
+		},
+		{
+			"Key": 214,
+			"Value": 824809743
+		},
+		{
+			"Key": 220,
+			"Value": 1205128985
+		},
+		{
+			"Key": 221,
+			"Value": 1649725447
+		},
+		{
+			"Key": 222,
+			"Value": 2678504581
+		},
+		{
+			"Key": 223,
+			"Value": 3597580144
+		},
+		{
+			"Key": 224,
+			"Value": 3964615844
+		},
+		{
+			"Key": 231,
+			"Value": 3231899460
+		},
+		{
+			"Key": 232,
+			"Value": 599672768
+		},
+		{
+			"Key": 233,
+			"Value": 4064184759
+		},
+		{
+			"Key": 234,
+			"Value": 570012127
+		},
+		{
+			"Key": 235,
+			"Value": 3888811629
+		}
+	],
+	"m_Scenes": [
+		"Assets/Scenes/Title/TitleScene.unity",
+		"Assets/Scenes/TopBar/TopBarScene.unity",
+		"Assets/Scenes/Battle/BattleScene.unity",
+		"Assets/Scenes/EditTeamUnits/EditTeamUnitsScene.unity",
+		"Assets/Scenes/EditTeamAbilities/EditTeamAbilitiesScene.unity",
+		"Assets/Scenes/Blueprints/BlueprintsScene.unity",
+		"Assets/Scenes/Arena/ArenaScene.unity",
+		"Assets/Scenes/ArenaSelection/ArenaSelectionScene.unity",
+		"Assets/Scenes/ClubScene/ClubScene.unity",
+		"Assets/Scenes/ItemsMixer/ItemsMixer.unity",
+		"Assets/Scenes/Popup/PerformancePopup/PerformanceSettingsPopUp.unity",
+		"Assets/Scenes/Catalogue/CatalogueScene.unity",
+		"Assets/Scenes/PostBattleRewards/PostBattleRewardsScene.unity",
+		"Assets/Scenes/AudiencePanShot/AudiencePanShotScene.unity",
+		"Assets/Scenes/Home/HomeScene.unity",
+		"Assets/Scenes/Gacha/GachaScene.unity",
+		"Assets/Scenes/Supplies/ShopItemsSuppliesScene.unity",
+		"Assets/Scenes/Popup/LoadingPopup/LoadingPopupScene.unity",
+		"Assets/Scenes/Popup/Popup/PopupScene.unity",
+		"Assets/Scenes/Popup/Popup/PopupScenePreview.unity",
+		"Assets/Scenes/Popup/Popup/PopupSceneLarge.unity",
+		"Assets/Scenes/Popup/ServersSelectionPopUp/ServersSelectionPopUpScene.unity",
+		"Assets/Scenes/OpenGiftNotification/OpenGiftNotification.unity",
+		"Assets/Scenes/FirstUnitSelect/FirstUnitSelectScene.unity",
+		"Assets/Scenes/Cheats/CheatsScene.unity",
+		"Assets/Scenes/Popup/ClubLeaderboardsRewardsPopUp/ClubLeaderboardsRewardsPopUp.unity",
+		"Assets/Scenes/Settings/SettingsScene.unity",
+		"Assets/Scenes/Popup/BlueprintsPopUp/BlueprintsBuildPopUp.unity",
+		"Assets/Scenes/Popup/BlueprintsPopUp/BlueprintsInspectTankPopUp.unity",
+		"Assets/Scenes/Popup/BlueprintsPopUp/BlueprintsInspectLockedTankPopUp.unity",
+		"Assets/Scenes/TankUpgrade/TankUpgradeScene.unity",
+		"Assets/Scenes/Popup/BlueprintsPopUp/BlueprintsClaimTankPopUp.unity",
+		"Assets/Scenes/Popup/SkipWaitPopup/SkipWaitPopupScene.unity",
+		"Assets/Scenes/Popup/SkipConstructionPopUp/SkipConstructionPopUp.unity",
+		"Assets/Scenes/Popup/PriceConfirmationPopUp/PriceConfirmationPopUp.unity",
+		"Assets/Scenes/Popup/AbilitiesPopUp/AbilitiesInspectPopUp.unity",
+		"Assets/Scenes/Popup/UpgradeUnitParts/UpgradeUnitPartsPopUp.unity",
+		"Assets/Scenes/Popup/UpgradeUnitPartDetail/UpgradeUnitPartDetailPopUp.unity",
+		"Assets/Scenes/Popup/TierRewardPopUp/TierRewardPopUp.unity",
+		"Assets/Scenes/Popup/SkipCooldownPopUp/SkipCooldownPopUpScene.unity",
+		"Assets/Scenes/Popup/BuyItemPopUp/BuyItemPopUp.unity",
+		"Assets/Scenes/Login/LoginScene.unity",
+		"Assets/Scenes/Popup/UpgradeUserAccountPopUp/UpgradeUserAccountPopupScene.unity",
+		"Assets/Scenes/Popup/GachaResultPopUp/GachaResultPopUp.unity",
+		"Assets/Scenes/Leaderboards/LeaderboardsScene.unity",
+		"Assets/Scenes/Popup/TellAFriendPopUp/TellAFriendPopUp.unity",
+		"Assets/Scenes/Popup/GachaInfoPopUp/GachaInfoPopUp.unity",
+		"Assets/Scenes/TopBar/PickYourName.unity",
+		"Assets/Scenes/Popup/AccountSettingsPopUp/AccountSettingsPopUp.unity",
+		"Assets/Scenes/Popup/PlayerInfo/PersonalParts.unity",
+		"Assets/Scenes/Popup/PasswordPopUp/PasswordPopUpScene.unity",
+		"Assets/Scenes/Popup/LeaderboardRewardsPopUp/LeaderboardRewardsPopUp.unity",
+		"Assets/Scenes/Popup/ChatPopup/ChatPopUp.unity",
+		"Assets/Scenes/Popup/LeaderboardsEntryPopUp/LeaderboardsEntryPopUp.unity",
+		"Assets/Scenes/Popup/NotificationSettingsPopUp/NotificationSettingsPopUp.unity",
+		"Assets/Scenes/Popup/LikeUsFBPopUp/LikeUsFBPopUp.unity",
+		"Assets/Scenes/Popup/EventAlreadyClubPopUp/EventAlreadyClubPopUp.unity",
+		"Assets/Scenes/Popup/EventJoinClubPopUp/EventJoinClubPopUp.unity",
+		"Assets/Scenes/Popup/EventInfoPopup/EventInfoPopUp.unity",
+		"Assets/Scenes/Popup/FastForwardWaitingPopUp/FastForwardWaitingPopUp.unity",
+		"Assets/Scenes/Popup/PersonalPartsPopUp/PersonalPartsPopUp.unity",
+		"Assets/Scenes/Popup/ClubCratesPopUp/ClubCratesPopUp.unity",
+		"Assets/Scenes/Popup/RevivePopup/RevivePopup.unity",
+		"Assets/Scenes/Popup/PersonalPartsPopUp/PersonalPartsPopUp.unity",
+		"Assets/Scenes/Popup/ShopWindowPopUp/ShopWindowPopUp.unity",
+		"Assets/Scenes/Announcers/Announcers.unity",
+		"Assets/Scenes/FoundClubCrate/FoundClubCrate.unity",
+		"Assets/Scenes/Popup/BountyBoardPopup/BountyBoardPopup.unity",
+		"Assets/Scenes/Popup/SoloLeaderboardRewardsPopUp/SoloLeaderboardRewardsPopUp.unity",
+		"Assets/Scenes/Popup/HelpPopUp/HelpPopUp.unity",
+		"Assets/Scenes/Popup/MultiTeamReportPopUp/MultiTeamReportPopUp.unity",
+		"Assets/Scenes/Popup/MultiTeamReportPopUp/MultiTeamInitialPopUp.unity",
+		"Assets/Scenes/Popup/MultiTeamReportPopUp/MultiTeamFinalReportPopUp.unity",
+		"Assets/Scenes/Popup/SoloRewardsPopUp/SoloRewardsPopUp.unity",
+		"Assets/Scenes/Popup/ClubRewadsPopUp/ClubRewardsPopUp.unity",
+		"Assets/Scenes/Popup/RaidBossDefeatedPopUp/RaidBossDefeatedPopUp.unity",
+		"Assets/Scenes/Popup/TicketBoostPopup/NormalTicketBoostPopup.unity",
+		"Assets/Scenes/Popup/TicketBoostPopup/PointEventTicketBoostPopup.unity",
+		"Assets/Scenes/Popup/TicketBoostPopup/PvpEventTicketBoostPopup.unity",
+		"Assets/Scenes/Popup/TicketBoostPopup/RaidBossTicketBoostPopup.unity",
+		"Assets/Scenes/Popup/BotBattlePopUp/BotBattlePopUp.unity",
+		"Assets/Scenes/Popup/ResetBotBattleCap/ResetBotBattleCapPopUpScene.unity",
+		"Assets/Scenes/AutoBotBattleCalculation/AutoBotBattleCalculationScene.unity"
+	],
+	"m_UsesOnMouseEvents": true,
+	"m_Version": "4.5.5f1"
+}

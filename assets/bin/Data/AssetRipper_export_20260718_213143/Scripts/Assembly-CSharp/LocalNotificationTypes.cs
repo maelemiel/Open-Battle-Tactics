@@ -1,0 +1,9 @@
+public enum LocalNotificationTypes
+{
+	NONE = 0,
+	TANK_BUILT = 1,
+	PARTS_COLLECTED = 2,
+	CONTRACT_FINISHED = 3,
+	PRIZE_GACHA_READY = 4,
+	CLUB_CRATE_READY = 5
+}

@@ -1,0 +1,163 @@
+{
+	"m_Built_in_Layer_0": {
+		"m_Cost": 1,
+		"m_EditType": 2,
+		"m_Name": "Default"
+	},
+	"m_Built_in_Layer_1": {
+		"m_Cost": 1,
+		"m_EditType": 0,
+		"m_Name": "Not Walkable"
+	},
+	"m_Built_in_Layer_2": {
+		"m_Cost": 2,
+		"m_EditType": 2,
+		"m_Name": "Jump"
+	},
+	"m_HideFlags": 0,
+	"m_User_Layer_0": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_1": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_10": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_11": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_12": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_13": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_14": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_15": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_16": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_17": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_18": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_19": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_2": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_20": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_21": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_22": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_23": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_24": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_25": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_26": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_27": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_28": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_3": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_4": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_5": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_6": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_7": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_8": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	},
+	"m_User_Layer_9": {
+		"m_Cost": 1,
+		"m_EditType": 3,
+		"m_Name": ""
+	}
+}

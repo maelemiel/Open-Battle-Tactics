@@ -1,0 +1,337 @@
+{
+	"m_HideFlags": 0,
+	"m_Scenes": [
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Title/TitleScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/TopBar/TopBarScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Battle/BattleScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/EditTeamUnits/EditTeamUnitsScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/EditTeamAbilities/EditTeamAbilitiesScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Blueprints/BlueprintsScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Arena/ArenaScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/ArenaSelection/ArenaSelectionScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/ClubScene/ClubScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/ItemsMixer/ItemsMixer.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/PerformancePopup/PerformanceSettingsPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Catalogue/CatalogueScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/PostBattleRewards/PostBattleRewardsScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/AudiencePanShot/AudiencePanShotScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Home/HomeScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Gacha/GachaScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Supplies/ShopItemsSuppliesScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/LoadingPopup/LoadingPopupScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/Popup/PopupScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/Popup/PopupScenePreview.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/Popup/PopupSceneLarge.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/ServersSelectionPopUp/ServersSelectionPopUpScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/OpenGiftNotification/OpenGiftNotification.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/FirstUnitSelect/FirstUnitSelectScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Cheats/CheatsScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/ClubLeaderboardsRewardsPopUp/ClubLeaderboardsRewardsPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Settings/SettingsScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/BlueprintsPopUp/BlueprintsBuildPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/BlueprintsPopUp/BlueprintsInspectTankPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/BlueprintsPopUp/BlueprintsInspectLockedTankPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/TankUpgrade/TankUpgradeScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/BlueprintsPopUp/BlueprintsClaimTankPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/SkipWaitPopup/SkipWaitPopupScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/SkipConstructionPopUp/SkipConstructionPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/PriceConfirmationPopUp/PriceConfirmationPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/AbilitiesPopUp/AbilitiesInspectPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/UpgradeUnitParts/UpgradeUnitPartsPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/UpgradeUnitPartDetail/UpgradeUnitPartDetailPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/TierRewardPopUp/TierRewardPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/SkipCooldownPopUp/SkipCooldownPopUpScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/BuyItemPopUp/BuyItemPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Login/LoginScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/UpgradeUserAccountPopUp/UpgradeUserAccountPopupScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/GachaResultPopUp/GachaResultPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Leaderboards/LeaderboardsScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/TellAFriendPopUp/TellAFriendPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/GachaInfoPopUp/GachaInfoPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/TopBar/PickYourName.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/AccountSettingsPopUp/AccountSettingsPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/PlayerInfo/PersonalParts.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/PasswordPopUp/PasswordPopUpScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/LeaderboardRewardsPopUp/LeaderboardRewardsPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/ChatPopup/ChatPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/LeaderboardsEntryPopUp/LeaderboardsEntryPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/NotificationSettingsPopUp/NotificationSettingsPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/LikeUsFBPopUp/LikeUsFBPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/EventAlreadyClubPopUp/EventAlreadyClubPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/EventJoinClubPopUp/EventJoinClubPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/EventInfoPopup/EventInfoPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/FastForwardWaitingPopUp/FastForwardWaitingPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/PersonalPartsPopUp/PersonalPartsPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/ClubCratesPopUp/ClubCratesPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/RevivePopup/RevivePopup.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/PersonalPartsPopUp/PersonalPartsPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/ShopWindowPopUp/ShopWindowPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Announcers/Announcers.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/FoundClubCrate/FoundClubCrate.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/BountyBoardPopup/BountyBoardPopup.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/SoloLeaderboardRewardsPopUp/SoloLeaderboardRewardsPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/HelpPopUp/HelpPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/MultiTeamReportPopUp/MultiTeamReportPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/MultiTeamReportPopUp/MultiTeamInitialPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/MultiTeamReportPopUp/MultiTeamFinalReportPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/SoloRewardsPopUp/SoloRewardsPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/ClubRewadsPopUp/ClubRewardsPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/RaidBossDefeatedPopUp/RaidBossDefeatedPopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/TicketBoostPopup/NormalTicketBoostPopup.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/TicketBoostPopup/PointEventTicketBoostPopup.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/TicketBoostPopup/PvpEventTicketBoostPopup.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/TicketBoostPopup/RaidBossTicketBoostPopup.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/BotBattlePopUp/BotBattlePopUp.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/Popup/ResetBotBattleCap/ResetBotBattleCapPopUpScene.unity"
+		},
+		{
+			"m_Enabled": true,
+			"m_Path": "Assets/Scenes/AutoBotBattleCalculation/AutoBotBattleCalculationScene.unity"
+		}
+	]
+}

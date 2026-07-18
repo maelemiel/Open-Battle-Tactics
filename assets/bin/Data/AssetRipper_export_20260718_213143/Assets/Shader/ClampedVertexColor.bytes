@@ -1,0 +1,134 @@
+Shader "BattleDice/ClampedVertexColor" {
+Properties {
+ _MainTex ("Base (RGB) Trans (A)", 2D) = "white" {}
+}
+SubShader { 
+ LOD 110
+ Tags { "QUEUE"="Transparent" "IGNOREPROJECTOR"="true" "RenderType"="Transparent" }
+ Pass {
+  Tags { "QUEUE"="Transparent" "IGNOREPROJECTOR"="true" "RenderType"="Transparent" }
+  ZWrite Off
+  Cull Off
+  Fog { Mode Off }
+  Blend SrcAlpha OneMinusSrcAlpha
+Program "vp" {
+SubProgram "gles " {
+"!!GLES
+
+
+#ifdef VERTEX
+
+attribute vec4 _glesVertex;
+attribute vec4 _glesColor;
+attribute vec4 _glesMultiTexCoord0;
+uniform highp mat4 glstate_matrix_mvp;
+varying lowp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  gl_Position = (glstate_matrix_mvp * _glesVertex);
+  xlv_COLOR = _glesColor;
+  xlv_TEXCOORD0 = _glesMultiTexCoord0.xy;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+uniform sampler2D _MainTex;
+varying lowp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  highp float cutoff_1;
+  lowp vec4 col_2;
+  lowp vec4 tmpvar_3;
+  tmpvar_3 = texture2D (_MainTex, xlv_TEXCOORD0);
+  lowp float tmpvar_4;
+  tmpvar_4 = (float((xlv_COLOR.w >= tmpvar_3.x)) * tmpvar_3.w);
+  cutoff_1 = tmpvar_4;
+  col_2.xyz = xlv_COLOR.xyz;
+  col_2.w = cutoff_1;
+  gl_FragData[0] = col_2;
+}
+
+
+
+#endif"
+}
+SubProgram "gles3 " {
+"!!GLES3#version 300 es
+
+
+#ifdef VERTEX
+
+in vec4 _glesVertex;
+in vec4 _glesColor;
+in vec4 _glesMultiTexCoord0;
+uniform highp mat4 glstate_matrix_mvp;
+out lowp vec4 xlv_COLOR;
+out highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  gl_Position = (glstate_matrix_mvp * _glesVertex);
+  xlv_COLOR = _glesColor;
+  xlv_TEXCOORD0 = _glesMultiTexCoord0.xy;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+out mediump vec4 _glesFragData[4];
+uniform sampler2D _MainTex;
+in lowp vec4 xlv_COLOR;
+in highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  highp float cutoff_1;
+  lowp vec4 col_2;
+  lowp vec4 tmpvar_3;
+  tmpvar_3 = texture (_MainTex, xlv_TEXCOORD0);
+  lowp float tmpvar_4;
+  tmpvar_4 = (float((xlv_COLOR.w >= tmpvar_3.x)) * tmpvar_3.w);
+  cutoff_1 = tmpvar_4;
+  col_2.xyz = xlv_COLOR.xyz;
+  col_2.w = cutoff_1;
+  _glesFragData[0] = col_2;
+}
+
+
+
+#endif"
+}
+}
+Program "fp" {
+SubProgram "gles " {
+"!!GLES"
+}
+SubProgram "gles3 " {
+"!!GLES3"
+}
+}
+ }
+}
+SubShader { 
+ LOD 100
+ Tags { "QUEUE"="Transparent" "IGNOREPROJECTOR"="true" "RenderType"="Transparent" }
+ Pass {
+  Tags { "QUEUE"="Transparent" "IGNOREPROJECTOR"="true" "RenderType"="Transparent" }
+  BindChannels {
+   Bind "vertex", Vertex
+   Bind "color", Color
+   Bind "texcoord", TexCoord
+  }
+  ZWrite Off
+  Cull Off
+  Fog { Mode Off }
+  Blend SrcAlpha OneMinusSrcAlpha
+  SetTexture [_MainTex] { combine texture * primary }
+ }
+}
+}

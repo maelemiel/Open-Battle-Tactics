@@ -1,0 +1,1316 @@
+Shader "Hidden/Camera-DepthTexture" {
+Properties {
+ _MainTex ("", 2D) = "white" {}
+ _Cutoff ("", Float) = 0.5
+ _Color ("", Color) = (1,1,1,1)
+}
+SubShader { 
+ Tags { "RenderType"="Opaque" }
+ Pass {
+  Tags { "RenderType"="Opaque" }
+  Fog { Mode Off }
+Program "vp" {
+SubProgram "gles " {
+"!!GLES
+
+
+#ifdef VERTEX
+
+attribute vec4 _glesVertex;
+uniform highp mat4 glstate_matrix_mvp;
+void main ()
+{
+  gl_Position = (glstate_matrix_mvp * _glesVertex);
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+void main ()
+{
+  gl_FragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+SubProgram "gles3 " {
+"!!GLES3#version 300 es
+
+
+#ifdef VERTEX
+
+in vec4 _glesVertex;
+uniform highp mat4 glstate_matrix_mvp;
+void main ()
+{
+  gl_Position = (glstate_matrix_mvp * _glesVertex);
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+out mediump vec4 _glesFragData[4];
+void main ()
+{
+  _glesFragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+}
+Program "fp" {
+SubProgram "gles " {
+"!!GLES"
+}
+SubProgram "gles3 " {
+"!!GLES3"
+}
+}
+ }
+}
+SubShader { 
+ Tags { "RenderType"="TransparentCutout" }
+ Pass {
+  Tags { "RenderType"="TransparentCutout" }
+  Fog { Mode Off }
+Program "vp" {
+SubProgram "gles " {
+"!!GLES
+
+
+#ifdef VERTEX
+
+attribute vec4 _glesVertex;
+attribute vec4 _glesMultiTexCoord0;
+uniform highp mat4 glstate_matrix_mvp;
+uniform highp vec4 _MainTex_ST;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  gl_Position = (glstate_matrix_mvp * _glesVertex);
+  xlv_TEXCOORD0 = ((_glesMultiTexCoord0.xy * _MainTex_ST.xy) + _MainTex_ST.zw);
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+uniform sampler2D _MainTex;
+uniform lowp float _Cutoff;
+uniform lowp vec4 _Color;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  lowp float x_1;
+  x_1 = ((texture2D (_MainTex, xlv_TEXCOORD0).w * _Color.w) - _Cutoff);
+  if ((x_1 < 0.0)) {
+    discard;
+  };
+  gl_FragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+SubProgram "gles3 " {
+"!!GLES3#version 300 es
+
+
+#ifdef VERTEX
+
+in vec4 _glesVertex;
+in vec4 _glesMultiTexCoord0;
+uniform highp mat4 glstate_matrix_mvp;
+uniform highp vec4 _MainTex_ST;
+out highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  gl_Position = (glstate_matrix_mvp * _glesVertex);
+  xlv_TEXCOORD0 = ((_glesMultiTexCoord0.xy * _MainTex_ST.xy) + _MainTex_ST.zw);
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+out mediump vec4 _glesFragData[4];
+uniform sampler2D _MainTex;
+uniform lowp float _Cutoff;
+uniform lowp vec4 _Color;
+in highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  lowp float x_1;
+  x_1 = ((texture (_MainTex, xlv_TEXCOORD0).w * _Color.w) - _Cutoff);
+  if ((x_1 < 0.0)) {
+    discard;
+  };
+  _glesFragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+}
+Program "fp" {
+SubProgram "gles " {
+"!!GLES"
+}
+SubProgram "gles3 " {
+"!!GLES3"
+}
+}
+ }
+}
+SubShader { 
+ Tags { "RenderType"="TreeBark" }
+ Pass {
+  Tags { "RenderType"="TreeBark" }
+  Fog { Mode Off }
+Program "vp" {
+SubProgram "gles " {
+"!!GLES
+
+
+#ifdef VERTEX
+
+attribute vec4 _glesVertex;
+attribute vec4 _glesColor;
+attribute vec3 _glesNormal;
+attribute vec4 _glesMultiTexCoord1;
+uniform highp vec4 _Time;
+uniform highp mat4 glstate_matrix_mvp;
+uniform highp mat4 _Object2World;
+uniform highp vec4 _Scale;
+uniform highp vec4 _SquashPlaneNormal;
+uniform highp float _SquashAmount;
+uniform highp vec4 _Wind;
+void main ()
+{
+  highp vec4 tmpvar_1;
+  tmpvar_1.w = _glesVertex.w;
+  tmpvar_1.xyz = (_glesVertex.xyz * _Scale.xyz);
+  highp vec4 pos_2;
+  pos_2.w = tmpvar_1.w;
+  highp vec3 bend_3;
+  vec4 v_4;
+  v_4.x = _Object2World[0].w;
+  v_4.y = _Object2World[1].w;
+  v_4.z = _Object2World[2].w;
+  v_4.w = _Object2World[3].w;
+  highp float tmpvar_5;
+  tmpvar_5 = (dot (v_4.xyz, vec3(1.0, 1.0, 1.0)) + _glesColor.x);
+  highp vec2 tmpvar_6;
+  tmpvar_6.x = dot (tmpvar_1.xyz, vec3((_glesColor.y + tmpvar_5)));
+  tmpvar_6.y = tmpvar_5;
+  highp vec4 tmpvar_7;
+  tmpvar_7 = abs(((fract((((fract(((_Time.yy + tmpvar_6).xxyy * vec4(1.975, 0.793, 0.375, 0.193))) * 2.0) - 1.0) + 0.5)) * 2.0) - 1.0));
+  highp vec4 tmpvar_8;
+  tmpvar_8 = ((tmpvar_7 * tmpvar_7) * (3.0 - (2.0 * tmpvar_7)));
+  highp vec2 tmpvar_9;
+  tmpvar_9 = (tmpvar_8.xz + tmpvar_8.yw);
+  bend_3.xz = ((_glesColor.y * 0.1) * _glesNormal).xz;
+  bend_3.y = (_glesMultiTexCoord1.y * 0.3);
+  pos_2.xyz = (tmpvar_1.xyz + (((tmpvar_9.xyx * bend_3) + ((_Wind.xyz * tmpvar_9.y) * _glesMultiTexCoord1.y)) * _Wind.w));
+  pos_2.xyz = (pos_2.xyz + (_glesMultiTexCoord1.x * _Wind.xyz));
+  highp vec4 tmpvar_10;
+  tmpvar_10.w = 1.0;
+  tmpvar_10.xyz = mix ((pos_2.xyz - ((dot (_SquashPlaneNormal.xyz, pos_2.xyz) + _SquashPlaneNormal.w) * _SquashPlaneNormal.xyz)), pos_2.xyz, vec3(_SquashAmount));
+  tmpvar_1 = tmpvar_10;
+  gl_Position = (glstate_matrix_mvp * tmpvar_10);
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+void main ()
+{
+  gl_FragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+SubProgram "gles3 " {
+"!!GLES3#version 300 es
+
+
+#ifdef VERTEX
+
+in vec4 _glesVertex;
+in vec4 _glesColor;
+in vec3 _glesNormal;
+in vec4 _glesMultiTexCoord1;
+uniform highp vec4 _Time;
+uniform highp mat4 glstate_matrix_mvp;
+uniform highp mat4 _Object2World;
+uniform highp vec4 _Scale;
+uniform highp vec4 _SquashPlaneNormal;
+uniform highp float _SquashAmount;
+uniform highp vec4 _Wind;
+void main ()
+{
+  highp vec4 tmpvar_1;
+  tmpvar_1.w = _glesVertex.w;
+  tmpvar_1.xyz = (_glesVertex.xyz * _Scale.xyz);
+  highp vec4 pos_2;
+  pos_2.w = tmpvar_1.w;
+  highp vec3 bend_3;
+  vec4 v_4;
+  v_4.x = _Object2World[0].w;
+  v_4.y = _Object2World[1].w;
+  v_4.z = _Object2World[2].w;
+  v_4.w = _Object2World[3].w;
+  highp float tmpvar_5;
+  tmpvar_5 = (dot (v_4.xyz, vec3(1.0, 1.0, 1.0)) + _glesColor.x);
+  highp vec2 tmpvar_6;
+  tmpvar_6.x = dot (tmpvar_1.xyz, vec3((_glesColor.y + tmpvar_5)));
+  tmpvar_6.y = tmpvar_5;
+  highp vec4 tmpvar_7;
+  tmpvar_7 = abs(((fract((((fract(((_Time.yy + tmpvar_6).xxyy * vec4(1.975, 0.793, 0.375, 0.193))) * 2.0) - 1.0) + 0.5)) * 2.0) - 1.0));
+  highp vec4 tmpvar_8;
+  tmpvar_8 = ((tmpvar_7 * tmpvar_7) * (3.0 - (2.0 * tmpvar_7)));
+  highp vec2 tmpvar_9;
+  tmpvar_9 = (tmpvar_8.xz + tmpvar_8.yw);
+  bend_3.xz = ((_glesColor.y * 0.1) * _glesNormal).xz;
+  bend_3.y = (_glesMultiTexCoord1.y * 0.3);
+  pos_2.xyz = (tmpvar_1.xyz + (((tmpvar_9.xyx * bend_3) + ((_Wind.xyz * tmpvar_9.y) * _glesMultiTexCoord1.y)) * _Wind.w));
+  pos_2.xyz = (pos_2.xyz + (_glesMultiTexCoord1.x * _Wind.xyz));
+  highp vec4 tmpvar_10;
+  tmpvar_10.w = 1.0;
+  tmpvar_10.xyz = mix ((pos_2.xyz - ((dot (_SquashPlaneNormal.xyz, pos_2.xyz) + _SquashPlaneNormal.w) * _SquashPlaneNormal.xyz)), pos_2.xyz, vec3(_SquashAmount));
+  tmpvar_1 = tmpvar_10;
+  gl_Position = (glstate_matrix_mvp * tmpvar_10);
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+out mediump vec4 _glesFragData[4];
+void main ()
+{
+  _glesFragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+}
+Program "fp" {
+SubProgram "gles " {
+"!!GLES"
+}
+SubProgram "gles3 " {
+"!!GLES3"
+}
+}
+ }
+}
+SubShader { 
+ Tags { "RenderType"="TreeLeaf" }
+ Pass {
+  Tags { "RenderType"="TreeLeaf" }
+  Fog { Mode Off }
+Program "vp" {
+SubProgram "gles " {
+"!!GLES
+
+
+#ifdef VERTEX
+
+attribute vec4 _glesVertex;
+attribute vec4 _glesColor;
+attribute vec3 _glesNormal;
+attribute vec4 _glesMultiTexCoord0;
+attribute vec4 _glesMultiTexCoord1;
+attribute vec4 _glesTANGENT;
+uniform highp vec4 _Time;
+uniform highp mat4 glstate_matrix_mvp;
+uniform highp mat4 glstate_matrix_invtrans_modelview0;
+uniform highp mat4 _Object2World;
+uniform highp vec4 _Scale;
+uniform highp vec4 _SquashPlaneNormal;
+uniform highp float _SquashAmount;
+uniform highp vec4 _Wind;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  highp vec4 tmpvar_1;
+  highp float tmpvar_2;
+  tmpvar_2 = (1.0 - abs(_glesTANGENT.w));
+  highp vec4 tmpvar_3;
+  tmpvar_3.w = 0.0;
+  tmpvar_3.xyz = _glesNormal;
+  highp vec4 tmpvar_4;
+  tmpvar_4.zw = vec2(0.0, 0.0);
+  tmpvar_4.xy = _glesNormal.xy;
+  highp vec4 tmpvar_5;
+  tmpvar_5 = (_glesVertex + ((tmpvar_4 * glstate_matrix_invtrans_modelview0) * tmpvar_2));
+  tmpvar_1.w = tmpvar_5.w;
+  tmpvar_1.xyz = (tmpvar_5.xyz * _Scale.xyz);
+  highp vec4 pos_6;
+  pos_6.w = tmpvar_1.w;
+  highp vec3 bend_7;
+  vec4 v_8;
+  v_8.x = _Object2World[0].w;
+  v_8.y = _Object2World[1].w;
+  v_8.z = _Object2World[2].w;
+  v_8.w = _Object2World[3].w;
+  highp float tmpvar_9;
+  tmpvar_9 = (dot (v_8.xyz, vec3(1.0, 1.0, 1.0)) + _glesColor.x);
+  highp vec2 tmpvar_10;
+  tmpvar_10.x = dot (tmpvar_1.xyz, vec3((_glesColor.y + tmpvar_9)));
+  tmpvar_10.y = tmpvar_9;
+  highp vec4 tmpvar_11;
+  tmpvar_11 = abs(((fract((((fract(((_Time.yy + tmpvar_10).xxyy * vec4(1.975, 0.793, 0.375, 0.193))) * 2.0) - 1.0) + 0.5)) * 2.0) - 1.0));
+  highp vec4 tmpvar_12;
+  tmpvar_12 = ((tmpvar_11 * tmpvar_11) * (3.0 - (2.0 * tmpvar_11)));
+  highp vec2 tmpvar_13;
+  tmpvar_13 = (tmpvar_12.xz + tmpvar_12.yw);
+  bend_7.xz = ((_glesColor.y * 0.1) * mix (_glesNormal, normalize((tmpvar_3 * glstate_matrix_invtrans_modelview0)).xyz, vec3(tmpvar_2))).xz;
+  bend_7.y = (_glesMultiTexCoord1.y * 0.3);
+  pos_6.xyz = (tmpvar_1.xyz + (((tmpvar_13.xyx * bend_7) + ((_Wind.xyz * tmpvar_13.y) * _glesMultiTexCoord1.y)) * _Wind.w));
+  pos_6.xyz = (pos_6.xyz + (_glesMultiTexCoord1.x * _Wind.xyz));
+  highp vec4 tmpvar_14;
+  tmpvar_14.w = 1.0;
+  tmpvar_14.xyz = mix ((pos_6.xyz - ((dot (_SquashPlaneNormal.xyz, pos_6.xyz) + _SquashPlaneNormal.w) * _SquashPlaneNormal.xyz)), pos_6.xyz, vec3(_SquashAmount));
+  tmpvar_1 = tmpvar_14;
+  gl_Position = (glstate_matrix_mvp * tmpvar_14);
+  xlv_TEXCOORD0 = _glesMultiTexCoord0.xy;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+uniform sampler2D _MainTex;
+uniform lowp float _Cutoff;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  mediump float alpha_1;
+  lowp float tmpvar_2;
+  tmpvar_2 = texture2D (_MainTex, xlv_TEXCOORD0).w;
+  alpha_1 = tmpvar_2;
+  mediump float x_3;
+  x_3 = (alpha_1 - _Cutoff);
+  if ((x_3 < 0.0)) {
+    discard;
+  };
+  gl_FragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+SubProgram "gles3 " {
+"!!GLES3#version 300 es
+
+
+#ifdef VERTEX
+
+in vec4 _glesVertex;
+in vec4 _glesColor;
+in vec3 _glesNormal;
+in vec4 _glesMultiTexCoord0;
+in vec4 _glesMultiTexCoord1;
+#define TANGENT _glesTANGENT
+in vec4 _glesTANGENT;
+uniform highp vec4 _Time;
+uniform highp mat4 glstate_matrix_mvp;
+uniform highp mat4 glstate_matrix_invtrans_modelview0;
+uniform highp mat4 _Object2World;
+uniform highp vec4 _Scale;
+uniform highp vec4 _SquashPlaneNormal;
+uniform highp float _SquashAmount;
+uniform highp vec4 _Wind;
+out highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  highp vec4 tmpvar_1;
+  highp float tmpvar_2;
+  tmpvar_2 = (1.0 - abs(_glesTANGENT.w));
+  highp vec4 tmpvar_3;
+  tmpvar_3.w = 0.0;
+  tmpvar_3.xyz = _glesNormal;
+  highp vec4 tmpvar_4;
+  tmpvar_4.zw = vec2(0.0, 0.0);
+  tmpvar_4.xy = _glesNormal.xy;
+  highp vec4 tmpvar_5;
+  tmpvar_5 = (_glesVertex + ((tmpvar_4 * glstate_matrix_invtrans_modelview0) * tmpvar_2));
+  tmpvar_1.w = tmpvar_5.w;
+  tmpvar_1.xyz = (tmpvar_5.xyz * _Scale.xyz);
+  highp vec4 pos_6;
+  pos_6.w = tmpvar_1.w;
+  highp vec3 bend_7;
+  vec4 v_8;
+  v_8.x = _Object2World[0].w;
+  v_8.y = _Object2World[1].w;
+  v_8.z = _Object2World[2].w;
+  v_8.w = _Object2World[3].w;
+  highp float tmpvar_9;
+  tmpvar_9 = (dot (v_8.xyz, vec3(1.0, 1.0, 1.0)) + _glesColor.x);
+  highp vec2 tmpvar_10;
+  tmpvar_10.x = dot (tmpvar_1.xyz, vec3((_glesColor.y + tmpvar_9)));
+  tmpvar_10.y = tmpvar_9;
+  highp vec4 tmpvar_11;
+  tmpvar_11 = abs(((fract((((fract(((_Time.yy + tmpvar_10).xxyy * vec4(1.975, 0.793, 0.375, 0.193))) * 2.0) - 1.0) + 0.5)) * 2.0) - 1.0));
+  highp vec4 tmpvar_12;
+  tmpvar_12 = ((tmpvar_11 * tmpvar_11) * (3.0 - (2.0 * tmpvar_11)));
+  highp vec2 tmpvar_13;
+  tmpvar_13 = (tmpvar_12.xz + tmpvar_12.yw);
+  bend_7.xz = ((_glesColor.y * 0.1) * mix (_glesNormal, normalize((tmpvar_3 * glstate_matrix_invtrans_modelview0)).xyz, vec3(tmpvar_2))).xz;
+  bend_7.y = (_glesMultiTexCoord1.y * 0.3);
+  pos_6.xyz = (tmpvar_1.xyz + (((tmpvar_13.xyx * bend_7) + ((_Wind.xyz * tmpvar_13.y) * _glesMultiTexCoord1.y)) * _Wind.w));
+  pos_6.xyz = (pos_6.xyz + (_glesMultiTexCoord1.x * _Wind.xyz));
+  highp vec4 tmpvar_14;
+  tmpvar_14.w = 1.0;
+  tmpvar_14.xyz = mix ((pos_6.xyz - ((dot (_SquashPlaneNormal.xyz, pos_6.xyz) + _SquashPlaneNormal.w) * _SquashPlaneNormal.xyz)), pos_6.xyz, vec3(_SquashAmount));
+  tmpvar_1 = tmpvar_14;
+  gl_Position = (glstate_matrix_mvp * tmpvar_14);
+  xlv_TEXCOORD0 = _glesMultiTexCoord0.xy;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+out mediump vec4 _glesFragData[4];
+uniform sampler2D _MainTex;
+uniform lowp float _Cutoff;
+in highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  mediump float alpha_1;
+  lowp float tmpvar_2;
+  tmpvar_2 = texture (_MainTex, xlv_TEXCOORD0).w;
+  alpha_1 = tmpvar_2;
+  mediump float x_3;
+  x_3 = (alpha_1 - _Cutoff);
+  if ((x_3 < 0.0)) {
+    discard;
+  };
+  _glesFragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+}
+Program "fp" {
+SubProgram "gles " {
+"!!GLES"
+}
+SubProgram "gles3 " {
+"!!GLES3"
+}
+}
+ }
+}
+SubShader { 
+ Tags { "RenderType"="TreeOpaque" }
+ Pass {
+  Tags { "RenderType"="TreeOpaque" }
+  Fog { Mode Off }
+Program "vp" {
+SubProgram "gles " {
+"!!GLES
+
+
+#ifdef VERTEX
+
+attribute vec4 _glesVertex;
+attribute vec4 _glesColor;
+uniform highp mat4 glstate_matrix_mvp;
+uniform highp vec4 _Scale;
+uniform highp mat4 _TerrainEngineBendTree;
+uniform highp vec4 _SquashPlaneNormal;
+uniform highp float _SquashAmount;
+void main ()
+{
+  highp vec4 pos_1;
+  pos_1.w = _glesVertex.w;
+  pos_1.xyz = (_glesVertex.xyz * _Scale.xyz);
+  highp vec4 tmpvar_2;
+  tmpvar_2.w = 0.0;
+  tmpvar_2.xyz = pos_1.xyz;
+  pos_1.xyz = mix (pos_1.xyz, (_TerrainEngineBendTree * tmpvar_2).xyz, _glesColor.www);
+  highp vec4 tmpvar_3;
+  tmpvar_3.w = 1.0;
+  tmpvar_3.xyz = mix ((pos_1.xyz - ((dot (_SquashPlaneNormal.xyz, pos_1.xyz) + _SquashPlaneNormal.w) * _SquashPlaneNormal.xyz)), pos_1.xyz, vec3(_SquashAmount));
+  pos_1 = tmpvar_3;
+  gl_Position = (glstate_matrix_mvp * tmpvar_3);
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+void main ()
+{
+  gl_FragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+SubProgram "gles3 " {
+"!!GLES3#version 300 es
+
+
+#ifdef VERTEX
+
+in vec4 _glesVertex;
+in vec4 _glesColor;
+uniform highp mat4 glstate_matrix_mvp;
+uniform highp vec4 _Scale;
+uniform highp mat4 _TerrainEngineBendTree;
+uniform highp vec4 _SquashPlaneNormal;
+uniform highp float _SquashAmount;
+void main ()
+{
+  highp vec4 pos_1;
+  pos_1.w = _glesVertex.w;
+  pos_1.xyz = (_glesVertex.xyz * _Scale.xyz);
+  highp vec4 tmpvar_2;
+  tmpvar_2.w = 0.0;
+  tmpvar_2.xyz = pos_1.xyz;
+  pos_1.xyz = mix (pos_1.xyz, (_TerrainEngineBendTree * tmpvar_2).xyz, _glesColor.www);
+  highp vec4 tmpvar_3;
+  tmpvar_3.w = 1.0;
+  tmpvar_3.xyz = mix ((pos_1.xyz - ((dot (_SquashPlaneNormal.xyz, pos_1.xyz) + _SquashPlaneNormal.w) * _SquashPlaneNormal.xyz)), pos_1.xyz, vec3(_SquashAmount));
+  pos_1 = tmpvar_3;
+  gl_Position = (glstate_matrix_mvp * tmpvar_3);
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+out mediump vec4 _glesFragData[4];
+void main ()
+{
+  _glesFragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+}
+Program "fp" {
+SubProgram "gles " {
+"!!GLES"
+}
+SubProgram "gles3 " {
+"!!GLES3"
+}
+}
+ }
+}
+SubShader { 
+ Tags { "RenderType"="TreeTransparentCutout" }
+ Pass {
+  Tags { "RenderType"="TreeTransparentCutout" }
+  Cull Off
+  Fog { Mode Off }
+Program "vp" {
+SubProgram "gles " {
+"!!GLES
+
+
+#ifdef VERTEX
+
+attribute vec4 _glesVertex;
+attribute vec4 _glesColor;
+attribute vec4 _glesMultiTexCoord0;
+uniform highp mat4 glstate_matrix_mvp;
+uniform highp vec4 _Scale;
+uniform highp mat4 _TerrainEngineBendTree;
+uniform highp vec4 _SquashPlaneNormal;
+uniform highp float _SquashAmount;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  highp vec4 pos_1;
+  pos_1.w = _glesVertex.w;
+  pos_1.xyz = (_glesVertex.xyz * _Scale.xyz);
+  highp vec4 tmpvar_2;
+  tmpvar_2.w = 0.0;
+  tmpvar_2.xyz = pos_1.xyz;
+  pos_1.xyz = mix (pos_1.xyz, (_TerrainEngineBendTree * tmpvar_2).xyz, _glesColor.www);
+  highp vec4 tmpvar_3;
+  tmpvar_3.w = 1.0;
+  tmpvar_3.xyz = mix ((pos_1.xyz - ((dot (_SquashPlaneNormal.xyz, pos_1.xyz) + _SquashPlaneNormal.w) * _SquashPlaneNormal.xyz)), pos_1.xyz, vec3(_SquashAmount));
+  pos_1 = tmpvar_3;
+  gl_Position = (glstate_matrix_mvp * tmpvar_3);
+  xlv_TEXCOORD0 = _glesMultiTexCoord0.xy;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+uniform sampler2D _MainTex;
+uniform lowp float _Cutoff;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  mediump float alpha_1;
+  lowp float tmpvar_2;
+  tmpvar_2 = texture2D (_MainTex, xlv_TEXCOORD0).w;
+  alpha_1 = tmpvar_2;
+  mediump float x_3;
+  x_3 = (alpha_1 - _Cutoff);
+  if ((x_3 < 0.0)) {
+    discard;
+  };
+  gl_FragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+SubProgram "gles3 " {
+"!!GLES3#version 300 es
+
+
+#ifdef VERTEX
+
+in vec4 _glesVertex;
+in vec4 _glesColor;
+in vec4 _glesMultiTexCoord0;
+uniform highp mat4 glstate_matrix_mvp;
+uniform highp vec4 _Scale;
+uniform highp mat4 _TerrainEngineBendTree;
+uniform highp vec4 _SquashPlaneNormal;
+uniform highp float _SquashAmount;
+out highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  highp vec4 pos_1;
+  pos_1.w = _glesVertex.w;
+  pos_1.xyz = (_glesVertex.xyz * _Scale.xyz);
+  highp vec4 tmpvar_2;
+  tmpvar_2.w = 0.0;
+  tmpvar_2.xyz = pos_1.xyz;
+  pos_1.xyz = mix (pos_1.xyz, (_TerrainEngineBendTree * tmpvar_2).xyz, _glesColor.www);
+  highp vec4 tmpvar_3;
+  tmpvar_3.w = 1.0;
+  tmpvar_3.xyz = mix ((pos_1.xyz - ((dot (_SquashPlaneNormal.xyz, pos_1.xyz) + _SquashPlaneNormal.w) * _SquashPlaneNormal.xyz)), pos_1.xyz, vec3(_SquashAmount));
+  pos_1 = tmpvar_3;
+  gl_Position = (glstate_matrix_mvp * tmpvar_3);
+  xlv_TEXCOORD0 = _glesMultiTexCoord0.xy;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+out mediump vec4 _glesFragData[4];
+uniform sampler2D _MainTex;
+uniform lowp float _Cutoff;
+in highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  mediump float alpha_1;
+  lowp float tmpvar_2;
+  tmpvar_2 = texture (_MainTex, xlv_TEXCOORD0).w;
+  alpha_1 = tmpvar_2;
+  mediump float x_3;
+  x_3 = (alpha_1 - _Cutoff);
+  if ((x_3 < 0.0)) {
+    discard;
+  };
+  _glesFragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+}
+Program "fp" {
+SubProgram "gles " {
+"!!GLES"
+}
+SubProgram "gles3 " {
+"!!GLES3"
+}
+}
+ }
+}
+SubShader { 
+ Tags { "RenderType"="TreeBillboard" }
+ Pass {
+  Tags { "RenderType"="TreeBillboard" }
+  Cull Off
+  Fog { Mode Off }
+Program "vp" {
+SubProgram "gles " {
+"!!GLES
+
+
+#ifdef VERTEX
+
+attribute vec4 _glesVertex;
+attribute vec4 _glesMultiTexCoord0;
+attribute vec4 _glesMultiTexCoord1;
+uniform highp mat4 glstate_matrix_mvp;
+uniform highp vec3 _TreeBillboardCameraRight;
+uniform highp vec4 _TreeBillboardCameraUp;
+uniform highp vec4 _TreeBillboardCameraFront;
+uniform highp vec4 _TreeBillboardCameraPos;
+uniform highp vec4 _TreeBillboardDistances;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  highp vec2 tmpvar_1;
+  highp vec4 pos_2;
+  pos_2 = _glesVertex;
+  highp vec2 offset_3;
+  offset_3 = _glesMultiTexCoord1.xy;
+  highp float offsetz_4;
+  offsetz_4 = _glesMultiTexCoord0.y;
+  highp vec3 tmpvar_5;
+  tmpvar_5 = (_glesVertex.xyz - _TreeBillboardCameraPos.xyz);
+  highp float tmpvar_6;
+  tmpvar_6 = dot (tmpvar_5, tmpvar_5);
+  if ((tmpvar_6 > _TreeBillboardDistances.x)) {
+    offsetz_4 = 0.0;
+    offset_3 = vec2(0.0, 0.0);
+  };
+  pos_2.xyz = (_glesVertex.xyz + (_TreeBillboardCameraRight * offset_3.x));
+  pos_2.xyz = (pos_2.xyz + (_TreeBillboardCameraUp.xyz * mix (offset_3.y, offsetz_4, _TreeBillboardCameraPos.w)));
+  pos_2.xyz = (pos_2.xyz + ((_TreeBillboardCameraFront.xyz * abs(offset_3.x)) * _TreeBillboardCameraUp.w));
+  tmpvar_1.x = _glesMultiTexCoord0.x;
+  tmpvar_1.y = float((_glesMultiTexCoord0.y > 0.0));
+  gl_Position = (glstate_matrix_mvp * pos_2);
+  xlv_TEXCOORD0 = tmpvar_1;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+uniform sampler2D _MainTex;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  lowp float x_1;
+  x_1 = (texture2D (_MainTex, xlv_TEXCOORD0).w - 0.001);
+  if ((x_1 < 0.0)) {
+    discard;
+  };
+  gl_FragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+SubProgram "gles3 " {
+"!!GLES3#version 300 es
+
+
+#ifdef VERTEX
+
+in vec4 _glesVertex;
+in vec4 _glesMultiTexCoord0;
+in vec4 _glesMultiTexCoord1;
+uniform highp mat4 glstate_matrix_mvp;
+uniform highp vec3 _TreeBillboardCameraRight;
+uniform highp vec4 _TreeBillboardCameraUp;
+uniform highp vec4 _TreeBillboardCameraFront;
+uniform highp vec4 _TreeBillboardCameraPos;
+uniform highp vec4 _TreeBillboardDistances;
+out highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  highp vec2 tmpvar_1;
+  highp vec4 pos_2;
+  pos_2 = _glesVertex;
+  highp vec2 offset_3;
+  offset_3 = _glesMultiTexCoord1.xy;
+  highp float offsetz_4;
+  offsetz_4 = _glesMultiTexCoord0.y;
+  highp vec3 tmpvar_5;
+  tmpvar_5 = (_glesVertex.xyz - _TreeBillboardCameraPos.xyz);
+  highp float tmpvar_6;
+  tmpvar_6 = dot (tmpvar_5, tmpvar_5);
+  if ((tmpvar_6 > _TreeBillboardDistances.x)) {
+    offsetz_4 = 0.0;
+    offset_3 = vec2(0.0, 0.0);
+  };
+  pos_2.xyz = (_glesVertex.xyz + (_TreeBillboardCameraRight * offset_3.x));
+  pos_2.xyz = (pos_2.xyz + (_TreeBillboardCameraUp.xyz * mix (offset_3.y, offsetz_4, _TreeBillboardCameraPos.w)));
+  pos_2.xyz = (pos_2.xyz + ((_TreeBillboardCameraFront.xyz * abs(offset_3.x)) * _TreeBillboardCameraUp.w));
+  tmpvar_1.x = _glesMultiTexCoord0.x;
+  tmpvar_1.y = float((_glesMultiTexCoord0.y > 0.0));
+  gl_Position = (glstate_matrix_mvp * pos_2);
+  xlv_TEXCOORD0 = tmpvar_1;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+out mediump vec4 _glesFragData[4];
+uniform sampler2D _MainTex;
+in highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  lowp float x_1;
+  x_1 = (texture (_MainTex, xlv_TEXCOORD0).w - 0.001);
+  if ((x_1 < 0.0)) {
+    discard;
+  };
+  _glesFragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+}
+Program "fp" {
+SubProgram "gles " {
+"!!GLES"
+}
+SubProgram "gles3 " {
+"!!GLES3"
+}
+}
+ }
+}
+SubShader { 
+ Tags { "RenderType"="GrassBillboard" }
+ Pass {
+  Tags { "RenderType"="GrassBillboard" }
+  Cull Off
+  Fog { Mode Off }
+Program "vp" {
+SubProgram "gles " {
+"!!GLES
+
+
+#ifdef VERTEX
+
+attribute vec4 _glesVertex;
+attribute vec4 _glesColor;
+attribute vec4 _glesMultiTexCoord0;
+attribute vec4 _glesTANGENT;
+uniform highp mat4 glstate_matrix_mvp;
+uniform lowp vec4 _WavingTint;
+uniform highp vec4 _WaveAndDistance;
+uniform highp vec4 _CameraPosition;
+uniform highp vec3 _CameraRight;
+uniform highp vec3 _CameraUp;
+varying lowp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  highp vec4 pos_1;
+  pos_1 = _glesVertex;
+  highp vec2 offset_2;
+  offset_2 = _glesTANGENT.xy;
+  highp vec3 tmpvar_3;
+  tmpvar_3 = (_glesVertex.xyz - _CameraPosition.xyz);
+  highp float tmpvar_4;
+  tmpvar_4 = dot (tmpvar_3, tmpvar_3);
+  if ((tmpvar_4 > _WaveAndDistance.w)) {
+    offset_2 = vec2(0.0, 0.0);
+  };
+  pos_1.xyz = (_glesVertex.xyz + (offset_2.x * _CameraRight));
+  pos_1.xyz = (pos_1.xyz + (offset_2.y * _CameraUp));
+  highp vec4 vertex_5;
+  vertex_5.yw = pos_1.yw;
+  lowp vec4 color_6;
+  color_6.xyz = _glesColor.xyz;
+  lowp vec3 waveColor_7;
+  highp vec3 waveMove_8;
+  highp vec4 tmpvar_9;
+  tmpvar_9 = ((fract((((pos_1.x * (vec4(0.012, 0.02, 0.06, 0.024) * _WaveAndDistance.y)) + (pos_1.z * (vec4(0.006, 0.02, 0.02, 0.05) * _WaveAndDistance.y))) + (_WaveAndDistance.x * vec4(1.2, 2.0, 1.6, 4.8)))) * 6.40885) - 3.14159);
+  highp vec4 tmpvar_10;
+  tmpvar_10 = (tmpvar_9 * tmpvar_9);
+  highp vec4 tmpvar_11;
+  tmpvar_11 = (tmpvar_10 * tmpvar_9);
+  highp vec4 tmpvar_12;
+  tmpvar_12 = (tmpvar_11 * tmpvar_10);
+  highp vec4 tmpvar_13;
+  tmpvar_13 = (((tmpvar_9 + (tmpvar_11 * -0.161616)) + (tmpvar_12 * 0.0083333)) + ((tmpvar_12 * tmpvar_10) * -0.00019841));
+  highp vec4 tmpvar_14;
+  tmpvar_14 = (tmpvar_13 * tmpvar_13);
+  highp vec4 tmpvar_15;
+  tmpvar_15 = (tmpvar_14 * tmpvar_14);
+  highp vec4 tmpvar_16;
+  tmpvar_16 = (tmpvar_15 * _glesTANGENT.y);
+  waveMove_8.y = 0.0;
+  waveMove_8.x = dot (tmpvar_16, vec4(0.024, 0.04, -0.12, 0.096));
+  waveMove_8.z = dot (tmpvar_16, vec4(0.006, 0.02, -0.02, 0.1));
+  vertex_5.xz = (pos_1.xz - (waveMove_8.xz * _WaveAndDistance.z));
+  highp vec3 tmpvar_17;
+  tmpvar_17 = mix (vec3(0.5, 0.5, 0.5), _WavingTint.xyz, vec3((dot (tmpvar_15, vec4(0.6742, 0.6742, 0.26968, 0.13484)) * 0.7)));
+  waveColor_7 = tmpvar_17;
+  highp vec3 tmpvar_18;
+  tmpvar_18 = (vertex_5.xyz - _CameraPosition.xyz);
+  highp float tmpvar_19;
+  tmpvar_19 = clamp (((2.0 * (_WaveAndDistance.w - dot (tmpvar_18, tmpvar_18))) * _CameraPosition.w), 0.0, 1.0);
+  color_6.w = tmpvar_19;
+  lowp vec4 tmpvar_20;
+  tmpvar_20.xyz = ((2.0 * waveColor_7) * _glesColor.xyz);
+  tmpvar_20.w = color_6.w;
+  gl_Position = (glstate_matrix_mvp * vertex_5);
+  xlv_COLOR = tmpvar_20;
+  xlv_TEXCOORD0 = _glesMultiTexCoord0.xy;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+uniform sampler2D _MainTex;
+uniform lowp float _Cutoff;
+varying lowp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  lowp float x_1;
+  x_1 = ((texture2D (_MainTex, xlv_TEXCOORD0).w * xlv_COLOR.w) - _Cutoff);
+  if ((x_1 < 0.0)) {
+    discard;
+  };
+  gl_FragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+SubProgram "gles3 " {
+"!!GLES3#version 300 es
+
+
+#ifdef VERTEX
+
+in vec4 _glesVertex;
+in vec4 _glesColor;
+in vec4 _glesMultiTexCoord0;
+#define TANGENT _glesTANGENT
+in vec4 _glesTANGENT;
+uniform highp mat4 glstate_matrix_mvp;
+uniform lowp vec4 _WavingTint;
+uniform highp vec4 _WaveAndDistance;
+uniform highp vec4 _CameraPosition;
+uniform highp vec3 _CameraRight;
+uniform highp vec3 _CameraUp;
+out lowp vec4 xlv_COLOR;
+out highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  highp vec4 pos_1;
+  pos_1 = _glesVertex;
+  highp vec2 offset_2;
+  offset_2 = _glesTANGENT.xy;
+  highp vec3 tmpvar_3;
+  tmpvar_3 = (_glesVertex.xyz - _CameraPosition.xyz);
+  highp float tmpvar_4;
+  tmpvar_4 = dot (tmpvar_3, tmpvar_3);
+  if ((tmpvar_4 > _WaveAndDistance.w)) {
+    offset_2 = vec2(0.0, 0.0);
+  };
+  pos_1.xyz = (_glesVertex.xyz + (offset_2.x * _CameraRight));
+  pos_1.xyz = (pos_1.xyz + (offset_2.y * _CameraUp));
+  highp vec4 vertex_5;
+  vertex_5.yw = pos_1.yw;
+  lowp vec4 color_6;
+  color_6.xyz = _glesColor.xyz;
+  lowp vec3 waveColor_7;
+  highp vec3 waveMove_8;
+  highp vec4 tmpvar_9;
+  tmpvar_9 = ((fract((((pos_1.x * (vec4(0.012, 0.02, 0.06, 0.024) * _WaveAndDistance.y)) + (pos_1.z * (vec4(0.006, 0.02, 0.02, 0.05) * _WaveAndDistance.y))) + (_WaveAndDistance.x * vec4(1.2, 2.0, 1.6, 4.8)))) * 6.40885) - 3.14159);
+  highp vec4 tmpvar_10;
+  tmpvar_10 = (tmpvar_9 * tmpvar_9);
+  highp vec4 tmpvar_11;
+  tmpvar_11 = (tmpvar_10 * tmpvar_9);
+  highp vec4 tmpvar_12;
+  tmpvar_12 = (tmpvar_11 * tmpvar_10);
+  highp vec4 tmpvar_13;
+  tmpvar_13 = (((tmpvar_9 + (tmpvar_11 * -0.161616)) + (tmpvar_12 * 0.0083333)) + ((tmpvar_12 * tmpvar_10) * -0.00019841));
+  highp vec4 tmpvar_14;
+  tmpvar_14 = (tmpvar_13 * tmpvar_13);
+  highp vec4 tmpvar_15;
+  tmpvar_15 = (tmpvar_14 * tmpvar_14);
+  highp vec4 tmpvar_16;
+  tmpvar_16 = (tmpvar_15 * _glesTANGENT.y);
+  waveMove_8.y = 0.0;
+  waveMove_8.x = dot (tmpvar_16, vec4(0.024, 0.04, -0.12, 0.096));
+  waveMove_8.z = dot (tmpvar_16, vec4(0.006, 0.02, -0.02, 0.1));
+  vertex_5.xz = (pos_1.xz - (waveMove_8.xz * _WaveAndDistance.z));
+  highp vec3 tmpvar_17;
+  tmpvar_17 = mix (vec3(0.5, 0.5, 0.5), _WavingTint.xyz, vec3((dot (tmpvar_15, vec4(0.6742, 0.6742, 0.26968, 0.13484)) * 0.7)));
+  waveColor_7 = tmpvar_17;
+  highp vec3 tmpvar_18;
+  tmpvar_18 = (vertex_5.xyz - _CameraPosition.xyz);
+  highp float tmpvar_19;
+  tmpvar_19 = clamp (((2.0 * (_WaveAndDistance.w - dot (tmpvar_18, tmpvar_18))) * _CameraPosition.w), 0.0, 1.0);
+  color_6.w = tmpvar_19;
+  lowp vec4 tmpvar_20;
+  tmpvar_20.xyz = ((2.0 * waveColor_7) * _glesColor.xyz);
+  tmpvar_20.w = color_6.w;
+  gl_Position = (glstate_matrix_mvp * vertex_5);
+  xlv_COLOR = tmpvar_20;
+  xlv_TEXCOORD0 = _glesMultiTexCoord0.xy;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+out mediump vec4 _glesFragData[4];
+uniform sampler2D _MainTex;
+uniform lowp float _Cutoff;
+in lowp vec4 xlv_COLOR;
+in highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  lowp float x_1;
+  x_1 = ((texture (_MainTex, xlv_TEXCOORD0).w * xlv_COLOR.w) - _Cutoff);
+  if ((x_1 < 0.0)) {
+    discard;
+  };
+  _glesFragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+}
+Program "fp" {
+SubProgram "gles " {
+"!!GLES"
+}
+SubProgram "gles3 " {
+"!!GLES3"
+}
+}
+ }
+}
+SubShader { 
+ Tags { "RenderType"="Grass" }
+ Pass {
+  Tags { "RenderType"="Grass" }
+  Cull Off
+  Fog { Mode Off }
+Program "vp" {
+SubProgram "gles " {
+"!!GLES
+
+
+#ifdef VERTEX
+
+attribute vec4 _glesVertex;
+attribute vec4 _glesColor;
+attribute vec4 _glesMultiTexCoord0;
+uniform highp mat4 glstate_matrix_mvp;
+uniform lowp vec4 _WavingTint;
+uniform highp vec4 _WaveAndDistance;
+uniform highp vec4 _CameraPosition;
+varying lowp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  highp vec4 vertex_1;
+  vertex_1.yw = _glesVertex.yw;
+  lowp vec4 color_2;
+  color_2.xyz = _glesColor.xyz;
+  lowp vec3 waveColor_3;
+  highp vec3 waveMove_4;
+  highp vec4 tmpvar_5;
+  tmpvar_5 = ((fract((((_glesVertex.x * (vec4(0.012, 0.02, 0.06, 0.024) * _WaveAndDistance.y)) + (_glesVertex.z * (vec4(0.006, 0.02, 0.02, 0.05) * _WaveAndDistance.y))) + (_WaveAndDistance.x * vec4(1.2, 2.0, 1.6, 4.8)))) * 6.40885) - 3.14159);
+  highp vec4 tmpvar_6;
+  tmpvar_6 = (tmpvar_5 * tmpvar_5);
+  highp vec4 tmpvar_7;
+  tmpvar_7 = (tmpvar_6 * tmpvar_5);
+  highp vec4 tmpvar_8;
+  tmpvar_8 = (tmpvar_7 * tmpvar_6);
+  highp vec4 tmpvar_9;
+  tmpvar_9 = (((tmpvar_5 + (tmpvar_7 * -0.161616)) + (tmpvar_8 * 0.0083333)) + ((tmpvar_8 * tmpvar_6) * -0.00019841));
+  highp vec4 tmpvar_10;
+  tmpvar_10 = (tmpvar_9 * tmpvar_9);
+  highp vec4 tmpvar_11;
+  tmpvar_11 = (tmpvar_10 * tmpvar_10);
+  highp vec4 tmpvar_12;
+  tmpvar_12 = (tmpvar_11 * (_glesColor.w * _WaveAndDistance.z));
+  waveMove_4.y = 0.0;
+  waveMove_4.x = dot (tmpvar_12, vec4(0.024, 0.04, -0.12, 0.096));
+  waveMove_4.z = dot (tmpvar_12, vec4(0.006, 0.02, -0.02, 0.1));
+  vertex_1.xz = (_glesVertex.xz - (waveMove_4.xz * _WaveAndDistance.z));
+  highp vec3 tmpvar_13;
+  tmpvar_13 = mix (vec3(0.5, 0.5, 0.5), _WavingTint.xyz, vec3((dot (tmpvar_11, vec4(0.6742, 0.6742, 0.26968, 0.13484)) * 0.7)));
+  waveColor_3 = tmpvar_13;
+  highp vec3 tmpvar_14;
+  tmpvar_14 = (vertex_1.xyz - _CameraPosition.xyz);
+  highp float tmpvar_15;
+  tmpvar_15 = clamp (((2.0 * (_WaveAndDistance.w - dot (tmpvar_14, tmpvar_14))) * _CameraPosition.w), 0.0, 1.0);
+  color_2.w = tmpvar_15;
+  lowp vec4 tmpvar_16;
+  tmpvar_16.xyz = ((2.0 * waveColor_3) * _glesColor.xyz);
+  tmpvar_16.w = color_2.w;
+  gl_Position = (glstate_matrix_mvp * vertex_1);
+  xlv_COLOR = tmpvar_16;
+  xlv_TEXCOORD0 = _glesMultiTexCoord0.xy;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+uniform sampler2D _MainTex;
+uniform lowp float _Cutoff;
+varying lowp vec4 xlv_COLOR;
+varying highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  lowp float x_1;
+  x_1 = ((texture2D (_MainTex, xlv_TEXCOORD0).w * xlv_COLOR.w) - _Cutoff);
+  if ((x_1 < 0.0)) {
+    discard;
+  };
+  gl_FragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+SubProgram "gles3 " {
+"!!GLES3#version 300 es
+
+
+#ifdef VERTEX
+
+in vec4 _glesVertex;
+in vec4 _glesColor;
+in vec4 _glesMultiTexCoord0;
+uniform highp mat4 glstate_matrix_mvp;
+uniform lowp vec4 _WavingTint;
+uniform highp vec4 _WaveAndDistance;
+uniform highp vec4 _CameraPosition;
+out lowp vec4 xlv_COLOR;
+out highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  highp vec4 vertex_1;
+  vertex_1.yw = _glesVertex.yw;
+  lowp vec4 color_2;
+  color_2.xyz = _glesColor.xyz;
+  lowp vec3 waveColor_3;
+  highp vec3 waveMove_4;
+  highp vec4 tmpvar_5;
+  tmpvar_5 = ((fract((((_glesVertex.x * (vec4(0.012, 0.02, 0.06, 0.024) * _WaveAndDistance.y)) + (_glesVertex.z * (vec4(0.006, 0.02, 0.02, 0.05) * _WaveAndDistance.y))) + (_WaveAndDistance.x * vec4(1.2, 2.0, 1.6, 4.8)))) * 6.40885) - 3.14159);
+  highp vec4 tmpvar_6;
+  tmpvar_6 = (tmpvar_5 * tmpvar_5);
+  highp vec4 tmpvar_7;
+  tmpvar_7 = (tmpvar_6 * tmpvar_5);
+  highp vec4 tmpvar_8;
+  tmpvar_8 = (tmpvar_7 * tmpvar_6);
+  highp vec4 tmpvar_9;
+  tmpvar_9 = (((tmpvar_5 + (tmpvar_7 * -0.161616)) + (tmpvar_8 * 0.0083333)) + ((tmpvar_8 * tmpvar_6) * -0.00019841));
+  highp vec4 tmpvar_10;
+  tmpvar_10 = (tmpvar_9 * tmpvar_9);
+  highp vec4 tmpvar_11;
+  tmpvar_11 = (tmpvar_10 * tmpvar_10);
+  highp vec4 tmpvar_12;
+  tmpvar_12 = (tmpvar_11 * (_glesColor.w * _WaveAndDistance.z));
+  waveMove_4.y = 0.0;
+  waveMove_4.x = dot (tmpvar_12, vec4(0.024, 0.04, -0.12, 0.096));
+  waveMove_4.z = dot (tmpvar_12, vec4(0.006, 0.02, -0.02, 0.1));
+  vertex_1.xz = (_glesVertex.xz - (waveMove_4.xz * _WaveAndDistance.z));
+  highp vec3 tmpvar_13;
+  tmpvar_13 = mix (vec3(0.5, 0.5, 0.5), _WavingTint.xyz, vec3((dot (tmpvar_11, vec4(0.6742, 0.6742, 0.26968, 0.13484)) * 0.7)));
+  waveColor_3 = tmpvar_13;
+  highp vec3 tmpvar_14;
+  tmpvar_14 = (vertex_1.xyz - _CameraPosition.xyz);
+  highp float tmpvar_15;
+  tmpvar_15 = clamp (((2.0 * (_WaveAndDistance.w - dot (tmpvar_14, tmpvar_14))) * _CameraPosition.w), 0.0, 1.0);
+  color_2.w = tmpvar_15;
+  lowp vec4 tmpvar_16;
+  tmpvar_16.xyz = ((2.0 * waveColor_3) * _glesColor.xyz);
+  tmpvar_16.w = color_2.w;
+  gl_Position = (glstate_matrix_mvp * vertex_1);
+  xlv_COLOR = tmpvar_16;
+  xlv_TEXCOORD0 = _glesMultiTexCoord0.xy;
+}
+
+
+
+#endif
+#ifdef FRAGMENT
+
+out mediump vec4 _glesFragData[4];
+uniform sampler2D _MainTex;
+uniform lowp float _Cutoff;
+in lowp vec4 xlv_COLOR;
+in highp vec2 xlv_TEXCOORD0;
+void main ()
+{
+  lowp float x_1;
+  x_1 = ((texture (_MainTex, xlv_TEXCOORD0).w * xlv_COLOR.w) - _Cutoff);
+  if ((x_1 < 0.0)) {
+    discard;
+  };
+  _glesFragData[0] = vec4(0.0, 0.0, 0.0, 0.0);
+}
+
+
+
+#endif"
+}
+}
+Program "fp" {
+SubProgram "gles " {
+"!!GLES"
+}
+SubProgram "gles3 " {
+"!!GLES3"
+}
+}
+ }
+}
+Fallback Off
+}

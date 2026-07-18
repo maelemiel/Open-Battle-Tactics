@@ -1,0 +1,5 @@
+public enum JammerPhase
+{
+	JAM_OFFENSIVE_ABILITES = 0,
+	JAM_DEFENSIVE_ABILITES = 1
+}

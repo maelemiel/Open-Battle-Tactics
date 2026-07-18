@@ -1,0 +1,52 @@
+{
+	"m_Builtin_Layer_0": "Default",
+	"m_Builtin_Layer_1": "TransparentFX",
+	"m_Builtin_Layer_2": "Ignore Raycast",
+	"m_Builtin_Layer_3": "",
+	"m_Builtin_Layer_4": "Water",
+	"m_Builtin_Layer_5": "UI",
+	"m_Builtin_Layer_6": "",
+	"m_Builtin_Layer_7": "",
+	"m_SortingLayers": [
+		{
+			"m_Locked": false,
+			"m_Name": "Default",
+			"m_UniqueID": 0,
+			"m_UserID": 0
+		}
+	],
+	"m_Tags": [
+		"",
+		"Dice",
+		"PlayerUnit",
+		"EnemyUnit",
+		"BattleLogic",
+		"BattleMenu",
+		"Rich",
+		""
+	],
+	"m_User_Layer_10": "3D",
+	"m_User_Layer_11": "Tracks",
+	"m_User_Layer_12": "Characters",
+	"m_User_Layer_13": "CharacterListDescription",
+	"m_User_Layer_14": "TopBar",
+	"m_User_Layer_15": "List",
+	"m_User_Layer_16": "PopUp",
+	"m_User_Layer_17": "Background",
+	"m_User_Layer_18": "Puzzle",
+	"m_User_Layer_19": "Loading",
+	"m_User_Layer_20": "PuzzlePiece",
+	"m_User_Layer_21": "OverAll",
+	"m_User_Layer_22": "Battle",
+	"m_User_Layer_23": "NotificationPopUp",
+	"m_User_Layer_24": "BattleFieldPlayer",
+	"m_User_Layer_25": "BattleFieldEnemy",
+	"m_User_Layer_26": "Rich",
+	"m_User_Layer_27": "Announcer",
+	"m_User_Layer_28": "Drag",
+	"m_User_Layer_29": "Chat",
+	"m_User_Layer_30": "UI 2D",
+	"m_User_Layer_31": "World",
+	"m_User_Layer_8": "2D",
+	"m_User_Layer_9": "2DClipping"
+}
