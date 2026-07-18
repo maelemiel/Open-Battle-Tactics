@@ -1,0 +1,107 @@
+[
+  {
+    "ai_army_id": 70518,
+    "id": 1,
+    "part_id": 930
+  },
+  {
+    "ai_army_id": 70519,
+    "id": 2,
+    "part_id": 927
+  },
+  {
+    "ai_army_id": 70520,
+    "id": 3,
+    "part_id": 926
+  },
+  {
+    "ai_army_id": 70521,
+    "id": 4,
+    "part_id": 919
+  },
+  {
+    "ai_army_id": 70522,
+    "id": 5,
+    "part_id": 918
+  },
+  {
+    "ai_army_id": 70523,
+    "id": 6,
+    "part_id": 917
+  },
+  {
+    "ai_army_id": 70530,
+    "id": 7,
+    "part_id": 1
+  },
+  {
+    "ai_army_id": 70530,
+    "id": 8,
+    "part_id": 2
+  },
+  {
+    "ai_army_id": 70535,
+    "id": 9,
+    "part_id": 11
+  },
+  {
+    "ai_army_id": 70536,
+    "id": 10,
+    "part_id": 12
+  },
+  {
+    "ai_army_id": 70537,
+    "id": 11,
+    "part_id": 13
+  },
+  {
+    "ai_army_id": 70534,
+    "id": 12,
+    "part_id": 14
+  },
+  {
+    "ai_army_id": 70531,
+    "id": 13,
+    "part_id": 99
+  },
+  {
+    "ai_army_id": 70524,
+    "id": 14,
+    "part_id": 901
+  },
+  {
+    "ai_army_id": 70525,
+    "id": 15,
+    "part_id": 993
+  },
+  {
+    "ai_army_id": 70526,
+    "id": 16,
+    "part_id": 909
+  },
+  {
+    "ai_army_id": 70527,
+    "id": 17,
+    "part_id": 913
+  },
+  {
+    "ai_army_id": 70528,
+    "id": 18,
+    "part_id": 960
+  },
+  {
+    "ai_army_id": 70529,
+    "id": 19,
+    "part_id": 908
+  },
+  {
+    "ai_army_id": 70532,
+    "id": 20,
+    "part_id": 902
+  },
+  {
+    "ai_army_id": 70533,
+    "id": 21,
+    "part_id": 920
+  }
+]

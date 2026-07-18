@@ -1,0 +1,1019 @@
+[
+  {
+    "drop_max": 250,
+    "contract_id": 101,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 1
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 101,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 2
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 101,
+    "drop_min": 1,
+    "part_type": 11,
+    "drop_rate": 40,
+    "item_id": 6,
+    "id": 3
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 101,
+    "drop_min": 1,
+    "part_type": 12,
+    "drop_rate": 40,
+    "item_id": 6,
+    "id": 4
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 101,
+    "drop_min": 1,
+    "part_type": 13,
+    "drop_rate": 40,
+    "item_id": 6,
+    "id": 5
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 102,
+    "drop_min": 5,
+    "part_type": 1,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 6
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 102,
+    "drop_min": 5,
+    "part_type": 1,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 7
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 102,
+    "drop_min": 5,
+    "part_type": 1,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 8
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 102,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 75,
+    "item_id": 4,
+    "id": 9
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 103,
+    "drop_min": 5,
+    "part_type": 1,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 10
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 103,
+    "drop_min": 5,
+    "part_type": 1,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 11
+  },
+  {
+    "drop_max": 5,
+    "contract_id": 103,
+    "drop_min": 1,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 12
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 103,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 75,
+    "item_id": 4,
+    "id": 13
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 104,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 14
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 104,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 15
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 104,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 16
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 105,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 17
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 105,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 18
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 105,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 19
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 105,
+    "drop_min": 1,
+    "part_type": 0,
+    "drop_rate": 50,
+    "item_id": 5,
+    "id": 20
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 202,
+    "drop_min": 5,
+    "part_type": 1,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 21
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 202,
+    "drop_min": 5,
+    "part_type": 1,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 22
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 202,
+    "drop_min": 5,
+    "part_type": 1,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 23
+  },
+  {
+    "drop_max": 5,
+    "contract_id": 202,
+    "drop_min": 1,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 24
+  },
+  {
+    "drop_max": 5,
+    "contract_id": 202,
+    "drop_min": 1,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 25
+  },
+  {
+    "drop_max": 5,
+    "contract_id": 202,
+    "drop_min": 1,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 26
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 202,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 75,
+    "item_id": 4,
+    "id": 27
+  },
+  {
+    "drop_max": 500,
+    "contract_id": 203,
+    "drop_min": 500,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 28
+  },
+  {
+    "drop_max": 500,
+    "contract_id": 203,
+    "drop_min": 500,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 29
+  },
+  {
+    "drop_max": 500,
+    "contract_id": 203,
+    "drop_min": 500,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 30
+  },
+  {
+    "drop_max": 5,
+    "contract_id": 204,
+    "drop_min": 1,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 31
+  },
+  {
+    "drop_max": 5,
+    "contract_id": 204,
+    "drop_min": 1,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 32
+  },
+  {
+    "drop_max": 5,
+    "contract_id": 204,
+    "drop_min": 1,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 33
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 204,
+    "drop_min": 1,
+    "part_type": 11,
+    "drop_rate": 50,
+    "item_id": 6,
+    "id": 34
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 204,
+    "drop_min": 1,
+    "part_type": 12,
+    "drop_rate": 50,
+    "item_id": 6,
+    "id": 35
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 204,
+    "drop_min": 1,
+    "part_type": 13,
+    "drop_rate": 50,
+    "item_id": 6,
+    "id": 36
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 205,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 37
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 205,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 38
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 205,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 39
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 205,
+    "drop_min": 1,
+    "part_type": 11,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 40
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 205,
+    "drop_min": 1,
+    "part_type": 11,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 41
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 206,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 42
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 206,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 43
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 206,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 44
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 206,
+    "drop_min": 1,
+    "part_type": 12,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 45
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 206,
+    "drop_min": 1,
+    "part_type": 12,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 46
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 207,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 47
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 207,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 48
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 207,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 49
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 207,
+    "drop_min": 1,
+    "part_type": 13,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 50
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 207,
+    "drop_min": 1,
+    "part_type": 13,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 51
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 301,
+    "drop_min": 1,
+    "part_type": 11,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 52
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 301,
+    "drop_min": 1,
+    "part_type": 12,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 53
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 301,
+    "drop_min": 1,
+    "part_type": 13,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 54
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 301,
+    "drop_min": 1,
+    "part_type": 907,
+    "drop_rate": 1,
+    "item_id": 6,
+    "id": 55
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 301,
+    "drop_min": 1,
+    "part_type": 914,
+    "drop_rate": 1,
+    "item_id": 6,
+    "id": 56
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 301,
+    "drop_min": 1,
+    "part_type": 919,
+    "drop_rate": 1,
+    "item_id": 6,
+    "id": 57
+  },
+  {
+    "drop_max": 500,
+    "contract_id": 302,
+    "drop_min": 500,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 58
+  },
+  {
+    "drop_max": 500,
+    "contract_id": 302,
+    "drop_min": 500,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 59
+  },
+  {
+    "drop_max": 500,
+    "contract_id": 302,
+    "drop_min": 500,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 60
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 302,
+    "drop_min": 1,
+    "part_type": 11,
+    "drop_rate": 50,
+    "item_id": 6,
+    "id": 61
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 302,
+    "drop_min": 1,
+    "part_type": 12,
+    "drop_rate": 50,
+    "item_id": 6,
+    "id": 62
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 302,
+    "drop_min": 1,
+    "part_type": 13,
+    "drop_rate": 50,
+    "item_id": 6,
+    "id": 63
+  },
+  {
+    "drop_max": 15,
+    "contract_id": 303,
+    "drop_min": 10,
+    "part_type": 1,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 64
+  },
+  {
+    "drop_max": 15,
+    "contract_id": 303,
+    "drop_min": 10,
+    "part_type": 1,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 65
+  },
+  {
+    "drop_max": 15,
+    "contract_id": 303,
+    "drop_min": 10,
+    "part_type": 1,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 66
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 303,
+    "drop_min": 5,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 67
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 303,
+    "drop_min": 5,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 68
+  },
+  {
+    "drop_max": 2,
+    "contract_id": 303,
+    "drop_min": 1,
+    "part_type": 11,
+    "drop_rate": 60,
+    "item_id": 6,
+    "id": 69
+  },
+  {
+    "drop_max": 2,
+    "contract_id": 303,
+    "drop_min": 1,
+    "part_type": 12,
+    "drop_rate": 60,
+    "item_id": 6,
+    "id": 70
+  },
+  {
+    "drop_max": 2,
+    "contract_id": 303,
+    "drop_min": 1,
+    "part_type": 13,
+    "drop_rate": 60,
+    "item_id": 6,
+    "id": 71
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 304,
+    "drop_min": 1,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 5,
+    "id": 72
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 304,
+    "drop_min": 1,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 5,
+    "id": 73
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 304,
+    "drop_min": 1,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 5,
+    "id": 74
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 304,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 75,
+    "item_id": 4,
+    "id": 75
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 304,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 75,
+    "item_id": 4,
+    "id": 76
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 304,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 75,
+    "item_id": 4,
+    "id": 77
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 305,
+    "drop_min": 5,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 78
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 305,
+    "drop_min": 5,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 79
+  },
+  {
+    "drop_max": 3,
+    "contract_id": 305,
+    "drop_min": 1,
+    "part_type": 11,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 80
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 305,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 1,
+    "item_id": 6,
+    "id": 81
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 305,
+    "drop_min": 1,
+    "part_type": 902,
+    "drop_rate": 1,
+    "item_id": 6,
+    "id": 82
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 305,
+    "drop_min": 1,
+    "part_type": 903,
+    "drop_rate": 1,
+    "item_id": 6,
+    "id": 83
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 306,
+    "drop_min": 5,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 84
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 306,
+    "drop_min": 5,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 85
+  },
+  {
+    "drop_max": 3,
+    "contract_id": 306,
+    "drop_min": 1,
+    "part_type": 11,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 86
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 306,
+    "drop_min": 1,
+    "part_type": 904,
+    "drop_rate": 20,
+    "item_id": 6,
+    "id": 87
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 306,
+    "drop_min": 1,
+    "part_type": 905,
+    "drop_rate": 20,
+    "item_id": 6,
+    "id": 88
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 306,
+    "drop_min": 1,
+    "part_type": 906,
+    "drop_rate": 20,
+    "item_id": 6,
+    "id": 89
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 307,
+    "drop_min": 5,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 90
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 307,
+    "drop_min": 5,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 91
+  },
+  {
+    "drop_max": 3,
+    "contract_id": 307,
+    "drop_min": 1,
+    "part_type": 12,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 92
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 307,
+    "drop_min": 1,
+    "part_type": 911,
+    "drop_rate": 1,
+    "item_id": 6,
+    "id": 93
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 307,
+    "drop_min": 1,
+    "part_type": 912,
+    "drop_rate": 1,
+    "item_id": 6,
+    "id": 94
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 307,
+    "drop_min": 1,
+    "part_type": 913,
+    "drop_rate": 1,
+    "item_id": 6,
+    "id": 95
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 308,
+    "drop_min": 5,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 96
+  },
+  {
+    "drop_max": 10,
+    "contract_id": 308,
+    "drop_min": 5,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 97
+  },
+  {
+    "drop_max": 3,
+    "contract_id": 308,
+    "drop_min": 1,
+    "part_type": 13,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 98
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 308,
+    "drop_min": 1,
+    "part_type": 916,
+    "drop_rate": 1,
+    "item_id": 6,
+    "id": 99
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 308,
+    "drop_min": 1,
+    "part_type": 917,
+    "drop_rate": 1,
+    "item_id": 6,
+    "id": 100
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 308,
+    "drop_min": 1,
+    "part_type": 918,
+    "drop_rate": 1,
+    "item_id": 6,
+    "id": 101
+  },
+  {
+    "drop_max": 15,
+    "contract_id": 309,
+    "drop_min": 10,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 102
+  },
+  {
+    "drop_max": 15,
+    "contract_id": 309,
+    "drop_min": 10,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 103
+  },
+  {
+    "drop_max": 15,
+    "contract_id": 309,
+    "drop_min": 10,
+    "part_type": 2,
+    "drop_rate": 100,
+    "item_id": 6,
+    "id": 104
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 309,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 75,
+    "item_id": 4,
+    "id": 105
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 309,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 75,
+    "item_id": 4,
+    "id": 106
+  },
+  {
+    "drop_max": 250,
+    "contract_id": 309,
+    "drop_min": 250,
+    "part_type": 0,
+    "drop_rate": 75,
+    "item_id": 4,
+    "id": 107
+  },
+  {
+    "drop_max": 500,
+    "contract_id": 310,
+    "drop_min": 500,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 108
+  },
+  {
+    "drop_max": 500,
+    "contract_id": 310,
+    "drop_min": 500,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 109
+  },
+  {
+    "drop_max": 500,
+    "contract_id": 310,
+    "drop_min": 500,
+    "part_type": 0,
+    "drop_rate": 100,
+    "item_id": 4,
+    "id": 110
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 310,
+    "drop_min": 1,
+    "part_type": 0,
+    "drop_rate": 75,
+    "item_id": 5,
+    "id": 111
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 310,
+    "drop_min": 1,
+    "part_type": 0,
+    "drop_rate": 75,
+    "item_id": 5,
+    "id": 112
+  },
+  {
+    "drop_max": 1,
+    "contract_id": 310,
+    "drop_min": 1,
+    "part_type": 0,
+    "drop_rate": 75,
+    "item_id": 5,
+    "id": 113
+  }
+]

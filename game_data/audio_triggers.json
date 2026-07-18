@@ -1,0 +1,12 @@
+[
+  {
+    "asset_linkage_id": 4051,
+    "audio_trigger_name": "AudioABEffectFiring_1",
+    "id": 1
+  },
+  {
+    "asset_linkage_id": 4052,
+    "audio_trigger_name": "AudioABEffectHit_1",
+    "id": 2
+  }
+]

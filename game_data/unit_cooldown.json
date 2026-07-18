@@ -1,0 +1,488 @@
+[
+  {
+    "seconds": 10,
+    "unit_level": 1,
+    "id": 101,
+    "rarity": 1
+  },
+  {
+    "seconds": 10,
+    "unit_level": 2,
+    "id": 102,
+    "rarity": 1
+  },
+  {
+    "seconds": 10,
+    "unit_level": 3,
+    "id": 103,
+    "rarity": 1
+  },
+  {
+    "seconds": 10,
+    "unit_level": 4,
+    "id": 104,
+    "rarity": 1
+  },
+  {
+    "seconds": 10,
+    "unit_level": 5,
+    "id": 105,
+    "rarity": 1
+  },
+  {
+    "seconds": 10,
+    "unit_level": 6,
+    "id": 106,
+    "rarity": 1
+  },
+  {
+    "seconds": 10,
+    "unit_level": 1,
+    "id": 201,
+    "rarity": 2
+  },
+  {
+    "seconds": 12,
+    "unit_level": 2,
+    "id": 202,
+    "rarity": 2
+  },
+  {
+    "seconds": 14,
+    "unit_level": 3,
+    "id": 203,
+    "rarity": 2
+  },
+  {
+    "seconds": 16,
+    "unit_level": 4,
+    "id": 204,
+    "rarity": 2
+  },
+  {
+    "seconds": 20,
+    "unit_level": 5,
+    "id": 205,
+    "rarity": 2
+  },
+  {
+    "seconds": 75,
+    "unit_level": 6,
+    "id": 206,
+    "rarity": 2
+  },
+  {
+    "seconds": 75,
+    "unit_level": 7,
+    "id": 207,
+    "rarity": 2
+  },
+  {
+    "seconds": 75,
+    "unit_level": 8,
+    "id": 208,
+    "rarity": 2
+  },
+  {
+    "seconds": 75,
+    "unit_level": 9,
+    "id": 209,
+    "rarity": 2
+  },
+  {
+    "seconds": 75,
+    "unit_level": 10,
+    "id": 210,
+    "rarity": 2
+  },
+  {
+    "seconds": 300,
+    "unit_level": 1,
+    "id": 301,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 2,
+    "id": 302,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 3,
+    "id": 303,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 4,
+    "id": 304,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 5,
+    "id": 305,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 6,
+    "id": 306,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 7,
+    "id": 307,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 8,
+    "id": 308,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 9,
+    "id": 309,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 10,
+    "id": 310,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 11,
+    "id": 311,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 12,
+    "id": 312,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 13,
+    "id": 313,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 14,
+    "id": 314,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 15,
+    "id": 315,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 16,
+    "id": 316,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 17,
+    "id": 317,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 18,
+    "id": 318,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 19,
+    "id": 319,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 20,
+    "id": 320,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 90,
+    "id": 390,
+    "rarity": 3
+  },
+  {
+    "seconds": 300,
+    "unit_level": 91,
+    "id": 391,
+    "rarity": 3
+  },
+  {
+    "seconds": 600,
+    "unit_level": 1,
+    "id": 401,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 2,
+    "id": 402,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 3,
+    "id": 403,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 4,
+    "id": 404,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 5,
+    "id": 405,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 6,
+    "id": 406,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 7,
+    "id": 407,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 8,
+    "id": 408,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 9,
+    "id": 409,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 10,
+    "id": 410,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 11,
+    "id": 411,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 12,
+    "id": 412,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 13,
+    "id": 413,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 14,
+    "id": 414,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 15,
+    "id": 415,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 16,
+    "id": 416,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 17,
+    "id": 417,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 18,
+    "id": 418,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 19,
+    "id": 419,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 20,
+    "id": 420,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 50,
+    "id": 450,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 90,
+    "id": 490,
+    "rarity": 4
+  },
+  {
+    "seconds": 600,
+    "unit_level": 91,
+    "id": 491,
+    "rarity": 4
+  },
+  {
+    "seconds": 900,
+    "unit_level": 1,
+    "id": 501,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 2,
+    "id": 502,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 3,
+    "id": 503,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 4,
+    "id": 504,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 5,
+    "id": 505,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 6,
+    "id": 506,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 7,
+    "id": 507,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 8,
+    "id": 508,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 9,
+    "id": 509,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 10,
+    "id": 510,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 11,
+    "id": 511,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 12,
+    "id": 512,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 13,
+    "id": 513,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 14,
+    "id": 514,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 15,
+    "id": 515,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 16,
+    "id": 516,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 17,
+    "id": 517,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 18,
+    "id": 518,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 19,
+    "id": 519,
+    "rarity": 5
+  },
+  {
+    "seconds": 900,
+    "unit_level": 20,
+    "id": 520,
+    "rarity": 5
+  }
+]

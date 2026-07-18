@@ -1,0 +1,157 @@
+[
+  {
+    "emoticon_type": 3,
+    "id": 1,
+    "emoticon_key_string": "ui_battle_taunts_angry_0"
+  },
+  {
+    "emoticon_type": 3,
+    "id": 2,
+    "emoticon_key_string": "ui_battle_taunts_angry_1"
+  },
+  {
+    "emoticon_type": 3,
+    "id": 3,
+    "emoticon_key_string": "ui_battle_taunts_angry_2"
+  },
+  {
+    "emoticon_type": 3,
+    "id": 4,
+    "emoticon_key_string": "ui_battle_taunts_angry_3"
+  },
+  {
+    "emoticon_type": 3,
+    "id": 5,
+    "emoticon_key_string": "ui_battle_taunts_angry_4"
+  },
+  {
+    "emoticon_type": 3,
+    "id": 6,
+    "emoticon_key_string": "ui_battle_taunts_angry_5"
+  },
+  {
+    "emoticon_type": 3,
+    "id": 7,
+    "emoticon_key_string": "ui_battle_taunts_angry_6"
+  },
+  {
+    "emoticon_type": 3,
+    "id": 8,
+    "emoticon_key_string": "ui_battle_taunts_angry_7"
+  },
+  {
+    "emoticon_type": 3,
+    "id": 9,
+    "emoticon_key_string": "ui_battle_taunts_angry_8"
+  },
+  {
+    "emoticon_type": 3,
+    "id": 10,
+    "emoticon_key_string": "ui_battle_taunts_angry_9"
+  },
+  {
+    "emoticon_type": 3,
+    "id": 11,
+    "emoticon_key_string": "ui_battle_taunts_angry_10"
+  },
+  {
+    "emoticon_type": 3,
+    "id": 12,
+    "emoticon_key_string": "ui_battle_taunts_angry_11"
+  },
+  {
+    "emoticon_type": 3,
+    "id": 13,
+    "emoticon_key_string": "ui_battle_taunts_angry_12"
+  },
+  {
+    "emoticon_type": 1,
+    "id": 14,
+    "emoticon_key_string": "ui_battle_taunts_happy_0"
+  },
+  {
+    "emoticon_type": 1,
+    "id": 15,
+    "emoticon_key_string": "ui_battle_taunts_happy_1"
+  },
+  {
+    "emoticon_type": 1,
+    "id": 16,
+    "emoticon_key_string": "ui_battle_taunts_happy_2"
+  },
+  {
+    "emoticon_type": 1,
+    "id": 17,
+    "emoticon_key_string": "ui_battle_taunts_happy_3"
+  },
+  {
+    "emoticon_type": 1,
+    "id": 18,
+    "emoticon_key_string": "ui_battle_taunts_happy_4"
+  },
+  {
+    "emoticon_type": 1,
+    "id": 19,
+    "emoticon_key_string": "ui_battle_taunts_happy_5"
+  },
+  {
+    "emoticon_type": 1,
+    "id": 20,
+    "emoticon_key_string": "ui_battle_taunts_happy_6"
+  },
+  {
+    "emoticon_type": 1,
+    "id": 21,
+    "emoticon_key_string": "ui_battle_taunts_happy_7"
+  },
+  {
+    "emoticon_type": 2,
+    "id": 22,
+    "emoticon_key_string": "ui_battle_taunts_sad_0"
+  },
+  {
+    "emoticon_type": 2,
+    "id": 23,
+    "emoticon_key_string": "ui_battle_taunts_sad_1"
+  },
+  {
+    "emoticon_type": 2,
+    "id": 24,
+    "emoticon_key_string": "ui_battle_taunts_sad_2"
+  },
+  {
+    "emoticon_type": 2,
+    "id": 25,
+    "emoticon_key_string": "ui_battle_taunts_sad_3"
+  },
+  {
+    "emoticon_type": 2,
+    "id": 26,
+    "emoticon_key_string": "ui_battle_taunts_sad_4"
+  },
+  {
+    "emoticon_type": 2,
+    "id": 27,
+    "emoticon_key_string": "ui_battle_taunts_sad_5"
+  },
+  {
+    "emoticon_type": 2,
+    "id": 28,
+    "emoticon_key_string": "ui_battle_taunts_sad_6"
+  },
+  {
+    "emoticon_type": 2,
+    "id": 29,
+    "emoticon_key_string": "ui_battle_taunts_sad_7"
+  },
+  {
+    "emoticon_type": 2,
+    "id": 30,
+    "emoticon_key_string": "ui_battle_taunts_sad_8"
+  },
+  {
+    "emoticon_type": 2,
+    "id": 31,
+    "emoticon_key_string": "ui_battle_taunts_sad_9"
+  }
+]

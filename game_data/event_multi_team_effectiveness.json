@@ -1,0 +1,52 @@
+[
+  {
+    "post_event_unit_min": 0,
+    "post_event_unit_max": 0,
+    "event_unit_rank_min": 0,
+    "event_unit_rank_max": 0,
+    "unit_rarity": 1,
+    "non_event_unit_rank_min": 1,
+    "non_event_unit_rank_max": 4,
+    "id": 1
+  },
+  {
+    "post_event_unit_min": 2,
+    "post_event_unit_max": 4,
+    "event_unit_rank_min": 5,
+    "event_unit_rank_max": 6,
+    "unit_rarity": 2,
+    "non_event_unit_rank_min": 3,
+    "non_event_unit_rank_max": 6,
+    "id": 2
+  },
+  {
+    "post_event_unit_min": 3,
+    "post_event_unit_max": 5,
+    "event_unit_rank_min": 7,
+    "event_unit_rank_max": 8,
+    "unit_rarity": 3,
+    "non_event_unit_rank_min": 4,
+    "non_event_unit_rank_max": 7,
+    "id": 3
+  },
+  {
+    "post_event_unit_min": 6,
+    "post_event_unit_max": 8,
+    "event_unit_rank_min": 9,
+    "event_unit_rank_max": 10,
+    "unit_rarity": 4,
+    "non_event_unit_rank_min": 6,
+    "non_event_unit_rank_max": 9,
+    "id": 4
+  },
+  {
+    "post_event_unit_min": 9,
+    "post_event_unit_max": 11,
+    "event_unit_rank_min": 11,
+    "event_unit_rank_max": 12,
+    "unit_rarity": 5,
+    "non_event_unit_rank_min": 8,
+    "non_event_unit_rank_max": 11,
+    "id": 5
+  }
+]

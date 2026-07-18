@@ -1,0 +1,27 @@
+[
+  {
+    "key_name": "metadata_unit_rarity_1",
+    "id": 1,
+    "key_name_text": "普通"
+  },
+  {
+    "key_name": "metadata_unit_rarity_2",
+    "id": 2,
+    "key_name_text": "优秀"
+  },
+  {
+    "key_name": "metadata_unit_rarity_3",
+    "id": 3,
+    "key_name_text": "稀有"
+  },
+  {
+    "key_name": "metadata_unit_rarity_4",
+    "id": 4,
+    "key_name_text": "非常稀有"
+  },
+  {
+    "key_name": "metadata_unit_rarity_5",
+    "id": 5,
+    "key_name_text": "LEGENDARY"
+  }
+]

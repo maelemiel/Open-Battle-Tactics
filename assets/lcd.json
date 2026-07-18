@@ -1,0 +1,7 @@
+{
+	"sandbox" : false,
+	"staging" : false,
+	"debugLog" : true,
+	"fullScreen" : true,
+	"referrerReceivers" : [""]
+}

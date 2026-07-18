@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "BASICS",
+    "title_key": "ui_help_topic_1"
+  },
+  {
+    "id": 2,
+    "name": "TANKS",
+    "title_key": "ui_help_topic_2"
+  },
+  {
+    "id": 3,
+    "name": "ABILITIES",
+    "title_key": "ui_help_topic_3"
+  },
+  {
+    "id": 4,
+    "name": "SPECIALS",
+    "title_key": "ui_help_topic_4"
+  },
+  {
+    "id": 5,
+    "name": "PASSIVE SPECIALS",
+    "title_key": "ui_help_topic_5"
+  },
+  {
+    "id": 6,
+    "name": "CONTRACTS",
+    "title_key": "ui_help_topic_6"
+  },
+  {
+    "id": 7,
+    "name": "RANKING",
+    "title_key": "ui_help_topic_7"
+  },
+  {
+    "id": 8,
+    "name": "TIERS",
+    "title_key": "ui_help_topic_8"
+  },
+  {
+    "id": 9,
+    "name": "CLUBS",
+    "title_key": "ui_help_topic_9"
+  },
+  {
+    "id": 10,
+    "name": "SETTINGS",
+    "title_key": "ui_help_topic_10"
+  }
+]

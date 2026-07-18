@@ -1,0 +1,82 @@
+[
+  {
+    "handler": "reroll",
+    "id": 901
+  },
+  {
+    "handler": "target",
+    "id": 902
+  },
+  {
+    "handler": "drawfire",
+    "id": 903
+  },
+  {
+    "handler": "barrage",
+    "id": 904
+  },
+  {
+    "handler": "jammer",
+    "id": 905
+  },
+  {
+    "handler": "armour_buff",
+    "id": 906
+  },
+  {
+    "handler": "cake_walk",
+    "id": 907
+  },
+  {
+    "handler": "ion_strike",
+    "id": 908
+  },
+  {
+    "handler": "self_destruct",
+    "id": 909
+  },
+  {
+    "handler": "small_ion_strike",
+    "id": 910
+  },
+  {
+    "handler": "reroll_all",
+    "id": 911
+  },
+  {
+    "handler": "firebomb",
+    "id": 912
+  },
+  {
+    "handler": "target_advance",
+    "id": 913
+  },
+  {
+    "handler": "em_pulse",
+    "id": 914
+  },
+  {
+    "handler": "respin2",
+    "id": 915
+  },
+  {
+    "handler": "intel",
+    "id": 916
+  },
+  {
+    "handler": "ambush",
+    "id": 917
+  },
+  {
+    "handler": "jammer2",
+    "id": 918
+  },
+  {
+    "handler": "douse",
+    "id": 919
+  },
+  {
+    "handler": "fake",
+    "id": 999
+  }
+]

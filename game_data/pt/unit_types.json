@@ -1,0 +1,72 @@
+[
+  {
+    "key_name": "metadata_unit_type_name_1",
+    "id": 1,
+    "key_name_text": "Investida"
+  },
+  {
+    "key_name": "metadata_unit_type_name_2",
+    "id": 2,
+    "key_name_text": "Comando"
+  },
+  {
+    "key_name": "metadata_unit_type_name_3",
+    "id": 3,
+    "key_name_text": "Operativo"
+  },
+  {
+    "key_name": "metadata_unit_type_name_4",
+    "id": 4,
+    "key_name_text": "Helicóptero"
+  },
+  {
+    "key_name": "metadata_unit_type_name_5",
+    "id": 5,
+    "key_name_text": "Exclusivo"
+  },
+  {
+    "key_name": "metadata_unit_type_name_6",
+    "id": 6,
+    "key_name_text": "Comando Exclusivo"
+  },
+  {
+    "key_name": "metadata_unit_type_name_7",
+    "id": 7,
+    "key_name_text": "Operativo Exclusivo"
+  },
+  {
+    "key_name": "metadata_unit_type_name_8",
+    "id": 8,
+    "key_name_text": "Ar Exclusivo"
+  },
+  {
+    "key_name": "metadata_unit_type_name_9",
+    "id": 9,
+    "key_name_text": "Chefe"
+  },
+  {
+    "key_name": "metadata_unit_type_name_10",
+    "id": 10,
+    "key_name_text": "Evento"
+  },
+  {
+    "key_name": "metadata_unit_type_name_11",
+    "id": 11,
+    "key_name_text": "Evento de  Assaulto"
+  },
+  {
+    "key_name": "metadata_unit_type_name_12",
+    "id": 12,
+    "key_name_text": "Evento de Comando"
+  },
+  {
+    "key_name": "metadata_unit_type_name_13",
+    "id": 13,
+    "key_name_text": "Evento de Operativo"
+  },
+  {
+    "key_name": "metadata_unit_type_name_20",
+    "id": 20,
+    "key_name_text": "Chefe de Raid"
+  }
+]

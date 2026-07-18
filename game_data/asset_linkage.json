@@ -1,0 +1,6806 @@
+[
+  {
+    "asset_name": "BurnEffect.prefab",
+    "bundle_id": 100,
+    "id": 1000,
+    "priority": 1400
+  },
+  {
+    "asset_name": "AbilityPointsEffect.prefab",
+    "bundle_id": 101,
+    "id": 1010,
+    "priority": 1400
+  },
+  {
+    "asset_name": "BestRollFireworks.prefab",
+    "bundle_id": 102,
+    "id": 1020,
+    "priority": 1400
+  },
+  {
+    "asset_name": "BossBattleMomentEffect.prefab",
+    "bundle_id": 103,
+    "id": 1030,
+    "priority": 1400
+  },
+  {
+    "asset_name": "CakeWalkEffect.prefab",
+    "bundle_id": 104,
+    "id": 1040,
+    "priority": 1400
+  },
+  {
+    "asset_name": "CriticalHitEffect.prefab",
+    "bundle_id": 105,
+    "id": 1050,
+    "priority": 1400
+  },
+  {
+    "asset_name": "DebrisBounceEffect.prefab",
+    "bundle_id": 106,
+    "id": 1060,
+    "priority": 1400
+  },
+  {
+    "asset_name": "DebrisEffect.prefab",
+    "bundle_id": 106,
+    "id": 1061,
+    "priority": 1400
+  },
+  {
+    "asset_name": "EMPulseEffect.prefab",
+    "bundle_id": 107,
+    "id": 1070,
+    "priority": 1400
+  },
+  {
+    "asset_name": "RailgunHitPrefab.prefab",
+    "bundle_id": 108,
+    "id": 1080,
+    "priority": 1400
+  },
+  {
+    "asset_name": "RailgunProjectileEffect.prefab",
+    "bundle_id": 108,
+    "id": 1081,
+    "priority": 1400
+  },
+  {
+    "asset_name": "FirebombEffect.prefab",
+    "bundle_id": 109,
+    "id": 1090,
+    "priority": 1400
+  },
+  {
+    "asset_name": "HotshotFireEffect.prefab",
+    "bundle_id": 110,
+    "id": 1100,
+    "priority": 1400
+  },
+  {
+    "asset_name": "HotshotHitEffect.prefab",
+    "bundle_id": 111,
+    "id": 1110,
+    "priority": 1400
+  },
+  {
+    "asset_name": "JammerUpdated.prefab",
+    "bundle_id": 112,
+    "id": 1120,
+    "priority": 1400
+  },
+  {
+    "asset_name": "Jammer2Updated.prefab",
+    "bundle_id": 113,
+    "id": 1130,
+    "priority": 1400
+  },
+  {
+    "asset_name": "MissileBurstEffect.prefab",
+    "bundle_id": 114,
+    "id": 1140,
+    "priority": 1400
+  },
+  {
+    "asset_name": "MissileFireEffects.prefab",
+    "bundle_id": 114,
+    "id": 1141,
+    "priority": 1400
+  },
+  {
+    "asset_name": "MissileHitEffects.prefab",
+    "bundle_id": 115,
+    "id": 1150,
+    "priority": 1400
+  },
+  {
+    "asset_name": "NapalmEffect.prefab",
+    "bundle_id": 116,
+    "id": 1160,
+    "priority": 1400
+  },
+  {
+    "asset_name": "PassiveEffects.prefab",
+    "bundle_id": 117,
+    "id": 1170,
+    "priority": 1400
+  },
+  {
+    "asset_name": "RocketExplosionEffect.prefab",
+    "bundle_id": 118,
+    "id": 1180,
+    "priority": 1400
+  },
+  {
+    "asset_name": "RocketFireEffect.prefab",
+    "bundle_id": 118,
+    "id": 1181,
+    "priority": 1400
+  },
+  {
+    "asset_name": "RocketHitEffect.prefab",
+    "bundle_id": 118,
+    "id": 1182,
+    "priority": 1400
+  },
+  {
+    "asset_name": "RailgunAnimation_Ray.prefab",
+    "bundle_id": 119,
+    "id": 1190,
+    "priority": 1400
+  },
+  {
+    "asset_name": "RailgunAnimation_Shot.prefab",
+    "bundle_id": 119,
+    "id": 1191,
+    "priority": 1400
+  },
+  {
+    "asset_name": "BombDropEffect.prefab",
+    "bundle_id": 121,
+    "id": 1200,
+    "priority": 1400
+  },
+  {
+    "asset_name": "PlaneFlyoverEffect.prefab",
+    "bundle_id": 121,
+    "id": 1201,
+    "priority": 1400
+  },
+  {
+    "asset_name": "BombardNew.prefab",
+    "bundle_id": 120,
+    "id": 1210,
+    "priority": 1400
+  },
+  {
+    "asset_name": "BombardNew_2.prefab",
+    "bundle_id": 120,
+    "id": 1211,
+    "priority": 1400
+  },
+  {
+    "asset_name": "Big Boss Explosion.prefab",
+    "bundle_id": 122,
+    "id": 1220,
+    "priority": 1400
+  },
+  {
+    "asset_name": "CriticalHitEffect.prefab",
+    "bundle_id": 123,
+    "id": 1230,
+    "priority": 1300
+  },
+  {
+    "asset_name": "ExplosionEffect.prefab",
+    "bundle_id": 124,
+    "id": 1240,
+    "priority": 1300
+  },
+  {
+    "asset_name": "ExtinguishUnitEffect.prefab",
+    "bundle_id": 125,
+    "id": 1250,
+    "priority": 1400
+  },
+  {
+    "asset_name": "Intel Ability Scan.prefab",
+    "bundle_id": 126,
+    "id": 1260,
+    "priority": 1400
+  },
+  {
+    "asset_name": "Intel Ability Deploy.prefab",
+    "bundle_id": 126,
+    "id": 1261,
+    "priority": 1400
+  },
+  {
+    "asset_name": "Intel Ability Parachute.prefab",
+    "bundle_id": 126,
+    "id": 1262,
+    "priority": 1400
+  },
+  {
+    "asset_name": "DrawfireActivationEffect.prefab",
+    "bundle_id": 127,
+    "id": 1270,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_Frank.prefab",
+    "bundle_id": 300,
+    "id": 3000,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_Pepper.prefab",
+    "bundle_id": 301,
+    "id": 3001,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_Vikki.prefab",
+    "bundle_id": 302,
+    "id": 3002,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_Bambi.prefab",
+    "bundle_id": 303,
+    "id": 3003,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_0.prefab",
+    "bundle_id": 304,
+    "id": 3004,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_1.prefab",
+    "bundle_id": 305,
+    "id": 3005,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_2.prefab",
+    "bundle_id": 306,
+    "id": 3006,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_3.prefab",
+    "bundle_id": 307,
+    "id": 3007,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_4.prefab",
+    "bundle_id": 308,
+    "id": 3008,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_5.prefab",
+    "bundle_id": 309,
+    "id": 3009,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_6.prefab",
+    "bundle_id": 310,
+    "id": 3010,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_7.prefab",
+    "bundle_id": 311,
+    "id": 3011,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_8.prefab",
+    "bundle_id": 312,
+    "id": 3012,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Announcer_9.prefab",
+    "bundle_id": 313,
+    "id": 3013,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_1.prefab",
+    "bundle_id": 401,
+    "id": 4001,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_2.prefab",
+    "bundle_id": 402,
+    "id": 4002,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_3.prefab",
+    "bundle_id": 403,
+    "id": 4003,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_4.prefab",
+    "bundle_id": 404,
+    "id": 4004,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_5.prefab",
+    "bundle_id": 405,
+    "id": 4005,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_6.prefab",
+    "bundle_id": 406,
+    "id": 4006,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_7.prefab",
+    "bundle_id": 407,
+    "id": 4007,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_8.prefab",
+    "bundle_id": 408,
+    "id": 4008,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_9.prefab",
+    "bundle_id": 409,
+    "id": 4009,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_10.prefab",
+    "bundle_id": 410,
+    "id": 4010,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_11.prefab",
+    "bundle_id": 411,
+    "id": 4011,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_12.prefab",
+    "bundle_id": 412,
+    "id": 4012,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_13.prefab",
+    "bundle_id": 413,
+    "id": 4013,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_14.prefab",
+    "bundle_id": 414,
+    "id": 4014,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_15.prefab",
+    "bundle_id": 415,
+    "id": 4015,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_16.prefab",
+    "bundle_id": 416,
+    "id": 4016,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_17.prefab",
+    "bundle_id": 417,
+    "id": 4017,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_18.prefab",
+    "bundle_id": 418,
+    "id": 4018,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_19.prefab",
+    "bundle_id": 419,
+    "id": 4019,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_20.prefab",
+    "bundle_id": 420,
+    "id": 4020,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_21.prefab",
+    "bundle_id": 421,
+    "id": 4021,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_22.prefab",
+    "bundle_id": 422,
+    "id": 4022,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_23.prefab",
+    "bundle_id": 423,
+    "id": 4023,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_24.prefab",
+    "bundle_id": 424,
+    "id": 4024,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectFiring_25.prefab",
+    "bundle_id": 425,
+    "id": 4025,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_1.prefab",
+    "bundle_id": 401,
+    "id": 4026,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_2.prefab",
+    "bundle_id": 402,
+    "id": 4027,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_3.prefab",
+    "bundle_id": 403,
+    "id": 4028,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_4.prefab",
+    "bundle_id": 404,
+    "id": 4029,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_5.prefab",
+    "bundle_id": 405,
+    "id": 4030,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_6.prefab",
+    "bundle_id": 406,
+    "id": 4031,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_7.prefab",
+    "bundle_id": 407,
+    "id": 4032,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_8.prefab",
+    "bundle_id": 408,
+    "id": 4033,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_9.prefab",
+    "bundle_id": 409,
+    "id": 4034,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_10.prefab",
+    "bundle_id": 410,
+    "id": 4035,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_11.prefab",
+    "bundle_id": 411,
+    "id": 4036,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_12.prefab",
+    "bundle_id": 412,
+    "id": 4037,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_13.prefab",
+    "bundle_id": 413,
+    "id": 4038,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_14.prefab",
+    "bundle_id": 414,
+    "id": 4039,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_15.prefab",
+    "bundle_id": 415,
+    "id": 4040,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_16.prefab",
+    "bundle_id": 416,
+    "id": 4041,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_17.prefab",
+    "bundle_id": 417,
+    "id": 4042,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_18.prefab",
+    "bundle_id": 418,
+    "id": 4043,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_19.prefab",
+    "bundle_id": 419,
+    "id": 4044,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_20.prefab",
+    "bundle_id": 420,
+    "id": 4045,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_21.prefab",
+    "bundle_id": 421,
+    "id": 4046,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_22.prefab",
+    "bundle_id": 422,
+    "id": 4047,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_23.prefab",
+    "bundle_id": 423,
+    "id": 4048,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_24.prefab",
+    "bundle_id": 424,
+    "id": 4049,
+    "priority": 1300
+  },
+  {
+    "asset_name": "BattleEffectHit_25.prefab",
+    "bundle_id": 425,
+    "id": 4050,
+    "priority": 1300
+  },
+  {
+    "asset_name": "firing_audio.mp3",
+    "bundle_id": 401,
+    "id": 4051,
+    "priority": 1300
+  },
+  {
+    "asset_name": "hit_audio.mp3",
+    "bundle_id": 401,
+    "id": 4052,
+    "priority": 1300
+  },
+  {
+    "asset_name": "TestPart1.prefab",
+    "bundle_id": 500,
+    "id": 5001,
+    "priority": 1150
+  },
+  {
+    "asset_name": "TestPart2.prefab",
+    "bundle_id": 500,
+    "id": 5002,
+    "priority": 1150
+  },
+  {
+    "asset_name": "TestPart3.prefab",
+    "bundle_id": 500,
+    "id": 5003,
+    "priority": 1150
+  },
+  {
+    "asset_name": "TestPart4.prefab",
+    "bundle_id": 500,
+    "id": 5004,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Common.prefab",
+    "bundle_id": 500,
+    "id": 5005,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Uncommon.prefab",
+    "bundle_id": 500,
+    "id": 5006,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareRed.prefab",
+    "bundle_id": 500,
+    "id": 5007,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareGreen.prefab",
+    "bundle_id": 500,
+    "id": 5008,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareYellow.prefab",
+    "bundle_id": 500,
+    "id": 5009,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 1.prefab",
+    "bundle_id": 500,
+    "id": 5010,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 2.prefab",
+    "bundle_id": 500,
+    "id": 5011,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 3.prefab",
+    "bundle_id": 500,
+    "id": 5012,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 4.prefab",
+    "bundle_id": 500,
+    "id": 5013,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 5.prefab",
+    "bundle_id": 500,
+    "id": 5014,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 6.prefab",
+    "bundle_id": 500,
+    "id": 5015,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 7.prefab",
+    "bundle_id": 500,
+    "id": 5016,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 8.prefab",
+    "bundle_id": 500,
+    "id": 5017,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 9.prefab",
+    "bundle_id": 500,
+    "id": 5018,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 10.prefab",
+    "bundle_id": 500,
+    "id": 5019,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 11.prefab",
+    "bundle_id": 500,
+    "id": 5020,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 12.prefab",
+    "bundle_id": 500,
+    "id": 5021,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 13.prefab",
+    "bundle_id": 500,
+    "id": 5022,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 14.prefab",
+    "bundle_id": 500,
+    "id": 5023,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 15.prefab",
+    "bundle_id": 500,
+    "id": 5024,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 16.prefab",
+    "bundle_id": 500,
+    "id": 5025,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 17.prefab",
+    "bundle_id": 500,
+    "id": 5026,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 18.prefab",
+    "bundle_id": 500,
+    "id": 5027,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 19.prefab",
+    "bundle_id": 500,
+    "id": 5028,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 20.prefab",
+    "bundle_id": 500,
+    "id": 5029,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareExclusive.prefab",
+    "bundle_id": 500,
+    "id": 5030,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 1.prefab",
+    "bundle_id": 500,
+    "id": 5031,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 2.prefab",
+    "bundle_id": 500,
+    "id": 5032,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 3.prefab",
+    "bundle_id": 500,
+    "id": 5033,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 4.prefab",
+    "bundle_id": 500,
+    "id": 5034,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 5.prefab",
+    "bundle_id": 500,
+    "id": 5035,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 6.prefab",
+    "bundle_id": 500,
+    "id": 5036,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 7.prefab",
+    "bundle_id": 500,
+    "id": 5037,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 8.prefab",
+    "bundle_id": 500,
+    "id": 5038,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 9.prefab",
+    "bundle_id": 500,
+    "id": 5039,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 10.prefab",
+    "bundle_id": 500,
+    "id": 5040,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 21.prefab",
+    "bundle_id": 500,
+    "id": 5041,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 22.prefab",
+    "bundle_id": 500,
+    "id": 5042,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 13.prefab",
+    "bundle_id": 500,
+    "id": 5043,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 24.prefab",
+    "bundle_id": 500,
+    "id": 5044,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 25.prefab",
+    "bundle_id": 500,
+    "id": 5045,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 11.prefab",
+    "bundle_id": 500,
+    "id": 5046,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 12.prefab",
+    "bundle_id": 500,
+    "id": 5047,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent01 2.prefab",
+    "bundle_id": 500,
+    "id": 5048,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent01 4.prefab",
+    "bundle_id": 500,
+    "id": 5049,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent01 5.prefab",
+    "bundle_id": 500,
+    "id": 5050,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent01 7.prefab",
+    "bundle_id": 500,
+    "id": 5051,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent01 1.prefab",
+    "bundle_id": 500,
+    "id": 5052,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent01 3.prefab",
+    "bundle_id": 500,
+    "id": 5053,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent01 6.prefab",
+    "bundle_id": 500,
+    "id": 5054,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent01 8.prefab",
+    "bundle_id": 500,
+    "id": 5055,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareEvent01.prefab",
+    "bundle_id": 500,
+    "id": 5056,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareEvent02.prefab",
+    "bundle_id": 500,
+    "id": 5057,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent02 1.prefab",
+    "bundle_id": 500,
+    "id": 5058,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent02 6.prefab",
+    "bundle_id": 500,
+    "id": 5059,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent02 3.prefab",
+    "bundle_id": 500,
+    "id": 5060,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent02 4.prefab",
+    "bundle_id": 500,
+    "id": 5061,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent02 5.prefab",
+    "bundle_id": 500,
+    "id": 5062,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareEvent03.prefab",
+    "bundle_id": 500,
+    "id": 5063,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent03 1.prefab",
+    "bundle_id": 500,
+    "id": 5064,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent03 3.prefab",
+    "bundle_id": 500,
+    "id": 5065,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent03 4.prefab",
+    "bundle_id": 500,
+    "id": 5066,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent03 5.prefab",
+    "bundle_id": 500,
+    "id": 5067,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareEvent04.prefab",
+    "bundle_id": 500,
+    "id": 5068,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent04 1.prefab",
+    "bundle_id": 500,
+    "id": 5069,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent04 2.prefab",
+    "bundle_id": 500,
+    "id": 5070,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent04 3.prefab",
+    "bundle_id": 500,
+    "id": 5071,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent04 6.prefab",
+    "bundle_id": 500,
+    "id": 5072,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 14.prefab",
+    "bundle_id": 500,
+    "id": 5073,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 15.prefab",
+    "bundle_id": 500,
+    "id": 5074,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 26.prefab",
+    "bundle_id": 500,
+    "id": 5075,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent08 1.prefab",
+    "bundle_id": 500,
+    "id": 5076,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent08 2.prefab",
+    "bundle_id": 500,
+    "id": 5077,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent08 3.prefab",
+    "bundle_id": 500,
+    "id": 5078,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent08 4.prefab",
+    "bundle_id": 500,
+    "id": 5079,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareEvent08.prefab",
+    "bundle_id": 500,
+    "id": 5080,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent06 1.prefab",
+    "bundle_id": 500,
+    "id": 5081,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent06 2.prefab",
+    "bundle_id": 500,
+    "id": 5082,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent06 3.prefab",
+    "bundle_id": 500,
+    "id": 5083,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent06 4.prefab",
+    "bundle_id": 500,
+    "id": 5085,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareEvent09.prefab",
+    "bundle_id": 500,
+    "id": 5087,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent09 3.prefab",
+    "bundle_id": 500,
+    "id": 5088,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent09 1.prefab",
+    "bundle_id": 500,
+    "id": 5089,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent09 2.prefab",
+    "bundle_id": 500,
+    "id": 5090,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent09 4.prefab",
+    "bundle_id": 500,
+    "id": 5091,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 16.prefab",
+    "bundle_id": 500,
+    "id": 5092,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 17.prefab",
+    "bundle_id": 500,
+    "id": 5093,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareEvent06.prefab",
+    "bundle_id": 500,
+    "id": 5095,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent06 6.prefab",
+    "bundle_id": 500,
+    "id": 5096,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent06 5.prefab",
+    "bundle_id": 500,
+    "id": 5097,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent06 1.prefab",
+    "bundle_id": 500,
+    "id": 5098,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 19.prefab",
+    "bundle_id": 500,
+    "id": 5099,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent10 1.prefab",
+    "bundle_id": 500,
+    "id": 5100,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent10 2.prefab",
+    "bundle_id": 500,
+    "id": 5101,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent10 5.prefab",
+    "bundle_id": 500,
+    "id": 5102,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareEvent10.prefab",
+    "bundle_id": 500,
+    "id": 5103,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent10 6.prefab",
+    "bundle_id": 500,
+    "id": 5104,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareEarth.prefab",
+    "bundle_id": 500,
+    "id": 5105,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Earth_4101037.prefab",
+    "bundle_id": 500,
+    "id": 5106,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Earth_4102022.prefab",
+    "bundle_id": 500,
+    "id": 5107,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Earth_3104011.prefab",
+    "bundle_id": 500,
+    "id": 5108,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Insect_4103027.prefab",
+    "bundle_id": 500,
+    "id": 5109,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Insect_4102026.prefab",
+    "bundle_id": 500,
+    "id": 5110,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Insect_4104025.prefab",
+    "bundle_id": 500,
+    "id": 5111,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Insect_4101041.prefab",
+    "bundle_id": 500,
+    "id": 5112,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareInsect.prefab",
+    "bundle_id": 500,
+    "id": 5113,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Insect_4101051.prefab",
+    "bundle_id": 500,
+    "id": 5114,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Winter_4101046.prefab",
+    "bundle_id": 500,
+    "id": 5115,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Winter_4102032.prefab",
+    "bundle_id": 500,
+    "id": 5116,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Winter_4104031.prefab",
+    "bundle_id": 500,
+    "id": 5117,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Winter_4101049.prefab",
+    "bundle_id": 500,
+    "id": 5118,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareWinter.prefab",
+    "bundle_id": 500,
+    "id": 5119,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_DropNSwap_Winter.prefab",
+    "bundle_id": 500,
+    "id": 5120,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RarePast.prefab",
+    "bundle_id": 500,
+    "id": 5121,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 27 4104035.prefab",
+    "bundle_id": 500,
+    "id": 5122,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareSteam.prefab",
+    "bundle_id": 500,
+    "id": 5123,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Steam_3104014.prefab",
+    "bundle_id": 500,
+    "id": 5124,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Steam_4101040.prefab",
+    "bundle_id": 500,
+    "id": 5125,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Steam_4101052.prefab",
+    "bundle_id": 500,
+    "id": 5126,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Steam_4102039.prefab",
+    "bundle_id": 500,
+    "id": 5127,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Steam_4103026.prefab",
+    "bundle_id": 500,
+    "id": 5128,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Steam_4104024.prefab",
+    "bundle_id": 500,
+    "id": 5129,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 18.prefab",
+    "bundle_id": 500,
+    "id": 5130,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 28 9311002.prefab",
+    "bundle_id": 500,
+    "id": 5131,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareGangster.prefab",
+    "bundle_id": 500,
+    "id": 5132,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Gangster_4101039.prefab",
+    "bundle_id": 500,
+    "id": 5133,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Gangster_4103025.prefab",
+    "bundle_id": 500,
+    "id": 5134,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Gangster_4104023.prefab",
+    "bundle_id": 500,
+    "id": 5135,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Gangster_4101065.prefab",
+    "bundle_id": 500,
+    "id": 5136,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 21 4103020.prefab",
+    "bundle_id": 500,
+    "id": 5137,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 29 4102020.prefab",
+    "bundle_id": 500,
+    "id": 5138,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Blackwater_4101058.prefab",
+    "bundle_id": 500,
+    "id": 5139,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Blackwater_4104032.prefab",
+    "bundle_id": 500,
+    "id": 5140,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Blackwater_4101076.prefab",
+    "bundle_id": 500,
+    "id": 5141,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Blackwater_4102034.prefab",
+    "bundle_id": 500,
+    "id": 5142,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareBlackwater.prefab",
+    "bundle_id": 500,
+    "id": 5143,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 22 4101066.prefab",
+    "bundle_id": 500,
+    "id": 5144,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 30 4103031.prefab",
+    "bundle_id": 500,
+    "id": 5145,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareEvent07.prefab",
+    "bundle_id": 500,
+    "id": 5146,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent07 6.prefab",
+    "bundle_id": 500,
+    "id": 5147,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent07 5.prefab",
+    "bundle_id": 500,
+    "id": 5148,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent07 3.prefab",
+    "bundle_id": 500,
+    "id": 5149,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SREvent07 4.prefab",
+    "bundle_id": 500,
+    "id": 5150,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 31 4102030.prefab",
+    "bundle_id": 500,
+    "id": 5151,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 23 4102029.prefab",
+    "bundle_id": 500,
+    "id": 5152,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareCircus.prefab",
+    "bundle_id": 500,
+    "id": 5153,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Circus_4102033.prefab",
+    "bundle_id": 500,
+    "id": 5154,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Circus_4102038.prefab",
+    "bundle_id": 500,
+    "id": 5155,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Circus_4101062.prefab",
+    "bundle_id": 500,
+    "id": 5156,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Circus_4104034.prefab",
+    "bundle_id": 500,
+    "id": 5157,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Circus_4101062.prefab",
+    "bundle_id": 500,
+    "id": 5158,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Legendary 1 5101001.prefab",
+    "bundle_id": 500,
+    "id": 5159,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareMedieval.prefab",
+    "bundle_id": 500,
+    "id": 5160,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 40 4101069.prefab",
+    "bundle_id": 500,
+    "id": 5161,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 40 4101043.prefab",
+    "bundle_id": 500,
+    "id": 5162,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Legendary 2 5101002.prefab",
+    "bundle_id": 500,
+    "id": 5163,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareLegendary.prefab",
+    "bundle_id": 500,
+    "id": 5164,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Medieval_4102036.prefab",
+    "bundle_id": 500,
+    "id": 5165,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Medieval_4101063.prefab",
+    "bundle_id": 500,
+    "id": 5166,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Medieval_4102037.prefab",
+    "bundle_id": 500,
+    "id": 5167,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Medieval_4103036.prefab",
+    "bundle_id": 500,
+    "id": 5168,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SR 41 4101042.prefab",
+    "bundle_id": 500,
+    "id": 5169,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 41 4101068.prefab",
+    "bundle_id": 500,
+    "id": 5170,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Legendary 3 5104001.prefab",
+    "bundle_id": 500,
+    "id": 5171,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareBling.prefab",
+    "bundle_id": 500,
+    "id": 5172,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Bling_4101061.prefab",
+    "bundle_id": 500,
+    "id": 5173,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Bling_4103038.prefab",
+    "bundle_id": 500,
+    "id": 5174,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Bling_4102035.prefab",
+    "bundle_id": 500,
+    "id": 5175,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Bling_4101057.prefab",
+    "bundle_id": 500,
+    "id": 5176,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_DropNSwap_Winter.prefab",
+    "bundle_id": 500,
+    "id": 5177,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_DropNSwap_bling.prefab",
+    "bundle_id": 500,
+    "id": 5178,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Part_SR 42 4104029.prefab",
+    "bundle_id": 500,
+    "id": 5179,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_SRE 42 4104045.prefab",
+    "bundle_id": 500,
+    "id": 5180,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_Titan_5101004.prefab",
+    "bundle_id": 500,
+    "id": 5181,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Parts_SREvent27.prefab",
+    "bundle_id": 500,
+    "id": 5182,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Part_RareAir.prefab",
+    "bundle_id": 500,
+    "id": 5999,
+    "priority": 1150
+  },
+  {
+    "asset_name": "BluePrint_Assault.prefab",
+    "bundle_id": 1003,
+    "id": 6001,
+    "priority": 1700
+  },
+  {
+    "asset_name": "BluePrint_Command.prefab",
+    "bundle_id": 1003,
+    "id": 6002,
+    "priority": 1700
+  },
+  {
+    "asset_name": "BluePrint_Operative.prefab",
+    "bundle_id": 1003,
+    "id": 6003,
+    "priority": 1700
+  },
+  {
+    "asset_name": "ChatIcon_Admin.prefab",
+    "bundle_id": 1005,
+    "id": 6501,
+    "priority": 1350
+  },
+  {
+    "asset_name": "ChatIcon_Broadcast.prefab",
+    "bundle_id": 1005,
+    "id": 6502,
+    "priority": 1350
+  },
+  {
+    "asset_name": "DivisionBadge_0.prefab",
+    "bundle_id": 1006,
+    "id": 7000,
+    "priority": 1055
+  },
+  {
+    "asset_name": "DivisionBadge_1.prefab",
+    "bundle_id": 1006,
+    "id": 7001,
+    "priority": 1055
+  },
+  {
+    "asset_name": "DivisionBadge_2.prefab",
+    "bundle_id": 1006,
+    "id": 7002,
+    "priority": 1055
+  },
+  {
+    "asset_name": "DivisionBadge_3.prefab",
+    "bundle_id": 1006,
+    "id": 7003,
+    "priority": 1055
+  },
+  {
+    "asset_name": "DivisionBadge_4.prefab",
+    "bundle_id": 1006,
+    "id": 7004,
+    "priority": 1055
+  },
+  {
+    "asset_name": "DivisionBadge_5.prefab",
+    "bundle_id": 1006,
+    "id": 7005,
+    "priority": 1055
+  },
+  {
+    "asset_name": "DivisionBadge_6.prefab",
+    "bundle_id": 1007,
+    "id": 7006,
+    "priority": 1360
+  },
+  {
+    "asset_name": "DivisionBadge_7.prefab",
+    "bundle_id": 1007,
+    "id": 7007,
+    "priority": 1360
+  },
+  {
+    "asset_name": "DivisionBadge_8.prefab",
+    "bundle_id": 1007,
+    "id": 7008,
+    "priority": 1360
+  },
+  {
+    "asset_name": "DivisionBadge_9.prefab",
+    "bundle_id": 1007,
+    "id": 7009,
+    "priority": 1360
+  },
+  {
+    "asset_name": "DivisionBadge_10.prefab",
+    "bundle_id": 1007,
+    "id": 7010,
+    "priority": 1360
+  },
+  {
+    "asset_name": "DivisionBadge_11.prefab",
+    "bundle_id": 1008,
+    "id": 7011,
+    "priority": 1410
+  },
+  {
+    "asset_name": "DivisionBadge_12.prefab",
+    "bundle_id": 1008,
+    "id": 7012,
+    "priority": 1410
+  },
+  {
+    "asset_name": "DivisionBadge_13.prefab",
+    "bundle_id": 1008,
+    "id": 7013,
+    "priority": 1410
+  },
+  {
+    "asset_name": "DivisionBadge_14.prefab",
+    "bundle_id": 1008,
+    "id": 7014,
+    "priority": 1410
+  },
+  {
+    "asset_name": "DivisionBadge_15.prefab",
+    "bundle_id": 1008,
+    "id": 7015,
+    "priority": 1410
+  },
+  {
+    "asset_name": "DivisionBadge_16.prefab",
+    "bundle_id": 1009,
+    "id": 7016,
+    "priority": 1460
+  },
+  {
+    "asset_name": "DivisionBadge_17.prefab",
+    "bundle_id": 1009,
+    "id": 7017,
+    "priority": 1460
+  },
+  {
+    "asset_name": "DivisionBadge_18.prefab",
+    "bundle_id": 1009,
+    "id": 7018,
+    "priority": 1460
+  },
+  {
+    "asset_name": "DivisionBadge_19.prefab",
+    "bundle_id": 1009,
+    "id": 7019,
+    "priority": 1460
+  },
+  {
+    "asset_name": "DivisionBadge_20.prefab",
+    "bundle_id": 1009,
+    "id": 7020,
+    "priority": 1460
+  },
+  {
+    "asset_name": "DivisionBadge_21.prefab",
+    "bundle_id": 1010,
+    "id": 7021,
+    "priority": 1510
+  },
+  {
+    "asset_name": "DivisionBadge_22.prefab",
+    "bundle_id": 1010,
+    "id": 7022,
+    "priority": 1510
+  },
+  {
+    "asset_name": "DivisionBadge_23.prefab",
+    "bundle_id": 1010,
+    "id": 7023,
+    "priority": 1510
+  },
+  {
+    "asset_name": "DivisionBadge_24.prefab",
+    "bundle_id": 1010,
+    "id": 7024,
+    "priority": 1510
+  },
+  {
+    "asset_name": "DivisionBadge_25.prefab",
+    "bundle_id": 1010,
+    "id": 7025,
+    "priority": 1510
+  },
+  {
+    "asset_name": "DivisionBadge_26.prefab",
+    "bundle_id": 1011,
+    "id": 7026,
+    "priority": 1560
+  },
+  {
+    "asset_name": "DivisionBadge_27.prefab",
+    "bundle_id": 1011,
+    "id": 7027,
+    "priority": 1560
+  },
+  {
+    "asset_name": "DivisionBadge_28.prefab",
+    "bundle_id": 1011,
+    "id": 7028,
+    "priority": 1560
+  },
+  {
+    "asset_name": "DivisionBadge_29.prefab",
+    "bundle_id": 1011,
+    "id": 7029,
+    "priority": 1560
+  },
+  {
+    "asset_name": "DivisionBadge_30.prefab",
+    "bundle_id": 1011,
+    "id": 7030,
+    "priority": 1560
+  },
+  {
+    "asset_name": "DivisionBadge_31.prefab",
+    "bundle_id": 1016,
+    "id": 7031,
+    "priority": 1570
+  },
+  {
+    "asset_name": "DivisionBadge_32.prefab",
+    "bundle_id": 1016,
+    "id": 7032,
+    "priority": 1570
+  },
+  {
+    "asset_name": "DivisionBadge_33.prefab",
+    "bundle_id": 1016,
+    "id": 7033,
+    "priority": 1570
+  },
+  {
+    "asset_name": "DivisionBadge_34.prefab",
+    "bundle_id": 1016,
+    "id": 7034,
+    "priority": 1570
+  },
+  {
+    "asset_name": "DivisionBadge_35.prefab",
+    "bundle_id": 1016,
+    "id": 7035,
+    "priority": 1570
+  },
+  {
+    "asset_name": "DivisionBadge_36.prefab",
+    "bundle_id": 1017,
+    "id": 7036,
+    "priority": 1580
+  },
+  {
+    "asset_name": "DivisionBadge_37.prefab",
+    "bundle_id": 1017,
+    "id": 7037,
+    "priority": 1580
+  },
+  {
+    "asset_name": "DivisionBadge_38.prefab",
+    "bundle_id": 1017,
+    "id": 7038,
+    "priority": 1580
+  },
+  {
+    "asset_name": "DivisionBadge_39.prefab",
+    "bundle_id": 1017,
+    "id": 7039,
+    "priority": 1580
+  },
+  {
+    "asset_name": "DivisionBadge_40.prefab",
+    "bundle_id": 1017,
+    "id": 7040,
+    "priority": 1580
+  },
+  {
+    "asset_name": "DivisionBadge_41.prefab",
+    "bundle_id": 1018,
+    "id": 7041,
+    "priority": 1580
+  },
+  {
+    "asset_name": "DivisionBadge_42.prefab",
+    "bundle_id": 1018,
+    "id": 7042,
+    "priority": 1580
+  },
+  {
+    "asset_name": "DivisionBadge_43.prefab",
+    "bundle_id": 1018,
+    "id": 7043,
+    "priority": 1580
+  },
+  {
+    "asset_name": "DivisionBadge_44.prefab",
+    "bundle_id": 1018,
+    "id": 7044,
+    "priority": 1580
+  },
+  {
+    "asset_name": "DivisionBadge_45.prefab",
+    "bundle_id": 1018,
+    "id": 7045,
+    "priority": 1580
+  },
+  {
+    "asset_name": "Gatcha_FreeNoTanks.prefab",
+    "bundle_id": 1013,
+    "id": 9001,
+    "priority": 1400
+  },
+  {
+    "asset_name": "Gatcha_FreeTanks.prefab",
+    "bundle_id": 1013,
+    "id": 9002,
+    "priority": 1400
+  },
+  {
+    "asset_name": "Gatcha_PaidTanks.prefab",
+    "bundle_id": 1013,
+    "id": 9003,
+    "priority": 1400
+  },
+  {
+    "asset_name": "Gatcha_PaidTanks02.prefab",
+    "bundle_id": 1013,
+    "id": 9004,
+    "priority": 1400
+  },
+  {
+    "asset_name": "GatchaA_PaidTanks01.prefab",
+    "bundle_id": 1013,
+    "id": 9005,
+    "priority": 1400
+  },
+  {
+    "asset_name": "GatchaA_PaidTanks02.prefab",
+    "bundle_id": 1013,
+    "id": 9006,
+    "priority": 1400
+  },
+  {
+    "asset_name": "GatchaB_PaidTanks01.prefab",
+    "bundle_id": 1013,
+    "id": 9007,
+    "priority": 1400
+  },
+  {
+    "asset_name": "GatchaB_PaidTanks02.prefab",
+    "bundle_id": 1013,
+    "id": 9008,
+    "priority": 1400
+  },
+  {
+    "asset_name": "GatchaC_PaidTanks01.prefab",
+    "bundle_id": 1013,
+    "id": 9009,
+    "priority": 1400
+  },
+  {
+    "asset_name": "GatchaC_PaidTanks02.prefab",
+    "bundle_id": 1013,
+    "id": 9010,
+    "priority": 1400
+  },
+  {
+    "asset_name": "Gatcha_PaidLimited.prefab",
+    "bundle_id": 1013,
+    "id": 9011,
+    "priority": 1400
+  },
+  {
+    "asset_name": "GatchaA_PaidAir01.prefab",
+    "bundle_id": 1013,
+    "id": 9012,
+    "priority": 1400
+  },
+  {
+    "asset_name": "Currency_01.prefab",
+    "bundle_id": 1014,
+    "id": 10001,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Currency_02.prefab",
+    "bundle_id": 1014,
+    "id": 10002,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Parts_01.prefab",
+    "bundle_id": 1014,
+    "id": 10003,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Parts_02.prefab",
+    "bundle_id": 1014,
+    "id": 10004,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Parts_03.prefab",
+    "bundle_id": 1014,
+    "id": 10005,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Tanks_01.prefab",
+    "bundle_id": 1014,
+    "id": 10006,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Parts_04.prefab",
+    "bundle_id": 1014,
+    "id": 10007,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Tanks_02.prefab",
+    "bundle_id": 1014,
+    "id": 10008,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Tanks_03.prefab",
+    "bundle_id": 1014,
+    "id": 10009,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Tanks_04.prefab",
+    "bundle_id": 1014,
+    "id": 10010,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Parts_05.prefab",
+    "bundle_id": 1014,
+    "id": 10011,
+    "priority": 1500
+  },
+  {
+    "asset_name": "ClanBadges_Bolt_01.prefab",
+    "bundle_id": 1015,
+    "id": 11001,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Bolt_02.prefab",
+    "bundle_id": 1015,
+    "id": 11002,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Bolt_03.prefab",
+    "bundle_id": 1015,
+    "id": 11003,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Bolt_04.prefab",
+    "bundle_id": 1015,
+    "id": 11004,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Cat_01.prefab",
+    "bundle_id": 1015,
+    "id": 11005,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Cat_02.prefab",
+    "bundle_id": 1015,
+    "id": 11006,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Cat_03.prefab",
+    "bundle_id": 1015,
+    "id": 11007,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Cat_04.prefab",
+    "bundle_id": 1015,
+    "id": 11008,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Eagle_01.prefab",
+    "bundle_id": 1015,
+    "id": 11009,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Eagle_02.prefab",
+    "bundle_id": 1015,
+    "id": 11010,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Eagle_03.prefab",
+    "bundle_id": 1015,
+    "id": 11011,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Eagle_04.prefab",
+    "bundle_id": 1015,
+    "id": 11012,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Fire_01.prefab",
+    "bundle_id": 1015,
+    "id": 11013,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Fire_02.prefab",
+    "bundle_id": 1015,
+    "id": 11014,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Fire_03.prefab",
+    "bundle_id": 1015,
+    "id": 11015,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Fire_04.prefab",
+    "bundle_id": 1015,
+    "id": 11016,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Hand_01.prefab",
+    "bundle_id": 1015,
+    "id": 11017,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Hand_02.prefab",
+    "bundle_id": 1015,
+    "id": 11018,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Hand_03.prefab",
+    "bundle_id": 1015,
+    "id": 11019,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Hand_04.prefab",
+    "bundle_id": 1015,
+    "id": 11020,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Paw_01.prefab",
+    "bundle_id": 1015,
+    "id": 11021,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Paw_02.prefab",
+    "bundle_id": 1015,
+    "id": 11022,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Paw_03.prefab",
+    "bundle_id": 1015,
+    "id": 11023,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Paw_04.prefab",
+    "bundle_id": 1015,
+    "id": 11024,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Radio_01.prefab",
+    "bundle_id": 1015,
+    "id": 11025,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Radio_02.prefab",
+    "bundle_id": 1015,
+    "id": 11026,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Radio_03.prefab",
+    "bundle_id": 1015,
+    "id": 11027,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Radio_04.prefab",
+    "bundle_id": 1015,
+    "id": 11028,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Rocket_01.prefab",
+    "bundle_id": 1015,
+    "id": 11029,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Rocket_02.prefab",
+    "bundle_id": 1015,
+    "id": 11030,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Rocket_03.prefab",
+    "bundle_id": 1015,
+    "id": 11031,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Rocket_04.prefab",
+    "bundle_id": 1015,
+    "id": 11032,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Skull_01.prefab",
+    "bundle_id": 1015,
+    "id": 11033,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Skull_02.prefab",
+    "bundle_id": 1015,
+    "id": 11034,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Skull_03.prefab",
+    "bundle_id": 1015,
+    "id": 11035,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Skull_04.prefab",
+    "bundle_id": 1015,
+    "id": 11036,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Tank_01.prefab",
+    "bundle_id": 1015,
+    "id": 11037,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Tank_02.prefab",
+    "bundle_id": 1015,
+    "id": 11038,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Tank_03.prefab",
+    "bundle_id": 1015,
+    "id": 11039,
+    "priority": 1600
+  },
+  {
+    "asset_name": "ClanBadges_Tank_04.prefab",
+    "bundle_id": 1015,
+    "id": 11040,
+    "priority": 1600
+  },
+  {
+    "asset_name": "Event_Background.prefab",
+    "bundle_id": 2000,
+    "id": 20000,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Logo.prefab",
+    "bundle_id": 2000,
+    "id": 20001,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Leaderboards_Banner.prefab",
+    "bundle_id": 2000,
+    "id": 20002,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent_01.prefab",
+    "bundle_id": 2000,
+    "id": 20010,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent_02.prefab",
+    "bundle_id": 2000,
+    "id": 20011,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent_03.prefab",
+    "bundle_id": 2000,
+    "id": 20012,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent_04.prefab",
+    "bundle_id": 2000,
+    "id": 20013,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GatchaA_PaidEvent01.prefab",
+    "bundle_id": 2000,
+    "id": 20014,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GatchaA_PaidEvent02.prefab",
+    "bundle_id": 2000,
+    "id": 20015,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GatchaA_PaidEvent03.prefab",
+    "bundle_id": 2000,
+    "id": 20016,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent_05.prefab",
+    "bundle_id": 2000,
+    "id": 20017,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent_06.prefab",
+    "bundle_id": 2000,
+    "id": 20018,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent_07.prefab",
+    "bundle_id": 2000,
+    "id": 20019,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Background.prefab",
+    "bundle_id": 2001,
+    "id": 20020,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Logo.prefab",
+    "bundle_id": 2001,
+    "id": 20021,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Leaderboards_Banner.prefab",
+    "bundle_id": 2001,
+    "id": 20022,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent_01.prefab",
+    "bundle_id": 2001,
+    "id": 20023,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent_02.prefab",
+    "bundle_id": 2001,
+    "id": 20024,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent_03.prefab",
+    "bundle_id": 2001,
+    "id": 20025,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent_04.prefab",
+    "bundle_id": 2001,
+    "id": 20026,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent_05.prefab",
+    "bundle_id": 2001,
+    "id": 20027,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GatchaA_PaidEvent01.prefab",
+    "bundle_id": 2001,
+    "id": 20034,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GatchaA_PaidEvent02.prefab",
+    "bundle_id": 2001,
+    "id": 20035,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GatchaA_PaidEvent03.prefab",
+    "bundle_id": 2001,
+    "id": 20036,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GatchaA_PaidEvent04.prefab",
+    "bundle_id": 2001,
+    "id": 20037,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GatchaA_PaidEvent05.prefab",
+    "bundle_id": 2001,
+    "id": 20038,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GatchaA_PaidEvent04.prefab",
+    "bundle_id": 2000,
+    "id": 20120,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent17_01.prefab",
+    "bundle_id": 2016,
+    "id": 20161,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent17_02.prefab",
+    "bundle_id": 2016,
+    "id": 20162,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent17_CoverFire01.prefab",
+    "bundle_id": 2016,
+    "id": 20163,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent17_CoverFire02.prefab",
+    "bundle_id": 2016,
+    "id": 20164,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent17_CoverFire03.prefab",
+    "bundle_id": 2016,
+    "id": 20165,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Daily_CoverFire.prefab",
+    "bundle_id": 2016,
+    "id": 20166,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Event17_51percent.prefab",
+    "bundle_id": 2016,
+    "id": 20167,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2016,
+    "id": 20168,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1.prefab",
+    "bundle_id": 2016,
+    "id": 20169,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Background.prefab",
+    "bundle_id": 2002,
+    "id": 20201,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Logo.prefab",
+    "bundle_id": 2002,
+    "id": 20202,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent03_01.prefab",
+    "bundle_id": 2002,
+    "id": 20203,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent03_02.prefab",
+    "bundle_id": 2002,
+    "id": 20204,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent03_03.prefab",
+    "bundle_id": 2002,
+    "id": 20205,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent03_04.prefab",
+    "bundle_id": 2002,
+    "id": 20206,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent03_05.prefab",
+    "bundle_id": 2002,
+    "id": 20207,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent03_06.prefab",
+    "bundle_id": 2002,
+    "id": 20208,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent03_07.prefab",
+    "bundle_id": 2002,
+    "id": 20209,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent03_08.prefab",
+    "bundle_id": 2002,
+    "id": 20210,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidEvent03_01.prefab",
+    "bundle_id": 2002,
+    "id": 20211,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidEvent03_02.prefab",
+    "bundle_id": 2002,
+    "id": 20212,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidEvent03_03.prefab",
+    "bundle_id": 2002,
+    "id": 20213,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent03_09.prefab",
+    "bundle_id": 2002,
+    "id": 20214,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent03_10.prefab",
+    "bundle_id": 2002,
+    "id": 20215,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidEvent03_04.prefab",
+    "bundle_id": 2002,
+    "id": 20216,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Logo_1.prefab",
+    "bundle_id": 2003,
+    "id": 20401,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Logo_2.prefab",
+    "bundle_id": 2003,
+    "id": 20402,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Logo_3.prefab",
+    "bundle_id": 2003,
+    "id": 20403,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Leaderboards_Banner_1.prefab",
+    "bundle_id": 2003,
+    "id": 20404,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Leaderboards_Banner_2.prefab",
+    "bundle_id": 2003,
+    "id": 20405,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Leaderboards_Banner_3.prefab",
+    "bundle_id": 2003,
+    "id": 20406,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Background.prefab",
+    "bundle_id": 2003,
+    "id": 20407,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_01.prefab",
+    "bundle_id": 2003,
+    "id": 20408,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_02.prefab",
+    "bundle_id": 2003,
+    "id": 20409,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_03.prefab",
+    "bundle_id": 2003,
+    "id": 20410,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_04.prefab",
+    "bundle_id": 2003,
+    "id": 20411,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_05.prefab",
+    "bundle_id": 2003,
+    "id": 20412,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_06.prefab",
+    "bundle_id": 2003,
+    "id": 20413,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidEvent04_01.prefab",
+    "bundle_id": 2003,
+    "id": 20414,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidEvent04_02.prefab",
+    "bundle_id": 2003,
+    "id": 20415,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidEvent04_03.prefab",
+    "bundle_id": 2003,
+    "id": 20416,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_07.prefab",
+    "bundle_id": 2003,
+    "id": 20417,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_StepUp01.prefab",
+    "bundle_id": 2003,
+    "id": 20418,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_StepUp02.prefab",
+    "bundle_id": 2003,
+    "id": 20419,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_StepUp03.prefab",
+    "bundle_id": 2003,
+    "id": 20420,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_StepUp04.prefab",
+    "bundle_id": 2003,
+    "id": 20421,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_StepUp05.prefab",
+    "bundle_id": 2003,
+    "id": 20422,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_Step1.prefab",
+    "bundle_id": 2003,
+    "id": 20423,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_Step2.prefab",
+    "bundle_id": 2003,
+    "id": 20424,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_Step3.prefab",
+    "bundle_id": 2003,
+    "id": 20425,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_Step4.prefab",
+    "bundle_id": 2003,
+    "id": 20426,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_Step5.prefab",
+    "bundle_id": 2003,
+    "id": 20427,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_Step6.prefab",
+    "bundle_id": 2003,
+    "id": 20428,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent04_Step7.prefab",
+    "bundle_id": 2003,
+    "id": 20429,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2004,
+    "id": 20500,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2004,
+    "id": 20501,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent08_01.prefab",
+    "bundle_id": 2004,
+    "id": 20502,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent08_02.prefab",
+    "bundle_id": 2004,
+    "id": 20503,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent08_03.prefab",
+    "bundle_id": 2004,
+    "id": 20504,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidEvent08_01.prefab",
+    "bundle_id": 2004,
+    "id": 20505,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp1.prefab",
+    "bundle_id": 2004,
+    "id": 20506,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2.prefab",
+    "bundle_id": 2004,
+    "id": 20507,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp3.prefab",
+    "bundle_id": 2004,
+    "id": 20508,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp4.prefab",
+    "bundle_id": 2004,
+    "id": 20509,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp5.prefab",
+    "bundle_id": 2004,
+    "id": 20510,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp6.prefab",
+    "bundle_id": 2004,
+    "id": 20511,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp7.prefab",
+    "bundle_id": 2004,
+    "id": 20512,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaStepUpEvent08_01.prefab",
+    "bundle_id": 2004,
+    "id": 20513,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaStepUpEvent08_02.prefab",
+    "bundle_id": 2004,
+    "id": 20514,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Background.prefab",
+    "bundle_id": 2005,
+    "id": 20600,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Logo.prefab",
+    "bundle_id": 2005,
+    "id": 20601,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent06_01.prefab",
+    "bundle_id": 2005,
+    "id": 20602,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent06_02.prefab",
+    "bundle_id": 2005,
+    "id": 20603,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidEvent06_01.prefab",
+    "bundle_id": 2005,
+    "id": 20604,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_StepFantasica3.prefab",
+    "bundle_id": 2005,
+    "id": 20614,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_StepFantasica4.prefab",
+    "bundle_id": 2005,
+    "id": 20615,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_StepFantasica5.prefab",
+    "bundle_id": 2005,
+    "id": 20616,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_StepFantasica6.prefab",
+    "bundle_id": 2005,
+    "id": 20617,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_StepFantasica7.prefab",
+    "bundle_id": 2005,
+    "id": 20618,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Event_Leaderboards_Banner.prefab",
+    "bundle_id": 2005,
+    "id": 20619,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2006,
+    "id": 20700,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2006,
+    "id": 20701,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Event09_01.prefab",
+    "bundle_id": 2006,
+    "id": 20702,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Event09_02.prefab",
+    "bundle_id": 2006,
+    "id": 20703,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Event09_03.prefab",
+    "bundle_id": 2006,
+    "id": 20704,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Event09_04.prefab",
+    "bundle_id": 2006,
+    "id": 20705,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Event09_05.prefab",
+    "bundle_id": 2006,
+    "id": 20706,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Event09_06.prefab",
+    "bundle_id": 2006,
+    "id": 20707,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Event09_07.prefab",
+    "bundle_id": 2006,
+    "id": 20708,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent07_01.prefab",
+    "bundle_id": 2006,
+    "id": 20709,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent07_02.prefab",
+    "bundle_id": 2006,
+    "id": 20710,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_PaidEvent07_MajorDump.prefab",
+    "bundle_id": 2006,
+    "id": 20711,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_MajorDump_01.prefab",
+    "bundle_id": 2006,
+    "id": 20712,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_MajorDump_02.prefab",
+    "bundle_id": 2006,
+    "id": 20713,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2007,
+    "id": 20800,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2007,
+    "id": 20801,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Futuristic1.prefab",
+    "bundle_id": 2007,
+    "id": 20803,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Futuristic2.prefab",
+    "bundle_id": 2007,
+    "id": 20804,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Futuristic3.prefab",
+    "bundle_id": 2007,
+    "id": 20805,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Futuristic4.prefab",
+    "bundle_id": 2007,
+    "id": 20806,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Futuristic5.prefab",
+    "bundle_id": 2007,
+    "id": 20807,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Futuristic6.prefab",
+    "bundle_id": 2007,
+    "id": 20808,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Futuristic7.prefab",
+    "bundle_id": 2007,
+    "id": 20809,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Futuristic1.prefab",
+    "bundle_id": 2007,
+    "id": 20810,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Futuristic2.prefab",
+    "bundle_id": 2007,
+    "id": 20811,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Futuristic3.prefab",
+    "bundle_id": 2007,
+    "id": 20812,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Futuristic4.prefab",
+    "bundle_id": 2007,
+    "id": 20813,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Futuristic5.prefab",
+    "bundle_id": 2007,
+    "id": 20814,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Futuristic6.prefab",
+    "bundle_id": 2007,
+    "id": 20815,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Futuristic7.prefab",
+    "bundle_id": 2007,
+    "id": 20816,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1.prefab",
+    "bundle_id": 2007,
+    "id": 20817,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo2.prefab",
+    "bundle_id": 2007,
+    "id": 20818,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent09_TanksOnly.prefab",
+    "bundle_id": 2007,
+    "id": 20819,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TanksOnly02_Info_01.prefab",
+    "bundle_id": 2007,
+    "id": 20820,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TanksOnly02_Info_02.prefab",
+    "bundle_id": 2007,
+    "id": 20821,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2008,
+    "id": 20900,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2008,
+    "id": 20901,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidEvent10_01.prefab",
+    "bundle_id": 2008,
+    "id": 20902,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent10_01.prefab",
+    "bundle_id": 2008,
+    "id": 20903,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent10_02.prefab",
+    "bundle_id": 2008,
+    "id": 20904,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Jurassic1.prefab",
+    "bundle_id": 2008,
+    "id": 20905,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Jurassic2.prefab",
+    "bundle_id": 2008,
+    "id": 20906,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Jurassic3.prefab",
+    "bundle_id": 2008,
+    "id": 20907,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Jurassic4.prefab",
+    "bundle_id": 2008,
+    "id": 20908,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Jurassic5.prefab",
+    "bundle_id": 2008,
+    "id": 20909,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Jurassic6.prefab",
+    "bundle_id": 2008,
+    "id": 20910,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Jurassic7.prefab",
+    "bundle_id": 2008,
+    "id": 20911,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Jurassic8.prefab",
+    "bundle_id": 2008,
+    "id": 20912,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Jurassic9.prefab",
+    "bundle_id": 2008,
+    "id": 20913,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_JurassicSpark1.prefab",
+    "bundle_id": 2008,
+    "id": 20914,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_JurassicSpark2.prefab",
+    "bundle_id": 2008,
+    "id": 20915,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_JurassicSpark3.prefab",
+    "bundle_id": 2008,
+    "id": 20916,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_JurassicSpark4.prefab",
+    "bundle_id": 2008,
+    "id": 20917,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_JurassicSpark5.prefab",
+    "bundle_id": 2008,
+    "id": 20918,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_JurassicSpark6.prefab",
+    "bundle_id": 2008,
+    "id": 20919,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_JurassicSpark7.prefab",
+    "bundle_id": 2008,
+    "id": 20920,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidEvent10_02.prefab",
+    "bundle_id": 2008,
+    "id": 20921,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent10_03.prefab",
+    "bundle_id": 2008,
+    "id": 20922,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent10_04.prefab",
+    "bundle_id": 2008,
+    "id": 20923,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2009,
+    "id": 20940,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2009,
+    "id": 20941,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Earth1.prefab",
+    "bundle_id": 2009,
+    "id": 20942,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Earth2.prefab",
+    "bundle_id": 2009,
+    "id": 20943,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Earth3.prefab",
+    "bundle_id": 2009,
+    "id": 20944,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Earth4.prefab",
+    "bundle_id": 2009,
+    "id": 20945,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Earth5.prefab",
+    "bundle_id": 2009,
+    "id": 20946,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Earth6.prefab",
+    "bundle_id": 2009,
+    "id": 20947,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Earth7.prefab",
+    "bundle_id": 2009,
+    "id": 20948,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Earth1.prefab",
+    "bundle_id": 2009,
+    "id": 20949,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Earth2.prefab",
+    "bundle_id": 2009,
+    "id": 20950,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Earth3.prefab",
+    "bundle_id": 2009,
+    "id": 20951,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Earth4.prefab",
+    "bundle_id": 2009,
+    "id": 20952,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Earth5.prefab",
+    "bundle_id": 2009,
+    "id": 20953,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Earth6.prefab",
+    "bundle_id": 2009,
+    "id": 20954,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Earth7.prefab",
+    "bundle_id": 2009,
+    "id": 20955,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Earth8.prefab",
+    "bundle_id": 2009,
+    "id": 20956,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Earth9.prefab",
+    "bundle_id": 2009,
+    "id": 20957,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Event11_10dollar.prefab",
+    "bundle_id": 2009,
+    "id": 20958,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Event11_25dollar.prefab",
+    "bundle_id": 2009,
+    "id": 20959,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Event11_Petram.prefab",
+    "bundle_id": 2009,
+    "id": 20960,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent11_Gacha01.prefab",
+    "bundle_id": 2009,
+    "id": 20961,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent11_Gacha02.prefab",
+    "bundle_id": 2009,
+    "id": 20962,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent11_Gacha03.prefab",
+    "bundle_id": 2009,
+    "id": 20963,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent11_Petram01.prefab",
+    "bundle_id": 2009,
+    "id": 20964,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent11_Petram02.prefab",
+    "bundle_id": 2009,
+    "id": 20965,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent11_Petram03.prefab",
+    "bundle_id": 2009,
+    "id": 20966,
+    "priority": 1300
+  },
+  {
+    "asset_name": "NoEventLogo.prefab",
+    "bundle_id": 2100,
+    "id": 21000,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2101,
+    "id": 21001,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_leaderboards_banner.prefab",
+    "bundle_id": 2101,
+    "id": 21002,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2102,
+    "id": 21020,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2010,
+    "id": 21100,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2010,
+    "id": 21101,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Insect1.prefab",
+    "bundle_id": 2010,
+    "id": 21103,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Insect2.prefab",
+    "bundle_id": 2010,
+    "id": 21104,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Insect3.prefab",
+    "bundle_id": 2010,
+    "id": 21105,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Insect4.prefab",
+    "bundle_id": 2010,
+    "id": 21106,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Insect5.prefab",
+    "bundle_id": 2010,
+    "id": 21107,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Insect6.prefab",
+    "bundle_id": 2010,
+    "id": 21108,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Insect7.prefab",
+    "bundle_id": 2010,
+    "id": 21109,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Insect1.prefab",
+    "bundle_id": 2010,
+    "id": 21110,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Insect2.prefab",
+    "bundle_id": 2010,
+    "id": 21111,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Insect3.prefab",
+    "bundle_id": 2010,
+    "id": 21112,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Insect4.prefab",
+    "bundle_id": 2010,
+    "id": 21113,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Insect5.prefab",
+    "bundle_id": 2010,
+    "id": 21114,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Insect6.prefab",
+    "bundle_id": 2010,
+    "id": 21115,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Insect7.prefab",
+    "bundle_id": 2010,
+    "id": 21116,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Insect8.prefab",
+    "bundle_id": 2010,
+    "id": 21117,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaDetails_Insect9.prefab",
+    "bundle_id": 2010,
+    "id": 21118,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Event11_10dollar.prefab",
+    "bundle_id": 2010,
+    "id": 21119,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent11_Gatcha01.prefab",
+    "bundle_id": 2010,
+    "id": 21120,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent11_Gatcha02.prefab",
+    "bundle_id": 2010,
+    "id": 21121,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_event11_Daily_ArachnoCannibal.prefab",
+    "bundle_id": 2010,
+    "id": 21122,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent11_ArachnoCannibal01.prefab",
+    "bundle_id": 2010,
+    "id": 21123,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent11_ArachnoCannibal02.prefab",
+    "bundle_id": 2010,
+    "id": 21124,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent11_ArachnoCannibal03.prefab",
+    "bundle_id": 2010,
+    "id": 21125,
+    "priority": 1300
+  },
+  {
+    "asset_name": "1StepUp_Xmas.prefab",
+    "bundle_id": 2011,
+    "id": 21126,
+    "priority": 1300
+  },
+  {
+    "asset_name": "2StepUp_Xmas.prefab",
+    "bundle_id": 2011,
+    "id": 21127,
+    "priority": 1300
+  },
+  {
+    "asset_name": "3StepUp_Xmas.prefab",
+    "bundle_id": 2011,
+    "id": 21128,
+    "priority": 1300
+  },
+  {
+    "asset_name": "4StepUp_Xmas.prefab",
+    "bundle_id": 2011,
+    "id": 21129,
+    "priority": 1300
+  },
+  {
+    "asset_name": "5StepUp_Xmas.prefab",
+    "bundle_id": 2011,
+    "id": 21130,
+    "priority": 1300
+  },
+  {
+    "asset_name": "6StepUp_Xmas.prefab",
+    "bundle_id": 2011,
+    "id": 21131,
+    "priority": 1300
+  },
+  {
+    "asset_name": "7StepUp_Xmas.prefab",
+    "bundle_id": 2011,
+    "id": 21132,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent13_Gatcha01.prefab",
+    "bundle_id": 2011,
+    "id": 21133,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent13_Gatcha02.prefab",
+    "bundle_id": 2011,
+    "id": 21134,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Event13_10dollar.prefab",
+    "bundle_id": 2011,
+    "id": 21135,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Daily_SnowCrash.prefab",
+    "bundle_id": 2011,
+    "id": 21136,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent13_SnowCrash03.prefab",
+    "bundle_id": 2011,
+    "id": 21137,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent13_SnowCrash02.prefab",
+    "bundle_id": 2011,
+    "id": 21138,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent13_SnowCrash01.prefab",
+    "bundle_id": 2011,
+    "id": 21139,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent13_GetaGift01.prefab",
+    "bundle_id": 2011,
+    "id": 21140,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent13_GetaGift02.prefab",
+    "bundle_id": 2011,
+    "id": 21141,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent13_GiftInfo01.prefab",
+    "bundle_id": 2011,
+    "id": 21142,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent13_GiftInfo02.prefab",
+    "bundle_id": 2011,
+    "id": 21143,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent13_GiftInfo03.prefab",
+    "bundle_id": 2011,
+    "id": 21144,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent13_GiftInfo04.prefab",
+    "bundle_id": 2011,
+    "id": 21145,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_DropNSwap_Holiday.prefab",
+    "bundle_id": 2011,
+    "id": 21146,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Event13_giftPart01.prefab",
+    "bundle_id": 2011,
+    "id": 21147,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Event13_giftPart02.prefab",
+    "bundle_id": 2011,
+    "id": 21148,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1.prefab",
+    "bundle_id": 2011,
+    "id": 21150,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo2.prefab",
+    "bundle_id": 2011,
+    "id": 21151,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo3.prefab",
+    "bundle_id": 2011,
+    "id": 21152,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo4.prefab",
+    "bundle_id": 2011,
+    "id": 21153,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo5.prefab",
+    "bundle_id": 2011,
+    "id": 21154,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo6.prefab",
+    "bundle_id": 2011,
+    "id": 21155,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo7.prefab",
+    "bundle_id": 2011,
+    "id": 21156,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Static1.prefab",
+    "bundle_id": 2011,
+    "id": 21157,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Static2.prefab",
+    "bundle_id": 2011,
+    "id": 21158,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2011,
+    "id": 21200,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2011,
+    "id": 21201,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_leaderboards_banner.prefab",
+    "bundle_id": 2011,
+    "id": 21202,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2012,
+    "id": 21301,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2012,
+    "id": 21302,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent15_51percen01.prefab",
+    "bundle_id": 2012,
+    "id": 21303,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent15_51percen02.prefab",
+    "bundle_id": 2012,
+    "id": 21304,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent15_Plinko01.prefab",
+    "bundle_id": 2012,
+    "id": 21305,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent15_Plinko02.prefab",
+    "bundle_id": 2012,
+    "id": 21306,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_DropNSwap_BlastPast.prefab",
+    "bundle_id": 2012,
+    "id": 21307,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Event15_51percent.prefab",
+    "bundle_id": 2012,
+    "id": 21308,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event15_StepUp01_01.prefab",
+    "bundle_id": 2012,
+    "id": 21309,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event15_StepUp01_02.prefab",
+    "bundle_id": 2012,
+    "id": 21310,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event15_StepUp02_01.prefab",
+    "bundle_id": 2012,
+    "id": 21311,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event15_StepUp02_02.prefab",
+    "bundle_id": 2012,
+    "id": 21312,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event15_StepUp02_03.prefab",
+    "bundle_id": 2012,
+    "id": 21313,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event15_StepUp03_01.prefab",
+    "bundle_id": 2012,
+    "id": 21314,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event15_StepUp03_02.prefab",
+    "bundle_id": 2012,
+    "id": 21315,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event15_StepUp03_03.prefab",
+    "bundle_id": 2012,
+    "id": 21316,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event15_StepUp04_01.prefab",
+    "bundle_id": 2012,
+    "id": 21317,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event15_StepUp04_02.prefab",
+    "bundle_id": 2012,
+    "id": 21318,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event15_StepUp04_03.prefab",
+    "bundle_id": 2012,
+    "id": 21319,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Event15_01.prefab",
+    "bundle_id": 2012,
+    "id": 21320,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Event15_02.prefab",
+    "bundle_id": 2012,
+    "id": 21321,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Event15_03.prefab",
+    "bundle_id": 2012,
+    "id": 21322,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Event15_04.prefab",
+    "bundle_id": 2012,
+    "id": 21323,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2013,
+    "id": 21401,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2013,
+    "id": 21402,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent16_Gatcha01.prefab",
+    "bundle_id": 2013,
+    "id": 21403,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent16_Gatcha02.prefab",
+    "bundle_id": 2013,
+    "id": 21404,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent16_Whirlybird01.prefab",
+    "bundle_id": 2013,
+    "id": 21405,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent16_Whirlybird02.prefab",
+    "bundle_id": 2013,
+    "id": 21406,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent16_Whirlybird03.prefab",
+    "bundle_id": 2013,
+    "id": 21407,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Daily_Whirlybird.prefab",
+    "bundle_id": 2013,
+    "id": 21408,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Event16_51percent.prefab",
+    "bundle_id": 2013,
+    "id": 21409,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1.prefab",
+    "bundle_id": 2013,
+    "id": 21410,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo2.prefab",
+    "bundle_id": 2013,
+    "id": 21411,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo3.prefab",
+    "bundle_id": 2013,
+    "id": 21412,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo4.prefab",
+    "bundle_id": 2013,
+    "id": 21413,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo5.prefab",
+    "bundle_id": 2013,
+    "id": 21414,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo6.prefab",
+    "bundle_id": 2013,
+    "id": 21415,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo7.prefab",
+    "bundle_id": 2013,
+    "id": 21416,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfoStatic1.prefab",
+    "bundle_id": 2013,
+    "id": 21417,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfoStatic2.prefab",
+    "bundle_id": 2013,
+    "id": 21418,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Steam1.prefab",
+    "bundle_id": 2013,
+    "id": 21419,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Steam2.prefab",
+    "bundle_id": 2013,
+    "id": 21420,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Steam3.prefab",
+    "bundle_id": 2013,
+    "id": 21421,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Steam4.prefab",
+    "bundle_id": 2013,
+    "id": 21422,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Steam5.prefab",
+    "bundle_id": 2013,
+    "id": 21423,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Steam6.prefab",
+    "bundle_id": 2013,
+    "id": 21424,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Steam7.prefab",
+    "bundle_id": 2013,
+    "id": 21425,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2014,
+    "id": 21501,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2015,
+    "id": 21601,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2015,
+    "id": 21602,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent14_51percen01.prefab",
+    "bundle_id": 2015,
+    "id": 21603,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent14_51percen02.prefab",
+    "bundle_id": 2015,
+    "id": 21604,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent14_BlockageBuster01.prefab",
+    "bundle_id": 2015,
+    "id": 21605,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent14_BlockageBuster02.prefab",
+    "bundle_id": 2015,
+    "id": 21606,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent14_BlockageBuster03.prefab",
+    "bundle_id": 2015,
+    "id": 21607,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Daily_BlockadeBuster.prefab",
+    "bundle_id": 2015,
+    "id": 21608,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Event14_51percent.prefab",
+    "bundle_id": 2015,
+    "id": 21609,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1.prefab",
+    "bundle_id": 2015,
+    "id": 21610,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo2.prefab",
+    "bundle_id": 2015,
+    "id": 21611,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo3.prefab",
+    "bundle_id": 2015,
+    "id": 21612,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo4.prefab",
+    "bundle_id": 2015,
+    "id": 21613,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo5.prefab",
+    "bundle_id": 2015,
+    "id": 21614,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo6.prefab",
+    "bundle_id": 2015,
+    "id": 21615,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo7.prefab",
+    "bundle_id": 2015,
+    "id": 21616,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfoStatic1.prefab",
+    "bundle_id": 2015,
+    "id": 21617,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfoStatic2.prefab",
+    "bundle_id": 2015,
+    "id": 21618,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Gangsta1.prefab",
+    "bundle_id": 2015,
+    "id": 21619,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Gangsta2.prefab",
+    "bundle_id": 2015,
+    "id": 21620,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Gangsta3.prefab",
+    "bundle_id": 2015,
+    "id": 21621,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Gangsta4.prefab",
+    "bundle_id": 2015,
+    "id": 21622,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Gangsta5.prefab",
+    "bundle_id": 2015,
+    "id": 21623,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Gangsta6.prefab",
+    "bundle_id": 2015,
+    "id": 21624,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Gangsta7.prefab",
+    "bundle_id": 2015,
+    "id": 21625,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent14_Tickets30.prefab",
+    "bundle_id": 2015,
+    "id": 21626,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent14_ticket.prefab",
+    "bundle_id": 2015,
+    "id": 21627,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaItemsMixer_01.prefab",
+    "bundle_id": 2200,
+    "id": 22000,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaItemsMixer_02.prefab",
+    "bundle_id": 2200,
+    "id": 22001,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidItemsMixer.prefab",
+    "bundle_id": 2200,
+    "id": 22002,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidItemsMixer_02.prefab",
+    "bundle_id": 2200,
+    "id": 22003,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidItemsMixer_03.prefab",
+    "bundle_id": 2200,
+    "id": 22004,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_PaidItemsMixer_04.prefab",
+    "bundle_id": 2200,
+    "id": 22005,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaMixer_3for1_01.prefab",
+    "bundle_id": 2200,
+    "id": 22006,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp1.prefab",
+    "bundle_id": 2201,
+    "id": 22010,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2.prefab",
+    "bundle_id": 2201,
+    "id": 22011,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp3.prefab",
+    "bundle_id": 2201,
+    "id": 22012,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp4.prefab",
+    "bundle_id": 2201,
+    "id": 22013,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp5.prefab",
+    "bundle_id": 2201,
+    "id": 22014,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp6.prefab",
+    "bundle_id": 2201,
+    "id": 22015,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp7.prefab",
+    "bundle_id": 2201,
+    "id": 22016,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_CyberThursday1.prefab",
+    "bundle_id": 2202,
+    "id": 22020,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_CyberThursday2.prefab",
+    "bundle_id": 2202,
+    "id": 22021,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_CyberThursday3.prefab",
+    "bundle_id": 2202,
+    "id": 22022,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_CyberThursday4.prefab",
+    "bundle_id": 2202,
+    "id": 22023,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_CyberThursday5.prefab",
+    "bundle_id": 2202,
+    "id": 22024,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1.prefab",
+    "bundle_id": 2202,
+    "id": 22025,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo2.prefab",
+    "bundle_id": 2202,
+    "id": 22026,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo3.prefab",
+    "bundle_id": 2202,
+    "id": 22027,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo4.prefab",
+    "bundle_id": 2202,
+    "id": 22028,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo5.prefab",
+    "bundle_id": 2202,
+    "id": 22029,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo6.prefab",
+    "bundle_id": 2202,
+    "id": 22030,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha1_Bundle2_holiday.prefab",
+    "bundle_id": 2203,
+    "id": 22031,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha2_Bundle4_holiday.prefab",
+    "bundle_id": 2203,
+    "id": 22032,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha2_Bundle5_holiday.prefab",
+    "bundle_id": 2203,
+    "id": 22033,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_FreeNoTanks_Holiday.prefab",
+    "bundle_id": 2203,
+    "id": 22034,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_FreeTanks_Holiday.prefab",
+    "bundle_id": 2203,
+    "id": 22035,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Extinguisher01.prefab",
+    "bundle_id": 2204,
+    "id": 22041,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Extinguisher02.prefab",
+    "bundle_id": 2204,
+    "id": 22042,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_ExtinguisherDeal.prefab",
+    "bundle_id": 2204,
+    "id": 22043,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaNUURUC_01.prefab",
+    "bundle_id": 2205,
+    "id": 22051,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaNUURUC_02.prefab",
+    "bundle_id": 2205,
+    "id": 22052,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_NUU_RUC.prefab",
+    "bundle_id": 2205,
+    "id": 22053,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaNUUSRR_01.prefab",
+    "bundle_id": 2206,
+    "id": 22061,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaNUUSRR_02.prefab",
+    "bundle_id": 2206,
+    "id": 22062,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_NUU_SRR.prefab",
+    "bundle_id": 2206,
+    "id": 22063,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner.prefab",
+    "bundle_id": 2300,
+    "id": 23000,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Halloween.prefab",
+    "bundle_id": 2300,
+    "id": 23001,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Fantasica.prefab",
+    "bundle_id": 2300,
+    "id": 23002,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Heavenly.prefab",
+    "bundle_id": 2300,
+    "id": 23003,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Construction.prefab",
+    "bundle_id": 2300,
+    "id": 23004,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Jurassic.prefab",
+    "bundle_id": 2300,
+    "id": 23005,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Earth.prefab",
+    "bundle_id": 2300,
+    "id": 23006,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Insects.prefab",
+    "bundle_id": 2300,
+    "id": 23007,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Xmas.prefab",
+    "bundle_id": 2300,
+    "id": 23008,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_BlastToThePast.prefab",
+    "bundle_id": 2300,
+    "id": 23009,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Steampunk.prefab",
+    "bundle_id": 2300,
+    "id": 23010,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Brown_Water.prefab",
+    "bundle_id": 2300,
+    "id": 23011,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Tankenstein.prefab",
+    "bundle_id": 2300,
+    "id": 23012,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GatchaA_PaidAir01.prefab",
+    "bundle_id": 3000,
+    "id": 30000,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GatchaA_PaidAir02.prefab",
+    "bundle_id": 3000,
+    "id": 30001,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GatchaA_PaidAir02.prefab",
+    "bundle_id": 3001,
+    "id": 30002,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_TanksOnly_Info01.prefab",
+    "bundle_id": 3002,
+    "id": 30020,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_TanksOnly_Info02.prefab",
+    "bundle_id": 3002,
+    "id": 30021,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_TanksOnly.prefab",
+    "bundle_id": 3002,
+    "id": 30022,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GachaPaid_TicketsnCash.prefab",
+    "bundle_id": 3003,
+    "id": 30030,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_TicketsNCash_01.prefab",
+    "bundle_id": 3003,
+    "id": 30031,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_TicketsNCash_02.prefab",
+    "bundle_id": 3003,
+    "id": 30032,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GachaPaid_TicketsnCash_2.prefab",
+    "bundle_id": 3003,
+    "id": 30033,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GachaPaid_TicketsnCash_3.prefab",
+    "bundle_id": 3003,
+    "id": 30034,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GachaPaid_TicketsnCash_4.prefab",
+    "bundle_id": 3003,
+    "id": 30035,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GachaPaid_TicketsnCash_5.prefab",
+    "bundle_id": 3003,
+    "id": 30036,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GachaPaid_TicketsnCash_6.prefab",
+    "bundle_id": 3003,
+    "id": 30037,
+    "priority": 1500
+  },
+  {
+    "asset_name": "diamond_1.prefab",
+    "bundle_id": 3004,
+    "id": 30040,
+    "priority": 1500
+  },
+  {
+    "asset_name": "diamond_2.prefab",
+    "bundle_id": 3004,
+    "id": 30041,
+    "priority": 1500
+  },
+  {
+    "asset_name": "diamond_3.prefab",
+    "bundle_id": 3004,
+    "id": 30042,
+    "priority": 1500
+  },
+  {
+    "asset_name": "diamond_4.prefab",
+    "bundle_id": 3004,
+    "id": 30043,
+    "priority": 1500
+  },
+  {
+    "asset_name": "diamond_5.prefab",
+    "bundle_id": 3004,
+    "id": 30044,
+    "priority": 1500
+  },
+  {
+    "asset_name": "plinko.prefab",
+    "bundle_id": 3005,
+    "id": 30050,
+    "priority": 1500
+  },
+  {
+    "asset_name": "transformer_splash.prefab",
+    "bundle_id": 3006,
+    "id": 30060,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Facebook_TankensteinSkins02.prefab",
+    "bundle_id": 3007,
+    "id": 30070,
+    "priority": 1300
+  },
+  {
+    "asset_name": "news_atlas.prefab",
+    "bundle_id": 3008,
+    "id": 30080,
+    "priority": 1500
+  },
+  {
+    "asset_name": "News_Titan_Ends.prefab",
+    "bundle_id": 3009,
+    "id": 30091,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Nightmare_Info_01.prefab",
+    "bundle_id": 3100,
+    "id": 31000,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Nightmare_Info_02.prefab",
+    "bundle_id": 3100,
+    "id": 31001,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_PaidNightmare.prefab",
+    "bundle_id": 3100,
+    "id": 31002,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_BigRed_Info_01.prefab",
+    "bundle_id": 3101,
+    "id": 31010,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_BigRed_Info_02.prefab",
+    "bundle_id": 3101,
+    "id": 31011,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_PaidBigRed.prefab",
+    "bundle_id": 3101,
+    "id": 31012,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Fortress_Info_01.prefab",
+    "bundle_id": 3102,
+    "id": 31020,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Fortress_Info_02.prefab",
+    "bundle_id": 3102,
+    "id": 31021,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_PaidFortress.prefab",
+    "bundle_id": 3102,
+    "id": 31022,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_RageQuit_Info_01.prefab",
+    "bundle_id": 3103,
+    "id": 31030,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_RageQuit_Info_02.prefab",
+    "bundle_id": 3103,
+    "id": 31031,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_PaidRageQuit.prefab",
+    "bundle_id": 3103,
+    "id": 31032,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_DarkSkies_Info_01.prefab",
+    "bundle_id": 3104,
+    "id": 31040,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_DarkSkies_Info_02.prefab",
+    "bundle_id": 3104,
+    "id": 31041,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_PaidDarkSkies.prefab",
+    "bundle_id": 3104,
+    "id": 31042,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Kraken_Info_01.prefab",
+    "bundle_id": 3105,
+    "id": 31050,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Kraken_Info_02.prefab",
+    "bundle_id": 3105,
+    "id": 31051,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_PaidKraken.prefab",
+    "bundle_id": 3105,
+    "id": 31052,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Lockdown_Info_01.prefab",
+    "bundle_id": 3106,
+    "id": 31060,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Lockdown_Info_02.prefab",
+    "bundle_id": 3106,
+    "id": 31061,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_PaidLockdown.prefab",
+    "bundle_id": 3106,
+    "id": 31062,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Highlander_Info_01.prefab",
+    "bundle_id": 3107,
+    "id": 31070,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Highlander_Info_02.prefab",
+    "bundle_id": 3107,
+    "id": 31071,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_PaidHighlander.prefab",
+    "bundle_id": 3107,
+    "id": 31072,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_PaidRiptide.prefab",
+    "bundle_id": 3108,
+    "id": 31080,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Riptide_Info_01.prefab",
+    "bundle_id": 3108,
+    "id": 31081,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Riptide_Info_02.prefab",
+    "bundle_id": 3108,
+    "id": 31082,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_PaidOblivion.prefab",
+    "bundle_id": 3109,
+    "id": 31090,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Oblivion_Info_01.prefab",
+    "bundle_id": 3109,
+    "id": 31091,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Oblivion_Info_02.prefab",
+    "bundle_id": 3109,
+    "id": 31092,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_PaidOverwatch.prefab",
+    "bundle_id": 3110,
+    "id": 31100,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Overwatch_Info_01.prefab",
+    "bundle_id": 3110,
+    "id": 31101,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Overwatch_Info_02.prefab",
+    "bundle_id": 3110,
+    "id": 31102,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_PaidDragonSpark.prefab",
+    "bundle_id": 3111,
+    "id": 31110,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_DragonSpark_Info_01.prefab",
+    "bundle_id": 3111,
+    "id": 31111,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_DragonSpark_Info_02.prefab",
+    "bundle_id": 3111,
+    "id": 31112,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GatchaPaidHeavenlyBlade.prefab",
+    "bundle_id": 3112,
+    "id": 31120,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_HeavenlyBlade_Info_01.prefab",
+    "bundle_id": 3112,
+    "id": 31121,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_HeavenlyBlade_Info_02.prefab",
+    "bundle_id": 3112,
+    "id": 31122,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GachaPaidEmperorsBreath.prefab",
+    "bundle_id": 3113,
+    "id": 31130,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_EmperorsBreath_Info_01.prefab",
+    "bundle_id": 3113,
+    "id": 31131,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_EmperorsBreath_Info_02.prefab",
+    "bundle_id": 3113,
+    "id": 31132,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GachaPaidTrebuchet.prefab",
+    "bundle_id": 3114,
+    "id": 31140,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Trebuchet_Info_01.prefab",
+    "bundle_id": 3114,
+    "id": 31141,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Trebuchet_Info_02.prefab",
+    "bundle_id": 3114,
+    "id": 31142,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GachaPaidVanguard.prefab",
+    "bundle_id": 3115,
+    "id": 31150,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Vanguard_Info_01.prefab",
+    "bundle_id": 3115,
+    "id": 31151,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Vanguard_Info_02.prefab",
+    "bundle_id": 3115,
+    "id": 31152,
+    "priority": 1500
+  },
+  {
+    "asset_name": "GachaPaidAvalanche.prefab",
+    "bundle_id": 3116,
+    "id": 31160,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Avalanche_Info_01.prefab",
+    "bundle_id": 3116,
+    "id": 31161,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Avalanche_Info_02.prefab",
+    "bundle_id": 3116,
+    "id": 31162,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_Daily_EmperorsBreath.prefab",
+    "bundle_id": 3117,
+    "id": 31170,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha4_Daily_EmperorsBreath.prefab",
+    "bundle_id": 3117,
+    "id": 31171,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha4_Daily02_EmperorsBreath.prefab",
+    "bundle_id": 3117,
+    "id": 31172,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha4_Daily02_HeavenlyBlade.prefab",
+    "bundle_id": 3118,
+    "id": 31180,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha4_Daily_HeavenlyBlade.prefab",
+    "bundle_id": 3118,
+    "id": 31181,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_Daily_HeavenlyBlade02.prefab",
+    "bundle_id": 3118,
+    "id": 31182,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha4_Daily02_Trebuchet.prefab",
+    "bundle_id": 3119,
+    "id": 31190,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha4_Daily_Trebuchet.prefab",
+    "bundle_id": 3119,
+    "id": 31191,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_Daily_Trebuchet02.prefab",
+    "bundle_id": 3119,
+    "id": 31192,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha4_Daily01_HydraSkyfire.prefab",
+    "bundle_id": 3120,
+    "id": 31201,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha4_Daily02_HydraSkyfire.prefab",
+    "bundle_id": 3120,
+    "id": 31202,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_Daily_HydraSkyfire.prefab",
+    "bundle_id": 3120,
+    "id": 31203,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_AirOnly01.prefab",
+    "bundle_id": 3121,
+    "id": 31211,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_AirOnly02.prefab",
+    "bundle_id": 3121,
+    "id": 31212,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_AirOnly.prefab",
+    "bundle_id": 3121,
+    "id": 31213,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_AssaultOnly01.prefab",
+    "bundle_id": 3122,
+    "id": 31221,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_AssaultOnly02.prefab",
+    "bundle_id": 3122,
+    "id": 31222,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_AssaultOnly.prefab",
+    "bundle_id": 3122,
+    "id": 31223,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_CommandOnly01.prefab",
+    "bundle_id": 3123,
+    "id": 31231,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_CommandOnly02.prefab",
+    "bundle_id": 3123,
+    "id": 31232,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_CommandOnly.prefab",
+    "bundle_id": 3123,
+    "id": 31233,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Free1Tank.prefab",
+    "bundle_id": 3124,
+    "id": 31241,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_Free1Tank.prefab",
+    "bundle_id": 3124,
+    "id": 31242,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Free1Tank02.prefab",
+    "bundle_id": 3124,
+    "id": 31243,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Scrap_Steel01.prefab",
+    "bundle_id": 3125,
+    "id": 31251,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Scrap_Steel02.prefab",
+    "bundle_id": 3125,
+    "id": 31252,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_Scrap_Steel.prefab",
+    "bundle_id": 3125,
+    "id": 31253,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_OpsOnly01.prefab",
+    "bundle_id": 3126,
+    "id": 31261,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_OpsOnly02.prefab",
+    "bundle_id": 3126,
+    "id": 31262,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_OpsOnly.prefab",
+    "bundle_id": 3126,
+    "id": 31263,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha4_Daily02_BlueShift.prefab",
+    "bundle_id": 3127,
+    "id": 31271,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha4_Daily_BlueShift.prefab",
+    "bundle_id": 3127,
+    "id": 31272,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_Daily_BlueShift.prefab",
+    "bundle_id": 3127,
+    "id": 31273,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Tickets25-40_01.prefab",
+    "bundle_id": 3128,
+    "id": 31281,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gacha_Tickets25-40_02.prefab",
+    "bundle_id": 3128,
+    "id": 31282,
+    "priority": 1500
+  },
+  {
+    "asset_name": "Gatcha_Tickets25-40.prefab",
+    "bundle_id": 3128,
+    "id": 31283,
+    "priority": 1500
+  },
+  {
+    "asset_name": "diamond_1.prefab",
+    "bundle_id": 5000,
+    "id": 50000,
+    "priority": 1400
+  },
+  {
+    "asset_name": "diamond_2.prefab",
+    "bundle_id": 5000,
+    "id": 50001,
+    "priority": 1400
+  },
+  {
+    "asset_name": "diamond_3.prefab",
+    "bundle_id": 5000,
+    "id": 50002,
+    "priority": 1400
+  },
+  {
+    "asset_name": "diamond_4.prefab",
+    "bundle_id": 5000,
+    "id": 50003,
+    "priority": 1400
+  },
+  {
+    "asset_name": "diamond_5.prefab",
+    "bundle_id": 5000,
+    "id": 50004,
+    "priority": 1400
+  },
+  {
+    "asset_name": "Parts_token_3301046.prefab",
+    "bundle_id": 500,
+    "id": 51440,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Parts_token_3301049.prefab",
+    "bundle_id": 500,
+    "id": 51450,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Parts_token_3301055.prefab",
+    "bundle_id": 500,
+    "id": 51460,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Parts_token_4301001.prefab",
+    "bundle_id": 500,
+    "id": 51470,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Parts_token_4301003.prefab",
+    "bundle_id": 500,
+    "id": 51480,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Parts_token_4301007.prefab",
+    "bundle_id": 500,
+    "id": 51490,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Parts_token_4301045.prefab",
+    "bundle_id": 500,
+    "id": 51500,
+    "priority": 1150
+  },
+  {
+    "asset_name": "Parts_token_4303010.prefab",
+    "bundle_id": 500,
+    "id": 51510,
+    "priority": 1150
+  },
+  {
+    "asset_name": "GachaInfo2.prefab",
+    "bundle_id": 2016,
+    "id": 201610,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo3.prefab",
+    "bundle_id": 2016,
+    "id": 201611,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo4.prefab",
+    "bundle_id": 2016,
+    "id": 201612,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo5.prefab",
+    "bundle_id": 2016,
+    "id": 201613,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo6.prefab",
+    "bundle_id": 2016,
+    "id": 201614,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo7.prefab",
+    "bundle_id": 2016,
+    "id": 201615,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfoStatic1.prefab",
+    "bundle_id": 2016,
+    "id": 201616,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfoStatic2.prefab",
+    "bundle_id": 2016,
+    "id": 201617,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Military1.prefab",
+    "bundle_id": 2016,
+    "id": 201618,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Military2.prefab",
+    "bundle_id": 2016,
+    "id": 201619,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Military3.prefab",
+    "bundle_id": 2016,
+    "id": 201620,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Military4.prefab",
+    "bundle_id": 2016,
+    "id": 201621,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Military5.prefab",
+    "bundle_id": 2016,
+    "id": 201622,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Military6.prefab",
+    "bundle_id": 2016,
+    "id": 201623,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Military7.prefab",
+    "bundle_id": 2016,
+    "id": 201624,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2016,
+    "id": 201625,
+    "priority": 1300
+  },
+  {
+    "asset_name": "SBT_ReportCard.prefab",
+    "bundle_id": 2016,
+    "id": 201626,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2017,
+    "id": 201701,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity_StepUpDetail_01.prefab",
+    "bundle_id": 2017,
+    "id": 201702,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity_StepUpDetail_02.prefab",
+    "bundle_id": 2017,
+    "id": 201703,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity_StepUpDetail_03.prefab",
+    "bundle_id": 2017,
+    "id": 201704,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity_StepUpDetail_04.prefab",
+    "bundle_id": 2017,
+    "id": 201705,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity_StepUpDetail_05.prefab",
+    "bundle_id": 2017,
+    "id": 201706,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity_StepUpDetail_06.prefab",
+    "bundle_id": 2017,
+    "id": 201707,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity_StepUpDetail_07.prefab",
+    "bundle_id": 2017,
+    "id": 201708,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity_01.prefab",
+    "bundle_id": 2017,
+    "id": 201709,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity_02.prefab",
+    "bundle_id": 2017,
+    "id": 201710,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity_03.prefab",
+    "bundle_id": 2017,
+    "id": 201711,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity_04.prefab",
+    "bundle_id": 2017,
+    "id": 201712,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity_05.prefab",
+    "bundle_id": 2017,
+    "id": 201713,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity_06.prefab",
+    "bundle_id": 2017,
+    "id": 201714,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity_07.prefab",
+    "bundle_id": 2017,
+    "id": 201715,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2018,
+    "id": 201801,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2018,
+    "id": 201802,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event07_StepUp_01.prefab",
+    "bundle_id": 2018,
+    "id": 201803,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event07_StepUp_02.prefab",
+    "bundle_id": 2018,
+    "id": 201804,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event07_StepUp_03.prefab",
+    "bundle_id": 2018,
+    "id": 201805,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event07_StepUp_04.prefab",
+    "bundle_id": 2018,
+    "id": 201806,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event07_StepUp_05.prefab",
+    "bundle_id": 2018,
+    "id": 201807,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event07_StepUp_06.prefab",
+    "bundle_id": 2018,
+    "id": 201808,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event07_StepUp_07.prefab",
+    "bundle_id": 2018,
+    "id": 201809,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event07_StepUp_08.prefab",
+    "bundle_id": 2018,
+    "id": 201810,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Event07_StepUp_09.prefab",
+    "bundle_id": 2018,
+    "id": 201811,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Tankenstein_01.prefab",
+    "bundle_id": 2018,
+    "id": 201812,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Tankenstein_02.prefab",
+    "bundle_id": 2018,
+    "id": 201813,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Tankenstein_03.prefab",
+    "bundle_id": 2018,
+    "id": 201814,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Tankenstein_04.prefab",
+    "bundle_id": 2018,
+    "id": 201815,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Tankenstein_05.prefab",
+    "bundle_id": 2018,
+    "id": 201816,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Tankenstein_06.prefab",
+    "bundle_id": 2018,
+    "id": 201817,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_Tankenstein_07.prefab",
+    "bundle_id": 2018,
+    "id": 201818,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent07_01.prefab",
+    "bundle_id": 2018,
+    "id": 201819,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent07_02.prefab",
+    "bundle_id": 2018,
+    "id": 201820,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent07_Xenomorph01.prefab",
+    "bundle_id": 2018,
+    "id": 201821,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent07_Xenomorph02.prefab",
+    "bundle_id": 2018,
+    "id": 201822,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaEvent07_Xenomorph03.prefab",
+    "bundle_id": 2018,
+    "id": 201823,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Daily_Xenomorpher.prefab",
+    "bundle_id": 2018,
+    "id": 201824,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Event07_51percent.prefab",
+    "bundle_id": 2018,
+    "id": 201825,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2019,
+    "id": 201901,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_RarestRares01.prefab",
+    "bundle_id": 2019,
+    "id": 201902,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_RarestRares02.prefab",
+    "bundle_id": 2019,
+    "id": 201903,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_RarestRares.prefab",
+    "bundle_id": 2019,
+    "id": 201904,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity+1_StepUpDetail_01.prefab",
+    "bundle_id": 2019,
+    "id": 201905,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity+1_StepUpDetail_02.prefab",
+    "bundle_id": 2019,
+    "id": 201906,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity+1_StepUpDetail_03.prefab",
+    "bundle_id": 2019,
+    "id": 201907,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity+1_StepUpDetail_04.prefab",
+    "bundle_id": 2019,
+    "id": 201908,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity+1_StepUpDetail_05.prefab",
+    "bundle_id": 2019,
+    "id": 201909,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity+1_StepUpDetail_06.prefab",
+    "bundle_id": 2019,
+    "id": 201910,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_TTInfinity+1_StepUpDetail_07.prefab",
+    "bundle_id": 2019,
+    "id": 201911,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity+1_01.prefab",
+    "bundle_id": 2019,
+    "id": 201912,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity+1_02.prefab",
+    "bundle_id": 2019,
+    "id": 201913,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity+1_03.prefab",
+    "bundle_id": 2019,
+    "id": 201914,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity+1_04.prefab",
+    "bundle_id": 2019,
+    "id": 201915,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity+1_05.prefab",
+    "bundle_id": 2019,
+    "id": 201916,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity+1_06.prefab",
+    "bundle_id": 2019,
+    "id": 201917,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_Step_TankerTourneyInfinity+1_07.prefab",
+    "bundle_id": 2019,
+    "id": 201918,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2020,
+    "id": 202001,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2020,
+    "id": 202002,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gatcha_51percent.prefab",
+    "bundle_id": 2020,
+    "id": 202003,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalPartsDetails3.prefab",
+    "bundle_id": 2020,
+    "id": 202004,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalTankDetails3.prefab",
+    "bundle_id": 2020,
+    "id": 202005,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalGuaranteeDetails1.prefab",
+    "bundle_id": 2020,
+    "id": 202006,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalGuaranteeDetails2.prefab",
+    "bundle_id": 2020,
+    "id": 202007,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalGuaranteeDetails3.prefab",
+    "bundle_id": 2020,
+    "id": 202008,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalGuaranteeDetails4.prefab",
+    "bundle_id": 2020,
+    "id": 202009,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalGuaranteeDetails5.prefab",
+    "bundle_id": 2020,
+    "id": 202010,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalGuaranteeDetails6.prefab",
+    "bundle_id": 2020,
+    "id": 202011,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalGuaranteeDetails7.prefab",
+    "bundle_id": 2020,
+    "id": 202012,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalPartsDetails1.prefab",
+    "bundle_id": 2020,
+    "id": 202013,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalPartsDetails2.prefab",
+    "bundle_id": 2020,
+    "id": 202014,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalTankDetails1.prefab",
+    "bundle_id": 2020,
+    "id": 202015,
+    "priority": 1300
+  },
+  {
+    "asset_name": "KarnivalTankDetails2.prefab",
+    "bundle_id": 2020,
+    "id": 202016,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Circus_1.prefab",
+    "bundle_id": 2020,
+    "id": 202017,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Circus_2.prefab",
+    "bundle_id": 2020,
+    "id": 202018,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Circus_3.prefab",
+    "bundle_id": 2020,
+    "id": 202019,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Circus_4.prefab",
+    "bundle_id": 2020,
+    "id": 202020,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Circus_5.prefab",
+    "bundle_id": 2020,
+    "id": 202021,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Circus_6.prefab",
+    "bundle_id": 2020,
+    "id": 202022,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Circus_7.prefab",
+    "bundle_id": 2020,
+    "id": 202023,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1.prefab",
+    "bundle_id": 2020,
+    "id": 202024,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo2.prefab",
+    "bundle_id": 2020,
+    "id": 202025,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_mid.prefab",
+    "bundle_id": 2020,
+    "id": 202026,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2021,
+    "id": 202101,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan1.prefab",
+    "bundle_id": 2021,
+    "id": 202102,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan10.prefab",
+    "bundle_id": 2021,
+    "id": 202103,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan11.prefab",
+    "bundle_id": 2021,
+    "id": 202104,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan12.prefab",
+    "bundle_id": 2021,
+    "id": 202105,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan13.prefab",
+    "bundle_id": 2021,
+    "id": 202106,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan14.prefab",
+    "bundle_id": 2021,
+    "id": 202107,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan15.prefab",
+    "bundle_id": 2021,
+    "id": 202108,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan16.prefab",
+    "bundle_id": 2021,
+    "id": 202109,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan17.prefab",
+    "bundle_id": 2021,
+    "id": 202110,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan18.prefab",
+    "bundle_id": 2021,
+    "id": 202111,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan19.prefab",
+    "bundle_id": 2021,
+    "id": 202112,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan2.prefab",
+    "bundle_id": 2021,
+    "id": 202113,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan20.prefab",
+    "bundle_id": 2021,
+    "id": 202114,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan21.prefab",
+    "bundle_id": 2021,
+    "id": 202115,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan22.prefab",
+    "bundle_id": 2021,
+    "id": 202116,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan3.prefab",
+    "bundle_id": 2021,
+    "id": 202117,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan4.prefab",
+    "bundle_id": 2021,
+    "id": 202118,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan5.prefab",
+    "bundle_id": 2021,
+    "id": 202119,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan6.prefab",
+    "bundle_id": 2021,
+    "id": 202120,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan7.prefab",
+    "bundle_id": 2021,
+    "id": 202121,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan8.prefab",
+    "bundle_id": 2021,
+    "id": 202122,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan9.prefab",
+    "bundle_id": 2021,
+    "id": 202123,
+    "priority": 1300
+  },
+  {
+    "asset_name": "TitanInfo1.prefab",
+    "bundle_id": 2021,
+    "id": 202124,
+    "priority": 1300
+  },
+  {
+    "asset_name": "TitanInfo2.prefab",
+    "bundle_id": 2021,
+    "id": 202125,
+    "priority": 1300
+  },
+  {
+    "asset_name": "AjaxGacha.prefab",
+    "bundle_id": 2021,
+    "id": 202126,
+    "priority": 1300
+  },
+  {
+    "asset_name": "AjaxInfo1.prefab",
+    "bundle_id": 2021,
+    "id": 202127,
+    "priority": 1300
+  },
+  {
+    "asset_name": "AjaxInfo2.prefab",
+    "bundle_id": 2021,
+    "id": 202128,
+    "priority": 1300
+  },
+  {
+    "asset_name": "CrackShotInfo1.prefab",
+    "bundle_id": 2021,
+    "id": 202129,
+    "priority": 1300
+  },
+  {
+    "asset_name": "CrackdownGacha.prefab",
+    "bundle_id": 2021,
+    "id": 202130,
+    "priority": 1300
+  },
+  {
+    "asset_name": "CrackshotInfo2.prefab",
+    "bundle_id": 2021,
+    "id": 202131,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2022,
+    "id": 202201,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2022,
+    "id": 202202,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1.prefab",
+    "bundle_id": 2022,
+    "id": 202203,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo2_Q.prefab",
+    "bundle_id": 2022,
+    "id": 202204,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaNights_03.prefab",
+    "bundle_id": 2022,
+    "id": 202205,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1.prefab",
+    "bundle_id": 2022,
+    "id": 202206,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo2.prefab",
+    "bundle_id": 2022,
+    "id": 202207,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Knights1.prefab",
+    "bundle_id": 2022,
+    "id": 202208,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Knights2.prefab",
+    "bundle_id": 2022,
+    "id": 202209,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Knights3.prefab",
+    "bundle_id": 2022,
+    "id": 202210,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Knights4.prefab",
+    "bundle_id": 2022,
+    "id": 202211,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Knights5.prefab",
+    "bundle_id": 2022,
+    "id": 202212,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Knights6.prefab",
+    "bundle_id": 2022,
+    "id": 202213,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Knights7.prefab",
+    "bundle_id": 2022,
+    "id": 202214,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2023,
+    "id": 202301,
+    "priority": 1500
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2024,
+    "id": 202401,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_background.prefab",
+    "bundle_id": 2024,
+    "id": 202402,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1.prefab",
+    "bundle_id": 2024,
+    "id": 202403,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo2.prefab",
+    "bundle_id": 2024,
+    "id": 202404,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo3.prefab",
+    "bundle_id": 2024,
+    "id": 202405,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Bling1.prefab",
+    "bundle_id": 2024,
+    "id": 202406,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Bling2.prefab",
+    "bundle_id": 2024,
+    "id": 202407,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Bling3.prefab",
+    "bundle_id": 2024,
+    "id": 202408,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Bling4.prefab",
+    "bundle_id": 2024,
+    "id": 202409,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Bling5.prefab",
+    "bundle_id": 2024,
+    "id": 202410,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Bling6.prefab",
+    "bundle_id": 2024,
+    "id": 202411,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Bling7.prefab",
+    "bundle_id": 2024,
+    "id": 202412,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1_Plk.prefab",
+    "bundle_id": 2024,
+    "id": 202413,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo2_Plk.prefab",
+    "bundle_id": 2024,
+    "id": 202414,
+    "priority": 1300
+  },
+  {
+    "asset_name": "RorBetter_03.prefab",
+    "bundle_id": 2024,
+    "id": 202415,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Ticket_gacha.prefab",
+    "bundle_id": 2024,
+    "id": 202416,
+    "priority": 1300
+  },
+  {
+    "asset_name": "plinko_cell.prefab",
+    "bundle_id": 2024,
+    "id": 202417,
+    "priority": 1300
+  },
+  {
+    "asset_name": "PlinkoInfo1.prefab",
+    "bundle_id": 2024,
+    "id": 202418,
+    "priority": 1300
+  },
+  {
+    "asset_name": "PlinkoInfo2.prefab",
+    "bundle_id": 2024,
+    "id": 202419,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2025,
+    "id": 202501,
+    "priority": 1500
+  },
+  {
+    "asset_name": "StepUp_Titan1.prefab",
+    "bundle_id": 2025,
+    "id": 202502,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan10.prefab",
+    "bundle_id": 2025,
+    "id": 202503,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan11.prefab",
+    "bundle_id": 2025,
+    "id": 202504,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan12.prefab",
+    "bundle_id": 2025,
+    "id": 202505,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan13.prefab",
+    "bundle_id": 2025,
+    "id": 202506,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan14.prefab",
+    "bundle_id": 2025,
+    "id": 202507,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan15.prefab",
+    "bundle_id": 2025,
+    "id": 202508,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan16.prefab",
+    "bundle_id": 2025,
+    "id": 202509,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan17.prefab",
+    "bundle_id": 2025,
+    "id": 202510,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan18.prefab",
+    "bundle_id": 2025,
+    "id": 202511,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan19.prefab",
+    "bundle_id": 2025,
+    "id": 202512,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan2.prefab",
+    "bundle_id": 2025,
+    "id": 202513,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan20.prefab",
+    "bundle_id": 2025,
+    "id": 202514,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan21.prefab",
+    "bundle_id": 2025,
+    "id": 202515,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan22.prefab",
+    "bundle_id": 2025,
+    "id": 202516,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan3.prefab",
+    "bundle_id": 2025,
+    "id": 202517,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan4.prefab",
+    "bundle_id": 2025,
+    "id": 202518,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan5.prefab",
+    "bundle_id": 2025,
+    "id": 202519,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan6.prefab",
+    "bundle_id": 2025,
+    "id": 202520,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan7.prefab",
+    "bundle_id": 2025,
+    "id": 202521,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan8.prefab",
+    "bundle_id": 2025,
+    "id": 202522,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp_Titan9.prefab",
+    "bundle_id": 2025,
+    "id": 202523,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1.prefab",
+    "bundle_id": 2025,
+    "id": 202524,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo2.prefab",
+    "bundle_id": 2025,
+    "id": 202525,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Fright Train.prefab",
+    "bundle_id": 2026,
+    "id": 202601,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Fright Train_info_01.prefab",
+    "bundle_id": 2026,
+    "id": 202602,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Fright Train_info_02.prefab",
+    "bundle_id": 2026,
+    "id": 202603,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Fusillade.prefab",
+    "bundle_id": 2026,
+    "id": 202604,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Fusillade_info_01.prefab",
+    "bundle_id": 2026,
+    "id": 202605,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Fusillade_info_02.prefab",
+    "bundle_id": 2026,
+    "id": 202606,
+    "priority": 1300
+  },
+  {
+    "asset_name": "event_logo.prefab",
+    "bundle_id": 2026,
+    "id": 202607,
+    "priority": 1300
+  },
+  {
+    "asset_name": "TT_Falling_Stars_Bieber_NEWS.prefab",
+    "bundle_id": 2026,
+    "id": 202608,
+    "priority": 1000
+  },
+  {
+    "asset_name": "TT_3000.prefab",
+    "bundle_id": 2113,
+    "id": 211301,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo1.prefab",
+    "bundle_id": 2207,
+    "id": 220701,
+    "priority": 1300
+  },
+  {
+    "asset_name": "GachaInfo2.prefab",
+    "bundle_id": 2207,
+    "id": 220702,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan1.prefab",
+    "bundle_id": 2207,
+    "id": 220703,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan10.prefab",
+    "bundle_id": 2207,
+    "id": 220704,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan2.prefab",
+    "bundle_id": 2207,
+    "id": 220705,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan3.prefab",
+    "bundle_id": 2207,
+    "id": 220706,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan4.prefab",
+    "bundle_id": 2207,
+    "id": 220707,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan5.prefab",
+    "bundle_id": 2207,
+    "id": 220708,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan6.prefab",
+    "bundle_id": 2207,
+    "id": 220709,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan7.prefab",
+    "bundle_id": 2207,
+    "id": 220710,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan8.prefab",
+    "bundle_id": 2207,
+    "id": 220711,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan9.prefab",
+    "bundle_id": 2207,
+    "id": 220712,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan11.prefab",
+    "bundle_id": 2207,
+    "id": 220713,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan12.prefab",
+    "bundle_id": 2207,
+    "id": 220714,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan13.prefab",
+    "bundle_id": 2207,
+    "id": 220715,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan14.prefab",
+    "bundle_id": 2207,
+    "id": 220716,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan15.prefab",
+    "bundle_id": 2207,
+    "id": 220717,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan16.prefab",
+    "bundle_id": 2207,
+    "id": 220718,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan17.prefab",
+    "bundle_id": 2207,
+    "id": 220719,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan18.prefab",
+    "bundle_id": 2207,
+    "id": 220720,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan19.prefab",
+    "bundle_id": 2207,
+    "id": 220721,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan20.prefab",
+    "bundle_id": 2207,
+    "id": 220722,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan21.prefab",
+    "bundle_id": 2207,
+    "id": 220723,
+    "priority": 1300
+  },
+  {
+    "asset_name": "StepUp2_Titan22.prefab",
+    "bundle_id": 2207,
+    "id": 220724,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Karnival.prefab",
+    "bundle_id": 2300,
+    "id": 230013,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_Round_Table.prefab",
+    "bundle_id": 2300,
+    "id": 230014,
+    "priority": 1300
+  },
+  {
+    "asset_name": "Gacha_Banner_TrickMeOut.prefab",
+    "bundle_id": 2300,
+    "id": 230015,
+    "priority": 1300
+  }
+]

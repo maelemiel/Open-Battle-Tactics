@@ -1,0 +1,1262 @@
+[
+  {
+    "threshold": 50,
+    "teamid": 78052,
+    "boxtype": 1,
+    "id": 1,
+    "giftid": 90101
+  },
+  {
+    "threshold": 50,
+    "teamid": 79001,
+    "boxtype": 1,
+    "id": 2,
+    "giftid": 90101
+  },
+  {
+    "threshold": 100,
+    "teamid": 79001,
+    "boxtype": 1,
+    "id": 3,
+    "giftid": 111
+  },
+  {
+    "threshold": 150,
+    "teamid": 79001,
+    "boxtype": 1,
+    "id": 4,
+    "giftid": 104
+  },
+  {
+    "threshold": 200,
+    "teamid": 79001,
+    "boxtype": 2,
+    "id": 5,
+    "giftid": 5
+  },
+  {
+    "threshold": 50,
+    "teamid": 79002,
+    "boxtype": 1,
+    "id": 6,
+    "giftid": 104
+  },
+  {
+    "threshold": 150,
+    "teamid": 79002,
+    "boxtype": 1,
+    "id": 7,
+    "giftid": 121
+  },
+  {
+    "threshold": 300,
+    "teamid": 79002,
+    "boxtype": 1,
+    "id": 8,
+    "giftid": 999
+  },
+  {
+    "threshold": 500,
+    "teamid": 79002,
+    "boxtype": 2,
+    "id": 9,
+    "giftid": 6
+  },
+  {
+    "threshold": 100,
+    "teamid": 79003,
+    "boxtype": 1,
+    "id": 10,
+    "giftid": 103
+  },
+  {
+    "threshold": 250,
+    "teamid": 79003,
+    "boxtype": 1,
+    "id": 11,
+    "giftid": 121
+  },
+  {
+    "threshold": 400,
+    "teamid": 79003,
+    "boxtype": 1,
+    "id": 12,
+    "giftid": 999
+  },
+  {
+    "threshold": 750,
+    "teamid": 79003,
+    "boxtype": 2,
+    "id": 13,
+    "giftid": 7
+  },
+  {
+    "threshold": 150,
+    "teamid": 79004,
+    "boxtype": 1,
+    "id": 14,
+    "giftid": 102
+  },
+  {
+    "threshold": 300,
+    "teamid": 79004,
+    "boxtype": 1,
+    "id": 15,
+    "giftid": 121
+  },
+  {
+    "threshold": 500,
+    "teamid": 79004,
+    "boxtype": 1,
+    "id": 16,
+    "giftid": 999
+  },
+  {
+    "threshold": 1000,
+    "teamid": 79004,
+    "boxtype": 2,
+    "id": 17,
+    "giftid": 8
+  },
+  {
+    "threshold": 200,
+    "teamid": 79005,
+    "boxtype": 1,
+    "id": 18,
+    "giftid": 101
+  },
+  {
+    "threshold": 450,
+    "teamid": 79005,
+    "boxtype": 1,
+    "id": 19,
+    "giftid": 121
+  },
+  {
+    "threshold": 750,
+    "teamid": 79005,
+    "boxtype": 1,
+    "id": 20,
+    "giftid": 999
+  },
+  {
+    "threshold": 1250,
+    "teamid": 79005,
+    "boxtype": 2,
+    "id": 21,
+    "giftid": 9
+  },
+  {
+    "threshold": 50,
+    "teamid": 79007,
+    "boxtype": 1,
+    "id": 22,
+    "giftid": 121
+  },
+  {
+    "threshold": 100,
+    "teamid": 79007,
+    "boxtype": 1,
+    "id": 23,
+    "giftid": 111
+  },
+  {
+    "threshold": 150,
+    "teamid": 79007,
+    "boxtype": 1,
+    "id": 24,
+    "giftid": 104
+  },
+  {
+    "threshold": 200,
+    "teamid": 79007,
+    "boxtype": 2,
+    "id": 25,
+    "giftid": 5
+  },
+  {
+    "threshold": 50,
+    "teamid": 79008,
+    "boxtype": 1,
+    "id": 26,
+    "giftid": 104
+  },
+  {
+    "threshold": 150,
+    "teamid": 79008,
+    "boxtype": 1,
+    "id": 27,
+    "giftid": 121
+  },
+  {
+    "threshold": 300,
+    "teamid": 79008,
+    "boxtype": 1,
+    "id": 28,
+    "giftid": 999
+  },
+  {
+    "threshold": 500,
+    "teamid": 79008,
+    "boxtype": 2,
+    "id": 29,
+    "giftid": 6
+  },
+  {
+    "threshold": 100,
+    "teamid": 79009,
+    "boxtype": 1,
+    "id": 30,
+    "giftid": 103
+  },
+  {
+    "threshold": 250,
+    "teamid": 79009,
+    "boxtype": 1,
+    "id": 31,
+    "giftid": 121
+  },
+  {
+    "threshold": 400,
+    "teamid": 79009,
+    "boxtype": 1,
+    "id": 32,
+    "giftid": 999
+  },
+  {
+    "threshold": 750,
+    "teamid": 79009,
+    "boxtype": 2,
+    "id": 33,
+    "giftid": 7
+  },
+  {
+    "threshold": 150,
+    "teamid": 79010,
+    "boxtype": 1,
+    "id": 34,
+    "giftid": 102
+  },
+  {
+    "threshold": 300,
+    "teamid": 79010,
+    "boxtype": 1,
+    "id": 35,
+    "giftid": 121
+  },
+  {
+    "threshold": 500,
+    "teamid": 79010,
+    "boxtype": 1,
+    "id": 36,
+    "giftid": 999
+  },
+  {
+    "threshold": 1000,
+    "teamid": 79010,
+    "boxtype": 2,
+    "id": 37,
+    "giftid": 8
+  },
+  {
+    "threshold": 200,
+    "teamid": 79011,
+    "boxtype": 1,
+    "id": 38,
+    "giftid": 101
+  },
+  {
+    "threshold": 450,
+    "teamid": 79011,
+    "boxtype": 1,
+    "id": 39,
+    "giftid": 121
+  },
+  {
+    "threshold": 750,
+    "teamid": 79011,
+    "boxtype": 1,
+    "id": 40,
+    "giftid": 999
+  },
+  {
+    "threshold": 1250,
+    "teamid": 79011,
+    "boxtype": 2,
+    "id": 41,
+    "giftid": 9
+  },
+  {
+    "threshold": 50,
+    "teamid": 79013,
+    "boxtype": 1,
+    "id": 42,
+    "giftid": 104
+  },
+  {
+    "threshold": 150,
+    "teamid": 79013,
+    "boxtype": 1,
+    "id": 43,
+    "giftid": 121
+  },
+  {
+    "threshold": 300,
+    "teamid": 79013,
+    "boxtype": 1,
+    "id": 44,
+    "giftid": 999
+  },
+  {
+    "threshold": 500,
+    "teamid": 79013,
+    "boxtype": 2,
+    "id": 45,
+    "giftid": 6
+  },
+  {
+    "threshold": 100,
+    "teamid": 79014,
+    "boxtype": 1,
+    "id": 46,
+    "giftid": 103
+  },
+  {
+    "threshold": 250,
+    "teamid": 79014,
+    "boxtype": 1,
+    "id": 47,
+    "giftid": 121
+  },
+  {
+    "threshold": 400,
+    "teamid": 79014,
+    "boxtype": 1,
+    "id": 48,
+    "giftid": 999
+  },
+  {
+    "threshold": 750,
+    "teamid": 79014,
+    "boxtype": 2,
+    "id": 49,
+    "giftid": 7
+  },
+  {
+    "threshold": 150,
+    "teamid": 79015,
+    "boxtype": 1,
+    "id": 50,
+    "giftid": 102
+  },
+  {
+    "threshold": 300,
+    "teamid": 79015,
+    "boxtype": 1,
+    "id": 51,
+    "giftid": 121
+  },
+  {
+    "threshold": 500,
+    "teamid": 79015,
+    "boxtype": 1,
+    "id": 52,
+    "giftid": 999
+  },
+  {
+    "threshold": 1000,
+    "teamid": 79015,
+    "boxtype": 2,
+    "id": 53,
+    "giftid": 8
+  },
+  {
+    "threshold": 200,
+    "teamid": 79016,
+    "boxtype": 1,
+    "id": 54,
+    "giftid": 101
+  },
+  {
+    "threshold": 450,
+    "teamid": 79016,
+    "boxtype": 1,
+    "id": 55,
+    "giftid": 121
+  },
+  {
+    "threshold": 750,
+    "teamid": 79016,
+    "boxtype": 1,
+    "id": 56,
+    "giftid": 999
+  },
+  {
+    "threshold": 1250,
+    "teamid": 79016,
+    "boxtype": 2,
+    "id": 57,
+    "giftid": 9
+  },
+  {
+    "threshold": 200,
+    "teamid": 79017,
+    "boxtype": 1,
+    "id": 58,
+    "giftid": 101
+  },
+  {
+    "threshold": 450,
+    "teamid": 79017,
+    "boxtype": 1,
+    "id": 59,
+    "giftid": 121
+  },
+  {
+    "threshold": 750,
+    "teamid": 79017,
+    "boxtype": 1,
+    "id": 60,
+    "giftid": 999
+  },
+  {
+    "threshold": 1250,
+    "teamid": 79017,
+    "boxtype": 2,
+    "id": 61,
+    "giftid": 9
+  },
+  {
+    "threshold": 70,
+    "teamid": 70460,
+    "boxtype": 0,
+    "id": 62,
+    "giftid": 90101
+  },
+  {
+    "threshold": 100,
+    "teamid": 70461,
+    "boxtype": 0,
+    "id": 63,
+    "giftid": 90101
+  },
+  {
+    "threshold": 190,
+    "teamid": 70461,
+    "boxtype": 1,
+    "id": 64,
+    "giftid": 90102
+  },
+  {
+    "threshold": 100,
+    "teamid": 70462,
+    "boxtype": 0,
+    "id": 65,
+    "giftid": 90101
+  },
+  {
+    "threshold": 300,
+    "teamid": 70462,
+    "boxtype": 1,
+    "id": 66,
+    "giftid": 90102
+  },
+  {
+    "threshold": 450,
+    "teamid": 70462,
+    "boxtype": 2,
+    "id": 67,
+    "giftid": 90404
+  },
+  {
+    "threshold": 150,
+    "teamid": 70463,
+    "boxtype": 0,
+    "id": 68,
+    "giftid": 90201
+  },
+  {
+    "threshold": 400,
+    "teamid": 70463,
+    "boxtype": 1,
+    "id": 69,
+    "giftid": 90202
+  },
+  {
+    "threshold": 750,
+    "teamid": 70463,
+    "boxtype": 2,
+    "id": 70,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70464,
+    "boxtype": 0,
+    "id": 71,
+    "giftid": 90201
+  },
+  {
+    "threshold": 500,
+    "teamid": 70464,
+    "boxtype": 1,
+    "id": 72,
+    "giftid": 90202
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70464,
+    "boxtype": 2,
+    "id": 73,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70465,
+    "boxtype": 0,
+    "id": 74,
+    "giftid": 90201
+  },
+  {
+    "threshold": 500,
+    "teamid": 70465,
+    "boxtype": 1,
+    "id": 75,
+    "giftid": 90202
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70465,
+    "boxtype": 2,
+    "id": 76,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70466,
+    "boxtype": 0,
+    "id": 77,
+    "giftid": 90301
+  },
+  {
+    "threshold": 500,
+    "teamid": 70466,
+    "boxtype": 1,
+    "id": 78,
+    "giftid": 90302
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70466,
+    "boxtype": 2,
+    "id": 79,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70467,
+    "boxtype": 0,
+    "id": 80,
+    "giftid": 90301
+  },
+  {
+    "threshold": 500,
+    "teamid": 70467,
+    "boxtype": 1,
+    "id": 81,
+    "giftid": 90302
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70467,
+    "boxtype": 2,
+    "id": 82,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70468,
+    "boxtype": 0,
+    "id": 83,
+    "giftid": 90301
+  },
+  {
+    "threshold": 500,
+    "teamid": 70468,
+    "boxtype": 1,
+    "id": 84,
+    "giftid": 90302
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70468,
+    "boxtype": 2,
+    "id": 85,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70469,
+    "boxtype": 0,
+    "id": 86,
+    "giftid": 90401
+  },
+  {
+    "threshold": 500,
+    "teamid": 70469,
+    "boxtype": 1,
+    "id": 87,
+    "giftid": 90402
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70469,
+    "boxtype": 2,
+    "id": 88,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70470,
+    "boxtype": 0,
+    "id": 89,
+    "giftid": 90401
+  },
+  {
+    "threshold": 500,
+    "teamid": 70470,
+    "boxtype": 1,
+    "id": 90,
+    "giftid": 90402
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70470,
+    "boxtype": 2,
+    "id": 91,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70471,
+    "boxtype": 0,
+    "id": 92,
+    "giftid": 90401
+  },
+  {
+    "threshold": 500,
+    "teamid": 70471,
+    "boxtype": 1,
+    "id": 93,
+    "giftid": 90402
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70471,
+    "boxtype": 2,
+    "id": 94,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70472,
+    "boxtype": 0,
+    "id": 95,
+    "giftid": 90501
+  },
+  {
+    "threshold": 500,
+    "teamid": 70472,
+    "boxtype": 1,
+    "id": 96,
+    "giftid": 90502
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70472,
+    "boxtype": 2,
+    "id": 97,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70473,
+    "boxtype": 0,
+    "id": 98,
+    "giftid": 90501
+  },
+  {
+    "threshold": 500,
+    "teamid": 70473,
+    "boxtype": 1,
+    "id": 99,
+    "giftid": 90502
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70473,
+    "boxtype": 2,
+    "id": 100,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70474,
+    "boxtype": 0,
+    "id": 101,
+    "giftid": 90501
+  },
+  {
+    "threshold": 500,
+    "teamid": 70474,
+    "boxtype": 1,
+    "id": 102,
+    "giftid": 90502
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70474,
+    "boxtype": 2,
+    "id": 103,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70475,
+    "boxtype": 0,
+    "id": 104,
+    "giftid": 90601
+  },
+  {
+    "threshold": 500,
+    "teamid": 70475,
+    "boxtype": 1,
+    "id": 105,
+    "giftid": 90602
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70475,
+    "boxtype": 2,
+    "id": 106,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70476,
+    "boxtype": 0,
+    "id": 107,
+    "giftid": 90601
+  },
+  {
+    "threshold": 500,
+    "teamid": 70476,
+    "boxtype": 1,
+    "id": 108,
+    "giftid": 90602
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70476,
+    "boxtype": 2,
+    "id": 109,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70477,
+    "boxtype": 0,
+    "id": 110,
+    "giftid": 90601
+  },
+  {
+    "threshold": 500,
+    "teamid": 70477,
+    "boxtype": 1,
+    "id": 111,
+    "giftid": 90602
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70477,
+    "boxtype": 2,
+    "id": 112,
+    "giftid": 90404
+  },
+  {
+    "threshold": 50,
+    "teamid": 79002,
+    "boxtype": 1,
+    "id": 113,
+    "giftid": 104
+  },
+  {
+    "threshold": 150,
+    "teamid": 79002,
+    "boxtype": 1,
+    "id": 114,
+    "giftid": 121
+  },
+  {
+    "threshold": 300,
+    "teamid": 79002,
+    "boxtype": 1,
+    "id": 115,
+    "giftid": 999
+  },
+  {
+    "threshold": 500,
+    "teamid": 79002,
+    "boxtype": 2,
+    "id": 116,
+    "giftid": 6
+  },
+  {
+    "threshold": 100,
+    "teamid": 79003,
+    "boxtype": 1,
+    "id": 117,
+    "giftid": 103
+  },
+  {
+    "threshold": 250,
+    "teamid": 79003,
+    "boxtype": 1,
+    "id": 118,
+    "giftid": 121
+  },
+  {
+    "threshold": 400,
+    "teamid": 79003,
+    "boxtype": 1,
+    "id": 119,
+    "giftid": 999
+  },
+  {
+    "threshold": 750,
+    "teamid": 79003,
+    "boxtype": 2,
+    "id": 120,
+    "giftid": 7
+  },
+  {
+    "threshold": 150,
+    "teamid": 79004,
+    "boxtype": 1,
+    "id": 121,
+    "giftid": 102
+  },
+  {
+    "threshold": 300,
+    "teamid": 79004,
+    "boxtype": 1,
+    "id": 122,
+    "giftid": 121
+  },
+  {
+    "threshold": 500,
+    "teamid": 79004,
+    "boxtype": 1,
+    "id": 123,
+    "giftid": 999
+  },
+  {
+    "threshold": 1000,
+    "teamid": 79004,
+    "boxtype": 2,
+    "id": 124,
+    "giftid": 8
+  },
+  {
+    "threshold": 200,
+    "teamid": 79005,
+    "boxtype": 1,
+    "id": 125,
+    "giftid": 101
+  },
+  {
+    "threshold": 450,
+    "teamid": 79005,
+    "boxtype": 1,
+    "id": 126,
+    "giftid": 121
+  },
+  {
+    "threshold": 750,
+    "teamid": 79005,
+    "boxtype": 1,
+    "id": 127,
+    "giftid": 999
+  },
+  {
+    "threshold": 1250,
+    "teamid": 79005,
+    "boxtype": 2,
+    "id": 128,
+    "giftid": 9
+  },
+  {
+    "threshold": 125,
+    "teamid": 70494,
+    "boxtype": 0,
+    "id": 129,
+    "giftid": 90101
+  },
+  {
+    "threshold": 90,
+    "teamid": 70495,
+    "boxtype": 0,
+    "id": 130,
+    "giftid": 90101
+  },
+  {
+    "threshold": 180,
+    "teamid": 70495,
+    "boxtype": 1,
+    "id": 131,
+    "giftid": 90102
+  },
+  {
+    "threshold": 150,
+    "teamid": 70496,
+    "boxtype": 0,
+    "id": 132,
+    "giftid": 90101
+  },
+  {
+    "threshold": 375,
+    "teamid": 70496,
+    "boxtype": 1,
+    "id": 133,
+    "giftid": 90102
+  },
+  {
+    "threshold": 550,
+    "teamid": 70496,
+    "boxtype": 2,
+    "id": 134,
+    "giftid": 90404
+  },
+  {
+    "threshold": 200,
+    "teamid": 70497,
+    "boxtype": 0,
+    "id": 135,
+    "giftid": 90201
+  },
+  {
+    "threshold": 500,
+    "teamid": 70497,
+    "boxtype": 1,
+    "id": 136,
+    "giftid": 90202
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70497,
+    "boxtype": 2,
+    "id": 137,
+    "giftid": 90404
+  },
+  {
+    "threshold": 250,
+    "teamid": 70498,
+    "boxtype": 0,
+    "id": 138,
+    "giftid": 90201
+  },
+  {
+    "threshold": 600,
+    "teamid": 70498,
+    "boxtype": 1,
+    "id": 139,
+    "giftid": 90202
+  },
+  {
+    "threshold": 1100,
+    "teamid": 70498,
+    "boxtype": 2,
+    "id": 140,
+    "giftid": 90404
+  },
+  {
+    "threshold": 300,
+    "teamid": 70499,
+    "boxtype": 0,
+    "id": 141,
+    "giftid": 90201
+  },
+  {
+    "threshold": 700,
+    "teamid": 70499,
+    "boxtype": 1,
+    "id": 142,
+    "giftid": 90202
+  },
+  {
+    "threshold": 1200,
+    "teamid": 70499,
+    "boxtype": 2,
+    "id": 143,
+    "giftid": 90404
+  },
+  {
+    "threshold": 350,
+    "teamid": 70500,
+    "boxtype": 0,
+    "id": 144,
+    "giftid": 90301
+  },
+  {
+    "threshold": 800,
+    "teamid": 70500,
+    "boxtype": 1,
+    "id": 145,
+    "giftid": 90302
+  },
+  {
+    "threshold": 1300,
+    "teamid": 70500,
+    "boxtype": 2,
+    "id": 146,
+    "giftid": 90404
+  },
+  {
+    "threshold": 400,
+    "teamid": 70501,
+    "boxtype": 0,
+    "id": 147,
+    "giftid": 90301
+  },
+  {
+    "threshold": 900,
+    "teamid": 70501,
+    "boxtype": 1,
+    "id": 148,
+    "giftid": 90302
+  },
+  {
+    "threshold": 1400,
+    "teamid": 70501,
+    "boxtype": 2,
+    "id": 149,
+    "giftid": 90404
+  },
+  {
+    "threshold": 400,
+    "teamid": 70502,
+    "boxtype": 0,
+    "id": 150,
+    "giftid": 90301
+  },
+  {
+    "threshold": 1000,
+    "teamid": 70502,
+    "boxtype": 1,
+    "id": 151,
+    "giftid": 90302
+  },
+  {
+    "threshold": 1500,
+    "teamid": 70502,
+    "boxtype": 2,
+    "id": 152,
+    "giftid": 90404
+  },
+  {
+    "threshold": 450,
+    "teamid": 70503,
+    "boxtype": 0,
+    "id": 153,
+    "giftid": 90401
+  },
+  {
+    "threshold": 1100,
+    "teamid": 70503,
+    "boxtype": 1,
+    "id": 154,
+    "giftid": 90402
+  },
+  {
+    "threshold": 1600,
+    "teamid": 70503,
+    "boxtype": 2,
+    "id": 155,
+    "giftid": 90404
+  },
+  {
+    "threshold": 500,
+    "teamid": 70504,
+    "boxtype": 0,
+    "id": 156,
+    "giftid": 90401
+  },
+  {
+    "threshold": 1200,
+    "teamid": 70504,
+    "boxtype": 1,
+    "id": 157,
+    "giftid": 90402
+  },
+  {
+    "threshold": 1700,
+    "teamid": 70504,
+    "boxtype": 2,
+    "id": 158,
+    "giftid": 90404
+  },
+  {
+    "threshold": 550,
+    "teamid": 70505,
+    "boxtype": 0,
+    "id": 159,
+    "giftid": 90401
+  },
+  {
+    "threshold": 1300,
+    "teamid": 70505,
+    "boxtype": 1,
+    "id": 160,
+    "giftid": 90402
+  },
+  {
+    "threshold": 1800,
+    "teamid": 70505,
+    "boxtype": 2,
+    "id": 161,
+    "giftid": 90404
+  },
+  {
+    "threshold": 600,
+    "teamid": 70506,
+    "boxtype": 0,
+    "id": 162,
+    "giftid": 90501
+  },
+  {
+    "threshold": 1400,
+    "teamid": 70506,
+    "boxtype": 1,
+    "id": 163,
+    "giftid": 90502
+  },
+  {
+    "threshold": 1900,
+    "teamid": 70506,
+    "boxtype": 2,
+    "id": 164,
+    "giftid": 90404
+  },
+  {
+    "threshold": 650,
+    "teamid": 70507,
+    "boxtype": 0,
+    "id": 165,
+    "giftid": 90501
+  },
+  {
+    "threshold": 1500,
+    "teamid": 70507,
+    "boxtype": 1,
+    "id": 166,
+    "giftid": 90502
+  },
+  {
+    "threshold": 2000,
+    "teamid": 70507,
+    "boxtype": 2,
+    "id": 167,
+    "giftid": 90404
+  },
+  {
+    "threshold": 650,
+    "teamid": 70508,
+    "boxtype": 0,
+    "id": 168,
+    "giftid": 90501
+  },
+  {
+    "threshold": 1500,
+    "teamid": 70508,
+    "boxtype": 1,
+    "id": 169,
+    "giftid": 90502
+  },
+  {
+    "threshold": 2000,
+    "teamid": 70508,
+    "boxtype": 2,
+    "id": 170,
+    "giftid": 90404
+  },
+  {
+    "threshold": 650,
+    "teamid": 70509,
+    "boxtype": 0,
+    "id": 171,
+    "giftid": 90601
+  },
+  {
+    "threshold": 1500,
+    "teamid": 70509,
+    "boxtype": 1,
+    "id": 172,
+    "giftid": 90602
+  },
+  {
+    "threshold": 2000,
+    "teamid": 70509,
+    "boxtype": 2,
+    "id": 173,
+    "giftid": 90404
+  },
+  {
+    "threshold": 650,
+    "teamid": 70510,
+    "boxtype": 0,
+    "id": 174,
+    "giftid": 90601
+  },
+  {
+    "threshold": 1500,
+    "teamid": 70510,
+    "boxtype": 1,
+    "id": 175,
+    "giftid": 90602
+  },
+  {
+    "threshold": 2000,
+    "teamid": 70510,
+    "boxtype": 2,
+    "id": 176,
+    "giftid": 90404
+  },
+  {
+    "threshold": 650,
+    "teamid": 70511,
+    "boxtype": 0,
+    "id": 177,
+    "giftid": 90601
+  },
+  {
+    "threshold": 1500,
+    "teamid": 70511,
+    "boxtype": 1,
+    "id": 178,
+    "giftid": 90602
+  },
+  {
+    "threshold": 2000,
+    "teamid": 70511,
+    "boxtype": 2,
+    "id": 179,
+    "giftid": 90404
+  },
+  {
+    "threshold": 70,
+    "teamid": 78052,
+    "boxtype": 0,
+    "id": 180,
+    "giftid": 90101
+  }
+]

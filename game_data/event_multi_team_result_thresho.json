@@ -1,0 +1,47 @@
+[
+  {
+    "threshold_value": 0,
+    "sprite_name": "Stamp_C-",
+    "id": 0
+  },
+  {
+    "threshold_value": 50,
+    "sprite_name": "Stamp_C",
+    "id": 1
+  },
+  {
+    "threshold_value": 100,
+    "sprite_name": "Stamp_C+",
+    "id": 2
+  },
+  {
+    "threshold_value": 150,
+    "sprite_name": "Stamp_B-",
+    "id": 3
+  },
+  {
+    "threshold_value": 200,
+    "sprite_name": "Stamp_B",
+    "id": 4
+  },
+  {
+    "threshold_value": 250,
+    "sprite_name": "Stamp_B",
+    "id": 5
+  },
+  {
+    "threshold_value": 300,
+    "sprite_name": "Stamp_A-",
+    "id": 6
+  },
+  {
+    "threshold_value": 350,
+    "sprite_name": "Stamp_A",
+    "id": 7
+  },
+  {
+    "threshold_value": 400,
+    "sprite_name": "Stamp_A+",
+    "id": 8
+  }
+]

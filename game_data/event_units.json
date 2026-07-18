@@ -1,0 +1,1070 @@
+[
+  {
+    "event_id": 2,
+    "id": 1,
+    "can_build": "yes",
+    "unit_id": 41015
+  },
+  {
+    "event_id": 2,
+    "id": 2,
+    "can_build": "yes",
+    "unit_id": 42008
+  },
+  {
+    "event_id": 2,
+    "id": 3,
+    "can_build": "yes",
+    "unit_id": 43008
+  },
+  {
+    "event_id": 2,
+    "id": 4,
+    "can_build": "yes",
+    "unit_id": 41016
+  },
+  {
+    "event_id": 2,
+    "id": 5,
+    "can_build": "yes",
+    "unit_id": 31024
+  },
+  {
+    "event_id": 2,
+    "id": 6,
+    "can_build": "yes",
+    "unit_id": 32012
+  },
+  {
+    "event_id": 2,
+    "id": 7,
+    "can_build": "yes",
+    "unit_id": 33012
+  },
+  {
+    "event_id": 2,
+    "id": 8,
+    "can_build": "yes",
+    "unit_id": 22007
+  },
+  {
+    "event_id": 2,
+    "id": 9,
+    "can_build": "no",
+    "unit_id": 42009
+  },
+  {
+    "event_id": 2,
+    "id": 10,
+    "can_build": "no",
+    "unit_id": 43009
+  },
+  {
+    "event_id": 2,
+    "id": 11,
+    "can_build": "no",
+    "unit_id": 44005
+  },
+  {
+    "event_id": 3,
+    "id": 12,
+    "can_build": "yes",
+    "unit_id": 41018
+  },
+  {
+    "event_id": 3,
+    "id": 13,
+    "can_build": "yes",
+    "unit_id": 41017
+  },
+  {
+    "event_id": 3,
+    "id": 14,
+    "can_build": "yes",
+    "unit_id": 43010
+  },
+  {
+    "event_id": 3,
+    "id": 15,
+    "can_build": "yes",
+    "unit_id": 33013
+  },
+  {
+    "event_id": 3,
+    "id": 16,
+    "can_build": "yes",
+    "unit_id": 32013
+  },
+  {
+    "event_id": 3,
+    "id": 17,
+    "can_build": "yes",
+    "unit_id": 31027
+  },
+  {
+    "event_id": 3,
+    "id": 18,
+    "can_build": "yes",
+    "unit_id": 21018
+  },
+  {
+    "event_id": 3,
+    "id": 19,
+    "can_build": "no",
+    "unit_id": 44007
+  },
+  {
+    "event_id": 3,
+    "id": 20,
+    "can_build": "no",
+    "unit_id": 42011
+  },
+  {
+    "event_id": 3,
+    "id": 21,
+    "can_build": "no",
+    "unit_id": 31026
+  },
+  {
+    "event_id": 4,
+    "id": 22,
+    "can_build": "no",
+    "unit_id": 41020
+  },
+  {
+    "event_id": 4,
+    "id": 23,
+    "can_build": "no",
+    "unit_id": 44010
+  },
+  {
+    "event_id": 4,
+    "id": 24,
+    "can_build": "no",
+    "unit_id": 31029
+  },
+  {
+    "event_id": 4,
+    "id": 25,
+    "can_build": "yes",
+    "unit_id": 41019
+  },
+  {
+    "event_id": 4,
+    "id": 26,
+    "can_build": "yes",
+    "unit_id": 42010
+  },
+  {
+    "event_id": 4,
+    "id": 27,
+    "can_build": "yes",
+    "unit_id": 43011
+  },
+  {
+    "event_id": 4,
+    "id": 28,
+    "can_build": "yes",
+    "unit_id": 31030
+  },
+  {
+    "event_id": 4,
+    "id": 29,
+    "can_build": "yes",
+    "unit_id": 33014
+  },
+  {
+    "event_id": 4,
+    "id": 30,
+    "can_build": "no",
+    "unit_id": 31031
+  },
+  {
+    "event_id": 4,
+    "id": 31,
+    "can_build": "yes",
+    "unit_id": 44009
+  },
+  {
+    "event_id": 4,
+    "id": 32,
+    "can_build": "yes",
+    "unit_id": 31028
+  },
+  {
+    "event_id": 5,
+    "id": 33,
+    "can_build": "no",
+    "unit_id": 42012
+  },
+  {
+    "event_id": 5,
+    "id": 34,
+    "can_build": "no",
+    "unit_id": 43012
+  },
+  {
+    "event_id": 5,
+    "id": 35,
+    "can_build": "no",
+    "unit_id": 44012
+  },
+  {
+    "event_id": 5,
+    "id": 36,
+    "can_build": "yes",
+    "unit_id": 41021
+  },
+  {
+    "event_id": 5,
+    "id": 37,
+    "can_build": "yes",
+    "unit_id": 31033
+  },
+  {
+    "event_id": 5,
+    "id": 38,
+    "can_build": "yes",
+    "unit_id": 33015
+  },
+  {
+    "event_id": 5,
+    "id": 39,
+    "can_build": "yes",
+    "unit_id": 32014
+  },
+  {
+    "event_id": 5,
+    "id": 40,
+    "can_build": "yes",
+    "unit_id": 31032
+  },
+  {
+    "event_id": 5,
+    "id": 41,
+    "can_build": "yes",
+    "unit_id": 22008
+  },
+  {
+    "event_id": 5,
+    "id": 42,
+    "can_build": "yes",
+    "unit_id": 21021
+  },
+  {
+    "event_id": 6,
+    "id": 43,
+    "can_build": "no",
+    "unit_id": 44011
+  },
+  {
+    "event_id": 6,
+    "id": 44,
+    "can_build": "no",
+    "unit_id": 43012
+  },
+  {
+    "event_id": 6,
+    "id": 45,
+    "can_build": "no",
+    "unit_id": 44012
+  },
+  {
+    "event_id": 6,
+    "id": 46,
+    "can_build": "yes",
+    "unit_id": 42012
+  },
+  {
+    "event_id": 6,
+    "id": 47,
+    "can_build": "yes",
+    "unit_id": 41021
+  },
+  {
+    "event_id": 6,
+    "id": 48,
+    "can_build": "yes",
+    "unit_id": 31033
+  },
+  {
+    "event_id": 6,
+    "id": 49,
+    "can_build": "yes",
+    "unit_id": 33015
+  },
+  {
+    "event_id": 6,
+    "id": 50,
+    "can_build": "yes",
+    "unit_id": 32014
+  },
+  {
+    "event_id": 6,
+    "id": 51,
+    "can_build": "yes",
+    "unit_id": 31032
+  },
+  {
+    "event_id": 6,
+    "id": 52,
+    "can_build": "yes",
+    "unit_id": 22008
+  },
+  {
+    "event_id": 6,
+    "id": 53,
+    "can_build": "yes",
+    "unit_id": 21021
+  },
+  {
+    "event_id": 7,
+    "id": 54,
+    "can_build": "no",
+    "unit_id": 32014
+  },
+  {
+    "event_id": 7,
+    "id": 55,
+    "can_build": "no",
+    "unit_id": 41021
+  },
+  {
+    "event_id": 7,
+    "id": 56,
+    "can_build": "no",
+    "unit_id": 31033
+  },
+  {
+    "event_id": 7,
+    "id": 57,
+    "can_build": "yes",
+    "unit_id": 41022
+  },
+  {
+    "event_id": 7,
+    "id": 58,
+    "can_build": "yes",
+    "unit_id": 44011
+  },
+  {
+    "event_id": 7,
+    "id": 59,
+    "can_build": "yes",
+    "unit_id": 42012
+  },
+  {
+    "event_id": 7,
+    "id": 60,
+    "can_build": "yes",
+    "unit_id": 41021
+  },
+  {
+    "event_id": 7,
+    "id": 61,
+    "can_build": "yes",
+    "unit_id": 31033
+  },
+  {
+    "event_id": 7,
+    "id": 62,
+    "can_build": "yes",
+    "unit_id": 33015
+  },
+  {
+    "event_id": 7,
+    "id": 63,
+    "can_build": "yes",
+    "unit_id": 32014
+  },
+  {
+    "event_id": 7,
+    "id": 64,
+    "can_build": "yes",
+    "unit_id": 31032
+  },
+  {
+    "event_id": 7,
+    "id": 65,
+    "can_build": "yes",
+    "unit_id": 22008
+  },
+  {
+    "event_id": 7,
+    "id": 66,
+    "can_build": "yes",
+    "unit_id": 21021
+  },
+  {
+    "event_id": 8,
+    "id": 67,
+    "can_build": "no",
+    "unit_id": 42007
+  },
+  {
+    "event_id": 8,
+    "id": 68,
+    "can_build": "no",
+    "unit_id": 41023
+  },
+  {
+    "event_id": 10,
+    "id": 69,
+    "can_build": "no",
+    "unit_id": 41021
+  },
+  {
+    "event_id": 10,
+    "id": 70,
+    "can_build": "no",
+    "unit_id": 31033
+  },
+  {
+    "event_id": 10,
+    "id": 71,
+    "can_build": "yes",
+    "unit_id": 33015
+  },
+  {
+    "event_id": 10,
+    "id": 72,
+    "can_build": "yes",
+    "unit_id": 32014
+  },
+  {
+    "event_id": 10,
+    "id": 73,
+    "can_build": "yes",
+    "unit_id": 31032
+  },
+  {
+    "event_id": 10,
+    "id": 74,
+    "can_build": "yes",
+    "unit_id": 22008
+  },
+  {
+    "event_id": 10,
+    "id": 75,
+    "can_build": "yes",
+    "unit_id": 21021
+  },
+  {
+    "event_id": 10,
+    "id": 76,
+    "can_build": "yes",
+    "unit_id": 42007
+  },
+  {
+    "event_id": 10,
+    "id": 77,
+    "can_build": "yes",
+    "unit_id": 41023
+  },
+  {
+    "event_id": 12,
+    "id": 78,
+    "can_build": "no",
+    "unit_id": 41021
+  },
+  {
+    "event_id": 12,
+    "id": 79,
+    "can_build": "no",
+    "unit_id": 31033
+  },
+  {
+    "event_id": 12,
+    "id": 80,
+    "can_build": "yes",
+    "unit_id": 33015
+  },
+  {
+    "event_id": 12,
+    "id": 81,
+    "can_build": "yes",
+    "unit_id": 32014
+  },
+  {
+    "event_id": 12,
+    "id": 82,
+    "can_build": "yes",
+    "unit_id": 31032
+  },
+  {
+    "event_id": 12,
+    "id": 83,
+    "can_build": "yes",
+    "unit_id": 22008
+  },
+  {
+    "event_id": 12,
+    "id": 84,
+    "can_build": "yes",
+    "unit_id": 21021
+  },
+  {
+    "event_id": 12,
+    "id": 85,
+    "can_build": "yes",
+    "unit_id": 42007
+  },
+  {
+    "event_id": 12,
+    "id": 86,
+    "can_build": "yes",
+    "unit_id": 41023
+  },
+  {
+    "event_id": 13,
+    "id": 87,
+    "can_build": "no",
+    "unit_id": 41021
+  },
+  {
+    "event_id": 13,
+    "id": 88,
+    "can_build": "no",
+    "unit_id": 31033
+  },
+  {
+    "event_id": 13,
+    "id": 89,
+    "can_build": "yes",
+    "unit_id": 33015
+  },
+  {
+    "event_id": 13,
+    "id": 90,
+    "can_build": "yes",
+    "unit_id": 32014
+  },
+  {
+    "event_id": 13,
+    "id": 91,
+    "can_build": "yes",
+    "unit_id": 31032
+  },
+  {
+    "event_id": 13,
+    "id": 92,
+    "can_build": "yes",
+    "unit_id": 22008
+  },
+  {
+    "event_id": 13,
+    "id": 93,
+    "can_build": "yes",
+    "unit_id": 21021
+  },
+  {
+    "event_id": 13,
+    "id": 94,
+    "can_build": "yes",
+    "unit_id": 42007
+  },
+  {
+    "event_id": 13,
+    "id": 95,
+    "can_build": "yes",
+    "unit_id": 41023
+  },
+  {
+    "event_id": 14,
+    "id": 96,
+    "can_build": "no",
+    "unit_id": 42020
+  },
+  {
+    "event_id": 14,
+    "id": 97,
+    "can_build": "no",
+    "unit_id": 43020
+  },
+  {
+    "event_id": 14,
+    "id": 98,
+    "can_build": "yes",
+    "unit_id": 41034
+  },
+  {
+    "event_id": 14,
+    "id": 99,
+    "can_build": "yes",
+    "unit_id": 44017
+  },
+  {
+    "event_id": 14,
+    "id": 100,
+    "can_build": "yes",
+    "unit_id": 42021
+  },
+  {
+    "event_id": 14,
+    "id": 101,
+    "can_build": "yes",
+    "unit_id": 44016
+  },
+  {
+    "event_id": 14,
+    "id": 102,
+    "can_build": "yes",
+    "unit_id": 32018
+  },
+  {
+    "event_id": 14,
+    "id": 103,
+    "can_build": "yes",
+    "unit_id": 33021
+  },
+  {
+    "event_id": 14,
+    "id": 104,
+    "can_build": "yes",
+    "unit_id": 31040
+  },
+  {
+    "event_id": 14,
+    "id": 105,
+    "can_build": "yes",
+    "unit_id": 21027
+  },
+  {
+    "event_id": 15,
+    "id": 106,
+    "can_build": "no",
+    "unit_id": 44019
+  },
+  {
+    "event_id": 15,
+    "id": 107,
+    "can_build": "no",
+    "unit_id": 43021
+  },
+  {
+    "event_id": 15,
+    "id": 108,
+    "can_build": "yes",
+    "unit_id": 44018
+  },
+  {
+    "event_id": 15,
+    "id": 109,
+    "can_build": "yes",
+    "unit_id": 42022
+  },
+  {
+    "event_id": 15,
+    "id": 110,
+    "can_build": "yes",
+    "unit_id": 41035
+  },
+  {
+    "event_id": 15,
+    "id": 111,
+    "can_build": "yes",
+    "unit_id": 31041
+  },
+  {
+    "event_id": 15,
+    "id": 112,
+    "can_build": "yes",
+    "unit_id": 32020
+  },
+  {
+    "event_id": 15,
+    "id": 113,
+    "can_build": "yes",
+    "unit_id": 33022
+  },
+  {
+    "event_id": 15,
+    "id": 114,
+    "can_build": "yes",
+    "unit_id": 21028
+  },
+  {
+    "event_id": 16,
+    "id": 115,
+    "can_build": "no",
+    "unit_id": 41039
+  },
+  {
+    "event_id": 16,
+    "id": 116,
+    "can_build": "no",
+    "unit_id": 42025
+  },
+  {
+    "event_id": 16,
+    "id": 117,
+    "can_build": "yes",
+    "unit_id": 41038
+  },
+  {
+    "event_id": 16,
+    "id": 118,
+    "can_build": "yes",
+    "unit_id": 44020
+  },
+  {
+    "event_id": 16,
+    "id": 119,
+    "can_build": "yes",
+    "unit_id": 42023
+  },
+  {
+    "event_id": 16,
+    "id": 120,
+    "can_build": "yes",
+    "unit_id": 43022
+  },
+  {
+    "event_id": 16,
+    "id": 121,
+    "can_build": "yes",
+    "unit_id": 34007
+  },
+  {
+    "event_id": 16,
+    "id": 122,
+    "can_build": "yes",
+    "unit_id": 31042
+  },
+  {
+    "event_id": 16,
+    "id": 123,
+    "can_build": "yes",
+    "unit_id": 33023
+  },
+  {
+    "event_id": 16,
+    "id": 124,
+    "can_build": "yes",
+    "unit_id": 21029
+  },
+  {
+    "event_id": 17,
+    "id": 125,
+    "can_build": "yes",
+    "unit_id": 41041
+  },
+  {
+    "event_id": 17,
+    "id": 126,
+    "can_build": "no",
+    "unit_id": 41042
+  },
+  {
+    "event_id": 17,
+    "id": 127,
+    "can_build": "no",
+    "unit_id": 42028
+  },
+  {
+    "event_id": 17,
+    "id": 128,
+    "can_build": "yes",
+    "unit_id": 44021
+  },
+  {
+    "event_id": 17,
+    "id": 129,
+    "can_build": "yes",
+    "unit_id": 42027
+  },
+  {
+    "event_id": 17,
+    "id": 130,
+    "can_build": "yes",
+    "unit_id": 41040
+  },
+  {
+    "event_id": 17,
+    "id": 131,
+    "can_build": "yes",
+    "unit_id": 33024
+  },
+  {
+    "event_id": 17,
+    "id": 132,
+    "can_build": "yes",
+    "unit_id": 34008
+  },
+  {
+    "event_id": 17,
+    "id": 133,
+    "can_build": "yes",
+    "unit_id": 32021
+  },
+  {
+    "event_id": 17,
+    "id": 134,
+    "can_build": "yes",
+    "unit_id": 21030
+  },
+  {
+    "event_id": 18,
+    "id": 135,
+    "can_build": "yes",
+    "unit_id": 44022
+  },
+  {
+    "event_id": 18,
+    "id": 136,
+    "can_build": "yes",
+    "unit_id": 41015
+  },
+  {
+    "event_id": 18,
+    "id": 137,
+    "can_build": "yes",
+    "unit_id": 43008
+  },
+  {
+    "event_id": 18,
+    "id": 138,
+    "can_build": "yes",
+    "unit_id": 43010
+  },
+  {
+    "event_id": 18,
+    "id": 139,
+    "can_build": "yes",
+    "unit_id": 41017
+  },
+  {
+    "event_id": 18,
+    "id": 140,
+    "can_build": "yes",
+    "unit_id": 42010
+  },
+  {
+    "event_id": 18,
+    "id": 141,
+    "can_build": "yes",
+    "unit_id": 44009
+  },
+  {
+    "event_id": 18,
+    "id": 142,
+    "can_build": "yes",
+    "unit_id": 41021
+  },
+  {
+    "event_id": 18,
+    "id": 143,
+    "can_build": "yes",
+    "unit_id": 44011
+  },
+  {
+    "event_id": 18,
+    "id": 144,
+    "can_build": "yes",
+    "unit_id": 33012
+  },
+  {
+    "event_id": 18,
+    "id": 145,
+    "can_build": "yes",
+    "unit_id": 32013
+  },
+  {
+    "event_id": 18,
+    "id": 146,
+    "can_build": "yes",
+    "unit_id": 33014
+  },
+  {
+    "event_id": 18,
+    "id": 147,
+    "can_build": "yes",
+    "unit_id": 31033
+  },
+  {
+    "event_id": 18,
+    "id": 148,
+    "can_build": "no",
+    "unit_id": 41044
+  },
+  {
+    "event_id": 18,
+    "id": 149,
+    "can_build": "no",
+    "unit_id": 42030
+  },
+  {
+    "event_id": 18,
+    "id": 150,
+    "can_build": "yes",
+    "unit_id": 21021
+  },
+  {
+    "event_id": 18,
+    "id": 151,
+    "can_build": "yes",
+    "unit_id": 21018
+  },
+  {
+    "event_id": 18,
+    "id": 152,
+    "can_build": "yes",
+    "unit_id": 21020
+  },
+  {
+    "event_id": 18,
+    "id": 153,
+    "can_build": "yes",
+    "unit_id": 22008
+  },
+  {
+    "event_id": 103,
+    "id": 154,
+    "can_build": "no",
+    "unit_id": 41007
+  },
+  {
+    "event_id": 103,
+    "id": 155,
+    "can_build": "no",
+    "unit_id": 42003
+  },
+  {
+    "event_id": 103,
+    "id": 156,
+    "can_build": "yes",
+    "unit_id": 41038
+  },
+  {
+    "event_id": 103,
+    "id": 157,
+    "can_build": "yes",
+    "unit_id": 44020
+  },
+  {
+    "event_id": 103,
+    "id": 158,
+    "can_build": "yes",
+    "unit_id": 42023
+  },
+  {
+    "event_id": 103,
+    "id": 159,
+    "can_build": "yes",
+    "unit_id": 43022
+  },
+  {
+    "event_id": 103,
+    "id": 160,
+    "can_build": "yes",
+    "unit_id": 34007
+  },
+  {
+    "event_id": 103,
+    "id": 161,
+    "can_build": "yes",
+    "unit_id": 31042
+  },
+  {
+    "event_id": 103,
+    "id": 162,
+    "can_build": "yes",
+    "unit_id": 33023
+  },
+  {
+    "event_id": 103,
+    "id": 163,
+    "can_build": "yes",
+    "unit_id": 21029
+  },
+  {
+    "event_id": 21,
+    "id": 164,
+    "can_build": "no",
+    "unit_id": 41007
+  },
+  {
+    "event_id": 21,
+    "id": 165,
+    "can_build": "no",
+    "unit_id": 42003
+  },
+  {
+    "event_id": 21,
+    "id": 166,
+    "can_build": "yes",
+    "unit_id": 41038
+  },
+  {
+    "event_id": 21,
+    "id": 167,
+    "can_build": "yes",
+    "unit_id": 44020
+  },
+  {
+    "event_id": 21,
+    "id": 168,
+    "can_build": "yes",
+    "unit_id": 42023
+  },
+  {
+    "event_id": 21,
+    "id": 169,
+    "can_build": "yes",
+    "unit_id": 43022
+  },
+  {
+    "event_id": 21,
+    "id": 170,
+    "can_build": "yes",
+    "unit_id": 34007
+  },
+  {
+    "event_id": 21,
+    "id": 171,
+    "can_build": "yes",
+    "unit_id": 31042
+  },
+  {
+    "event_id": 21,
+    "id": 172,
+    "can_build": "yes",
+    "unit_id": 33023
+  },
+  {
+    "event_id": 21,
+    "id": 173,
+    "can_build": "01/14/2015 16:48:00-08:00",
+    "unit_id": 21029
+  },
+  {
+    "event_id": 105,
+    "id": 174,
+    "can_build": "no",
+    "unit_id": 41007
+  },
+  {
+    "event_id": 105,
+    "id": 175,
+    "can_build": "no",
+    "unit_id": 42003
+  },
+  {
+    "event_id": 23,
+    "id": 176,
+    "can_build": "no",
+    "unit_id": 41054
+  },
+  {
+    "event_id": 23,
+    "id": 177,
+    "can_build": "no",
+    "unit_id": 41053
+  },
+  {
+    "event_id": 23,
+    "id": 178,
+    "can_build": "yes",
+    "unit_id": 41007
+  }
+]

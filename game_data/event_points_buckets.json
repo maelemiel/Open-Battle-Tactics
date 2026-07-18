@@ -1,0 +1,140 @@
+[
+  {
+    "event_id": 14,
+    "points_start": 0,
+    "points_end": 100,
+    "id": 1
+  },
+  {
+    "event_id": 14,
+    "points_start": 101,
+    "points_end": 99999999,
+    "id": 2
+  },
+  {
+    "event_id": 16,
+    "points_start": 0,
+    "points_end": 100,
+    "id": 3
+  },
+  {
+    "event_id": 16,
+    "points_start": 100,
+    "points_end": 500,
+    "id": 4
+  },
+  {
+    "event_id": 16,
+    "points_start": 500,
+    "points_end": 1500,
+    "id": 5
+  },
+  {
+    "event_id": 16,
+    "points_start": 1500,
+    "points_end": 3000,
+    "id": 6
+  },
+  {
+    "event_id": 16,
+    "points_start": 3000,
+    "points_end": 6000,
+    "id": 7
+  },
+  {
+    "event_id": 16,
+    "points_start": 6000,
+    "points_end": 12000,
+    "id": 8
+  },
+  {
+    "event_id": 16,
+    "points_start": 12000,
+    "points_end": 999999,
+    "id": 9
+  },
+  {
+    "event_id": 16,
+    "points_start": 0,
+    "points_end": 49999,
+    "id": 10
+  },
+  {
+    "event_id": 16,
+    "points_start": 50000,
+    "points_end": 999999,
+    "id": 11
+  },
+  {
+    "event_id": 16,
+    "points_start": 1000000,
+    "points_end": 15000000,
+    "id": 12
+  },
+  {
+    "event_id": 104,
+    "points_start": 0,
+    "points_end": 1,
+    "id": 13
+  },
+  {
+    "event_id": 104,
+    "points_start": 2,
+    "points_end": 215,
+    "id": 14
+  },
+  {
+    "event_id": 104,
+    "points_start": 216,
+    "points_end": 500,
+    "id": 15
+  },
+  {
+    "event_id": 104,
+    "points_start": 501,
+    "points_end": 2000,
+    "id": 16
+  },
+  {
+    "event_id": 104,
+    "points_start": 2001,
+    "points_end": 3000,
+    "id": 17
+  },
+  {
+    "event_id": 104,
+    "points_start": 3001,
+    "points_end": 5000,
+    "id": 18
+  },
+  {
+    "event_id": 104,
+    "points_start": 5001,
+    "points_end": 15000,
+    "id": 19
+  },
+  {
+    "event_id": 104,
+    "points_start": 15001,
+    "points_end": 50000,
+    "id": 20
+  },
+  {
+    "event_id": 104,
+    "points_start": 50001,
+    "points_end": 15000000,
+    "id": 21
+  },
+  {
+    "event_id": 21,
+    "points_start": 15001,
+    "points_end": 50000,
+    "id": 22
+  },
+  {
+    "event_id": 21,
+    "points_start": 50001,
+    "points_end": 15000000,
+    "id": 23
+  }
+]

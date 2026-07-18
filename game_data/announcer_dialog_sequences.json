@@ -1,0 +1,740 @@
+[
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence1_1",
+    "id": 1,
+    "sequence_id": 1,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence2_1",
+    "id": 2,
+    "sequence_id": 2,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence2_2",
+    "id": 3,
+    "sequence_id": 2,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence2_3",
+    "id": 4,
+    "sequence_id": 2,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 3
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence2_4",
+    "id": 5,
+    "sequence_id": 2,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 4
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence5_1",
+    "id": 6,
+    "sequence_id": 5,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence5_2",
+    "id": 7,
+    "sequence_id": 5,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence5_3",
+    "id": 8,
+    "sequence_id": 5,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 3
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence6_1",
+    "id": 9,
+    "sequence_id": 6,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence6_2",
+    "id": 10,
+    "sequence_id": 6,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence7_1",
+    "id": 11,
+    "sequence_id": 7,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence8_1",
+    "id": 12,
+    "sequence_id": 8,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence9_1",
+    "id": 13,
+    "sequence_id": 9,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence9_2",
+    "id": 14,
+    "sequence_id": 9,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence9_4",
+    "id": 15,
+    "sequence_id": 9,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 4
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence10_1",
+    "id": 16,
+    "sequence_id": 10,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence11_1",
+    "id": 17,
+    "sequence_id": 11,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence11_2",
+    "id": 18,
+    "sequence_id": 11,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence12_1",
+    "id": 19,
+    "sequence_id": 12,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence13_1",
+    "id": 20,
+    "sequence_id": 13,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence13_2",
+    "id": 21,
+    "sequence_id": 13,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence14_1",
+    "id": 22,
+    "sequence_id": 14,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence15_1",
+    "id": 23,
+    "sequence_id": 15,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence15_2",
+    "id": 24,
+    "sequence_id": 15,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence17_1",
+    "id": 25,
+    "sequence_id": 17,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence18_1",
+    "id": 26,
+    "sequence_id": 18,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence19_1",
+    "id": 27,
+    "sequence_id": 19,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence20_1",
+    "id": 28,
+    "sequence_id": 20,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence20_2",
+    "id": 29,
+    "sequence_id": 20,
+    "action": "showPlayerOne",
+    "announcer_type": "female",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence20_3",
+    "id": 30,
+    "sequence_id": 20,
+    "action": "spinPlayerOne",
+    "announcer_type": "female",
+    "subsequence_order": 3
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence20_4",
+    "id": 31,
+    "sequence_id": 20,
+    "action": "highlight abilityButtonOne",
+    "announcer_type": "female",
+    "subsequence_order": 4
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence21_1",
+    "id": 32,
+    "sequence_id": 21,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence22_1",
+    "id": 33,
+    "sequence_id": 22,
+    "action": "highlight playerSpinnerTwo",
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence22_2",
+    "id": 34,
+    "sequence_id": 22,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence22_3",
+    "id": 35,
+    "sequence_id": 22,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 3
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence22_4",
+    "id": 36,
+    "sequence_id": 22,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 4
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence23_1",
+    "id": 37,
+    "sequence_id": 23,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence23_2",
+    "id": 38,
+    "sequence_id": 23,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence24_1",
+    "id": 39,
+    "sequence_id": 24,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence24_2",
+    "id": 40,
+    "sequence_id": 24,
+    "action": "highlight abilityButtonTwo",
+    "announcer_type": "female",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence24_3",
+    "id": 41,
+    "sequence_id": 24,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 3
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence25_1",
+    "id": 42,
+    "sequence_id": 25,
+    "action": "highlight abilityPoints",
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence25_2",
+    "id": 43,
+    "sequence_id": 25,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence25_3",
+    "id": 44,
+    "sequence_id": 25,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 3
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence26_1",
+    "id": 45,
+    "sequence_id": 26,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence26_2",
+    "id": 46,
+    "sequence_id": 26,
+    "action": "highlight abilityButtonThree",
+    "announcer_type": "female",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence27_1",
+    "id": 47,
+    "sequence_id": 27,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence27_2",
+    "id": 48,
+    "sequence_id": 27,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence28_1",
+    "id": 49,
+    "sequence_id": 28,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence29_1",
+    "id": 50,
+    "sequence_id": 29,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence30_1",
+    "id": 51,
+    "sequence_id": 30,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence31_1",
+    "id": 52,
+    "sequence_id": 31,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence32_1",
+    "id": 53,
+    "sequence_id": 32,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence33_1",
+    "id": 54,
+    "sequence_id": 33,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence34_1",
+    "id": 55,
+    "sequence_id": 34,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence35_1",
+    "id": 56,
+    "sequence_id": 35,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence36_1",
+    "id": 57,
+    "sequence_id": 36,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "bottom",
+    "key_name": "dialog_sequence37_1",
+    "id": 58,
+    "sequence_id": 37,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence38_1",
+    "id": 59,
+    "sequence_id": 38,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence38_2",
+    "id": 60,
+    "sequence_id": 38,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence38_3",
+    "id": 61,
+    "sequence_id": 38,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 3
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence38_4",
+    "id": 62,
+    "sequence_id": 38,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 4
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence39_1",
+    "id": 63,
+    "sequence_id": 39,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence39_2",
+    "id": 64,
+    "sequence_id": 39,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence39_3",
+    "id": 65,
+    "sequence_id": 39,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 3
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence39_4",
+    "id": 66,
+    "sequence_id": 39,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 4
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence40_1",
+    "id": 67,
+    "sequence_id": 40,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence40_2",
+    "id": 68,
+    "sequence_id": 40,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence40_3",
+    "id": 69,
+    "sequence_id": 40,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 3
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence41_1",
+    "id": 70,
+    "sequence_id": 41,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence42_1",
+    "id": 71,
+    "sequence_id": 42,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence42_2",
+    "id": 72,
+    "sequence_id": 42,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 2
+  },
+  {
+    "orientation": "left",
+    "key_name": "dialog_sequence42_3",
+    "id": 73,
+    "sequence_id": 42,
+    "action": null,
+    "announcer_type": "female",
+    "subsequence_order": 3
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence46_1",
+    "id": 74,
+    "sequence_id": 46,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence47_1",
+    "id": 75,
+    "sequence_id": 47,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence48_1",
+    "id": 76,
+    "sequence_id": 48,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence49_1",
+    "id": 77,
+    "sequence_id": 49,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence50_1",
+    "id": 78,
+    "sequence_id": 50,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence51_1",
+    "id": 79,
+    "sequence_id": 51,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence52_1",
+    "id": 80,
+    "sequence_id": 52,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence53_1",
+    "id": 81,
+    "sequence_id": 53,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  },
+  {
+    "orientation": "right",
+    "key_name": "dialog_sequence54_1",
+    "id": 82,
+    "sequence_id": 54,
+    "action": null,
+    "announcer_type": "male",
+    "subsequence_order": 1
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "key": "energy_recharge_seconds",
+    "id": 1,
+    "value": "1800"
+  },
+  {
+    "key": "max_energy",
+    "id": 2,
+    "value": "5"
+  },
+  {
+    "key": "pvp_round_timer",
+    "id": 3,
+    "value": "31"
+  },
+  {
+    "key": "max_unit_num",
+    "id": 4,
+    "value": "150"
+  },
+  {
+    "key": "min_unit_num",
+    "id": 5,
+    "value": "4"
+  },
+  {
+    "key": "starter_unit_1",
+    "id": 6,
+    "value": "210220101"
+  },
+  {
+    "key": "starter_unit_2",
+    "id": 7,
+    "value": "210100101"
+  },
+  {
+    "key": "starter_unit_3",
+    "id": 8,
+    "value": "210080101"
+  },
+  {
+    "key": "player_starting_coins",
+    "id": 9,
+    "value": "250"
+  },
+  {
+    "key": "player_starting_scrap",
+    "id": 10,
+    "value": "50"
+  },
+  {
+    "key": "tutorial_unit_1",
+    "id": 11,
+    "value": "130040101"
+  },
+  {
+    "key": "tutorial_unit_2",
+    "id": 12,
+    "value": "120040101"
+  },
+  {
+    "key": "tutorial_unit_3",
+    "id": 13,
+    "value": "110100101"
+  },
+  {
+    "key": "tutorial_enemy_1_1",
+    "id": 14,
+    "value": "120030101"
+  },
+  {
+    "key": "tutorial_enemy_2_1",
+    "id": 15,
+    "value": "110070101"
+  },
+  {
+    "key": "tutorial_enemy_2_2",
+    "id": 16,
+    "value": "110080101"
+  },
+  {
+    "key": "tutorial_enemy_3_1",
+    "id": 17,
+    "value": "110020101"
+  },
+  {
+    "key": "tutorial_enemy_3_2",
+    "id": 18,
+    "value": "110040101"
+  },
+  {
+    "key": "tutorial_enemy_3_3",
+    "id": 19,
+    "value": "130020101"
+  },
+  {
+    "key": "pvp_matchmaking_retries",
+    "id": 20,
+    "value": "5"
+  },
+  {
+    "key": "pvp_matchmaking_retry_wait",
+    "id": 21,
+    "value": "500"
+  },
+  {
+    "key": "promo_series_setback",
+    "id": 22,
+    "value": "80"
+  },
+  {
+    "key": "repair_skip_item",
+    "id": 23,
+    "value": "4"
+  },
+  {
+    "key": "repair_skip_cost",
+    "id": 24,
+    "value": "40"
+  },
+  {
+    "key": "repair_skip_time_unit",
+    "id": 25,
+    "value": "20"
+  },
+  {
+    "key": "research_skip_item",
+    "id": 26,
+    "value": "5"
+  },
+  {
+    "key": "research_skip_cost",
+    "id": 27,
+    "value": "1"
+  },
+  {
+    "key": "research_skip_time_unit",
+    "id": 28,
+    "value": "1800"
+  },
+  {
+    "key": "battle_heartbeat_interval",
+    "id": 29,
+    "value": "8"
+  },
+  {
+    "key": "battle_heartbeat_expire",
+    "id": 30,
+    "value": "26"
+  },
+  {
+    "key": "matchmaking_tiers_per_difficulty",
+    "id": 31,
+    "value": "5"
+  },
+  {
+    "key": "loading_unit_priority_tier_multiplier",
+    "id": 32,
+    "value": "10"
+  },
+  {
+    "key": "loading_unit_priority_evo_multiplier",
+    "id": 33,
+    "value": "1000"
+  },
+  {
+    "key": "Coins_stack_amount",
+    "id": 34,
+    "value": "20"
+  },
+  {
+    "key": "player_starting_ability_1",
+    "id": 35,
+    "value": "101009"
+  },
+  {
+    "key": "player_starting_ability_2",
+    "id": 36,
+    "value": "101001"
+  },
+  {
+    "key": "player_starting_ability_3",
+    "id": 37,
+    "value": "302003"
+  },
+  {
+    "key": "player_starting_gift",
+    "id": 38,
+    "value": "4"
+  },
+  {
+    "key": "battle_creatematch_bot_fallback_time",
+    "id": 39,
+    "value": "15000"
+  },
+  {
+    "key": "energy_restore_cost",
+    "id": 40,
+    "value": "6"
+  },
+  {
+    "key": "research_start_reward",
+    "id": 41,
+    "value": "1000"
+  },
+  {
+    "key": "research_claim_reward",
+    "id": 42,
+    "value": "1000"
+  },
+  {
+    "key": "win_streak_tier_modifier",
+    "id": 43,
+    "value": "3"
+  },
+  {
+    "key": "loss_streak_tier_modifier",
+    "id": 44,
+    "value": "2"
+  },
+  {
+    "key": "cooldown_gem_to_cash_exchange_rate",
+    "id": 45,
+    "value": "300"
+  },
+  {
+    "key": "contracts_pool_count",
+    "id": 46,
+    "value": "3"
+  },
+  {
+    "key": "player_starting_contract_1",
+    "id": 47,
+    "value": "101"
+  },
+  {
+    "key": "player_starting_contract_2",
+    "id": 48,
+    "value": "205"
+  },
+  {
+    "key": "player_starting_contract_3",
+    "id": 49,
+    "value": "305"
+  },
+  {
+    "key": "first_tier_to_ask_for_rating",
+    "id": 50,
+    "value": "6"
+  },
+  {
+    "key": "tier_ask_for_rating_interval",
+    "id": 51,
+    "value": "5"
+  },
+  {
+    "key": "elo_decay_per_tick",
+    "id": 52,
+    "value": "1"
+  },
+  {
+    "key": "elo_decay_hours",
+    "id": 53,
+    "value": "36"
+  },
+  {
+    "key": "repeat_tank_build_exponential_base",
+    "id": 54,
+    "value": "2"
+  },
+  {
+    "key": "exclusive_tanks_unlock_tier",
+    "id": 55,
+    "value": "0"
+  },
+  {
+    "key": "tutorial_enemy_4_1",
+    "id": 56,
+    "value": "410050310"
+  },
+  {
+    "key": "tell_friend_division_id",
+    "id": 57,
+    "value": "2"
+  },
+  {
+    "key": "matchmaking_buckets",
+    "id": 58,
+    "value": "12"
+  },
+  {
+    "key": "matchmaking_bucket_spread",
+    "id": 59,
+    "value": "280"
+  },
+  {
+    "key": "median_pvp_rating",
+    "id": 60,
+    "value": "1490"
+  },
+  {
+    "key": "matchmaking_elo_tier",
+    "id": 61,
+    "value": "20"
+  },
+  {
+    "key": "club_total_members",
+    "id": 62,
+    "value": "4"
+  },
+  {
+    "key": "purchase_skin_gem_to_cash_exchange_rate",
+    "id": 63,
+    "value": "200"
+  },
+  {
+    "key": "big_explosion_threshold",
+    "id": 64,
+    "value": "12"
+  },
+  {
+    "key": "promo_series_start_reward",
+    "id": 65,
+    "value": "998"
+  },
+  {
+    "key": "name_change_cost",
+    "id": 66,
+    "value": "5000"
+  },
+  {
+    "key": "name_change_price_id",
+    "id": 67,
+    "value": "102"
+  },
+  {
+    "key": "name_change_gem_to_cash_exchange_rate",
+    "id": 68,
+    "value": "200"
+  },
+  {
+    "key": "receive_actions_fatal_timeout",
+    "id": 69,
+    "value": "20"
+  },
+  {
+    "key": "energy_reward_single",
+    "id": 70,
+    "value": "103"
+  },
+  {
+    "key": "chat_god_username",
+    "id": 71,
+    "value": "[Frank]"
+  },
+  {
+    "key": "end_tutorial_step",
+    "id": 72,
+    "value": "7"
+  },
+  {
+    "key": "facebook_connect_incentivization",
+    "id": 73,
+    "value": "2000"
+  },
+  {
+    "key": "facebook_fan_page_id",
+    "id": 74,
+    "value": "306813582800666"
+  },
+  {
+    "key": "facebook_like_reappear_time",
+    "id": 75,
+    "value": "48"
+  },
+  {
+    "key": "tutorial_show_change_name",
+    "id": 76,
+    "value": "FALSE"
+  },
+  {
+    "key": "tier_boosts_available_countdown",
+    "id": 77,
+    "value": "8400"
+  },
+  {
+    "key": "tier_boosts_gems_cost",
+    "id": 78,
+    "value": "50"
+  },
+  {
+    "key": "tier_boosts_factor",
+    "id": 79,
+    "value": "10"
+  },
+  {
+    "key": "EventPoint_stack_amount",
+    "id": 80,
+    "value": "5"
+  },
+  {
+    "key": "purchase_boost_gem_to_cash_exchange_rate",
+    "id": 81,
+    "value": "200"
+  },
+  {
+    "key": "no_event_logo_asset_id",
+    "id": 82,
+    "value": "21000"
+  },
+  {
+    "key": "max_ads_videos_per_day",
+    "id": 83,
+    "value": "20"
+  },
+  {
+    "key": "video_ads_decrease_gacha_time",
+    "id": 84,
+    "value": "4"
+  },
+  {
+    "key": "topbar_club_chat_refresh",
+    "id": 85,
+    "value": "60"
+  },
+  {
+    "key": "popup_club_chat_refresh",
+    "id": 86,
+    "value": "20"
+  },
+  {
+    "key": "rb_revive_popup_timer",
+    "id": 89,
+    "value": "0"
+  },
+  {
+    "key": "rb_revive_price_a",
+    "id": 90,
+    "value": "3000"
+  },
+  {
+    "key": "rb_revive_price_b",
+    "id": 91,
+    "value": "3001"
+  },
+  {
+    "key": "club_crates_gacha_pool_id",
+    "id": 92,
+    "value": "1000"
+  },
+  {
+    "key": "club_crate_timeout_hours",
+    "id": 93,
+    "value": "24"
+  },
+  {
+    "key": "club_crate_rate",
+    "id": 94,
+    "value": "0.25"
+  },
+  {
+    "key": "gacha_banner_asset_linkage_id",
+    "id": 95,
+    "value": "23000"
+  },
+  {
+    "key": "user_points_kept_kicked",
+    "id": 96,
+    "value": "100"
+  },
+  {
+    "key": "user_points_kept_left",
+    "id": 97,
+    "value": "100"
+  },
+  {
+    "key": "user_points_kept_left_empty_club",
+    "id": 98,
+    "value": "100"
+  },
+  {
+    "key": "event_join_club_popup_tier_requirement",
+    "id": 99,
+    "value": "3"
+  },
+  {
+    "key": "like_us_on_fb_popup_tier_requirement",
+    "id": 100,
+    "value": "3"
+  },
+  {
+    "key": "elo_points_boost_toggle",
+    "id": 101,
+    "value": "1"
+  },
+  {
+    "key": "tier_bonus_base_elo",
+    "id": 102,
+    "value": "1450"
+  },
+  {
+    "key": "tier_bonus_exp",
+    "id": 103,
+    "value": "1250"
+  },
+  {
+    "key": "tier_bonus_scale",
+    "id": 104,
+    "value": "75"
+  },
+  {
+    "key": "pvp_ranking_rewards_enable",
+    "id": 105,
+    "value": "0"
+  },
+  {
+    "key": "show_next_join_club_period",
+    "id": 106,
+    "value": "4"
+  },
+  {
+    "key": "RaidBossEventPoint_stack_amount",
+    "id": 107,
+    "value": "50"
+  },
+  {
+    "key": "min_tier_event_matchmake",
+    "id": 108,
+    "value": "2"
+  },
+  {
+    "key": "min_tier_event_content",
+    "id": 109,
+    "value": "2"
+  },
+  {
+    "key": "min_tier_event_ticket_boost_popup",
+    "id": 110,
+    "value": "2"
+  },
+  {
+    "key": "promo_series_complete_reward",
+    "id": 111,
+    "value": "998"
+  },
+  {
+    "key": "tier_event_news_lockout",
+    "id": 112,
+    "value": "1"
+  },
+  {
+    "key": "matchmaking_chance_force_bot",
+    "id": 113,
+    "value": "0"
+  },
+  {
+    "key": "raid_boss_max_level",
+    "id": 114,
+    "value": "5"
+  },
+  {
+    "key": "event_report_time",
+    "id": 115,
+    "value": "14400"
+  },
+  {
+    "key": "multi_strike_max_missile_count",
+    "id": 116,
+    "value": "12"
+  },
+  {
+    "key": "show_special_home_content",
+    "id": 117,
+    "value": "FALSE"
+  },
+  {
+    "key": "event_report_battle_count",
+    "id": 118,
+    "value": "10"
+  },
+  {
+    "key": "battle_overkill_threshold",
+    "id": 119,
+    "value": "7"
+  },
+  {
+    "key": "news_rotation_time",
+    "id": 120,
+    "value": "5"
+  },
+  {
+    "key": "multi_team_reports_enabled",
+    "id": 121,
+    "value": "TRUE"
+  },
+  {
+    "key": "multi_team_reports_min_tier",
+    "id": 122,
+    "value": "4"
+  },
+  {
+    "key": "topbar_pending_club_crates_count_refresh",
+    "id": 123,
+    "value": "30"
+  },
+  {
+    "key": "club_crate_chat_messages_enabled",
+    "id": 124,
+    "value": "0"
+  },
+  {
+    "key": "battle_add_damage_boost_to_ap",
+    "id": 125,
+    "value": "1"
+  },
+  {
+    "key": "multi_team_popup_unit_0",
+    "id": 126,
+    "value": "4301013"
+  },
+  {
+    "key": "multi_team_popup_unit_1",
+    "id": 127,
+    "value": "4301007"
+  },
+  {
+    "key": "multi_team_popup_unit_2",
+    "id": 128,
+    "value": "4301005"
+  },
+  {
+    "key": "multi_team_popup_unit_3",
+    "id": 129,
+    "value": "4301002"
+  },
+  {
+    "key": "menu_button_battle",
+    "id": 130,
+    "value": "0"
+  },
+  {
+    "key": "menu_button_edit_team",
+    "id": 131,
+    "value": "0"
+  },
+  {
+    "key": "menu_button_edit_abilities",
+    "id": 132,
+    "value": "0"
+  },
+  {
+    "key": "menu_button_build_tanks",
+    "id": 133,
+    "value": "0"
+  },
+  {
+    "key": "menu_button_shop",
+    "id": 134,
+    "value": "0"
+  },
+  {
+    "key": "menu_button_leaderboards",
+    "id": 135,
+    "value": "2"
+  },
+  {
+    "key": "menu_button_club",
+    "id": 136,
+    "value": "2"
+  },
+  {
+    "key": "menu_button_settings",
+    "id": 137,
+    "value": "0"
+  },
+  {
+    "key": "event_intro_video_url",
+    "id": 138,
+    "value": "http://d3dhq3qiq7lleq.cloudfront.net/EventIntroVideo.mp4"
+  },
+  {
+    "key": "show_bigger_boost_in_pvp_tournament",
+    "id": 139,
+    "value": "FALSE"
+  },
+  {
+    "key": "transformer_url",
+    "id": 140,
+    "value": "http://www.transformersbattletactics.com/play?xpsbt"
+  },
+  {
+    "key": "matchmaking_lock_out_pvp",
+    "id": 141,
+    "value": "1"
+  },
+  {
+    "key": "matchmaking_lock_out_half_pvp",
+    "id": 142,
+    "value": "5"
+  },
+  {
+    "key": "matchmaking_lock_out_pvp_losing_streak",
+    "id": 143,
+    "value": "10"
+  },
+  {
+    "key": "battle_victory_player_elo",
+    "id": 144,
+    "value": "100"
+  },
+  {
+    "key": "battle_victory_enemy_elo",
+    "id": 145,
+    "value": "100"
+  },
+  {
+    "key": "battle_creatematch_interval",
+    "id": 146,
+    "value": "1000"
+  },
+  {
+    "key": "battle_pvp_refreshui_enabled",
+    "id": 147,
+    "value": "TRUE"
+  },
+  {
+    "key": "otherlevels_gift_lock",
+    "id": 148,
+    "value": "1"
+  },
+  {
+    "key": "max_bost_battles_per_day",
+    "id": 149,
+    "value": "5"
+  },
+  {
+    "key": "bot_battle_daily_cap_restore_cost",
+    "id": 150,
+    "value": "100"
+  },
+  {
+    "key": "menu_button_tankupgrade",
+    "id": 151,
+    "value": "0"
+  },
+  {
+    "key": "min_tier_for_show_boost_selection",
+    "id": 152,
+    "value": "2"
+  }
+]

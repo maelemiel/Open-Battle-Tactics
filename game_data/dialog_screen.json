@@ -1,0 +1,332 @@
+[
+  {
+    "limit_one": 1,
+    "sequence_id": 1,
+    "id": 1,
+    "screen_id": "Home"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 2,
+    "id": 2,
+    "screen_id": "Build"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 3,
+    "id": 3,
+    "screen_id": "Battle Select"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 4,
+    "id": 4,
+    "screen_id": "Post Battle"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 5,
+    "id": 5,
+    "screen_id": "Promo Series"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 6,
+    "id": 6,
+    "screen_id": "PreFirstUnitSelect"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 7,
+    "id": 7,
+    "screen_id": "PostFirstUnitSelect"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 8,
+    "id": 8,
+    "screen_id": "PreFirstGift"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 9,
+    "id": 9,
+    "screen_id": "PostFirstGift"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 10,
+    "id": 10,
+    "screen_id": "PreSecondGift"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 11,
+    "id": 11,
+    "screen_id": "PostSecondGift"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 12,
+    "id": 12,
+    "screen_id": "PreThirdGift"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 13,
+    "id": 13,
+    "screen_id": "PostThirdGift"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 14,
+    "id": 14,
+    "screen_id": "PreFourthGift"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 15,
+    "id": 15,
+    "screen_id": "PostFourthGift"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 16,
+    "id": 16,
+    "screen_id": "FifthGift"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 17,
+    "id": 17,
+    "screen_id": "_BuildFirstUnit"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 18,
+    "id": 18,
+    "screen_id": "ClaimFirstUnit"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 19,
+    "id": 19,
+    "screen_id": "Teaches Menu Nav"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 28,
+    "id": 20,
+    "screen_id": "TutorialOnePrePlayerRollIn"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 29,
+    "id": 21,
+    "screen_id": "_TutorialOnePreEnemyRollIn"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 30,
+    "id": 22,
+    "screen_id": "_TutorialOnePostEnemyRollIn"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 20,
+    "id": 23,
+    "screen_id": "TutorialOneEnterDecisionPhase"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 21,
+    "id": 24,
+    "screen_id": "TutorialOnePostReroll"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 31,
+    "id": 25,
+    "screen_id": "TutorialOneVictory"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 22,
+    "id": 26,
+    "screen_id": "TutorialTwoEnterDecisionPhase"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 23,
+    "id": 27,
+    "screen_id": "TutorialTwoPostReroll"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 32,
+    "id": 28,
+    "screen_id": "TutorialTwoVictory"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 24,
+    "id": 29,
+    "screen_id": "TutorialThreeEnterDecisionPhase"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 25,
+    "id": 30,
+    "screen_id": "TutorialThreePostTarget"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 33,
+    "id": 31,
+    "screen_id": "TutorialThreeVictory"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 26,
+    "id": 32,
+    "screen_id": "TutorialFourEnterDecisionPhase"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 27,
+    "id": 33,
+    "screen_id": "TutorialFourPostInvest"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 34,
+    "id": 34,
+    "screen_id": "TutorialFourVictory"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 36,
+    "id": 35,
+    "screen_id": "TutorialLoseRestart"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 37,
+    "id": 36,
+    "screen_id": "TutorialRestartFromLaunch"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 35,
+    "id": 37,
+    "screen_id": "TutorialAbilityReminder"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 38,
+    "id": 38,
+    "screen_id": "TutorialContracts"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 39,
+    "id": 39,
+    "screen_id": "TutorialArena"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 40,
+    "id": 40,
+    "screen_id": "LosingHelp"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 41,
+    "id": 41,
+    "screen_id": "TutorialLeague"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 42,
+    "id": 42,
+    "screen_id": "GachaShop"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 43,
+    "id": 43,
+    "screen_id": "AnnouncerLose"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 44,
+    "id": 44,
+    "screen_id": "AnnouncerIdle"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 45,
+    "id": 45,
+    "screen_id": "AnnouncerWin"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": -1,
+    "id": 46,
+    "screen_id": "Tell A Friend"
+  },
+  {
+    "limit_one": 0,
+    "sequence_id": 46,
+    "id": 47,
+    "screen_id": "TutorialChangeName"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 47,
+    "id": 48,
+    "screen_id": "FirstPartDetailNotEnough"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 48,
+    "id": 49,
+    "screen_id": "PartsListFirstAccess"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 49,
+    "id": 50,
+    "screen_id": "AfterCashLvlMaxWithParts"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 50,
+    "id": 51,
+    "screen_id": "AfterEquippingFirstPart"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 51,
+    "id": 52,
+    "screen_id": "FirstBotBattleScreen"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 52,
+    "id": 53,
+    "screen_id": "FirstPartNotMeetTierRequirements"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 53,
+    "id": 54,
+    "screen_id": "TokenInfoPopup"
+  },
+  {
+    "limit_one": 1,
+    "sequence_id": 54,
+    "id": 55,
+    "screen_id": "TokenReceivedPopup"
+  }
+]

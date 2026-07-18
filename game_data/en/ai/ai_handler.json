@@ -1,0 +1,18 @@
+[
+  {
+    "handler": "simple_ai",
+    "id": 800
+  },
+  {
+    "handler": "simple_ai_mod01",
+    "id": 801
+  },
+  {
+    "handler": "simple_ai_boss",
+    "id": 802
+  },
+  {
+    "handler": "simple_ai_mod02",
+    "id": 803
+  }
+]

@@ -1,0 +1,1538 @@
+[
+  {
+    "key_description": "prize_gacha_item_info_description_1",
+    "key_name": "prize_gacha_item_info_title_1",
+    "gacha_pool_id": 2,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 10001,
+    "id": 1
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_2",
+    "key_name": "prize_gacha_item_info_title_2",
+    "gacha_pool_id": 1,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 10002,
+    "id": 2
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_3",
+    "key_name": "prize_gacha_item_info_title_3",
+    "gacha_pool_id": 1,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 10003,
+    "id": 3
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_4",
+    "key_name": "prize_gacha_item_info_title_4",
+    "gacha_pool_id": 4,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 10004,
+    "id": 4
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_5",
+    "key_name": "prize_gacha_item_info_title_5",
+    "gacha_pool_id": 2,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 10005,
+    "id": 5
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_6",
+    "key_name": "prize_gacha_item_info_title_6",
+    "gacha_pool_id": 2,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 10006,
+    "id": 6
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_7",
+    "key_name": "prize_gacha_item_info_title_7",
+    "gacha_pool_id": 3,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 10007,
+    "id": 7
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_8",
+    "key_name": "prize_gacha_item_info_title_8",
+    "gacha_pool_id": 3,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 10008,
+    "id": 8
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_9",
+    "key_name": "prize_gacha_item_info_title_9",
+    "gacha_pool_id": 4,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 10009,
+    "id": 9
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_10",
+    "key_name": "prize_gacha_item_info_title_10",
+    "gacha_pool_id": 5,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 10010,
+    "id": 10
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_11",
+    "key_name": "prize_gacha_item_info_title_11",
+    "gacha_pool_id": 5,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 10011,
+    "id": 11
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_16",
+    "key_name": "prize_gacha_item_info_title_16",
+    "gacha_pool_id": 12,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22001,
+    "id": 16
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_17",
+    "key_name": "prize_gacha_item_info_title_17",
+    "gacha_pool_id": 12,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 17
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_18",
+    "key_name": "prize_gacha_item_info_title_18",
+    "gacha_pool_id": 13,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 18
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_19",
+    "key_name": "prize_gacha_item_info_title_19",
+    "gacha_pool_id": 14,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 19
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_20",
+    "key_name": "prize_gacha_item_info_title_20",
+    "gacha_pool_id": 15,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 20
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_21",
+    "key_name": "prize_gacha_item_info_title_21",
+    "gacha_pool_id": 16,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 21
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_22",
+    "key_name": "prize_gacha_item_info_title_22",
+    "gacha_pool_id": 17,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 22
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_23",
+    "key_name": "prize_gacha_item_info_title_23",
+    "gacha_pool_id": 18,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 23
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_24",
+    "key_name": "prize_gacha_item_info_title_24",
+    "gacha_pool_id": 19,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 24
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_25",
+    "key_name": "prize_gacha_item_info_title_25",
+    "gacha_pool_id": 21,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 25
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_26",
+    "key_name": "prize_gacha_item_info_title_26",
+    "gacha_pool_id": 22,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 26
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_27",
+    "key_name": "prize_gacha_item_info_title_27",
+    "gacha_pool_id": 23,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 27
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_28",
+    "key_name": "prize_gacha_item_info_title_28",
+    "gacha_pool_id": 24,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 28
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_29",
+    "key_name": "prize_gacha_item_info_title_29",
+    "gacha_pool_id": 25,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22000,
+    "id": 29
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_200",
+    "key_name": "prize_gacha_item_info_title_200",
+    "gacha_pool_id": 107,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21110,
+    "id": 200
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_201",
+    "key_name": "prize_gacha_item_info_title_201",
+    "gacha_pool_id": 107,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21118,
+    "id": 201
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_202",
+    "key_name": "prize_gacha_item_info_title_202",
+    "gacha_pool_id": 108,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21111,
+    "id": 202
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_203",
+    "key_name": "prize_gacha_item_info_title_203",
+    "gacha_pool_id": 108,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21118,
+    "id": 203
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_204",
+    "key_name": "prize_gacha_item_info_title_204",
+    "gacha_pool_id": 109,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21112,
+    "id": 204
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_205",
+    "key_name": "prize_gacha_item_info_title_205",
+    "gacha_pool_id": 109,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21118,
+    "id": 205
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_206",
+    "key_name": "prize_gacha_item_info_title_206",
+    "gacha_pool_id": 110,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21117,
+    "id": 206
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_207",
+    "key_name": "prize_gacha_item_info_title_207",
+    "gacha_pool_id": 110,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21113,
+    "id": 207
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_208",
+    "key_name": "prize_gacha_item_info_title_208",
+    "gacha_pool_id": 111,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21114,
+    "id": 208
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_209",
+    "key_name": "prize_gacha_item_info_title_209",
+    "gacha_pool_id": 111,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21118,
+    "id": 209
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_210",
+    "key_name": "prize_gacha_item_info_title_210",
+    "gacha_pool_id": 112,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21117,
+    "id": 210
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_211",
+    "key_name": "prize_gacha_item_info_title_211",
+    "gacha_pool_id": 112,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21115,
+    "id": 211
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_212",
+    "key_name": "prize_gacha_item_info_title_212",
+    "gacha_pool_id": 113,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21116,
+    "id": 212
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_213",
+    "key_name": "prize_gacha_item_info_title_213",
+    "gacha_pool_id": 113,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21118,
+    "id": 213
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_214",
+    "key_name": "prize_gacha_item_info_title_214",
+    "gacha_pool_id": 114,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21120,
+    "id": 214
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_215",
+    "key_name": "prize_gacha_item_info_title_215",
+    "gacha_pool_id": 115,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 30032,
+    "id": 215
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_216",
+    "key_name": "prize_gacha_item_info_title_216",
+    "gacha_pool_id": 116,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20922,
+    "id": 216
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_217",
+    "key_name": "prize_gacha_item_info_title_217",
+    "gacha_pool_id": 116,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20923,
+    "id": 217
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_218",
+    "key_name": "prize_gacha_item_info_title_218",
+    "gacha_pool_id": 121,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21158,
+    "id": 218
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_219",
+    "key_name": "prize_gacha_item_info_title_219",
+    "gacha_pool_id": 121,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 219
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_220",
+    "key_name": "prize_gacha_item_info_title_220",
+    "gacha_pool_id": 122,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21158,
+    "id": 220
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_221",
+    "key_name": "prize_gacha_item_info_title_221",
+    "gacha_pool_id": 122,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 221
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_222",
+    "key_name": "prize_gacha_item_info_title_222",
+    "gacha_pool_id": 122,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21151,
+    "id": 222
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_223",
+    "key_name": "prize_gacha_item_info_title_223",
+    "gacha_pool_id": 123,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21158,
+    "id": 223
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_224",
+    "key_name": "prize_gacha_item_info_title_224",
+    "gacha_pool_id": 123,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 224
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_225",
+    "key_name": "prize_gacha_item_info_title_225",
+    "gacha_pool_id": 123,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21152,
+    "id": 225
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_226",
+    "key_name": "prize_gacha_item_info_title_226",
+    "gacha_pool_id": 124,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21158,
+    "id": 226
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_227",
+    "key_name": "prize_gacha_item_info_title_227",
+    "gacha_pool_id": 124,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 227
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_228",
+    "key_name": "prize_gacha_item_info_title_228",
+    "gacha_pool_id": 124,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21153,
+    "id": 228
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_229",
+    "key_name": "prize_gacha_item_info_title_229",
+    "gacha_pool_id": 125,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21158,
+    "id": 229
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_230",
+    "key_name": "prize_gacha_item_info_title_230",
+    "gacha_pool_id": 125,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 230
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_231",
+    "key_name": "prize_gacha_item_info_title_231",
+    "gacha_pool_id": 125,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21154,
+    "id": 231
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_232",
+    "key_name": "prize_gacha_item_info_title_232",
+    "gacha_pool_id": 126,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21158,
+    "id": 232
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_233",
+    "key_name": "prize_gacha_item_info_title_233",
+    "gacha_pool_id": 126,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 233
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_234",
+    "key_name": "prize_gacha_item_info_title_234",
+    "gacha_pool_id": 126,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21155,
+    "id": 234
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_235",
+    "key_name": "prize_gacha_item_info_title_235",
+    "gacha_pool_id": 127,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21158,
+    "id": 235
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_236",
+    "key_name": "prize_gacha_item_info_title_236",
+    "gacha_pool_id": 127,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 236
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_237",
+    "key_name": "prize_gacha_item_info_title_237",
+    "gacha_pool_id": 127,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21156,
+    "id": 237
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_238",
+    "key_name": "prize_gacha_item_info_title_238",
+    "gacha_pool_id": 128,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21134,
+    "id": 238
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_239",
+    "key_name": "prize_gacha_item_info_title_239",
+    "gacha_pool_id": 128,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 239
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_240",
+    "key_name": "prize_gacha_item_info_title_240",
+    "gacha_pool_id": 129,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 30032,
+    "id": 240
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_241",
+    "key_name": "prize_gacha_item_info_title_241",
+    "gacha_pool_id": 130,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21137,
+    "id": 241
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_242",
+    "key_name": "prize_gacha_item_info_title_242",
+    "gacha_pool_id": 130,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21139,
+    "id": 242
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_243",
+    "key_name": "prize_gacha_item_info_title_243",
+    "gacha_pool_id": 130,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21138,
+    "id": 243
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_244",
+    "key_name": "prize_gacha_item_info_title_244",
+    "gacha_pool_id": 131,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21142,
+    "id": 244
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_245",
+    "key_name": "prize_gacha_item_info_title_245",
+    "gacha_pool_id": 131,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 245
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_246",
+    "key_name": "prize_gacha_item_info_title_246",
+    "gacha_pool_id": 131,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21143,
+    "id": 246
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_247",
+    "key_name": "prize_gacha_item_info_title_247",
+    "gacha_pool_id": 132,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21142,
+    "id": 247
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_248",
+    "key_name": "prize_gacha_item_info_title_248",
+    "gacha_pool_id": 132,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 248
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_249",
+    "key_name": "prize_gacha_item_info_title_249",
+    "gacha_pool_id": 132,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21143,
+    "id": 249
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_250",
+    "key_name": "prize_gacha_item_info_title_250",
+    "gacha_pool_id": 133,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21142,
+    "id": 250
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_251",
+    "key_name": "prize_gacha_item_info_title_251",
+    "gacha_pool_id": 133,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 251
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_252",
+    "key_name": "prize_gacha_item_info_title_252",
+    "gacha_pool_id": 133,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21143,
+    "id": 252
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_253",
+    "key_name": "prize_gacha_item_info_title_253",
+    "gacha_pool_id": 134,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21142,
+    "id": 253
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_254",
+    "key_name": "prize_gacha_item_info_title_254",
+    "gacha_pool_id": 134,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 254
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_255",
+    "key_name": "prize_gacha_item_info_title_255",
+    "gacha_pool_id": 134,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21143,
+    "id": 255
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_256",
+    "key_name": "prize_gacha_item_info_title_256",
+    "gacha_pool_id": 135,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21142,
+    "id": 256
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_257",
+    "key_name": "prize_gacha_item_info_title_257",
+    "gacha_pool_id": 135,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 257
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_258",
+    "key_name": "prize_gacha_item_info_title_258",
+    "gacha_pool_id": 135,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21143,
+    "id": 258
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_259",
+    "key_name": "prize_gacha_item_info_title_259",
+    "gacha_pool_id": 136,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21142,
+    "id": 259
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_260",
+    "key_name": "prize_gacha_item_info_title_260",
+    "gacha_pool_id": 136,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 260
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_261",
+    "key_name": "prize_gacha_item_info_title_261",
+    "gacha_pool_id": 136,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21143,
+    "id": 261
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_262",
+    "key_name": "prize_gacha_item_info_title_262",
+    "gacha_pool_id": 137,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21142,
+    "id": 262
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_263",
+    "key_name": "prize_gacha_item_info_title_263",
+    "gacha_pool_id": 137,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 263
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_264",
+    "key_name": "prize_gacha_item_info_title_264",
+    "gacha_pool_id": 137,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21145,
+    "id": 264
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_265",
+    "key_name": "prize_gacha_item_info_title_265",
+    "gacha_pool_id": 138,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21142,
+    "id": 265
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_266",
+    "key_name": "prize_gacha_item_info_title_266",
+    "gacha_pool_id": 138,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 266
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_267",
+    "key_name": "prize_gacha_item_info_title_267",
+    "gacha_pool_id": 138,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21143,
+    "id": 267
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_268",
+    "key_name": "prize_gacha_item_info_title_268",
+    "gacha_pool_id": 139,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21142,
+    "id": 268
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_269",
+    "key_name": "prize_gacha_item_info_title_269",
+    "gacha_pool_id": 139,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 269
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_270",
+    "key_name": "prize_gacha_item_info_title_270",
+    "gacha_pool_id": 139,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21143,
+    "id": 270
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_271",
+    "key_name": "prize_gacha_item_info_title_271",
+    "gacha_pool_id": 140,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21142,
+    "id": 271
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_272",
+    "key_name": "prize_gacha_item_info_title_272",
+    "gacha_pool_id": 140,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21157,
+    "id": 272
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_273",
+    "key_name": "prize_gacha_item_info_title_273",
+    "gacha_pool_id": 140,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21143,
+    "id": 273
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_274",
+    "key_name": "prize_gacha_item_info_title_274",
+    "gacha_pool_id": 141,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21143,
+    "id": 274
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_275",
+    "key_name": "prize_gacha_item_info_title_275",
+    "gacha_pool_id": 141,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21141,
+    "id": 275
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_276",
+    "key_name": "prize_gacha_item_info_title_276",
+    "gacha_pool_id": 142,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21305,
+    "id": 276
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_277",
+    "key_name": "prize_gacha_item_info_title_277",
+    "gacha_pool_id": 142,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21306,
+    "id": 277
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_278",
+    "key_name": "prize_gacha_item_info_title_278",
+    "gacha_pool_id": 143,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21309,
+    "id": 278
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_279",
+    "key_name": "prize_gacha_item_info_title_279",
+    "gacha_pool_id": 143,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21310,
+    "id": 279
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_280",
+    "key_name": "prize_gacha_item_info_title_280",
+    "gacha_pool_id": 144,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21311,
+    "id": 280
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_281",
+    "key_name": "prize_gacha_item_info_title_281",
+    "gacha_pool_id": 144,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21312,
+    "id": 281
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_282",
+    "key_name": "prize_gacha_item_info_title_282",
+    "gacha_pool_id": 144,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21313,
+    "id": 282
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_283",
+    "key_name": "prize_gacha_item_info_title_283",
+    "gacha_pool_id": 145,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21314,
+    "id": 283
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_284",
+    "key_name": "prize_gacha_item_info_title_284",
+    "gacha_pool_id": 145,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21315,
+    "id": 284
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_285",
+    "key_name": "prize_gacha_item_info_title_285",
+    "gacha_pool_id": 145,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21316,
+    "id": 285
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_286",
+    "key_name": "prize_gacha_item_info_title_286",
+    "gacha_pool_id": 146,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21317,
+    "id": 286
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_287",
+    "key_name": "prize_gacha_item_info_title_287",
+    "gacha_pool_id": 146,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21318,
+    "id": 287
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_288",
+    "key_name": "prize_gacha_item_info_title_288",
+    "gacha_pool_id": 146,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21319,
+    "id": 288
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_289",
+    "key_name": "prize_gacha_item_info_title_289",
+    "gacha_pool_id": 147,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 30032,
+    "id": 289
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_290",
+    "key_name": "prize_gacha_item_info_title_290",
+    "gacha_pool_id": 148,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21303,
+    "id": 290
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_291",
+    "key_name": "prize_gacha_item_info_title_291",
+    "gacha_pool_id": 148,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21304,
+    "id": 291
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_292",
+    "key_name": "prize_gacha_item_info_title_292",
+    "gacha_pool_id": 149,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31061,
+    "id": 292
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_293",
+    "key_name": "prize_gacha_item_info_title_293",
+    "gacha_pool_id": 149,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31062,
+    "id": 293
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_294",
+    "key_name": "prize_gacha_item_info_title_294",
+    "gacha_pool_id": 150,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21304,
+    "id": 294
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_295",
+    "key_name": "prize_gacha_item_info_title_295",
+    "gacha_pool_id": 150,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21304,
+    "id": 295
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_296",
+    "key_name": "prize_gacha_item_info_title_296",
+    "gacha_pool_id": 151,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21417,
+    "id": 296
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_297",
+    "key_name": "prize_gacha_item_info_title_297",
+    "gacha_pool_id": 151,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21418,
+    "id": 297
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_298",
+    "key_name": "prize_gacha_item_info_title_298",
+    "gacha_pool_id": 152,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21417,
+    "id": 298
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_299",
+    "key_name": "prize_gacha_item_info_title_299",
+    "gacha_pool_id": 152,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21418,
+    "id": 299
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_300",
+    "key_name": "prize_gacha_item_info_title_300",
+    "gacha_pool_id": 152,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21411,
+    "id": 300
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_301",
+    "key_name": "prize_gacha_item_info_title_301",
+    "gacha_pool_id": 153,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21417,
+    "id": 301
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_302",
+    "key_name": "prize_gacha_item_info_title_302",
+    "gacha_pool_id": 153,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21418,
+    "id": 302
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_303",
+    "key_name": "prize_gacha_item_info_title_303",
+    "gacha_pool_id": 153,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21412,
+    "id": 303
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_304",
+    "key_name": "prize_gacha_item_info_title_304",
+    "gacha_pool_id": 154,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21417,
+    "id": 304
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_305",
+    "key_name": "prize_gacha_item_info_title_305",
+    "gacha_pool_id": 154,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21418,
+    "id": 305
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_306",
+    "key_name": "prize_gacha_item_info_title_306",
+    "gacha_pool_id": 154,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21413,
+    "id": 306
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_307",
+    "key_name": "prize_gacha_item_info_title_307",
+    "gacha_pool_id": 155,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21417,
+    "id": 307
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_308",
+    "key_name": "prize_gacha_item_info_title_308",
+    "gacha_pool_id": 155,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21418,
+    "id": 308
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_309",
+    "key_name": "prize_gacha_item_info_title_309",
+    "gacha_pool_id": 155,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21414,
+    "id": 309
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_310",
+    "key_name": "prize_gacha_item_info_title_310",
+    "gacha_pool_id": 156,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21417,
+    "id": 310
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_311",
+    "key_name": "prize_gacha_item_info_title_311",
+    "gacha_pool_id": 156,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21418,
+    "id": 311
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_312",
+    "key_name": "prize_gacha_item_info_title_312",
+    "gacha_pool_id": 156,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21415,
+    "id": 312
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_313",
+    "key_name": "prize_gacha_item_info_title_313",
+    "gacha_pool_id": 157,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21417,
+    "id": 313
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_314",
+    "key_name": "prize_gacha_item_info_title_314",
+    "gacha_pool_id": 157,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21418,
+    "id": 314
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_315",
+    "key_name": "prize_gacha_item_info_title_315",
+    "gacha_pool_id": 157,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21416,
+    "id": 315
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_316",
+    "key_name": "prize_gacha_item_info_title_316",
+    "gacha_pool_id": 158,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21404,
+    "id": 316
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_317",
+    "key_name": "prize_gacha_item_info_title_317",
+    "gacha_pool_id": 158,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21403,
+    "id": 317
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_318",
+    "key_name": "prize_gacha_item_info_title_318",
+    "gacha_pool_id": 159,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21406,
+    "id": 318
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_319",
+    "key_name": "prize_gacha_item_info_title_319",
+    "gacha_pool_id": 159,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21405,
+    "id": 319
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_320",
+    "key_name": "prize_gacha_item_info_title_320",
+    "gacha_pool_id": 159,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 21407,
+    "id": 320
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_321",
+    "key_name": "prize_gacha_item_info_title_321",
+    "gacha_pool_id": 160,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 30032,
+    "id": 321
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_355",
+    "key_name": "prize_gacha_item_info_title_355",
+    "gacha_pool_id": 174,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31282,
+    "id": 355
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_356",
+    "key_name": "prize_gacha_item_info_title_356",
+    "gacha_pool_id": 174,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31281,
+    "id": 356
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_359",
+    "key_name": "prize_gacha_item_info_title_359",
+    "gacha_pool_id": 71,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31161,
+    "id": 359
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_360",
+    "key_name": "prize_gacha_item_info_title_360",
+    "gacha_pool_id": 71,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31162,
+    "id": 360
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_378",
+    "key_name": "prize_gacha_item_info_title_378",
+    "gacha_pool_id": 176,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20162,
+    "id": 378
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_379",
+    "key_name": "prize_gacha_item_info_title_379",
+    "gacha_pool_id": 176,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20161,
+    "id": 379
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_380",
+    "key_name": "prize_gacha_item_info_title_380",
+    "gacha_pool_id": 177,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201616,
+    "id": 380
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_381",
+    "key_name": "prize_gacha_item_info_title_381",
+    "gacha_pool_id": 177,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20169,
+    "id": 381
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_382",
+    "key_name": "prize_gacha_item_info_title_382",
+    "gacha_pool_id": 178,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20169,
+    "id": 382
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_383",
+    "key_name": "prize_gacha_item_info_title_383",
+    "gacha_pool_id": 178,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201617,
+    "id": 383
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_384",
+    "key_name": "prize_gacha_item_info_title_384",
+    "gacha_pool_id": 178,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201616,
+    "id": 384
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_385",
+    "key_name": "prize_gacha_item_info_title_385",
+    "gacha_pool_id": 179,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20169,
+    "id": 385
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_386",
+    "key_name": "prize_gacha_item_info_title_386",
+    "gacha_pool_id": 179,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201617,
+    "id": 386
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_387",
+    "key_name": "prize_gacha_item_info_title_387",
+    "gacha_pool_id": 179,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201611,
+    "id": 387
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_388",
+    "key_name": "prize_gacha_item_info_title_388",
+    "gacha_pool_id": 180,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20169,
+    "id": 388
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_389",
+    "key_name": "prize_gacha_item_info_title_389",
+    "gacha_pool_id": 180,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201617,
+    "id": 389
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_390",
+    "key_name": "prize_gacha_item_info_title_390",
+    "gacha_pool_id": 180,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201612,
+    "id": 390
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_391",
+    "key_name": "prize_gacha_item_info_title_391",
+    "gacha_pool_id": 181,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20169,
+    "id": 391
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_392",
+    "key_name": "prize_gacha_item_info_title_392",
+    "gacha_pool_id": 181,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201617,
+    "id": 392
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_393",
+    "key_name": "prize_gacha_item_info_title_393",
+    "gacha_pool_id": 181,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201613,
+    "id": 393
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_394",
+    "key_name": "prize_gacha_item_info_title_394",
+    "gacha_pool_id": 182,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20169,
+    "id": 394
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_395",
+    "key_name": "prize_gacha_item_info_title_395",
+    "gacha_pool_id": 182,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201617,
+    "id": 395
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_396",
+    "key_name": "prize_gacha_item_info_title_396",
+    "gacha_pool_id": 182,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201614,
+    "id": 396
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_397",
+    "key_name": "prize_gacha_item_info_title_397",
+    "gacha_pool_id": 183,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20169,
+    "id": 397
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_398",
+    "key_name": "prize_gacha_item_info_title_398",
+    "gacha_pool_id": 183,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201617,
+    "id": 398
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_399",
+    "key_name": "prize_gacha_item_info_title_399",
+    "gacha_pool_id": 183,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 201615,
+    "id": 399
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_400",
+    "key_name": "prize_gacha_item_info_title_400",
+    "gacha_pool_id": 184,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20164,
+    "id": 400
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_401",
+    "key_name": "prize_gacha_item_info_title_401",
+    "gacha_pool_id": 184,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20163,
+    "id": 401
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_402",
+    "key_name": "prize_gacha_item_info_title_402",
+    "gacha_pool_id": 184,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 20165,
+    "id": 402
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_403",
+    "key_name": "prize_gacha_item_info_title_403",
+    "gacha_pool_id": 185,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22052,
+    "id": 403
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_404",
+    "key_name": "prize_gacha_item_info_title_404",
+    "gacha_pool_id": 185,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22051,
+    "id": 404
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_405",
+    "key_name": "prize_gacha_item_info_title_405",
+    "gacha_pool_id": 186,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22062,
+    "id": 405
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_406",
+    "key_name": "prize_gacha_item_info_title_406",
+    "gacha_pool_id": 186,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 22061,
+    "id": 406
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_407",
+    "key_name": "prize_gacha_item_info_title_407",
+    "gacha_pool_id": 187,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31202,
+    "id": 407
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_408",
+    "key_name": "prize_gacha_item_info_title_408",
+    "gacha_pool_id": 187,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31201,
+    "id": 408
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_424",
+    "key_name": "prize_gacha_item_info_title_424",
+    "gacha_pool_id": 200,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31251,
+    "id": 424
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_425",
+    "key_name": "prize_gacha_item_info_title_425",
+    "gacha_pool_id": 200,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31252,
+    "id": 425
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_426",
+    "key_name": "prize_gacha_item_info_title_426",
+    "gacha_pool_id": 201,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31221,
+    "id": 426
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_427",
+    "key_name": "prize_gacha_item_info_title_427",
+    "gacha_pool_id": 201,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31222,
+    "id": 427
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_428",
+    "key_name": "prize_gacha_item_info_title_428",
+    "gacha_pool_id": 202,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31261,
+    "id": 428
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_429",
+    "key_name": "prize_gacha_item_info_title_429",
+    "gacha_pool_id": 202,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31262,
+    "id": 429
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_430",
+    "key_name": "prize_gacha_item_info_title_430",
+    "gacha_pool_id": 203,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31231,
+    "id": 430
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_431",
+    "key_name": "prize_gacha_item_info_title_431",
+    "gacha_pool_id": 203,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31232,
+    "id": 431
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_432",
+    "key_name": "prize_gacha_item_info_title_432",
+    "gacha_pool_id": 204,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31211,
+    "id": 432
+  },
+  {
+    "key_description": "prize_gacha_item_info_description_433",
+    "key_name": "prize_gacha_item_info_title_433",
+    "gacha_pool_id": 204,
+    "event_asset_linkage_index": -1,
+    "asset_linkage": 31212,
+    "id": 433
+  }
+]

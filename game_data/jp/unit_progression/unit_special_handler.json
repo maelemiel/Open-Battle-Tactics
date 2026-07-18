@@ -1,0 +1,78 @@
+[
+  {
+    "handler": "increase_base_attack",
+    "id": 601
+  },
+  {
+    "handler": "aoe_damage",
+    "id": 602
+  },
+  {
+    "handler": "rail_gun",
+    "id": 603
+  },
+  {
+    "handler": "armour_buff",
+    "id": 604
+  },
+  {
+    "handler": "first_strike_buff",
+    "id": 605
+  },
+  {
+    "handler": "hotshot",
+    "id": 606
+  },
+  {
+    "handler": "napalm",
+    "id": 607
+  },
+  {
+    "handler": "shortcircuit",
+    "id": 608
+  },
+  {
+    "handler": "passive_evade",
+    "id": 609
+  },
+  {
+    "handler": "minigun",
+    "id": 610
+  },
+  {
+    "handler": "extinguish_unit",
+    "id": 611
+  },
+  {
+    "handler": "event_point_boost_passive",
+    "id": 612
+  },
+  {
+    "handler": "event_boss_damage_passive",
+    "id": 613
+  },
+  {
+    "handler": "boost_dice",
+    "id": 614
+  },
+  {
+    "handler": "boost_special",
+    "id": 615
+  },
+  {
+    "handler": "boost_dice_special",
+    "id": 616
+  },
+  {
+    "handler": "boost_special_percentage",
+    "id": 617
+  },
+  {
+    "handler": "quick_draw_passive",
+    "id": 618
+  },
+  {
+    "handler": "unit_event_boost",
+    "id": 619
+  }
+]
