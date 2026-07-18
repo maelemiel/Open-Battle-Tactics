@@ -1,116 +1,100 @@
-# Open-Battle-Tactics — Scripts d'export
+# Open-Battle-Tactics — Export Scripts
 
-Ces scripts s'utilisent depuis la branche `reverse-engineering`, là où se trouvent les données du jeu original.
+Use on `reverse-engineering` branch. Original game data here.
 
 ```bash
 git checkout reverse-engineering
 cd scripts/
 ```
 
----
+## 1. `export_game_data.py`
 
-## 1. `export_game_data.py` — Export SQLite → JSON/CSV
-
-Exporte toutes les données du jeu depuis `dataModel.db` en fichiers JSON (et optionnellement CSV). Aucune dépendance externe — stdlib Python uniquement.
+Export SQLite to JSON/CSV. No external dependencies. Uses Python stdlib.
 
 ```bash
-# Export minimal (EN, JSON)
+# Minimal export (EN, JSON)
 python scripts/export_game_data.py
 
-# Avec options
+# With options
 python scripts/export_game_data.py --db assets/dataModel.db --out game_data/ --lang fr
 python scripts/export_game_data.py --db assets/dataModel.db --out game_data/ --lang en --format json+csv
 ```
 
 ### Options
+* `--db`: SQLite DB path. Default: `assets/dataModel.db`
+* `--out`: Output dir. Default: `game_data/`
+* `--lang`: Language (`en`, `fr`, `de`, `es`, `it`, `pt`, `zh`). Default: `en`
+* `--format`: Export format (`json`, `csv`, `json+csv`). Default: `json`
 
-| Option | Défaut | Description |
-|--------|--------|-------------|
-| `--db` | `assets/dataModel.db` | Chemin vers la base SQLite |
-| `--out` | `game_data/` | Dossier de sortie |
-| `--lang` | `en` | Langue : `en`, `fr`, `de`, `es`, `it`, `pt`, `zh` |
-| `--format` | `json` | Format : `json`, `csv`, `json+csv` |
-
-### Données exportées
-
-```
+### Exported Data
+```text
 game_data/
-├── units.json                    # 370 unités avec noms traduits
-├── unit_types.json               # 14 types d'unités
-├── unit_rarity.json              # 5 niveaux de rareté
-├── unit_progression/             # level-up, cooldowns, scrap values...
+├── units.json                    # 370 units, translated names
+├── unit_types.json               # 14 unit types
+├── unit_rarity.json              # 5 rarity levels
+├── unit_progression/             # level-up, cooldowns, scrap values
 │   ├── unit_level_progression.json
 │   ├── unit_cooldown.json
 │   └── ...
-├── abilities.json                # 34 capacités (ULTRA/PRE-COMBAT/REACTIVE/PASSIVE)
-├── events.json                   # Événements en jeu
+├── abilities.json                # 34 abilities (ULTRA/PRE-COMBAT/REACTIVE/PASSIVE)
+├── events.json                   # In-game events
 ├── items.json
-├── gacha/                        # Toutes les tables gacha
+├── gacha/                        # Gacha tables
 │   ├── gacha_pools.json
 │   └── ...
 ├── progression/                  # Divisions, tiers, promotion series
 ├── leaderboards/
-├── ai/                           # Armées IA et comportements
+├── ai/                           # AI armies and behaviors
 │   ├── ai_army.json
 │   ├── ai_army_parts.json
 │   └── ai_handler.json
-├── config.json                   # Configuration générale du jeu
-├── localization_full.json        # Toutes les traductions (14 langues)
-└── tables_index.json             # Index des 67 tables avec nb de lignes
+├── config.json                   # General game config
+├── localization_full.json        # Translations (14 languages)
+└── tables_index.json             # Index of 67 tables, row counts
 ```
 
----
+## 2. `extract_unity_assets.py`
 
-## 2. `extract_unity_assets.py` — Extraction assets Unity
-
-Extrait les textures, sons et fichiers texte depuis `assets/bin/Data/` (format Unity).
+Extract Unity assets (textures, sounds, text) from `assets/bin/Data/`.
 
 ```bash
-# Installation des dépendances
+# Install dependencies
 pip install UnityPy Pillow
 
-# Extraire tout
+# Extract all
 python scripts/extract_unity_assets.py --src assets/bin/Data/ --out extracted/ --verbose
 
-# Extraire uniquement les textures et l'audio
+# Extract specific types
 python scripts/extract_unity_assets.py --src assets/bin/Data/ --out extracted/ --types Texture2D,AudioClip --verbose
 ```
 
 ### Options
+* `--src`: Unity source dir. Default: `assets/bin/Data/`
+* `--out`: Output dir. Default: `extracted/`
+* `--types`: Comma-separated filter. Default: (all)
+* `--verbose`: Show per-file output. Default: false
 
-| Option | Défaut | Description |
-|--------|--------|-------------|
-| `--src` | `assets/bin/Data/` | Dossier source Unity |
-| `--out` | `extracted/` | Dossier de sortie |
-| `--types` | (tous) | Types filtrés séparés par virgule |
-| `--verbose` | false | Affichage fichier par fichier |
+### Supported Types
+* `Texture2D`: `extracted/Texture2D/*.png` — Unit/UI textures
+* `Sprite`: `extracted/Sprite/*.png` — Sliced sprites
+* `AudioClip`: `extracted/AudioClip/*.wav` — Game sounds
+* `TextAsset`: `extracted/TextAsset/*.json` — Configs/data
+* `Shader`: `extracted/Shader/*.shader` — GLSL/HLSL shaders
 
-### Types supportés
-
-| Type Unity | Sortie | Description |
-|---|---|---|
-| `Texture2D` | `extracted/Texture2D/*.png` | Textures des unités, UI |
-| `Sprite` | `extracted/Sprite/*.png` | Sprites découpés |
-| `AudioClip` | `extracted/AudioClip/*.wav` | Sons du jeu |
-| `TextAsset` | `extracted/TextAsset/*.json` | Configs et données |
-| `Shader` | `extracted/Shader/*.shader` | Shaders GLSL/HLSL |
-
----
-
-## Workflow complet
+## Workflow
 
 ```bash
-# 1. Se placer sur la bonne branche
+# 1. Switch branch
 git checkout reverse-engineering
 
-# 2. Exporter les données JSON (pour les dev)
+# 2. Export JSON
 python scripts/export_game_data.py --db assets/dataModel.db --out game_data/ --lang en
 
-# 3. Extraire les assets Unity (pour les artistes)
+# 3. Extract Unity assets
 pip install UnityPy Pillow
 python scripts/extract_unity_assets.py --src assets/bin/Data/ --out extracted/ --types Texture2D,Sprite,AudioClip --verbose
 
-# 4. Copier les JSONs vers la branche main pour le dev
+# 4. Copy JSONs to main branch
 git stash
 git checkout main
 mkdir -p src/config
