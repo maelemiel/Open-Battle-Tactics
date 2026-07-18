@@ -1,0 +1,134 @@
+[
+  {
+    "ability_id": 60100,
+    "boost_id": 4,
+    "id": 1,
+    "multiplier": 100
+  },
+  {
+    "ability_id": 60100,
+    "boost_id": 5,
+    "id": 2,
+    "multiplier": 100
+  },
+  {
+    "ability_id": 60200,
+    "boost_id": 4,
+    "id": 3,
+    "multiplier": 150
+  },
+  {
+    "ability_id": 60200,
+    "boost_id": 5,
+    "id": 4,
+    "multiplier": 150
+  },
+  {
+    "ability_id": 60300,
+    "boost_id": 4,
+    "id": 5,
+    "multiplier": 50
+  },
+  {
+    "ability_id": 60300,
+    "boost_id": 5,
+    "id": 6,
+    "multiplier": 50
+  },
+  {
+    "ability_id": 60400,
+    "boost_id": 4,
+    "id": 7,
+    "multiplier": 100
+  },
+  {
+    "ability_id": 60400,
+    "boost_id": 5,
+    "id": 8,
+    "multiplier": 100
+  },
+  {
+    "ability_id": 60500,
+    "boost_id": 4,
+    "id": 9,
+    "multiplier": 100
+  },
+  {
+    "ability_id": 60500,
+    "boost_id": 5,
+    "id": 10,
+    "multiplier": 100
+  },
+  {
+    "ability_id": 60600,
+    "boost_id": 4,
+    "id": 11,
+    "multiplier": 150
+  },
+  {
+    "ability_id": 60600,
+    "boost_id": 5,
+    "id": 12,
+    "multiplier": 150
+  },
+  {
+    "ability_id": 60700,
+    "boost_id": 4,
+    "id": 13,
+    "multiplier": 150
+  },
+  {
+    "ability_id": 60700,
+    "boost_id": 5,
+    "id": 14,
+    "multiplier": 150
+  },
+  {
+    "ability_id": 60800,
+    "boost_id": 4,
+    "id": 15,
+    "multiplier": 150
+  },
+  {
+    "ability_id": 60800,
+    "boost_id": 5,
+    "id": 16,
+    "multiplier": 150
+  },
+  {
+    "ability_id": 60900,
+    "boost_id": 4,
+    "id": 17,
+    "multiplier": 100
+  },
+  {
+    "ability_id": 60900,
+    "boost_id": 5,
+    "id": 18,
+    "multiplier": 100
+  },
+  {
+    "ability_id": 60301,
+    "boost_id": 4,
+    "id": 19,
+    "multiplier": 150
+  },
+  {
+    "ability_id": 60301,
+    "boost_id": 5,
+    "id": 20,
+    "multiplier": 100
+  },
+  {
+    "ability_id": 61100,
+    "boost_id": 4,
+    "id": 21,
+    "multiplier": 100
+  },
+  {
+    "ability_id": 61100,
+    "boost_id": 5,
+    "id": 22,
+    "multiplier": 100
+  }
+]

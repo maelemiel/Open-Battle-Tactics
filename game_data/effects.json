@@ -1,0 +1,517 @@
+[
+  {
+    "effect_name": "BURN",
+    "asset_linkage_id": 1000,
+    "id": 1
+  },
+  {
+    "effect_name": "ABILITY_POINT",
+    "asset_linkage_id": 1010,
+    "id": 2
+  },
+  {
+    "effect_name": "BEST_ROLL_FIREWORKS",
+    "asset_linkage_id": 1020,
+    "id": 3
+  },
+  {
+    "effect_name": "BOSS_MOMENT",
+    "asset_linkage_id": 1030,
+    "id": 4
+  },
+  {
+    "effect_name": "CAKE_WALK",
+    "asset_linkage_id": 1040,
+    "id": 5
+  },
+  {
+    "effect_name": "CRITICAL_HIT",
+    "asset_linkage_id": 1050,
+    "id": 6
+  },
+  {
+    "effect_name": "DEBRIS_BOUNCE",
+    "asset_linkage_id": 1060,
+    "id": 7
+  },
+  {
+    "effect_name": "DEBRIS",
+    "asset_linkage_id": 1061,
+    "id": 8
+  },
+  {
+    "effect_name": "EM_PULSE",
+    "asset_linkage_id": 1070,
+    "id": 9
+  },
+  {
+    "effect_name": "SHORT_CIRCUIT_HIT",
+    "asset_linkage_id": 1080,
+    "id": 10
+  },
+  {
+    "effect_name": "SHORT_CIRCUIT_PROJECTILE",
+    "asset_linkage_id": 1081,
+    "id": 11
+  },
+  {
+    "effect_name": "RAILGUN_PROJECTILE",
+    "asset_linkage_id": 1081,
+    "id": 12
+  },
+  {
+    "effect_name": "FIREBOMB_EXPLODE",
+    "asset_linkage_id": 1090,
+    "id": 13
+  },
+  {
+    "effect_name": "HOTSHOT_FIRE",
+    "asset_linkage_id": 1100,
+    "id": 14
+  },
+  {
+    "effect_name": "HOTSHOT_HIT",
+    "asset_linkage_id": 1110,
+    "id": 15
+  },
+  {
+    "effect_name": "JAMMER",
+    "asset_linkage_id": 1120,
+    "id": 16
+  },
+  {
+    "effect_name": "JAMMER_2",
+    "asset_linkage_id": 1130,
+    "id": 17
+  },
+  {
+    "effect_name": "MISSILE_BURST",
+    "asset_linkage_id": 1140,
+    "id": 18
+  },
+  {
+    "effect_name": "MISSILE_FIRE",
+    "asset_linkage_id": 1141,
+    "id": 19
+  },
+  {
+    "effect_name": "MISSILE_EXPLOSION",
+    "asset_linkage_id": 1150,
+    "id": 20
+  },
+  {
+    "effect_name": "NAPALM_HIT",
+    "asset_linkage_id": 1160,
+    "id": 21
+  },
+  {
+    "effect_name": "PASSIVE_EFFECT",
+    "asset_linkage_id": 0,
+    "id": 22
+  },
+  {
+    "effect_name": "ROCKET_EXPLOSION",
+    "asset_linkage_id": 1180,
+    "id": 23
+  },
+  {
+    "effect_name": "ROCKET_FIRE",
+    "asset_linkage_id": 1181,
+    "id": 24
+  },
+  {
+    "effect_name": "ROCKET_HIT",
+    "asset_linkage_id": 1182,
+    "id": 25
+  },
+  {
+    "effect_name": "RAILGUN_HIT",
+    "asset_linkage_id": 1190,
+    "id": 26
+  },
+  {
+    "effect_name": "RAILGUN_SHOT",
+    "asset_linkage_id": 1191,
+    "id": 27
+  },
+  {
+    "effect_name": "BOMB_DROP",
+    "asset_linkage_id": 1200,
+    "id": 28
+  },
+  {
+    "effect_name": "PLANE_FLYOVER",
+    "asset_linkage_id": 1201,
+    "id": 29
+  },
+  {
+    "effect_name": "BOMB_EXPLODE",
+    "asset_linkage_id": 1210,
+    "id": 30
+  },
+  {
+    "effect_name": "BOMB_EXPLODE_2",
+    "asset_linkage_id": 1211,
+    "id": 31
+  },
+  {
+    "effect_name": "BOSS_EXPLOSION",
+    "asset_linkage_id": 1220,
+    "id": 32
+  },
+  {
+    "effect_name": "CRITICAL_HIT",
+    "asset_linkage_id": 1230,
+    "id": 33
+  },
+  {
+    "effect_name": "EXPLOSION",
+    "asset_linkage_id": 1240,
+    "id": 34
+  },
+  {
+    "effect_name": "EXTINGUISH_UNIT",
+    "asset_linkage_id": 1250,
+    "id": 35
+  },
+  {
+    "effect_name": "INTEL_SCAN",
+    "asset_linkage_id": 1260,
+    "id": 36
+  },
+  {
+    "effect_name": "INTEL_DEPLOY",
+    "asset_linkage_id": 1261,
+    "id": 37
+  },
+  {
+    "effect_name": "INTEL_PARACHUTE",
+    "asset_linkage_id": 1262,
+    "id": 38
+  },
+  {
+    "effect_name": "SHIELD",
+    "asset_linkage_id": 1270,
+    "id": 39
+  },
+  {
+    "effect_name": "ANNOUNCER_FRANK",
+    "asset_linkage_id": 3000,
+    "id": 40
+  },
+  {
+    "effect_name": "ANNOUNCER_PEPPER",
+    "asset_linkage_id": 3001,
+    "id": 41
+  },
+  {
+    "effect_name": "ANNOUNCER_VIKKI",
+    "asset_linkage_id": 3002,
+    "id": 42
+  },
+  {
+    "effect_name": "ANNOUNCER_BAMBI",
+    "asset_linkage_id": 3003,
+    "id": 43
+  },
+  {
+    "effect_name": "ANNOUNCER_0",
+    "asset_linkage_id": 3004,
+    "id": 44
+  },
+  {
+    "effect_name": "ANNOUNCER_1",
+    "asset_linkage_id": 3005,
+    "id": 45
+  },
+  {
+    "effect_name": "ANNOUNCER_2",
+    "asset_linkage_id": 3006,
+    "id": 46
+  },
+  {
+    "effect_name": "ANNOUNCER_3",
+    "asset_linkage_id": 3007,
+    "id": 47
+  },
+  {
+    "effect_name": "ANNOUNCER_4",
+    "asset_linkage_id": 3008,
+    "id": 48
+  },
+  {
+    "effect_name": "ANNOUNCER_5",
+    "asset_linkage_id": 3009,
+    "id": 49
+  },
+  {
+    "effect_name": "ANNOUNCER_6",
+    "asset_linkage_id": 3010,
+    "id": 50
+  },
+  {
+    "effect_name": "ANNOUNCER_7",
+    "asset_linkage_id": 3011,
+    "id": 51
+  },
+  {
+    "effect_name": "ANNOUNCER_8",
+    "asset_linkage_id": 3012,
+    "id": 52
+  },
+  {
+    "effect_name": "ANNOUNCER_9",
+    "asset_linkage_id": 3013,
+    "id": 53
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_1",
+    "asset_linkage_id": 4001,
+    "id": 54
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_2",
+    "asset_linkage_id": 4002,
+    "id": 55
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_3",
+    "asset_linkage_id": 4003,
+    "id": 56
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_4",
+    "asset_linkage_id": 4004,
+    "id": 57
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_5",
+    "asset_linkage_id": 4005,
+    "id": 58
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_6",
+    "asset_linkage_id": 4006,
+    "id": 59
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_7",
+    "asset_linkage_id": 4007,
+    "id": 60
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_8",
+    "asset_linkage_id": 4008,
+    "id": 61
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_9",
+    "asset_linkage_id": 4009,
+    "id": 62
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_10",
+    "asset_linkage_id": 4010,
+    "id": 63
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_11",
+    "asset_linkage_id": 4011,
+    "id": 64
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_12",
+    "asset_linkage_id": 4012,
+    "id": 65
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_13",
+    "asset_linkage_id": 4013,
+    "id": 66
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_14",
+    "asset_linkage_id": 4014,
+    "id": 67
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_15",
+    "asset_linkage_id": 4015,
+    "id": 68
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_16",
+    "asset_linkage_id": 4016,
+    "id": 69
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_17",
+    "asset_linkage_id": 4017,
+    "id": 70
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_18",
+    "asset_linkage_id": 4018,
+    "id": 71
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_19",
+    "asset_linkage_id": 4019,
+    "id": 72
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_20",
+    "asset_linkage_id": 4020,
+    "id": 73
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_21",
+    "asset_linkage_id": 4021,
+    "id": 74
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_22",
+    "asset_linkage_id": 4022,
+    "id": 75
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_23",
+    "asset_linkage_id": 4023,
+    "id": 76
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_24",
+    "asset_linkage_id": 4024,
+    "id": 77
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_FIRING_25",
+    "asset_linkage_id": 4025,
+    "id": 78
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_1",
+    "asset_linkage_id": 4026,
+    "id": 79
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_2",
+    "asset_linkage_id": 4027,
+    "id": 80
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_3",
+    "asset_linkage_id": 4028,
+    "id": 81
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_4",
+    "asset_linkage_id": 4029,
+    "id": 82
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_5",
+    "asset_linkage_id": 4030,
+    "id": 83
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_6",
+    "asset_linkage_id": 4031,
+    "id": 84
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_7",
+    "asset_linkage_id": 4032,
+    "id": 85
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_8",
+    "asset_linkage_id": 4033,
+    "id": 86
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_9",
+    "asset_linkage_id": 4034,
+    "id": 87
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_10",
+    "asset_linkage_id": 4035,
+    "id": 88
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_11",
+    "asset_linkage_id": 4036,
+    "id": 89
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_12",
+    "asset_linkage_id": 4037,
+    "id": 90
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_13",
+    "asset_linkage_id": 4038,
+    "id": 91
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_14",
+    "asset_linkage_id": 4039,
+    "id": 92
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_15",
+    "asset_linkage_id": 4040,
+    "id": 93
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_16",
+    "asset_linkage_id": 4041,
+    "id": 94
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_17",
+    "asset_linkage_id": 4042,
+    "id": 95
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_18",
+    "asset_linkage_id": 4043,
+    "id": 96
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_19",
+    "asset_linkage_id": 4044,
+    "id": 97
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_20",
+    "asset_linkage_id": 4045,
+    "id": 98
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_21",
+    "asset_linkage_id": 4046,
+    "id": 99
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_22",
+    "asset_linkage_id": 4047,
+    "id": 100
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_23",
+    "asset_linkage_id": 4048,
+    "id": 101
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_24",
+    "asset_linkage_id": 4049,
+    "id": 102
+  },
+  {
+    "effect_name": "BATTLE_EFFECT_HIT_25",
+    "asset_linkage_id": 4050,
+    "id": 103
+  }
+]

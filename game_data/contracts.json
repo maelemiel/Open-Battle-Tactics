@@ -1,0 +1,233 @@
+[
+  {
+    "key_description": "metadata_contract_description_101",
+    "contract_rarity": 1,
+    "contract_id": 101,
+    "asset_linkage_id": 8002,
+    "key_name": "metadata_contract_name_101",
+    "contract_weight": 50,
+    "contract_duration": 300,
+    "contract_pool": 0,
+    "id": 1
+  },
+  {
+    "key_description": "metadata_contract_description_102",
+    "contract_rarity": 0,
+    "contract_id": 102,
+    "asset_linkage_id": 8001,
+    "key_name": "metadata_contract_name_102",
+    "contract_weight": 100,
+    "contract_duration": 300,
+    "contract_pool": 0,
+    "id": 2
+  },
+  {
+    "key_description": "metadata_contract_description_103",
+    "contract_rarity": 0,
+    "contract_id": 103,
+    "asset_linkage_id": 8005,
+    "key_name": "metadata_contract_name_103",
+    "contract_weight": 100,
+    "contract_duration": 600,
+    "contract_pool": 0,
+    "id": 3
+  },
+  {
+    "key_description": "metadata_contract_description_104",
+    "contract_rarity": 0,
+    "contract_id": 104,
+    "asset_linkage_id": 8002,
+    "key_name": "metadata_contract_name_104",
+    "contract_weight": 100,
+    "contract_duration": 300,
+    "contract_pool": 0,
+    "id": 4
+  },
+  {
+    "key_description": "metadata_contract_description_105",
+    "contract_rarity": 1,
+    "contract_id": 105,
+    "asset_linkage_id": 8004,
+    "key_name": "metadata_contract_name_105",
+    "contract_weight": 50,
+    "contract_duration": 600,
+    "contract_pool": 0,
+    "id": 5
+  },
+  {
+    "key_description": "metadata_contract_description_202",
+    "contract_rarity": 0,
+    "contract_id": 202,
+    "asset_linkage_id": 8002,
+    "key_name": "metadata_contract_name_202",
+    "contract_weight": 100,
+    "contract_duration": 600,
+    "contract_pool": 1,
+    "id": 6
+  },
+  {
+    "key_description": "metadata_contract_description_203",
+    "contract_rarity": 1,
+    "contract_id": 203,
+    "asset_linkage_id": 8004,
+    "key_name": "metadata_contract_name_203",
+    "contract_weight": 50,
+    "contract_duration": 900,
+    "contract_pool": 1,
+    "id": 7
+  },
+  {
+    "key_description": "metadata_contract_description_204",
+    "contract_rarity": 1,
+    "contract_id": 204,
+    "asset_linkage_id": 8006,
+    "key_name": "metadata_contract_name_204",
+    "contract_weight": 50,
+    "contract_duration": 600,
+    "contract_pool": 1,
+    "id": 8
+  },
+  {
+    "key_description": "metadata_contract_description_205",
+    "contract_rarity": 0,
+    "contract_id": 205,
+    "asset_linkage_id": 8001,
+    "key_name": "metadata_contract_name_205",
+    "contract_weight": 100,
+    "contract_duration": 1800,
+    "contract_pool": 1,
+    "id": 9
+  },
+  {
+    "key_description": "metadata_contract_description_206",
+    "contract_rarity": 0,
+    "contract_id": 206,
+    "asset_linkage_id": 8001,
+    "key_name": "metadata_contract_name_206",
+    "contract_weight": 100,
+    "contract_duration": 1800,
+    "contract_pool": 1,
+    "id": 10
+  },
+  {
+    "key_description": "metadata_contract_description_207",
+    "contract_rarity": 0,
+    "contract_id": 207,
+    "asset_linkage_id": 8001,
+    "key_name": "metadata_contract_name_207",
+    "contract_weight": 100,
+    "contract_duration": 1800,
+    "contract_pool": 1,
+    "id": 11
+  },
+  {
+    "key_description": "metadata_contract_description_301",
+    "contract_rarity": 1,
+    "contract_id": 301,
+    "asset_linkage_id": 8003,
+    "key_name": "metadata_contract_name_301",
+    "contract_weight": 25,
+    "contract_duration": 7200,
+    "contract_pool": 2,
+    "id": 12
+  },
+  {
+    "key_description": "metadata_contract_description_302",
+    "contract_rarity": 0,
+    "contract_id": 302,
+    "asset_linkage_id": 8003,
+    "key_name": "metadata_contract_name_302",
+    "contract_weight": 100,
+    "contract_duration": 1800,
+    "contract_pool": 2,
+    "id": 13
+  },
+  {
+    "key_description": "metadata_contract_description_303",
+    "contract_rarity": 0,
+    "contract_id": 303,
+    "asset_linkage_id": 8005,
+    "key_name": "metadata_contract_name_303",
+    "contract_weight": 100,
+    "contract_duration": 1800,
+    "contract_pool": 2,
+    "id": 14
+  },
+  {
+    "key_description": "metadata_contract_description_304",
+    "contract_rarity": 0,
+    "contract_id": 304,
+    "asset_linkage_id": 8004,
+    "key_name": "metadata_contract_name_304",
+    "contract_weight": 100,
+    "contract_duration": 14400,
+    "contract_pool": 2,
+    "id": 15
+  },
+  {
+    "key_description": "metadata_contract_description_305",
+    "contract_rarity": 1,
+    "contract_id": 305,
+    "asset_linkage_id": 8003,
+    "key_name": "metadata_contract_name_305",
+    "contract_weight": 25,
+    "contract_duration": 7200,
+    "contract_pool": 2,
+    "id": 16
+  },
+  {
+    "key_description": "metadata_contract_description_306",
+    "contract_rarity": 1,
+    "contract_id": 306,
+    "asset_linkage_id": 8003,
+    "key_name": "metadata_contract_name_306",
+    "contract_weight": 25,
+    "contract_duration": 7200,
+    "contract_pool": 2,
+    "id": 17
+  },
+  {
+    "key_description": "metadata_contract_description_307",
+    "contract_rarity": 1,
+    "contract_id": 307,
+    "asset_linkage_id": 8003,
+    "key_name": "metadata_contract_name_307",
+    "contract_weight": 25,
+    "contract_duration": 7200,
+    "contract_pool": 2,
+    "id": 18
+  },
+  {
+    "key_description": "metadata_contract_description_308",
+    "contract_rarity": 1,
+    "contract_id": 308,
+    "asset_linkage_id": 8003,
+    "key_name": "metadata_contract_name_308",
+    "contract_weight": 25,
+    "contract_duration": 7200,
+    "contract_pool": 2,
+    "id": 19
+  },
+  {
+    "key_description": "metadata_contract_description_309",
+    "contract_rarity": 0,
+    "contract_id": 309,
+    "asset_linkage_id": 8006,
+    "key_name": "metadata_contract_name_309",
+    "contract_weight": 100,
+    "contract_duration": 14400,
+    "contract_pool": 2,
+    "id": 20
+  },
+  {
+    "key_description": "metadata_contract_description_310",
+    "contract_rarity": 0,
+    "contract_id": 310,
+    "asset_linkage_id": 8004,
+    "key_name": "metadata_contract_name_310",
+    "contract_weight": 100,
+    "contract_duration": 14400,
+    "contract_pool": 2,
+    "id": 21
+  }
+]

@@ -1,4 +1,12 @@
-{
-  "VERSION": 1,
-  "ASSET_URL": 2
-}
+[
+  {
+    "key": "VERSION",
+    "id": 1,
+    "value": "1"
+  },
+  {
+    "key": "ASSET_URL",
+    "id": 2,
+    "value": "http://files.mobage.com/files/battledice/asset_3836/"
+  }
+]

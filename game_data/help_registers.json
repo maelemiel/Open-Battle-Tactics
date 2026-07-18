@@ -1,0 +1,450 @@
+[
+  {
+    "name": "Summary",
+    "description_key": "ui_help_register_1_description",
+    "topic_id": 1,
+    "order_number": 1,
+    "id": 1,
+    "title_key": "ui_help_register_1_title"
+  },
+  {
+    "name": "Dealing Damage",
+    "description_key": "ui_help_register_2_description",
+    "topic_id": 1,
+    "order_number": 2,
+    "id": 2,
+    "title_key": "ui_help_register_2_title"
+  },
+  {
+    "name": "Hit Points",
+    "description_key": "ui_help_register_3_description",
+    "topic_id": 1,
+    "order_number": 3,
+    "id": 3,
+    "title_key": "ui_help_register_3_title"
+  },
+  {
+    "name": "Specials",
+    "description_key": "ui_help_register_4_description",
+    "topic_id": 1,
+    "order_number": 4,
+    "id": 4,
+    "title_key": "ui_help_register_4_title"
+  },
+  {
+    "name": "Abilities",
+    "description_key": "ui_help_register_5_description",
+    "topic_id": 1,
+    "order_number": 5,
+    "id": 5,
+    "title_key": "ui_help_register_5_title"
+  },
+  {
+    "name": "First Strike",
+    "description_key": "ui_help_register_6_description",
+    "topic_id": 1,
+    "order_number": 6,
+    "id": 6,
+    "title_key": "ui_help_register_6_title"
+  },
+  {
+    "name": "Counter Attack",
+    "description_key": "ui_help_register_7_description",
+    "topic_id": 1,
+    "order_number": 7,
+    "id": 7,
+    "title_key": "ui_help_register_7_title"
+  },
+  {
+    "name": "Summary",
+    "description_key": "ui_help_register_8_description",
+    "topic_id": 2,
+    "order_number": 1,
+    "id": 8,
+    "title_key": "ui_help_register_8_title"
+  },
+  {
+    "name": "Assault Tanks",
+    "description_key": "ui_help_register_9_description",
+    "topic_id": 2,
+    "order_number": 2,
+    "id": 9,
+    "title_key": "ui_help_register_9_title"
+  },
+  {
+    "name": "Speed Tanks",
+    "description_key": "ui_help_register_10_description",
+    "topic_id": 2,
+    "order_number": 3,
+    "id": 10,
+    "title_key": "ui_help_register_10_title"
+  },
+  {
+    "name": "Defensive Tanks",
+    "description_key": "ui_help_register_11_description",
+    "topic_id": 2,
+    "order_number": 4,
+    "id": 11,
+    "title_key": "ui_help_register_11_title"
+  },
+  {
+    "name": "Choppers",
+    "description_key": "ui_help_register_12_description",
+    "topic_id": 2,
+    "order_number": 5,
+    "id": 12,
+    "title_key": "ui_help_register_12_title"
+  },
+  {
+    "name": "Building New Tanks",
+    "description_key": "ui_help_register_13_description",
+    "topic_id": 2,
+    "order_number": 6,
+    "id": 13,
+    "title_key": "ui_help_register_13_title"
+  },
+  {
+    "name": "Repairing Tanks",
+    "description_key": "ui_help_register_14_description",
+    "topic_id": 2,
+    "order_number": 7,
+    "id": 14,
+    "title_key": "ui_help_register_14_title"
+  },
+  {
+    "name": "Upgrading Tanks",
+    "description_key": "ui_help_register_15_description",
+    "topic_id": 2,
+    "order_number": 8,
+    "id": 15,
+    "title_key": "ui_help_register_15_title"
+  },
+  {
+    "name": "Summary",
+    "description_key": "ui_help_register_16_description",
+    "topic_id": 3,
+    "order_number": 1,
+    "id": 16,
+    "title_key": "ui_help_register_16_title"
+  },
+  {
+    "name": "Targeting",
+    "description_key": "ui_help_register_17_description",
+    "topic_id": 3,
+    "order_number": 2,
+    "id": 17,
+    "title_key": "ui_help_register_17_title"
+  },
+  {
+    "name": "Targeting II",
+    "description_key": "ui_help_register_18_description",
+    "topic_id": 3,
+    "order_number": 3,
+    "id": 18,
+    "title_key": "ui_help_register_18_title"
+  },
+  {
+    "name": "Re-Spin",
+    "description_key": "ui_help_register_19_description",
+    "topic_id": 3,
+    "order_number": 4,
+    "id": 19,
+    "title_key": "ui_help_register_19_title"
+  },
+  {
+    "name": "Mini Strike",
+    "description_key": "ui_help_register_20_description",
+    "topic_id": 3,
+    "order_number": 5,
+    "id": 20,
+    "title_key": "ui_help_register_20_title"
+  },
+  {
+    "name": "Bombard",
+    "description_key": "ui_help_register_21_description",
+    "topic_id": 3,
+    "order_number": 6,
+    "id": 21,
+    "title_key": "ui_help_register_21_title"
+  },
+  {
+    "name": "Draw Fire",
+    "description_key": "ui_help_register_22_description",
+    "topic_id": 3,
+    "order_number": 7,
+    "id": 22,
+    "title_key": "ui_help_register_22_title"
+  },
+  {
+    "name": "Re-Spin All",
+    "description_key": "ui_help_register_23_description",
+    "topic_id": 3,
+    "order_number": 8,
+    "id": 23,
+    "title_key": "ui_help_register_23_title"
+  },
+  {
+    "name": "Sacrifice",
+    "description_key": "ui_help_register_24_description",
+    "topic_id": 3,
+    "order_number": 9,
+    "id": 24,
+    "title_key": "ui_help_register_24_title"
+  },
+  {
+    "name": "Ion Strike",
+    "description_key": "ui_help_register_25_description",
+    "topic_id": 3,
+    "order_number": 10,
+    "id": 25,
+    "title_key": "ui_help_register_25_title"
+  },
+  {
+    "name": "Jammer",
+    "description_key": "ui_help_register_26_description",
+    "topic_id": 3,
+    "order_number": 11,
+    "id": 26,
+    "title_key": "ui_help_register_26_title"
+  },
+  {
+    "name": "Jammer II",
+    "description_key": "ui_help_register_27_description",
+    "topic_id": 3,
+    "order_number": 12,
+    "id": 27,
+    "title_key": "ui_help_register_27_title"
+  },
+  {
+    "name": "Overload",
+    "description_key": "ui_help_register_28_description",
+    "topic_id": 3,
+    "order_number": 13,
+    "id": 28,
+    "title_key": "ui_help_register_28_title"
+  },
+  {
+    "name": "Armor All",
+    "description_key": "ui_help_register_29_description",
+    "topic_id": 3,
+    "order_number": 14,
+    "id": 29,
+    "title_key": "ui_help_register_29_title"
+  },
+  {
+    "name": "Firebomb",
+    "description_key": "ui_help_register_30_description",
+    "topic_id": 3,
+    "order_number": 15,
+    "id": 30,
+    "title_key": "ui_help_register_30_title"
+  },
+  {
+    "name": "Cake Walk",
+    "description_key": "ui_help_register_31_description",
+    "topic_id": 3,
+    "order_number": 16,
+    "id": 31,
+    "title_key": "ui_help_register_31_title"
+  },
+  {
+    "name": "Extinguish",
+    "description_key": "ui_help_register_32_description",
+    "topic_id": 3,
+    "order_number": 17,
+    "id": 32,
+    "title_key": "ui_help_register_32_title"
+  },
+  {
+    "name": "Summary",
+    "description_key": "ui_help_register_33_description",
+    "topic_id": 4,
+    "order_number": 1,
+    "id": 33,
+    "title_key": "ui_help_register_33_title"
+  },
+  {
+    "name": "Armor Buff",
+    "description_key": "ui_help_register_34_description",
+    "topic_id": 4,
+    "order_number": 2,
+    "id": 34,
+    "title_key": "ui_help_register_34_title"
+  },
+  {
+    "name": "HotShot",
+    "description_key": "ui_help_register_35_description",
+    "topic_id": 4,
+    "order_number": 3,
+    "id": 35,
+    "title_key": "ui_help_register_35_title"
+  },
+  {
+    "name": "Rail Gun",
+    "description_key": "ui_help_register_36_description",
+    "topic_id": 4,
+    "order_number": 4,
+    "id": 36,
+    "title_key": "ui_help_register_36_title"
+  },
+  {
+    "name": "Attack Buff",
+    "description_key": "ui_help_register_37_description",
+    "topic_id": 4,
+    "order_number": 5,
+    "id": 37,
+    "title_key": "ui_help_register_37_title"
+  },
+  {
+    "name": "Multi-Strike",
+    "description_key": "ui_help_register_38_description",
+    "topic_id": 4,
+    "order_number": 6,
+    "id": 38,
+    "title_key": "ui_help_register_38_title"
+  },
+  {
+    "name": "First Strike Buff",
+    "description_key": "ui_help_register_39_description",
+    "topic_id": 4,
+    "order_number": 7,
+    "id": 39,
+    "title_key": "ui_help_register_39_title"
+  },
+  {
+    "name": "Napalm",
+    "description_key": "ui_help_register_40_description",
+    "topic_id": 4,
+    "order_number": 8,
+    "id": 40,
+    "title_key": "ui_help_register_40_title"
+  },
+  {
+    "name": "Extinguish",
+    "description_key": "ui_help_register_41_description",
+    "topic_id": 4,
+    "order_number": 9,
+    "id": 41,
+    "title_key": "ui_help_register_41_title"
+  },
+  {
+    "name": "Summary",
+    "description_key": "ui_help_register_42_description",
+    "topic_id": 5,
+    "order_number": 1,
+    "id": 42,
+    "title_key": "ui_help_register_42_title"
+  },
+  {
+    "name": "Evade",
+    "description_key": "ui_help_register_43_description",
+    "topic_id": 5,
+    "order_number": 2,
+    "id": 43,
+    "title_key": "ui_help_register_43_title"
+  },
+  {
+    "name": "Summary",
+    "description_key": "ui_help_register_44_description",
+    "topic_id": 6,
+    "order_number": 1,
+    "id": 44,
+    "title_key": "ui_help_register_44_title"
+  },
+  {
+    "name": "Free Prizes Contract",
+    "description_key": "ui_help_register_45_description",
+    "topic_id": 6,
+    "order_number": 2,
+    "id": 45,
+    "title_key": "ui_help_register_45_title"
+  },
+  {
+    "name": "Free Parts Contract",
+    "description_key": "ui_help_register_46_description",
+    "topic_id": 6,
+    "order_number": 3,
+    "id": 46,
+    "title_key": "ui_help_register_46_title"
+  },
+  {
+    "name": "Fast-Forwarding Contracts",
+    "description_key": "ui_help_register_47_description",
+    "topic_id": 6,
+    "order_number": 4,
+    "id": 47,
+    "title_key": "ui_help_register_47_title"
+  },
+  {
+    "name": "Drop 'N Swap",
+    "description_key": "ui_help_register_48_description",
+    "topic_id": 6,
+    "order_number": 5,
+    "id": 48,
+    "title_key": "ui_help_register_48_title"
+  },
+  {
+    "name": "Summary",
+    "description_key": "ui_help_register_49_description",
+    "topic_id": 7,
+    "order_number": 1,
+    "id": 49,
+    "title_key": "ui_help_register_49_title"
+  },
+  {
+    "name": "Summary",
+    "description_key": "ui_help_register_50_description",
+    "topic_id": 8,
+    "order_number": 1,
+    "id": 50,
+    "title_key": "ui_help_register_50_title"
+  },
+  {
+    "name": "Summary",
+    "description_key": "ui_help_register_51_description",
+    "topic_id": 9,
+    "order_number": 1,
+    "id": 51,
+    "title_key": "ui_help_register_51_title"
+  },
+  {
+    "name": "Starting a Club",
+    "description_key": "ui_help_register_52_description",
+    "topic_id": 9,
+    "order_number": 2,
+    "id": 52,
+    "title_key": "ui_help_register_52_title"
+  },
+  {
+    "name": "Joining a Club",
+    "description_key": "ui_help_register_53_description",
+    "topic_id": 9,
+    "order_number": 3,
+    "id": 53,
+    "title_key": "ui_help_register_53_title"
+  },
+  {
+    "name": "Leaving a Club",
+    "description_key": "ui_help_register_54_description",
+    "topic_id": 9,
+    "order_number": 4,
+    "id": 54,
+    "title_key": "ui_help_register_54_title"
+  },
+  {
+    "name": "Summary",
+    "description_key": "ui_help_register_55_description",
+    "topic_id": 10,
+    "order_number": 1,
+    "id": 55,
+    "title_key": "ui_help_register_55_title"
+  },
+  {
+    "name": "Intel",
+    "description_key": "ui_help_register_56_description",
+    "topic_id": 3,
+    "order_number": 18,
+    "id": 56,
+    "title_key": "ui_help_register_56_title"
+  }
+]

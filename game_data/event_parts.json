@@ -1,0 +1,1208 @@
+[
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 11001,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 1
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 11002,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 2
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 11003,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 3
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 11004,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 4
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 11005,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 5
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 11006,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 6
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 11007,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 7
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 11008,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 8
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 11009,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 9
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 11010,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 10
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 12001,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 11
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 12002,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 12
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 12003,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 13
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 12004,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 14
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 13001,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 15
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 13002,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 16
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 13003,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 17
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 13004,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 18
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21001,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 19
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21002,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 20
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21003,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 21
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21004,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 22
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21005,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 23
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21006,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 24
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21007,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 25
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21008,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 26
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21009,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 27
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21010,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 28
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21011,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 29
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21012,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 30
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21013,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 31
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21014,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 32
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21015,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 33
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21016,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 34
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21017,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 35
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21018,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 36
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21019,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 37
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21020,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 38
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21021,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 39
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 21022,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 40
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 22001,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 41
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 22002,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 42
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 22003,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 43
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 22004,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 44
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 22005,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 45
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 22006,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 46
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 22007,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 47
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 22008,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 48
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 23001,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 49
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 23002,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 50
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 23003,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 51
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 23004,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 52
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 23005,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 53
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 23006,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 54
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 29701,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 55
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 29702,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 56
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 29703,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 57
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 29704,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 58
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31001,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 59
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31002,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 60
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31003,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 61
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31004,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 62
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31005,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 63
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31006,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 64
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31007,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 65
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31008,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 66
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31009,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 67
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31010,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 68
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31011,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 69
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31012,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 70
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31013,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 71
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31014,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 72
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31015,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 73
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31016,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 74
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31017,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 75
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31018,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 76
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31019,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 77
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31020,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 78
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31021,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 79
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31022,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 80
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31023,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 81
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31024,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 82
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31025,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 83
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31026,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 84
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31027,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 85
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31028,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 86
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31029,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 87
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31030,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 88
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31031,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 89
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31032,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 90
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 31033,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 91
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32001,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 92
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32002,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 93
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32003,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 94
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32004,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 95
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32005,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 96
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32006,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 97
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32007,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 98
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32008,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 99
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32009,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 100
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32010,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 101
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32011,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 102
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32012,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 103
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32013,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 104
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 32014,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 105
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33001,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 106
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33002,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 107
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33003,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 108
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33004,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 109
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33005,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 110
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33006,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 111
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33007,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 112
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33008,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 113
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33009,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 114
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33010,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 115
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33011,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 116
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33012,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 117
+  },
+  {
+    "drop_max": 2,
+    "event_id": 13,
+    "unit_id": 33013,
+    "drop_min": 1,
+    "part_type": 901,
+    "drop_rate": 100,
+    "id": 118
+  },
+  {
+    "drop_max": 2,
+    "event_id": 103,
+    "unit_id": 41038,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 119
+  },
+  {
+    "drop_max": 2,
+    "event_id": 103,
+    "unit_id": 44020,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 120
+  },
+  {
+    "drop_max": 2,
+    "event_id": 103,
+    "unit_id": 42023,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 121
+  },
+  {
+    "drop_max": 2,
+    "event_id": 103,
+    "unit_id": 43022,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 122
+  },
+  {
+    "drop_max": 2,
+    "event_id": 103,
+    "unit_id": 34007,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 123
+  },
+  {
+    "drop_max": 2,
+    "event_id": 103,
+    "unit_id": 31042,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 124
+  },
+  {
+    "drop_max": 2,
+    "event_id": 103,
+    "unit_id": 33023,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 125
+  },
+  {
+    "drop_max": 2,
+    "event_id": 103,
+    "unit_id": 21029,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 126
+  },
+  {
+    "drop_max": 2,
+    "event_id": 104,
+    "unit_id": 41038,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 127
+  },
+  {
+    "drop_max": 2,
+    "event_id": 104,
+    "unit_id": 44020,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 128
+  },
+  {
+    "drop_max": 2,
+    "event_id": 104,
+    "unit_id": 42023,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 129
+  },
+  {
+    "drop_max": 2,
+    "event_id": 104,
+    "unit_id": 43022,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 130
+  },
+  {
+    "drop_max": 2,
+    "event_id": 104,
+    "unit_id": 34007,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 131
+  },
+  {
+    "drop_max": 2,
+    "event_id": 104,
+    "unit_id": 31042,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 132
+  },
+  {
+    "drop_max": 2,
+    "event_id": 104,
+    "unit_id": 33023,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 133
+  },
+  {
+    "drop_max": 2,
+    "event_id": 104,
+    "unit_id": 21029,
+    "drop_min": 1,
+    "part_type": 112,
+    "drop_rate": 100,
+    "id": 134
+  }
+]
