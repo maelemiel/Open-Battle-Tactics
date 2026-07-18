@@ -5,6 +5,7 @@ Exporte toutes les données du jeu depuis dataModel.db en JSON structuré.
 
 Usage:
     python export_game_data.py --db assets/dataModel.db --out game_data/
+    python export_game_data.py --db assets/dataModel.db --out game_data/ --lang all
     python export_game_data.py --db assets/dataModel.db --out game_data/ --lang fr
     python export_game_data.py --db assets/dataModel.db --out game_data/ --format json+csv
     python export_game_data.py --db assets/dataModel.db --out game_data/ --list-langs
@@ -18,7 +19,7 @@ from pathlib import Path
 from typing import Any
 
 
-# ─── Helpers ─────────────────────────────────────────────────────────────────
+# ─── Helpers ──────────────────────────────────────────────────────────────────
 
 def rows_to_dicts(cursor: sqlite3.Cursor) -> list[dict]:
     cols = [d[0] for d in cursor.description]
@@ -50,18 +51,15 @@ def get_localization_columns(db: sqlite3.Connection) -> list[str]:
     return [row[1] for row in cur.fetchall() if row[1] != "key"]
 
 
-def detect_lang_col(db: sqlite3.Connection, lang: str) -> str:
+def detect_lang_col(db: sqlite3.Connection, lang: str) -> str | None:
     """
     Détecte la vraie colonne de langue dans la table localization.
-    Stratégie : cherche par correspondance partielle avec le code langue.
-    Si rien trouvé, prend la première colonne disponible.
+    Retourne None si introuvable (pour signaler un échec sans planter).
     """
     available = get_localization_columns(db)
-
     if not available:
         raise RuntimeError("La table 'localization' ne contient aucune colonne de traduction.")
 
-    # Correspondances candidates par ordre de priorité
     candidates = {
         "fr": ["fr", "fr_fr", "french", "francais"],
         "en": ["en", "en_us", "english", "en_gb", "eng"],
@@ -70,31 +68,32 @@ def detect_lang_col(db: sqlite3.Connection, lang: str) -> str:
         "it": ["it", "it_it", "italian"],
         "pt": ["pt", "pt_br", "portuguese"],
         "zh": ["zh", "zh_cn", "chinese"],
+        "ja": ["ja", "ja_jp", "japanese"],
+        "ko": ["ko", "ko_kr", "korean"],
+        "ru": ["ru", "ru_ru", "russian"],
+        "ar": ["ar", "ar_sa", "arabic"],
+        "tr": ["tr", "tr_tr", "turkish"],
+        "nl": ["nl", "nl_nl", "dutch"],
+        "pl": ["pl", "pl_pl", "polish"],
     }
 
     lower_available = {c.lower(): c for c in available}
     hints = candidates.get(lang.lower(), [lang.lower()])
 
-    # Correspondance exacte
     for hint in hints:
         if hint in lower_available:
-            col = lower_available[hint]
-            print(f"  🌐 Langue '{lang}' → colonne '{col}'")
-            return col
+            return lower_available[hint]
 
-    # Correspondance partielle (ex: colonne '1' qui contient du EN)
     for hint in hints:
         for col_lower, col in lower_available.items():
             if hint in col_lower:
-                print(f"  🌐 Langue '{lang}' → colonne '{col}' (correspondance partielle)")
                 return col
 
-    # Fallback : première colonne disponible
-    fallback = available[0]
-    print(f"  ⚠  Langue '{lang}' non trouvée. Colonnes disponibles: {available}")
-    print(f"  ⚠  Fallback sur la première colonne: '{fallback}'")
-    print(f"  💡 Utilise --list-langs pour voir toutes les colonnes disponibles.")
-    return fallback
+    # Si le nom passé correspond exactement à une colonne (ex: --lang 2)
+    if lang in available:
+        return lang
+
+    return None
 
 
 def list_available_langs(db: sqlite3.Connection):
@@ -106,13 +105,14 @@ def list_available_langs(db: sqlite3.Connection):
     for col in cols:
         try:
             row = db.execute(
-                f"SELECT {col} FROM localization WHERE {col} IS NOT NULL AND {col} != '' LIMIT 1"
+                f'SELECT "{col}" FROM localization WHERE "{col}" IS NOT NULL AND "{col}" != \'\' LIMIT 1'
             ).fetchone()
             sample = (row[0][:47] + "...") if row and len(str(row[0])) > 50 else (row[0] if row else "(vide)")
         except Exception:
             sample = "(erreur)"
         print(f"   {col:<20} {sample}")
-    print(f"\n   Utilise --lang <colonne> pour choisir (ex: --lang {cols[0]})")
+    print(f"\n   --lang all        → exporte toutes les colonnes ci-dessus")
+    print(f"   --lang <colonne>  → exporte une seule langue (ex: --lang {cols[0]})")
 
 
 def localization_dict(db: sqlite3.Connection, lang_col: str) -> dict[str, str]:
@@ -126,7 +126,7 @@ def resolve(locs: dict, key: str | None) -> str | None:
     return locs.get(key, key)
 
 
-# ─── Exporteurs ──────────────────────────────────────────────────────────────
+# ─── Exporteurs ───────────────────────────────────────────────────────────────
 
 def export_units(db: sqlite3.Connection, locs: dict) -> list[dict]:
     cur = db.execute("""
@@ -300,13 +300,52 @@ def export_all_tables_index(db: sqlite3.Connection) -> list[dict]:
     return index
 
 
+# ─── Export d'une langue ──────────────────────────────────────────────────────
+
+def export_for_lang(db: sqlite3.Connection, lang_col: str, out_dir: Path, fmt: str):
+    """Exporte tous les fichiers de données pour une colonne de langue donnée."""
+    locs = localization_dict(db, lang_col)
+    print(f"\n  📦 [{lang_col}]  {len(locs)} clés chargées → {out_dir}/")
+
+    def save(data, name):
+        path = out_dir / name
+        if "json" in fmt:
+            save_json(data, path.with_suffix(".json"))
+        if "csv" in fmt and isinstance(data, list):
+            save_csv(data, path.with_suffix(".csv"))
+
+    units    = export_units(db, locs)
+    abilities = export_abilities(db, locs)
+
+    save(units,                         "units")
+    save(export_unit_types(db, locs),   "unit_types")
+    save(export_unit_rarity(db, locs),  "unit_rarity")
+    save(abilities,                     "abilities")
+    save(export_events(db, locs),       "events")
+    save(export_items(db, locs),        "items")
+
+    for k, v in export_unit_progression(db).items():
+        save(v, f"unit_progression/{k}")
+    for k, v in export_gacha(db, locs).items():
+        save(v, f"gacha/{k}")
+    for k, v in export_progression(db).items():
+        save(v, f"progression/{k}")
+    for k, v in export_leaderboards(db).items():
+        save(v, f"leaderboards/{k}")
+    for k, v in export_ai(db).items():
+        save(v, f"ai/{k}")
+
+    return len(units), len(abilities)
+
+
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(description="Export Super Battle Tactics game data")
     parser.add_argument("--db",         default="assets/dataModel.db", help="Chemin vers dataModel.db")
-    parser.add_argument("--out",        default="game_data",            help="Dossier de sortie")
-    parser.add_argument("--lang",       default="en",                   help="Code langue ou nom de colonne (ex: en, fr, 1, en_us)")
+    parser.add_argument("--out",        default="game_data",            help="Dossier de sortie racine")
+    parser.add_argument("--lang",       default="all",
+                        help="Langue(s) à exporter : 'all' (défaut), code langue (fr, en, de…), ou nom de colonne exact. Plusieurs valeurs séparées par virgule : --lang en,fr,de")
     parser.add_argument("--format",     default="json",                 help="Format de sortie: json, csv, json+csv")
     parser.add_argument("--list-langs", action="store_true",            help="Lister les colonnes de langue disponibles et quitter")
     args = parser.parse_args()
@@ -320,94 +359,77 @@ def main():
 
     db = sqlite3.connect(db_path)
 
-    # Mode liste des langues disponibles
     if args.list_langs:
         list_available_langs(db)
         db.close()
         return
 
+    all_cols = get_localization_columns(db)
+    out_root = Path(args.out)
+    fmt      = args.format
+
     print(f"\n🎮 Open Battle Tactics — Export des données")
     print(f"   DB     : {db_path}")
-    print(f"   Sortie : {args.out}")
+    print(f"   Sortie : {out_root}")
     print(f"   Langue : {args.lang}")
-    print(f"   Format : {args.format}\n")
+    print(f"   Format : {fmt}\n")
 
-    out_dir = Path(args.out)
-    fmt = args.format
+    # ── Résoudre la liste de colonnes à exporter ──────────────────────────────
+    if args.lang.strip().lower() == "all":
+        cols_to_export = all_cols          # toutes les colonnes disponibles
+    else:
+        requested = [l.strip() for l in args.lang.split(",") if l.strip()]
+        cols_to_export = []
+        for req in requested:
+            col = detect_lang_col(db, req)
+            if col:
+                cols_to_export.append(col)
+            else:
+                print(f"  ⚠  Langue '{req}' introuvable — ignorée.")
+                print(f"     Colonnes disponibles : {all_cols}")
+                print(f"     Utilise --list-langs pour les voir avec un aperçu.")
 
-    lang_col = detect_lang_col(db, args.lang)
-    locs = localization_dict(db, lang_col)
-    print(f"   {len(locs)} clés de localisation chargées\n")
+    if not cols_to_export:
+        print("❌ Aucune colonne de langue valide trouvée. Abandon.")
+        db.close()
+        return
 
-    def save(data, name):
-        path = out_dir / name
-        if "json" in fmt:
-            save_json(data, path.with_suffix(".json"))
-        if "csv" in fmt and isinstance(data, list):
-            save_csv(data, path.with_suffix(".csv"))
+    # ── Fichiers indépendants de la langue (exportés une seule fois) ──────────
+    print("📋 Index des tables (commun)...")
+    save_json(export_all_tables_index(db), out_root / "tables_index.json")
 
-    print("📋 Index des tables...")
-    save(export_all_tables_index(db), "tables_index")
-
-    print("⚙️  Config...")
+    print("⚙️  Config (commun)...")
     cfg = export_config(db)
-    out_dir.mkdir(parents=True, exist_ok=True)
-    with open(out_dir / "config.json", "w", encoding="utf-8") as f:
+    out_root.mkdir(parents=True, exist_ok=True)
+    with open(out_root / "config.json", "w", encoding="utf-8") as f:
         json.dump(cfg, f, ensure_ascii=False, indent=2)
     print(f"  ✓ config.json")
 
-    print("⚔️  Unités...")
-    units = export_units(db, locs)
-    save(units, "units")
-    save(export_unit_types(db, locs), "unit_types")
-    save(export_unit_rarity(db, locs), "unit_rarity")
-    prog = export_unit_progression(db)
-    for k, v in prog.items():
-        save(v, f"unit_progression/{k}")
+    print("🌍 Localisation complète (toutes langues en un fichier)...")
+    save_json(export_localization_full(db), out_root / "localization_full.json")
 
-    print("✨ Capacités...")
-    abilities = export_abilities(db, locs)
-    save(abilities, "abilities")
+    # ── Export par langue ─────────────────────────────────────────────────────
+    print(f"\n🔄 Export de {len(cols_to_export)} langue(s) : {cols_to_export}")
+    total_units = total_abilities = 0
 
-    print("🗓️  Événements...")
-    save(export_events(db, locs), "events")
-
-    print("🎁 Items...")
-    save(export_items(db, locs), "items")
-
-    print("🎰 Gacha...")
-    gacha = export_gacha(db, locs)
-    for k, v in gacha.items():
-        save(v, f"gacha/{k}")
-
-    print("🏆 Progression...")
-    prog = export_progression(db)
-    for k, v in prog.items():
-        save(v, f"progression/{k}")
-
-    print("🥇 Leaderboards...")
-    lb = export_leaderboards(db)
-    for k, v in lb.items():
-        save(v, f"leaderboards/{k}")
-
-    print("🤖 IA...")
-    ai = export_ai(db)
-    for k, v in ai.items():
-        save(v, f"ai/{k}")
-
-    print("🌍 Localisation complète...")
-    save(export_localization_full(db), "localization_full")
+    for col in cols_to_export:
+        lang_dir = out_root / col          # ex: game_data/fr  ou  game_data/en_us
+        nu, na = export_for_lang(db, col, lang_dir, fmt)
+        total_units     = max(total_units, nu)
+        total_abilities = max(total_abilities, na)
 
     db.close()
 
-    total_files = sum(1 for _ in out_dir.rglob("*") if _.is_file())
-    print(f"\n✅ Export terminé : {total_files} fichiers dans {out_dir}/")
-    print(f"   {len(units)} unités exportées")
-    print(f"   {len(abilities)} capacités exportées")
-    print("\n📁 Structure de sortie :")
-    for p in sorted(out_dir.rglob("*")):
-        if p.is_file():
-            print(f"   {p.relative_to(out_dir)}")
+    total_files = sum(1 for _ in out_root.rglob("*") if _.is_file())
+    print(f"\n✅ Export terminé : {total_files} fichiers dans {out_root}/")
+    print(f"   {total_units} unités · {total_abilities} capacités · {len(cols_to_export)} langue(s)")
+    print(f"\n📁 Arborescence :")
+    for p in sorted(out_root.rglob("*"))[:60]:   # limite l'affichage à 60 lignes
+        indent = "   " + "  " * (len(p.relative_to(out_root).parts) - 1)
+        icon = "📂" if p.is_dir() else "📄"
+        print(f"{indent}{icon} {p.name}")
+    if sum(1 for _ in out_root.rglob("*")) > 60:
+        print("   ... (tronqué)")
 
 
 if __name__ == "__main__":
