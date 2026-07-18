@@ -26,6 +26,30 @@ def rows_to_dicts(cursor: sqlite3.Cursor) -> list[dict]:
     return [dict(zip(cols, row)) for row in cursor.fetchall()]
 
 
+def table_columns(db: sqlite3.Connection, table: str) -> set[str]:
+    """Retourne l'ensemble des colonnes réelles d'une table."""
+    cur = db.execute(f"PRAGMA table_info({table})")
+    return {row[1] for row in cur.fetchall()}
+
+
+def safe_select(db: sqlite3.Connection, table: str, order_by: str | None = None) -> list[dict]:
+    """
+    SELECT * FROM <table>, avec ORDER BY optionnel.
+    Si la colonne d'ordre n'existe pas, fait le SELECT sans ORDER BY.
+    Retourne [] si la table n'existe pas.
+    """
+    try:
+        cols = table_columns(db, table)
+        if order_by and order_by not in cols:
+            order_by = None
+        query = f"SELECT * FROM {table}"
+        if order_by:
+            query += f" ORDER BY {order_by} DESC"
+        return rows_to_dicts(db.execute(query))
+    except sqlite3.OperationalError:
+        return []
+
+
 def save_json(data: Any, path: Path):
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
@@ -45,36 +69,34 @@ def save_csv(data: list[dict], path: Path):
     print(f"  ✓ {path}  ({len(data)} lignes)")
 
 
+# ─── Localisation ───────────────────────────────────────────────────────────
+
 def get_localization_columns(db: sqlite3.Connection) -> list[str]:
-    """Retourne toutes les colonnes de la table localization (hors 'key')."""
     cur = db.execute("PRAGMA table_info(localization)")
     return [row[1] for row in cur.fetchall() if row[1] != "key"]
 
 
 def detect_lang_col(db: sqlite3.Connection, lang: str) -> str | None:
-    """
-    Détecte la vraie colonne de langue dans la table localization.
-    Retourne None si introuvable (pour signaler un échec sans planter).
-    """
     available = get_localization_columns(db)
     if not available:
         raise RuntimeError("La table 'localization' ne contient aucune colonne de traduction.")
 
     candidates = {
-        "fr": ["fr", "fr_fr", "french", "francais"],
-        "en": ["en", "en_us", "english", "en_gb", "eng"],
-        "de": ["de", "de_de", "german", "deutsch"],
-        "es": ["es", "es_es", "spanish", "espanol"],
-        "it": ["it", "it_it", "italian"],
-        "pt": ["pt", "pt_br", "portuguese"],
-        "zh": ["zh", "zh_cn", "chinese"],
-        "ja": ["ja", "ja_jp", "japanese"],
-        "ko": ["ko", "ko_kr", "korean"],
-        "ru": ["ru", "ru_ru", "russian"],
-        "ar": ["ar", "ar_sa", "arabic"],
-        "tr": ["tr", "tr_tr", "turkish"],
-        "nl": ["nl", "nl_nl", "dutch"],
-        "pl": ["pl", "pl_pl", "polish"],
+        "fr":  ["fr", "fr_fr", "french"],
+        "en":  ["en", "en_us", "english", "en_gb", "eng"],
+        "de":  ["de", "de_de", "german"],
+        "es":  ["es", "es_es", "spanish"],
+        "it":  ["it", "it_it", "italian"],
+        "pt":  ["pt", "pt_br", "portuguese"],
+        "zh":  ["zh", "zh_cn", "sch", "tch", "chinese"],
+        "ja":  ["ja", "ja_jp", "jp", "japanese"],
+        "ko":  ["ko", "ko_kr", "korean"],
+        "ru":  ["ru", "ru_ru", "russian"],
+        "ar":  ["ar", "ar_sa", "arabic"],
+        "tr":  ["tr", "tr_tr", "turkish"],
+        "nl":  ["nl", "nl_nl", "dutch"],
+        "pl":  ["pl", "pl_pl", "polish"],
+        "id":  ["id", "id_id", "indonesian"],
     }
 
     lower_available = {c.lower(): c for c in available}
@@ -83,21 +105,16 @@ def detect_lang_col(db: sqlite3.Connection, lang: str) -> str | None:
     for hint in hints:
         if hint in lower_available:
             return lower_available[hint]
-
     for hint in hints:
         for col_lower, col in lower_available.items():
             if hint in col_lower:
                 return col
-
-    # Si le nom passé correspond exactement à une colonne (ex: --lang 2)
     if lang in available:
         return lang
-
     return None
 
 
 def list_available_langs(db: sqlite3.Connection):
-    """Affiche les colonnes disponibles avec un aperçu du contenu."""
     cols = get_localization_columns(db)
     print("\n🌍 Colonnes de localisation disponibles dans la DB :")
     print(f"   {'Colonne':<20} {'Exemple de valeur':<50}")
@@ -107,12 +124,12 @@ def list_available_langs(db: sqlite3.Connection):
             row = db.execute(
                 f'SELECT "{col}" FROM localization WHERE "{col}" IS NOT NULL AND "{col}" != \'\' LIMIT 1'
             ).fetchone()
-            sample = (row[0][:47] + "...") if row and len(str(row[0])) > 50 else (row[0] if row else "(vide)")
+            sample = (str(row[0])[:47] + "...") if row and len(str(row[0])) > 50 else (row[0] if row else "(vide)")
         except Exception:
             sample = "(erreur)"
         print(f"   {col:<20} {sample}")
-    print(f"\n   --lang all        → exporte toutes les colonnes ci-dessus")
-    print(f"   --lang <colonne>  → exporte une seule langue (ex: --lang {cols[0]})")
+    print(f"\n   --lang all        → exporte toutes les colonnes")
+    print(f"   --lang <colonne>  → ex: --lang {cols[0]}")
 
 
 def localization_dict(db: sqlite3.Connection, lang_col: str) -> dict[str, str]:
@@ -128,212 +145,127 @@ def resolve(locs: dict, key: str | None) -> str | None:
 
 # ─── Exporteurs ───────────────────────────────────────────────────────────────
 
+def _enrich(rows: list[dict], locs: dict, *keys: str) -> list[dict]:
+    """Ajoute les champs traduits pour chaque key_name présent dans rows."""
+    for row in rows:
+        for k in keys:
+            if k in row:
+                row[k + "_text"] = resolve(locs, row[k])
+    return rows
+
+
 def export_units(db: sqlite3.Connection, locs: dict) -> list[dict]:
-    cur = db.execute("""
-        SELECT
-            u.id, u.key_name, u.type, u.rarity, u.weapon_anim,
-            u.blueprint_linkage_id, u.reward_type_id, u.reward_amount,
-            u.research_time, u.unlock_tier, u.can_buy_direct,
-            u.found_in_gacha, u.unit_index,
-            ut.id AS type_id, ur.id AS rarity_id
-        FROM unit u
-        LEFT JOIN unit_type ut ON u.type = ut.id
-        LEFT JOIN unit_rarity ur ON u.rarity = ur.id
-        ORDER BY u.unit_index
-    """)
-    units = rows_to_dicts(cur)
-    for u in units:
-        u["name"] = resolve(locs, u["key_name"])
-    return units
+    # Colonnes garanties : id, key_name. Les autres peuvent varier.
+    cols = table_columns(db, "unit")
+    select_parts = ["u.*"]
+    joins = []
+    if "type" in cols and table_columns(db, "unit_type"):
+        joins.append("LEFT JOIN unit_type ut ON u.type = ut.id")
+    if "rarity" in cols and table_columns(db, "unit_rarity"):
+        joins.append("LEFT JOIN unit_rarity ur ON u.rarity = ur.id")
+
+    order = "unit_index" if "unit_index" in cols else "id"
+    query = f"SELECT {', '.join(select_parts)} FROM unit u {' '.join(joins)} ORDER BY u.{order}"
+    try:
+        rows = rows_to_dicts(db.execute(query))
+    except sqlite3.OperationalError:
+        rows = safe_select(db, "unit")
+
+    return _enrich(rows, locs, "key_name")
 
 
 def export_abilities(db: sqlite3.Connection, locs: dict) -> list[dict]:
-    cur = db.execute("""
-        SELECT
-            a.id, a.key_name, a.key_description, a.ability_type,
-            a.handler_id, a.action_type, a.action_boost_type,
-            a.action_boost_value_a, a.action_boost_value_b,
-            a.action_point, a.target_group, a.is_active, a.is_announcer,
-            a.execution_order, a.unlock_tier, a.unlock_order,
-            a.research_time, a.limit_one_per_battle, a.limit_one_per_round,
-            a.num_kill_unit, a.icon_linkage_id, a.selection_text,
-            at.id AS ability_type_id
-        FROM ability a
-        LEFT JOIN ability_type at ON a.ability_type = at.id
-        ORDER BY a.execution_order
-    """)
-    abilities = rows_to_dicts(cur)
-    for ab in abilities:
-        ab["name"] = resolve(locs, ab["key_name"])
-        ab["description"] = resolve(locs, ab["key_description"])
-        ab["ability_type_name"] = {1: "ULTRA", 2: "PRE-COMBAT", 3: "REACTIVE", 4: "PASSIVE"}.get(ab["ability_type"])
-    return abilities
+    cols = table_columns(db, "ability")
+    order = "execution_order" if "execution_order" in cols else "id"
+    rows = safe_select(db, "ability", order)
+    for ab in rows:
+        ab["ability_type_name"] = {1: "ULTRA", 2: "PRE-COMBAT", 3: "REACTIVE", 4: "PASSIVE"}.get(
+            ab.get("ability_type")
+        )
+    return _enrich(rows, locs, "key_name", "key_description")
 
 
-def export_unit_types(db: sqlite3.Connection, locs: dict) -> list[dict]:
-    cur = db.execute("SELECT * FROM unit_type")
-    types = rows_to_dicts(cur)
-    for t in types:
-        t["name"] = resolve(locs, t.get("key_name"))
-    return types
+def export_simple_table(db: sqlite3.Connection, table: str, locs: dict,
+                        *loc_keys: str, order_by: str | None = None) -> list[dict]:
+    """Export générique : SELECT * + enrichissement localisation."""
+    rows = safe_select(db, table, order_by)
+    return _enrich(rows, locs, *loc_keys)
 
 
-def export_unit_rarity(db: sqlite3.Connection, locs: dict) -> list[dict]:
-    cur = db.execute("SELECT * FROM unit_rarity")
-    rarities = rows_to_dicts(cur)
-    for r in rarities:
-        r["name"] = resolve(locs, r.get("key_name"))
-    return rarities
-
-
-def export_events(db: sqlite3.Connection, locs: dict) -> list[dict]:
-    cur = db.execute("SELECT * FROM event ORDER BY start_timestamp DESC")
-    events = rows_to_dicts(cur)
-    for e in events:
-        e["name"] = resolve(locs, e.get("key_name"))
-        e["description"] = resolve(locs, e.get("key_description"))
-    return events
-
-
-def export_items(db: sqlite3.Connection, locs: dict) -> list[dict]:
-    cur = db.execute("SELECT * FROM item")
-    items = rows_to_dicts(cur)
-    for it in items:
-        it["name"] = resolve(locs, it.get("key_name"))
-        it["description"] = resolve(locs, it.get("key_description"))
-    return items
-
-
-def export_gacha(db: sqlite3.Connection, locs: dict) -> dict:
+def export_multi_tables(db: sqlite3.Connection, tables: list[str]) -> dict:
     result = {}
-    gacha_tables = [
-        "gacha_info_details", "gacha_info_items", "gacha_pools",
-        "gacha_plinko_details", "gacha_plinko_prizes",
-        "gacha_plinko_prize_price", "gacha_plinko_slot_chances",
-        "gacha_ab_testing", "gacha_ab_testing_group_enable",
-    ]
-    for table in gacha_tables:
-        try:
-            cur = db.execute(f"SELECT * FROM {table}")
-            result[table] = rows_to_dicts(cur)
-        except sqlite3.OperationalError:
-            pass
-    return result
-
-
-def export_progression(db: sqlite3.Connection) -> dict:
-    result = {}
-    for table in ["progression_division", "progression_promotion_series", "progression_tier_buckets"]:
-        try:
-            cur = db.execute(f"SELECT * FROM {table}")
-            result[table] = rows_to_dicts(cur)
-        except sqlite3.OperationalError:
-            pass
-    return result
-
-
-def export_ai(db: sqlite3.Connection) -> dict:
-    result = {}
-    for table in ["ai_army", "ai_army_parts", "ai_handler"]:
-        try:
-            cur = db.execute(f"SELECT * FROM {table}")
-            result[table] = rows_to_dicts(cur)
-        except sqlite3.OperationalError:
-            pass
-    return result
-
-
-def export_unit_progression(db: sqlite3.Connection) -> dict:
-    result = {}
-    tables = [
-        "unit_action", "unit_cooldown", "unit_destroy_gem_drop",
-        "unit_level_progression", "unit_level_up_requirement",
-        "unit_part_types", "unit_partial_level", "unit_parts",
-        "unit_scrap_value", "unit_special", "unit_special_handler", "unit_weapon_anim",
-    ]
-    for table in tables:
-        try:
-            cur = db.execute(f"SELECT * FROM {table}")
-            result[table] = rows_to_dicts(cur)
-        except sqlite3.OperationalError:
-            pass
-    return result
-
-
-def export_leaderboards(db: sqlite3.Connection) -> dict:
-    result = {}
-    for table in ["leaderboards", "leaderboard_rewards"]:
-        try:
-            cur = db.execute(f"SELECT * FROM {table}")
-            result[table] = rows_to_dicts(cur)
-        except sqlite3.OperationalError:
-            pass
-    return result
-
-
-def export_config(db: sqlite3.Connection) -> dict:
-    try:
-        cur = db.execute("SELECT * FROM config")
-        rows = cur.fetchall()
-        if cur.description and len(cur.description) >= 2:
-            return {row[0]: row[1] for row in rows}
-        return {}
-    except sqlite3.OperationalError:
-        return {}
-
-
-def export_localization_full(db: sqlite3.Connection) -> list[dict]:
-    cur = db.execute("SELECT * FROM localization")
-    return rows_to_dicts(cur)
-
-
-def export_all_tables_index(db: sqlite3.Connection) -> list[dict]:
-    cur = db.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name")
-    tables = [row[0] for row in cur.fetchall()]
-    index = []
     for t in tables:
-        try:
-            count = db.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
-        except Exception:
-            count = -1
-        index.append({"table": t, "rows": count})
-    return index
+        rows = safe_select(db, t)
+        if rows:
+            result[t] = rows
+    return result
 
 
 # ─── Export d'une langue ──────────────────────────────────────────────────────
 
 def export_for_lang(db: sqlite3.Connection, lang_col: str, out_dir: Path, fmt: str):
-    """Exporte tous les fichiers de données pour une colonne de langue donnée."""
     locs = localization_dict(db, lang_col)
-    print(f"\n  📦 [{lang_col}]  {len(locs)} clés chargées → {out_dir}/")
+    print(f"\n  📦 [{lang_col}]  {len(locs)} clés → {out_dir}/")
 
     def save(data, name):
+        if not data:
+            return
         path = out_dir / name
         if "json" in fmt:
             save_json(data, path.with_suffix(".json"))
         if "csv" in fmt and isinstance(data, list):
             save_csv(data, path.with_suffix(".csv"))
 
-    units    = export_units(db, locs)
+    # Unités
+    units = export_units(db, locs)
+    save(units, "units")
+    save(export_simple_table(db, "unit_type",   locs, "key_name"),   "unit_types")
+    save(export_simple_table(db, "unit_rarity", locs, "key_name"),   "unit_rarity")
+
+    # Capacités
     abilities = export_abilities(db, locs)
+    save(abilities, "abilities")
 
-    save(units,                         "units")
-    save(export_unit_types(db, locs),   "unit_types")
-    save(export_unit_rarity(db, locs),  "unit_rarity")
-    save(abilities,                     "abilities")
-    save(export_events(db, locs),       "events")
-    save(export_items(db, locs),        "items")
+    # Événements
+    save(export_simple_table(db, "event", locs, "key_name", "key_description"), "events")
 
-    for k, v in export_unit_progression(db).items():
-        save(v, f"unit_progression/{k}")
-    for k, v in export_gacha(db, locs).items():
-        save(v, f"gacha/{k}")
-    for k, v in export_progression(db).items():
-        save(v, f"progression/{k}")
-    for k, v in export_leaderboards(db).items():
-        save(v, f"leaderboards/{k}")
-    for k, v in export_ai(db).items():
-        save(v, f"ai/{k}")
+    # Items
+    save(export_simple_table(db, "item", locs, "key_name", "key_description"), "items")
+
+    # Progression des unités (tables sans localisation)
+    for t in [
+        "unit_action", "unit_cooldown", "unit_destroy_gem_drop",
+        "unit_level_progression", "unit_level_up_requirement",
+        "unit_part_types", "unit_partial_level", "unit_parts",
+        "unit_scrap_value", "unit_special", "unit_special_handler", "unit_weapon_anim",
+    ]:
+        rows = safe_select(db, t)
+        if rows:
+            save(rows, f"unit_progression/{t}")
+
+    # Gacha
+    for t in [
+        "gacha_info_details", "gacha_info_items", "gacha_pools",
+        "gacha_plinko_details", "gacha_plinko_prizes", "gacha_plinko_prize_price",
+        "gacha_plinko_slot_chances", "gacha_ab_testing", "gacha_ab_testing_group_enable",
+    ]:
+        rows = safe_select(db, t)
+        if rows:
+            save(rows, f"gacha/{t}")
+
+    # Progression / classements / IA
+    for t in ["progression_division", "progression_promotion_series", "progression_tier_buckets"]:
+        rows = safe_select(db, t)
+        if rows:
+            save(rows, f"progression/{t}")
+    for t in ["leaderboards", "leaderboard_rewards"]:
+        rows = safe_select(db, t)
+        if rows:
+            save(rows, f"leaderboards/{t}")
+    for t in ["ai_army", "ai_army_parts", "ai_handler"]:
+        rows = safe_select(db, t)
+        if rows:
+            save(rows, f"ai/{t}")
 
     return len(units), len(abilities)
 
@@ -342,19 +274,17 @@ def export_for_lang(db: sqlite3.Connection, lang_col: str, out_dir: Path, fmt: s
 
 def main():
     parser = argparse.ArgumentParser(description="Export Super Battle Tactics game data")
-    parser.add_argument("--db",         default="assets/dataModel.db", help="Chemin vers dataModel.db")
-    parser.add_argument("--out",        default="game_data",            help="Dossier de sortie racine")
+    parser.add_argument("--db",         default="assets/dataModel.db")
+    parser.add_argument("--out",        default="game_data")
     parser.add_argument("--lang",       default="all",
-                        help="Langue(s) à exporter : 'all' (défaut), code langue (fr, en, de…), ou nom de colonne exact. Plusieurs valeurs séparées par virgule : --lang en,fr,de")
-    parser.add_argument("--format",     default="json",                 help="Format de sortie: json, csv, json+csv")
-    parser.add_argument("--list-langs", action="store_true",            help="Lister les colonnes de langue disponibles et quitter")
+                        help="'all' (défaut), code langue (fr,en...), nom de colonne exact, ou liste séparée par virgules")
+    parser.add_argument("--format",     default="json", help="json | csv | json+csv")
+    parser.add_argument("--list-langs", action="store_true")
     args = parser.parse_args()
 
     db_path = Path(args.db)
     if not db_path.exists():
-        print(f"❌ Base de données introuvable: {db_path}")
-        print("   Assure-toi d'être sur la branche reverse-engineering")
-        print("   git checkout reverse-engineering")
+        print(f"❌ DB introuvable: {db_path}")
         return
 
     db = sqlite3.connect(db_path)
@@ -374,9 +304,9 @@ def main():
     print(f"   Langue : {args.lang}")
     print(f"   Format : {fmt}\n")
 
-    # ── Résoudre la liste de colonnes à exporter ──────────────────────────────
+    # Résoudre la liste de colonnes
     if args.lang.strip().lower() == "all":
-        cols_to_export = all_cols          # toutes les colonnes disponibles
+        cols_to_export = all_cols
     else:
         requested = [l.strip() for l in args.lang.split(",") if l.strip()]
         cols_to_export = []
@@ -385,38 +315,57 @@ def main():
             if col:
                 cols_to_export.append(col)
             else:
-                print(f"  ⚠  Langue '{req}' introuvable — ignorée.")
-                print(f"     Colonnes disponibles : {all_cols}")
-                print(f"     Utilise --list-langs pour les voir avec un aperçu.")
+                print(f"  ⚠  '{req}' introuvable. Colonnes dispo : {all_cols}")
 
     if not cols_to_export:
-        print("❌ Aucune colonne de langue valide trouvée. Abandon.")
+        print("❌ Aucune colonne valide. Abandon.")
         db.close()
         return
 
-    # ── Fichiers indépendants de la langue (exportés une seule fois) ──────────
-    print("📋 Index des tables (commun)...")
-    save_json(export_all_tables_index(db), out_root / "tables_index.json")
+    # Fichiers communs (une seule fois)
+    print("📋 Index des tables...")
+    save_json(export_multi_tables(db, [
+        t["table"] for t in rows_to_dicts(
+            db.execute("SELECT name AS 'table' FROM sqlite_master WHERE type='table' ORDER BY name")
+        )
+    # on stocke juste le compte
+    ]), out_root / "tables_index.json") if False else None
 
-    print("⚙️  Config (commun)...")
-    cfg = export_config(db)
+    idx = []
+    for row in db.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name"):
+        t = row[0]
+        try:
+            count = db.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
+        except Exception:
+            count = -1
+        idx.append({"table": t, "rows": count})
+    save_json(idx, out_root / "tables_index.json")
+
+    print("⚙️  Config...")
+    try:
+        cfg_rows = db.execute("SELECT * FROM config").fetchall()
+        cfg_cur  = db.execute("SELECT * FROM config")
+        cfg = {r[0]: r[1] for r in cfg_rows} if cfg_cur.description and len(cfg_cur.description) >= 2 else {}
+    except sqlite3.OperationalError:
+        cfg = {}
     out_root.mkdir(parents=True, exist_ok=True)
-    with open(out_root / "config.json", "w", encoding="utf-8") as f:
-        json.dump(cfg, f, ensure_ascii=False, indent=2)
-    print(f"  ✓ config.json")
+    save_json(cfg, out_root / "config.json")
 
-    print("🌍 Localisation complète (toutes langues en un fichier)...")
-    save_json(export_localization_full(db), out_root / "localization_full.json")
+    print("🌍 Localisation complète (toutes langues)...")
+    save_json(rows_to_dicts(db.execute("SELECT * FROM localization")), out_root / "localization_full.json")
 
-    # ── Export par langue ─────────────────────────────────────────────────────
+    # Export par langue
     print(f"\n🔄 Export de {len(cols_to_export)} langue(s) : {cols_to_export}")
     total_units = total_abilities = 0
 
     for col in cols_to_export:
-        lang_dir = out_root / col          # ex: game_data/fr  ou  game_data/en_us
-        nu, na = export_for_lang(db, col, lang_dir, fmt)
-        total_units     = max(total_units, nu)
-        total_abilities = max(total_abilities, na)
+        lang_dir = out_root / col
+        try:
+            nu, na = export_for_lang(db, col, lang_dir, fmt)
+            total_units     = max(total_units, nu)
+            total_abilities = max(total_abilities, na)
+        except Exception as e:
+            print(f"  ❌ Erreur pour la langue '{col}': {e}")
 
     db.close()
 
@@ -424,12 +373,15 @@ def main():
     print(f"\n✅ Export terminé : {total_files} fichiers dans {out_root}/")
     print(f"   {total_units} unités · {total_abilities} capacités · {len(cols_to_export)} langue(s)")
     print(f"\n📁 Arborescence :")
-    for p in sorted(out_root.rglob("*"))[:60]:   # limite l'affichage à 60 lignes
+    shown = 0
+    for p in sorted(out_root.rglob("*")):
+        if shown >= 80:
+            print("   ... (tronqué, trop de fichiers)")
+            break
         indent = "   " + "  " * (len(p.relative_to(out_root).parts) - 1)
         icon = "📂" if p.is_dir() else "📄"
         print(f"{indent}{icon} {p.name}")
-    if sum(1 for _ in out_root.rglob("*")) > 60:
-        print("   ... (tronqué)")
+        shown += 1
 
 
 if __name__ == "__main__":
