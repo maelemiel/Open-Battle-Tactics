@@ -1,91 +1,176 @@
 # Open Battle Tactics 🛡️🎲
 
-> An open-source recreation and tactical engine inspired by the classic **Super Battle Tactics**.
+> **An open-source recreation of Super Battle Tactics** — the beloved turn-based mobile game by DeNA that was shut down. The complete game database has been reverse engineered. We're rebuilding it. Join us.
 
-![Phaser 3](https://img.shields.io/badge/Phaser-3.90-green.svg) ![Status](https://img.shields.io/badge/Status-Prototype-orange.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+<div align="center">
 
-## 📖 Overview
+![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)
+![Phaser 3](https://img.shields.io/badge/Engine-Phaser%203-green.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Units](https://img.shields.io/badge/Units-370%20extracted-blue.svg)
+![Abilities](https://img.shields.io/badge/Abilities-34%20extracted-purple.svg)
+![DB Tables](https://img.shields.io/badge/DB%20Tables-67-teal.svg)
 
-**Open Battle Tactics** is a turn-based strategy game where you command a squad of tanks. The twist? Your damage and initiative are determined by spinning wheels (dice rolls) each turn. You must use Action Points (AP) wisely to boost your tanks' rolls or activate special abilities to turn the tide of battle.
-
-This project aims to preserve the gameplay mechanics of the original game while providing a modern, web-based engine for tactical battles.
-
-## ✨ Features
-
-- **Tactical Combat**: 4v4 Tank battles with positioning mechanics.
-- **RNG Management**: "Risk vs Reward" gameplay. Roll for damage, then spend AP to boost low rolls.
-- **Data-Driven**: Units and stats are loaded from extracted JSON data (based on the original game database).
-- **Web Tech**: Built with [Phaser 3](https://phaser.io/) and [Vite](https://vitejs.dev/).
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Node.js** (v16 or higher)
-- **npm**
-
-### Installation
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/maelemiel/open-battle-tactics.git
-    cd open-battle-tactics
-    ```
-
-2. **Install dependencies:**
-
-    ```bash
-    npm install
-    ```
-
-3. **Run the development server:**
-
-    ```bash
-    npm run dev
-    ```
-
-4. Open your browser at `http://localhost:5173` (or the URL shown in the terminal).
-
-## 🎮 How to Play
-
-1. **Deployment Phase**:
-    - The game automatically rolls the dice for all tanks at the start of the turn.
-    - You have **3 Action Points (AP)**.
-    - **Click on a Tank** to **Boost** it (Spending 1 AP).
-    - Boosting sets the tank's roll to its Maximum potential + 2 (Critical Hit!).
-
-2. **Combat Phase**:
-    - Click the **FIGHT** button when you are ready.
-    - Tanks attack in order of Initiative (Highest Roll goes first).
-    - Damage deals direct HP loss. If HP reaches 0, the tank is destroyed.
-
-3. **Victory**:
-    - Destroy all enemy tanks to win!
-
-## 🛠️ Project Structure
-
-``` tree
-src/
-├── classes/        # Game Objects (Tank.js)
-├── config/         # Game Configuration & JSON Data
-├── logic/          # Core Game Logic (BattleEngine.js)
-├── scenes/         # Phaser Scenes (BattleScene.js)
-├── ui/             # User Interface (UIManager.js)
-└── main.js         # Entry point & Phaser Config
-```
-
-## 🔮 Roadmap
-
-- [ ] **Abilities System**: Implement active skills (Shield, Nuke, Heal).
-- [ ] **Team Builder**: Allow players to select their squad before battle.
-- [ ] **Animations**: Add projectile sprites and more impact effects.
-- [ ] **Multiplayer**: PvP mode using WebSockets.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+</div>
 
 ---
 
-*Note: This is a fan project. All original game assets and IP rights belong to their respective owners. This project is for educational and preservation purposes only.*
+## 🎮 About Super Battle Tactics
+
+Super Battle Tactics was a **4v4 turn-based tank strategy game** developed by DeNA Vancouver for iOS and Android. Players built squads of tanks (Assault, Command, Operative, Helicopter), equipped abilities, and battled other players in ranked PvP.
+
+The servers shut down years ago — but the community never forgot it. This project exists to bring it back, open source, for everyone.
+
+> *"Super battle tactics was a hell of a unique game"* — r/gamedev  
+> *"Nostalgia just hit right now"* — r/MobileGaming
+
+---
+
+## ✅ What's Already Done
+
+The complete game data has been **reverse engineered from the original APK**:
+
+| Resource | Count | Status |
+|---|---|---|
+| Game Units | **370** | ✅ Complete |
+| Abilities | **34** | ✅ Complete |
+| Unit Types | **14** | ✅ Complete |
+| Rarity Levels | **5** | ✅ Complete |
+| Database Tables | **67** | ✅ Complete |
+| Languages | **14** | ✅ Complete |
+| Gacha System | 7 tables | ✅ Complete |
+| AI System | 3 tables | ✅ Complete |
+| Progression System | Full | ✅ Complete |
+| Combat Mechanics | All phases | ✅ Documented |
+| Textures / Sprites | Partial | ⚠️ Need help |
+| Audio / Music | — | ❌ Need help |
+
+The full database schema, all unit stats, ability descriptions in 14 languages, combat phases, progression tiers, leaderboard system, events and gacha tables are all documented and ready to use.
+
+---
+
+## 🚀 Prototype (Playable Now)
+
+A basic combat prototype is already running in the browser using **Phaser 3**:
+
+### Run it locally
+
+```bash
+git clone https://github.com/maelemiel/Open-Battle-Tactics.git
+cd Open-Battle-Tactics
+npm install
+npm run dev
+# Open http://localhost:5173
+```
+
+### How it works (current prototype)
+
+1. **Deployment Phase** — dice are rolled for all tanks. You have **3 Action Points (AP)**.
+2. Click a tank to **Boost** it (costs 1 AP) → sets its roll to max + 2 (Critical!)
+3. Click **FIGHT** → tanks attack in initiative order (highest roll first)
+4. Destroy all enemy tanks to win
+
+---
+
+## 🗺️ Roadmap
+
+- [x] APK reverse engineering — full database extracted
+- [x] Combat prototype (Phaser 3 + Vite)
+- [x] Data-driven units loaded from extracted JSON
+- [ ] **Ability system** — all 4 types (ULTRA, PRE-COMBAT, REACTIVE, PASSIVE)
+- [ ] **Team builder** — pick your 4-unit squad before battle
+- [ ] **All 370 units** playable with correct stats
+- [ ] **Unit sprites** — pixel art or recreated from originals
+- [ ] **PvP multiplayer** via WebSockets
+- [ ] **Progression system** — tiers, divisions, level-up
+- [ ] **Ranked leaderboard**
+- [ ] **Event system**
+- [ ] **Mobile-ready** (Android / iOS)
+
+---
+
+## 📁 Repository Structure
+
+```
+Open-Battle-Tactics/
+├── src/                          # Game source (Phaser 3 + Vite)
+│   ├── classes/                  # Tank.js and game objects
+│   ├── logic/                    # BattleEngine.js — combat phases
+│   ├── scenes/                   # BattleScene.js
+│   └── ui/                       # UIManager.js
+│
+└── [branch: reverse-engineering] # All extracted game data
+    ├── assets/
+    │   ├── dataModel.db          # SQLite — 67 tables, 370 units
+    │   └── bin/Data/             # Unity assets (99 MB)
+    ├── extracted_assets/         # PNGs, WAVs, shaders
+    ├── REVERSE_ENGINEERING_SUMMARY.md
+    ├── DATABASE_SCHEMA.md
+    ├── DATA_EXTRACTION.md
+    └── QUICKSTART.md
+```
+
+> 💡 All game data lives on the [`reverse-engineering`](https://github.com/maelemiel/Open-Battle-Tactics/tree/reverse-engineering) branch.
+
+---
+
+## 🤝 How to Contribute
+
+**You don't need to be a developer to help.** Here's what the project needs:
+
+### 🎨 Artists
+- Recreate unit sprites (tanks, helicopters) in pixel art or vector
+- UI elements, ability icons, background art
+- Reference artwork: [Behance](https://www.behance.net/gallery/70749049/Super-Battle-Tactics-Game-Assets) · [ArtStation](https://www.artstation.com/artwork/L4BmdR)
+
+### 💻 Developers
+- Implement the ability system (34 abilities, 4 types)
+- Build the team selection UI
+- WebSocket multiplayer
+- Mobile export (Capacitor or React Native)
+
+### 🎮 Former Players
+- Share screenshots, videos, or memories of the game
+- Help verify unit stats and ability behavior
+- Test the prototype and report bugs
+
+### 📖 Documentation
+- Improve translations (14 languages supported)
+- Write wiki pages for units and abilities
+
+**→ Check [open issues](https://github.com/maelemiel/Open-Battle-Tactics/issues) for tasks labeled `good first issue` and `help wanted`.**
+
+---
+
+## 📚 Documentation
+
+| Document | Description |
+|---|---|
+| [REVERSE_ENGINEERING_SUMMARY.md](https://github.com/maelemiel/Open-Battle-Tactics/blob/reverse-engineering/REVERSE_ENGINEERING_SUMMARY.md) | Full analysis of the original game (FR) |
+| [DATABASE_SCHEMA.md](https://github.com/maelemiel/Open-Battle-Tactics/blob/reverse-engineering/DATABASE_SCHEMA.md) | All 67 tables documented with schemas |
+| [QUICKSTART.md](https://github.com/maelemiel/Open-Battle-Tactics/blob/reverse-engineering/QUICKSTART.md) | Guide to rebuild with Unity or Godot |
+| [DATA_EXTRACTION.md](https://github.com/maelemiel/Open-Battle-Tactics/blob/reverse-engineering/DATA_EXTRACTION.md) | How to extract more Unity assets |
+
+---
+
+## 🔗 External Resources
+
+- [Super Battle Tactics Wiki (Fandom)](https://super-battle-tactics.fandom.com/wiki/Super_Battle_Tactics_Wiki)
+- [MobyGames Page](https://www.mobygames.com/game/158792/super-battle-tactics/)
+- [Original Artwork on Behance](https://www.behance.net/gallery/70749049/Super-Battle-Tactics-Game-Assets)
+- [ArtStation — Unit Art](https://www.artstation.com/artwork/L4BmdR)
+
+---
+
+## ⚖️ Legal
+
+This is a **fan preservation project**. The original game IP belongs to DeNA. Original assets are copyrighted — this project recreates game mechanics and data structures only. New artwork must be original. This project is not affiliated with DeNA.
+
+---
+
+<div align="center">
+
+**Do you remember Super Battle Tactics? Help us bring it back.**  
+⭐ Star the repo · 🐛 Open an issue · 🔀 Submit a PR
+
+</div>
