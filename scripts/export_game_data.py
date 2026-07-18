@@ -6,31 +6,17 @@ Exporte toutes les données du jeu depuis dataModel.db en JSON structuré.
 Usage:
     python export_game_data.py --db assets/dataModel.db --out game_data/
     python export_game_data.py --db assets/dataModel.db --out game_data/ --lang fr
-    python export_game_data.py --db assets/dataModel.db --out game_data/ --format json
     python export_game_data.py --db assets/dataModel.db --out game_data/ --format json+csv
+    python export_game_data.py --db assets/dataModel.db --out game_data/ --list-langs
 """
 
 import sqlite3
 import json
 import csv
-import os
 import argparse
 from pathlib import Path
 from typing import Any
 
-
-# ─── Config ──────────────────────────────────────────────────────────────────
-
-LANG_COLUMNS = {
-    "fr":    "fr_fr",
-    "en":    "en_us",
-    "en_uk": "en_gb",
-    "de":    "de_de",
-    "es":    "es_es",
-    "it":    "it_it",
-    "pt":    "pt_br",
-    "zh":    "zh_cn",
-}
 
 # ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -43,7 +29,8 @@ def save_json(data: Any, path: Path):
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"  ✓ {path}  ({len(data) if isinstance(data, list) else 1} entrées)")
+    count = len(data) if isinstance(data, (list, dict)) else 1
+    print(f"  ✓ {path}  ({count} entrées)")
 
 
 def save_csv(data: list[dict], path: Path):
@@ -57,19 +44,80 @@ def save_csv(data: list[dict], path: Path):
     print(f"  ✓ {path}  ({len(data)} lignes)")
 
 
-def get_lang_col(db: sqlite3.Connection, lang: str) -> str:
-    col = LANG_COLUMNS.get(lang, "en_us")
-    cursor = db.execute("PRAGMA table_info(localization)")
-    available = {row[1] for row in cursor.fetchall()}
-    if col not in available:
-        print(f"  ⚠ Colonne '{col}' absente, fallback sur 'en_us'")
-        col = "en_us"
-    return col
+def get_localization_columns(db: sqlite3.Connection) -> list[str]:
+    """Retourne toutes les colonnes de la table localization (hors 'key')."""
+    cur = db.execute("PRAGMA table_info(localization)")
+    return [row[1] for row in cur.fetchall() if row[1] != "key"]
+
+
+def detect_lang_col(db: sqlite3.Connection, lang: str) -> str:
+    """
+    Détecte la vraie colonne de langue dans la table localization.
+    Stratégie : cherche par correspondance partielle avec le code langue.
+    Si rien trouvé, prend la première colonne disponible.
+    """
+    available = get_localization_columns(db)
+
+    if not available:
+        raise RuntimeError("La table 'localization' ne contient aucune colonne de traduction.")
+
+    # Correspondances candidates par ordre de priorité
+    candidates = {
+        "fr": ["fr", "fr_fr", "french", "francais"],
+        "en": ["en", "en_us", "english", "en_gb", "eng"],
+        "de": ["de", "de_de", "german", "deutsch"],
+        "es": ["es", "es_es", "spanish", "espanol"],
+        "it": ["it", "it_it", "italian"],
+        "pt": ["pt", "pt_br", "portuguese"],
+        "zh": ["zh", "zh_cn", "chinese"],
+    }
+
+    lower_available = {c.lower(): c for c in available}
+    hints = candidates.get(lang.lower(), [lang.lower()])
+
+    # Correspondance exacte
+    for hint in hints:
+        if hint in lower_available:
+            col = lower_available[hint]
+            print(f"  🌐 Langue '{lang}' → colonne '{col}'")
+            return col
+
+    # Correspondance partielle (ex: colonne '1' qui contient du EN)
+    for hint in hints:
+        for col_lower, col in lower_available.items():
+            if hint in col_lower:
+                print(f"  🌐 Langue '{lang}' → colonne '{col}' (correspondance partielle)")
+                return col
+
+    # Fallback : première colonne disponible
+    fallback = available[0]
+    print(f"  ⚠  Langue '{lang}' non trouvée. Colonnes disponibles: {available}")
+    print(f"  ⚠  Fallback sur la première colonne: '{fallback}'")
+    print(f"  💡 Utilise --list-langs pour voir toutes les colonnes disponibles.")
+    return fallback
+
+
+def list_available_langs(db: sqlite3.Connection):
+    """Affiche les colonnes disponibles avec un aperçu du contenu."""
+    cols = get_localization_columns(db)
+    print("\n🌍 Colonnes de localisation disponibles dans la DB :")
+    print(f"   {'Colonne':<20} {'Exemple de valeur':<50}")
+    print(f"   {'-'*20} {'-'*50}")
+    for col in cols:
+        try:
+            row = db.execute(
+                f"SELECT {col} FROM localization WHERE {col} IS NOT NULL AND {col} != '' LIMIT 1"
+            ).fetchone()
+            sample = (row[0][:47] + "...") if row and len(str(row[0])) > 50 else (row[0] if row else "(vide)")
+        except Exception:
+            sample = "(erreur)"
+        print(f"   {col:<20} {sample}")
+    print(f"\n   Utilise --lang <colonne> pour choisir (ex: --lang {cols[0]})")
 
 
 def localization_dict(db: sqlite3.Connection, lang_col: str) -> dict[str, str]:
-    cur = db.execute(f"SELECT key, {lang_col} FROM localization")
-    return {row[0]: row[1] for row in cur.fetchall()}
+    cur = db.execute(f'SELECT key, "{lang_col}" FROM localization')
+    return {row[0]: row[1] for row in cur.fetchall() if row[1]}
 
 
 def resolve(locs: dict, key: str | None) -> str | None:
@@ -226,7 +274,10 @@ def export_leaderboards(db: sqlite3.Connection) -> dict:
 def export_config(db: sqlite3.Connection) -> dict:
     try:
         cur = db.execute("SELECT * FROM config")
-        return {row[0]: row[1] for row in cur.fetchall()} if cur.description else {}
+        rows = cur.fetchall()
+        if cur.description and len(cur.description) >= 2:
+            return {row[0]: row[1] for row in rows}
+        return {}
     except sqlite3.OperationalError:
         return {}
 
@@ -253,10 +304,11 @@ def export_all_tables_index(db: sqlite3.Connection) -> list[dict]:
 
 def main():
     parser = argparse.ArgumentParser(description="Export Super Battle Tactics game data")
-    parser.add_argument("--db",     default="assets/dataModel.db", help="Chemin vers dataModel.db")
-    parser.add_argument("--out",    default="game_data",            help="Dossier de sortie")
-    parser.add_argument("--lang",   default="en",                   help="Langue (en, fr, de, es, it, pt, zh)")
-    parser.add_argument("--format", default="json",                 help="Format de sortie: json, csv, json+csv")
+    parser.add_argument("--db",         default="assets/dataModel.db", help="Chemin vers dataModel.db")
+    parser.add_argument("--out",        default="game_data",            help="Dossier de sortie")
+    parser.add_argument("--lang",       default="en",                   help="Code langue ou nom de colonne (ex: en, fr, 1, en_us)")
+    parser.add_argument("--format",     default="json",                 help="Format de sortie: json, csv, json+csv")
+    parser.add_argument("--list-langs", action="store_true",            help="Lister les colonnes de langue disponibles et quitter")
     args = parser.parse_args()
 
     db_path = Path(args.db)
@@ -266,18 +318,26 @@ def main():
         print("   git checkout reverse-engineering")
         return
 
+    db = sqlite3.connect(db_path)
+
+    # Mode liste des langues disponibles
+    if args.list_langs:
+        list_available_langs(db)
+        db.close()
+        return
+
     print(f"\n🎮 Open Battle Tactics — Export des données")
     print(f"   DB     : {db_path}")
     print(f"   Sortie : {args.out}")
     print(f"   Langue : {args.lang}")
     print(f"   Format : {args.format}\n")
 
-    db = sqlite3.connect(db_path)
     out_dir = Path(args.out)
     fmt = args.format
 
-    lang_col = get_lang_col(db, args.lang)
+    lang_col = detect_lang_col(db, args.lang)
     locs = localization_dict(db, lang_col)
+    print(f"   {len(locs)} clés de localisation chargées\n")
 
     def save(data, name):
         path = out_dir / name
@@ -286,19 +346,16 @@ def main():
         if "csv" in fmt and isinstance(data, list):
             save_csv(data, path.with_suffix(".csv"))
 
-    # ── Index des tables ─────────────────────────────────────────────────────
     print("📋 Index des tables...")
     save(export_all_tables_index(db), "tables_index")
 
-    # ── Config ───────────────────────────────────────────────────────────────
     print("⚙️  Config...")
     cfg = export_config(db)
     out_dir.mkdir(parents=True, exist_ok=True)
-    with open(out_dir / "config.json", "w") as f:
+    with open(out_dir / "config.json", "w", encoding="utf-8") as f:
         json.dump(cfg, f, ensure_ascii=False, indent=2)
     print(f"  ✓ config.json")
 
-    # ── Unités ───────────────────────────────────────────────────────────────
     print("⚔️  Unités...")
     units = export_units(db, locs)
     save(units, "units")
@@ -308,44 +365,36 @@ def main():
     for k, v in prog.items():
         save(v, f"unit_progression/{k}")
 
-    # ── Capacités ────────────────────────────────────────────────────────────
     print("✨ Capacités...")
     abilities = export_abilities(db, locs)
     save(abilities, "abilities")
 
-    # ── Événements ───────────────────────────────────────────────────────────
     print("🗓️  Événements...")
     save(export_events(db, locs), "events")
 
-    # ── Items ────────────────────────────────────────────────────────────────
     print("🎁 Items...")
     save(export_items(db, locs), "items")
 
-    # ── Gacha ────────────────────────────────────────────────────────────────
     print("🎰 Gacha...")
     gacha = export_gacha(db, locs)
     for k, v in gacha.items():
         save(v, f"gacha/{k}")
 
-    # ── Progression (divisions, tiers) ───────────────────────────────────────
     print("🏆 Progression...")
     prog = export_progression(db)
     for k, v in prog.items():
         save(v, f"progression/{k}")
 
-    # ── Leaderboards ─────────────────────────────────────────────────────────
     print("🥇 Leaderboards...")
     lb = export_leaderboards(db)
     for k, v in lb.items():
         save(v, f"leaderboards/{k}")
 
-    # ── IA ───────────────────────────────────────────────────────────────────
     print("🤖 IA...")
     ai = export_ai(db)
     for k, v in ai.items():
         save(v, f"ai/{k}")
 
-    # ── Localisation complète ────────────────────────────────────────────────
     print("🌍 Localisation complète...")
     save(export_localization_full(db), "localization_full")
 
@@ -353,8 +402,8 @@ def main():
 
     total_files = sum(1 for _ in out_dir.rglob("*") if _.is_file())
     print(f"\n✅ Export terminé : {total_files} fichiers dans {out_dir}/")
-    print(f"   {len(units)} unités exportées avec noms ({args.lang})")
-    print(f"   {len(abilities)} capacités exportées avec descriptions")
+    print(f"   {len(units)} unités exportées")
+    print(f"   {len(abilities)} capacités exportées")
     print("\n📁 Structure de sortie :")
     for p in sorted(out_dir.rglob("*")):
         if p.is_file():
