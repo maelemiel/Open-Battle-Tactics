@@ -19,6 +19,7 @@
   - `Shader/` - Game shaders
   - `TextAsset/` - Text (.txt)
   - `Texture2D/` - Textures/images (.png)
+- `AssetRipper/ExportedProject/Assets/Scripts/` - Extracted C# game logic
 - `lib/` - Native libraries (`armeabi/`, `armeabi-v7a/`, `x86/`)
 - `res/` - Android resources (`drawable/`, `layout/`, `raw/`)
 
@@ -34,14 +35,15 @@
 - Textures: 21 2D textures
 - Shaders: 6 custom shaders
 - Text: 23 config/data files
+- Scripts: C# source code (combat logic, AI, abilities)
 
 ## 🎯 Goals
 - [x] Extract assets
 - [x] Analyze mechanics
 - [x] Document systems
 - [x] Document DB schema
-- [ ] Complete re-extraction
-- [ ] Reverse engineer gameplay
+- [x] Complete re-extraction
+- [x] Reverse engineer gameplay (C# scripts recovered)
 - [ ] Reconstruct open source
 
 ## 📖 Docs
