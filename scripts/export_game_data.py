@@ -324,13 +324,6 @@ def main():
 
     # Fichiers communs (une seule fois)
     print("📋 Index des tables...")
-    save_json(export_multi_tables(db, [
-        t["table"] for t in rows_to_dicts(
-            db.execute("SELECT name AS 'table' FROM sqlite_master WHERE type='table' ORDER BY name")
-        )
-    # on stocke juste le compte
-    ]), out_root / "tables_index.json") if False else None
-
     idx = []
     for row in db.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name"):
         t = row[0]

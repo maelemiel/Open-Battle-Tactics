@@ -18,6 +18,7 @@
 - Integrations: Kamcord, Facebook, Google Play Services, ADM, Vungle, AppLovin, AdColony, Adjust, HyprMX
 
 ## File Structure
+- Note: APK zip, `AndroidManifest.xml`, `classes.dex`, `resources.arsc`, `lib/`, `res/` live on `reverse-engineering` branch. Main branch: docs + `game_data/` + `assets/` DBs + partial extraction.
 - Open-Battle-Tactics/
   - super-battle-tactics.zip (APK 52 MB)
   - AndroidManifest.xml
