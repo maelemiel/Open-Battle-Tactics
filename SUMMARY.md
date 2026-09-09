@@ -13,17 +13,18 @@
 * Items: Full catalog
 
 ## Assets (Partial)
-* Textures: 21 PNG files (Need better extraction)
-* Audio: 3 WAV files (Empty, need re-extraction)
-* Shaders: 6 files (Empty, need re-extraction)
-* Text: 23 files (Partial extraction)
-* Unity Data: 99 MB (In `assets/bin/Data/`)
+* Textures: 21 PNG files (valid)
+* Audio: 3 WAV files (all 0 bytes, need re-extraction)
+* Shaders: 6 files (all 0 bytes, need re-extraction)
+* Text: 23 files (all 0 bytes, need re-extraction)
+* Unity Data: on `reverse-engineering` branch (`assets/bin/Data/`); main has AssetRipper PNG export only
 
 ## Code & Build
-* APK: 52 MB original available
-* DEX: Available for decompilation
-* Native Libs: Unity, Mono available
-* Manifest: Android config available
+* APK: 52 MB on `reverse-engineering` branch (not on main)
+* DEX: `reverse-engineering` branch
+* Native Libs: `reverse-engineering` branch
+* Manifest: `reverse-engineering` branch
+* C# scripts: extracted locally via AssetRipper, gitignored (not published)
 
 ## Documentation
 * Complete analysis: [REVERSE_ENGINEERING_SUMMARY.md](./REVERSE_ENGINEERING_SUMMARY.md)
@@ -95,4 +96,4 @@
 * Code Samples: 10+
 * Python Scripts: 5+
 * SQL Queries: 20+
-* Updated: February 2, 2026
+* Updated: September 8, 2026
