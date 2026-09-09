@@ -92,8 +92,10 @@
 - [ArtStation Art 3](https://www.artstation.com/artwork/9KDXQ)
 
 ## ⚖️ License
-- Educational/research only.
-- Assets owned by respective owners.
+- Educational/research/preservation only.
+- Assets owned by respective owners (Mobage/DeNA). No affiliation.
+- Original art kept public for reference/archival until community replacements exist (OpenGFX model).
+- Reconstruction goal: replace all original assets with open content.
 
 ## 🤝 Contribute
 - Open issues/PRs to improve docs, add analysis, fix errors.
