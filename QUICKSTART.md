@@ -30,8 +30,9 @@
   - Queries: `SELECT * FROM unit LIMIT 5;`, `SELECT * FROM ability LIMIT 5;`
 - Export JSON:
   - `pip install sqlite-utils`
-  - `sqlite-utils dataModel.db "SELECT u.*, l.en_us as name FROM unit u JOIN localization l ON u.key_name = l.key" --json > ../game_data/units.json`
-  - `sqlite-utils dataModel.db "SELECT a.*, ln.en_us as name, ld.en_us as description FROM ability a JOIN localization ln ON a.key_name = ln.key JOIN localization ld ON a.key_description = ld.key" --json > ../game_data/abilities.json`
+  - `sqlite-utils dataModel.db "SELECT u.*, l.en as name FROM unit u JOIN localization l ON u.key_name = l.key" --json > ../game_data/units.json`
+  - `sqlite-utils dataModel.db "SELECT a.*, ln.en as name, ld.en as description FROM ability a JOIN localization ln ON a.key_name = ln.key JOIN localization ld ON a.key_description = ld.key" --json > ../game_data/abilities.json`
+  - Or use repo script: `python scripts/export_game_data.py --db assets/dataModel.db --out game_data/ --lang en`
 
 ## Create Project
 - Unity:
