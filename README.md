@@ -53,6 +53,15 @@
 - [ ] Recover C# game logic (local only, gitignored)
 - [ ] Reconstruct open source
 
+## 🎮 Rebuild prototype (TypeScript)
+- Clean TS rewrite, engine pure + Phaser UI. See [docs/REBUILD_PLAN.md](./docs/REBUILD_PLAN.md).
+- Run:
+  - `npm install`
+  - `npm run dev` - battle prototype (VOLT vs LONGSHOT)
+  - `npm test` - engine tests (deterministic, real data)
+  - `npm run build` - typecheck + bundle
+- Data mapping: [docs/DATA_MAPPING.md](./docs/DATA_MAPPING.md)
+
 ## 📖 Docs
 
 ### Devs
