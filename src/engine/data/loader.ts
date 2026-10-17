@@ -38,10 +38,12 @@ const UNIT_TYPE_IDS: readonly UnitTypeId[] = [
 const RARITY_IDS: readonly RarityId[] = [1, 2, 3, 4, 5];
 const ABILITY_TYPE_IDS: readonly AbilityTypeId[] = [1, 2, 3, 4];
 const FACE_TYPE_IDS: readonly DieFaceType[] = [
+  DIE_FACE_TYPE.NONE,
   DIE_FACE_TYPE.DAMAGE,
   DIE_FACE_TYPE.INITIATIVE,
   DIE_FACE_TYPE.SPECIAL,
   DIE_FACE_TYPE.ARMOUR_PIERCING,
+  DIE_FACE_TYPE.ACID_STRIKE,
 ];
 
 function rows(value: unknown): readonly unknown[] {

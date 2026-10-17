@@ -11,7 +11,8 @@ import type {
 } from '../../src/engine/combat/events';
 import { mulberry32 } from '../../src/engine/combat/rng';
 import { computeInitiativeOrder } from '../../src/engine/combat/initiative';
-import { DIE_FACE_TYPE } from '../../src/engine/types';
+import { applyDamage } from '../../src/engine/combat/damage';
+import { DAMAGE_TYPE, DIE_FACE_TYPE } from '../../src/engine/types';
 
 // VOLT 11001 L1: hp 20, all DAMAGE faces [2,4,6,9,10].
 // LONGSHOT 11002 L1: hp 19, all DAMAGE faces [2,4,6,9,10].
@@ -162,31 +163,16 @@ describe('VOLT vs LONGSHOT full battle', () => {
   });
 });
 
-describe('initiative rules', () => {
+describe('initiative rules (BattleLogic.CalculateInitiativeWinner)', () => {
   const voltFace = (value: number) => ({ type: DIE_FACE_TYPE.DAMAGE, value });
   const initFace = (value: number) => ({ type: DIE_FACE_TYPE.INITIATIVE, value });
 
-  it('INITIATIVE face beats a higher DAMAGE face', () => {
+  it('INITIATIVE face beats a DAMAGE face regardless of damage value', () => {
     const order = computeInitiativeOrder([
       { side: 'enemy', unitId: 2, face: voltFace(10) },
       { side: 'player', unitId: 1, face: initFace(5) },
     ]);
     expect(order.map((c) => c.unitId)).toEqual([1, 2]);
-  });
-
-  it('both DAMAGE: higher value first, tie goes to player', () => {
-    expect(
-      computeInitiativeOrder([
-        { side: 'enemy', unitId: 2, face: voltFace(9) },
-        { side: 'player', unitId: 1, face: voltFace(4) },
-      ]).map((c) => c.unitId),
-    ).toEqual([2, 1]);
-    expect(
-      computeInitiativeOrder([
-        { side: 'enemy', unitId: 2, face: voltFace(6) },
-        { side: 'player', unitId: 1, face: voltFace(6) },
-      ]).map((c) => c.unitId),
-    ).toEqual([1, 2]);
   });
 
   it('both INITIATIVE: higher value first', () => {
@@ -198,32 +184,18 @@ describe('initiative rules', () => {
     ).toEqual([2, 1]);
   });
 
-  it('higher DAMAGE roll strikes first in battle', () => {
-    const config = { ...VOLT_VS_LONGSHOT };
-    const seed = findSeed(config, (rolls) => {
-      const [p, e] = rolls;
-      return p!.face.type === e!.face.type && p!.face.value < e!.face.value;
-    });
-    const battle = createBattle({ ...config, seed });
-    battle.rollPhase();
-    const events = battle.resolveRound();
-    const damages = damageEvents(events);
-    expect(damages.length).toBe(2); // both alive, both DAMAGE
-    expect(damages[0]!.source).toBe('enemy');
-    expect(damages[1]!.source).toBe('player');
+  it('neither rolls INITIATIVE: 50/50 tie-break determines order', () => {
+    const contenders = [
+      { side: 'enemy' as const, unitId: 2, face: voltFace(10) },
+      { side: 'player' as const, unitId: 1, face: voltFace(2) },
+    ];
+    // tieBreaker = 0 -> player first
+    expect(computeInitiativeOrder(contenders, () => 0).map((c) => c.unitId)).toEqual([1, 2]);
+    // tieBreaker = 1 -> enemy first
+    expect(computeInitiativeOrder(contenders, () => 1).map((c) => c.unitId)).toEqual([2, 1]);
   });
 
-  it('tie on DAMAGE values: player strikes first', () => {
-    const config = { ...VOLT_VS_LONGSHOT };
-    const seed = findSeed(config, (rolls) => rolls[0]!.face.value === rolls[1]!.face.value);
-    const battle = createBattle({ ...config, seed });
-    battle.rollPhase();
-    const damages = damageEvents(battle.resolveRound());
-    expect(damages[0]!.source).toBe('player');
-    expect(damages[1]!.source).toBe('enemy');
-  });
-
-  it('INITIATIVE face: no attack that round, opponent still attacks', () => {
+  it('INITIATIVE face strikes first and ALSO attacks with its face value', () => {
     const config = { playerUnitId: 13001, playerLevel: 1, enemyUnitId: 11001, enemyLevel: 1 };
     const seed = findSeed(config, (rolls) => rolls[0]!.face.type === DIE_FACE_TYPE.INITIATIVE);
     const battle = createBattle({ ...config, seed });
@@ -234,8 +206,35 @@ describe('initiative rules', () => {
     );
     expect(order[0]?.order[0]?.side).toBe('player');
     const damages = damageEvents(events);
-    expect(damages).toHaveLength(1);
-    expect(damages[0]!.source).toBe('enemy'); // SPEEDSTER holds its fire
+    // Player with INITIATIVE face attacks first for its face value
+    expect(damages.length).toBeGreaterThanOrEqual(1);
+    expect(damages[0]!.source).toBe('player');
+  });
+});
+
+describe('damage and armor formulas (BattleLogic.ApplyDamage)', () => {
+  it('absorbs damage using armor before reducing hp', () => {
+    // 6 damage against 20 HP with 4 armor -> 4 absorbed, 2 to HP -> 18 HP, 0 armor
+    const result = applyDamage(20, 6, 4, DAMAGE_TYPE.STANDARD);
+    expect(result.finalHp).toBe(18);
+    expect(result.finalArmor).toBe(0);
+    expect(result.absorbed).toBe(4);
+  });
+
+  it('partially absorbs damage when armor exceeds damage', () => {
+    // 3 damage against 20 HP with 10 armor -> 3 absorbed, 0 to HP -> 20 HP, 7 armor
+    const result = applyDamage(20, 3, 10, DAMAGE_TYPE.STANDARD);
+    expect(result.finalHp).toBe(20);
+    expect(result.finalArmor).toBe(7);
+    expect(result.absorbed).toBe(3);
+  });
+
+  it('armour piercing ignores armor completely', () => {
+    // 6 AP damage against 20 HP with 10 armor -> ignores armor -> 14 HP, 0 armor
+    const result = applyDamage(20, 6, 10, DAMAGE_TYPE.ARMOUR_PIERCING);
+    expect(result.finalHp).toBe(14);
+    expect(result.finalArmor).toBe(0);
+    expect(result.absorbed).toBe(0);
   });
 });
 

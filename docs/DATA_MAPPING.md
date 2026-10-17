@@ -21,14 +21,20 @@ Consumed via JSON exports in `game_data/` (see `scripts/export_game_data.py`).
 
 ## Die face types (`unit_action.id` domain)
 
-| id | meaning | evidence |
-|---|---|---|
-| 20000 | DAMAGE | prototype `wheelValues` match L1 faces (VOLT [2,4,6,9,10]); ATTACK BUFF `related_action_id` |
-| 40000 | INITIATIVE | on Operative/Helicopter units, absent from Assault; localization key order matches ascending ids |
-| 60000 | SPECIAL | 162/162 units holding it have `special_id != 0`; face value 0 |
-| 70000 | ARMOUR_PIERCING | elimination; 11 units only (BUTTERKNIFE, SERVICE X, MACADEMI, ...) |
+Verified from decompiled C# source (`UnitLevelProgressionDataModel.faceTypeMap` & `DieFaceType` enum):
 
-- `unit_action` also contains 10000, 30000 (MULTI-STRIKE via special 60200), 50000, 80000 — never used as a face type.
+| id | enum name | enum value | behavior |
+|---|---|---|---|
+| 10000 | None | 0 | No action |
+| 20000 | DirectDamage | 1 | Standard direct damage attack |
+| 30000 | Special | 3 | Special ability trigger |
+| 40000 | Initiative | 2 | Adds roll value to team initiative sum AND attacks with face value |
+| 50000 | Special | 3 | Special ability trigger |
+| 60000 | Special | 3 | Special ability trigger |
+| 70000 | ArmourPiercing | 4 | Pierces armor (armor becomes 0), damage applies directly to HP |
+| 80000 | AcidStrike | 5 | Direct damage attack + increments target `acidPerRound` (+1) |
+
+- In `unit_level_progression`, only 20000, 40000, 60000, 70000 are rolled as native faces.
 - Localization: `metadata_dice_type_damage|initiative|special|armour_piercing`.
 
 ## Abilities
@@ -65,10 +71,15 @@ Consumed via JSON exports in `game_data/` (see `scripts/export_game_data.py`).
 - Unit 49924 has SPECIAL faces with non-zero value (43) + `special_boost_value_a` — boost-charged specials.
 - `metadata_unit_name_*` has 474 entries vs 370 units (extra keys for unreferenced ids).
 
-## Unknown / TODO
+## Verified via C# Decompilation (`Assembly-CSharp.dll`)
 
-- Face type evidence for 40000/70000 is inferential (C# source not in repo; AssetRipper export gitignored). Confidence high but unverified against game code.
-- `unit_action` 10000, 50000, 80000 semantics unknown.
+- [x] **Face types 10000..80000**: Verified against `UnitLevelProgressionDataModel.faceTypeMap` & `DieFaceType`.
+- [x] **Initiative rule**: Verified against `BattleLogic.GetInitiativeForTeam` and `BattleLogic.CalculateInitiativeWinner`. Sums all `DieFaceType.Initiative` (40000) face values per team; tie-break is a 50/50 random coin toss (`GetNextBattleRandom(0, 2)`).
+- [x] **Damage & Armor formula**: Verified against `BattleLogic.ApplyDamage`. Armor absorbs damage (`absorbed = min(armor, damage)`), ArmourPiercing ignores/destroys armor, remaining damage reduces HP. Base armor is 0 and granted dynamically per round by abilities (resets each round).
+- [x] **Initiative Face attacks**: Verified against `BattleLogic.CanUnitAttack`. Units that roll `DieFaceType.Initiative` do NOT hold their fire; they deal direct damage equal to their face value.
+
+## Remaining Unknown / TODO
+
 - `boost_ability_multiplier`, `boost`, `event_unit_boost` not mapped yet (boost stacking rules).
 - `unit_cooldown`, `unit_partial_level` (per-part face upgrades) not mapped yet.
-- Exact damage formula (armour subtraction, overkill) is engine work, not in data.
+- Routing all 20 `unit_special` handlers into the pure TS engine.

@@ -43,6 +43,7 @@ export interface Combatant {
   readonly name: string;
   readonly maxHp: number;
   readonly hp: number;
+  readonly armor: number;
   readonly alive: boolean;
   /** Face rolled this round; null before the first rollPhase. */
   readonly currentFace: DieFace | null;
@@ -76,6 +77,7 @@ export interface MutableCombatant {
   name: string;
   maxHp: number;
   hp: number;
+  armor: number;
   alive: boolean;
   currentFace: DieFace | null;
   faceIndex: number;
@@ -96,6 +98,7 @@ export function spawn(unit: UnitDef, level: number, side: Side): MutableCombatan
     name: unit.name,
     maxHp: stats.hp,
     hp: stats.hp,
+    armor: 0,
     alive: true,
     currentFace: null,
     faceIndex: -1,

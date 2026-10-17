@@ -10,34 +10,50 @@ export interface InitiativeContender {
 }
 
 /**
- * MVP initiative rule (TODO: validate against real gameplay):
- * 1. Exactly one side rolled an INITIATIVE face -> it strikes first.
- * 2. Both or neither -> higher CURRENT face value first. This matches the old
- *    JS prototype (getInitiativeOrder sorted by currentWheelValue, higher
- *    first), which is the only available behavioral evidence.
- * 3. Perfect tie -> stable order, player side first (prototype used a random
- *    tie-break; deterministic player-first is chosen so same seed = same battle).
+ * Calculates total initiative points for a side.
+ * Verified from decompiled C# source (`BattleLogic.GetInitiativeForTeam`):
+ * Sums the roll values of all units whose face type is Initiative (40000 / type 2).
+ */
+export function computeTeamInitiative(
+  contenders: readonly InitiativeContender[],
+  side: Side,
+): number {
+  return contenders
+    .filter((c) => c.side === side && c.face.type === DIE_FACE_TYPE.INITIATIVE)
+    .reduce((sum, c) => sum + c.face.value, 0);
+}
+
+/**
+ * Computes initiative order according to official rules (`BattleLogic.CalculateInitiativeWinner`).
  *
- * Alternative rejected for MVP: accumulating INITIATIVE face values across
- * rounds into a pool and comparing pools. No prototype evidence of a pool;
- * revisit if gameplay footage shows accumulation.
+ * 1. Compare total initiative points of each team (`GetInitiativeForTeam`).
+ *    - If player > enemy -> player attacks first.
+ *    - If enemy > player -> enemy attacks first.
+ * 2. In case of tie (including both 0, which happens when neither side rolls INITIATIVE):
+ *    - A 50/50 tie-break is performed (`GetNextBattleRandom(0, 2)`).
+ *    - `tieBreaker` returns 0 for player or 1 for enemy. Defaults to player-first (0)
+ *      when no RNG is provided.
+ * 3. The winning team's units attack first, followed by the opposing team's units.
  */
 export function computeInitiativeOrder(
   contenders: readonly InitiativeContender[],
+  tieBreaker: () => number = () => 0,
 ): InitiativeContender[] {
-  return [...contenders].sort(compareContenders);
-}
+  const playerInit = computeTeamInitiative(contenders, 'player');
+  const enemyInit = computeTeamInitiative(contenders, 'enemy');
 
-function rolledInitiative(contender: InitiativeContender): boolean {
-  return contender.face.type === DIE_FACE_TYPE.INITIATIVE;
-}
+  let winningSide: Side;
+  if (playerInit > enemyInit) {
+    winningSide = 'player';
+  } else if (enemyInit > playerInit) {
+    winningSide = 'enemy';
+  } else {
+    // 50/50 random tie-break (0 = player, 1 = enemy)
+    winningSide = tieBreaker() === 0 ? 'player' : 'enemy';
+  }
 
-/** Sort comparator: descending priority (priority-first). */
-function compareContenders(a: InitiativeContender, b: InitiativeContender): number {
-  const aInit = rolledInitiative(a) ? 1 : 0;
-  const bInit = rolledInitiative(b) ? 1 : 0;
-  if (aInit !== bInit) return bInit - aInit;
-  if (a.face.value !== b.face.value) return b.face.value - a.face.value;
-  if (a.side !== b.side) return a.side === 'player' ? -1 : 1;
-  return 0; // Array.prototype.sort is stable: keeps team order
+  const winners = contenders.filter((c) => c.side === winningSide);
+  const losers = contenders.filter((c) => c.side !== winningSide);
+
+  return [...winners, ...losers];
 }

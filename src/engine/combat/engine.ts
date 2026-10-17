@@ -1,5 +1,5 @@
 import type { DieFace } from '../types';
-import { DIE_FACE_TYPE } from '../types';
+import { DAMAGE_TYPE, DIE_FACE_TYPE } from '../types';
 import { getUnitById } from '../data/loader';
 
 import type { BattleEvent, Side } from './events';
@@ -47,6 +47,7 @@ export function createBattle(config: BattleConfig): Battle {
       name: c.name,
       maxHp: c.maxHp,
       hp: c.hp,
+      armor: c.armor,
       alive: c.alive,
       currentFace: c.currentFace,
       faceIndex: c.faceIndex,
@@ -70,6 +71,7 @@ export function createBattle(config: BattleConfig): Battle {
     const events: BattleEvent[] = [];
     for (const c of combatants) {
       if (!c.alive) continue;
+      c.armor = 0; // resets each round, per BattleLogic.BeginRound
       const index = nextInt(rng, c.stats.faces.length);
       c.faceIndex = index;
       c.currentFace = c.stats.faces[index]!;
@@ -96,7 +98,8 @@ export function createBattle(config: BattleConfig): Battle {
           c.alive && c.currentFace !== null,
       )
       .map((c) => ({ side: c.side, unitId: c.unitId, face: c.currentFace }));
-    const order = computeInitiativeOrder(contenders);
+    const tieBreaker = () => nextInt(rng, 2);
+    const order = computeInitiativeOrder(contenders, tieBreaker);
     events.push({ type: 'initiative-determined', round, order });
     for (const phase of ROUND_PHASE_ORDER) {
       // Only ATTACK is implemented; other phases are TODO no-ops.
@@ -133,10 +136,21 @@ export function createBattle(config: BattleConfig): Battle {
         continue;
       }
       const amount = faceDamage(face);
-      if (amount <= 0) continue; // INITIATIVE faces do not attack this round
+      if (amount <= 0) continue;
       const target = combatants.find((c) => c.side !== attacker.side && c.alive);
       if (!target) continue;
-      target.hp = applyDamage(target.hp, amount);
+
+      const damageType =
+        face.type === DIE_FACE_TYPE.ARMOUR_PIERCING
+          ? DAMAGE_TYPE.ARMOUR_PIERCING
+          : face.type === DIE_FACE_TYPE.ACID_STRIKE
+            ? DAMAGE_TYPE.ACID
+            : DAMAGE_TYPE.STANDARD;
+
+      const result = applyDamage(target.hp, amount, target.armor, damageType);
+      target.hp = result.finalHp;
+      target.armor = result.finalArmor;
+
       events.push({
         type: 'damage-dealt',
         round,

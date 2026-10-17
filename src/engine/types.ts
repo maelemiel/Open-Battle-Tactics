@@ -46,23 +46,37 @@ export type AbilityTypeId =
 
 /**
  * `unit_level_progression.face_N_type`, a `unit_action.id`.
- * Decoded from data (no C# source available):
- * - 20000 DAMAGE: matches prototype `wheelValues` (VOLT L1 = [2,4,6,9,10]);
- *   also `unit_special.related_action_id` 20000 for ATTACK BUFF.
- * - 40000 INITIATIVE: carried by Operative/Helicopter units, absent from
- *   Assault; localization order (damage, initiative, special, armour_piercing)
- *   matches ascending id order.
- * - 60000 SPECIAL: all 162 units holding a 60000 face have special_id != 0.
- * - 70000 ARMOUR_PIERCING: by elimination; 11 units only (BUTTERKNIFE, ...).
+ * Verified from decompiled C# source (`UnitLevelProgressionDataModel.faceTypeMap` & `DieFaceType`):
+ * - 10000 NONE: enum value 0 (None)
+ * - 20000 DAMAGE: enum value 1 (DirectDamage)
+ * - 40000 INITIATIVE: enum value 2 (Initiative)
+ * - 60000 SPECIAL: enum value 3 (Special; 30000 & 50000 also map to Special)
+ * - 70000 ARMOUR_PIERCING: enum value 4 (ArmourPiercing)
+ * - 80000 ACID_STRIKE: enum value 5 (AcidStrike)
  */
 export const DIE_FACE_TYPE = {
+  NONE: 10000,
   DAMAGE: 20000,
   INITIATIVE: 40000,
   SPECIAL: 60000,
   ARMOUR_PIERCING: 70000,
+  ACID_STRIKE: 80000,
 } as const;
 
 export type DieFaceType = (typeof DIE_FACE_TYPE)[keyof typeof DIE_FACE_TYPE];
+
+/**
+ * `DamageType` enum from C# decompilation (`BattleLogic.ApplyDamage`).
+ */
+export const DAMAGE_TYPE = {
+  STANDARD: 0,
+  AOE: 1,
+  PER_ROUND: 2,
+  ARMOUR_PIERCING: 3,
+  ACID: 4,
+} as const;
+
+export type DamageType = (typeof DAMAGE_TYPE)[keyof typeof DAMAGE_TYPE];
 
 /** One face of a unit's 5-face die. Value 0 on SPECIAL faces without boost. */
 export interface DieFace {

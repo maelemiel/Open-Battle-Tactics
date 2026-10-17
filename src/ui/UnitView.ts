@@ -21,6 +21,10 @@ export function faceLabel(face: DieFace): string {
       return 'SPEC';
     case DIE_FACE_TYPE.ARMOUR_PIERCING:
       return `AP ${face.value}`;
+    case DIE_FACE_TYPE.ACID_STRIKE:
+      return `ACID ${face.value}`;
+    case DIE_FACE_TYPE.NONE:
+      return 'NONE';
   }
 }
 
