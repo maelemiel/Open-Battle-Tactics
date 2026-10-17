@@ -63,7 +63,7 @@ export class BattleScene extends Phaser.Scene {
       .text(WIDTH / 2, HEIGHT / 2 - 10, 'VS', {
         fontFamily: FONT,
         fontSize: '34px',
-        color: '#5a5a7a',
+        color: '#8282a8',
         fontStyle: 'bold',
       })
       .setOrigin(0.5);
@@ -118,7 +118,7 @@ export class BattleScene extends Phaser.Scene {
         WIDTH / 2,
         524,
         'SPACE: roll / resolve - R: restart after victory',
-        { fontFamily: FONT, fontSize: '11px', color: '#6a6a88' },
+        { fontFamily: FONT, fontSize: '12px', color: '#9a9ab8' },
       )
       .setOrigin(0.5);
 
@@ -189,6 +189,8 @@ export class BattleScene extends Phaser.Scene {
     const rolls = events.filter((e): e is UnitRolledEvent => e.type === 'unit-rolled');
     // TODO: dice spin is a rough text cycle; replace with a real die widget.
     await Promise.all(rolls.map((roll) => this.spinFace(roll.side, roll.face)));
+    const rollSummary = rolls.map((r) => `${r.side} rolled ${faceLabel(r.face)}`).join(', ');
+    this.announce(`Round ${this.battle.state.round}: ${rollSummary}`);
   }
 
   /** Cycles random face labels ~490ms, then settles on the rolled face. */
@@ -221,11 +223,15 @@ export class BattleScene extends Phaser.Scene {
         case 'unit-rolled':
           break; // already animated during the roll phase
         case 'initiative-determined':
+          this.announce(`Initiative: ${event.order[0]?.side} strikes first.`);
           for (const ref of event.order) {
             await this.views[ref.side].flash(180);
           }
           break;
         case 'damage-dealt': {
+          this.announce(
+            `${event.source} hits ${event.target} for ${event.amount} damage. Remaining HP: ${event.targetHpAfter}.`,
+          );
           const target = this.views[event.target];
           target.floatLabel(`-${event.amount}`, '#ff6b6b');
           target.setHp(event.targetHpAfter);
@@ -234,17 +240,28 @@ export class BattleScene extends Phaser.Scene {
           break;
         }
         case 'special-triggered':
+          this.announce(`${event.side} triggered special ${event.specialId}.`);
           await this.views[event.side].specialPop(); // stub, like the engine
           break;
         case 'unit-defeated':
+          this.announce(`${event.side} unit defeated.`);
           this.views[event.side].defeat();
           await this.wait(450);
           break;
         case 'battle-won':
+          this.announce(`Battle ended: ${event.winner.toUpperCase()} WINS!`);
           this.showBanner(event.winner);
           await this.wait(400);
           break;
       }
+    }
+  }
+
+  /** Announces combat events to assistive technologies via aria-live DOM region. */
+  private announce(message: string): void {
+    if (typeof document !== 'undefined') {
+      const el = document.getElementById('combat-announcer');
+      if (el) el.textContent = message;
     }
   }
 

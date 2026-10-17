@@ -171,6 +171,7 @@ export class UnitView {
         color,
         fontStyle: 'bold',
       })
+      .setStroke('#000000', 3)
       .setOrigin(0.5)
       .setDepth(10);
     this.scene.tweens.add({
