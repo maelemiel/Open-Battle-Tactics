@@ -10,50 +10,50 @@ export interface InitiativeContender {
 }
 
 /**
- * Calculates total initiative points for a side.
- * Verified from decompiled C# source (`BattleLogic.GetInitiativeForTeam`):
- * Sums the roll values of all units whose face type is Initiative (40000 / type 2).
+ * Team initiative = SUM of current roll VALUES of ALIVE units whose face type
+ * is Initiative (`BattleLogic.cs:GetInitiativeForTeam` 952-964), each value
+ * passed through roll hooks (`GetRollValueForUnit`, none in MVP), PLUS the
+ * team's `intelBoost` (ULTRA intel ability only; 0 in MVP).
  */
 export function computeTeamInitiative(
   contenders: readonly InitiativeContender[],
   side: Side,
+  intelBoost = 0,
 ): number {
-  return contenders
-    .filter((c) => c.side === side && c.face.type === DIE_FACE_TYPE.INITIATIVE)
-    .reduce((sum, c) => sum + c.face.value, 0);
+  return (
+    contenders
+      .filter((c) => c.side === side && c.face.type === DIE_FACE_TYPE.INITIATIVE)
+      .reduce((sum, c) => sum + c.face.value, 0) + intelBoost
+  );
 }
 
 /**
- * Computes initiative order according to official rules (`BattleLogic.CalculateInitiativeWinner`).
+ * Applies `BattleLogic.cs:CalculateInitiativeWinner` (277-288):
+ * - host > guest -> host, host < guest -> guest
+ * - TIE (including 0 vs 0) -> coin toss from the BATTLE RNG stream
+ *   (`GetNextBattleRandom(battle, 0, 2)`): toss() 0 = host wins, 1 = guest wins.
  *
- * 1. Compare total initiative points of each team (`GetInitiativeForTeam`).
- *    - If player > enemy -> player attacks first.
- *    - If enemy > player -> enemy attacks first.
- * 2. In case of tie (including both 0, which happens when neither side rolls INITIATIVE):
- *    - A 50/50 tie-break is performed (`GetNextBattleRandom(0, 2)`).
- *    - `tieBreaker` returns 0 for player or 1 for enemy. Defaults to player-first (0)
- *      when no RNG is provided.
- * 3. The winning team's units attack first, followed by the opposing team's units.
+ * The coin toss callback is MANDATORY: unlike the v1 engine, there is no
+ * player-favoring default. `toss` must draw from the battle stream in call
+ * order (it is only invoked on an actual tie).
  */
-export function computeInitiativeOrder(
-  contenders: readonly InitiativeContender[],
-  tieBreaker: () => number = () => 0,
-): InitiativeContender[] {
-  const playerInit = computeTeamInitiative(contenders, 'player');
-  const enemyInit = computeTeamInitiative(contenders, 'enemy');
-
-  let winningSide: Side;
-  if (playerInit > enemyInit) {
-    winningSide = 'player';
-  } else if (enemyInit > playerInit) {
-    winningSide = 'enemy';
-  } else {
-    // 50/50 random tie-break (0 = player, 1 = enemy)
-    winningSide = tieBreaker() === 0 ? 'player' : 'enemy';
+export function decideInitiativeWinner(
+  hostInitiative: number,
+  guestInitiative: number,
+  toss: () => 0 | 1,
+  hostSide: Side = 'player',
+): { winner: Side; tied: boolean; toss: 0 | 1 } {
+  if (hostInitiative > guestInitiative) {
+    return { winner: hostSide, tied: false, toss: 0 };
   }
-
-  const winners = contenders.filter((c) => c.side === winningSide);
-  const losers = contenders.filter((c) => c.side !== winningSide);
-
-  return [...winners, ...losers];
+  if (hostInitiative < guestInitiative) {
+    return { winner: hostSide === 'player' ? 'enemy' : 'player', tied: false, toss: 0 };
+  }
+  const coin = toss();
+  return {
+    // C#: `GetNextBattleRandom(battle, 0, 2) != 0 ? otherTeam : hostTeam`.
+    winner: coin === 0 ? hostSide : hostSide === 'player' ? 'enemy' : 'player',
+    tied: true,
+    toss: coin,
+  };
 }

@@ -46,13 +46,12 @@ export type AbilityTypeId =
 
 /**
  * `unit_level_progression.face_N_type`, a `unit_action.id`.
- * Verified from decompiled C# source (`UnitLevelProgressionDataModel.faceTypeMap` & `DieFaceType`):
- * - 10000 NONE: enum value 0 (None)
- * - 20000 DAMAGE: enum value 1 (DirectDamage)
- * - 40000 INITIATIVE: enum value 2 (Initiative)
- * - 60000 SPECIAL: enum value 3 (Special; 30000 & 50000 also map to Special)
- * - 70000 ARMOUR_PIERCING: enum value 4 (ArmourPiercing)
- * - 80000 ACID_STRIKE: enum value 5 (AcidStrike)
+ * Verified from decompiled C# source (`UnitLevelProgressionDataModel.faceTypeMap`):
+ * raw DB ids map to enum ordinals (DieFaceType.cs):
+ * None=0, DirectDamage=1, Initiative=2, Special=3, ArmourPiercing=4, AcidStrike=5.
+ * - 10000 -> None, 20000 -> DirectDamage, 30000 -> Special, 40000 -> Initiative,
+ *   50000 -> Special, 60000 -> Special, 70000 -> ArmourPiercing, 80000 -> AcidStrike.
+ * 30000, 50000 and 60000 are ALL Special (COMBAT_SPEC.md §1).
  */
 export const DIE_FACE_TYPE = {
   NONE: 10000,
@@ -64,6 +63,33 @@ export const DIE_FACE_TYPE = {
 } as const;
 
 export type DieFaceType = (typeof DIE_FACE_TYPE)[keyof typeof DIE_FACE_TYPE];
+
+/**
+ * Full DB id -> canonical `DIE_FACE_TYPE` mapping (`faceTypeMap`,
+ * `UnitLevelProgressionDataModel.cs:70-104`). The loader normalizes raw ids
+ * through this map so engine code only ever sees canonical values (30000 and
+ * 50000 both collapse to SPECIAL = 60000).
+ */
+export const FACE_TYPE_ID_MAP: Readonly<Record<number, DieFaceType>> = {
+  10000: DIE_FACE_TYPE.NONE,
+  20000: DIE_FACE_TYPE.DAMAGE,
+  30000: DIE_FACE_TYPE.SPECIAL,
+  40000: DIE_FACE_TYPE.INITIATIVE,
+  50000: DIE_FACE_TYPE.SPECIAL,
+  60000: DIE_FACE_TYPE.SPECIAL,
+  70000: DIE_FACE_TYPE.ARMOUR_PIERCING,
+  80000: DIE_FACE_TYPE.ACID_STRIKE,
+};
+
+/** Enum ordinals used by `unit_partial_level.faceNType` casts (0-5, 0 = keep base). */
+export const DIE_FACE_ORDINAL_TO_TYPE: readonly DieFaceType[] = [
+  DIE_FACE_TYPE.NONE,
+  DIE_FACE_TYPE.DAMAGE,
+  DIE_FACE_TYPE.INITIATIVE,
+  DIE_FACE_TYPE.SPECIAL,
+  DIE_FACE_TYPE.ARMOUR_PIERCING,
+  DIE_FACE_TYPE.ACID_STRIKE,
+];
 
 /**
  * `DamageType` enum from C# decompilation (`BattleLogic.ApplyDamage`).
@@ -96,6 +122,12 @@ export interface CombatStats {
   readonly specialId: number;
   /** `passive_id` -> passive ability id (0 = none). */
   readonly passiveId: number;
+  /** `special_boost_value_a/b` — BoostValue/SecondaryBoostValue of the special. */
+  readonly specialBoostA: number;
+  readonly specialBoostB: number;
+  /** `passive_boost_value_a/b` — boost values of the passive slot. */
+  readonly passiveBoostA: number;
+  readonly passiveBoostB: number;
 }
 
 // ---------------------------------------------------------------------------
@@ -145,11 +177,17 @@ export interface AbilityDef {
 export interface UnitSpecialDef {
   readonly id: number;
   readonly name: string;
-  /** `related_action_id`, a `unit_action.id` (0 = none). */
+  /** `related_action_id`, a `unit_action.id` (0 = none; NOT read by battle code). */
   readonly relatedActionId: number;
   /** `handler_id` -> `unit_special_handler.id`. */
   readonly handlerId: number;
   readonly executionOrder: number;
+}
+
+/** `unit_special_handler` row: handler id -> behavior string (`AbilityHandlerFactory.cs:Init`). */
+export interface UnitSpecialHandlerDef {
+  readonly id: number;
+  readonly handler: string;
 }
 
 // ---------------------------------------------------------------------------
@@ -182,6 +220,10 @@ export interface RawProgressionRow {
   readonly face_5_value: number;
   readonly special_id: number;
   readonly passive_id: number;
+  readonly special_boost_value_a: number;
+  readonly special_boost_value_b: number;
+  readonly passive_boost_value_a: number;
+  readonly passive_boost_value_b: number;
 }
 
 export interface RawAbilityRow {
@@ -205,6 +247,11 @@ export interface RawSpecialRow {
   readonly related_action_id: number;
   readonly handler_id: number;
   readonly execution_order: number;
+}
+
+export interface RawSpecialHandlerRow {
+  readonly id: number;
+  readonly handler: string;
 }
 
 /** One entry of localization_full.json (only `key` + `en` consumed). */

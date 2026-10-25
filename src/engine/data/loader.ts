@@ -9,23 +9,25 @@ import type {
   AbilityTypeId,
   CombatStats,
   DieFace,
-  DieFaceType,
   RarityId,
   RawAbilityRow,
   RawLocalizationEntry,
   RawProgressionRow,
+  RawSpecialHandlerRow,
   RawSpecialRow,
   RawUnitRow,
   UnitDef,
   UnitSpecialDef,
+  UnitSpecialHandlerDef,
   UnitTypeId,
 } from '../types';
-import { DIE_FACE_TYPE } from '../types';
+import { FACE_TYPE_ID_MAP } from '../types';
 
 import rawUnits from '../../../game_data/unit.json';
 import rawProgression from '../../../game_data/unit_level_progression.json';
 import rawAbilities from '../../../game_data/ability.json';
 import rawSpecials from '../../../game_data/unit_special.json';
+import rawSpecialHandlers from '../../../game_data/unit_special_handler.json';
 import rawLocalization from '../../../game_data/localization_full.json';
 
 // ---------------------------------------------------------------------------
@@ -37,14 +39,9 @@ const UNIT_TYPE_IDS: readonly UnitTypeId[] = [
 ];
 const RARITY_IDS: readonly RarityId[] = [1, 2, 3, 4, 5];
 const ABILITY_TYPE_IDS: readonly AbilityTypeId[] = [1, 2, 3, 4];
-const FACE_TYPE_IDS: readonly DieFaceType[] = [
-  DIE_FACE_TYPE.NONE,
-  DIE_FACE_TYPE.DAMAGE,
-  DIE_FACE_TYPE.INITIATIVE,
-  DIE_FACE_TYPE.SPECIAL,
-  DIE_FACE_TYPE.ARMOUR_PIERCING,
-  DIE_FACE_TYPE.ACID_STRIKE,
-];
+const RAW_FACE_TYPE_IDS: readonly number[] = Object.keys(FACE_TYPE_ID_MAP).map(
+  Number,
+);
 
 function rows(value: unknown): readonly unknown[] {
   if (!Array.isArray(value)) throw new Error('expected JSON array');
@@ -96,8 +93,12 @@ export function localize(key: string): string {
 function toStats(row: RawProgressionRow): CombatStats {
   const faces: DieFace[] = [];
   for (let i = 1; i <= 5; i++) {
+    // Normalize the raw `unit_action.id` through the canonical faceTypeMap
+    // (`UnitLevelProgressionDataModel.cs:70-104`): 30000 and 50000 BOTH mean
+    // Special and collapse to DIE_FACE_TYPE.SPECIAL.
+    const rawType = pick(row, `face_${i}_type`, RAW_FACE_TYPE_IDS);
     faces.push({
-      type: pick(row, `face_${i}_type`, FACE_TYPE_IDS),
+      type: FACE_TYPE_ID_MAP[rawType]!,
       value: num(row, `face_${i}_value`),
     });
   }
@@ -107,6 +108,10 @@ function toStats(row: RawProgressionRow): CombatStats {
     faces,
     specialId: num(row, 'special_id'),
     passiveId: num(row, 'passive_id'),
+    specialBoostA: num(row, 'special_boost_value_a'),
+    specialBoostB: num(row, 'special_boost_value_b'),
+    passiveBoostA: num(row, 'passive_boost_value_a'),
+    passiveBoostB: num(row, 'passive_boost_value_b'),
   };
 }
 
@@ -194,6 +199,7 @@ export function loadAbilities(): readonly AbilityDef[] {
 // ---------------------------------------------------------------------------
 
 let specialsCache: readonly UnitSpecialDef[] | undefined;
+let handlersCache: readonly UnitSpecialHandlerDef[] | undefined;
 
 /** All 20 unit special definitions (special die face effects). */
 export function loadUnitSpecials(): readonly UnitSpecialDef[] {
@@ -209,4 +215,24 @@ export function loadUnitSpecials(): readonly UnitSpecialDef[] {
     };
   });
   return specialsCache;
+}
+
+/** All 19 handler strings (`unit_special_handler` -> `AbilityHandlerFactory` registry). */
+export function loadUnitSpecialHandlers(): readonly UnitSpecialHandlerDef[] {
+  if (handlersCache) return handlersCache;
+  handlersCache = rows(rawSpecialHandlers).map((row) => {
+    const handler = row as RawSpecialHandlerRow;
+    return {
+      id: num(handler, 'id'),
+      handler: str(handler, 'handler'),
+    };
+  });
+  return handlersCache;
+}
+
+/** Handler string for a `unit_special.handlerId` (throws on unknown id). */
+export function getSpecialHandlerName(handlerId: number): string {
+  const row = loadUnitSpecialHandlers().find((h) => h.id === handlerId);
+  if (!row) throw new Error(`unknown unit_special_handler id ${handlerId}`);
+  return row.handler;
 }

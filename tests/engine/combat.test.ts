@@ -6,12 +6,14 @@ import type {
   BattleEvent,
   DamageDealtEvent,
   InitiativeDeterminedEvent,
+  SpecialExecutedEvent,
   SpecialTriggeredEvent,
   UnitRolledEvent,
 } from '../../src/engine/combat/events';
-import { mulberry32 } from '../../src/engine/combat/rng';
-import { computeInitiativeOrder } from '../../src/engine/combat/initiative';
+import { decideInitiativeWinner, computeTeamInitiative } from '../../src/engine/combat/initiative';
+import type { InitiativeContender } from '../../src/engine/combat/initiative';
 import { applyDamage } from '../../src/engine/combat/damage';
+import { MicrosoftRNG } from '../../src/engine/combat/rng';
 import { DAMAGE_TYPE, DIE_FACE_TYPE } from '../../src/engine/types';
 
 // VOLT 11001 L1: hp 20, all DAMAGE faces [2,4,6,9,10].
@@ -59,23 +61,6 @@ function findSeed(
   throw new Error('findSeed: no seed matched the predicate');
 }
 
-describe('seeded rng', () => {
-  it('replays the exact same sequence for the same seed', () => {
-    const a = mulberry32(42);
-    const b = mulberry32(42);
-    const seqA = Array.from({ length: 50 }, () => a.next());
-    const seqB = Array.from({ length: 50 }, () => b.next());
-    expect(seqA).toEqual(seqB);
-    expect(new Set(seqA).size).toBeGreaterThan(1);
-  });
-
-  it('differs between seeds', () => {
-    const a = Array.from({ length: 50 }, () => mulberry32(1).next());
-    const b = Array.from({ length: 50 }, () => mulberry32(2).next());
-    expect(a).not.toEqual(b);
-  });
-});
-
 describe('battle determinism', () => {
   it('same seed replays an identical full battle (events + state)', () => {
     const battleA = createBattle({ ...VOLT_VS_LONGSHOT, seed: 123 });
@@ -87,16 +72,25 @@ describe('battle determinism', () => {
     expect(battleA.state).not.toBe(battleB.state);
   });
 
+  it('different seeds replay different battles', () => {
+    const eventsA = playAll(createBattle({ ...VOLT_VS_LONGSHOT, seed: 1 }));
+    const eventsB = playAll(createBattle({ ...VOLT_VS_LONGSHOT, seed: 2 }));
+    expect(eventsA).not.toEqual(eventsB);
+  });
+
   it('state gets a new reference on each mutation and stays fresh', () => {
     const battle = createBattle({ ...VOLT_VS_LONGSHOT, seed: 7 });
     const s0 = battle.state;
     expect(s0.round).toBe(0);
+    expect(s0.teams.player.energy).toBe(0);
     expect(s0.combatants.every((c) => c.currentFace === null)).toBe(true);
     battle.rollPhase();
     const s1 = battle.state;
     expect(s1).not.toBe(s0);
     expect(s1.round).toBe(1);
     expect(s1.combatants.every((c) => c.currentFace !== null)).toBe(true);
+    expect(s1.teams.player.energy).toBe(3); // BeginRound resets energy
+    expect(s1.teams.enemy.energy).toBe(3);
     battle.resolveRound();
     expect(battle.state).not.toBe(s1);
     expect(() => {
@@ -105,6 +99,10 @@ describe('battle determinism', () => {
     }).toThrow();
     expect(battle.state.round).not.toBe(99);
   });
+
+  it('requires seed or seeds', () => {
+    expect(() => createBattle(VOLT_VS_LONGSHOT)).toThrow(/seed/);
+  });
 });
 
 describe('VOLT vs LONGSHOT full battle', () => {
@@ -112,7 +110,7 @@ describe('VOLT vs LONGSHOT full battle', () => {
   const events = playAll(battle);
   const state = battle.state;
 
-  it('ends with a winner and sane hp', () => {
+  it('ends with a winner; loser hp may be negative (overkill, no clamp)', () => {
     expect(state.winner).not.toBeNull();
     expect(battle.isOver()).toBe(true);
     const winnerUnit = state.combatants.find((c) => c.side === state.winner)!;
@@ -120,10 +118,9 @@ describe('VOLT vs LONGSHOT full battle', () => {
     expect(winnerUnit.alive).toBe(true);
     expect(winnerUnit.hp).toBeGreaterThan(0);
     expect(loserUnit.alive).toBe(false);
-    expect(loserUnit.hp).toBe(0); // exact kill, never negative
+    expect(loserUnit.hp).toBeLessThanOrEqual(0); // exact kill 0 or overkill < 0
     for (const c of state.combatants) {
       expect(Number.isFinite(c.hp)).toBe(true);
-      expect(c.hp).toBeGreaterThanOrEqual(0);
       expect(c.hp).toBeLessThanOrEqual(c.maxHp);
     }
   });
@@ -141,7 +138,7 @@ describe('VOLT vs LONGSHOT full battle', () => {
     expect(() => battle.resolveRound()).toThrow(/battle is over/);
   });
 
-  it('deals exactly face.value damage with a consistent hp ledger', () => {
+  it('deals exactly face.value damage with a consistent (unclamped) hp ledger', () => {
     const hp: Record<string, number> = { 'player:11001': 20, 'enemy:11002': 19 };
     const rolled = new Map<string, UnitRolledEvent>();
     for (const e of events) {
@@ -154,11 +151,16 @@ describe('VOLT vs LONGSHOT full battle', () => {
       expect(roll!.face.type).toBe(DIE_FACE_TYPE.DAMAGE);
       expect(e.amount).toBe(roll!.face.value); // exact face damage
       const key = `${e.target}:${e.targetUnitId}`;
-      expect(e.targetHpAfter).toBe(Math.max(0, hp[key]! - e.amount));
+      // No armor source in this matchup: full face value to hp, unclamped.
+      expect(e.targetHpAfter).toBe(hp[key]! - e.amount);
       hp[key] = e.targetHpAfter;
     }
-    for (const e of events) {
-      if (e.type === 'damage-dealt') expect(e.targetHpAfter).toBeGreaterThanOrEqual(0);
+  });
+
+  it('rolls every living unit every round via its own team stream', () => {
+    for (let r = 1; r <= state.round; r++) {
+      const rolls = rollEvents(events).filter((e) => e.round === r);
+      expect(rolls.map((e) => e.side)).toEqual(['player', 'enemy']); // host rolls first
     }
   });
 });
@@ -167,32 +169,30 @@ describe('initiative rules (BattleLogic.CalculateInitiativeWinner)', () => {
   const voltFace = (value: number) => ({ type: DIE_FACE_TYPE.DAMAGE, value });
   const initFace = (value: number) => ({ type: DIE_FACE_TYPE.INITIATIVE, value });
 
-  it('INITIATIVE face beats a DAMAGE face regardless of damage value', () => {
-    const order = computeInitiativeOrder([
-      { side: 'enemy', unitId: 2, face: voltFace(10) },
+  it('team initiative is the SUM of initiative face values (+intelBoost)', () => {
+    const contenders: InitiativeContender[] = [
       { side: 'player', unitId: 1, face: initFace(5) },
-    ]);
-    expect(order.map((c) => c.unitId)).toEqual([1, 2]);
-  });
-
-  it('both INITIATIVE: higher value first', () => {
-    expect(
-      computeInitiativeOrder([
-        { side: 'player', unitId: 1, face: initFace(5) },
-        { side: 'enemy', unitId: 2, face: initFace(9) },
-      ]).map((c) => c.unitId),
-    ).toEqual([2, 1]);
-  });
-
-  it('neither rolls INITIATIVE: 50/50 tie-break determines order', () => {
-    const contenders = [
-      { side: 'enemy' as const, unitId: 2, face: voltFace(10) },
-      { side: 'player' as const, unitId: 1, face: voltFace(2) },
+      { side: 'player', unitId: 2, face: voltFace(10) },
+      { side: 'player', unitId: 3, face: initFace(3) },
+      { side: 'enemy', unitId: 4, face: initFace(9) },
     ];
-    // tieBreaker = 0 -> player first
-    expect(computeInitiativeOrder(contenders, () => 0).map((c) => c.unitId)).toEqual([1, 2]);
-    // tieBreaker = 1 -> enemy first
-    expect(computeInitiativeOrder(contenders, () => 1).map((c) => c.unitId)).toEqual([2, 1]);
+    expect(computeTeamInitiative(contenders, 'player')).toBe(8); // 5 + 3, damage ignored
+    expect(computeTeamInitiative(contenders, 'player', 2)).toBe(10); // intelBoost adds
+    expect(computeTeamInitiative(contenders, 'enemy')).toBe(9);
+  });
+
+  it('higher total wins; INITIATIVE face beats DAMAGE regardless of value', () => {
+    expect(decideInitiativeWinner(5, 0, () => 1, 'player').winner).toBe('player');
+    expect(decideInitiativeWinner(0, 5, () => 0, 'player').winner).toBe('enemy');
+  });
+
+  it('tie (including 0-0) ALWAYS resolves through the coin toss, 0=host 1=guest', () => {
+    const toPlayer = decideInitiativeWinner(0, 0, () => 0, 'player');
+    expect(toPlayer).toEqual({ winner: 'player', tied: true, toss: 0 });
+    const toEnemy = decideInitiativeWinner(7, 7, () => 1, 'player');
+    expect(toEnemy).toEqual({ winner: 'enemy', tied: true, toss: 1 });
+    // host = enemy flips the mapping
+    expect(decideInitiativeWinner(0, 0, () => 0, 'enemy').winner).toBe('enemy');
   });
 
   it('INITIATIVE face strikes first and ALSO attacks with its face value', () => {
@@ -206,40 +206,93 @@ describe('initiative rules (BattleLogic.CalculateInitiativeWinner)', () => {
     );
     expect(order[0]?.order[0]?.side).toBe('player');
     const damages = damageEvents(events);
-    // Player with INITIATIVE face attacks first for its face value
     expect(damages.length).toBeGreaterThanOrEqual(1);
     expect(damages[0]!.source).toBe('player');
+    expect(damages[0]!.amount).toBe(
+      battle.state.combatants.find((c) => c.side === 'player')!.currentFace!.value,
+    );
+  });
+
+  it('emits initiative-cointoss on ties, decided by the battle stream', () => {
+    // VOLT vs LONGSHOT L1 have NO initiative faces: every round is a 0-0 tie.
+    const seed = 42;
+    const battle = createBattle({ ...VOLT_VS_LONGSHOT, seed });
+    battle.rollPhase();
+    const events = battle.resolveRound();
+    const toss = events.find(
+      (e): e is Extract<BattleEvent, { type: 'initiative-cointoss' }> =>
+        e.type === 'initiative-cointoss',
+    );
+    expect(toss).toBeDefined();
+    // Battle stream seed = deriveSeeds(seed).battle = seed; its FIRST draw is
+    // the round-1 coin toss (no earlier battle-stream draw exists).
+    const predicted = new MicrosoftRNG(seed).nextRange(0, 2);
+    expect(toss!.toss).toBe(predicted as 0 | 1);
+    expect(toss!.winner).toBe(predicted === 0 ? 'player' : 'enemy');
+    const order = events.find(
+      (e): e is InitiativeDeterminedEvent => e.type === 'initiative-determined',
+    );
+    expect(order!.order[0]!.side).toBe(toss!.winner);
   });
 });
 
 describe('damage and armor formulas (BattleLogic.ApplyDamage)', () => {
+  const target = (hp: number, armor: number, extra = 0, acid = 0) => ({
+    hp,
+    armor,
+    extraDamage: extra,
+    acidPerRound: acid,
+  });
+
   it('absorbs damage using armor before reducing hp', () => {
-    // 6 damage against 20 HP with 4 armor -> 4 absorbed, 2 to HP -> 18 HP, 0 armor
-    const result = applyDamage(20, 6, 4, DAMAGE_TYPE.STANDARD);
-    expect(result.finalHp).toBe(18);
-    expect(result.finalArmor).toBe(0);
+    // 6 damage, 4 armor -> 4 absorbed, 2 to HP -> 18 HP, 0 armor
+    const result = applyDamage(target(20, 4), 6, DAMAGE_TYPE.STANDARD);
+    expect(result.hp).toBe(18);
+    expect(result.armor).toBe(0);
     expect(result.absorbed).toBe(4);
+    expect(result.hpDamage).toBe(2);
+    expect(result.total).toBe(6);
   });
 
   it('partially absorbs damage when armor exceeds damage', () => {
-    // 3 damage against 20 HP with 10 armor -> 3 absorbed, 0 to HP -> 20 HP, 7 armor
-    const result = applyDamage(20, 3, 10, DAMAGE_TYPE.STANDARD);
-    expect(result.finalHp).toBe(20);
-    expect(result.finalArmor).toBe(7);
+    // 3 damage, 10 armor -> 3 absorbed, 0 to HP -> 20 HP, 7 armor left
+    const result = applyDamage(target(20, 10), 3, DAMAGE_TYPE.STANDARD);
+    expect(result.hp).toBe(20);
+    expect(result.armor).toBe(7);
     expect(result.absorbed).toBe(3);
   });
 
-  it('armour piercing ignores armor completely', () => {
-    // 6 AP damage against 20 HP with 10 armor -> ignores armor -> 14 HP, 0 armor
-    const result = applyDamage(20, 6, 10, DAMAGE_TYPE.ARMOUR_PIERCING);
-    expect(result.finalHp).toBe(14);
-    expect(result.finalArmor).toBe(0);
+  it('armour piercing zeroes armor and skips absorption (this target only)', () => {
+    const result = applyDamage(target(20, 10), 6, DAMAGE_TYPE.ARMOUR_PIERCING);
+    expect(result.hp).toBe(14);
+    expect(result.armor).toBe(0);
     expect(result.absorbed).toBe(0);
+  });
+
+  it('acid hits increment the permanent acidPerRound DoT', () => {
+    const result = applyDamage(target(20, 0, 0, 2), 5, DAMAGE_TYPE.ACID);
+    expect(result.acidPerRound).toBe(3);
+    expect(result.hp).toBe(15);
+    // Non-acid damage does not touch the DoT stack.
+    expect(applyDamage(target(20, 0, 0, 2), 5, DAMAGE_TYPE.STANDARD).acidPerRound).toBe(2);
+  });
+
+  it('adds target.extraDamage to every hit BEFORE armor absorption', () => {
+    // 3 damage + 2 extraDamage vs 4 armor -> total 5, absorbed 4, 1 to HP
+    const result = applyDamage(target(20, 4, 2), 3, DAMAGE_TYPE.STANDARD);
+    expect(result.total).toBe(5);
+    expect(result.absorbed).toBe(4);
+    expect(result.hp).toBe(19);
+  });
+
+  it('hp is NOT clamped at 0: overkill goes negative', () => {
+    expect(applyDamage(target(4, 0), 9, DAMAGE_TYPE.STANDARD).hp).toBe(-5);
+    expect(applyDamage(target(4, 2), 9, DAMAGE_TYPE.ARMOUR_PIERCING).hp).toBe(-5);
   });
 });
 
-describe('special faces (MVP stub)', () => {
-  it('SPECIAL face emits special-triggered with the unit specialId', () => {
+describe('special faces', () => {
+  it('stubbed specials emit special-triggered + non-implemented special-executed', () => {
     const config = { playerUnitId: 21029, playerLevel: 1, enemyUnitId: 11001, enemyLevel: 1 };
     const seed = findSeed(config, (rolls) => rolls[0]!.face.type === DIE_FACE_TYPE.SPECIAL);
     const battle = createBattle({ ...config, seed });
@@ -249,7 +302,14 @@ describe('special faces (MVP stub)', () => {
       (e): e is SpecialTriggeredEvent => e.type === 'special-triggered',
     );
     expect(specials).toHaveLength(1);
-    expect(specials[0]?.specialId).toBe(60600);
+    expect(specials[0]?.specialId).toBe(60600); // HOTSHOT, stubbed in MVP
+    const executed = events.filter(
+      (e): e is SpecialExecutedEvent => e.type === 'special-executed',
+    );
+    expect(executed).toHaveLength(1);
+    expect(executed[0]?.handler).toBe('hotshot');
+    expect(executed[0]?.implemented).toBe(false);
+    // The stub must not deal damage: only the enemy attacked this round.
     const damages = damageEvents(events);
     expect(damages.every((d) => d.source === 'enemy')).toBe(true);
   });
