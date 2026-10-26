@@ -284,6 +284,7 @@ export function createBattle(config: BattleConfig): Battle {
         targetUnitId: target.unitId,
         amount: result.total,
         targetHpAfter: target.hp,
+        damageType,
       });
     }
     if (target.hp <= 0 && target.alive) {

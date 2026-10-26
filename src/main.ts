@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 
 import { BattleScene } from './ui/scenes/BattleScene';
+import { TitleScene } from './ui/scenes/TitleScene';
 
 new Phaser.Game({
   // CANVAS (not AUTO): 2D context keeps automated screenshots deterministic
@@ -14,5 +15,5 @@ new Phaser.Game({
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
   },
-  scene: [BattleScene],
+  scene: [TitleScene, BattleScene],
 });

@@ -1,4 +1,4 @@
-import type { DieFace } from '../types';
+import type { DieFace, DamageType } from '../types';
 
 /** Which side of the battlefield an actor or event belongs to. */
 export type Side = 'player' | 'enemy';
@@ -43,6 +43,8 @@ export interface DamageDealtEvent {
   readonly amount: number;
   /** HP after the hit. NOT clamped at 0: overkill goes negative by design. */
   readonly targetHpAfter: number;
+  /** Damage type of the face that fired (UI picks the right VFX). */
+  readonly damageType: DamageType;
 }
 
 /** Armor absorbed part of an attack (`BattleLogic.cs:727-729`). */

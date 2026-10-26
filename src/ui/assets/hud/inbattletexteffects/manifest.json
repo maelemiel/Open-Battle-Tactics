@@ -1,0 +1,39 @@
+{
+  "source": "InBattleTextEffectsSpriteCollection Data.png",
+  "count": 3,
+  "sprites": [
+    {
+      "file": "0.png",
+      "x": 68,
+      "y": 104,
+      "w": 19,
+      "h": 149,
+      "atlas": {
+        "w": 128,
+        "h": 256
+      }
+    },
+    {
+      "file": "1.png",
+      "x": 93,
+      "y": 130,
+      "w": 20,
+      "h": 124,
+      "atlas": {
+        "w": 128,
+        "h": 256
+      }
+    },
+    {
+      "file": "2.png",
+      "x": 9,
+      "y": 200,
+      "w": 48,
+      "h": 47,
+      "atlas": {
+        "w": 128,
+        "h": 256
+      }
+    }
+  ]
+}

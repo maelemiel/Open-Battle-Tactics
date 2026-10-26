@@ -11,14 +11,24 @@ import ability2Url from './assets/hud/abilityicons/22.png';
 import ability3Url from './assets/hud/abilityicons/24.png';
 import muzzleFlashUrl from './assets/hud/cannonhighfire/3.png';
 import impactBurstUrl from './assets/hud/cannonhighhit/0.png';
+import dicePlateUrl from './assets/hud/battledicepopup/0.png';
+import coinFaceUrl from './assets/hud/cointoss/17.png';
+import coinBackUrl from './assets/hud/cointoss/19.png';
+import coinFlashUrl from './assets/hud/cointoss/11.png';
+import victoryBurstUrl from './assets/hud/victorysheen/14.png';
+import sparkBurstUrl from './assets/hud/sparks/1.png';
+import shortCircuitBurstUrl from './assets/hud/shortcircuitfx/20.png';
+import shortCircuitArcsUrl from './assets/hud/shortcircuitfx/22.png';
+import apBeamUrl from './assets/hud/ionstrikerevised/4.png';
+import titleArtUrl from './assets/hud/titlescreen/0.png';
 
 import { DIE_FACE_TYPE } from '../engine/types';
 import type { DieFaceType } from '../engine/types';
 
 /**
  * Real TK2D HUD art (sliced by tools/slice_atlases.py, see
- * docs/HUD_ASSETS.md). One loader + key registry shared by BattleScene
- * and UnitView so textures are registered exactly once.
+ * docs/HUD_ASSETS.md). One loader + key registry shared by BattleScene,
+ * TitleScene and UnitView so textures are registered exactly once.
  */
 export const HUD_KEYS = {
   diceDamage: 'hud-dice-damage',
@@ -29,6 +39,22 @@ export const HUD_KEYS = {
   abilities: ['hud-ability-0', 'hud-ability-1', 'hud-ability-2', 'hud-ability-3'],
   muzzleFlash: 'hud-fx-muzzle',
   impactBurst: 'hud-fx-impact',
+  /** White rounded plate from BattleDicePopUp (the roll popup backdrop). */
+  dicePlate: 'hud-dice-plate',
+  /** Coin faces + glow from CoinToss (initiative tie flip). */
+  coinFace: 'hud-coin-face',
+  coinBack: 'hud-coin-back',
+  coinFlash: 'hud-coin-flash',
+  /** Radial bursts: victory sheen + gold sparks. */
+  victoryBurst: 'hud-fx-victory',
+  sparkBurst: 'hud-fx-sparks',
+  /** Electric burst/arcs from ShortCircuitFX (special 60800). */
+  shortCircuitBurst: 'hud-fx-sc-burst',
+  shortCircuitArcs: 'hud-fx-sc-arcs',
+  /** Yellow beam from IonStrikeRevised (armour-piercing shot). */
+  apBeam: 'hud-fx-ap-beam',
+  /** Full title-screen illustration (TitleScreen collection, 768x1280). */
+  titleArt: 'hud-title-art',
 } as const;
 
 /** Texture key for a die-face badge background (null = vector fallback). */
@@ -62,4 +88,14 @@ export function loadHudTextures(scene: Phaser.Scene): void {
   });
   scene.load.image(HUD_KEYS.muzzleFlash, muzzleFlashUrl);
   scene.load.image(HUD_KEYS.impactBurst, impactBurstUrl);
+  scene.load.image(HUD_KEYS.dicePlate, dicePlateUrl);
+  scene.load.image(HUD_KEYS.coinFace, coinFaceUrl);
+  scene.load.image(HUD_KEYS.coinBack, coinBackUrl);
+  scene.load.image(HUD_KEYS.coinFlash, coinFlashUrl);
+  scene.load.image(HUD_KEYS.victoryBurst, victoryBurstUrl);
+  scene.load.image(HUD_KEYS.sparkBurst, sparkBurstUrl);
+  scene.load.image(HUD_KEYS.shortCircuitBurst, shortCircuitBurstUrl);
+  scene.load.image(HUD_KEYS.shortCircuitArcs, shortCircuitArcsUrl);
+  scene.load.image(HUD_KEYS.apBeam, apBeamUrl);
+  scene.load.image(HUD_KEYS.titleArt, titleArtUrl);
 }

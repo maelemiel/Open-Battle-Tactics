@@ -1,0 +1,17 @@
+{
+  "source": "BattleDicePopUpSpriteCollectionData.png",
+  "count": 1,
+  "sprites": [
+    {
+      "file": "0.png",
+      "x": 2,
+      "y": 126,
+      "w": 128,
+      "h": 128,
+      "atlas": {
+        "w": 256,
+        "h": 256
+      }
+    }
+  ]
+}

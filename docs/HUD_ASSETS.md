@@ -39,3 +39,24 @@ Output: `src/ui/assets/hud/<atlas>/<index>.png` + `manifest.json` (rects). 11 at
 
 - IDs verified visually via downscaled contact sheets (indices = manifest order, y-then-x).
 - Sprites are committed build assets; Vite copies only imported files into dist/.
+
+## Wave 3 (2026-10-26, "real UI/UX" pass)
+
+Newly sliced collections (14 more atlases, +158 sprites) and wired:
+
+| Use | Sprite | Where |
+| --- | --- | --- |
+| roll popup plate | `battledicepopup/0.png` (128x128 white rounded plate) | both final faces shown together ~1s after roll settles |
+| coin faces + glow | `cointoss/17.png`, `19.png` (230px gold coins), `11.png` (127x126 radial glow) | initiative-tie flip (3 turns, face swap on scaleX 0) |
+| victory burst | `victorysheen/14.png` (127x126 white radial) | behind the victory banner, additive |
+| spark burst | `sparks/1.png` (121x121 gold radial) | on every damage impact, additive |
+| SHORT CIRCUIT FX | `shortcircuitfx/20.png` (124x117 cyan burst), `22.png` (79x89 arcs) | special-executed 60800 on the victim |
+| AP beam | `ionstrikerevised/4.png` (396x21 yellow beam) | armour-piercing damage-dealt: instant muzzle->hull beam (replaces the arcing shell) |
+| title art | `titlescreen/0.png` (768x1280 full illustration, opaque) | TitleScene letterboxed right panel |
+
+Engine companion change: `DamageDealtEvent.damageType` now exposed so the UI can pick
+the AP beam vs standard shell VFX.
+
+Sliced but unused (candidates): `topbar/*` (HUD top bar pieces), `targeteffect/*`
+(reticle), `specialbuffing|buffed/*` (aura frames), `cameraflash/*`, `arenabronzeparallax/*`,
+`inbattletexteffects/*` (3 streaks, no digit glyphs -> damage text stays styled text).

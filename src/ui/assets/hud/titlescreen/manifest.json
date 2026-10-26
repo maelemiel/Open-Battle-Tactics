@@ -1,0 +1,17 @@
+{
+  "source": "TitleScreenSpriteCollection Data.png",
+  "count": 1,
+  "sprites": [
+    {
+      "file": "0.png",
+      "x": 2,
+      "y": 766,
+      "w": 768,
+      "h": 1280,
+      "atlas": {
+        "w": 1024,
+        "h": 2048
+      }
+    }
+  ]
+}

@@ -5,9 +5,10 @@ import { createBattle } from '../../engine/combat/engine';
 import type { Battle } from '../../engine/combat/engine';
 import type { BattleEvent, Side, UnitRolledEvent } from '../../engine/combat/events';
 import { getUnitById } from '../../engine/data/loader';
+import { DAMAGE_TYPE } from '../../engine/types';
 import type { DieFace } from '../../engine/types';
-import { UnitView, faceLabel } from '../UnitView';
-import { HUD_KEYS, loadHudTextures } from '../hudAssets';
+import { UnitView, faceLabel, faceBadgeLabel } from '../UnitView';
+import { HUD_KEYS, loadHudTextures, dieBadgeKey } from '../hudAssets';
 import { loadUnitTextures } from '../unitArt';
 
 const WIDTH = 960;
@@ -332,8 +333,65 @@ export class BattleScene extends Phaser.Scene {
     const rolls = events.filter((e): e is UnitRolledEvent => e.type === 'unit-rolled');
     await Promise.all(rolls.map((roll) => this.spinFace(roll.side, roll.face)));
     for (const roll of rolls) this.views[roll.side].pulseDieBadge();
+    await this.showDicePopup(rolls);
     const rollSummary = rolls.map((r) => `${r.side} rolled ${faceLabel(r.face)}`).join(', ');
     this.announce(`Round ${this.battle.state.round}: ${rollSummary}`);
+  }
+
+  /**
+   * The real game's roll moment: both final faces shown together on the
+   * BattleDicePopUp plate, center screen, before the fight reads them out.
+   */
+  private showDicePopup(rolls: readonly UnitRolledEvent[]): Promise<void> {
+    if (!this.textures.getFrame(HUD_KEYS.dicePlate) || rolls.length === 0) {
+      return Promise.resolve();
+    }
+    const W = 380;
+    const H = 132;
+    const cont = this.add.container(WIDTH / 2, 168).setDepth(12).setAlpha(0).setScale(0.85);
+    const plate = this.add.image(0, 0, HUD_KEYS.dicePlate).setDisplaySize(W, H).setTint(0x1c2432).setAlpha(0.95);
+    cont.add(plate);
+    rolls.forEach((roll, i) => {
+      const x = rolls.length === 1 ? 0 : -W / 4 + (i * W) / 2;
+      const badgeKey = dieBadgeKey(roll.face.type);
+      if (badgeKey && this.textures.exists(badgeKey)) {
+        cont.add(this.add.image(x, -8, badgeKey).setDisplaySize(50, 58));
+      }
+      cont.add(
+        this.add
+          .text(x, 38, `${roll.side.toUpperCase()}  ${faceBadgeLabel(roll.face)}`, {
+            fontFamily: FONT,
+            fontSize: '14px',
+            color: '#ffe9a0',
+            fontStyle: 'bold',
+            stroke: '#10131c',
+            strokeThickness: 3,
+          })
+          .setOrigin(0.5),
+      );
+    });
+    return new Promise((resolve) => {
+      this.tweens.add({
+        targets: cont,
+        alpha: 1,
+        scale: 1,
+        duration: 200,
+        ease: 'Back.easeOut',
+        onComplete: () => {
+          this.tweens.add({
+            targets: cont,
+            alpha: 0,
+            scale: 0.9,
+            delay: 800,
+            duration: 200,
+            onComplete: () => {
+              cont.destroy();
+              resolve();
+            },
+          });
+        },
+      });
+    });
   }
 
   /** Cycles random die faces ~490ms, then settles on the rolled face. */
@@ -389,8 +447,15 @@ export class BattleScene extends Phaser.Scene {
           );
           shooter.kickback(); // firing recoil (UnitView.cs:1043)
           this.playMuzzleFlash(event.source);
-          await this.fireShell(shooter.muzzleX, shooter.muzzleY, target.bodyX, target.bodyY);
+          if (event.damageType === DAMAGE_TYPE.ARMOUR_PIERCING) {
+            // Piercing shots are a near-instant yellow beam (IonStrike art).
+            this.playBeam(shooter.muzzleX, shooter.muzzleY, target.bodyX, target.bodyY);
+            await this.wait(140);
+          } else {
+            await this.fireShell(shooter.muzzleX, shooter.muzzleY, target.bodyX, target.bodyY);
+          }
           this.playImpact(event.target);
+          this.playSparkBurst(target.bodyX, target.bodyY);
           this.cameras.main.shake(110, 0.004);
           target.hitFlash(0xffb0a0);
           if (absorbed > 0) {
@@ -419,17 +484,23 @@ export class BattleScene extends Phaser.Scene {
           await this.views[event.side].specialPop(); // stub, like the engine
           break;
         case 'special-executed': {
+          const isShortCircuit = event.specialId === 60800 || event.handler === 'shortcircuit';
           this.announce(
             `${event.side} executes ${event.handler}${event.implemented ? '' : ' (engine stub)'}.`,
           );
           await this.views[event.side].specialPop();
+          const victim = this.views[event.side === 'player' ? 'enemy' : 'player'];
+          if (isShortCircuit) {
+            this.playShortCircuit(victim.bodyX, victim.bodyY);
+            victim.hitFlash(0x9fe8ff);
+            this.cameras.main.shake(160, 0.005);
+          }
           if (event.implemented && event.damage != null) {
-            const victim = this.views[event.side === 'player' ? 'enemy' : 'player'];
             victim.hitFlash(0xfff0a0);
             victim.floatLabel(`-${event.damage}`, '#ffe066');
             this.syncHpFromState();
           }
-          await this.wait(300);
+          await this.wait(420);
           break;
         }
         case 'unit-defeated':
@@ -442,6 +513,7 @@ export class BattleScene extends Phaser.Scene {
         case 'battle-won':
           this.announce(`Battle ended: ${event.winner.toUpperCase()} WINS!`);
           this.showBanner(event.winner);
+          this.playVictoryBurst();
           await this.wait(400);
           break;
       }
@@ -582,11 +654,12 @@ export class BattleScene extends Phaser.Scene {
     }
   }
 
-  /** Center-screen coin-toss callout on initiative ties. */
+  /** Center-screen coin-toss callout on initiative ties: real coin flip. */
   private coinPop(winner: Side): Promise<void> {
     return new Promise((resolve) => {
-      const text = this.add
-        .text(WIDTH / 2, 205, `COIN TOSS: ${winner.toUpperCase()} FIRST`, {
+      const cy = 205;
+      const result = this.add
+        .text(WIDTH / 2, cy + 92, `COIN TOSS: ${winner.toUpperCase()} FIRST`, {
           fontFamily: FONT,
           fontSize: '24px',
           color: '#ffe066',
@@ -596,28 +669,134 @@ export class BattleScene extends Phaser.Scene {
         })
         .setOrigin(0.5)
         .setAlpha(0)
-        .setScale(0.4)
         .setDepth(15);
-      this.tweens.add({
-        targets: text,
-        alpha: 1,
-        scale: 1,
-        duration: 180,
-        ease: 'Back.easeOut',
-        onComplete: () => {
-          this.tweens.add({
-            targets: text,
-            alpha: 0,
-            delay: 420,
-            duration: 220,
-            onComplete: () => {
-              text.destroy();
-              resolve();
-            },
-          });
-        },
+      const hasCoin = this.textures.exists(HUD_KEYS.coinFace);
+      const flash = hasCoin
+        ? this.add
+            .image(WIDTH / 2, cy, HUD_KEYS.coinFlash)
+            .setDisplaySize(190, 190)
+            .setDepth(14)
+            .setAlpha(0)
+        : null;
+      const coin = hasCoin
+        ? this.add.image(WIDTH / 2, cy, HUD_KEYS.coinFace).setDisplaySize(96, 96).setDepth(15)
+        : null;
+      // Flip: scaleX 1 -> 0 -> swap face -> 1, three turns, then result text.
+      const flip = (remaining: number, done: () => void) => {
+        if (!coin) return done();
+        this.tweens.add({
+          targets: coin,
+          scaleX: 0.05,
+          duration: 130,
+          ease: 'Quad.easeIn',
+          onComplete: () => {
+            coin.setTexture(remaining % 2 === 0 ? HUD_KEYS.coinBack : HUD_KEYS.coinFace);
+            this.tweens.add({
+              targets: coin,
+              scaleX: 1,
+              duration: 130,
+              ease: 'Quad.easeOut',
+              onComplete: () => {
+                if (remaining > 1) flip(remaining - 1, done);
+                else done();
+              },
+            });
+          },
+        });
+      };
+      if (flash) this.tweens.add({ targets: flash, alpha: 0.8, duration: 200 });
+      flip(3, () => {
+        this.tweens.add({ targets: result, alpha: 1, duration: 150 });
+        this.tweens.add({
+          targets: [coin, flash, result].filter((o): o is Phaser.GameObjects.Image | Phaser.GameObjects.Text => o !== null),
+          alpha: 0,
+          delay: 650,
+          duration: 220,
+          onComplete: () => {
+            coin?.destroy();
+            flash?.destroy();
+            result.destroy();
+            resolve();
+          },
+        });
       });
     });
+  }
+
+  /** Armour-piercing shot: instant yellow beam muzzle -> hull (IonStrike art). */
+  private playBeam(x0: number, y0: number, x1: number, y1: number): void {
+    if (!this.textures.getFrame(HUD_KEYS.apBeam)) return;
+    const dist = Phaser.Math.Distance.Between(x0, y0, x1, y1);
+    const beam = this.add
+      .image(x0, y0, HUD_KEYS.apBeam)
+      .setOrigin(0, 0.5)
+      .setDisplaySize(dist, 26)
+      .setRotation(Math.atan2(y1 - y0, x1 - x0))
+      .setDepth(8)
+      .setBlendMode(Phaser.BlendModes.ADD);
+    this.tweens.add({
+      targets: beam,
+      alpha: 0,
+      duration: 220,
+      ease: 'Quad.easeOut',
+      onComplete: () => beam.destroy(),
+    });
+  }
+
+  /** Gold spark flash on damage impact (Sparks collection, additive). */
+  private playSparkBurst(x: number, y: number): void {
+    if (!this.textures.getFrame(HUD_KEYS.sparkBurst)) return;
+    const spark = this.add
+      .image(x, y, HUD_KEYS.sparkBurst)
+      .setDisplaySize(90, 90)
+      .setDepth(9)
+      .setBlendMode(Phaser.BlendModes.ADD)
+      .setAlpha(0.95);
+    this.tweens.add({
+      targets: spark,
+      scale: 1.25,
+      alpha: 0,
+      duration: 260,
+      ease: 'Quad.easeOut',
+      onComplete: () => spark.destroy(),
+    });
+  }
+
+  /** SHORT CIRCUIT (60800): electric burst + arcs on the victim (real FX). */
+  private playShortCircuit(x: number, y: number): void {
+    if (this.textures.getFrame(HUD_KEYS.shortCircuitBurst)) {
+      const burst = this.add
+        .image(x, y, HUD_KEYS.shortCircuitBurst)
+        .setDisplaySize(130, 130)
+        .setDepth(9)
+        .setBlendMode(Phaser.BlendModes.ADD);
+      this.tweens.add({
+        targets: burst,
+        scale: 1.3,
+        alpha: 0,
+        duration: 420,
+        ease: 'Quad.easeOut',
+        onComplete: () => burst.destroy(),
+      });
+    }
+    if (this.textures.getFrame(HUD_KEYS.shortCircuitArcs)) {
+      for (let i = 0; i < 3; i++) {
+        this.time.delayedCall(120 + i * 110, () => {
+          const arc = this.add
+            .image(x + Phaser.Math.Between(-22, 22), y + Phaser.Math.Between(-20, 20), HUD_KEYS.shortCircuitArcs)
+            .setDisplaySize(Phaser.Math.Between(60, 90), Phaser.Math.Between(60, 90))
+            .setDepth(9)
+            .setBlendMode(Phaser.BlendModes.ADD)
+            .setRotation(Phaser.Math.FloatBetween(0, Math.PI));
+          this.tweens.add({
+            targets: arc,
+            alpha: 0,
+            duration: 300,
+            onComplete: () => arc.destroy(),
+          });
+        });
+      }
+    }
   }
 
   // -------------------------------------------------------------------------
@@ -682,8 +861,7 @@ export class BattleScene extends Phaser.Scene {
 
   private showBanner(winner: Side): void {
     const label = winner === 'player' ? 'PLAYER WINS' : 'ENEMY WINS';
-    const banner = this.add.container(WIDTH / 2, 190);
-    const bg = this.add
+    const banner = this.add.container(WIDTH / 2, 190);    const bg = this.add
       .rectangle(0, 0, 460, 90, 0x0f0f23, 0.92)
       .setStrokeStyle(3, 0xffe066);
     const text = this.add
@@ -698,6 +876,33 @@ export class BattleScene extends Phaser.Scene {
     banner.setAlpha(0);
     banner.setDepth(20);
     this.tweens.add({ targets: banner, alpha: 1, duration: 250 });
+  }
+
+  /** Radial victory sheen behind the banner (VictorySheen collection). */
+  private playVictoryBurst(): void {
+    if (!this.textures.getFrame(HUD_KEYS.victoryBurst)) return;
+    const burst = this.add
+      .image(WIDTH / 2, 190, HUD_KEYS.victoryBurst)
+      .setDisplaySize(320, 320)
+      .setDepth(19)
+      .setBlendMode(Phaser.BlendModes.ADD)
+      .setAlpha(0);
+    this.tweens.add({
+      targets: burst,
+      alpha: 0.85,
+      scale: 1.25,
+      duration: 350,
+      ease: 'Quad.easeOut',
+      onComplete: () => {
+        this.tweens.add({
+          targets: burst,
+          alpha: 0,
+          delay: 500,
+          duration: 400,
+          onComplete: () => burst.destroy(),
+        });
+      },
+    });
   }
 
   private showEngineError(caller: string, err: unknown): void {
