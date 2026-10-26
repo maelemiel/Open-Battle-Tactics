@@ -8,6 +8,7 @@ import { getUnitById } from '../../engine/data/loader';
 import type { DieFace } from '../../engine/types';
 import { UnitView, faceLabel } from '../UnitView';
 import { HUD_KEYS, loadHudTextures } from '../hudAssets';
+import { loadUnitTextures } from '../unitArt';
 
 const WIDTH = 960;
 const HEIGHT = 540;
@@ -72,6 +73,7 @@ export class BattleScene extends Phaser.Scene {
   preload(): void {
     this.load.image('arena', arenaUrl);
     loadHudTextures(this);
+    loadUnitTextures(this);
   }
 
   create(): void {
@@ -103,6 +105,7 @@ export class BattleScene extends Phaser.Scene {
     this.views = {
       player: new UnitView(this, {
         ...PLAYER_SLOTS[0],
+        unitId: PLAYER_UNIT_ID,
         name: playerDef.name,
         level: LEVEL,
         typeId: playerDef.typeId,
@@ -111,6 +114,7 @@ export class BattleScene extends Phaser.Scene {
       }),
       enemy: new UnitView(this, {
         ...ENEMY_SLOTS[0],
+        unitId: ENEMY_UNIT_ID,
         name: enemyDef.name,
         level: LEVEL,
         typeId: enemyDef.typeId,

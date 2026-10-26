@@ -3,6 +3,7 @@ import Phaser from 'phaser';
 import { DIE_FACE_TYPE } from '../engine/types';
 import type { DieFace, UnitTypeId } from '../engine/types';
 import { dieBadgeKey } from './hudAssets';
+import { unitArtKey } from './unitArt';
 
 const FONT = 'monospace';
 
@@ -71,6 +72,8 @@ const HP_PILL_H = 14;
 const BADGE_H = 40; // die-badge display height (real art ~64x75)
 const TYPE_R = 9;
 const HEADER_Y = -66;
+/** Ground line for authentic sprites (origin bottom). */
+const TANK_BASE_Y = 34;
 const BADGE_X = HP_PILL_W / 2 + 26;
 
 /** Long label for announcer text, e.g. "DMG 6", "INIT 3". */
@@ -132,6 +135,7 @@ export function typeGlyph(typeId: UnitTypeId): string {
 export interface UnitViewConfig {
   readonly x: number;
   readonly y: number;
+  readonly unitId: number;
   readonly name: string;
   readonly level: number;
   readonly typeId: UnitTypeId;
@@ -153,6 +157,8 @@ export class UnitView {
   /** Tank art only: mirrored for the enemy, kickback tweens live here. */
   private readonly tank: Phaser.GameObjects.Container;
   private readonly tankArt: Phaser.GameObjects.Graphics;
+  /** Authentic sprite when available (unitArt.ts); null = vector fallback. */
+  private readonly tankSprite: Phaser.GameObjects.Image | null;
   private readonly flashRing: Phaser.GameObjects.Graphics;
   private readonly header: Phaser.GameObjects.Container;
   private readonly hpArt: Phaser.GameObjects.Graphics;
@@ -174,9 +180,21 @@ export class UnitView {
     this.facing = config.side === 'player' ? 1 : -1;
     this.variant = tankVariant(config.typeId);
 
-    // --- Tank silhouette ---------------------------------------------------
-    this.tankArt = scene.add.graphics();
-    this.drawTank(this.palette);
+    // --- Tank art: authentic sprite or vector silhouette ---------------------
+    const artKey = unitArtKey(config.unitId);
+    if (scene.textures.exists(artKey)) {
+      const img = scene.add.image(0, 0, artKey).setOrigin(0.5, 1);
+      const targetH = 118;
+      img.setScale(targetH / img.height);
+      img.setY(TANK_BASE_Y);
+      this.tankSprite = img;
+      this.tankArt = scene.add.graphics(); // kept for defeat()/API compat
+      this.tankArt.setVisible(false);
+    } else {
+      this.tankSprite = null;
+      this.tankArt = scene.add.graphics();
+      this.drawTank(this.palette);
+    }
 
     // Initiative flash ring (hidden until the scene flashes it).
     this.flashRing = scene.add.graphics();
@@ -184,7 +202,11 @@ export class UnitView {
     this.flashRing.strokeEllipse(0, -6, 110, 80);
     this.flashRing.setVisible(false);
 
-    this.tank = scene.add.container(0, 0, [this.tankArt, this.flashRing]);
+    const tankChildren: Phaser.GameObjects.GameObject[] = [
+      this.tankSprite ?? this.tankArt,
+      this.flashRing,
+    ];
+    this.tank = scene.add.container(0, 0, tankChildren);
     if (this.facing === -1) this.tank.setScale(-1, 1);
 
     // --- Header: type icon + HP pill + die badge ----------------------------
@@ -367,7 +389,11 @@ export class UnitView {
 
   /** Repaints the tank in dead-grey and fades the whole unit out. */
   defeat(): void {
-    this.drawTank(DEAD_PALETTE);
+    if (this.tankSprite) {
+      this.tankSprite.setTint(0x8a8a8a);
+    } else {
+      this.drawTank(DEAD_PALETTE);
+    }
     this.scene.tweens.add({
       targets: this.container,
       alpha: 0.45,
