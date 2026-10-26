@@ -2,34 +2,76 @@ import Phaser from 'phaser';
 
 import { DIE_FACE_TYPE } from '../engine/types';
 import type { DieFace, UnitTypeId } from '../engine/types';
+import { dieBadgeKey } from './hudAssets';
 
 const FONT = 'monospace';
 
 // ---------------------------------------------------------------------------
-// Tank silhouette geometry (authored facing RIGHT, ~92x60, origin at hull
-// center; enemy tanks mirror via container scaleX -1).
+// Cartoon tank geometry (authored facing RIGHT, ~110x96 incl. antenna, origin
+// at hull center; enemy tanks mirror via container scaleX -1). Three-tone
+// banding (light top / base mid / dark shadow) + 2px dark outline per part.
 // ---------------------------------------------------------------------------
 
 interface TankPalette {
   readonly base: number;
   readonly dark: number;
   readonly light: number;
+  readonly shadow: number;
 }
 
-const PLAYER_PALETTE: TankPalette = { base: 0x3d6db5, dark: 0x2a4c86, light: 0x6f9de2 };
-const ENEMY_PALETTE: TankPalette = { base: 0xa8503a, dark: 0x7a3526, light: 0xcc7a5e };
-const DEAD_PALETTE: TankPalette = { base: 0x4a4f57, dark: 0x34383f, light: 0x61666e };
+const PLAYER_PALETTE: TankPalette = {
+  base: 0x4a79b8,
+  dark: 0x2d5084,
+  light: 0x8fb4e8,
+  shadow: 0x1f3a63,
+};
+const ENEMY_PALETTE: TankPalette = {
+  base: 0xa85a38,
+  dark: 0x7a3c22,
+  light: 0xd08a5e,
+  shadow: 0x5a2c18,
+};
+const DEAD_PALETTE: TankPalette = {
+  base: 0x4a4f57,
+  dark: 0x34383f,
+  light: 0x6d737c,
+  shadow: 0x26292f,
+};
 
-const METAL_DARK = 0x1a1e22;
+const OUTLINE = 0x14181d;
 const TRACK = 0x262b30;
 const WHEEL = 0x454c55;
+const HUB = 0x1a1e22;
+
+/** Silhouette variant per unit family (mirrors typeGlyph mapping). */
+type TankVariant = 'assault' | 'command' | 'operative' | 'helicopter';
+
+function tankVariant(typeId: UnitTypeId): TankVariant {
+  switch (typeId) {
+    case 2:
+    case 6:
+    case 12:
+      return 'command';
+    case 3:
+    case 7:
+    case 13:
+      return 'operative';
+    case 4:
+    case 8:
+    case 10:
+      return 'helicopter';
+    default:
+      return 'assault'; // assault / bosses / fallback
+  }
+}
 
 // Header (above the tank, never mirrored).
 const HP_PILL_W = 64;
 const HP_PILL_H = 14;
-const DIE_R = 10.5;
+const BADGE_H = 40; // die-badge display height (real art ~64x75)
 const TYPE_R = 9;
 const HEADER_Y = -66;
+const BADGE_X = HP_PILL_W / 2 + 26;
 
 /** Long label for announcer text, e.g. "DMG 6", "INIT 3". */
 export function faceLabel(face: DieFace): string {
@@ -99,10 +141,11 @@ export interface UnitViewConfig {
 }
 
 /**
- * Cartoon tank unit: Graphics silhouette (hull, turret, barrel, tracks) +
- * header with HP pill, red die badge and unit-type icon. Everything is
- * vector-drawn (real sprites come in a later phase); animations are driven
- * by the owning scene.
+ * Cartoon tank unit: Graphics silhouette (hull with 3-tone banding, turret,
+ * barrel with muzzle brake, tracks with road wheels, stowage details; 4
+ * silhouette variants) + header with the real TK2D die badge (per face type,
+ * docs/HUD_ASSETS.md), HP pill and unit-type icon. Animations are driven by
+ * the owning scene.
  */
 export class UnitView {
   private readonly scene: Phaser.Scene;
@@ -115,7 +158,9 @@ export class UnitView {
   private readonly hpArt: Phaser.GameObjects.Graphics;
   private readonly hpText: Phaser.GameObjects.Text;
   private readonly dieArt: Phaser.GameObjects.Graphics;
+  private readonly dieBadge: Phaser.GameObjects.Image;
   private readonly dieText: Phaser.GameObjects.Text;
+  private readonly variant: TankVariant;
   private readonly palette: TankPalette;
   private readonly facing: 1 | -1;
   private readonly maxHp: number;
@@ -127,6 +172,7 @@ export class UnitView {
     this.hpValue = config.maxHp;
     this.palette = config.side === 'player' ? PLAYER_PALETTE : ENEMY_PALETTE;
     this.facing = config.side === 'player' ? 1 : -1;
+    this.variant = tankVariant(config.typeId);
 
     // --- Tank silhouette ---------------------------------------------------
     this.tankArt = scene.add.graphics();
@@ -135,7 +181,7 @@ export class UnitView {
     // Initiative flash ring (hidden until the scene flashes it).
     this.flashRing = scene.add.graphics();
     this.flashRing.lineStyle(3, 0xffe066, 1);
-    this.flashRing.strokeEllipse(0, -6, 104, 74);
+    this.flashRing.strokeEllipse(0, -6, 110, 80);
     this.flashRing.setVisible(false);
 
     this.tank = scene.add.container(0, 0, [this.tankArt, this.flashRing]);
@@ -146,7 +192,7 @@ export class UnitView {
     // Type icon (left).
     headerBg.fillStyle(0x1c2733, 0.92);
     headerBg.fillCircle(-HP_PILL_W / 2 - 4 - TYPE_R, HEADER_Y, TYPE_R);
-    headerBg.lineStyle(1.5, METAL_DARK, 1);
+    headerBg.lineStyle(1.5, OUTLINE, 1);
     headerBg.strokeCircle(-HP_PILL_W / 2 - 4 - TYPE_R, HEADER_Y, TYPE_R);
     const typeText = scene.add
       .text(-HP_PILL_W / 2 - 4 - TYPE_R, HEADER_Y, typeGlyph(config.typeId), {
@@ -169,18 +215,24 @@ export class UnitView {
       })
       .setOrigin(0.5);
 
-    // Die badge (right): dark red so white text keeps >= 4.5:1 contrast.
+    // Die badge (right): real TK2D art per face type when rolled; the dark
+    // red vector circle is the placeholder until the first roll (and the
+    // fallback for the NONE face). Text sits on top with a stroke so white
+    // keeps >= 4.5:1 contrast against the badge art.
+    this.dieBadge = scene.add.image(BADGE_X, HEADER_Y, '__DEFAULT').setVisible(false);
     this.dieArt = scene.add.graphics();
     this.dieArt.fillStyle(0xb3372b, 1);
-    this.dieArt.fillCircle(HP_PILL_W / 2 + 4 + DIE_R, HEADER_Y, DIE_R);
+    this.dieArt.fillCircle(BADGE_X, HEADER_Y, 10.5);
     this.dieArt.lineStyle(2, 0x7e241b, 1);
-    this.dieArt.strokeCircle(HP_PILL_W / 2 + 4 + DIE_R, HEADER_Y, DIE_R);
+    this.dieArt.strokeCircle(BADGE_X, HEADER_Y, 10.5);
     this.dieText = scene.add
-      .text(HP_PILL_W / 2 + 4 + DIE_R, HEADER_Y, '-', {
+      .text(BADGE_X, HEADER_Y + 2, '-', {
         fontFamily: FONT,
-        fontSize: '11px',
+        fontSize: '12px',
         color: '#ffffff',
         fontStyle: 'bold',
+        stroke: '#1a0d08',
+        strokeThickness: 3,
       })
       .setOrigin(0.5);
 
@@ -189,13 +241,14 @@ export class UnitView {
       typeText,
       this.hpArt,
       this.hpText,
+      this.dieBadge,
       this.dieArt,
       this.dieText,
     ]);
 
     // --- Nameplate below the tank ------------------------------------------
     const nameText = scene.add
-      .text(0, 46, `${config.name} Lv.${config.level}`, {
+      .text(0, 48, `${config.name} Lv.${config.level}`, {
         fontFamily: FONT,
         fontSize: '11px',
         color: '#f2ead8',
@@ -214,15 +267,36 @@ export class UnitView {
     this.drawHp();
   }
 
-  /** Shows the given compact face label on the red die badge. */
-  setFace(label: string): void {
-    this.dieText.setText(label);
+  /** World position of the unit (container root), for scene-side FX. */
+  get x(): number {
+    return this.container.x;
+  }
+
+  get y(): number {
+    return this.container.y;
+  }
+
+  /**
+   * Shows the given face: swaps the real badge art to match the face type
+   * (vector circle fallback for NONE) and updates the compact label.
+   */
+  setFace(face: DieFace): void {
+    const key = dieBadgeKey(face.type);
+    if (key !== null && this.scene.textures.exists(key)) {
+      this.dieBadge.setTexture(key).setVisible(true);
+      this.dieBadge.setScale(BADGE_H / this.dieBadge.height);
+      this.dieArt.setVisible(false);
+    } else {
+      this.dieBadge.setVisible(false);
+      this.dieArt.setVisible(true);
+    }
+    this.dieText.setText(faceBadgeLabel(face));
   }
 
   /** Quick pop of the die badge (called when a roll settles). */
   pulseDieBadge(): void {
     this.scene.tweens.add({
-      targets: [this.dieArt, this.dieText],
+      targets: [this.dieBadge, this.dieArt, this.dieText],
       y: HEADER_Y - 4,
       duration: 90,
       yoyo: true,
@@ -369,50 +443,206 @@ export class UnitView {
 
     // Ground shadow.
     g.fillStyle(0x000000, 0.25);
-    g.fillEllipse(0, 28, 96, 16);
+    g.fillEllipse(0, 30, 106, 16);
 
-    // Tracks.
-    g.fillStyle(TRACK, 1);
-    g.fillRoundedRect(-46, -10, 92, 24, 11);
-    g.lineStyle(2, METAL_DARK, 1);
-    g.strokeRoundedRect(-46, -10, 92, 24, 11);
-    // Road wheels.
-    for (const wx of [-33, -16.5, 0, 16.5, 33]) {
-      g.fillStyle(WHEEL, 1);
-      g.fillCircle(wx, 2, 6);
-      g.fillStyle(METAL_DARK, 1);
-      g.fillCircle(wx, 2, 2);
+    this.drawTracks(g);
+    this.drawHull(g, p);
+    this.drawRearDetails(g, p);
+    switch (this.variant) {
+      case 'command':
+        this.drawCommandTurret(g, p);
+        break;
+      case 'operative':
+        this.drawOperativeTurret(g, p);
+        break;
+      case 'helicopter':
+        this.drawHelicopterTop(g, p);
+        break;
+      default:
+        this.drawAssaultTurret(g, p);
     }
+  }
 
-    // Hull.
+  /** Tracks with road wheels, front sprocket, rear idler and a top band. */
+  private drawTracks(g: Phaser.GameObjects.Graphics): void {
+    g.fillStyle(TRACK, 1);
+    g.fillRoundedRect(-50, -10, 100, 28, 13);
+    g.lineStyle(2, OUTLINE, 1);
+    g.strokeRoundedRect(-50, -10, 100, 28, 13);
+    // Upper track band ( darker tread strip ).
+    g.fillStyle(0x1c2126, 1);
+    g.fillRoundedRect(-48, -9, 96, 7, 3);
+    // Road wheels.
+    for (const wx of [-36, -21, -6, 9, 24]) {
+      g.fillStyle(WHEEL, 1);
+      g.fillCircle(wx, 5, 5.5);
+      g.fillStyle(HUB, 1);
+      g.fillCircle(wx, 5, 2);
+    }
+    // Front drive sprocket + rear idler ( slightly larger rims ).
+    for (const [wx, r] of [
+      [42, 6.5],
+      [-42, 6],
+    ] as const) {
+      g.fillStyle(WHEEL, 1);
+      g.fillCircle(wx, 3, r);
+      g.fillStyle(HUB, 1);
+      g.fillCircle(wx, 3, 2.4);
+    }
+  }
+
+  /** Hull with 3-tone banding + sloped front glacis facing forward. */
+  private drawHull(g: Phaser.GameObjects.Graphics, p: TankPalette): void {
+    // Mid body, then light top plate, then dark lower shadow strip, one
+    // outline around the whole box: reads as a cartoon gradient.
     g.fillStyle(p.base, 1);
-    g.fillRoundedRect(-40, -28, 78, 20, 4);
-    g.lineStyle(2, p.dark, 1);
-    g.strokeRoundedRect(-40, -28, 78, 20, 4);
-    // Front glacis (facing forward).
+    g.fillRoundedRect(-44, -32, 84, 24, 4);
     g.fillStyle(p.light, 1);
-    g.fillTriangle(38, -28, 47, -16, 38, -8);
-    // Rear stowage box.
+    g.fillRoundedRect(-44, -32, 84, 8, 4);
     g.fillStyle(p.dark, 1);
-    g.fillRoundedRect(-42, -26, 10, 14, 2);
+    g.fillRoundedRect(-44, -15, 84, 7, 3);
+    g.lineStyle(2, OUTLINE, 1);
+    g.strokeRoundedRect(-44, -32, 84, 24, 4);
 
-    // Turret.
+    // Sloped front glacis ( light face, drawn over the hull front ).
+    g.fillStyle(p.light, 1);
+    g.fillTriangle(38, -32, 54, -18, 38, -8);
+    g.lineStyle(2, OUTLINE, 1);
+    g.strokeTriangle(38, -32, 54, -18, 38, -8);
+    g.fillStyle(p.dark, 1);
+    g.fillTriangle(38, -32, 45, -25, 38, -22);
+
+    // Rear engine deck grate ( shadow slats ).
+    g.fillStyle(p.shadow, 1);
+    for (const gx of [-40, -34, -28]) {
+      g.fillRect(gx, -30, 3, 18);
+    }
+  }
+
+  /** Rear stowage: box + jerrycan + antenna base. */
+  private drawRearDetails(g: Phaser.GameObjects.Graphics, p: TankPalette): void {
+    // Stowage box on the rear deck.
+    g.fillStyle(p.shadow, 1);
+    g.fillRoundedRect(-48, -30, 9, 13, 2);
+    g.lineStyle(1.5, OUTLINE, 1);
+    g.strokeRoundedRect(-48, -30, 9, 13, 2);
+    // Jerrycan hanging off the back.
+    g.fillStyle(p.dark, 1);
+    g.fillRoundedRect(-52, -18, 8, 9, 1.5);
+    g.lineStyle(1.5, OUTLINE, 1);
+    g.strokeRoundedRect(-52, -18, 8, 9, 1.5);
+    g.lineBetween(-50, -18, -46, -18);
+  }
+
+  /** 3-tone rounded turret body + hatch; shared by the tracked variants. */
+  private drawTurretBody(
+    g: Phaser.GameObjects.Graphics,
+    p: TankPalette,
+    cx: number,
+    cy: number,
+    w: number,
+    h: number,
+  ): void {
     g.fillStyle(p.base, 1);
-    g.fillCircle(-6, -38, 13);
-    g.lineStyle(2, p.dark, 1);
-    g.strokeCircle(-6, -38, 13);
+    g.fillRoundedRect(cx - w / 2, cy - h / 2, w, h, 5);
     g.fillStyle(p.light, 1);
-    g.fillCircle(-9, -41, 5); // hatch highlight
-
-    // Barrel + muzzle brake.
+    g.fillRoundedRect(cx - w / 2, cy - h / 2, w, h * 0.42, 5);
     g.fillStyle(p.dark, 1);
-    g.fillRect(4, -43, 36, 6);
-    g.fillStyle(METAL_DARK, 1);
-    g.fillRect(40, -46, 8, 12);
+    g.fillRoundedRect(cx - w / 2, cy + h / 2 - h * 0.3, w, h * 0.3, 4);
+    g.lineStyle(2, OUTLINE, 1);
+    g.strokeRoundedRect(cx - w / 2, cy - h / 2, w, h, 5);
+    // Hatch highlight.
+    g.fillStyle(p.light, 1);
+    g.fillCircle(cx - 4, cy - 2, 4);
+    g.lineStyle(1.5, OUTLINE, 1);
+    g.strokeCircle(cx - 4, cy - 2, 4);
+  }
 
-    // Antenna (rear).
-    g.lineStyle(1.5, METAL_DARK, 1);
-    g.lineBetween(-32, -28, -37, -50);
+  /** Barrel with base sleeve and double-baffle muzzle brake. */
+  private drawBarrel(
+    g: Phaser.GameObjects.Graphics,
+    p: TankPalette,
+    x: number,
+    y: number,
+    len: number,
+  ): void {
+    g.fillStyle(p.dark, 1);
+    g.fillRect(x, y - 2.5, len, 5);
+    g.lineStyle(1.5, OUTLINE, 1);
+    g.strokeRect(x, y - 2.5, len, 5);
+    // Base sleeve.
+    g.fillStyle(p.shadow, 1);
+    g.fillRect(x, y - 4, 8, 8);
+    g.strokeRect(x, y - 4, 8, 8);
+    // Muzzle brake ( wider than the barrel ).
+    const mx = x + len - 7;
+    g.fillStyle(OUTLINE, 1);
+    g.fillRect(mx, y - 5, 7, 10);
+    g.fillStyle(p.shadow, 1);
+    g.fillRect(mx + 2, y - 3.5, 3, 7);
+  }
+
+  /** Assault: compact turret + long barrel. */
+  private drawAssaultTurret(g: Phaser.GameObjects.Graphics, p: TankPalette): void {
+    this.drawTurretBody(g, p, -4, -40, 24, 14);
+    this.drawBarrel(g, p, 8, -40, 42);
+    // Whippy radio antenna on the rear deck.
+    g.lineStyle(1.5, OUTLINE, 1);
+    g.lineBetween(-30, -32, -38, -54);
+    g.fillStyle(OUTLINE, 1);
+    g.fillCircle(-38, -54, 1.5);
+  }
+
+  /** Command: wide turret, medium gun, twin antennas. */
+  private drawCommandTurret(g: Phaser.GameObjects.Graphics, p: TankPalette): void {
+    this.drawTurretBody(g, p, -4, -40, 32, 15);
+    this.drawBarrel(g, p, 12, -40, 30);
+    for (const [x0, x1, y1] of [
+      [-18, -24, -60],
+      [-10, -8, -63],
+    ] as const) {
+      g.lineStyle(1.5, OUTLINE, 1);
+      g.lineBetween(x0, -46, x1, y1);
+      g.fillStyle(OUTLINE, 1);
+      g.fillCircle(x1, y1, 1.5);
+    }
+  }
+
+  /** Operative: compact turret, stub gun, radar dish on a mast. */
+  private drawOperativeTurret(g: Phaser.GameObjects.Graphics, p: TankPalette): void {
+    this.drawTurretBody(g, p, 0, -38, 18, 11);
+    this.drawBarrel(g, p, 9, -38, 12);
+    // Radar: mast + dish.
+    g.lineStyle(2, OUTLINE, 1);
+    g.lineBetween(-10, -44, -14, -56);
+    g.fillStyle(p.light, 1);
+    g.fillEllipse(-14, -60, 16, 8);
+    g.lineStyle(1.5, OUTLINE, 1);
+    g.strokeEllipse(-14, -60, 16, 8);
+    g.fillStyle(OUTLINE, 1);
+    g.fillCircle(-14, -60, 1.5);
+  }
+
+  /** Helicopter: rotor mast + blades + tail boom ( hull kept tank-like ). */
+  private drawHelicopterTop(g: Phaser.GameObjects.Graphics, p: TankPalette): void {
+    this.drawTurretBody(g, p, 0, -40, 20, 12);
+    // Tail boom to the rear.
+    g.fillStyle(p.base, 1);
+    g.fillRoundedRect(-52, -42, 26, 6, 3);
+    g.lineStyle(1.5, OUTLINE, 1);
+    g.strokeRoundedRect(-52, -42, 26, 6, 3);
+    g.fillStyle(p.dark, 1);
+    g.fillCircle(-52, -39, 4);
+    g.strokeCircle(-52, -39, 4);
+    // Rotor mast + long thin blades.
+    g.lineStyle(2, OUTLINE, 1);
+    g.lineBetween(0, -46, 0, -56);
+    g.fillStyle(p.light, 1);
+    g.fillEllipse(0, -57, 52, 3.5);
+    g.lineStyle(1.5, OUTLINE, 1);
+    g.strokeEllipse(0, -57, 52, 3.5);
+    g.fillStyle(OUTLINE, 1);
+    g.fillCircle(0, -57, 2);
   }
 
   private drawHp(value: number = this.hpValue): void {
@@ -425,7 +655,7 @@ export class UnitView {
     // Pill background + rim.
     g.fillStyle(0x101722, 0.92);
     g.fillRoundedRect(-HP_PILL_W / 2, HEADER_Y - HP_PILL_H / 2, HP_PILL_W, HP_PILL_H, HP_PILL_H / 2);
-    g.lineStyle(1.5, METAL_DARK, 1);
+    g.lineStyle(1.5, OUTLINE, 1);
     g.strokeRoundedRect(-HP_PILL_W / 2, HEADER_Y - HP_PILL_H / 2, HP_PILL_W, HP_PILL_H, HP_PILL_H / 2);
     // Fill (2px inset).
     if (ratio > 0) {

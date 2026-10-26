@@ -6,7 +6,8 @@ import type { Battle } from '../../engine/combat/engine';
 import type { BattleEvent, Side, UnitRolledEvent } from '../../engine/combat/events';
 import { getUnitById } from '../../engine/data/loader';
 import type { DieFace } from '../../engine/types';
-import { UnitView, faceLabel, faceBadgeLabel } from '../UnitView';
+import { UnitView, faceLabel } from '../UnitView';
+import { HUD_KEYS, loadHudTextures } from '../hudAssets';
 
 const WIDTH = 960;
 const HEIGHT = 540;
@@ -70,6 +71,7 @@ export class BattleScene extends Phaser.Scene {
 
   preload(): void {
     this.load.image('arena', arenaUrl);
+    loadHudTextures(this);
   }
 
   create(): void {
@@ -192,7 +194,10 @@ export class BattleScene extends Phaser.Scene {
     g.lineStyle(2, 0x2c3650, 1);
     g.lineBetween(0, HEIGHT - PANEL_H, WIDTH, HEIGHT - PANEL_H);
 
-    // Greyed-out ability slots (decorative until abilities ship).
+    // Greyed-out ability slots (decorative until abilities ship): real TK2D
+    // ability icons in disabled state (dark tint + reduced alpha).
+    const iconFrame = this.textures.getFrame(HUD_KEYS.abilities[0]);
+    const iconScale = iconFrame ? (ABILITY_R * 1.4) / Math.max(iconFrame.width, iconFrame.height) : 1;
     for (let i = 0; i < ABILITY_SLOTS; i++) {
       const cx = 70 + i * 60;
       g.fillStyle(0x2c3548, 1);
@@ -200,9 +205,14 @@ export class BattleScene extends Phaser.Scene {
       g.lineStyle(2, 0x46536e, 1);
       g.strokeCircle(cx, PANEL_Y, ABILITY_R);
       g.fillStyle(0x1d2434, 1);
-      g.fillCircle(cx, PANEL_Y, ABILITY_R - 7);
-      g.fillStyle(0x46536e, 1);
-      g.fillCircle(cx, PANEL_Y, 2.5);
+      g.fillCircle(cx, PANEL_Y, ABILITY_R - 6);
+      // Decorative until abilities ship: real TK2D icon, disabled state.
+      this.add
+        .image(cx, PANEL_Y, HUD_KEYS.abilities[i])
+        .setScale(iconScale)
+        .setTint(0x59627a) // disabled: darkened + desaturated
+        .setAlpha(0.85)
+        .setDepth(9);
     }
 
     // Keyboard hint between slots and action button.
@@ -322,9 +332,9 @@ export class BattleScene extends Phaser.Scene {
         callback: () => {
           tick += 1;
           if (tick <= ticks) {
-            view.setFace(faceBadgeLabel(faces[Phaser.Math.Between(0, faces.length - 1)]));
+            view.setFace(faces[Phaser.Math.Between(0, faces.length - 1)]);
           } else {
-            view.setFace(faceBadgeLabel(final));
+            view.setFace(final);
             resolve();
           }
         },
@@ -350,6 +360,9 @@ export class BattleScene extends Phaser.Scene {
           );
           const target = this.views[event.target];
           this.views[event.source].kickback(); // firing recoil (UnitView.cs:1043)
+          this.playMuzzleFlash(event.source);
+          await this.wait(180); // shell travel beat
+          this.playImpact(event.target);
           target.floatLabel(`-${event.amount}`, '#ff6b6b');
           target.setHp(event.targetHpAfter);
           target.shake();
@@ -380,6 +393,60 @@ export class BattleScene extends Phaser.Scene {
       const el = document.getElementById('combat-announcer');
       if (el) el.textContent = message;
     }
+  }
+
+  // -------------------------------------------------------------------------
+  // Real-art combat FX (TK2D cannon flashes, docs/HUD_ASSETS.md)
+  // -------------------------------------------------------------------------
+
+  /**
+   * Muzzle flash at the shooter's barrel tip (~300ms): the horizontal flame
+   * plume from the high-cannon fire atlas, popped and faded. Flipped so the
+   * plume always points downrange.
+   */
+  private playMuzzleFlash(side: Side): void {
+    const frame = this.textures.getFrame(HUD_KEYS.muzzleFlash);
+    if (!frame) return;
+    const view = this.views[side];
+    const facing = side === 'player' ? 1 : -1;
+    const scale = 110 / frame.width;
+    const flash = this.add
+      .image(view.x + facing * 24, view.y - 34, HUD_KEYS.muzzleFlash)
+      .setOrigin(0, 0.5) // plume grows from the barrel tip
+      .setScale(scale * 0.9)
+      .setDepth(8)
+      .setFlipX(facing === -1); // always point downrange
+    this.tweens.add({
+      targets: flash,
+      scaleX: scale * 1.15,
+      scaleY: scale * 1.05,
+      alpha: 0,
+      duration: 300,
+      ease: 'Quad.easeOut',
+      onComplete: () => flash.destroy(),
+    });
+  }
+
+  /** Spiky hit-impact burst on the target (~300ms pop + fade). */
+  private playImpact(side: Side): void {
+    const frame = this.textures.getFrame(HUD_KEYS.impactBurst);
+    if (!frame) return;
+    const view = this.views[side];
+    const scale = 84 / frame.width;
+    const burst = this.add
+      .image(view.x, view.y - 24, HUD_KEYS.impactBurst)
+      .setScale(scale * 0.7)
+      .setDepth(8)
+      .setAlpha(0.95);
+    this.tweens.add({
+      targets: burst,
+      scaleX: scale,
+      scaleY: scale,
+      alpha: 0,
+      duration: 300,
+      ease: 'Quad.easeOut',
+      onComplete: () => burst.destroy(),
+    });
   }
 
   // -------------------------------------------------------------------------
