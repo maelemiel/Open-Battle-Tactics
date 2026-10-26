@@ -25,12 +25,13 @@ const ARENA_SKIP_Y = 330;
 
 // 4 staggered (quincunx) slots per side along the arena diagonal, matching
 // the original screenshot: 2 ranks, front rank lower toward the center road.
-// Slot 1 of each side hosts the MVP duel unit.
+// Slot 1 of each side hosts the MVP duel unit; front slots sit ~390px apart
+// (a full shell flight) so the duel reads left vs right, not nose to nose.
 const PLAYER_SLOTS: readonly { x: number; y: number }[] = [
-  { x: 415, y: 350 },
-  { x: 375, y: 248 },
-  { x: 275, y: 398 },
-  { x: 235, y: 296 },
+  { x: 285, y: 352 },
+  { x: 222, y: 250 },
+  { x: 146, y: 398 },
+  { x: 104, y: 300 },
 ];
 const ENEMY_SLOTS: readonly { x: number; y: number }[] = PLAYER_SLOTS.map((s) => ({
   x: WIDTH - s.x,
@@ -65,6 +66,8 @@ export class BattleScene extends Phaser.Scene {
   private actionState: ActionState = 'hidden';
   private pulseTween: Phaser.Tweens.Tween | null = null;
   private busy = false;
+  /** Armor absorbed by a side this hit; shown when the shell actually lands. */
+  private pendingAbsorb: Partial<Record<Side, number>> = {};
 
   constructor() {
     super('battle');
@@ -124,6 +127,15 @@ export class BattleScene extends Phaser.Scene {
     };
 
     this.buildCommandPanel();
+
+    // Tanks roll in from their map edge with track dust; the action button
+    // only appears once both are parked on their slots.
+    this.busy = true;
+    this.syncActionButton();
+    void Promise.all([this.views.player.driveIn(-380), this.views.enemy.driveIn(380)]).then(() => {
+      this.busy = false;
+      this.syncActionButton();
+    });
 
     this.input.keyboard?.on('keydown-SPACE', () => this.onActionKey());
     this.input.keyboard?.on('keydown-R', () => this.doRestart());
@@ -282,6 +294,7 @@ export class BattleScene extends Phaser.Scene {
       return;
     }
     this.clearStatus();
+    this.pendingAbsorb = {};
     this.roundText.setText(`ROUND ${this.battle.state.round}`);
     await this.animateRolls(events);
     this.busy = false;
@@ -346,41 +359,85 @@ export class BattleScene extends Phaser.Scene {
     });
   }
 
-  /** Plays resolve-round events sequentially, with visible delays. */
+  /** Plays resolve-round events sequentially as one cause -> effect chain. */
   private async playEvents(events: readonly BattleEvent[]): Promise<void> {
     for (const event of events) {
       switch (event.type) {
         case 'unit-rolled':
           break; // already animated during the roll phase
+        case 'initiative-cointoss':
+          this.announce(`Initiative tie! Coin toss: ${event.winner} acts first.`);
+          await this.coinPop(event.winner);
+          break;
         case 'initiative-determined':
           this.announce(`Initiative: ${event.order[0]?.side} strikes first.`);
-          for (const ref of event.order) {
-            await this.views[ref.side].flash(180);
-          }
+          await this.views[event.order[0]!.side].flash(400);
+          break;
+        case 'armor-absorbed':
+          // Held back: the ripple + BLOCKED label play when the shell lands.
+          this.pendingAbsorb[event.side] = event.absorbed;
+          this.announce(`${event.side} armor will absorb ${event.absorbed}.`);
           break;
         case 'damage-dealt': {
-          this.announce(
-            `${event.source} hits ${event.target} for ${event.amount} damage. Remaining HP: ${event.targetHpAfter}.`,
-          );
+          const shooter = this.views[event.source];
           const target = this.views[event.target];
-          this.views[event.source].kickback(); // firing recoil (UnitView.cs:1043)
+          const absorbed = this.pendingAbsorb[event.target] ?? 0;
+          this.pendingAbsorb[event.target] = 0;
+          const hpLoss = Math.max(0, event.amount - absorbed);
+          this.announce(
+            `${event.source} hits ${event.target} for ${hpLoss} damage${absorbed ? ` (${absorbed} blocked)` : ''}. Remaining HP: ${event.targetHpAfter}.`,
+          );
+          shooter.kickback(); // firing recoil (UnitView.cs:1043)
           this.playMuzzleFlash(event.source);
-          await this.wait(180); // shell travel beat
+          await this.fireShell(shooter.muzzleX, shooter.muzzleY, target.bodyX, target.bodyY);
           this.playImpact(event.target);
-          target.floatLabel(`-${event.amount}`, '#ff6b6b');
+          this.cameras.main.shake(110, 0.004);
+          target.hitFlash(0xffb0a0);
+          if (absorbed > 0) {
+            target.armorRipple();
+            target.floatLabel(`-${absorbed} BLOCKED`, '#7fd4ff', true);
+          }
+          target.floatLabel(`-${hpLoss}`, '#ff6b6b');
           target.setHp(event.targetHpAfter);
           target.shake();
-          await this.wait(550);
+          await this.wait(560);
+          break;
+        }
+        case 'acid-ticked':
+        case 'dot-ticked': {
+          const label = event.type === 'acid-ticked' ? 'ACID' : 'BURN';
+          const view = this.views[event.side];
+          this.announce(`${event.side} takes ${event.amount} ${label.toLowerCase()} damage. HP: ${event.targetHpAfter}.`);
+          view.hitFlash(0x9fe07f);
+          view.floatLabel(`-${event.amount} ${label}`, '#9fe07f');
+          view.setHp(event.targetHpAfter);
+          await this.wait(380);
           break;
         }
         case 'special-triggered':
           this.announce(`${event.side} triggered special ${event.specialId}.`);
           await this.views[event.side].specialPop(); // stub, like the engine
           break;
+        case 'special-executed': {
+          this.announce(
+            `${event.side} executes ${event.handler}${event.implemented ? '' : ' (engine stub)'}.`,
+          );
+          await this.views[event.side].specialPop();
+          if (event.implemented && event.damage != null) {
+            const victim = this.views[event.side === 'player' ? 'enemy' : 'player'];
+            victim.hitFlash(0xfff0a0);
+            victim.floatLabel(`-${event.damage}`, '#ffe066');
+            this.syncHpFromState();
+          }
+          await this.wait(300);
+          break;
+        }
         case 'unit-defeated':
           this.announce(`${event.side} unit defeated.`);
           this.views[event.side].defeat();
-          await this.wait(450);
+          this.playWreckSmoke(event.side);
+          this.cameras.main.shake(180, 0.007);
+          await this.wait(520);
           break;
         case 'battle-won':
           this.announce(`Battle ended: ${event.winner.toUpperCase()} WINS!`);
@@ -388,6 +445,13 @@ export class BattleScene extends Phaser.Scene {
           await this.wait(400);
           break;
       }
+    }
+  }
+
+  /** Resyncs both HP pills from engine state (paths without hpAfter fields). */
+  private syncHpFromState(): void {
+    for (const c of this.battle.state.combatants) {
+      this.views[c.side].setHp(c.hp);
     }
   }
 
@@ -415,7 +479,7 @@ export class BattleScene extends Phaser.Scene {
     const facing = side === 'player' ? 1 : -1;
     const scale = 110 / frame.width;
     const flash = this.add
-      .image(view.x + facing * 24, view.y - 34, HUD_KEYS.muzzleFlash)
+      .image(view.muzzleX, view.muzzleY, HUD_KEYS.muzzleFlash)
       .setOrigin(0, 0.5) // plume grows from the barrel tip
       .setScale(scale * 0.9)
       .setDepth(8)
@@ -438,7 +502,7 @@ export class BattleScene extends Phaser.Scene {
     const view = this.views[side];
     const scale = 84 / frame.width;
     const burst = this.add
-      .image(view.x, view.y - 24, HUD_KEYS.impactBurst)
+      .image(view.bodyX, view.bodyY, HUD_KEYS.impactBurst)
       .setScale(scale * 0.7)
       .setDepth(8)
       .setAlpha(0.95);
@@ -450,6 +514,109 @@ export class BattleScene extends Phaser.Scene {
       duration: 300,
       ease: 'Quad.easeOut',
       onComplete: () => burst.destroy(),
+    });
+  }
+
+  /**
+   * Glowing tracer shell from the shooter's muzzle to the target hull along a
+   * shallow arc, dropping smoke puffs along the path. The visible
+   * cause -> effect link between fire and impact.
+   */
+  private fireShell(x0: number, y0: number, x1: number, y1: number): Promise<void> {
+    return new Promise((resolve) => {
+      const shell = this.add.graphics().setDepth(8);
+      const dist = Math.abs(x1 - x0);
+      const duration = Phaser.Math.Clamp(dist * 0.9, 170, 340);
+      const apex = -Math.min(46, dist * 0.16);
+      let lastPuff = 0;
+      this.tweens.addCounter({
+        from: 0,
+        to: 1,
+        duration,
+        onUpdate: (t) => {
+          const k = t.getValue() ?? 0;
+          const x = x0 + (x1 - x0) * k;
+          const y = y0 + (y1 - y0) * k + 4 * apex * k * (1 - k);
+          shell.clear();
+          shell.fillStyle(0xffe9a0, 0.35);
+          shell.fillCircle(x, y, 8);
+          shell.fillStyle(0xffd24a, 1);
+          shell.fillCircle(x, y, 3.5);
+          if (k - lastPuff > 0.12) {
+            lastPuff = k;
+            this.smokePuff(x, y);
+          }
+        },
+        onComplete: () => {
+          shell.destroy();
+          resolve();
+        },
+      });
+    });
+  }
+
+  private smokePuff(x: number, y: number, color = 0xc9c2b4): void {
+    const puff = this.add.graphics().setDepth(7);
+    const r = Phaser.Math.Between(4, 7);
+    this.tweens.addCounter({
+      from: 0,
+      to: 1,
+      duration: 380,
+      onUpdate: (t) => {
+        const k = t.getValue() ?? 1;
+        puff.clear();
+        puff.fillStyle(color, 0.4 * (1 - k));
+        puff.fillCircle(x, y - 10 * k, r + 6 * k);
+      },
+      onComplete: () => puff.destroy(),
+    });
+  }
+
+  /** Dark smoke column rising off a wreck. */
+  private playWreckSmoke(side: Side): void {
+    const view = this.views[side];
+    for (let i = 0; i < 5; i++) {
+      this.time.delayedCall(i * 130, () =>
+        this.smokePuff(view.bodyX + Phaser.Math.Between(-14, 14), view.bodyY, 0x4a4a52),
+      );
+    }
+  }
+
+  /** Center-screen coin-toss callout on initiative ties. */
+  private coinPop(winner: Side): Promise<void> {
+    return new Promise((resolve) => {
+      const text = this.add
+        .text(WIDTH / 2, 205, `COIN TOSS: ${winner.toUpperCase()} FIRST`, {
+          fontFamily: FONT,
+          fontSize: '24px',
+          color: '#ffe066',
+          fontStyle: 'bold',
+          stroke: '#10131c',
+          strokeThickness: 4,
+        })
+        .setOrigin(0.5)
+        .setAlpha(0)
+        .setScale(0.4)
+        .setDepth(15);
+      this.tweens.add({
+        targets: text,
+        alpha: 1,
+        scale: 1,
+        duration: 180,
+        ease: 'Back.easeOut',
+        onComplete: () => {
+          this.tweens.add({
+            targets: text,
+            alpha: 0,
+            delay: 420,
+            duration: 220,
+            onComplete: () => {
+              text.destroy();
+              resolve();
+            },
+          });
+        },
+      });
     });
   }
 

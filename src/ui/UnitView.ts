@@ -182,12 +182,17 @@ export class UnitView {
 
     // --- Tank art: authentic sprite or vector silhouette ---------------------
     const artKey = unitArtKey(config.unitId);
+    let groundShadow: Phaser.GameObjects.Graphics | null = null;
     if (scene.textures.exists(artKey)) {
       const img = scene.add.image(0, 0, artKey).setOrigin(0.5, 1);
       const targetH = 118;
       img.setScale(targetH / img.height);
       img.setY(TANK_BASE_Y);
       this.tankSprite = img;
+      // Contact shadow grounds the sprite on the arena floor.
+      groundShadow = scene.add.graphics();
+      groundShadow.fillStyle(0x000000, 0.3);
+      groundShadow.fillEllipse(0, TANK_BASE_Y + 4, img.displayWidth * 0.7, 15);
       this.tankArt = scene.add.graphics(); // kept for defeat()/API compat
       this.tankArt.setVisible(false);
     } else {
@@ -203,6 +208,7 @@ export class UnitView {
     this.flashRing.setVisible(false);
 
     const tankChildren: Phaser.GameObjects.GameObject[] = [
+      ...(groundShadow ? [groundShadow] : []),
       this.tankSprite ?? this.tankArt,
       this.flashRing,
     ];
@@ -287,6 +293,18 @@ export class UnitView {
     ]);
     this.container.setDepth(5);
     this.drawHp();
+
+    // Idle breathing so the units never look pasted on the backdrop;
+    // per-unit duration/delay so the two sides never bob in sync.
+    scene.tweens.add({
+      targets: this.tank,
+      y: -2,
+      duration: 1400 + (config.unitId % 5) * 110,
+      delay: (config.unitId % 3) * 240,
+      yoyo: true,
+      repeat: -1,
+      ease: 'Sine.easeInOut',
+    });
   }
 
   /** World position of the unit (container root), for scene-side FX. */
@@ -296,6 +314,95 @@ export class UnitView {
 
   get y(): number {
     return this.container.y;
+  }
+
+  /** Barrel-tip world position: where muzzle flashes start and shells leave. */
+  get muzzleX(): number {
+    const reach = this.tankSprite ? this.tankSprite.displayWidth * 0.4 : 54;
+    return this.container.x + this.facing * reach;
+  }
+
+  get muzzleY(): number {
+    return this.container.y + (this.tankSprite ? TANK_BASE_Y - 44 : -40);
+  }
+
+  /** Hull world position: where shells land and impacts burst. */
+  get bodyX(): number {
+    return this.container.x + this.facing * 6;
+  }
+
+  get bodyY(): number {
+    return this.container.y + (this.tankSprite ? TANK_BASE_Y - 36 : -28);
+  }
+
+  /**
+   * Battle-start drive-in: the tank rolls in from `fromDx` px off its slot
+   * (player: negative, enemy: positive) kicking up dust, and resolves once
+   * parked. Replayed on every restart via scene.restart().
+   */
+  driveIn(fromDx: number): Promise<void> {
+    const destX = this.container.x;
+    this.container.x = destX + fromDx;
+    return new Promise((resolve) => {
+      const dust = this.scene.time.addEvent({ delay: 80, callback: () => this.dustPuff() });
+      this.scene.tweens.add({
+        targets: this.container,
+        x: destX,
+        duration: 700,
+        ease: 'Cubic.easeOut',
+        onComplete: () => {
+          dust.remove();
+          this.dustPuff();
+          resolve();
+        },
+      });
+    });
+  }
+
+  /** One expanding, fading ground-dust puff behind the tracks. */
+  private dustPuff(): void {
+    const baseY = this.container.y + (this.tankSprite ? TANK_BASE_Y + 2 : 30);
+    const bx = this.container.x - this.facing * 30;
+    const puff = this.scene.add.graphics().setDepth(4);
+    this.scene.tweens.addCounter({
+      from: 0,
+      to: 1,
+      duration: 430,
+      onUpdate: (t) => {
+        const k = t.getValue() ?? 1;
+        puff.clear();
+        puff.fillStyle(0x9c8f7a, 0.45 * (1 - k));
+        puff.fillCircle(bx, baseY - 8 * k, 5 + 10 * k);
+      },
+      onComplete: () => puff.destroy(),
+    });
+  }
+
+  /** Brief whole-sprite tint pulse (hit = warm, acid = green). */
+  hitFlash(tint = 0xffb0a0): void {
+    if (!this.tankSprite) return;
+    this.tankSprite.setTint(tint);
+    this.scene.time.delayedCall(130, () => this.tankSprite?.clearTint());
+  }
+
+  /** Expanding armor ring at the hull: the "blocked" visual. */
+  armorRipple(): void {
+    const cx = this.container.x + this.facing * 6;
+    const cy = this.container.y - 26;
+    const ring = this.scene.add.graphics().setDepth(7);
+    this.scene.tweens.addCounter({
+      from: 0,
+      to: 1,
+      duration: 380,
+      ease: 'Quad.easeOut',
+      onUpdate: (t) => {
+        const k = t.getValue() ?? 1;
+        ring.clear();
+        ring.lineStyle(3, 0x6ec6ff, 1 - k);
+        ring.strokeEllipse(cx, cy, 48 + 44 * k, 56 + 50 * k);
+      },
+      onComplete: () => ring.destroy(),
+    });
   }
 
   /**
@@ -387,8 +494,10 @@ export class UnitView {
     });
   }
 
-  /** Repaints the tank in dead-grey and fades the whole unit out. */
+  /** Repaints the tank in dead-grey, stops the idle bob and tilts the wreck. */
   defeat(): void {
+    this.scene.tweens.killTweensOf(this.tank);
+    this.tank.angle = this.facing * 6; // dead lean, opposite the firing crouch
     if (this.tankSprite) {
       this.tankSprite.setTint(0x8a8a8a);
     } else {
@@ -402,11 +511,11 @@ export class UnitView {
   }
 
   /** Rising, fading combat number (damage) above the unit. */
-  floatLabel(message: string, color: string): void {
+  floatLabel(message: string, color: string, small = false): void {
     const text = this.scene.add
-      .text(this.container.x, this.container.y - 80, message, {
+      .text(this.container.x - (small ? 36 : 0), this.container.y - (small ? 104 : 80), message, {
         fontFamily: FONT,
-        fontSize: '24px',
+        fontSize: small ? '15px' : '24px',
         color,
         fontStyle: 'bold',
       })
