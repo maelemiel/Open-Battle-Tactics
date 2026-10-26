@@ -1,11 +1,12 @@
 import Phaser from 'phaser';
 
+import arenaUrl from '../assets/arena.png';
 import { createBattle } from '../../engine/combat/engine';
 import type { Battle } from '../../engine/combat/engine';
 import type { BattleEvent, Side, UnitRolledEvent } from '../../engine/combat/events';
 import { getUnitById } from '../../engine/data/loader';
 import type { DieFace } from '../../engine/types';
-import { UnitView, faceLabel } from '../UnitView';
+import { UnitView, faceLabel, faceBadgeLabel } from '../UnitView';
 
 const WIDTH = 960;
 const HEIGHT = 540;
@@ -14,10 +15,41 @@ const ENEMY_UNIT_ID = 11002; // LONGSHOT
 const LEVEL = 1;
 const FONT = 'monospace';
 
+// Real arena art is 1024x1024: rows 0..~330 are dead black, the grey
+// concrete wall band runs ~340..460, the field starts ~464. Cover-fit
+// horizontally and crop so the wall + field fill the screen.
+const ARENA_SOURCE = 1024;
+const ARENA_SKIP_Y = 330;
+
+// 4 staggered (quincunx) slots per side along the arena diagonal, matching
+// the original screenshot: 2 ranks, front rank lower toward the center road.
+// Slot 1 of each side hosts the MVP duel unit.
+const PLAYER_SLOTS: readonly { x: number; y: number }[] = [
+  { x: 415, y: 350 },
+  { x: 375, y: 248 },
+  { x: 275, y: 398 },
+  { x: 235, y: 296 },
+];
+const ENEMY_SLOTS: readonly { x: number; y: number }[] = PLAYER_SLOTS.map((s) => ({
+  x: WIDTH - s.x,
+  y: s.y,
+}));
+
+// Bottom command panel.
+const PANEL_H = 80;
+const PANEL_Y = HEIGHT - PANEL_H / 2;
+const ABILITY_SLOTS = 4;
+const ABILITY_R = 22;
+const ACTION_BTN_W = 200;
+const ACTION_BTN_H = 56;
+
+type ActionState = 'roll' | 'fight' | 'restart' | 'hidden';
+
 /**
  * Full MVP battle loop, animated from engine events:
  * ROLL (dice spin) -> RESOLVE (initiative flashes, damage, specials,
  * deaths, victory banner) -> RESTART (fresh random seed).
+ * Cartoon-military skin over the real arena art.
  */
 export class BattleScene extends Phaser.Scene {
   private battle!: Battle;
@@ -25,13 +57,19 @@ export class BattleScene extends Phaser.Scene {
   private faces!: Record<Side, readonly DieFace[]>;
   private roundText!: Phaser.GameObjects.Text;
   private statusText!: Phaser.GameObjects.Text;
-  private rollButton!: Phaser.GameObjects.Container;
-  private resolveButton!: Phaser.GameObjects.Container;
-  private restartButton!: Phaser.GameObjects.Container;
+  private actionButton!: Phaser.GameObjects.Container;
+  private actionBg!: Phaser.GameObjects.Graphics;
+  private actionLabel!: Phaser.GameObjects.Text;
+  private actionState: ActionState = 'hidden';
+  private pulseTween: Phaser.Tweens.Tween | null = null;
   private busy = false;
 
   constructor() {
     super('battle');
+  }
+
+  preload(): void {
+    this.load.image('arena', arenaUrl);
   }
 
   create(): void {
@@ -43,30 +81,10 @@ export class BattleScene extends Phaser.Scene {
       seed: Math.floor(Math.random() * 2 ** 31),
     });
     this.busy = false;
+    this.pulseTween = null;
 
-    this.add
-      .text(WIDTH / 2, 14, 'OPEN BATTLE TACTICS - prototype', {
-        fontFamily: FONT,
-        fontSize: '20px',
-        color: '#eeeeee',
-        fontStyle: 'bold',
-      })
-      .setOrigin(0.5, 0);
-    this.roundText = this.add
-      .text(WIDTH / 2, 48, 'ROUND 0', {
-        fontFamily: FONT,
-        fontSize: '16px',
-        color: '#9a9ab8',
-      })
-      .setOrigin(0.5);
-    this.add
-      .text(WIDTH / 2, HEIGHT / 2 - 10, 'VS', {
-        fontFamily: FONT,
-        fontSize: '34px',
-        color: '#8282a8',
-        fontStyle: 'bold',
-      })
-      .setOrigin(0.5);
+    this.buildArena();
+    this.buildHud();
 
     const playerDef = getUnitById(PLAYER_UNIT_ID);
     const enemyDef = getUnitById(ENEMY_UNIT_ID);
@@ -76,56 +94,146 @@ export class BattleScene extends Phaser.Scene {
     };
     const maxHp = (side: Side): number =>
       this.battle.state.combatants.find((c) => c.side === side)!.maxHp;
+
+    // Discreet empty-slot markers + the active duel units (front slots).
+    this.drawEmptySlots(PLAYER_SLOTS.slice(1));
+    this.drawEmptySlots(ENEMY_SLOTS.slice(1));
     this.views = {
       player: new UnitView(this, {
-        x: 225,
-        y: 280,
+        ...PLAYER_SLOTS[0],
         name: playerDef.name,
         level: LEVEL,
+        typeId: playerDef.typeId,
         maxHp: maxHp('player'),
-        color: 0x3d6db5,
+        side: 'player',
       }),
       enemy: new UnitView(this, {
-        x: 735,
-        y: 280,
+        ...ENEMY_SLOTS[0],
         name: enemyDef.name,
         level: LEVEL,
+        typeId: enemyDef.typeId,
         maxHp: maxHp('enemy'),
-        color: 0xb5483d,
+        side: 'enemy',
       }),
     };
 
-    this.statusText = this.add
-      .text(WIDTH / 2, 448, '', {
-        fontFamily: FONT,
-        fontSize: '13px',
-        color: '#9a9ab8',
-      })
-      .setOrigin(0.5);
-
-    this.rollButton = this.makeButton('ROLL', WIDTH / 2 - 95, 492, () =>
-      void this.onRoll(),
-    );
-    this.resolveButton = this.makeButton('RESOLVE', WIDTH / 2 + 95, 492, () =>
-      void this.onResolve(),
-    );
-    this.restartButton = this.makeButton('RESTART', WIDTH / 2, 492, () =>
-      this.doRestart(),
-    );
-    this.restartButton.setVisible(false);
-    this.add
-      .text(
-        WIDTH / 2,
-        524,
-        'SPACE: roll / resolve - R: restart after victory',
-        { fontFamily: FONT, fontSize: '12px', color: '#9a9ab8' },
-      )
-      .setOrigin(0.5);
+    this.buildCommandPanel();
 
     this.input.keyboard?.on('keydown-SPACE', () => this.onActionKey());
     this.input.keyboard?.on('keydown-R', () => this.doRestart());
 
-    this.syncButtons();
+    this.syncActionButton();
+  }
+
+  // -------------------------------------------------------------------------
+  // Static scenery / HUD / panel
+  // -------------------------------------------------------------------------
+
+  private buildArena(): void {
+    const scale = WIDTH / ARENA_SOURCE; // cover: 960 wide from a 1024 square
+    this.add
+      .image(0, -ARENA_SKIP_Y * scale, 'arena')
+      .setOrigin(0, 0)
+      .setScale(scale)
+      .setDepth(-10);
+  }
+
+  private buildHud(): void {
+    this.add
+      .text(WIDTH / 2, 10, 'OPEN BATTLE TACTICS', {
+        fontFamily: FONT,
+        fontSize: '16px',
+        color: '#ffffff',
+        fontStyle: 'bold',
+        stroke: '#10131c',
+        strokeThickness: 3,
+      })
+      .setOrigin(0.5, 0)
+      .setDepth(9);
+    this.roundText = this.add
+      .text(WIDTH / 2, 34, 'ROUND 0', {
+        fontFamily: FONT,
+        fontSize: '13px',
+        color: '#cfd6e4',
+        fontStyle: 'bold',
+        stroke: '#10131c',
+        strokeThickness: 3,
+      })
+      .setOrigin(0.5)
+      .setDepth(9);
+
+    this.statusText = this.add
+      .text(WIDTH / 2, HEIGHT - PANEL_H - 12, '', {
+        fontFamily: FONT,
+        fontSize: '13px',
+        color: '#e8e4d4',
+        stroke: '#10131c',
+        strokeThickness: 3,
+      })
+      .setOrigin(0.5)
+      .setDepth(9);
+  }
+
+  /** Faint slot circles where future squad units will stand. */
+  private drawEmptySlots(slots: readonly { x: number; y: number }[]): void {
+    const g = this.add.graphics().setDepth(1);
+    for (const s of slots) {
+      g.lineStyle(2, 0xffffff, 0.16);
+      g.strokeCircle(s.x, s.y, 34);
+      g.fillStyle(0xffffff, 0.05);
+      g.fillCircle(s.x, s.y, 34);
+    }
+  }
+
+  private buildCommandPanel(): void {
+    const g = this.add.graphics().setDepth(8);
+    g.fillStyle(0x12182a, 0.92);
+    g.fillRect(0, HEIGHT - PANEL_H, WIDTH, PANEL_H);
+    g.lineStyle(2, 0x2c3650, 1);
+    g.lineBetween(0, HEIGHT - PANEL_H, WIDTH, HEIGHT - PANEL_H);
+
+    // Greyed-out ability slots (decorative until abilities ship).
+    for (let i = 0; i < ABILITY_SLOTS; i++) {
+      const cx = 70 + i * 60;
+      g.fillStyle(0x2c3548, 1);
+      g.fillCircle(cx, PANEL_Y, ABILITY_R);
+      g.lineStyle(2, 0x46536e, 1);
+      g.strokeCircle(cx, PANEL_Y, ABILITY_R);
+      g.fillStyle(0x1d2434, 1);
+      g.fillCircle(cx, PANEL_Y, ABILITY_R - 7);
+      g.fillStyle(0x46536e, 1);
+      g.fillCircle(cx, PANEL_Y, 2.5);
+    }
+
+    // Keyboard hint between slots and action button.
+    this.add
+      .text(400, PANEL_Y, 'SPACE: roll / fight - R: restart after victory', {
+        fontFamily: FONT,
+        fontSize: '11px',
+        color: '#8f9bb3',
+      })
+      .setOrigin(0, 0.5)
+      .setDepth(9);
+
+    // Morphing action button: ROLL -> FIGHT -> (hidden) -> RESTART.
+    this.actionBg = this.add.graphics();
+    this.actionLabel = this.add
+      .text(0, 0, '', {
+        fontFamily: FONT,
+        fontSize: '22px',
+        color: '#3a2a00',
+        fontStyle: 'bold',
+      })
+      .setOrigin(0.5);
+    this.actionButton = this.add.container(WIDTH - 130, PANEL_Y, [this.actionBg, this.actionLabel]);
+    this.actionButton.setDepth(9);
+    const hit = new Phaser.Geom.Rectangle(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H);
+    this.actionButton.setInteractive(
+      hit,
+      Phaser.Geom.Rectangle.Contains,
+    );
+    this.actionButton.input!.cursor = 'pointer';
+    this.actionButton.on('pointerdown', () => this.onActionClick());
   }
 
   // -------------------------------------------------------------------------
@@ -138,42 +246,50 @@ export class BattleScene extends Phaser.Scene {
     else if (step === 'awaiting-resolve') void this.onResolve();
   }
 
+  private onActionClick(): void {
+    if (this.battle.isOver()) {
+      this.doRestart();
+      return;
+    }
+    this.onActionKey();
+  }
+
   private async onRoll(): Promise<void> {
     if (this.busy || this.battle.isOver() || this.battle.state.step !== 'awaiting-roll') return;
     this.busy = true;
-    this.syncButtons();
+    this.syncActionButton();
     let events: BattleEvent[];
     try {
       events = this.battle.rollPhase();
     } catch (err) {
       this.showEngineError('rollPhase', err);
       this.busy = false;
-      this.syncButtons();
+      this.syncActionButton();
       return;
     }
     this.clearStatus();
     this.roundText.setText(`ROUND ${this.battle.state.round}`);
     await this.animateRolls(events);
     this.busy = false;
-    this.syncButtons();
+    this.syncActionButton();
   }
 
   private async onResolve(): Promise<void> {
     if (this.busy || this.battle.isOver() || this.battle.state.step !== 'awaiting-resolve') return;
     this.busy = true;
-    this.syncButtons();
+    this.syncActionButton();
     let events: BattleEvent[];
     try {
       events = this.battle.resolveRound();
     } catch (err) {
       this.showEngineError('resolveRound', err);
       this.busy = false;
-      this.syncButtons();
+      this.syncActionButton();
       return;
     }
     await this.playEvents(events);
     this.busy = false;
-    this.syncButtons();
+    this.syncActionButton();
   }
 
   private doRestart(): void {
@@ -187,13 +303,13 @@ export class BattleScene extends Phaser.Scene {
 
   private async animateRolls(events: readonly BattleEvent[]): Promise<void> {
     const rolls = events.filter((e): e is UnitRolledEvent => e.type === 'unit-rolled');
-    // TODO: dice spin is a rough text cycle; replace with a real die widget.
     await Promise.all(rolls.map((roll) => this.spinFace(roll.side, roll.face)));
+    for (const roll of rolls) this.views[roll.side].pulseDieBadge();
     const rollSummary = rolls.map((r) => `${r.side} rolled ${faceLabel(r.face)}`).join(', ');
     this.announce(`Round ${this.battle.state.round}: ${rollSummary}`);
   }
 
-  /** Cycles random face labels ~490ms, then settles on the rolled face. */
+  /** Cycles random die faces ~490ms, then settles on the rolled face. */
   private spinFace(side: Side, final: DieFace): Promise<void> {
     const view = this.views[side];
     const faces = this.faces[side];
@@ -206,9 +322,9 @@ export class BattleScene extends Phaser.Scene {
         callback: () => {
           tick += 1;
           if (tick <= ticks) {
-            view.setFace(faceLabel(faces[Phaser.Math.Between(0, faces.length - 1)]));
+            view.setFace(faceBadgeLabel(faces[Phaser.Math.Between(0, faces.length - 1)]));
           } else {
-            view.setFace(faceLabel(final));
+            view.setFace(faceBadgeLabel(final));
             resolve();
           }
         },
@@ -233,6 +349,7 @@ export class BattleScene extends Phaser.Scene {
             `${event.source} hits ${event.target} for ${event.amount} damage. Remaining HP: ${event.targetHpAfter}.`,
           );
           const target = this.views[event.target];
+          this.views[event.source].kickback(); // firing recoil (UnitView.cs:1043)
           target.floatLabel(`-${event.amount}`, '#ff6b6b');
           target.setHp(event.targetHpAfter);
           target.shake();
@@ -266,37 +383,63 @@ export class BattleScene extends Phaser.Scene {
   }
 
   // -------------------------------------------------------------------------
-  // Widgets
+  // Action button states
   // -------------------------------------------------------------------------
 
-  private makeButton(
-    label: string,
-    x: number,
-    y: number,
-    onClick: () => void,
-  ): Phaser.GameObjects.Container {
-    const root = this.add.container(x, y);
-    const bg = this.add.rectangle(0, 0, 160, 44, 0x26264a).setStrokeStyle(2, 0xeeeeee);
-    bg.setInteractive({ useHandCursor: true });
-    bg.on('pointerdown', () => onClick());
-    const text = this.add
-      .text(0, 0, label, {
-        fontFamily: FONT,
-        fontSize: '18px',
-        color: '#ffffff',
-        fontStyle: 'bold',
-      })
-      .setOrigin(0.5);
-    root.add([bg, text]);
-    return root;
-  }
-
-  /** ROLL/RESOLVE visible only for the current actionable step (never after win). */
-  private syncButtons(): void {
+  /** One morphing button: ROLL (amber) -> FIGHT (bright yellow + pulse) -> RESTART. */
+  private syncActionButton(): void {
     const step = this.battle.state.step;
-    const actionable = !this.busy && !this.battle.isOver();
-    this.rollButton.setVisible(actionable && step === 'awaiting-roll');
-    this.resolveButton.setVisible(actionable && step === 'awaiting-resolve');
+    const over = this.battle.isOver();
+    const next: ActionState = this.busy
+      ? 'hidden'
+      : over
+        ? 'restart'
+        : step === 'awaiting-roll'
+          ? 'roll'
+          : step === 'awaiting-resolve'
+            ? 'fight'
+            : 'hidden';
+    if (next === this.actionState) return;
+    this.actionState = next;
+    this.pulseTween?.stop();
+    this.pulseTween = null;
+    this.actionButton.setScale(1).setVisible(next !== 'hidden');
+
+    const g = this.actionBg;
+    g.clear();
+    switch (next) {
+      case 'roll':
+        g.fillStyle(0xe0a83a, 1);
+        g.fillRoundedRect(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H, 14);
+        g.lineStyle(3, 0x8a6414, 1);
+        g.strokeRoundedRect(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H, 14);
+        this.actionLabel.setText('ROLL').setColor('#3a2a00');
+        break;
+      case 'fight':
+        g.fillStyle(0xffd24a, 1);
+        g.fillRoundedRect(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H, 14);
+        g.lineStyle(3, 0x8a6414, 1);
+        g.strokeRoundedRect(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H, 14);
+        this.actionLabel.setText('FIGHT').setColor('#3a2a00');
+        this.pulseTween = this.tweens.add({
+          targets: this.actionButton,
+          scale: 1.04,
+          duration: 420,
+          yoyo: true,
+          repeat: -1,
+          ease: 'Sine.easeInOut',
+        });
+        break;
+      case 'restart':
+        g.fillStyle(0x26304a, 1);
+        g.fillRoundedRect(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H, 14);
+        g.lineStyle(3, 0xffd24a, 1);
+        g.strokeRoundedRect(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H, 14);
+        this.actionLabel.setText('RESTART').setColor('#ffffff');
+        break;
+      case 'hidden':
+        break;
+    }
   }
 
   private showBanner(winner: Side): void {
@@ -317,7 +460,6 @@ export class BattleScene extends Phaser.Scene {
     banner.setAlpha(0);
     banner.setDepth(20);
     this.tweens.add({ targets: banner, alpha: 1, duration: 250 });
-    this.restartButton.setVisible(true);
   }
 
   private showEngineError(caller: string, err: unknown): void {
@@ -326,7 +468,7 @@ export class BattleScene extends Phaser.Scene {
   }
 
   private clearStatus(): void {
-    this.statusText.setText('').setColor('#9a9ab8');
+    this.statusText.setText('').setColor('#e8e4d4');
   }
 
   private wait(ms: number): Promise<void> {
