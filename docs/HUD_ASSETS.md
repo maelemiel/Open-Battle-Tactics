@@ -60,3 +60,24 @@ the AP beam vs standard shell VFX.
 Sliced but unused (candidates): `topbar/*` (HUD top bar pieces), `targeteffect/*`
 (reticle), `specialbuffing|buffed/*` (aura frames), `cameraflash/*`, `arenabronzeparallax/*`,
 `inbattletexteffects/*` (3 streaks, no digit glyphs -> damage text stays styled text).
+
+## Wave 4 (2026-10-26): the REAL battle HUD, cropped from the gameplay screenshot
+
+`example_fight.jpg` (1280x720, authentic in-game capture) IS the real combat UI.
+`tools/crop_ref_hud.py` cuts it into two overlay bands (pre-scaled x0.75 to the
+960x540 canvas):
+
+| Band | Source rect | Game placement | Contents (baked) |
+| --- | --- | --- | --- |
+| `ref/top.png` | (0,0,1280,28) | (0,0), 960x21 | top status bar chrome |
+| `ref/bottom.png` | (0,589,930,720)+(930,555,1280,720) stitched | (0,417), 960x123 | command panel, 6 card slots, left portrait column, gold strips, FIGHT button |
+
+Dynamic elements placed ON the real art (positions from pixel analysis of the
+screenshot): dice tray cards = slots 0-1 at x 400/452 (badges+labels live-update
+during rolls), ability icons = slots 2-5 at x 504..660 (disabled tint), action
+control = label/glow over the real gold button at (923,495) - the button's baked
+caption (bottom of face, y~653-716 src) stays visible; FIGHT state = pulsing
+glow only, no duplicate label.
+
+ArenaSceneSpriteCollection rechecked: 1024x1024 FULLY OPAQUE = background art,
+not a HUD frame (alpha map 100% everywhere). Not usable as an overlay.

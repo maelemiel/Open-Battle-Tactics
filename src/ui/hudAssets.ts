@@ -21,6 +21,8 @@ import shortCircuitBurstUrl from './assets/hud/shortcircuitfx/20.png';
 import shortCircuitArcsUrl from './assets/hud/shortcircuitfx/22.png';
 import apBeamUrl from './assets/hud/ionstrikerevised/4.png';
 import titleArtUrl from './assets/hud/titlescreen/0.png';
+import refTopUrl from './assets/hud/ref/top.png';
+import refBottomUrl from './assets/hud/ref/bottom.png';
 
 import { DIE_FACE_TYPE } from '../engine/types';
 import type { DieFaceType } from '../engine/types';
@@ -55,6 +57,9 @@ export const HUD_KEYS = {
   apBeam: 'hud-fx-ap-beam',
   /** Full title-screen illustration (TitleScreen collection, 768x1280). */
   titleArt: 'hud-title-art',
+  /** Real HUD bands cropped from the authentic gameplay screenshot. */
+  refTop: 'hud-ref-top',
+  refBottom: 'hud-ref-bottom',
 } as const;
 
 /** Texture key for a die-face badge background (null = vector fallback). */
@@ -98,4 +103,6 @@ export function loadHudTextures(scene: Phaser.Scene): void {
   scene.load.image(HUD_KEYS.shortCircuitArcs, shortCircuitArcsUrl);
   scene.load.image(HUD_KEYS.apBeam, apBeamUrl);
   scene.load.image(HUD_KEYS.titleArt, titleArtUrl);
+  scene.load.image(HUD_KEYS.refTop, refTopUrl);
+  scene.load.image(HUD_KEYS.refBottom, refBottomUrl);
 }

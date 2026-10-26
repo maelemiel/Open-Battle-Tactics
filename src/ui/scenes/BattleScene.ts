@@ -39,13 +39,21 @@ const ENEMY_SLOTS: readonly { x: number; y: number }[] = PLAYER_SLOTS.map((s) =>
   y: s.y,
 }));
 
-// Bottom command panel.
-const PANEL_H = 80;
-const PANEL_Y = HEIGHT - PANEL_H / 2;
-const ABILITY_SLOTS = 4;
-const ABILITY_R = 22;
-const ACTION_BTN_W = 200;
-const ACTION_BTN_H = 56;
+// Real HUD bands (tools/crop_ref_hud.py, from the authentic screenshot):
+// bottom band is 123px tall; the raised right chrome overlaps upward.
+const PANEL_H = 123;
+const PANEL_TOP = HEIGHT - PANEL_H;
+// Command tray inside the bottom band: 6 card slots baked into the art.
+// Slots 0-1 show the two duel dice faces, 2-5 the ability icons.
+const TRAY_X0 = 400;
+const TRAY_STEP = 52;
+const TRAY_Y = 485;
+// Real gold action button (baked into the band, x 887..959): label on the
+// upper face, the baked caption stays visible at the bottom.
+const ACTION_X = 923;
+const ACTION_Y = 495;
+const ACTION_BTN_W = 140;
+const ACTION_BTN_H = 64;
 
 type ActionState = 'roll' | 'fight' | 'restart' | 'hidden';
 
@@ -62,13 +70,16 @@ export class BattleScene extends Phaser.Scene {
   private roundText!: Phaser.GameObjects.Text;
   private statusText!: Phaser.GameObjects.Text;
   private actionButton!: Phaser.GameObjects.Container;
-  private actionBg!: Phaser.GameObjects.Graphics;
   private actionLabel!: Phaser.GameObjects.Text;
   private actionState: ActionState = 'hidden';
   private pulseTween: Phaser.Tweens.Tween | null = null;
   private busy = false;
   /** Armor absorbed by a side this hit; shown when the shell actually lands. */
   private pendingAbsorb: Partial<Record<Side, number>> = {};
+  /** Tray card slots 0-1: the two duel dice faces (player / enemy). */
+  private trayBadges!: Record<Side, Phaser.GameObjects.Image>;
+  private trayTexts!: Record<Side, Phaser.GameObjects.Text>;
+  private actionGlow!: Phaser.GameObjects.Graphics;
 
   constructor() {
     super('battle');
@@ -158,31 +169,33 @@ export class BattleScene extends Phaser.Scene {
   }
 
   private buildHud(): void {
+    // Real top status band (authentic screenshot crop).
+    this.add.image(0, 0, HUD_KEYS.refTop).setOrigin(0, 0).setDepth(9);
     this.add
-      .text(WIDTH / 2, 10, 'OPEN BATTLE TACTICS', {
+      .text(WIDTH / 2, 1, 'OPEN BATTLE TACTICS', {
         fontFamily: FONT,
-        fontSize: '16px',
+        fontSize: '10px',
         color: '#ffffff',
         fontStyle: 'bold',
         stroke: '#10131c',
-        strokeThickness: 3,
+        strokeThickness: 2,
       })
       .setOrigin(0.5, 0)
-      .setDepth(9);
+      .setDepth(10);
     this.roundText = this.add
-      .text(WIDTH / 2, 34, 'ROUND 0', {
+      .text(WIDTH / 2, 12, 'ROUND 0', {
         fontFamily: FONT,
-        fontSize: '13px',
+        fontSize: '9px',
         color: '#cfd6e4',
         fontStyle: 'bold',
         stroke: '#10131c',
-        strokeThickness: 3,
+        strokeThickness: 2,
       })
-      .setOrigin(0.5)
-      .setDepth(9);
+      .setOrigin(0.5, 0)
+      .setDepth(10);
 
     this.statusText = this.add
-      .text(WIDTH / 2, HEIGHT - PANEL_H - 12, '', {
+      .text(WIDTH / 2, PANEL_TOP - 12, '', {
         fontFamily: FONT,
         fontSize: '13px',
         color: '#e8e4d4',
@@ -205,55 +218,46 @@ export class BattleScene extends Phaser.Scene {
   }
 
   private buildCommandPanel(): void {
-    const g = this.add.graphics().setDepth(8);
-    g.fillStyle(0x12182a, 0.92);
-    g.fillRect(0, HEIGHT - PANEL_H, WIDTH, PANEL_H);
-    g.lineStyle(2, 0x2c3650, 1);
-    g.lineBetween(0, HEIGHT - PANEL_H, WIDTH, HEIGHT - PANEL_H);
+    // Real command panel (authentic screenshot crop, includes the gold
+    // action button, card slots and left portrait column baked in).
+    this.add.image(0, PANEL_TOP, HUD_KEYS.refBottom).setOrigin(0, 0).setDepth(6);
 
-    // Greyed-out ability slots (decorative until abilities ship): real TK2D
-    // ability icons in disabled state (dark tint + reduced alpha).
+    // Tray slots 2-5: real ability icons in disabled state (until abilities
+    // ship). Slots 0-1 are wired to the duel dice below.
     const iconFrame = this.textures.getFrame(HUD_KEYS.abilities[0]);
-    const iconScale = iconFrame ? (ABILITY_R * 1.4) / Math.max(iconFrame.width, iconFrame.height) : 1;
-    for (let i = 0; i < ABILITY_SLOTS; i++) {
-      const cx = 70 + i * 60;
-      g.fillStyle(0x2c3548, 1);
-      g.fillCircle(cx, PANEL_Y, ABILITY_R);
-      g.lineStyle(2, 0x46536e, 1);
-      g.strokeCircle(cx, PANEL_Y, ABILITY_R);
-      g.fillStyle(0x1d2434, 1);
-      g.fillCircle(cx, PANEL_Y, ABILITY_R - 6);
-      // Decorative until abilities ship: real TK2D icon, disabled state.
+    const iconScale = iconFrame ? 34 / Math.max(iconFrame.width, iconFrame.height) : 1;
+    for (let i = 0; i < 4; i++) {
       this.add
-        .image(cx, PANEL_Y, HUD_KEYS.abilities[i])
+        .image(TRAY_X0 + (i + 2) * TRAY_STEP, TRAY_Y, HUD_KEYS.abilities[i])
         .setScale(iconScale)
         .setTint(0x59627a) // disabled: darkened + desaturated
         .setAlpha(0.85)
         .setDepth(9);
     }
 
-    // Keyboard hint between slots and action button.
-    this.add
-      .text(400, PANEL_Y, 'SPACE: roll / fight - R: restart after victory', {
-        fontFamily: FONT,
-        fontSize: '11px',
-        color: '#8f9bb3',
-      })
-      .setOrigin(0, 0.5)
-      .setDepth(9);
+    // Tray slots 0-1: live dice faces (player / enemy).
+    const slotX = (side: Side): number => TRAY_X0 + (side === 'player' ? 0 : 1) * TRAY_STEP;
+    const badgeFor = (side: Side): Phaser.GameObjects.Image =>
+      this.add.image(slotX(side), TRAY_Y - 4, '__DEFAULT').setVisible(false).setDepth(9);
+    this.trayBadges = { player: badgeFor('player'), enemy: badgeFor('enemy') };
+    this.trayTexts = {
+      player: this.trayText('player'),
+      enemy: this.trayText('enemy'),
+    };
 
-    // Morphing action button: ROLL -> FIGHT -> (hidden) -> RESTART.
-    this.actionBg = this.add.graphics();
+    // Morphing action control ON the real gold button (baked in the band):
+    // label on the upper face for ROLL/RESTART, pulsing glow for FIGHT.
+    this.actionGlow = this.add.graphics();
     this.actionLabel = this.add
-      .text(0, 0, '', {
+      .text(0, -14, '', {
         fontFamily: FONT,
-        fontSize: '22px',
+        fontSize: '17px',
         color: '#3a2a00',
         fontStyle: 'bold',
       })
       .setOrigin(0.5);
-    this.actionButton = this.add.container(WIDTH - 130, PANEL_Y, [this.actionBg, this.actionLabel]);
-    this.actionButton.setDepth(9);
+    this.actionButton = this.add.container(ACTION_X, ACTION_Y, [this.actionGlow, this.actionLabel]);
+    this.actionButton.setDepth(10);
     const hit = new Phaser.Geom.Rectangle(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H);
     this.actionButton.setInteractive(
       hit,
@@ -261,6 +265,32 @@ export class BattleScene extends Phaser.Scene {
     );
     this.actionButton.input!.cursor = 'pointer';
     this.actionButton.on('pointerdown', () => this.onActionClick());
+  }
+
+  private trayText(side: Side): Phaser.GameObjects.Text {
+    return this.add
+      .text(TRAY_X0 + (side === 'player' ? 0 : 1) * TRAY_STEP, TRAY_Y + 18, '-', {
+        fontFamily: FONT,
+        fontSize: '11px',
+        color: '#ffe9a0',
+        fontStyle: 'bold',
+        stroke: '#10131c',
+        strokeThickness: 3,
+      })
+      .setOrigin(0.5)
+      .setDepth(9);
+  }
+
+  /** Updates a tray dice card (slot 0 = player, 1 = enemy) to the face. */
+  private updateTrayFace(side: Side, face: DieFace): void {
+    const key = dieBadgeKey(face.type);
+    const badge = this.trayBadges[side];
+    if (key && this.textures.exists(key)) {
+      badge.setTexture(key).setVisible(true).setScale(38 / badge.height);
+    } else {
+      badge.setVisible(false);
+    }
+    this.trayTexts[side].setText(faceBadgeLabel(face));
   }
 
   // -------------------------------------------------------------------------
@@ -407,9 +437,12 @@ export class BattleScene extends Phaser.Scene {
         callback: () => {
           tick += 1;
           if (tick <= ticks) {
-            view.setFace(faces[Phaser.Math.Between(0, faces.length - 1)]);
+            const spin = faces[Phaser.Math.Between(0, faces.length - 1)];
+            view.setFace(spin);
+            this.updateTrayFace(side, spin); // tray card spins too
           } else {
             view.setFace(final);
+            this.updateTrayFace(side, final);
             resolve();
           }
         },
@@ -803,7 +836,10 @@ export class BattleScene extends Phaser.Scene {
   // Action button states
   // -------------------------------------------------------------------------
 
-  /** One morphing button: ROLL (amber) -> FIGHT (bright yellow + pulse) -> RESTART. */
+  /**
+   * One control on the real gold button: ROLL / RESTART labels on the upper
+   * face; FIGHT = pulsing glow only (the baked caption already says it).
+   */
   private syncActionButton(): void {
     const step = this.battle.state.step;
     const over = this.battle.isOver();
@@ -820,27 +856,27 @@ export class BattleScene extends Phaser.Scene {
     this.actionState = next;
     this.pulseTween?.stop();
     this.pulseTween = null;
-    this.actionButton.setScale(1).setVisible(next !== 'hidden');
+    this.actionButton.setVisible(next !== 'hidden');
+    this.actionGlow.clear().setAlpha(1);
+    this.actionLabel.setText('');
 
-    const g = this.actionBg;
-    g.clear();
     switch (next) {
       case 'roll':
-        g.fillStyle(0xe0a83a, 1);
-        g.fillRoundedRect(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H, 14);
-        g.lineStyle(3, 0x8a6414, 1);
-        g.strokeRoundedRect(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H, 14);
         this.actionLabel.setText('ROLL').setColor('#3a2a00');
         break;
       case 'fight':
-        g.fillStyle(0xffd24a, 1);
-        g.fillRoundedRect(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H, 14);
-        g.lineStyle(3, 0x8a6414, 1);
-        g.strokeRoundedRect(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H, 14);
-        this.actionLabel.setText('FIGHT').setColor('#3a2a00');
+        // Glow ring over the real button; no label (baked caption below).
+        this.actionGlow.lineStyle(3, 0xfff3c0, 0.95);
+        this.actionGlow.strokeRoundedRect(
+          -ACTION_BTN_W / 2,
+          -ACTION_BTN_H / 2,
+          ACTION_BTN_W,
+          ACTION_BTN_H,
+          16,
+        );
         this.pulseTween = this.tweens.add({
-          targets: this.actionButton,
-          scale: 1.04,
+          targets: this.actionGlow,
+          alpha: 0.25,
           duration: 420,
           yoyo: true,
           repeat: -1,
@@ -848,11 +884,7 @@ export class BattleScene extends Phaser.Scene {
         });
         break;
       case 'restart':
-        g.fillStyle(0x26304a, 1);
-        g.fillRoundedRect(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H, 14);
-        g.lineStyle(3, 0xffd24a, 1);
-        g.strokeRoundedRect(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H, 14);
-        this.actionLabel.setText('RESTART').setColor('#ffffff');
+        this.actionLabel.setText('RESTART').setColor('#3a2a00');
         break;
       case 'hidden':
         break;
