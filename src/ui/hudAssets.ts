@@ -23,6 +23,7 @@ import apBeamUrl from './assets/hud/ionstrikerevised/4.png';
 import titleArtUrl from './assets/hud/titlescreen/0.png';
 import refTopUrl from './assets/hud/ref/top.png';
 import refBottomUrl from './assets/hud/ref/bottom.png';
+import fightButtonUrl from './assets/hud/ref/fight_button.png';
 
 import { DIE_FACE_TYPE } from '../engine/types';
 import type { DieFaceType } from '../engine/types';
@@ -60,6 +61,8 @@ export const HUD_KEYS = {
   /** Real HUD bands cropped from the authentic gameplay screenshot. */
   refTop: 'hud-ref-top',
   refBottom: 'hud-ref-bottom',
+  /** The gold action button extracted standalone (interactive sprite). */
+  fightButton: 'hud-ref-fight-button',
 } as const;
 
 /** Texture key for a die-face badge background (null = vector fallback). */
@@ -105,4 +108,5 @@ export function loadHudTextures(scene: Phaser.Scene): void {
   scene.load.image(HUD_KEYS.titleArt, titleArtUrl);
   scene.load.image(HUD_KEYS.refTop, refTopUrl);
   scene.load.image(HUD_KEYS.refBottom, refBottomUrl);
+  scene.load.image(HUD_KEYS.fightButton, fightButtonUrl);
 }

@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import Button from 'phaser3-rex-plugins/plugins/button.js';
 
 import arenaUrl from '../assets/arena.png';
 import { createBattle } from '../../engine/combat/engine';
@@ -48,12 +49,13 @@ const PANEL_TOP = HEIGHT - PANEL_H;
 const TRAY_X0 = 400;
 const TRAY_STEP = 52;
 const TRAY_Y = 485;
-// Real gold action button (baked into the band, x 887..959): label on the
-// upper face, the baked caption stays visible at the bottom.
-const ACTION_X = 923;
-const ACTION_Y = 495;
-const ACTION_BTN_W = 140;
-const ACTION_BTN_H = 64;
+// Real gold action button (extracted standalone from the screenshot,
+// 76x132): the sprite IS the button (rexButton behavior), label on the
+// upper face, baked caption stays visible at the bottom.
+const ACTION_X = 921;
+const ACTION_Y = 472;
+const ACTION_GLOW_W = 92;
+const ACTION_GLOW_H = 140;
 
 type ActionState = 'roll' | 'fight' | 'restart' | 'hidden';
 
@@ -69,10 +71,8 @@ export class BattleScene extends Phaser.Scene {
   private faces!: Record<Side, readonly DieFace[]>;
   private roundText!: Phaser.GameObjects.Text;
   private statusText!: Phaser.GameObjects.Text;
-  private actionButton!: Phaser.GameObjects.Container;
   private actionLabel!: Phaser.GameObjects.Text;
-  private actionState: ActionState = 'hidden';
-  private pulseTween: Phaser.Tweens.Tween | null = null;
+  private actionState: ActionState = 'hidden';  private pulseTween: Phaser.Tweens.Tween | null = null;
   private busy = false;
   /** Armor absorbed by a side this hit; shown when the shell actually lands. */
   private pendingAbsorb: Partial<Record<Side, number>> = {};
@@ -80,6 +80,9 @@ export class BattleScene extends Phaser.Scene {
   private trayBadges!: Record<Side, Phaser.GameObjects.Image>;
   private trayTexts!: Record<Side, Phaser.GameObjects.Text>;
   private actionGlow!: Phaser.GameObjects.Graphics;
+  /** The real gold button sprite + its rexButton click behavior. */
+  private actionImage!: Phaser.GameObjects.Image;
+  private actionBtn!: Button;
 
   constructor() {
     super('battle');
@@ -245,26 +248,32 @@ export class BattleScene extends Phaser.Scene {
       enemy: this.trayText('enemy'),
     };
 
-    // Morphing action control ON the real gold button (baked in the band):
-    // label on the upper face for ROLL/RESTART, pulsing glow for FIGHT.
-    this.actionGlow = this.add.graphics();
+    // The real gold button as an interactive sprite bound by rexButton
+    // (phaser3-rex-plugins): pixel-true hit area on the actual art.
+    this.actionImage = this.add.image(ACTION_X, ACTION_Y, HUD_KEYS.fightButton).setDepth(10);
+    this.actionImage.setInteractive({ useHandCursor: true });
+    this.actionBtn = new Button(this.actionImage, { clickInterval: 250 });
+    this.actionBtn.on('click', () => this.onActionClick());
+    // Press feedback on the sprite (rexButton owns the click semantics).
+    this.actionImage.on('pointerdown', () => this.actionImage.setScale(0.95));
+    const release = (): void => {
+      this.actionImage.setScale(1);
+    };
+    this.actionImage.on('pointerup', release);
+    this.actionImage.on('pointerout', release);
+
+    // Control state overlaid on the button: label on the upper face for
+    // ROLL/RESTART, pulsing glow ring for FIGHT.
+    this.actionGlow = this.add.graphics().setDepth(11);
     this.actionLabel = this.add
-      .text(0, -14, '', {
+      .text(ACTION_X, ACTION_Y - 42, '', {
         fontFamily: FONT,
-        fontSize: '17px',
+        fontSize: '15px',
         color: '#3a2a00',
         fontStyle: 'bold',
       })
-      .setOrigin(0.5);
-    this.actionButton = this.add.container(ACTION_X, ACTION_Y, [this.actionGlow, this.actionLabel]);
-    this.actionButton.setDepth(10);
-    const hit = new Phaser.Geom.Rectangle(-ACTION_BTN_W / 2, -ACTION_BTN_H / 2, ACTION_BTN_W, ACTION_BTN_H);
-    this.actionButton.setInteractive(
-      hit,
-      Phaser.Geom.Rectangle.Contains,
-    );
-    this.actionButton.input!.cursor = 'pointer';
-    this.actionButton.on('pointerdown', () => this.onActionClick());
+      .setOrigin(0.5)
+      .setDepth(12);
   }
 
   private trayText(side: Side): Phaser.GameObjects.Text {
@@ -856,7 +865,7 @@ export class BattleScene extends Phaser.Scene {
     this.actionState = next;
     this.pulseTween?.stop();
     this.pulseTween = null;
-    this.actionButton.setVisible(next !== 'hidden');
+    this.actionImage.setAlpha(next === 'hidden' ? 0.55 : 1);
     this.actionGlow.clear().setAlpha(1);
     this.actionLabel.setText('');
 
@@ -865,14 +874,14 @@ export class BattleScene extends Phaser.Scene {
         this.actionLabel.setText('ROLL').setColor('#3a2a00');
         break;
       case 'fight':
-        // Glow ring over the real button; no label (baked caption below).
+        // Glow ring around the real button; no label (baked caption below).
         this.actionGlow.lineStyle(3, 0xfff3c0, 0.95);
         this.actionGlow.strokeRoundedRect(
-          -ACTION_BTN_W / 2,
-          -ACTION_BTN_H / 2,
-          ACTION_BTN_W,
-          ACTION_BTN_H,
-          16,
+          ACTION_X - ACTION_GLOW_W / 2,
+          ACTION_Y - ACTION_GLOW_H / 2,
+          ACTION_GLOW_W,
+          ACTION_GLOW_H,
+          18,
         );
         this.pulseTween = this.tweens.add({
           targets: this.actionGlow,

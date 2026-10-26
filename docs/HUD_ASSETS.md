@@ -81,3 +81,18 @@ glow only, no duplicate label.
 
 ArenaSceneSpriteCollection rechecked: 1024x1024 FULLY OPAQUE = background art,
 not a HUD frame (alpha map 100% everywhere). Not usable as an overlay.
+
+## Wave 5 (2026-10-26): the gold button is now a REAL interactive sprite
+
+- `tools/crop_ref_hud.py` also extracts `ref/fight_button.png` (76x132): the
+  warm-gold slab pulled out of the screenshot by color classification
+  (`is_gold()`: r>b+40 family keeps slab + baked caption, drops navy panel and
+  green field), trimmed to bbox; the bottom band gets a matching transparent
+  hole so the sprite replaces the baked pixels 1:1.
+- Click behavior via [rexButton](https://rexrainbow.github.io/phaser3-rex-notes/docs/site/button)
+  from [phaser3-rex-plugins](https://www.jsdelivr.com/package/npm/phaser3-rex-plugins)
+  1.80.20 (npm; ships its own .d.ts): pixel-true hit area on the actual art,
+  clickInterval 250ms, press feedback = sprite scale 0.95 on pointerdown.
+- E2E proof (IAB, real CUA clicks on the button): click 1 -> "Round 1: player
+  rolled DMG 4, enemy rolled DMG 10", click 2 -> "Initiative: player strikes
+  first." Keyboard SPACE / R unchanged.
